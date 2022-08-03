@@ -1,7 +1,7 @@
 # Повтор исключения
 
-![](<../../../.gitbook/assets/image (526).png>)
+![](<../../../.gitbook/assets/image (797).png>)
 
-![](<../../../.gitbook/assets/image (768).png>)
+![](<../../../.gitbook/assets/image (208).png>)
 
 Компонент, вызывающий повторное исключение из блока Catch.

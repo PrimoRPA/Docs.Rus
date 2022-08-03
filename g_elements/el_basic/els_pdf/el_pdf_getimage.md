@@ -1,8 +1,8 @@
 # Получение изображений
 
-![](<../../../.gitbook/assets/image (669).png>)
+![](<../../../.gitbook/assets/image (831).png>)
 
-![](<../../../.gitbook/assets/image (52).png>)
+![](<../../../.gitbook/assets/image (338).png>)
 
 Компонент, получающий изображения из документа PDF
 

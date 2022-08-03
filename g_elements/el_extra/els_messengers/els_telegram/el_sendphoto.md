@@ -1,6 +1,6 @@
 # Отправить фото
 
-![](<../../../../.gitbook/assets/image (737).png>)
+![](<../../../../.gitbook/assets/image (157).png>)
 
 Элемент, отправляющий фото в чат Telegram.
 

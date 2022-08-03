@@ -1,8 +1,8 @@
 # Создать папку
 
-![](<../../../.gitbook/assets/image (511).png>)
+![](<../../../.gitbook/assets/image (755).png>)
 
-![](<../../../.gitbook/assets/image (814).png>)
+![](<../../../.gitbook/assets/image (203).png>)
 
 Компонент, создающий новую папку.
 

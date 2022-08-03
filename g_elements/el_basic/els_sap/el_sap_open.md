@@ -1,6 +1,6 @@
 # Открыть SAP
 
-![](<../../../.gitbook/assets/image (70).png>)
+![](<../../../.gitbook/assets/image (361).png>)
 
 Компонент, осуществляющий подключение к SAP Front End.
 

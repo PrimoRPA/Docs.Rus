@@ -1,6 +1,6 @@
 # Событие спецкнопки
 
-![](<../../../../.gitbook/assets/image (806).png>)
+![](<../../../../.gitbook/assets/image (105).png>)
 
 
 

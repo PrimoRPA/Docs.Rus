@@ -1,8 +1,8 @@
 # Список страниц
 
-![](<../../../../.gitbook/assets/image (572).png>)
+![](<../../../../.gitbook/assets/image (869).png>)
 
-![](<../../../../.gitbook/assets/image (933).png>)
+![](<../../../../.gitbook/assets/image (127).png>)
 
 Компонент, получающий список страниц Excel.
 

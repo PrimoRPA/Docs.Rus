@@ -1,8 +1,8 @@
 # Чтение диапазона
 
-![](<../../../.gitbook/assets/image (660).png>)
+![](<../../../.gitbook/assets/image (903).png>)
 
-![](<../../../.gitbook/assets/image (746).png>)
+![](<../../../.gitbook/assets/image (75).png>)
 
 Компонент, считывающий данные из диапазона ячеек Excel.
 

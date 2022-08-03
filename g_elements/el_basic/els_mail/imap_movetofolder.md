@@ -1,8 +1,8 @@
 # Переместить в папку (IMAP)
 
-![](<../../../.gitbook/assets/image (626).png>)
+![](<../../../.gitbook/assets/image (800).png>)
 
-![](<../../../.gitbook/assets/image (130).png>)
+![](<../../../.gitbook/assets/image (427).png>)
 
 Компонент, осуществляющий перемещение сообщений между папками по протоколу IMAP.
 

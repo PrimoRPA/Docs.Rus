@@ -1,6 +1,6 @@
 # Сохранить вложение
 
-![](<../../../.gitbook/assets/image (720).png>)
+![](<../../../.gitbook/assets/image (773).png>)
 
 
 

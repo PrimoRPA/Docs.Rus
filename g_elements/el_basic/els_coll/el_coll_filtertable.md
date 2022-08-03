@@ -1,8 +1,8 @@
 # Фильтр таблицы
 
-![](<../../../.gitbook/assets/image (682).png>)
+![](<../../../.gitbook/assets/image (863).png>)
 
-![](<../../../.gitbook/assets/image (112).png>)
+![](<../../../.gitbook/assets/image (446).png>)
 
 Элемент, осуществляющий фильтрацию таблицы.
 

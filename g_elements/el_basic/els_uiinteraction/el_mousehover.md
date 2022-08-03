@@ -1,6 +1,6 @@
 # Установить курсор мыши
 
-![](<../../../.gitbook/assets/image (345).png>)
+![](<../../../.gitbook/assets/image (459).png>)
 
 
 

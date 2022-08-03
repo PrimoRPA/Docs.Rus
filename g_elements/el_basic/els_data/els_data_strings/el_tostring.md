@@ -1,8 +1,8 @@
 # Привести к строке
 
-![](<../../../../.gitbook/assets/image (538).png>)
+![](<../../../../.gitbook/assets/image (766).png>)
 
-![](<../../../../.gitbook/assets/image (174).png>)
+![](<../../../../.gitbook/assets/image (451).png>)
 
 Компонент, приводящий объект к строке.
 

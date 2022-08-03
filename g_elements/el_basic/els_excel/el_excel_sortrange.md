@@ -1,8 +1,8 @@
 # Сортировка диапазона
 
-![](<../../../.gitbook/assets/image (689).png>)
+![](<../../../.gitbook/assets/image (836).png>)
 
-![](<../../../.gitbook/assets/image (11).png>)
+![](<../../../.gitbook/assets/image (336).png>)
 
 Компонент, устанавливающий сортировку диапазона ячеек Excel.
 

@@ -1,6 +1,6 @@
 # Удалить сообщения
 
-![](<../../../../.gitbook/assets/image (77).png>)
+![](<../../../../.gitbook/assets/image (260).png>)
 
 Компонент, удаляющий письма из Lotus Notes.
 

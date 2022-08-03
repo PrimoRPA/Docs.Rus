@@ -1,6 +1,6 @@
 # Удалить Credentials
 
-![](<../../../.gitbook/assets/image (133).png>)
+![](<../../../.gitbook/assets/image (313).png>)
 
 Компонент, производящий удаление учетных данных из Credential Manager
 

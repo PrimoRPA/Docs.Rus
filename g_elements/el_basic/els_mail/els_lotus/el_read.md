@@ -1,6 +1,6 @@
 # Чтение почты
 
-![](<../../../../.gitbook/assets/image (38).png>)
+![](<../../../../.gitbook/assets/image (434).png>)
 
 Компонент, получающий письма из Lotus Notes.
 

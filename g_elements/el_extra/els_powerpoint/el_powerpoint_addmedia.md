@@ -1,6 +1,6 @@
 # Вставить медиа-файл
 
-![](<../../../.gitbook/assets/image (406).png>)
+![](<../../../.gitbook/assets/image (533).png>)
 
 
 

@@ -1,8 +1,8 @@
 # Отправить файл по FTP
 
-![](<../../../../.gitbook/assets/image (729).png>)
+![](<../../../../.gitbook/assets/image (162).png>)
 
-![](<../../../../.gitbook/assets/image (117).png>)
+![](<../../../../.gitbook/assets/image (437).png>)
 
 Компонент, отправляющий файл на сервер по протоколу FTP(S).
 

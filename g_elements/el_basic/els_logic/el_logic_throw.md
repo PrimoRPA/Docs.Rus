@@ -1,8 +1,8 @@
 # Исключение
 
-![](<../../../.gitbook/assets/image (589).png>)
+![](<../../../.gitbook/assets/image (924).png>)
 
-![](<../../../.gitbook/assets/image (888).png>)
+![](<../../../.gitbook/assets/image (126).png>)
 
 Компонент, вызывающий исключение с заданным текстом.
 

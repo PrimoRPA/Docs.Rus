@@ -1,8 +1,8 @@
 # Фильтр диапазона
 
-![](<../../../.gitbook/assets/image (701).png>)
+![](<../../../.gitbook/assets/image (870).png>)
 
-![](<../../../.gitbook/assets/image (7).png>)
+![](<../../../.gitbook/assets/image (265).png>)
 
 Компонент, устанавливающий фильтр диапазона ячеек Excel.
 

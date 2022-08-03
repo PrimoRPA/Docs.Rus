@@ -1,8 +1,8 @@
 # Прокрутка
 
-![](<../../../.gitbook/assets/image (641).png>)
+![](<../../../.gitbook/assets/image (897).png>)
 
-![](<../../../.gitbook/assets/image (118).png>)
+![](<../../../.gitbook/assets/image (274).png>)
 
 Элемент, осуществляющий прокрутку в браузере.
 

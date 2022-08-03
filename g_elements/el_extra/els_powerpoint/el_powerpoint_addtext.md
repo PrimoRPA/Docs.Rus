@@ -1,6 +1,6 @@
 # Вставить текст
 
-![](<../../../.gitbook/assets/image (452).png>)
+![](<../../../.gitbook/assets/image (490).png>)
 
 
 

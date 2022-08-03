@@ -1,7 +1,7 @@
 # Диаграмма
 
-![](<../../../.gitbook/assets/image (724).png>)
+![](<../../../.gitbook/assets/image (892).png>)
 
-![](<../../../.gitbook/assets/image (103).png>)
+![](<../../../.gitbook/assets/image (333).png>)
 
 Компонент, являющийся контейнером диаграммы.&#x20;

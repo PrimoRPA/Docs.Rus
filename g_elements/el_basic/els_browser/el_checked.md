@@ -1,6 +1,6 @@
 # Выбрать элемент
 
-![](<../../../.gitbook/assets/image (946).png>)
+![](<../../../.gitbook/assets/image (82).png>)
 
 
 

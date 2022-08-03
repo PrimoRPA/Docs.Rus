@@ -1,8 +1,8 @@
 # Отправить сообщение
 
-![](<../../../../.gitbook/assets/image (529).png>)
+![](<../../../../.gitbook/assets/image (958).png>)
 
-![](<../../../../.gitbook/assets/image (23).png>)
+![](<../../../../.gitbook/assets/image (295).png>)
 
 Компонент, отправляющий сообщение в очередь сервера Kafka.
 

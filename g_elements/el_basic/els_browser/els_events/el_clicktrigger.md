@@ -1,6 +1,6 @@
 # Клик элемента
 
-![](<../../../../.gitbook/assets/image (911).png>)
+![](<../../../../.gitbook/assets/image (135).png>)
 
 
 

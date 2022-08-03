@@ -1,6 +1,6 @@
 # Запись диапазона
 
-![](<../../../.gitbook/assets/image (154).png>)
+![](<../../../.gitbook/assets/image (429).png>)
 
 Компонент, записывающий данные диапазона ячеек в Google Sheets.
 

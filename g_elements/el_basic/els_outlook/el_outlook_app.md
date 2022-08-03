@@ -1,6 +1,6 @@
 # Приложение Outlook
 
-![](<../../../.gitbook/assets/image (892).png>)
+![](<../../../.gitbook/assets/image (190).png>)
 
 Компонент, производящий подключение к Outlook.
 

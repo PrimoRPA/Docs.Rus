@@ -1,8 +1,8 @@
 # Изменить дату
 
-![](<../../../../.gitbook/assets/image (697).png>)
+![](<../../../../.gitbook/assets/image (920).png>)
 
-![](<../../../../.gitbook/assets/image (65).png>)
+![](<../../../../.gitbook/assets/image (256).png>)
 
 Компонент, изменяющий части даты.
 

@@ -1,6 +1,6 @@
 # Сервер MS Exchange
 
-![](<../../../../.gitbook/assets/image (198).png>)
+![](<../../../../.gitbook/assets/image (366).png>)
 
 Компонент, производящий подключение к MS Exchange.
 

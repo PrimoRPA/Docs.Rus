@@ -1,8 +1,8 @@
 # C# Script
 
-![](<../../../.gitbook/assets/image (557).png>)
+![](<../../../.gitbook/assets/image (829).png>)
 
-![](<../../../.gitbook/assets/image (844).png>)
+![](<../../../.gitbook/assets/image (137).png>)
 
 Компонент, производящий выполнение сценария на языке C#.
 

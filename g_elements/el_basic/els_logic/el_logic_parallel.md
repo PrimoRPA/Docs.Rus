@@ -1,7 +1,7 @@
 # Параллельные потоки
 
-![](<../../../.gitbook/assets/image (635).png>)
+![](<../../../.gitbook/assets/image (746).png>)
 
-![](<../../../.gitbook/assets/image (736).png>)
+![](<../../../.gitbook/assets/image (71).png>)
 
 Компонент, производящий выполнение логики в параллельных потоках.

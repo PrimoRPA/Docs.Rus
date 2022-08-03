@@ -1,8 +1,8 @@
 # Переместить файл
 
-![](<../../../.gitbook/assets/image (664).png>)
+![](<../../../.gitbook/assets/image (956).png>)
 
-![](<../../../.gitbook/assets/image (887).png>)
+![](<../../../.gitbook/assets/image (103).png>)
 
 Компонент, перемещающий файл.
 

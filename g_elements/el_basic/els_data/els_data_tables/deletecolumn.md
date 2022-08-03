@@ -1,8 +1,8 @@
 # Удалить колонку
 
-![](<../../../../.gitbook/assets/image (715).png>)
+![](<../../../../.gitbook/assets/image (827).png>)
 
-![](<../../../../.gitbook/assets/image (181).png>)
+![](<../../../../.gitbook/assets/image (365).png>)
 
 Компонент, удаляющий колонку таблицы.
 

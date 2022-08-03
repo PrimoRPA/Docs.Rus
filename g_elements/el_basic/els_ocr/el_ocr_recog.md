@@ -1,8 +1,8 @@
 # Распознать текст
 
-![](<../../../.gitbook/assets/image (756).png>)
+![](<../../../.gitbook/assets/image (226).png>)
 
-![](<../../../.gitbook/assets/image (13).png>)
+![](<../../../.gitbook/assets/image (316).png>)
 
 Компонент, производящий разбор экранного текста методом OCR.&#x20;
 

@@ -1,8 +1,8 @@
 # Повтор N раз
 
-![](<../../../.gitbook/assets/image (526).png>)
+![](<../../../.gitbook/assets/image (797).png>)
 
-![](<../../../.gitbook/assets/image (832).png>)
+![](<../../../.gitbook/assets/image (36).png>)
 
 Компонент-цикл, выполняющийся заданное число раз.
 

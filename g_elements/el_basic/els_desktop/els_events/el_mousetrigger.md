@@ -1,6 +1,6 @@
 # Событие мыши
 
-![](<../../../../.gitbook/assets/image (827).png>)
+![](<../../../../.gitbook/assets/image (49).png>)
 
 
 

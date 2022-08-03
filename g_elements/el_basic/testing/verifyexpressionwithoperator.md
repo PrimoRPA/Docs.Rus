@@ -1,8 +1,8 @@
 # Проверка выражения с оператором
 
-![](<../../../.gitbook/assets/image (567).png>)
+![](<../../../.gitbook/assets/image (891).png>)
 
-![](<../../../.gitbook/assets/image (770).png>)
+![](<../../../.gitbook/assets/image (74).png>)
 
 Элемент, выполняющий проверку заданного выражения.
 

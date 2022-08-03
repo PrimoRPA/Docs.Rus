@@ -1,8 +1,8 @@
 # Try-Catch
 
-![](<../../../.gitbook/assets/image (498).png>)
+![](<../../../.gitbook/assets/image (769).png>)
 
-![](<../../../.gitbook/assets/image (901).png>)
+![](<../../../.gitbook/assets/image (53).png>)
 
 Компонент-контейнер, выполняющий блок Try. В случае ошибки будет выполнен блок Catch. Блок Finally будет выполнен в любом случае.
 

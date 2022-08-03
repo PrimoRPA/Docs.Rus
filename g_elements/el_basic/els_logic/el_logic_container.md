@@ -1,8 +1,8 @@
 # Последовательность
 
-![](<../../../.gitbook/assets/image (526).png>)
+![](<../../../.gitbook/assets/image (797).png>)
 
-![](<../../../.gitbook/assets/image (861).png>)
+![](<../../../.gitbook/assets/image (213).png>)
 
 Компонент-контейнер других компонентов.
 

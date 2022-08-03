@@ -1,8 +1,8 @@
 # Добавить строку
 
-![](<../../../../.gitbook/assets/image (717).png>)
+![](<../../../../.gitbook/assets/image (749).png>)
 
-![](<../../../../.gitbook/assets/image (113).png>)
+![](<../../../../.gitbook/assets/image (345).png>)
 
 Компонент, добавляющий строку в таблицу.
 

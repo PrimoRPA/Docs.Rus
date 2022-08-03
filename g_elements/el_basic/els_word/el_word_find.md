@@ -1,8 +1,8 @@
 # Найти текст
 
-![](<../../../.gitbook/assets/image (654).png>)
+![](<../../../.gitbook/assets/image (760).png>)
 
-![](<../../../.gitbook/assets/image (777).png>)
+![](<../../../.gitbook/assets/image (104).png>)
 
 Ищет вхождение заданного текста в документ.
 

@@ -1,8 +1,8 @@
 # HTML к объекту
 
-![](<../../../../.gitbook/assets/image (631).png>)
+![](<../../../../.gitbook/assets/image (776).png>)
 
-![](<../../../../.gitbook/assets/image (139).png>)
+![](<../../../../.gitbook/assets/image (381).png>)
 
 Компонент, осуществляющий преобразование HTML в объект и поиск в нем. Если указан XPath, результат будет иметь тип AngleSharp.Dom.INode, в противном случае AngleSharp.Html.Parser.IHtmlDocument
 

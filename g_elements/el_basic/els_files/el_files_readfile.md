@@ -1,8 +1,8 @@
 # Чтение файла
 
-![](<../../../.gitbook/assets/image (680).png>)
+![](<../../../.gitbook/assets/image (935).png>)
 
-![](<../../../.gitbook/assets/image (909).png>)
+![](<../../../.gitbook/assets/image (96).png>)
 
 Компонент, читающий содержимое файла.
 

@@ -1,8 +1,8 @@
 # Вызов метода
 
-![](<../../../.gitbook/assets/image (532).png>)
+![](<../../../.gitbook/assets/image (883).png>)
 
-![](<../../../.gitbook/assets/image (971).png>)
+![](<../../../.gitbook/assets/image (229).png>)
 
 Элемент, вызывающий однострочный сценарий.
 

@@ -1,8 +1,8 @@
 # Текущая дата/время
 
-![](<../../../../.gitbook/assets/image (616).png>)
+![](<../../../../.gitbook/assets/image (882).png>)
 
-![](<../../../../.gitbook/assets/image (157).png>)
+![](<../../../../.gitbook/assets/image (444).png>)
 
 Компонент, получающий текущие дату и время.
 

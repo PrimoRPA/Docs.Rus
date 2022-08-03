@@ -1,8 +1,8 @@
 # Добавление водяного знака
 
-![](<../../../.gitbook/assets/image (787).png>)
+![](<../../../.gitbook/assets/image (175).png>)
 
-![](<../../../.gitbook/assets/image (22).png>)
+![](<../../../.gitbook/assets/image (331).png>)
 
 Компонент, добавляющий водяной знак к документу PDF
 

@@ -1,8 +1,8 @@
 # Добавить строку
 
-![](<../../../.gitbook/assets/image (556).png>)
+![](<../../../.gitbook/assets/image (752).png>)
 
-![](<../../../.gitbook/assets/image (935).png>)
+![](<../../../.gitbook/assets/image (61).png>)
 
 Компонент, добавляющий строку в конец файла.
 

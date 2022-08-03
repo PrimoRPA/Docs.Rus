@@ -6,11 +6,11 @@
 
 1. Перейдите в магазин приложений Ubuntu (Ubuntu Store)
 
-![](<../../.gitbook/assets/image (930).png>)
+![](<../../.gitbook/assets/image (176).png>)
 
 &#x20; 2\. Установите пакет .NET Runtime 5.0
 
-![](<../../.gitbook/assets/image (973).png>)
+![](<../../.gitbook/assets/image (159).png>)
 
 3\. Выполнить
 
@@ -21,11 +21,11 @@ sudo apt install -y fontconfig libharfbuzz0b libfreetype6
 
 4\. Перейдите в папку робота и предоставьте файлу Primo.Robot права на запуск
 
-![](<../../.gitbook/assets/image (853).png>)
+![](<../../.gitbook/assets/image (154).png>)
 
 &#x20; 5\. Перейдите в папку WebDriver и предоставьте всем файлам права на запуск
 
-![](<../../.gitbook/assets/image (755).png>)
+![](<../../.gitbook/assets/image (92).png>)
 
 &#x20; 6\.  Можете запускать робота из терминала, например:
 

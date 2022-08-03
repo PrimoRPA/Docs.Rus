@@ -1,8 +1,8 @@
 # Получить файл по FTP
 
-![](<../../../../.gitbook/assets/image (858).png>)
+![](<../../../../.gitbook/assets/image (151).png>)
 
-![](<../../../../.gitbook/assets/image (104).png>)
+![](<../../../../.gitbook/assets/image (288).png>)
 
 Компонент, получающий файл от сервера по протоколу FTP(S).
 

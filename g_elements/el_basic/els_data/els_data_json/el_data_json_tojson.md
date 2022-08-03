@@ -1,8 +1,8 @@
 # Объект к JSON
 
-![](<../../../../.gitbook/assets/image (723).png>)
+![](<../../../../.gitbook/assets/image (866).png>)
 
-![](<../../../../.gitbook/assets/image (108).png>)
+![](<../../../../.gitbook/assets/image (285).png>)
 
 Компонент, осуществляющий преобразование JSON в объект.
 

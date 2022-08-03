@@ -1,6 +1,6 @@
 # Соединение с AutoFAQ
 
-![](<../../../../.gitbook/assets/image (824).png>)
+![](<../../../../.gitbook/assets/image (72).png>)
 
 Элемент, осуществляющий подключение к сервисам AutoFAQ.
 

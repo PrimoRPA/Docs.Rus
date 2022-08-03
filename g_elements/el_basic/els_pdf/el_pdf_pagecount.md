@@ -1,8 +1,8 @@
 # Кол-во страниц
 
-![](<../../../.gitbook/assets/image (800).png>)
+![](<../../../.gitbook/assets/image (195).png>)
 
-![](<../../../.gitbook/assets/image (64).png>)
+![](<../../../.gitbook/assets/image (348).png>)
 
 Компонент, получающий кол-во страниц документа PDF
 

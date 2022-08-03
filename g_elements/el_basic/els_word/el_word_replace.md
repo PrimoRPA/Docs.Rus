@@ -1,8 +1,8 @@
 # Заменить текст
 
-![](<../../../.gitbook/assets/image (707).png>)
+![](<../../../.gitbook/assets/image (780).png>)
 
-![](<../../../.gitbook/assets/image (823).png>)
+![](<../../../.gitbook/assets/image (128).png>)
 
 Заменяет все вхождения исходного текста на новый.
 

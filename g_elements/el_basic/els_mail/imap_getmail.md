@@ -1,8 +1,8 @@
 # Получить письма (IMAP)
 
-![](<../../../.gitbook/assets/image (649).png>)
+![](<../../../.gitbook/assets/image (767).png>)
 
-![](<../../../.gitbook/assets/image (202).png>)
+![](<../../../.gitbook/assets/image (335).png>)
 
 Компонент, осуществляющий получение почтовых сообщений по протоколу IMAP.
 

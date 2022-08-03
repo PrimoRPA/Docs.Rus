@@ -1,8 +1,8 @@
 # JavaScript
 
-![](<../../../.gitbook/assets/image (651).png>)
+![](<../../../.gitbook/assets/image (914).png>)
 
-![](<../../../.gitbook/assets/image (864).png>)
+![](<../../../.gitbook/assets/image (31).png>)
 
 Компонент, производящий выполнение сценария на языке JavaScript.
 

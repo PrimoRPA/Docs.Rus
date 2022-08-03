@@ -1,8 +1,8 @@
 # Ссылка на процесс
 
-![](<../../../.gitbook/assets/image (600).png>)
+![](<../../../.gitbook/assets/image (741).png>)
 
-![](<../../../.gitbook/assets/image (862).png>)
+![](<../../../.gitbook/assets/image (211).png>)
 
 Компонент, производящий выполнение процесса, указанного в ссылке.
 

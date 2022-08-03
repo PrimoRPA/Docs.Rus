@@ -1,7 +1,7 @@
 # Выход из последовательности
 
-![](<../../../.gitbook/assets/image (597).png>)
+![](<../../../.gitbook/assets/image (899).png>)
 
-![](<../../../.gitbook/assets/image (921).png>)
+![](<../../../.gitbook/assets/image (38).png>)
 
 Осуществляет безусловный выход из последовательности

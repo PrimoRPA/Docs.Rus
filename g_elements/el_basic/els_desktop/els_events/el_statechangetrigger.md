@@ -1,6 +1,6 @@
 # Событие изменения состояния
 
-![](<../../../../.gitbook/assets/image (810).png>)
+![](<../../../../.gitbook/assets/image (78).png>)
 
 
 

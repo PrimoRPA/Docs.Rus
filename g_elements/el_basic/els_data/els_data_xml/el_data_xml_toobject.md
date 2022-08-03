@@ -1,8 +1,8 @@
 # XML к объекту
 
-![](<../../../../.gitbook/assets/image (509).png>)
+![](<../../../../.gitbook/assets/image (874).png>)
 
-![](<../../../../.gitbook/assets/image (194).png>)
+![](<../../../../.gitbook/assets/image (248).png>)
 
 Компонент, осуществляющий преобразование XML в объект.
 

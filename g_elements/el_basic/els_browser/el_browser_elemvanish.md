@@ -1,8 +1,8 @@
 # Исчезновение элемента
 
-![](<../../../.gitbook/assets/image (580).png>)
+![](<../../../.gitbook/assets/image (828).png>)
 
-![](<../../../.gitbook/assets/image (122).png>)
+![](<../../../.gitbook/assets/image (261).png>)
 
 Компонент, ожидающий исчезновение элемента управления.
 

@@ -1,8 +1,8 @@
 # Tesseract OCR
 
-![](<../../../.gitbook/assets/image (938).png>)
+![](<../../../.gitbook/assets/image (86).png>)
 
-![](<../../../.gitbook/assets/image (143).png>)
+![](<../../../.gitbook/assets/image (309).png>)
 
 Компонент, осуществляющий подключение к ядру OCR Tesseract.
 

@@ -1,8 +1,8 @@
 # Вперед
 
-![](<../../../.gitbook/assets/image (804).png>)
+![](<../../../.gitbook/assets/image (197).png>)
 
-![](<../../../.gitbook/assets/image (148).png>)
+![](<../../../.gitbook/assets/image (267).png>)
 
 Компонент, осуществляющий навигацию вперед.
 

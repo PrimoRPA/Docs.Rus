@@ -1,8 +1,8 @@
 # Запись в журнал
 
-![](<../../../.gitbook/assets/image (896).png>)
+![](<../../../.gitbook/assets/image (6).png>)
 
-![](<../../../.gitbook/assets/image (173).png>)
+![](<../../../.gitbook/assets/image (337).png>)
 
 Компонент, производящий запись сообщения в пользовательский журнал.
 

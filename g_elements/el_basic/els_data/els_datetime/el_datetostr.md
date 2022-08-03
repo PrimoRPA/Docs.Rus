@@ -1,8 +1,8 @@
 # Дата к строке
 
-![](<../../../../.gitbook/assets/image (574).png>)
+![](<../../../../.gitbook/assets/image (820).png>)
 
-![](<../../../../.gitbook/assets/image (36).png>)
+![](<../../../../.gitbook/assets/image (294).png>)
 
 Компонент, преобразующий дату к строке.
 

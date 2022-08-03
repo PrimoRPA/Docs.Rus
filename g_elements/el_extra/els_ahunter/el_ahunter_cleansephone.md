@@ -1,6 +1,6 @@
 # Стандартизация телефона
 
-![](<../../../.gitbook/assets/image (559).png>)
+![](<../../../.gitbook/assets/image (878).png>)
 
 
 

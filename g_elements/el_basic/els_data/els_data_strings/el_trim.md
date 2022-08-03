@@ -1,8 +1,8 @@
 # Удалить пробелы
 
-![](<../../../../.gitbook/assets/image (718).png>)
+![](<../../../../.gitbook/assets/image (923).png>)
 
-![](<../../../../.gitbook/assets/image (88).png>)
+![](<../../../../.gitbook/assets/image (300).png>)
 
 Компонент, удаляющий пробелы в начала и конце строки.
 

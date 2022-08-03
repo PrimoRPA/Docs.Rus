@@ -1,8 +1,8 @@
 # Цикл ForEach
 
-![](<../../../.gitbook/assets/image (512).png>)
+![](<../../../.gitbook/assets/image (793).png>)
 
-![](<../../../.gitbook/assets/image (766).png>)
+![](<../../../.gitbook/assets/image (33).png>)
 
 Компонент-цикл, перебирающий все значения выбранного массива.
 

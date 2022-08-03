@@ -1,8 +1,8 @@
 # Выделение диапазона
 
-![](<../../../.gitbook/assets/image (602).png>)
+![](<../../../.gitbook/assets/image (791).png>)
 
-![](<../../../.gitbook/assets/image (19).png>)
+![](<../../../.gitbook/assets/image (346).png>)
 
 Компонент, выделяющий диапазон ячеек Excel.
 

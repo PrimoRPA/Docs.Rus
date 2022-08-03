@@ -1,8 +1,8 @@
 # Запись диапазона
 
-![](<../../../.gitbook/assets/image (495).png>)
+![](<../../../.gitbook/assets/image (792).png>)
 
-![](<../../../.gitbook/assets/image (28).png>)
+![](<../../../.gitbook/assets/image (317).png>)
 
 Компонент, записывающий данные диапазона ячеек в Excel.
 

@@ -1,8 +1,8 @@
 # Получение списка
 
-![](<../../../.gitbook/assets/image (545).png>)
+![](<../../../.gitbook/assets/image (907).png>)
 
-![](<../../../.gitbook/assets/image (95).png>)
+![](<../../../.gitbook/assets/image (394).png>)
 
 Компонент, получающий значения из комбо-бокса либо списка.
 

@@ -1,6 +1,6 @@
 # Событие изменения файла
 
-![](<../../../../.gitbook/assets/image (798).png>)
+![](<../../../../.gitbook/assets/image (220).png>)
 
 
 

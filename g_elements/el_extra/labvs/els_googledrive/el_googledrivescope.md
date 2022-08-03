@@ -1,6 +1,6 @@
 # Соединение с Google Drive
 
-![](<../../../../.gitbook/assets/image (456).png>)
+![](<../../../../.gitbook/assets/image (513).png>)
 
 Элемент, производящий соединение с Google Drive
 

@@ -1,8 +1,8 @@
 # Вставка изображения
 
-![](<../../../.gitbook/assets/image (566).png>)
+![](<../../../.gitbook/assets/image (783).png>)
 
-![](<../../../.gitbook/assets/image (811).png>)
+![](<../../../.gitbook/assets/image (204).png>)
 
 Компонент, производящий вставку изображения в документ Word.
 

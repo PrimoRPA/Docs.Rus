@@ -1,6 +1,6 @@
 # Прочитать Credentials
 
-![](<../../../.gitbook/assets/image (196).png>)
+![](<../../../.gitbook/assets/image (258).png>)
 
 Компонент, производящий прочитать учетные данные из Credential Manager
 

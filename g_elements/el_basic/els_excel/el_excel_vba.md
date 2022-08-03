@@ -1,6 +1,6 @@
 # Запустить VBA
 
-![](<../../../.gitbook/assets/image (422).png>)
+![](<../../../.gitbook/assets/image (577).png>)
 
 Элемент, выполняющий скрипт VBA в Excel.
 

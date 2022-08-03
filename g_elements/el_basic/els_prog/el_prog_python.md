@@ -1,8 +1,8 @@
 # Python Script
 
-![](<../../../.gitbook/assets/image (520).png>)
+![](<../../../.gitbook/assets/image (830).png>)
 
-![](<../../../.gitbook/assets/image (795).png>)
+![](<../../../.gitbook/assets/image (113).png>)
 
 Компонент, производящий выполнение сценария на языке Python.
 

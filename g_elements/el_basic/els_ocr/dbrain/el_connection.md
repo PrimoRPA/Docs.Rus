@@ -1,8 +1,8 @@
 # Сервер Dbrain
 
-![](<../../../../.gitbook/assets/image (822).png>)
+![](<../../../../.gitbook/assets/image (138).png>)
 
-![](<../../../../.gitbook/assets/image (131).png>)
+![](<../../../../.gitbook/assets/image (411).png>)
 
 Элемент, подключающий к серверу Dbrain
 

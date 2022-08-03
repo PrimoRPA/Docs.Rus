@@ -1,8 +1,8 @@
 # Удалить файл/папку
 
-![](<../../../.gitbook/assets/image (530).png>)
+![](<../../../.gitbook/assets/image (896).png>)
 
-![](<../../../.gitbook/assets/image (799).png>)
+![](<../../../.gitbook/assets/image (50).png>)
 
 Компонент, удаляющий файл.
 

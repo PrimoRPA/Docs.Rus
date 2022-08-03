@@ -1,8 +1,8 @@
 # Таблицу в CSV
 
-![](<../../../.gitbook/assets/image (628).png>)
+![](<../../../.gitbook/assets/image (881).png>)
 
-![](<../../../.gitbook/assets/image (76).png>)
+![](<../../../.gitbook/assets/image (435).png>)
 
 Преобразует таблицу к CSV.
 

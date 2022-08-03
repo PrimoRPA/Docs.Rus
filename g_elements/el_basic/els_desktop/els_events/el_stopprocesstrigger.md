@@ -1,6 +1,6 @@
 # Событие завершения процесса
 
-![](<../../../../.gitbook/assets/image (903).png>)
+![](<../../../../.gitbook/assets/image (163).png>)
 
 
 

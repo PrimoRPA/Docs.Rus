@@ -1,8 +1,8 @@
 # Удаление диапазона
 
-![](<../../../.gitbook/assets/image (588).png>)
+![](<../../../.gitbook/assets/image (802).png>)
 
-![](<../../../.gitbook/assets/image (873).png>)
+![](<../../../.gitbook/assets/image (97).png>)
 
 Компонент, удаляющий диапазон ячеек в Excel.
 

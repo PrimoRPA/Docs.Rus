@@ -1,6 +1,6 @@
 # Чтение диапазона
 
-![](<../../../.gitbook/assets/image (182).png>)
+![](<../../../.gitbook/assets/image (360).png>)
 
 Компонент, считывающий данные из диапазона ячеек Google Sheets.
 

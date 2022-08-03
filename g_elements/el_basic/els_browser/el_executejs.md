@@ -1,8 +1,8 @@
 # Выполнить JS
 
-![](<../../../.gitbook/assets/image (708).png>)
+![](<../../../.gitbook/assets/image (918).png>)
 
-![](<../../../.gitbook/assets/image (136).png>)
+![](<../../../.gitbook/assets/image (407).png>)
 
 Компонент, выполняющий скрипт JS в браузере.
 

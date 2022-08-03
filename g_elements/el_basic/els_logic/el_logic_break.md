@@ -1,7 +1,7 @@
 # Выход из цикла
 
-![](<../../../.gitbook/assets/image (661).png>)
+![](<../../../.gitbook/assets/image (867).png>)
 
-![](<../../../.gitbook/assets/image (936).png>)
+![](<../../../.gitbook/assets/image (24).png>)
 
 Компонент, производящий безусловный выход из цикла.

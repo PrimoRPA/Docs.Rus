@@ -1,8 +1,8 @@
 # Цикл Do-While
 
-![](<../../../.gitbook/assets/image (585).png>)
+![](<../../../.gitbook/assets/image (834).png>)
 
-![](<../../../.gitbook/assets/image (734).png>)
+![](<../../../.gitbook/assets/image (30).png>)
 
 Компонент-цикл, продолжающийся пока установленное в нем выражение возвращает Истину (в конце цикла).
 

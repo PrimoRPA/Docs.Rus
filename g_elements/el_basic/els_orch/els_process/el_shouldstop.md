@@ -1,8 +1,8 @@
 # Должен остановиться
 
-![](<../../../../.gitbook/assets/image (703).png>)
+![](<../../../../.gitbook/assets/image (777).png>)
 
-![](<../../../../.gitbook/assets/image (79).png>)
+![](<../../../../.gitbook/assets/image (282).png>)
 
 
 

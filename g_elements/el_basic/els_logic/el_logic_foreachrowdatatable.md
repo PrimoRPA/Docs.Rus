@@ -1,6 +1,6 @@
 # Цикл ForEach для DataTable
 
-![](<../../../.gitbook/assets/image (373).png>)
+![](<../../../.gitbook/assets/image (606).png>)
 
 Компонент-цикл, перебирающий все значения выбранного массива.
 

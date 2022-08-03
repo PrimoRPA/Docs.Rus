@@ -1,8 +1,8 @@
 # Удалить страницу
 
-![](<../../../../.gitbook/assets/image (572).png>)
+![](<../../../../.gitbook/assets/image (869).png>)
 
-![](<../../../../.gitbook/assets/image (929).png>)
+![](<../../../../.gitbook/assets/image (47).png>)
 
 Компонент, удаляющий страницу Excel.
 

@@ -1,6 +1,6 @@
 # Запустить макрос
 
-![](<../../../.gitbook/assets/image (367).png>)
+![](<../../../.gitbook/assets/image (541).png>)
 
 
 

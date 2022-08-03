@@ -1,8 +1,8 @@
 # Разделить строку
 
-![](<../../../../.gitbook/assets/image (619).png>)
+![](<../../../../.gitbook/assets/image (871).png>)
 
-![](<../../../../.gitbook/assets/image (21).png>)
+![](<../../../../.gitbook/assets/image (307).png>)
 
 Компонент, разделяющий строку на подстроки.
 

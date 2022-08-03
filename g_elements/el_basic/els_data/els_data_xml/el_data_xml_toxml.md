@@ -1,8 +1,8 @@
 # Объект к XML
 
-![](<../../../../.gitbook/assets/image (522).png>)
+![](<../../../../.gitbook/assets/image (876).png>)
 
-![](<../../../../.gitbook/assets/image (200).png>)
+![](<../../../../.gitbook/assets/image (390).png>)
 
 Компонент, осуществляющий объекта в строку XML.
 

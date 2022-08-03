@@ -1,8 +1,8 @@
 # Получить подстроку
 
-![](<../../../../.gitbook/assets/image (555).png>)
+![](<../../../../.gitbook/assets/image (949).png>)
 
-![](<../../../../.gitbook/assets/image (111).png>)
+![](<../../../../.gitbook/assets/image (253).png>)
 
 Компонент, получающий подстроку из заданной строки.
 

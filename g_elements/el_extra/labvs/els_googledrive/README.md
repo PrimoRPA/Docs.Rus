@@ -18,9 +18,9 @@ To use Google Workspace APIs, you need a Google Cloud Platform project. This pro
 8. Click a location and click **Select**.
 9. Click **Create**. The console navigates to the Dashboard page and your project is created within a few minutes.
 
-![](<../../../../.gitbook/assets/image (471).png>)
+![](<../../../../.gitbook/assets/image (544).png>)
 
-![](<../../../../.gitbook/assets/image (458).png>)
+![](<../../../../.gitbook/assets/image (457).png>)
 
 For further information on GCP projects, refer to [Creating and managing projects](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
 

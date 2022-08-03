@@ -1,8 +1,8 @@
 # Создать файл
 
-![](<../../../.gitbook/assets/image (608).png>)
+![](<../../../.gitbook/assets/image (771).png>)
 
-![](<../../../.gitbook/assets/image (847).png>)
+![](<../../../.gitbook/assets/image (15).png>)
 
 Компонент, создающий новый файл.
 

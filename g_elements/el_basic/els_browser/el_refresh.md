@@ -1,8 +1,8 @@
 # Обновить
 
-![](<../../../.gitbook/assets/image (687).png>)
+![](<../../../.gitbook/assets/image (750).png>)
 
-![](<../../../.gitbook/assets/image (184).png>)
+![](<../../../.gitbook/assets/image (414).png>)
 
 Компонент, осуществляющий обновление страницы.
 

@@ -1,8 +1,8 @@
 # Поиск файлов
 
-![](<../../../.gitbook/assets/image (605).png>)
+![](<../../../.gitbook/assets/image (970).png>)
 
-![](<../../../.gitbook/assets/image (899).png>)
+![](<../../../.gitbook/assets/image (199).png>)
 
 Элемент, осуществляющий поиск файлов и папок.
 

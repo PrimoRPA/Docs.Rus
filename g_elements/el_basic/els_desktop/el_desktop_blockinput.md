@@ -1,6 +1,6 @@
 # Блокировка ввода
 
-![](<../../../.gitbook/assets/image (665).png>)
+![](<../../../.gitbook/assets/image (908).png>)
 
 
 

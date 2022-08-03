@@ -1,6 +1,6 @@
 # Присоединиться к SAP
 
-![](<../../../.gitbook/assets/image (45).png>)
+![](<../../../.gitbook/assets/image (424).png>)
 
 Компонент, осуществляющий присоединение к открытому SAP Front End.
 

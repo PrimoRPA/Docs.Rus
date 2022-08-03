@@ -1,8 +1,8 @@
 # Копировать файл
 
-![](<../../../.gitbook/assets/image (700).png>)
+![](<../../../.gitbook/assets/image (789).png>)
 
-![](<../../../.gitbook/assets/image (883).png>)
+![](<../../../.gitbook/assets/image (45).png>)
 
 Компонент, копирующий файл.
 

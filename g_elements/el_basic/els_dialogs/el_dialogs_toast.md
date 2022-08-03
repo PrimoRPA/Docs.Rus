@@ -1,6 +1,6 @@
 # Всплывающее сообщение
 
-![](<../../../.gitbook/assets/image (549).png>)
+![](<../../../.gitbook/assets/image (885).png>)
 
 
 

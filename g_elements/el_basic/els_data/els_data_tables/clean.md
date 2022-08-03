@@ -1,8 +1,8 @@
 # Очистить таблицу
 
-![](<../../../../.gitbook/assets/image (632).png>)
+![](<../../../../.gitbook/assets/image (808).png>)
 
-![](<../../../../.gitbook/assets/image (86).png>)
+![](<../../../../.gitbook/assets/image (254).png>)
 
 Компонент, очищающий таблицу.
 

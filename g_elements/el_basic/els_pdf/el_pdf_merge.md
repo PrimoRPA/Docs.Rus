@@ -1,8 +1,8 @@
 # Объединение документов
 
-![](<../../../.gitbook/assets/image (542).png>)
+![](<../../../.gitbook/assets/image (781).png>)
 
-![](<../../../.gitbook/assets/image (120).png>)
+![](<../../../.gitbook/assets/image (445).png>)
 
 Компонент, получающий кол-во страниц документа PDF
 

@@ -1,8 +1,8 @@
 # Открыть браузер
 
-![](<../../../.gitbook/assets/image (843).png>)
+![](<../../../.gitbook/assets/image (100).png>)
 
-![](<../../../.gitbook/assets/image (6).png>)
+![](<../../../.gitbook/assets/image (293).png>)
 
 Компонент, производящий открытие нового экземпляра браузера.
 

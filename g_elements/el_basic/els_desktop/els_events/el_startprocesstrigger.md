@@ -1,6 +1,6 @@
 # Событие запуска процесса
 
-![](<../../../../.gitbook/assets/image (940).png>)
+![](<../../../../.gitbook/assets/image (101).png>)
 
 
 

@@ -1,8 +1,8 @@
 # Отправить письмо (SMTP)
 
-![](<../../../.gitbook/assets/image (709).png>)
+![](<../../../.gitbook/assets/image (901).png>)
 
-![](<../../../.gitbook/assets/image (204).png>)
+![](<../../../.gitbook/assets/image (250).png>)
 
 Компонент, осуществляющий отправку почтового сообщения по протоколу SMTP.
 

@@ -1,6 +1,6 @@
 # Цвет шрифта
 
-![](<../../../.gitbook/assets/image (396).png>)
+![](<../../../.gitbook/assets/image (608).png>)
 
 
 

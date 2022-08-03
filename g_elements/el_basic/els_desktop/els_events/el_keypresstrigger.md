@@ -1,6 +1,6 @@
 # Событие кнопки приложения
 
-![](<../../../../.gitbook/assets/image (749).png>)
+![](<../../../../.gitbook/assets/image (165).png>)
 
 
 

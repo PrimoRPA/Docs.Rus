@@ -1,6 +1,6 @@
 # Запустить макрос
 
-![](<../../../.gitbook/assets/image (110).png>)
+![](<../../../.gitbook/assets/image (350).png>)
 
 Элемент, выполняющий макрос Excel.
 

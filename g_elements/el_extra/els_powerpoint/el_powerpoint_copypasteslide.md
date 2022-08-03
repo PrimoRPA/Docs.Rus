@@ -1,6 +1,6 @@
 # Копировать-вставить слайд
 
-![](<../../../.gitbook/assets/image (404).png>)
+![](<../../../.gitbook/assets/image (477).png>)
 
 
 

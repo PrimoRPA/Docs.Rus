@@ -1,8 +1,8 @@
 # Добавить столбец
 
-![](<../../../../.gitbook/assets/image (696).png>)
+![](<../../../../.gitbook/assets/image (865).png>)
 
-![](<../../../../.gitbook/assets/image (92).png>)
+![](<../../../../.gitbook/assets/image (259).png>)
 
 Компонент, добавляющий колонку в таблицу.
 

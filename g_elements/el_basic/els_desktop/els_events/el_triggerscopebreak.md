@@ -1,6 +1,6 @@
 # Остановка событий
 
-![](<../../../../.gitbook/assets/image (875).png>)
+![](<../../../../.gitbook/assets/image (219).png>)
 
 
 

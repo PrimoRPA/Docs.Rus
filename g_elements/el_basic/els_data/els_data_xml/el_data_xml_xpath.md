@@ -1,8 +1,8 @@
 # Запрос XPath
 
-![](<../../../../.gitbook/assets/image (552).png>)
+![](<../../../../.gitbook/assets/image (798).png>)
 
-![](<../../../../.gitbook/assets/image (8).png>)
+![](<../../../../.gitbook/assets/image (373).png>)
 
 Компонент, осуществляющий поиск в документе XML в соответствии с запросом XPath.
 

@@ -1,8 +1,8 @@
 # Добавить в массив
 
-![](<../../../.gitbook/assets/image (713).png>)
+![](<../../../.gitbook/assets/image (822).png>)
 
-![](<../../../.gitbook/assets/image (201).png>)
+![](<../../../.gitbook/assets/image (276).png>)
 
 Компонент, добавляющий новый элемент в коллекцию.
 

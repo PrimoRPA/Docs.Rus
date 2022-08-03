@@ -1,6 +1,6 @@
 # Сервер FlexiCapture
 
-![](<../../../../.gitbook/assets/image (20).png>)
+![](<../../../../.gitbook/assets/image (399).png>)
 
 Элемент, подключающий к серверу FlexiCapture
 

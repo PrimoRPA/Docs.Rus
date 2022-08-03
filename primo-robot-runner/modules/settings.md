@@ -2,8 +2,8 @@
 
 Блок общие отвечает за базовые настройки Robot Runner
 
-![](<../../.gitbook/assets/image (612).png>)
+![](<../../.gitbook/assets/image (837).png>)
 
 Блок Роботы позволяет подключать папки с дистрибутивами робота
 
-![](<../../.gitbook/assets/image (563).png>)
+![](<../../.gitbook/assets/image (823).png>)

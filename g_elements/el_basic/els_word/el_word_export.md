@@ -1,8 +1,8 @@
 # Экспортировать документ
 
-![](<../../../.gitbook/assets/image (535).png>)
+![](<../../../.gitbook/assets/image (873).png>)
 
-![](<../../../.gitbook/assets/image (828).png>)
+![](<../../../.gitbook/assets/image (66).png>)
 
 Компонент, производящий экспорт документа Word в другой формат. Доступный формат: PDF
 

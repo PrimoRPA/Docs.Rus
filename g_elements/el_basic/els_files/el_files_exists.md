@@ -1,8 +1,8 @@
 # Существует файл/папка
 
-![](<../../../.gitbook/assets/image (624).png>)
+![](<../../../.gitbook/assets/image (790).png>)
 
-![](<../../../.gitbook/assets/image (772).png>)
+![](<../../../.gitbook/assets/image (189).png>)
 
 Компонент, проверяющий наличие файла либо папки.
 

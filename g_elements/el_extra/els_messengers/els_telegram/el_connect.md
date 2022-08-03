@@ -1,6 +1,6 @@
 # Соединение с Telegram
 
-![](<../../../../.gitbook/assets/image (900).png>)
+![](<../../../../.gitbook/assets/image (110).png>)
 
 Элемент, осуществляющий подключение к сервисам Telegram.
 

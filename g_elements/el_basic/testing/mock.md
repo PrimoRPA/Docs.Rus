@@ -1,8 +1,8 @@
 # Заглушка
 
-![](<../../../.gitbook/assets/image (504).png>)
+![](<../../../.gitbook/assets/image (961).png>)
 
-![](<../../../.gitbook/assets/image (865).png>)
+![](<../../../.gitbook/assets/image (234).png>)
 
 Элемент, создающий заглушку в алгоритме
 

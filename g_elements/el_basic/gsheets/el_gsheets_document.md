@@ -1,6 +1,6 @@
 # Документ Google Sheets
 
-![](<../../../.gitbook/assets/image (172).png>)
+![](<../../../.gitbook/assets/image (289).png>)
 
 Компонент, производящий подключение к документу Google Sheets.
 

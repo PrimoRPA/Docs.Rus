@@ -1,8 +1,8 @@
 # Обработать документы
 
-![](<../../../../.gitbook/assets/image (816).png>)
+![](<../../../../.gitbook/assets/image (145).png>)
 
-![](<../../../../.gitbook/assets/image (98).png>)
+![](<../../../../.gitbook/assets/image (391).png>)
 
 Элемент, осуществляющий обработку документов на сервере Dbrain
 

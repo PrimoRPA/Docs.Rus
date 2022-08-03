@@ -1,8 +1,8 @@
 # Присвоение
 
-![](<../../../.gitbook/assets/image (593).png>)
+![](<../../../.gitbook/assets/image (848).png>)
 
-![](<../../../.gitbook/assets/image (779).png>)
+![](<../../../.gitbook/assets/image (179).png>)
 
 Компонент, производящий присвоение данных заданной переменной.
 

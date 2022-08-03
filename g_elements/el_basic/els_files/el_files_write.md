@@ -1,8 +1,8 @@
 # Запись в файл
 
-![](<../../../.gitbook/assets/image (683).png>)
+![](<../../../.gitbook/assets/image (951).png>)
 
-![](<../../../.gitbook/assets/image (856).png>)
+![](<../../../.gitbook/assets/image (14).png>)
 
 Компонент, перезаписывающий содержимое файла.
 

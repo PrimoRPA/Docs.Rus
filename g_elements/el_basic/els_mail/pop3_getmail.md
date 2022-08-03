@@ -1,8 +1,8 @@
 # Получить письма (POP3)
 
-![](<../../../.gitbook/assets/image (604).png>)
+![](<../../../.gitbook/assets/image (787).png>)
 
-![](<../../../.gitbook/assets/image (197).png>)
+![](<../../../.gitbook/assets/image (419).png>)
 
 Компонент, осуществляющий получение почтовых сообщений по протоколу POP3.
 

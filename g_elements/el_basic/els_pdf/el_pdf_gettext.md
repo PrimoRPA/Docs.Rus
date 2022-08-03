@@ -1,8 +1,8 @@
 # Чтение текста
 
-![](<../../../.gitbook/assets/image (950).png>)
+![](<../../../.gitbook/assets/image (119).png>)
 
-![](<../../../.gitbook/assets/image (60).png>)
+![](<../../../.gitbook/assets/image (370).png>)
 
 Компонент, получающий текст документа PDF
 
