@@ -2,7 +2,9 @@
 
 * [Primo RPA](README.md)
 
-## [Примечания к выпускам (Release Notes)]
+## Примечания к выпускам (Release Notes)
+
+* [1.1.28](release-notes/1.1.28.md)
 
 ## Primo Studio
 
