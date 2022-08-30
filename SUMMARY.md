@@ -2,9 +2,10 @@
 
 * [Primo RPA](README.md)
 
-## Примечания к выпускам (Release Notes)
+## Примечания к выпускам
 
 * [1.1.28](release-notes/1.1.28.md)
+* [июнь-август 2022](release-notes/summer-2022.md)
 
 ## Primo Studio
 
