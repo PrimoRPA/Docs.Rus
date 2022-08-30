@@ -2,7 +2,7 @@
 
 * [Primo RPA](README.md)
 
-## Примечания к выпускам
+## Примечания к выпускам <a href="#release-notes" id="release-notes"></a>
 
 * [1.1.28](release-notes/1.1.28.md)
 * [июнь-август 2022](release-notes/summer-2022.md)
