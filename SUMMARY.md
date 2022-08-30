@@ -2,6 +2,8 @@
 
 * [Primo RPA](README.md)
 
+## [Примечания к выпускам (Release Notes)]
+
 ## Primo Studio
 
 * [Полезные ресурсы](primo-studio/useful-links.md)
