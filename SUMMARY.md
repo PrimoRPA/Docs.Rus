@@ -42,6 +42,7 @@
   * [Издания робота](primo-studio/robot/robot\_editions.md)
 * [Настройка студии](primo-studio/settings/README.md)
   * [Мультисессионная работа](primo-studio/settings/multisession.md)
+  * [Nuget](primo-studio/settings/nuget.md)
   * [Управление панелями](primo-studio/settings/layout.md)
   * [Установка расширений и плагинов](primo-studio/settings/plugin-install/README.md)
     * [Chrome](primo-studio/settings/plugin-install/chrome.md)
