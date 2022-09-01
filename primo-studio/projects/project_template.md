@@ -2,7 +2,7 @@
 
 Проекты можно создавать из шаблонов. Для этого в меню Файл -> Проект присутствует список доступных шаблонов. Для создания проекта достаточно кликнуть на нужный шаблон
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
 Для создания собственного шаблона нужно проделать следующие манипуляции:
 

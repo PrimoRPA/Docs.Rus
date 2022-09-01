@@ -4,11 +4,11 @@
 
 Для создания библиотеки используется меню Файл -> Экспорт -> Создать библиотеку
 
-<figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 В появившемся окне необходимо выполнить следующие действия:
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. В дереве проекта выбрать процессы, подлежащие экспорту в библиотеку
 2. Заполнить поле наименование - это имя будущего элемента, которое будет отображаться в палитре элементов
