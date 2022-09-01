@@ -16,6 +16,7 @@
 * [Начало работы](primo-studio/getting-started/README.md)
   * [Начало работы (устаревший интерфейс)](primo-studio/getting-started/gettingstarted.md)
 * [Работа с проектами](primo-studio/projects/README.md)
+  * [Шаблоны проектов](primo-studio/projects/project\_template.md)
   * [Поиск](primo-studio/projects/search.md)
   * [Управление зависимостями](primo-studio/projects/manage-dependencies.md)
   * [Пространства имен](primo-studio/projects/namespaces.md)
