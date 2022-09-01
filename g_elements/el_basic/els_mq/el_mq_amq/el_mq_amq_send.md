@@ -1,6 +1,6 @@
 # Отправить сообщение
 
-![](<../../../../.gitbook/assets/image (849).png>)
+![](<../../../../.gitbook/assets/image (119).png>)
 
 ![](<../../../../.gitbook/assets/image (398).png>)
 
@@ -41,4 +41,3 @@ _lib.LTools.Network.MqApp.AMQ_Send(_lib.LTools.Network.MQ.DestinationTypes.TOPIC
 ```
 {% endtab %}
 {% endtabs %}
-

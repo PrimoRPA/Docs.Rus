@@ -1,6 +1,6 @@
 # Преобразовать в изображение
 
-![](<../../../.gitbook/assets/image (119).png>)
+![](<../../../.gitbook/assets/image (119) (86).png>)
 
 ![](<../../../.gitbook/assets/image (322).png>)
 
@@ -33,4 +33,3 @@ var img = _lib.LTools.Office.PdfApp.ConvertToImage(wf, "Файл 1", 2000, "па
 ```
 {% endtab %}
 {% endtabs %}
-

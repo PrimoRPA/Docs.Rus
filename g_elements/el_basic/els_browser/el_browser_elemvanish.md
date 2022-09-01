@@ -1,6 +1,6 @@
 # Исчезновение элемента
 
-![](<../../../.gitbook/assets/image (828).png>)
+![](<../../../.gitbook/assets/image (119) (31).png>)
 
 ![](<../../../.gitbook/assets/image (261).png>)
 

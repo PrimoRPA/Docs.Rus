@@ -1,6 +1,6 @@
 # Прочитать таблицу
 
-![](<../../../.gitbook/assets/image (853).png>)
+![](<../../../.gitbook/assets/image (119) (77).png>)
 
 ![](<../../../.gitbook/assets/image (207).png>)
 
@@ -81,4 +81,3 @@ for (var i = 0; i < tbl.Data.Count; i++)
 ```
 {% endtab %}
 {% endtabs %}
-

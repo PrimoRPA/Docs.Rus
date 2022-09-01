@@ -1,6 +1,6 @@
 # Скачать изображение
 
-![](<../../../.gitbook/assets/image (880).png>)
+![](<../../../.gitbook/assets/image (119) (53).png>)
 
 ![](<../../../.gitbook/assets/image (355).png>)
 

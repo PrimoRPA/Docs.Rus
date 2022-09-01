@@ -1,6 +1,6 @@
 # Таблицу в CSV
 
-![](<../../../.gitbook/assets/image (881).png>)
+![](<../../../.gitbook/assets/image (119) (43).png>)
 
 ![](<../../../.gitbook/assets/image (435).png>)
 

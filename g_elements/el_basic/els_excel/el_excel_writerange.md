@@ -1,6 +1,6 @@
 # Запись диапазона
 
-![](<../../../.gitbook/assets/image (792).png>)
+![](<../../../.gitbook/assets/image (119) (95).png>)
 
 ![](<../../../.gitbook/assets/image (317).png>)
 
@@ -55,4 +55,3 @@ app.AppendRange(lst3, "A1:B2", true, "Лист1");
 ```
 {% endtab %}
 {% endtabs %}
-

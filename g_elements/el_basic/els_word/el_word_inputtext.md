@@ -1,6 +1,6 @@
 # Ввод текста
 
-![](<../../../.gitbook/assets/image (913).png>)
+![](<../../../.gitbook/assets/image (119) (96).png>)
 
 ![](<../../../.gitbook/assets/image (171).png>)
 
@@ -37,4 +37,3 @@ app.AppendText("text", "bookmark");
 ```
 {% endtab %}
 {% endtabs %}
-

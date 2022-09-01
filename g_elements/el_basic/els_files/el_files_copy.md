@@ -1,6 +1,6 @@
 # Копировать файл
 
-![](<../../../.gitbook/assets/image (789).png>)
+![](<../../../.gitbook/assets/image (119) (109).png>)
 
 ![](<../../../.gitbook/assets/image (45).png>)
 

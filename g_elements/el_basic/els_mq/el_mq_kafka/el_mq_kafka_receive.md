@@ -1,6 +1,6 @@
 # Получить сообщения
 
-![](<../../../../.gitbook/assets/image (850).png>)
+![](<../../../../.gitbook/assets/image (119) (90).png>)
 
 ![](<../../../../.gitbook/assets/image (318).png>)
 
@@ -36,4 +36,3 @@ var ret = _lib.LTools.Network.MqApp.Kafka_Receive("localhost:9092", "login", "pa
 ```
 {% endtab %}
 {% endtabs %}
-

@@ -5,7 +5,7 @@
 ## Примечания к выпускам <a href="#release-notes" id="release-notes"></a>
 
 * [1.1.28](release-notes/1.1.28.md)
-* [июнь-август 2022](release-notes/summer-2022.md)
+* [июнь-август 2022](release-notes/iyun-avgust-2022.md)
 
 ## Primo Studio
 
@@ -21,6 +21,7 @@
   * [Пространства имен](primo-studio/projects/namespaces.md)
   * [Контроль версий](primo-studio/projects/versioning.md)
   * [Публикация проекта](primo-studio/projects/publish.md)
+  * [Создание библиотеки](primo-studio/projects/create\_library.md)
   * [Журнал](primo-studio/projects/log.md)
   * [To Do](primo-studio/projects/todo.md)
 * [Работа с процессами](primo-studio/process/README.md)

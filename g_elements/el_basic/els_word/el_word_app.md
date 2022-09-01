@@ -1,6 +1,6 @@
 # Документ Word
 
-![](<../../../.gitbook/assets/image (934).png>)
+![](<../../../.gitbook/assets/image (119) (134).png>)
 
 ![](<../../../.gitbook/assets/image (169).png>)
 
@@ -34,4 +34,3 @@ var app = _lib.LTools.Office.WordApp.Init(wf, _lib.System.IO.File.ReadAllBytes("
 ```
 {% endtab %}
 {% endtabs %}
-

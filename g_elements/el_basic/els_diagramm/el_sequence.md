@@ -1,6 +1,6 @@
 # Последовательность
 
-![](<../../../.gitbook/assets/image (813).png>)
+![](<../../../.gitbook/assets/image (119) (30).png>)
 
 ![](<../../../.gitbook/assets/image (278).png>)
 
@@ -13,4 +13,3 @@
 {% content-ref url="../../../primo-studio/process/diagram.md" %}
 [diagram.md](../../../primo-studio/process/diagram.md)
 {% endcontent-ref %}
-

@@ -1,6 +1,6 @@
 # Получить письма (POP3)
 
-![](<../../../.gitbook/assets/image (787).png>)
+![](<../../../.gitbook/assets/image (119) (37).png>)
 
 ![](<../../../.gitbook/assets/image (419).png>)
 
@@ -50,6 +50,3 @@ var mail2 = _libLTools.Network.MailApp.POP3Receive(wf, "server", 443, "login", "
 ```
 {% endtab %}
 {% endtabs %}
-
-
-

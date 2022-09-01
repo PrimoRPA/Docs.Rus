@@ -1,6 +1,6 @@
 # Вставка изображения
 
-![](<../../../.gitbook/assets/image (783).png>)
+![](<../../../.gitbook/assets/image (119) (130).png>)
 
 ![](<../../../.gitbook/assets/image (204).png>)
 
@@ -33,4 +33,3 @@ app.InsertPicture(_lib.System.IO.File.ReadAllBytes("file"), "bookmark");
 ```
 {% endtab %}
 {% endtabs %}
-

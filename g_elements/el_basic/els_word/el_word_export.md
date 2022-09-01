@@ -1,6 +1,6 @@
 # Экспортировать документ
 
-![](<../../../.gitbook/assets/image (873).png>)
+![](<../../../.gitbook/assets/image (119) (115).png>)
 
 ![](<../../../.gitbook/assets/image (66).png>)
 
@@ -33,4 +33,3 @@ app.Export("file", _lib.LTools.Office.Model.WordExportFormats.Pdf);
 ```
 {% endtab %}
 {% endtabs %}
-

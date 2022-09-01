@@ -1,6 +1,6 @@
 # Обновить
 
-![](<../../../.gitbook/assets/image (750).png>)
+![](<../../../.gitbook/assets/image (119) (84).png>)
 
 ![](<../../../.gitbook/assets/image (414).png>)
 

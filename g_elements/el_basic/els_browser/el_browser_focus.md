@@ -1,6 +1,6 @@
 # Фокус ввода
 
-![](<../../../.gitbook/assets/image (921).png>)
+![](<../../../.gitbook/assets/image (119) (46).png>)
 
 ![](<../../../.gitbook/assets/image (389).png>)
 

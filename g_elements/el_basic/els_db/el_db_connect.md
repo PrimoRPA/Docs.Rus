@@ -1,6 +1,6 @@
 # Присоединиться к БД
 
-![](<../../../.gitbook/assets/image (6).png>)
+![](<../../../.gitbook/assets/image (119) (71).png>)
 
 ![](<../../../.gitbook/assets/image (330).png>)
 

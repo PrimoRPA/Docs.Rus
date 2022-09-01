@@ -1,6 +1,6 @@
 # Список страниц
 
-![](<../../../../.gitbook/assets/image (869).png>)
+![](<../../../../.gitbook/assets/image (119) (67).png>)
 
 ![](<../../../../.gitbook/assets/image (127).png>)
 

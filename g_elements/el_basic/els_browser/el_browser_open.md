@@ -1,6 +1,6 @@
 # Открыть браузер
 
-![](<../../../.gitbook/assets/image (100).png>)
+![](<../../../.gitbook/assets/image (119) (86).png>)
 
 ![](<../../../.gitbook/assets/image (293).png>)
 

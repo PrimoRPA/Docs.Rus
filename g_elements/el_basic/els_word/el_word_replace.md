@@ -1,6 +1,6 @@
 # Заменить текст
 
-![](<../../../.gitbook/assets/image (780).png>)
+![](<../../../.gitbook/assets/image (119) (118).png>)
 
 ![](<../../../.gitbook/assets/image (128).png>)
 

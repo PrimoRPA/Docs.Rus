@@ -1,6 +1,6 @@
 # Получить файл по FTP
 
-![](<../../../../.gitbook/assets/image (151).png>)
+![](<../../../../.gitbook/assets/image (119) (123).png>)
 
 ![](<../../../../.gitbook/assets/image (288).png>)
 
