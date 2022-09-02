@@ -1,6 +1,6 @@
 # Множественное присвоение
 
-![](<../../../.gitbook/assets/image (119) (110).png>)
+![](<../../../.gitbook/assets/image (100) (1) (5).png>)
 
 ![](<../../../.gitbook/assets/image (114).png>)
 

@@ -6,4 +6,4 @@ description: Руководство пользователя
 
 Добро пожаловать в руководство пользователя комплекса программных продуктов Primo RPA
 
-![](<.gitbook/assets/Untitled (11).png>)
+![](<.gitbook/assets/Untitled (10).png>)

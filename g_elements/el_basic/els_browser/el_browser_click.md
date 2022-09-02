@@ -1,6 +1,6 @@
 # Клик мышью
 
-![](<../../../.gitbook/assets/image (119) (84).png>)
+![](<../../../.gitbook/assets/image (100) (1) (233).png>)
 
 ![](<../../../.gitbook/assets/image (410).png>)
 

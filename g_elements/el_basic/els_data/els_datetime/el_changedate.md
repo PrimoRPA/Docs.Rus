@@ -1,6 +1,6 @@
 # Изменить дату
 
-![](<../../../../.gitbook/assets/image (119) (21).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (273).png>)
 
 ![](<../../../../.gitbook/assets/image (256).png>)
 

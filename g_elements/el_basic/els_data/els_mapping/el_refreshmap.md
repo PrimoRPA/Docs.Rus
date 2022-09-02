@@ -1,6 +1,6 @@
 # Обновить маппинг
 
-![](<../../../../.gitbook/assets/image (119) (14).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (220).png>)
 
 ![](<../../../../.gitbook/assets/image (405).png>)
 

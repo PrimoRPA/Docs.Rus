@@ -1,6 +1,6 @@
 # Получить письма (POP3)
 
-![](<../../../.gitbook/assets/image (119) (37).png>)
+![](<../../../.gitbook/assets/image (100) (1) (229).png>)
 
 ![](<../../../.gitbook/assets/image (419).png>)
 

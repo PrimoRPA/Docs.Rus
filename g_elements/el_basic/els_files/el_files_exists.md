@@ -1,6 +1,6 @@
 # Существует файл/папка
 
-![](<../../../.gitbook/assets/image (119) (145).png>)
+![](<../../../.gitbook/assets/image (100) (1) (20).png>)
 
 ![](<../../../.gitbook/assets/image (189).png>)
 

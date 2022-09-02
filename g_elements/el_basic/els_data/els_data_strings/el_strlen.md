@@ -1,6 +1,6 @@
 # Длина строки
 
-![](<../../../../.gitbook/assets/image (119) (55).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (231).png>)
 
 ![](<../../../../.gitbook/assets/image (246).png>)
 

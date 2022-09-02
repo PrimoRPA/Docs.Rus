@@ -1,6 +1,6 @@
 # Выделить диапазон
 
-![](<../../../.gitbook/assets/image (119) (92).png>)
+![](<../../../.gitbook/assets/image (100) (1) (42).png>)
 
 ![](<../../../.gitbook/assets/image (91).png>)
 

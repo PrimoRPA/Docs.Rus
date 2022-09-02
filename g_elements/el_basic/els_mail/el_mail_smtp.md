@@ -1,6 +1,6 @@
 # Отправить письмо (SMTP)
 
-![](<../../../.gitbook/assets/image (119) (87).png>)
+![](<../../../.gitbook/assets/image (100) (1) (57).png>)
 
 ![](<../../../.gitbook/assets/image (250).png>)
 

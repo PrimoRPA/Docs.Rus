@@ -1,6 +1,6 @@
 # Запись в файл
 
-![](<../../../.gitbook/assets/image (119) (98).png>)
+![](<../../../.gitbook/assets/image (100) (1) (2).png>)
 
 ![](<../../../.gitbook/assets/image (14).png>)
 

@@ -1,6 +1,6 @@
 # Обработать документы
 
-![](<../../../../.gitbook/assets/image (119) (82).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (238).png>)
 
 ![](<../../../../.gitbook/assets/image (391).png>)
 

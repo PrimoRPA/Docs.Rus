@@ -1,6 +1,6 @@
 # Командная строка
 
-![](<../../../.gitbook/assets/image (119) (124).png>)
+![](<../../../.gitbook/assets/image (100) (1) (52).png>)
 
 ![](<../../../.gitbook/assets/image (63).png>)
 

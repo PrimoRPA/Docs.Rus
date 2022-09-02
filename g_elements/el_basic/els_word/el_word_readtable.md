@@ -1,6 +1,6 @@
 # Прочитать таблицу
 
-![](<../../../.gitbook/assets/image (119) (93).png>)
+![](<../../../.gitbook/assets/image (100) (1) (28).png>)
 
 ![](<../../../.gitbook/assets/image (168).png>)
 

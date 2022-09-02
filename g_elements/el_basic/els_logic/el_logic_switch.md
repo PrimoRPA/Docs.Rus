@@ -1,6 +1,6 @@
 # Switch
 
-![](<../../../.gitbook/assets/image (119) (89).png>)
+![](<../../../.gitbook/assets/image (100) (1) (36).png>)
 
 ![](<../../../.gitbook/assets/image (155).png>)
 

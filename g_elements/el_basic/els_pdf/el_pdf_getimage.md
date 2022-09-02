@@ -1,6 +1,6 @@
 # Получение изображений
 
-![](<../../../.gitbook/assets/image (119) (6).png>)
+![](<../../../.gitbook/assets/image (100) (1) (269).png>)
 
 ![](<../../../.gitbook/assets/image (338).png>)
 

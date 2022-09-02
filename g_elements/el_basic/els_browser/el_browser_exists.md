@@ -1,6 +1,6 @@
 # Присутствие элемента
 
-![](<../../../.gitbook/assets/image (119) (74).png>)
+![](<../../../.gitbook/assets/image (100) (1) (196).png>)
 
 ![](<../../../.gitbook/assets/image (277).png>)
 

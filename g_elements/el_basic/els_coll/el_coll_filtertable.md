@@ -1,6 +1,6 @@
 # Фильтр таблицы
 
-![](<../../../.gitbook/assets/image (119) (50).png>)
+![](<../../../.gitbook/assets/image (100) (1) (235).png>)
 
 ![](<../../../.gitbook/assets/image (446).png>)
 

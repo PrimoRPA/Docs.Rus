@@ -1,6 +1,6 @@
 # Установить учетные данные
 
-![](<../../../../.gitbook/assets/image (119) (23).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (240).png>)
 
 ![](<../../../../.gitbook/assets/image (342).png>)
 

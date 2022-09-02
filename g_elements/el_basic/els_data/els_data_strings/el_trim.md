@@ -1,6 +1,6 @@
 # Удалить пробелы
 
-![](<../../../../.gitbook/assets/image (119) (25).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (226).png>)
 
 ![](<../../../../.gitbook/assets/image (300).png>)
 

@@ -1,6 +1,6 @@
 # Получить список файлов FTP
 
-![](<../../../../.gitbook/assets/image (119) (42).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (262).png>)
 
 ![](<../../../../.gitbook/assets/image (326).png>)
 

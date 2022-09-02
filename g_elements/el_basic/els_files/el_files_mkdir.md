@@ -1,6 +1,6 @@
 # Создать папку
 
-![](<../../../.gitbook/assets/image (119) (107).png>)
+![](<../../../.gitbook/assets/image (100) (1) (54).png>)
 
 ![](<../../../.gitbook/assets/image (203).png>)
 

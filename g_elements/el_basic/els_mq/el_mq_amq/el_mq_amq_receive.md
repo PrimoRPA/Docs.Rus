@@ -1,6 +1,6 @@
 # Получить сообщение
 
-![](<../../../../.gitbook/assets/image (119) (40).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (260).png>)
 
 ![](<../../../../.gitbook/assets/image (359).png>)
 
