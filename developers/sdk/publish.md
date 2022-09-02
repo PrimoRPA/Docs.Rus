@@ -1,21 +1,25 @@
 # Упаковка и публикация
 
-Для упаковки элемента можно использовать приложение Nuget Package Explorer (NPE) (доступно по адресу [GitHub - NuGetPackageExplorer/NuGetPackageExplorer: Create, update and deploy Nuget Packages with a GUI](https://github.com/NuGetPackageExplorer/NuGetPackageExplorer)).
+Для упаковки элемента можно использовать приложение Nuget Package Explorer (NPE), доступное по [данному адресу](https://github.com/NuGetPackageExplorer/NuGetPackageExplorer).
 
-Запустите приложение и выберите пункт Create a new package
+Упаковка состоит из следующих шагов:
+
+1. Запустите приложение и выберите пункт **Create a new package**.
 
 ![](<../../.gitbook/assets/0 (144).png>)
 
-Нажмите правой кнопкой в панели Package contents и выберите Add Lib Folder
+2. В панели **Package contents** щелкните правой кнопкой мыши и выберите пункт **Add Lib Folder**.
 
-Перетащите ваш файл Primo.\*.dll в панель Package contents в папку lib
+3. Перетащите ваш файл Primo.\*.dll в панель **Package contents** в папку *lib*.
 
 ![](<../../.gitbook/assets/1 (120).png>)
 
-Нажмите кнопку Edit metadata и введите данные вашего пакета. Данные будут доступны всем пользователям пакета. Не забудьте поставить тэги Primo и RPA
+4. Нажмите кнопку **Edit metadata** и заполните информацию о вашем пакете. Она будет доступна всем пользователям пакета. Не забудьте поставить теги Primo и RPA.
 
 ![](<../../.gitbook/assets/2 (6).png>)
 
-Нажмите File -> Save As… и сохраните ваш пакет на диск
+5. В завершение перейдите в раздел меню **File ➝ Save As…** и сохраните файл на диск.
 
-Зарегистрируйтесь на портале [NuGet Gallery | Home](https://www.nuget.org/), перейдите в раздел Manage Packages, нажмите Add new и добавьте ваш файл Primo.\*.nupkg ([https://www.nuget.org/packages/manage/upload](https://www.nuget.org/packages/manage/upload) )
+Для публикации пакета зарегистрируйтесь на портале [NuGet Gallery | Home](https://www.nuget.org/). Далее перейдите в раздел **Manage Packages**, нажмите **Add new** и добавьте ваш файл Primo.\*.nupkg. 
+
+Загрузка пакета будет доступна в соответствующем [разделе](https://www.nuget.org/packages/manage/upload).
