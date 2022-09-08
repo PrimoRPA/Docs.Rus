@@ -1,6 +1,6 @@
 # HTML к объекту
 
-![](<../../../../.gitbook/assets/image (100) (1) (247).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (10) (71).png>)
 
 ![](<../../../../.gitbook/assets/image (381).png>)
 

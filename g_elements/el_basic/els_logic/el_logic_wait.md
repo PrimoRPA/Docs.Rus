@@ -1,6 +1,6 @@
 # Ожидание
 
-![](<../../../.gitbook/assets/image (100) (1) (5).png>)
+![](<../../../.gitbook/assets/image (100) (1) (10) (153).png>)
 
 ![](<../../../.gitbook/assets/image (52).png>)
 

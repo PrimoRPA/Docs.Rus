@@ -1,6 +1,6 @@
 # Yandex Vision OCR
 
-![](<../../../.gitbook/assets/image (100) (1) (206).png>)
+![](<../../../.gitbook/assets/image (100) (1) (10) (65).png>)
 
 ![](<../../../.gitbook/assets/image (406).png>)
 

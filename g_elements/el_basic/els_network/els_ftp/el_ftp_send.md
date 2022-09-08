@@ -1,6 +1,6 @@
 # Отправить файл по FTP
 
-![](<../../../../.gitbook/assets/image (100) (1) (26).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (10) (117).png>)
 
 ![](<../../../../.gitbook/assets/image (437).png>)
 

@@ -1,6 +1,6 @@
 # Python Script
 
-![](<../../../.gitbook/assets/image (100) (1) (41).png>)
+![](<../../../.gitbook/assets/image (100) (1) (10) (149).png>)
 
 ![](<../../../.gitbook/assets/image (113).png>)
 

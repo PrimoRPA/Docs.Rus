@@ -1,6 +1,6 @@
 # Пересчет формул
 
-![](<../../../.gitbook/assets/image (100) (1) (24).png>)
+![](<../../../.gitbook/assets/image (100) (1) (10) (106).png>)
 
 ![](<../../../.gitbook/assets/image (349).png>)
 

@@ -1,6 +1,6 @@
 # Объединение документов
 
-![](<../../../.gitbook/assets/image (100) (1) (192).png>)
+![](<../../../.gitbook/assets/image (100) (1) (10) (46).png>)
 
 ![](<../../../.gitbook/assets/image (445).png>)
 

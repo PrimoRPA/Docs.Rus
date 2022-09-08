@@ -1,6 +1,6 @@
 # Получить письма (IMAP)
 
-![](<../../../.gitbook/assets/image (100) (1) (207).png>)
+![](<../../../.gitbook/assets/image (100) (1) (10) (52).png>)
 
 ![](<../../../.gitbook/assets/image (335).png>)
 

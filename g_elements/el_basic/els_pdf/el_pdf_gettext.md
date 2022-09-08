@@ -1,6 +1,6 @@
 # Чтение текста
 
-![](<../../../.gitbook/assets/image (100) (1) (285).png>)
+![](<../../../.gitbook/assets/image (100) (1) (10) (104).png>)
 
 ![](<../../../.gitbook/assets/image (370).png>)
 

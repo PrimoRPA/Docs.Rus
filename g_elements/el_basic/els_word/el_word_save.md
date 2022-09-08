@@ -1,6 +1,6 @@
 # Сохранить документ
 
-![](<../../../.gitbook/assets/image (100) (1) (31).png>)
+![](<../../../.gitbook/assets/image (100) (1) (10) (136).png>)
 
 ![](<../../../.gitbook/assets/image (217).png>)
 

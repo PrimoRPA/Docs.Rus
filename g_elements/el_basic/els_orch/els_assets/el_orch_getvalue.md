@@ -1,6 +1,6 @@
 # Получить значение
 
-![](<../../../../.gitbook/assets/image (100) (1) (245).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (10) (25).png>)
 
 ![](<../../../../.gitbook/assets/image (269).png>)
 

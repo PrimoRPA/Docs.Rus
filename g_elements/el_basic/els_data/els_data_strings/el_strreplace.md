@@ -1,6 +1,6 @@
 # Заменить подстроку
 
-![](<../../../../.gitbook/assets/image (100) (1) (253).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (10) (69).png>)
 
 ![](<../../../../.gitbook/assets/image (438).png>)
 

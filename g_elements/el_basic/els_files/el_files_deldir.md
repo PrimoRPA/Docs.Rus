@@ -1,6 +1,6 @@
 # Удалить файл/папку
 
-![](<../../../.gitbook/assets/image (100) (1) (47).png>)
+![](<../../../.gitbook/assets/image (100) (1) (10) (123).png>)
 
 ![](<../../../.gitbook/assets/image (50).png>)
 

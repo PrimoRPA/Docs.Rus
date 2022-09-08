@@ -1,6 +1,6 @@
 # Удалить страницу
 
-![](<../../../../.gitbook/assets/image (100) (1) (218).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (10) (41).png>)
 
 ![](<../../../../.gitbook/assets/image (47).png>)
 

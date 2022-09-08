@@ -1,6 +1,6 @@
 # Отсоединиться от сервера
 
-![](<../../../../.gitbook/assets/image (100) (1) (198).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (10) (80).png>)
 
 ![](<../../../../.gitbook/assets/image (388).png>)
 

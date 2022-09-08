@@ -1,6 +1,6 @@
 # Создать маппинг
 
-![](<../../../../.gitbook/assets/image (100) (1) (44).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (10) (124).png>)
 
 ![](<../../../../.gitbook/assets/image (382).png>)
 

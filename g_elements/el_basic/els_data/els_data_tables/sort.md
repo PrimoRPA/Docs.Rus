@@ -1,6 +1,6 @@
 # Сортировать таблицу
 
-![](<../../../../.gitbook/assets/image (100) (1) (190).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (10) (84).png>)
 
 ![](<../../../../.gitbook/assets/image (422).png>)
 

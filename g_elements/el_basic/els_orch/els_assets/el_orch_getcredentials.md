@@ -1,6 +1,6 @@
 # Получить учетные данные
 
-![](<../../../../.gitbook/assets/image (100) (1) (259).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (10) (81).png>)
 
 ![](<../../../../.gitbook/assets/image (386).png>)
 

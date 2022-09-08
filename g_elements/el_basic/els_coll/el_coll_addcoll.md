@@ -1,6 +1,6 @@
 # Добавить в массив
 
-![](<../../../.gitbook/assets/image (100) (1) (254).png>)
+![](<../../../.gitbook/assets/image (100) (1) (10) (3).png>)
 
 ![](<../../../.gitbook/assets/image (276).png>)
 

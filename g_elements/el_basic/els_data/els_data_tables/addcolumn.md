@@ -1,6 +1,6 @@
 # Добавить столбец
 
-![](<../../../../.gitbook/assets/image (100) (1) (214).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (10) (40).png>)
 
 ![](<../../../../.gitbook/assets/image (259).png>)
 

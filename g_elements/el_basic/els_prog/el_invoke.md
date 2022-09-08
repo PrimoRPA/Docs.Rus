@@ -1,6 +1,6 @@
 # Вызов метода
 
-![](<../../../.gitbook/assets/image (100) (1) (25).png>)
+![](<../../../.gitbook/assets/image (100) (1) (10) (132).png>)
 
 ![](<../../../.gitbook/assets/image (229).png>)
 

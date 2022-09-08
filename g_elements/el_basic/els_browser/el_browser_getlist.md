@@ -1,6 +1,6 @@
 # Получение списка
 
-![](<../../../.gitbook/assets/image (100) (1) (232).png>)
+![](<../../../.gitbook/assets/image (100) (1) (10) (4).png>)
 
 ![](<../../../.gitbook/assets/image (426).png>)
 

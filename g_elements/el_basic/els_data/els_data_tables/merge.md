@@ -1,6 +1,6 @@
 # Объединить таблицы
 
-![](<../../../../.gitbook/assets/image (100) (1) (239).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (10) (50).png>)
 
 ![](<../../../../.gitbook/assets/image (341).png>)
 

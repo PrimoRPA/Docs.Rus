@@ -1,6 +1,6 @@
 # Дата к строке
 
-![](<../../../../.gitbook/assets/image (100) (1) (219).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (10) (10).png>)
 
 ![](<../../../../.gitbook/assets/image (294).png>)
 

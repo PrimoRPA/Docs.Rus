@@ -1,6 +1,6 @@
 # Добавить в очередь
 
-![](<../../../../.gitbook/assets/image (100) (1) (199).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (10) (76).png>)
 
 ![](<../../../../.gitbook/assets/image (375).png>)
 
