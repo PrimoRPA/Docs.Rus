@@ -10,7 +10,7 @@
 | Свойство   | Тип    | Описание                 | Пример
 | ---------- | ------ | ------------------------ | ----------
 | Очередь\*  | String | Название очереди в Оркестраторе | "Queque"
-| ID\*       | [Guid](https://docs.microsoft.com/ru-ru/dotnet/api/system.guid?view=net-6.0) | ID элемента очереди | 9127dde8-dcb3-4406-931b-4066d09f1b04                               
+| ID\*       | [Guid](https://docs.microsoft.com/ru-ru/dotnet/api/system.guid?view=net-6.0) | Идентификатор элемента очереди | 9127dde8-dcb3-4406-931b-4066d09f1b04                               
 
 {% tabs %}
 {% tab title="C#" %}
