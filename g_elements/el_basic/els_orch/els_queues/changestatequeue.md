@@ -1,6 +1,7 @@
 # Изменить статус в очереди
 
 ![](<../../../../.gitbook/assets/image (815).png>)
+![](<../../../../.gitbook/assets/изменить статус в очереди.png>)
 
 Позволяет изменить статус элемента очереди (значения) в Оркестраторе. Корректно работает после компонента [**Получить из очереди**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_queues/readfromqueue).
 
