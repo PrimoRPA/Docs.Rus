@@ -5,12 +5,12 @@
 
 Компонент, который удаляет элемент (значение) из очереди Оркестратора.
 
+> *Описание общих свойств см. в разделе [**Работа с элементами**](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements)*
+
 | Свойство   | Тип    | Описание                 | Пример
 | ---------- | ------ | ------------------------ | ----------
 | Очередь\*  | String | Название очереди в Оркестраторе | "Queque"
 | ID\*       | [Guid](https://docs.microsoft.com/ru-ru/dotnet/api/system.guid?view=net-6.0) | ID элемента очереди | 9127dde8-dcb3-4406-931b-4066d09f1b04                               
-
-> *Описание общих свойств см. в разделе [**Работа с элементами**](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements)*
 
 {% tabs %}
 {% tab title="C#" %}
