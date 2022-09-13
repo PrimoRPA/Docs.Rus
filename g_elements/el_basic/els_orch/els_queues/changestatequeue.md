@@ -13,12 +13,35 @@
     * Business Error - ошибка в бизнес-логике (в работе робота). 
     * Empty - в случае расхождений в названии статусов импортированной очереди (например, из Blue Prism). Оригинальные статусы будут сохранены в метаданных.
 
+> *Описание общих свойств см. в разделе [**Работа с элементами**](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements)*
 
 | Свойство   | Тип    | Описание                 | Пример
-| ---------- | ------ | ------------------------ | ----------------- 
+| ---------- | :------: | ------------------------ | ----------------- 
 | Очередь\*  | String | Название очереди Оркестратора, в которой находится элемент | "Queue"
 | ID\*       | [Guid](https://docs.microsoft.com/ru-ru/dotnet/api/system.guid?view=net-6.0) | ID элемента очереди | 9127dde8-dcb3-4406-931b-4066d09f1b04
-| Статус     |        | Статус элемента. Выберите нужное значение в выпадающем списке   | Success
-| Текст      | String | Комментарий к статусу    |
+| Статус     |    -   | Статус элемента. Выберите нужное значение в выпадающем списке   | Success
+| Текст      | String | Комментарий к статусу    | "Доп.информация"
 
-> *Описание общих свойств см. в разделе [**Работа с элементами**](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements)*
+
+{% tabs %}
+{% tab title="C#" %}
+```csharp
+LTools.Enterprise.OrchestratorApp.ChangeQueueItemState(wf, "queue", id, LTools.Enums.ExchangeQueueValueEventType.Success, "txt");
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```python
+LTools.Enterprise.OrchestratorApp.ChangeQueueItemState(wf, "queue", id, LTools.Enums.ExchangeQueueValueEventType.Success, "txt")
+```
+{% endtab %}
+
+{% tab title="JavaScript" %}
+```javascript
+_lib.LTools.Enterprise.OrchestratorApp.ChangeQueueItemState(wf, "queue", id, _lib.LTools.Enums.ExchangeQueueValueEventType.Success, "txt");
+```
+{% endtab %}
+{% endtabs %}
+
+
+
