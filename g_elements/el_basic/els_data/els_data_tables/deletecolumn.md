@@ -1,6 +1,6 @@
 # Удалить колонку
 
-![](<../../../../.gitbook/assets/image (100) (1) (10) (48).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (1) (73).png>)
 
 ![](<../../../../.gitbook/assets/image (365).png>)
 

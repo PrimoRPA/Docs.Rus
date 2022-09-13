@@ -1,6 +1,6 @@
 # Yandex Vision OCR
 
-![](<../../../.gitbook/assets/image (100) (1) (10) (65).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (139).png>)
 
 ![](<../../../.gitbook/assets/image (406).png>)
 
@@ -43,6 +43,6 @@ var app = _lib.LTools.OCR.OcrApp.InitYandex(wf, "ID каталога", "OAuth-т
 
 4\. На странице [https://cloud.yandex.ru/docs/cli/quickstart#install](https://cloud.yandex.ru/docs/cli/quickstart#install) перейти по ссылке
 
-![](<../../../.gitbook/assets/image (502).png>)
+![](<../../../.gitbook/assets/image (588).png>)
 
 5\. Получить OAuth ID

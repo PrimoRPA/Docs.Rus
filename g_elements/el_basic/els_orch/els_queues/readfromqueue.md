@@ -1,6 +1,6 @@
 # Получить из очереди
 
-![](<../../../../.gitbook/assets/image (100) (1) (10) (83).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1).png>)
 
 ![](<../../../../.gitbook/assets/image (393).png>)
 

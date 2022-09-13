@@ -1,6 +1,6 @@
 # Цикл ForEach
 
-![](<../../../.gitbook/assets/image (100) (1) (10) (161).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (52).png>)
 
 ![](<../../../.gitbook/assets/image (33).png>)
 

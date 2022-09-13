@@ -363,7 +363,7 @@
     * [Выполнить код](g\_elements/el\_basic/els\_1c/el\_executecode.md)
     * [Приложение 1С (локальная БД)](g\_elements/el\_basic/els\_1c/el\_1c\_localdb.md)
     * [Приложение 1С (сервер)](g\_elements/el\_basic/els\_1c/el\_1c\_server.md)
-  * [Приложение Excel](g\_elements/el\_basic/els\_excel/README.md)
+  * [Приложение Excel](g\_elements/el\_basic/prilozhenie-excel/README.md)
     * [Типы данных](g\_elements/el\_basic/els\_excel/datatypes/README.md)
       * [ExcelCellInfo](g\_elements/el\_basic/els\_excel/datatypes/excelcellinfo.md)
       * [CellValue](g\_elements/el\_basic/els\_excel/datatypes/cellvalue.md)

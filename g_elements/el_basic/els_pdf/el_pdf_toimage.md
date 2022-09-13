@@ -1,6 +1,6 @@
 # Преобразовать в изображение
 
-![](<../../../.gitbook/assets/image (100) (1) (10) (104).png>)
+![](<../../../.gitbook/assets/image (119).png>)
 
 ![](<../../../.gitbook/assets/image (322).png>)
 

@@ -1,6 +1,6 @@
 # Принятие решения
 
-![](<../../../.gitbook/assets/image (100) (1) (10) (34).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (74).png>)
 
 ![](<../../../.gitbook/assets/image (325).png>)
 

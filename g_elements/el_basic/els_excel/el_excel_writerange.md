@@ -1,6 +1,6 @@
 # Запись диапазона
 
-![](<../../../.gitbook/assets/image (100) (1) (10) (148).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (31).png>)
 
 ![](<../../../.gitbook/assets/image (317).png>)
 

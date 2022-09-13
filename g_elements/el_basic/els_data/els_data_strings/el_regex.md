@@ -1,6 +1,6 @@
 # Регулярное выражение
 
-![](<../../../../.gitbook/assets/image (100) (1) (10) (38).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (1) (89).png>)
 
 ![](<../../../../.gitbook/assets/image (264).png>)
 

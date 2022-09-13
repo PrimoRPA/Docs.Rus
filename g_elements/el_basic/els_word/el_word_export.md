@@ -1,6 +1,6 @@
 # Экспортировать документ
 
-![](<../../../.gitbook/assets/image (100) (1) (10) (121).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (13).png>)
 
 ![](<../../../.gitbook/assets/image (66).png>)
 

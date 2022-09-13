@@ -1,6 +1,6 @@
 # Перейти к странице
 
-![](<../../../.gitbook/assets/image (100) (1) (10) (74).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (93).png>)
 
 ![](<../../../.gitbook/assets/image (436).png>)
 

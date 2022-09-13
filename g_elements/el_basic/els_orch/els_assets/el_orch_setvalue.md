@@ -1,6 +1,6 @@
 # Установить значение
 
-![](<../../../../.gitbook/assets/image (100) (1) (10) (79).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (1) (137).png>)
 
 ![](<../../../../.gitbook/assets/image (305).png>)
 

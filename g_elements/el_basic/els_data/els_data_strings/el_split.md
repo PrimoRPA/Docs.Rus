@@ -1,6 +1,6 @@
 # Разделить строку
 
-![](<../../../../.gitbook/assets/image (100) (1) (10) (82).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (1) (106).png>)
 
 ![](<../../../../.gitbook/assets/image (307).png>)
 

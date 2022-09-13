@@ -1,6 +1,6 @@
 # Переименовать страницу
 
-![](<../../../../.gitbook/assets/image (100) (1) (10) (41).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (1) (118).png>)
 
 ![](<../../../../.gitbook/assets/image (41).png>)
 
