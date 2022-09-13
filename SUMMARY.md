@@ -385,6 +385,7 @@
     * [Приложение Excel](g\_elements/el\_basic/els\_excel/el\_excel\_app.md)
     * [Сортировка диапазона](g\_elements/el\_basic/els\_excel/el\_excel\_sortrange.md)
     * [Сохранить документ](g\_elements/el\_basic/els\_excel/el\_excel\_save.md)
+    * [Сохранить как PDF](g\_elements/el\_basic/els\_excel/el\_excel\_save_aspdf.md)
     * [Удаление диапазона](g\_elements/el\_basic/els\_excel/el\_excel\_deleterange.md)
     * [Удаление колонок](g\_elements/el\_basic/els\_excel/el\_excel\_deletecolumns.md)
     * [Удаление строк](g\_elements/el\_basic/els\_excel/el\_excel\_deleterows.md)
