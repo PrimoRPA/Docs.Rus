@@ -1,6 +1,6 @@
 # Прочитать таблицу
 
-![](<../../../.gitbook/assets/image (888).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (46).png>)
 
 ![](<../../../.gitbook/assets/image (168).png>)
 
@@ -37,4 +37,3 @@ var table = app.ReadTable(1);
 ```
 {% endtab %}
 {% endtabs %}
-

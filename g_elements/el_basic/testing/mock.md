@@ -1,6 +1,6 @@
 # Заглушка
 
-![](<../../../.gitbook/assets/image (961).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (2).png>)
 
 ![](<../../../.gitbook/assets/image (234).png>)
 
@@ -15,6 +15,3 @@
 {% content-ref url="../../../primo-studio/process/debug/testing.md" %}
 [testing.md](../../../primo-studio/process/debug/testing.md)
 {% endcontent-ref %}
-
-
-

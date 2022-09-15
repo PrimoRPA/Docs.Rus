@@ -1,6 +1,6 @@
 # Получить значение
 
-![](<../../../../.gitbook/assets/image (925).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (1) (96).png>)
 
 ![](<../../../../.gitbook/assets/image (269).png>)
 
@@ -30,4 +30,3 @@ var ret = _lib.LTools.Enterprise.OrchestratorApp.AssetGet(wf, "Key");
 ```
 {% endtab %}
 {% endtabs %}
-

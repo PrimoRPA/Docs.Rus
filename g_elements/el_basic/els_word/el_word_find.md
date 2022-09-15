@@ -1,6 +1,6 @@
 # Найти текст
 
-![](<../../../.gitbook/assets/image (760).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (141).png>)
 
 ![](<../../../.gitbook/assets/image (104).png>)
 

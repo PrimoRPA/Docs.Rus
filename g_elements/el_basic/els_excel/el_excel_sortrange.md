@@ -1,6 +1,6 @@
 # Сортировка диапазона
 
-![](<../../../.gitbook/assets/image (836).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (47).png>)
 
 ![](<../../../.gitbook/assets/image (336).png>)
 
@@ -35,4 +35,3 @@ app.SortRange("A1:C12", _lib.LTools.Office.Model.SortDirections.ASCENDING, "Ли
 ```
 {% endtab %}
 {% endtabs %}
-

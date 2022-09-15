@@ -33,4 +33,3 @@ var img = _lib.LTools.Office.PdfApp.ConvertToImage(wf, "Файл 1", 2000, "па
 ```
 {% endtab %}
 {% endtabs %}
-

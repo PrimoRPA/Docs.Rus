@@ -1,6 +1,6 @@
 # Запись в журнал
 
-![](<../../../.gitbook/assets/image (6).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (78).png>)
 
 ![](<../../../.gitbook/assets/image (337).png>)
 
@@ -30,4 +30,3 @@ _lib.LTools.Workflow.PrimoApp.AddToLog(wf, "Сообщение", _lib.LTools.Enu
 ```
 {% endtab %}
 {% endtabs %}
-

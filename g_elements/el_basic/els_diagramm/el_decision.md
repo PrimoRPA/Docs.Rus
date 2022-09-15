@@ -1,6 +1,6 @@
 # Принятие решения
 
-![](<../../../.gitbook/assets/image (975).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (74).png>)
 
 ![](<../../../.gitbook/assets/image (325).png>)
 
@@ -13,4 +13,3 @@
 {% content-ref url="../../../primo-studio/process/diagram.md" %}
 [diagram.md](../../../primo-studio/process/diagram.md)
 {% endcontent-ref %}
-

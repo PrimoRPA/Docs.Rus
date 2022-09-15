@@ -1,6 +1,6 @@
 # Отправить письмо (SMTP)
 
-![](<../../../.gitbook/assets/image (901).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (12).png>)
 
 ![](<../../../.gitbook/assets/image (250).png>)
 
@@ -45,4 +45,3 @@ _lib.LTools.Network.MailApp.SMTPSend(wf, "from", "to", "subject", "body", "serve
 ```
 {% endtab %}
 {% endtabs %}
-

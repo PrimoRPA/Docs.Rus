@@ -10,8 +10,9 @@
 | URL сервера        | String                                               | URL сервера MS Exchange ([https://server/EWS/Exchange.asmx](https://server/EWS/Exchange.asmx)) |
 | URL Auto Discovery | String                                               | URL сервиса автопоиска MS Exchange                                                             |
 | Домен              | String                                               | Имя домена                                                                                     |
-| Логин              | String                                               | Имя пользователя                                                                               |
-| Пароль             | String                                               | Пароль профиля Outlook                                                                         |
+| Логин              | String                                               | Имя пользователя   |
+| Пароль             | String                                               | Пароль профиля Outlook |
+| Российский часовой пояс | Boolean                                         | Настройка предназначена для корректировки времени. Например, в случае, если в русской локализации приложения наблюдается ошибка определения часового пояса  |
 
 {% tabs %}
 {% tab title="C#" %}

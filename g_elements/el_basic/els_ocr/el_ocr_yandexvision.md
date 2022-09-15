@@ -1,6 +1,6 @@
 # Yandex Vision OCR
 
-![](<../../../.gitbook/assets/image (174).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (139).png>)
 
 ![](<../../../.gitbook/assets/image (406).png>)
 
@@ -33,18 +33,16 @@ var app = _lib.LTools.OCR.OcrApp.InitYandex(wf, "ID каталога", "OAuth-т
 {% endtab %}
 {% endtabs %}
 
+1\. Зарегистрироваться в Yandex Cloud
 
+2\. Зайти в консоль [https://console.cloud.yandex.ru/](https://console.cloud.yandex.ru/) и пополнить баланс
 
-1\.       Зарегистрироваться в Yandex Cloud
-
-2\.       Зайти в консоль [https://console.cloud.yandex.ru/](https://console.cloud.yandex.ru/) и пополнить баланс
-
-3\.       Перейти в папку и получить ее идентификатор
+3\. Перейти в папку и получить ее идентификатор
 
 ![](<../../../.gitbook/assets/image (976).png>)
 
-4\.       На странице [https://cloud.yandex.ru/docs/cli/quickstart#install](https://cloud.yandex.ru/docs/cli/quickstart#install) перейти по ссылке
+4\. На странице [https://cloud.yandex.ru/docs/cli/quickstart#install](https://cloud.yandex.ru/docs/cli/quickstart#install) перейти по ссылке
 
 ![](<../../../.gitbook/assets/image (588).png>)
 
-5\.       Получить OAuth ID
+5\. Получить OAuth ID

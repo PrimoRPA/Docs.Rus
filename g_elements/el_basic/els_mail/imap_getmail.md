@@ -1,6 +1,6 @@
 # Получить письма (IMAP)
 
-![](<../../../.gitbook/assets/image (767).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (114).png>)
 
 ![](<../../../.gitbook/assets/image (335).png>)
 
@@ -54,4 +54,3 @@ var mail2 = _libLTools.Network.MailApp.IMAPReceive(wf, "server", 443, "login", "
 ```
 {% endtab %}
 {% endtabs %}
-

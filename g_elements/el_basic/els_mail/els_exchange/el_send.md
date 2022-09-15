@@ -2,18 +2,27 @@
 
 ![](<../../../../.gitbook/assets/image (262).png>)
 
-Компонент, производящий отправку электронной почты через MS Exchange.
+Предназначен для отправки писем через почту MS Exchange. Работает только внутри контейнера [**Сервер MS Exchange**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_mail/els_exchange/el_connect).
 
-| Свойство      | Тип                                                                        | Описание                       |
-| ------------- | -------------------------------------------------------------------------- | ------------------------------ |
-| Переменная    | [LTools.Office.Model.OMailMessage](../datatypes/omailmessage.md)           | Данные отправляемого сообщения |
-| Тело письма   | String                                                                     | Тело отправляемого сообщения   |
-| Вложения      | List\<String>                                                              | Пути к файлам вложений письма  |
-| Кому          | String                                                                     | Адресат сообщения              |
-| Тема          | String                                                                     | Тема сообщения                 |
-| Формат        | [Tools.Office.Model.OMailMessage.MailFormats](../datatypes/mailformats.md) | Формат сообщения               |
-| Ответить      | [LTools.Office.Model.OMailMessage](../datatypes/omailmessage.md)           | Ответить на письмо             |
-| Ответить всем | Boolean                                                                    | Ответить всем адресатам        |
+Общие свойства элемента описаны [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements). Утилитарные представлены в таблице ниже. При этом все свойства, кроме **Кому**, являются необязательными. В случае, если указан только адресат, ему будет отправлено пустое письмо.
+
+| Свойство      | Тип                                                                        | Описание                       
+| ------------- | -------------------------------------------------------------------------- | ------------------------------ 
+| Кому          | String                                                                     | Адресат сообщения. Обязательное поле   
+| Переменная    | [LTools.Office.Model.OMailMessage](../datatypes/omailmessage.md)           | Данные отправляемого сообщения 
+| Тема          | String                                                                     | Тема сообщения                 
+| Тело письма   | String                                                                     | Тело отправляемого сообщения   
+| Вложения      | List\<String>                                                              | Пути к файлам вложений письма             
+| Кому (в копии)| String                                                                     | Поставить в копию             
+| Скрытая копия | String                                                                     | Поставить в скрытую копию     
+| От кого       | String                                                                     | Заполняется при необходимости изменить отправителя. В значении укажите почтовый адрес, например: "iv_ivan@mail.ru". При этом адрес должен входить в список разрешенных на почтовом сервере (подробнее см. [здесь](https://docs.microsoft.com/ru-ru/microsoft-365/admin/email/add-another-email-alias-for-a-user?view=o365-worldwide) и [здесь](https://docs.microsoft.com/ru-ru/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user?view=o365-worldwide)). Если значение не задано, то отправителем по умолчанию будет являться владелец учетной записи, под которой осуществляется подключение к серверу MS Exchange      
+| Формат        | [Tools.Office.Model.OMailMessage.MailFormats](../datatypes/mailformats.md) | Формат сообщения              
+| Копировать в папку | Boolean                                                               | Копировать сообщение после отправки 
+| Папка копирования  | String                                                                | Названия папки для сохранения копии письма  
+| **Группа Re:**    |            |        
+| Ответить      | [LTools.Office.Model.OMailMessage](../datatypes/omailmessage.md)           | Ответить на письмо             
+| Ответить всем | Boolean                                                                    | Если флаг установлен, ответ будет выслан всем адресатам        
+
 
 {% tabs %}
 {% tab title="C#" %}

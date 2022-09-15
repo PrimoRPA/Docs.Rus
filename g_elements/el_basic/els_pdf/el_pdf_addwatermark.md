@@ -1,6 +1,6 @@
 # Добавление водяного знака
 
-![](<../../../.gitbook/assets/image (175).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (99).png>)
 
 ![](<../../../.gitbook/assets/image (331).png>)
 

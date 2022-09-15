@@ -1,6 +1,6 @@
 # Выполнить команду сервера
 
-![](<../../../../.gitbook/assets/image (194).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (1) (109).png>)
 
 ![](<../../../../.gitbook/assets/image (303).png>)
 

@@ -1,6 +1,6 @@
 # Параллельные потоки
 
-![](<../../../.gitbook/assets/image (746).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (19).png>)
 
 ![](<../../../.gitbook/assets/image (71).png>)
 

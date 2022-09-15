@@ -1,6 +1,6 @@
 # Переместить в папку (IMAP)
 
-![](<../../../.gitbook/assets/image (800).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (71).png>)
 
 ![](<../../../.gitbook/assets/image (427).png>)
 
@@ -49,4 +49,3 @@ _lib.LTools.Network.MailApp.IMAPMoveToFolder(wf, "server", 443, "login", "passwo
 ```
 {% endtab %}
 {% endtabs %}
-

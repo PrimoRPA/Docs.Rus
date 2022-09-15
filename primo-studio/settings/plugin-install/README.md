@@ -10,7 +10,7 @@ browser - тип браузера (CHROME, FIREFOX, OPERA, EDGE, YANDEX)
 
 language - язык установки (EN, RU)
 
-mode - режим установки (store, packed, unpacked)
+mode - режим установки (store, packed, unpacked, storelocal)
 
 
 

@@ -1,6 +1,6 @@
 # Приложение Excel
 
-![](<../../../.gitbook/assets/image (974).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (111).png>)
 
 ![](<../../../.gitbook/assets/image (412).png>)
 
@@ -36,4 +36,3 @@ var app = _lib.LTools.Office.ExcelApp.Init(wf, _lib.System.IO.File.ReadAllBytes(
 ```
 {% endtab %}
 {% endtabs %}
-

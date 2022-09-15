@@ -1,6 +1,6 @@
 # Объект к XML
 
-![](<../../../../.gitbook/assets/image (876).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (1) (143).png>)
 
 ![](<../../../../.gitbook/assets/image (390).png>)
 
@@ -47,4 +47,3 @@ let xmlstr = sww.ToString();
 ```
 {% endtab %}
 {% endtabs %}
-

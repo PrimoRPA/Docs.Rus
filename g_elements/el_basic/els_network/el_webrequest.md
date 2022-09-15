@@ -1,6 +1,6 @@
 # Запрос WEB-сервиса
 
-![](<../../../.gitbook/assets/image (57).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (115).png>)
 
 ![](<../../../.gitbook/assets/image (378).png>)
 

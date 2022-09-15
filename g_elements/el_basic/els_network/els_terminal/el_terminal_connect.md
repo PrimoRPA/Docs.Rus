@@ -1,6 +1,6 @@
 # Присоединиться к серверу
 
-![](<../../../../.gitbook/assets/image (180).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (1) (123).png>)
 
 ![](<../../../../.gitbook/assets/image (408).png>)
 
@@ -34,4 +34,3 @@ var app = _lib.LTools.Network.TServerApp.Init(wf, "address", 22, "login", "pass"
 ```
 {% endtab %}
 {% endtabs %}
-

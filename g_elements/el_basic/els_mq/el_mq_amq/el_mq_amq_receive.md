@@ -1,6 +1,6 @@
 # Получить сообщение
 
-![](<../../../../.gitbook/assets/image (785).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (1) (122).png>)
 
 ![](<../../../../.gitbook/assets/image (359).png>)
 
@@ -38,4 +38,3 @@ var ret = _lib.LTools.Network.MqApp.AMQ_Receive(_lib.LTools.Network.MQ.Destinati
 ```
 {% endtab %}
 {% endtabs %}
-

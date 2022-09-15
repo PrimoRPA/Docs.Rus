@@ -1,6 +1,6 @@
 # Назад
 
-![](<../../../.gitbook/assets/image (750).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (140).png>)
 
 ![](<../../../.gitbook/assets/image (351).png>)
 
@@ -28,4 +28,3 @@ app.NavigateBack();
 ```
 {% endtab %}
 {% endtabs %}
-

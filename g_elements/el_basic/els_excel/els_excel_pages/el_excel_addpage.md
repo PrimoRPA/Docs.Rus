@@ -1,6 +1,6 @@
 # Добавить страницу
 
-![](<../../../../.gitbook/assets/image (869).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (1) (118).png>)
 
 ![](<../../../../.gitbook/assets/image (242).png>)
 
@@ -33,4 +33,3 @@ app.SheetAdd("new page", 3);
 ```
 {% endtab %}
 {% endtabs %}
-

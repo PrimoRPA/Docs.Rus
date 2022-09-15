@@ -1,6 +1,6 @@
 # Вперед
 
-![](<../../../.gitbook/assets/image (197).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (129).png>)
 
 ![](<../../../.gitbook/assets/image (267).png>)
 

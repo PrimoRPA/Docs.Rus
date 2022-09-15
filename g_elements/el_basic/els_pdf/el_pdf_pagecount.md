@@ -1,6 +1,6 @@
 # Кол-во страниц
 
-![](<../../../.gitbook/assets/image (195).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (83).png>)
 
 ![](<../../../.gitbook/assets/image (348).png>)
 

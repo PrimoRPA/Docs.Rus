@@ -1,6 +1,6 @@
 # Переименовать страницу
 
-![](<../../../../.gitbook/assets/image (869).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (1) (118).png>)
 
 ![](<../../../../.gitbook/assets/image (41).png>)
 
@@ -33,4 +33,3 @@ app.SheetRename("new name", 0);
 ```
 {% endtab %}
 {% endtabs %}
-

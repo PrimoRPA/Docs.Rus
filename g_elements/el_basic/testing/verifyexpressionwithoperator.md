@@ -1,6 +1,6 @@
 # Проверка выражения с оператором
 
-![](<../../../.gitbook/assets/image (891).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (37).png>)
 
 ![](<../../../.gitbook/assets/image (74).png>)
 
@@ -15,4 +15,3 @@
 {% content-ref url="../../../primo-studio/process/debug/testing.md" %}
 [testing.md](../../../primo-studio/process/debug/testing.md)
 {% endcontent-ref %}
-

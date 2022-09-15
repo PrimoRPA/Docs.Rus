@@ -1,6 +1,6 @@
 # Продолжить цикл
 
-![](<../../../.gitbook/assets/image (817).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (24).png>)
 
 ![](<../../../.gitbook/assets/image (223).png>)
 

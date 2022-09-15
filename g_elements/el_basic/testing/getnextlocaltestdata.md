@@ -1,6 +1,6 @@
 # Получить следующие локальные тестовые данные
 
-![](<../../../.gitbook/assets/image (965).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (57).png>)
 
 ![](<../../../.gitbook/assets/image (215).png>)
 
@@ -14,6 +14,3 @@
 {% content-ref url="../../../primo-studio/process/debug/testing.md" %}
 [testing.md](../../../primo-studio/process/debug/testing.md)
 {% endcontent-ref %}
-
-
-

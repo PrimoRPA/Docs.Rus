@@ -1,6 +1,6 @@
 # Объединить таблицы
 
-![](<../../../../.gitbook/assets/image (778).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (1) (85).png>)
 
 ![](<../../../../.gitbook/assets/image (341).png>)
 
@@ -11,4 +11,3 @@
 | Таблица 1\* | System.Data.DataTable | Таблица 1         |
 | Таблица 2   | System.Data.DataTable | Таблица 2         |
 | Результат\* | System.Data.DataTable | Созданная таблица |
-

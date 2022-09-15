@@ -1,6 +1,6 @@
 # Ссылка на процесс
 
-![](<../../../.gitbook/assets/image (741).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (10).png>)
 
 ![](<../../../.gitbook/assets/image (211).png>)
 
@@ -56,6 +56,3 @@ let ret = args[0];
 ```
 {% endtab %}
 {% endtabs %}
-
-
-
