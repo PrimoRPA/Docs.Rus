@@ -4,8 +4,13 @@
 
 ## Примечания к выпускам <a href="#release-notes" id="release-notes"></a>
 
-* [1.1.28](release-notes/2022/1.1.28.md)
-* [июнь-август 2022](release-notes/2022/summer.md)
+* [2022](release-notes/2022)
+  * [Студия](release-notes/2022/studio)
+    * [1.1.28](release-notes/2022/studio/1.1.28.md)
+    * [июнь-август 2022](release-notes/2022/studio/summer.md)
+  * [Оркестратор](release-notes/2022/orch/)
+    * [2.2.15.0.md](release-notes/2022/orch/2.2.15.0.md)
+    * [2.2.16.0.md](release-notes/2022/orch/2.2.16.0.md)
 
 ## Primo Studio
 
@@ -390,6 +395,7 @@
     * [Пересчет формул](g\_elements/el\_basic/els\_excel/el\_excel\_calc.md)
     * [Поиск в диапазоне](g\_elements/el\_basic/els\_excel/el\_excel\_lookuprange.md)
     * [Поиск на странице](g\_elements/el\_basic/els\_excel/el\_excel\_findall.md)
+    * [Получение диапазона таблицы](g\_elements/el\_basic/els\_excel/el\_excel\_gettablerange.md)
     * [Приложение Excel](g\_elements/el\_basic/els\_excel/el\_excel\_app.md)
     * [Сортировка диапазона](g\_elements/el\_basic/els\_excel/el\_excel\_sortrange.md)
     * [Сохранить документ](g\_elements/el\_basic/els\_excel/el\_excel\_save.md)
@@ -669,6 +675,8 @@
   * [Лицензии](orchestrator/settings/licensing/README.md)
     * [Получение новой лицензии](orchestrator/settings/licensing/new-license.md)
     * [Замена лицензии](orchestrator/settings/licensing/change-license.md)
+  * [Настройка машины Робота на Linux](orchestrator/settings/robotmachine/README.md)
+    * [Установка агента Оркестратора](orchestrator/settings/robotmachine/agentinstall.md)
   * [Загрузка дистрибутивов Робота](orchestrator/settings/upload-robot.md)
   * [Регистрация машины Робота](orchestrator/settings/register-robot.md)
   * [Регистрация агентов для RDP-сессий на машине Робота](orchestrator/settings/register-rdp.md)
