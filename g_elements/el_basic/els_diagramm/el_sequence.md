@@ -1,6 +1,6 @@
 # Последовательность
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (97).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (2) (82).png>)
 
 ![](<../../../.gitbook/assets/image (278).png>)
 

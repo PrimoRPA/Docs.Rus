@@ -1,6 +1,6 @@
 # Разница дат
 
-![](<../../../../.gitbook/assets/image (100) (1) (1) (4).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (2) (45).png>)
 
 ![](<../../../../.gitbook/assets/image (371).png>)
 

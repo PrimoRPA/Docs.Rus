@@ -5,7 +5,7 @@
 ## Примечания к выпускам <a href="#release-notes" id="release-notes"></a>
 
 * [1.1.28](release-notes/2022/1.1.28.md)
-* [июнь-август 2022](release-notes/2022/summer.md)
+* [июнь-август 2022](release-notes/iyun-avgust-2022.md)
 
 ## Primo Studio
 
@@ -66,7 +66,7 @@
 
 ## Рабочие элементы <a href="#g_elements" id="g_elements"></a>
 
-* [Основные элементы](g\_elements/el\_basic/README.md)
+* [Основные элементы](g\_elements/osnovnye-elementy/README.md)
   * [Google Sheets](g\_elements/el\_basic/gsheets/README.md)
     * [Документ Google Sheets](g\_elements/el\_basic/gsheets/el\_gsheets\_document.md)
     * [Запись диапазона](g\_elements/el\_basic/gsheets/el\_gsheets\_writerange.md)
@@ -310,7 +310,7 @@
       * [Сохранить документ](g\_elements/el\_basic/els\_myoffice/els\_text/el\_text\_save.md)
       * [Чтение текста](g\_elements/el\_basic/els\_myoffice/els\_text/el\_text\_readtext.md)
       * [Экспортировать документ](g\_elements/el\_basic/els\_myoffice/els\_text/el\_text\_export.md)
-  * [Оркестратор](g\_elements/el\_basic/els\_orch/README.md)
+  * [Оркестратор](g\_elements/osnovnye-elementy/orkestrator/README.md)
     * [Значения](g\_elements/el\_basic/els\_orch/els\_assets/README.md)
       * [Получить значение](g\_elements/el\_basic/els\_orch/els\_assets/el\_orch\_getvalue.md)
       * [Получить учетные данные](g\_elements/el\_basic/els\_orch/els\_assets/el\_orch\_getcredentials.md)
