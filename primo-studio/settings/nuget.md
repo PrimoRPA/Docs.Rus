@@ -8,7 +8,7 @@
 
 <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-Обязательными к заполнению полями являются Наименование и Источник. После сохранения настроек, источники появятся в окне управления зависимостями
+Обязательными к заполнению полями являются Наименование и источник. После сохранения настроек, источники появятся в окне управления зависимостями
 
 {% content-ref url="../projects/manage-dependencies.md" %}
 [manage-dependencies.md](../projects/manage-dependencies.md)
