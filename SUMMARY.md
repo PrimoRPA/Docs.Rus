@@ -317,7 +317,7 @@
       * [Установить значение](g\_elements/el\_basic/els\_orch/els\_assets/el\_orch\_setvalue.md)
       * [Установить учетные данные](g\_elements/el\_basic/els\_orch/els\_assets/el\_orch\_setcredentials.md)
     * [Очереди](g\_elements/el\_basic/els\_orch/els\_queues/README.md)
-      * [Типы данныз](g\_elements/el\_basic/els\_orch/els\_queues/datatypes.md)
+      * [Типы данных](g\_elements/el\_basic/els\_orch/els\_queues/datatypes.md)
       * [Добавить в очередь](g\_elements/el\_basic/els\_orch/els\_queues/addtoqueue.md)
       * [Изменить статус в очереди](g\_elements/el\_basic/els\_orch/els\_queues/changestatequeue.md)
       * [Ожидать сообщения из очереди](g\_elements/el\_basic/els\_orch/els\_queues/waitqueue.md)
