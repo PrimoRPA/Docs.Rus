@@ -14,7 +14,7 @@
 | QueueName   | String                                                          | Название очереди в Оркестраторе |
 | Data        | Object                                                          | Данные элемента (то же, что и значение) |
 | Table       | [System.Data.DataTable](https://docs.microsoft.com/ru-ru/dotnet/api/system.data.datatable?view=net-5.0) | Данные элемента, представленные в виде таблицы |
-| PostponeAt  | DateTime?                                                       | Время, до которого откладывается обработка значения элемента |
-| DeadlineAt  | DateTime?                                                       | Время, после которого элемент удаляется из очереди |
+| PostponeAt  | DateTime(https://learn.microsoft.com/ru-ru/dotnet/api/system.datetime?view=net-6.0)                                                        | Время, до которого откладывается обработка значения элемента. Например: dd.MM.yyyy HH:mm:ss |
+| DeadlineAt  | DateTime                                                        | Время, после которого элемент удаляется из очереди |
 | State       | Ltools.Enums.ExchangeQueueValueEventType2?                      | Состояние обработки элемента очереди |
 
