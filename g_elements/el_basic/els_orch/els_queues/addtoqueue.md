@@ -6,6 +6,20 @@
 
 Помогает добавить данные (значение) в очередь Оркестратора. Добавленному значению будет присвоен статус *New*.
 
+Ниже приведен формат данных для свойств элемента **Добавить в очередь**:
+
+| Свойство   | Тип    | Обяз.  | Пример 
+| ---------- | ------ | ------ | ------
+| Очередь    | String | Да     | "Queue"
+| Значение   | String | Да     | ""
+| Элемент    | [LTools.Enterprise.Model.QueueItem](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/orkestrator/els_queues/datatypes) | Нет | itemQueue
+| Идентификатор | String | Нет | "1"
+| Метаданные | Dictionary<string, string> | Нет |
+| Тэги       | List<string>   | Нет |
+| Устранить после | DateTime? | Нет |
+| Недоступен до | DateTime?   | Нет |
+| Таблица       | DataTable   | Нет | 
+
 **Свойства элемента в панели**:
 
 * Группа **Общие**: описание общих свойств см. в разделе [_**Работа с элементами**_](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements)
@@ -22,20 +36,6 @@
 * Группа **Вывод**:
 
   * **Элемент**: переменная, в которую нужно сохранить добавленный элемент очереди.
-
-Ниже приведен формат данных для указанных свойств и пример заполнения в Студии.
-
-| Свойство   | Тип    | Обяз.  | Пример 
-| ---------- | ------ | ------ | ------
-| Очередь    | String | Да     | "Queue"
-| Значение   | String | Да     | ""
-| Элемент    | [LTools.Enterprise.Model.QueueItem](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/orkestrator/els_queues/datatypes) | Нет | itemQueue
-| Идентификатор | String | Нет | "1"
-| Метаданные | Dictionary<string, string> | Нет |
-| Тэги       | List<string>   | Нет |
-| Устранить после | DateTime? | Нет |
-| Недоступен до | DateTime?   | Нет |
-| Таблица       | DataTable   | Нет | 
 
 Пример добавленного элемента очереди в Оркестраторе:
  
