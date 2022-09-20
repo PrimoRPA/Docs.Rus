@@ -2,4 +2,32 @@
 
 Раздел описывает возможные действия с элементами очереди Оркестратора. 
 
-*Часто понятие **Элемент очереди** может замещаться словами **Значение** или **Сообщение**. При этом значение и сообщение - это одно и то же. Значение фактически является свойством объекта элемента очереди, его данными*
+Очередь — это контейнер данных в хранилище Оркестратора. Очереди позволяют организовать взаимодействие Студии и Роботов Оркестратора при выполнении RPA-проектов.
+Элемент очереди - это информация, которая была получена Роботом при выполнении RPA-проекта. Позднее ее могут использовать другие Роботы Оркестратора.
+
+> *Часто понятие **Элемент очереди** может замещаться в Студии словами **Значение** или **Сообщение**. Значение - это данные элемента очереди, одно из свойств [объекта QueueItem](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/orkestrator/els_queues/datatypes)*.
+
+Очередь позволяет хранить неограниченное количество элементов (данных). Данные обрабатываются в очереди по принципу **первым пришёл – первым обслужен**.
+
+## Как использовать Очереди
+
+Управление очередями осуществляют разработчики RPA. 
+
+Следующие элементы отвечают за работу с очередями:
+
+* [Добавить в очередь](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/orkestrator/els_queues/addtoqueue)
+* [Получить из очереди](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/orkestrator/els_queues/readfromqueue)
+* [Получить из очереди по ID](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/orkestrator/els_queues/peekqueueid)
+* [Получить из очереди по фильтру](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/orkestrator/els_queues/peekqueuefilter)
+* [Ожидать сообщения из очереди](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/orkestrator/els_queues/waitqueue)
+* [Изменить статус очереди](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/orkestrator/els_queues/changestatequeue)
+* [Удалить из очереди](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/orkestrator/els_queues/deletequeueitem)
+
+Их можно найти на панели **Элементы** в группе **Оркестратор ➝ Очереди**, как показано на рисунке ниже:
+
+## Требование
+
+Для работы с этими действиями [Оркестратор должен быть связан с Роботом](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/register-robot).
+
+
+
