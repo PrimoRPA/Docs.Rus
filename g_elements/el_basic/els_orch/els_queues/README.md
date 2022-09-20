@@ -11,7 +11,7 @@
 
 ## Как использовать Очереди
 
-Управление очередями осуществляют разработчики RPA в Студии при помощи следующих элементов:
+Управление очередями осуществляют разработчики RPA при помощи следующих элементов Студии:
 
 * [Добавить в очередь](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/orkestrator/els_queues/addtoqueue)
 * [Получить из очереди](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/orkestrator/els_queues/readfromqueue)
