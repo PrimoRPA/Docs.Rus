@@ -13,10 +13,10 @@
 
 ### **Содержание документа**:
 
-1. Введение.
-2. Файлы из комплекта поставки Оркестратора.
-3. Аппаратные требования.
-4. Инструкция по установке агента Оркестратора.
+1. [Введение](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/robotmachine#введение).
+2. [Файлы из комплекта поставки Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/robotmachine#файлы-из-комплекта-поставки-оркестратора).
+3. [Аппаратные требования](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/robotmachine#аппаратные-требования).
+4. [Инструкция по установке агента Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/robotmachine/agentinstall).
 
 ---
 
@@ -60,6 +60,6 @@
 
 ## Инструкция по установке агента 
 
-Настройка агента и машины для Робота пошагово описана в разделе **Установка агента Оркестратора**.
+Настройка агента и машины для Робота пошагово описана в разделе [**Установка агента Оркестратора**](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/robotmachine/agentinstall).
 
 
