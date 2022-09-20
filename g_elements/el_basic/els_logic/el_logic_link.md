@@ -1,6 +1,6 @@
 # Ссылка на процесс
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (10).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (2) (38).png>)
 
 ![](<../../../.gitbook/assets/image (211).png>)
 

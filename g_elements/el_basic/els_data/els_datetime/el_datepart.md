@@ -1,6 +1,6 @@
 # Часть даты
 
-![](<../../../../.gitbook/assets/image (100) (1) (1) (80).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (2) (46).png>)
 
 ![](<../../../../.gitbook/assets/image (447).png>)
 
