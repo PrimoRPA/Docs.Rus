@@ -1,6 +1,6 @@
 # Цикл Do-While
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (61).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (2) (161).png>)
 
 ![](<../../../.gitbook/assets/image (30).png>)
 

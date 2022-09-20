@@ -1,6 +1,6 @@
 # Очистить таблицу
 
-![](<../../../../.gitbook/assets/image (100) (1) (1) (144).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (2) (106).png>)
 
 ![](<../../../../.gitbook/assets/image (254).png>)
 

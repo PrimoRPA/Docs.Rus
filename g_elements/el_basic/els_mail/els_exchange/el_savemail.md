@@ -1,18 +1,17 @@
 # Сохранить сообщение
 
-![](<../../../../.gitbook/assets/image (815).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1).png>)
 
 ![](<../../../../.gitbook/assets/Сохранить сообщение Exchange и Outlook.png>)
 
-Позволяет сохранить на диск письмо из электронной почты MS Exchange. Корректно работает только внутри контейнера [**Сервер MS Exchange**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_mail/els_exchange/el_connect).
+Позволяет сохранить на диск письмо из электронной почты MS Exchange. Корректно работает только внутри контейнера [**Сервер MS Exchange**](https://docs.primo-rpa.ru/primo-rpa/g\_elements/el\_basic/els\_mail/els\_exchange/el\_connect).
 
-> *Общие свойства элемента описаны в разделе [**Работа с элементами**](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements).*
+> _Общие свойства элемента описаны в разделе_ [_**Работа с элементами**_](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements)_._
 
-| Свойство       |Тип                                                                           | Описание                                          
-| -------------- | ---------------------------------------------------------------------------- | --------------------------------------- |
-| Путь\*           | String                                                                     | Путь сохранения файла в формате \*.eml  |             
-| Сообщение\*      |[LTools.Office.Model.OMailMessage](../els\_mail/datatypes/omailmessage.md)  | Письмо для сохранения, переменная       |   
-
+| Свойство    | Тип                                                                        | Описание                               |
+| ----------- | -------------------------------------------------------------------------- | -------------------------------------- |
+| Путь\*      | String                                                                     | Путь сохранения файла в формате \*.eml |
+| Сообщение\* | [LTools.Office.Model.OMailMessage](../els\_mail/datatypes/omailmessage.md) | Письмо для сохранения, переменная      |
 
 {% tabs %}
 {% tab title="C#" %}
@@ -36,4 +35,3 @@ app.SaveMessage(msg, "C:\\file.eml");
 ```
 {% endtab %}
 {% endtabs %}
-

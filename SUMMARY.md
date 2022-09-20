@@ -4,8 +4,13 @@
 
 ## Примечания к выпускам <a href="#release-notes" id="release-notes"></a>
 
-* [1.1.28](release-notes/2022/1.1.28.md)
-* [июнь-август 2022](release-notes/2022/summer.md)
+* [2022](release-notes/2022)
+  * [Студия](release-notes/2022/studio)
+    * [1.1.28](release-notes/2022/studio/1.1.28.md)
+    * [июнь-август 2022](release-notes/2022/studio/summer.md)
+  * [Оркестратор](release-notes/2022/orch/)
+    * [2.2.15.0.md](release-notes/2022/orch/2.2.15.0.md)
+    * [2.2.16.0.md](release-notes/2022/orch/2.2.16.0.md)
 
 ## Primo Studio
 
@@ -66,7 +71,7 @@
 
 ## Рабочие элементы <a href="#g_elements" id="g_elements"></a>
 
-* [Основные элементы](g\_elements/el\_basic/README.md)
+* [Основные элементы](g\_elements/osnovnye-elementy/README.md)
   * [Google Sheets](g\_elements/el\_basic/gsheets/README.md)
     * [Документ Google Sheets](g\_elements/el\_basic/gsheets/el\_gsheets\_document.md)
     * [Запись диапазона](g\_elements/el\_basic/gsheets/el\_gsheets\_writerange.md)
@@ -310,14 +315,14 @@
       * [Сохранить документ](g\_elements/el\_basic/els\_myoffice/els\_text/el\_text\_save.md)
       * [Чтение текста](g\_elements/el\_basic/els\_myoffice/els\_text/el\_text\_readtext.md)
       * [Экспортировать документ](g\_elements/el\_basic/els\_myoffice/els\_text/el\_text\_export.md)
-  * [Оркестратор](g\_elements/el\_basic/els\_orch/README.md)
+  * [Оркестратор](g\_elements/osnovnye-elementy/orkestrator/README.md)
     * [Значения](g\_elements/el\_basic/els\_orch/els\_assets/README.md)
       * [Получить значение](g\_elements/el\_basic/els\_orch/els\_assets/el\_orch\_getvalue.md)
       * [Получить учетные данные](g\_elements/el\_basic/els\_orch/els\_assets/el\_orch\_getcredentials.md)
       * [Установить значение](g\_elements/el\_basic/els\_orch/els\_assets/el\_orch\_setvalue.md)
       * [Установить учетные данные](g\_elements/el\_basic/els\_orch/els\_assets/el\_orch\_setcredentials.md)
     * [Очереди](g\_elements/el\_basic/els\_orch/els\_queues/README.md)
-      * [Типы данныз](g\_elements/el\_basic/els\_orch/els\_queues/datatypes.md)
+      * [Типы данных](g\_elements/el\_basic/els\_orch/els\_queues/datatypes.md)
       * [Добавить в очередь](g\_elements/el\_basic/els\_orch/els\_queues/addtoqueue.md)
       * [Изменить статус в очереди](g\_elements/el\_basic/els\_orch/els\_queues/changestatequeue.md)
       * [Ожидать сообщения из очереди](g\_elements/el\_basic/els\_orch/els\_queues/waitqueue.md)
@@ -390,6 +395,7 @@
     * [Пересчет формул](g\_elements/el\_basic/els\_excel/el\_excel\_calc.md)
     * [Поиск в диапазоне](g\_elements/el\_basic/els\_excel/el\_excel\_lookuprange.md)
     * [Поиск на странице](g\_elements/el\_basic/els\_excel/el\_excel\_findall.md)
+    * [Получение диапазона таблицы](g\_elements/el\_basic/els\_excel/el\_excel\_gettablerange.md)
     * [Приложение Excel](g\_elements/el\_basic/els\_excel/el\_excel\_app.md)
     * [Сортировка диапазона](g\_elements/el\_basic/els\_excel/el\_excel\_sortrange.md)
     * [Сохранить документ](g\_elements/el\_basic/els\_excel/el\_excel\_save.md)
@@ -669,6 +675,8 @@
   * [Лицензии](orchestrator/settings/licensing/README.md)
     * [Получение новой лицензии](orchestrator/settings/licensing/new-license.md)
     * [Замена лицензии](orchestrator/settings/licensing/change-license.md)
+  * [Настройка машины Робота на Linux](orchestrator/settings/robotmachine/README.md)
+    * [Установка агента Оркестратора](orchestrator/settings/robotmachine/agentinstall.md)
   * [Загрузка дистрибутивов Робота](orchestrator/settings/upload-robot.md)
   * [Регистрация машины Робота](orchestrator/settings/register-robot.md)
   * [Регистрация агентов для RDP-сессий на машине Робота](orchestrator/settings/register-rdp.md)

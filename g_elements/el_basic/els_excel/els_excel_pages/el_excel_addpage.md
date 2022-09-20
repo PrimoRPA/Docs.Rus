@@ -1,6 +1,6 @@
 # Добавить страницу
 
-![](<../../../../.gitbook/assets/image (100) (1) (1) (118).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (2) (124).png>)
 
 ![](<../../../../.gitbook/assets/image (242).png>)
 

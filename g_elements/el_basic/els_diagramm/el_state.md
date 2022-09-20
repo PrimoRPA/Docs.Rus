@@ -1,6 +1,6 @@
 # Состояние
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (76).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (2) (73).png>)
 
 ![](<../../../.gitbook/assets/image (273).png>)
 
