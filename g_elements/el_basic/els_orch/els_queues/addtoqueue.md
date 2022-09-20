@@ -29,7 +29,7 @@
 | ---------- | ------ | ------ | ------
 | Очередь    | String | Да     | "Queue"
 | Значение   | String | Да     | ""
-| Элемент    | LTools.Enterprise.Model.QueueItem | Нет | itemQueue
+| Элемент    | [LTools.Enterprise.Model.QueueItem](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/orkestrator/els_queues/datatypes) | Нет | itemQueue
 | Идентификатор | String | Нет | "1"
 | Метаданные | Dictionary<string, string> | Нет |
 | Тэги       | List<string> | Нет |
