@@ -23,9 +23,13 @@
 
 Их можно найти на панели **Элементы** в группе **Оркестратор ➝ Очереди**, как показано на рисунке ниже:
 
+![](<../../../../.gitbook/assets/очереди орк. панель.png>)
+
 ## Требование
 
 Для работы с этими действиями [Оркестратор должен быть связан с Роботом](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/register-robot).
+
+О том, как создать очередь в Оркестраторе, читайте [здесь](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/data-queues).
 
 
 
