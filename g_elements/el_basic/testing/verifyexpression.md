@@ -1,6 +1,6 @@
 # Проверка выражения
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (42).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (2) (155).png>)
 
 ![](<../../../.gitbook/assets/image (121).png>)
 

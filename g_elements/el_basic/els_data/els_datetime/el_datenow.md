@@ -1,6 +1,6 @@
 # Текущая дата/время
 
-![](<../../../../.gitbook/assets/image (100) (1) (1) (62).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (2) (57).png>)
 
 ![](<../../../../.gitbook/assets/image (444).png>)
 

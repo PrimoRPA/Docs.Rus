@@ -1,6 +1,6 @@
 # Вставка изображения
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (16).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (2) (40).png>)
 
 ![](<../../../.gitbook/assets/image (204).png>)
 
