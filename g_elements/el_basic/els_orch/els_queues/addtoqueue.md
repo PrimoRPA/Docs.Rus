@@ -32,10 +32,10 @@
 | Элемент    | [LTools.Enterprise.Model.QueueItem](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/orkestrator/els_queues/datatypes) | Нет | itemQueue
 | Идентификатор | String | Нет | "1"
 | Метаданные | Dictionary<string, string> | Нет |
-| Тэги       | List<string> | Нет |
+| Тэги       | List<string>   | Нет |
 | Устранить после | DateTime? | Нет |
 | Недоступен до | DateTime?   | Нет |
-| Таблица | DataTable] | Нет | 
+| Таблица       | DataTable   | Нет | 
 
 Пример добавленного элемента очереди в Оркестраторе:
  
