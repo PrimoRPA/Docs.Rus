@@ -20,7 +20,7 @@
 | Устранить после | DateTime | new DateTime(2022, 9, 21)
 | Элемент    | [LTools.Enterprise.Model.QueueItem](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/orkestrator/els_queues/datatypes) | itemQueue
 
-**Свойства элемента в панели**:
+**Описание свойств**:
 
 * Группа **Общие**: описание общих свойств см. в разделе [**Работа с элементами**](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements).
 * Группа **Процесс**:   
