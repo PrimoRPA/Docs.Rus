@@ -6,7 +6,29 @@
 
 Элемент позволяет отсоединиться от базы данных.
 
-| Свойство            | Тип                                 | Описание                                                                                                                |
-| ------------------- | ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| Соединение с БД     | LTools.Database.DatabaseInst        | Инстанс соединения с БД
+| Свойство            | Тип                                 | Описание                     |
+| ------------------- | ----------------------------------- | ---------------------------- |
+| Соединение с БД     | LTools.Database.DatabaseInst        | Инстанс соединения с БД      |
   
+{% tabs %}
+{% tab title="C#" %}
+```csharp
+LTools.Database.DatabaseApp app = LTools.Database.DatabaseApp.Init(wf, "Provider=SQLOLEDB;Data Source=<servername>;Initial Catalog=<dbname>;Integrated Security=SSPI");
+app.Disconnect();
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```python
+app = LTools.Database.DatabaseApp.Init(wf, "Provider=SQLOLEDB;Data Source=<servername>;Initial Catalog=<dbname>;Integrated Security=SSPI")
+app.Disconnect()
+```
+{% endtab %}
+
+{% tab title="JavaScript" %}
+```javascript
+var app = _lib.LTools.Database.DatabaseApp.Init(wf, "Provider=SQLOLEDB;Data Source=<servername>;Initial Catalog=<dbname>;Integrated Security=SSPI");
+app.Disconnect();
+```
+{% endtab %}
+{% endtabs %}
