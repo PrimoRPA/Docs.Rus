@@ -14,3 +14,24 @@
 | Пароль         | String                           | Укажите пароль, если это требуется                 |
 | Таймаут\*      | Int32                            | Предельное время ожидания завершения процесса (мс). Если процесс не был выполнен по истечении таймаута, в консоли отобразится ошибка |
 | Путь к папке\* | String                           | Укажите путь к папке, которую нужно создать        |
+
+
+{% tabs %}
+{% tab title="C#" %}
+```csharp
+LTools.Network.NetworkApp.FTPCreateFolder(wf, LTools.Network.FTP.ProtocolTypes.FTPS, "server", "login", "password", "folder/subfolder");
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```python
+LTools.Network.NetworkApp.FTPCreateFolder(wf, LTools.Network.FTP.ProtocolTypes.FTPS, "server", "login", "password", "folder/subfolder")
+```
+{% endtab %}
+
+{% tab title="JavaScript" %}
+```javascript
+_lib.LTools.Network.NetworkApp.FTPCreateFolder(wf, _lib.LTools.Network.FTP.ProtocolTypes.FTPS, "server", "login", "password", "folder/subfolder");
+```
+{% endtab %}
+{% endtabs %}
