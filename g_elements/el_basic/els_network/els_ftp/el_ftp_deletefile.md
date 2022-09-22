@@ -14,3 +14,23 @@
 | Пароль         | String                           | Пароль                                             |
 | Путь к файлу\* | String                           | Путь удаления файла                                |
 | Таймаут\*      | Int32                            | Предельное время ожидания завершения процесса (мс) |
+
+{% tabs %}
+{% tab title="C#" %}
+```csharp
+LTools.Network.NetworkApp.FTPDeleteFile(wf, LTools.Network.FTP.ProtocolTypes.FTPS, "server", "login", "password", "folder/file.txt");
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```python
+LTools.Network.NetworkApp.FTPDeleteFile(wf, LTools.Network.FTP.ProtocolTypes.FTPS, "server", "login", "password", "folder/file.txt")
+```
+{% endtab %}
+
+{% tab title="JavaScript" %}
+```javascript
+_lib.LTools.Network.NetworkApp.FTPDeleteFile(wf, _lib.LTools.Network.FTP.ProtocolTypes.FTPS, "server", "login", "password", "folder/file.txt")
+```
+{% endtab %}
+{% endtabs %}
