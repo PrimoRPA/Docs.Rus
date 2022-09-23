@@ -8,6 +8,6 @@ LTools.OCR.Model.FlexiCapture.RecognitionBlock.
 | Text                    | String                        | Текст                         |
 | Items                   | Dictionary\<string, string>   | Базовый элемент               |
 | DKey                    | String                        | Ключ                          |
-| Bounds                  | Rectangle                     | Координаты                    |
+| Bounds                  | [Rectangle](https://learn.microsoft.com/ru-ru/dotnet/api/system.drawing.rectangle?view=net-6.0) | Координаты  |
 | HasSuspicious           | Boolean                       | Имеются подозрения            |
 
