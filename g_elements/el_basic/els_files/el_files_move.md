@@ -1,6 +1,6 @@
 # Переместить файл
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (2) (26).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (2) (75).png>)
 
 ![](<../../../.gitbook/assets/image (103).png>)
 

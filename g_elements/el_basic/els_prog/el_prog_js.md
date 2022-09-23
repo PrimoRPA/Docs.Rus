@@ -1,6 +1,6 @@
 # JavaScript
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (2) (151).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (2) (289).png>)
 
 ![](<../../../.gitbook/assets/image (31).png>)
 

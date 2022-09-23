@@ -1,6 +1,6 @@
 # Выполнить запрос
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (2) (300).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (2) (229).png>)
 
 ![](<../../../.gitbook/assets/image (421).png>)
 
