@@ -1,6 +1,6 @@
 # Запись в журнал
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (2) (63).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (2) (290).png>)
 
 ![](<../../../.gitbook/assets/image (337).png>)
 

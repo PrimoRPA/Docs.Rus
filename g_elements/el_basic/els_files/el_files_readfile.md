@@ -1,6 +1,6 @@
 # Чтение файла
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (2) (27).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (2) (140).png>)
 
 ![](<../../../.gitbook/assets/image (96).png>)
 

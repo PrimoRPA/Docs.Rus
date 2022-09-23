@@ -1,6 +1,6 @@
 # Создать файл
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (2) (156).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (2) (43).png>)
 
 ![](<../../../.gitbook/assets/image (15).png>)
 

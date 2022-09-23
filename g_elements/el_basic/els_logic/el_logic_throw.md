@@ -1,6 +1,6 @@
 # Исключение
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (2) (132).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (2) (11).png>)
 
 ![](<../../../.gitbook/assets/image (126).png>)
 

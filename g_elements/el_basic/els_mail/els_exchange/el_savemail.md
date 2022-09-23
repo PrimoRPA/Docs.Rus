@@ -1,6 +1,6 @@
 # Сохранить сообщение
 
-![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (2) (137).png>)
 
 ![](<../../../../.gitbook/assets/Сохранить сообщение Exchange и Outlook.png>)
 

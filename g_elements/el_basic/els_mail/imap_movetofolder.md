@@ -1,6 +1,6 @@
 # Переместить в папку (IMAP)
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (2) (47).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (2) (301).png>)
 
 ![](<../../../.gitbook/assets/image (427).png>)
 

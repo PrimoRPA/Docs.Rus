@@ -1,6 +1,6 @@
 # Сортировка диапазона
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (2) (150).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (2) (9).png>)
 
 ![](<../../../.gitbook/assets/image (336).png>)
 

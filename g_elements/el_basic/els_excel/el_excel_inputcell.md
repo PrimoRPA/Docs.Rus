@@ -1,6 +1,6 @@
 # Ввод в ячейку
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (2) (68).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (2) (270).png>)
 
 ![](<../../../.gitbook/assets/image (450).png>)
 
