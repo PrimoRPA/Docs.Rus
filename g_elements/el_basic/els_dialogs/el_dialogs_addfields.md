@@ -11,3 +11,5 @@
 | Свойство | Тип                         | Описание        |
 | -------- | --------------------------- | --------------- |
 | Поля\*   | Dictionary<string, string> | Массив полей, которые нужно добавить в журнал. Пример: new Dictionary<string, string>() { { "key", "\\"value\\"" } } |
+
+Впоследствии можно удалить поля при помощи элемента [**Удалить поля журнала](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/els_dialogs/el_dialogs_removefields).
