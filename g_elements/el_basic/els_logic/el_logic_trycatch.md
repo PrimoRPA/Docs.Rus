@@ -1,6 +1,6 @@
 # Try-Catch
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (292).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (229).png>)
 
 ![](<../../../.gitbook/assets/image (53).png>)
 

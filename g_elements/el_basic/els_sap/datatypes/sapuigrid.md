@@ -14,7 +14,7 @@ LTools.SAP.Model.SAPUIGrid
 | ScrollLimit    | System.Drawing.Point                                            | Предельное значение прокрутки          |
 | ScrollPosition | System.Drawing.Point                                            | Текущее состояние прокрутки            |
 | ScreenLeft     | int?                                                            | Отступ слева                           |
-| ScreenTop      | int?                                                            | Отстут сверху                          |
+| ScreenTop      | int?                                                            | Отступ сверху                          |
 | Width          | int?                                                            | Ширина                                 |
 | Height         | int?                                                            | Высота                                 |
 

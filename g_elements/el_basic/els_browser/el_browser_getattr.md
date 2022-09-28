@@ -1,6 +1,6 @@
 # Получить атрибут
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (69).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (8).png>)
 
 ![](<../../../.gitbook/assets/image (319).png>)
 

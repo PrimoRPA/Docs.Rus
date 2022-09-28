@@ -1,6 +1,6 @@
 # XML к объекту
 
-![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (46).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (20).png>)
 
 ![](<../../../../.gitbook/assets/image (248).png>)
 

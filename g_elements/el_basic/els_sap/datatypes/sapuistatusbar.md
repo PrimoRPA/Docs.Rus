@@ -8,7 +8,7 @@ LTools.SAP.Model.SAPUIStatusBar&#x20;
 | Id         | String                          | ID элемента       |
 | Text       | String                          | Текст             |
 | ScreenLeft | int?                            | Отступ слева      |
-| ScreenTop  | int?                            | Отстут сверху     |
+| ScreenTop  | int?                            | Отступ сверху     |
 | Width      | int?                            | Ширина            |
 | Height     | int?                            | Высота            |
 
