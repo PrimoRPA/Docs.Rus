@@ -1,6 +1,6 @@
 # Чтение диапазона
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (184).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (32).png>)
 
 ![](<../../../.gitbook/assets/image (75).png>)
 

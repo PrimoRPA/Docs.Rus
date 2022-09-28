@@ -1,6 +1,6 @@
 # Прокрутка
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (80).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (280).png>)
 
 ![](<../../../.gitbook/assets/image (274).png>)
 

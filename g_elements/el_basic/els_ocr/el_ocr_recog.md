@@ -1,6 +1,6 @@
 # Распознать текст
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (58).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (257).png>)
 
 ![](<../../../.gitbook/assets/image (316).png>)
 

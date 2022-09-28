@@ -1,6 +1,6 @@
 # Присвоение
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (160).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (28).png>)
 
 ![](<../../../.gitbook/assets/image (179).png>)
 

@@ -1,6 +1,6 @@
 # Закомментировать
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (185).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (31).png>)
 
 ![](<../../../.gitbook/assets/image (89).png>)
 

@@ -1,6 +1,6 @@
 # JSON к объекту
 
-![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (5).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (235).png>)
 
 ![](<../../../../.gitbook/assets/image (255).png>)
 

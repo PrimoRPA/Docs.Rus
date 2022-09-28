@@ -9,7 +9,7 @@ LTools.SAP.Model.SAPUICheckBox
 | Color      | int                            | Цвет              |
 | IsChecked  | bool                           | Признак отметки   |
 | ScreenLeft | int?                           | Отступ слева      |
-| ScreenTop  | int?                           | Отстут сверху     |
+| ScreenTop  | int?                           | Отступ сверху     |
 | Width      | int?                           | Ширина            |
 | Height     | int?                           | Высота            |
 

@@ -1,6 +1,6 @@
 # Вставить таблицу
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (6).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (208).png>)
 
 ![](<../../../.gitbook/assets/image (130).png>)
 
