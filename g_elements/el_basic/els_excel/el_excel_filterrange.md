@@ -1,6 +1,6 @@
 # Фильтр диапазона
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (234).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (233).png>)
 
 ![](<../../../.gitbook/assets/image (265).png>)
 

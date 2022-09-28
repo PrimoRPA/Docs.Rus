@@ -1,6 +1,6 @@
 # Запрос XPath
 
-![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (31).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (119).png>)
 
 ![](<../../../../.gitbook/assets/image (373).png>)
 

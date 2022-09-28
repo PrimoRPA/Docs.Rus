@@ -1,6 +1,6 @@
 # Диаграмма
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (132).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (76).png>)
 
 ![](<../../../.gitbook/assets/image (333).png>)
 

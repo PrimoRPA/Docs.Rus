@@ -9,7 +9,7 @@ LTools.SAP.Model.SAPUIRadioButton
 | Text       | String                            | Текст                |
 | IsSelected | bool                              | Признак выделенности |
 | ScreenLeft | int?                              | Отступ слева         |
-| ScreenTop  | int?                              | Отстут сверху        |
+| ScreenTop  | int?                              | Отступ сверху        |
 | Width      | int?                              | Ширина               |
 | Height     | int?                              | Высота               |
 

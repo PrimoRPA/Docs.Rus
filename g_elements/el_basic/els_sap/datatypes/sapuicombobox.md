@@ -9,7 +9,7 @@ LTools.SAP.Model.SAPUIComboBox
 | Items         | List<[LTools.SAP.Model.SAPUIComboBoxItem](sapuicomboboxitem.md)> | Элементы списка   |
 | SelectedItem  | [SAPUIComboBoxItem](sapuicomboboxitem.md)                        | Выбранный элемент |
 | ScreenLeft    | int?                                                             | Отступ слева      |
-| ScreenTop     | int?                                                             | Отстут сверху     |
+| ScreenTop     | int?                                                             | Отступ сверху     |
 | Width         | int?                                                             | Ширина            |
 | Height        | int?                                                             | Высота            |
 

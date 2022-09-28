@@ -1,6 +1,6 @@
 # Выход из цикла
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (260).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (289).png>)
 
 ![](<../../../.gitbook/assets/image (24).png>)
 
