@@ -1,6 +1,6 @@
 # Якорь
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (2) (224).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (44).png>)
 
 ![](<../../../.gitbook/assets/image (404).png>)
 

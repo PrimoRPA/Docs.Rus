@@ -1,6 +1,6 @@
 # Цикл While
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (2) (52).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (163).png>)
 
 ![](<../../../.gitbook/assets/image (58).png>)
 

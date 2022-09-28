@@ -1,8 +1,8 @@
 # Получить список файлов FTP
 
-![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (2) (222).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (22).png>)
 
-<figure><img src="../../../../.gitbook/assets/ftp_list_file.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (288).png" alt=""><figcaption></figcaption></figure>
 
 Компонент, получающий список файлов от сервера по протоколу FTP(S).
 

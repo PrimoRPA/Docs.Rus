@@ -1,6 +1,6 @@
 # Соединение с Yandex.Disk
 
-![](<../../../../.gitbook/assets/image (492).png>)
+![](<../../../../.gitbook/assets/image (462).png>)
 
 Элемент, производящий соединение с Yandex Disk
 

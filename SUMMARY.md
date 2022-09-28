@@ -94,7 +94,7 @@
     * [Типы данных](g\_elements/el\_basic/els\_ocr/datatypes/README.md)
       * [OCRPatternResults](g\_elements/el\_basic/els\_ocr/datatypes/ocrpatternresults.md)
     * [ABBYY FlexiCapture](g\_elements/el\_basic/els\_ocr/el\_ocr\_flexi/README.md)
-      * [Типы данных](g\_elements/el\_basic/els\_ocr/el\_ocr\_flexi/tipy-dannykh/README.md)
+      * [Типы данных](g\_elements/osnovnye-elementy/els\_ocr/el\_ocr\_flexi/tipy-dannykh/README.md)
         * [RecognitionResults](g\_elements/el\_basic/els\_ocr/el\_ocr\_flexi/tipy-dannykh/recognitionresults.md)
         * [RecognitionDocument](g\_elements/el\_basic/els\_ocr/el\_ocr\_flexi/tipy-dannykh/recognitiondocument.md)
         * [RecognitionResult](g\_elements/el\_basic/els\_ocr/el\_ocr\_flexi/tipy-dannykh/recognitionresult.md)

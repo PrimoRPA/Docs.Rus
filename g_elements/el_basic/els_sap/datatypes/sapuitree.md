@@ -10,7 +10,7 @@ LTools.SAP.Model.SAPUITree
 | ColumnNames  | List\<string>                                            | Имена колонок     |
 | Nodes        | List<[LTools.SAP.Model.SAPUITreeNode](sapuitreenode.md)> | Узлы дерева       |
 | ScreenLeft   | int?                                                     | Отступ слева      |
-| ScreenTop    | int?                                                     | Отстут сверху     |
+| ScreenTop    | int?                                                     | Отступ сверху     |
 | Width        | int?                                                     | Ширина            |
 | Height       | int?                                                     | Высота            |
 

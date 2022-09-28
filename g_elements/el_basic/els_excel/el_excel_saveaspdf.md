@@ -1,6 +1,6 @@
 # Сохранить как PDF
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (2) (1).png>)
 
 ![](<../../../.gitbook/assets/Сохранить как PDF.png>)
 
