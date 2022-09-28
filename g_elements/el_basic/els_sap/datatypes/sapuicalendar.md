@@ -8,7 +8,7 @@
 | SelectionEnd    | DateTime?                | Окончание диапазона дат |
 | FocusedDate     | DateTime?                | Выбранная дата          |
 | ScreenLeft      | int?                     | Отступ слева            |
-| ScreenTop       | int?                     | Отстут сверху           |
+| ScreenTop       | int?                     | Отступ сверху           |
 | Width           | int?                     | Ширина                  |
 | Height          | int?                     | Высота                  |
 

@@ -1,6 +1,6 @@
 # Поиск файлов
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (161).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (231).png>)
 
 ![](<../../../.gitbook/assets/image (199).png>)
 

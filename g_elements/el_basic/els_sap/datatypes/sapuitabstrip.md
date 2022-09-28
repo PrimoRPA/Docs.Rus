@@ -8,7 +8,7 @@ LTools.SAP.Model.SAPUITabStrip
 | Id         | String                                         | ID элемента       |
 | Tabs       | List<[LTools.SAP.Model.SAPUITab](sapuitab.md)> | Закладки          |
 | ScreenLeft | int?                                           | Отступ слева      |
-| ScreenTop  | int?                                           | Отстут сверху     |
+| ScreenTop  | int?                                           | Отступ сверху     |
 | Width      | int?                                           | Ширина            |
 | Height     | int?                                           | Высота            |
 
