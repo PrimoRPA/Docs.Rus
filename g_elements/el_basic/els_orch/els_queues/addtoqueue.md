@@ -26,7 +26,7 @@
   * **Забирать**: установите флаг, если после добавления элемента в очередь его нужно немедленно взять в работу. В результате настройки другие Роботы Оркестратора не успеют взять Ваше значение в обработку. 
 * Группа **Вывод**:
 
-  * **Элемент**: укажите переменную, в которую нужно сохранить добавленный элемент очереди. LTools.Enterprise.Model.QueueItem](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/orkestrator/els_queues/datatypes). 
+  * **Элемент**: укажите переменную, в которую нужно сохранить добавленный элемент очереди. [LTools.Enterprise.Model.QueueItem](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/orkestrator/els_queues/datatypes). 
 
 Пример добавленного элемента очереди в интерфейсе Оркестратора:
  
