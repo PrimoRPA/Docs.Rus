@@ -9,7 +9,7 @@
 | Свойство            | Тип                                 | Описание                                                                                                                |
 | ------------------- | ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | Строка соединения\* | String                              | Строка соединения с БД (Provider=SQLOLEDB;Data Source=\<servername>;Initial Catalog=\<dbname>;Integrated Security=SSPI) |
-| Тип БД\*            | LTools.Database.ModelюDatabaseTypes | Тип подсоединяемой Базы Данных                                                                                          |
+| Тип БД\*            | LTools.Database.Model.DatabaseTypes | Тип подсоединяемой Базы Данных                                                                                          |
 
 При нажатии кнопки "Строка соединения" <img src="../../../.gitbook/assets/connection_editor_button.png" alt="" data-size="line"> появится мастер создания новой строки соединения
 
