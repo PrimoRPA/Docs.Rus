@@ -1,6 +1,6 @@
 # Заглушка
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (43).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (270).png>)
 
 ![](<../../../.gitbook/assets/image (234).png>)
 

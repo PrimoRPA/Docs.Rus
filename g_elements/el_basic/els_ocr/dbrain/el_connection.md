@@ -1,6 +1,6 @@
 # Сервер Dbrain
 
-![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (292).png>)
+![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (203).png>)
 
 ![](<../../../../.gitbook/assets/image (411).png>)
 

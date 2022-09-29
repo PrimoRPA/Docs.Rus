@@ -1,6 +1,6 @@
 # Приложение Excel
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (225).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (253).png>)
 
 ![](<../../../.gitbook/assets/image (412).png>)
 
