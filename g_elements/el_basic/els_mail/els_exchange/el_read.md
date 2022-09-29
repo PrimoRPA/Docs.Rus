@@ -4,13 +4,17 @@
 
 Компонент, производящий чтение электронной почты из MS Exchange.
 
+> *Описание общих свойств элемента см. в разделе [**Работа с элементами**](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements)*
+
 | Свойство             | Тип                                                                    | Описание                                         |
 | -------------------- | ---------------------------------------------------------------------- | ------------------------------------------------ |
 | Путь к папке         | String                                                                 | Путь к папке MS Exchange                         |
 | Только непрочитанные | Boolean                                                                | Признак получения только непрочитанных сообщений |
 | Кол-во               | Int32                                                                  | Кол-во читаемых сообщений                        |
 | Вложения             | Boolean                                                                | Получать вложения                                |
-| Переменная\*         | List<[LTools.Office.Model.OMailMessage](../datatypes/omailmessage.md)> | Переменная для хранения списка писем             |
+| Запрос               | String                                                                 | Текст запроса фильтра  |
+| Общий ящик           | String                                                                 | Укажите адрес [общего почтового ящика](https://learn.microsoft.com/ru-ru/exchange/collaboration/shared-mailboxes/shared-mailboxes?view=exchserver-2019), если требуется вычитывать его почту. Пример:  info@company.com |
+| Переменная\*         | List<[LTools.Office.Model.OMailMessage](../datatypes/omailmessage.md)> | Свойство вывода. Переменная для сохранения списка писем |
 
 {% tabs %}
 {% tab title="C#" %}
