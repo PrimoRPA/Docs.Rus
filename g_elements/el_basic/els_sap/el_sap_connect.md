@@ -4,6 +4,8 @@
 
 Контейнер, который осуществляет присоединение к открытому SAP Front End, чтобы начать с ним работу. Открыть SAP можно при помощи элемента [**Открыть SAP**](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/els_sap/el_sap_open).
 
+> *Описание общих свойств см. в разделе [**Работа с элементами**](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements)*
+
 | Свойство   | Тип                | Описание                                                 |
 | ---------- | ------------------ | -------------------------------------------------------- |
 | ***SAP Front End***             |           |  |
