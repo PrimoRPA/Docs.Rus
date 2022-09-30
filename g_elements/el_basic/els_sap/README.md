@@ -2,7 +2,7 @@
 
 Для работы компонентов SAP Front End (за исключением BAPI), необходимо включить поддержку SAP UI Scripting.
 
-Активация SAP UI Scripting
+**Активация SAP UI Scripting**
 
 В SAP UI перейти в транзакцию RZ11
 
