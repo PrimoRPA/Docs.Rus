@@ -16,5 +16,5 @@
 | QueueName   | String                                                          | Название очереди в Оркестраторе, в которой находится данный элемент |
 | PostponeAt  | [DateTime](https://learn.microsoft.com/ru-ru/dotnet/api/system.datetime?view=net-6.0) | Время, до которого откладывается обработка значения элемента |
 | DeadlineAt  | DateTime                                                        | Время, после которого элемент будет удален из очереди |
-| State       | Ltools.Enums.ExchangeQueueValueEventType2                      | Состояние обработки элемента очереди. Возможные статусы: New, Empty, Success, Error, Business Error. Подробнее описаны в [этом разделе](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/orkestrator/els_queues/changestatequeue) |
-
+| State       | Ltools.Enums.ExchangeQueueValueEventType2                       | Состояние обработки элемента очереди. Возможные статусы: New, Empty, Success, Error, Business Error. Подробнее описаны в [этом разделе](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/orkestrator/els_queues/changestatequeue) |
+| StateText   | String                                                          | Содержит комментарий, добавленный при изменении статуса элемента очереди |
