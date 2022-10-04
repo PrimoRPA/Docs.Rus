@@ -2,6 +2,15 @@
 
 ![](<../../../../.gitbook/assets/ветвь.png>)
 
-Определяет ветвь в контейнере [**выбора ветви**](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/els_logic/el_logic_pickbranch).
+Элемент, размещаемый в контейнере [**Выбора ветви**](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/els_logic/el_logic_pickbranch). Принцип работы следующий: в одном контейнере размещаются несколько ветвей, для каждой из которых настраивается триггер и действие, которое должно быть выполнено при срабатывании этого триггера. Далее запускается параллельная проверка условий. Выбрана будет первая ветвь, вернувшая значение истины при проверке.
 
-Обладает общими свойствами, описанными в разделе  [**Работа с элементами**](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements).
+Настройка элемента:
+
+1. В область триггера перетащите любой элемент, возвращающий булевое значение (true или false). Например, [**Регулярное выражение**](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/els_data/els_data_strings/el_regex). В триггере может быть только одно условие.
+
+![](<../../../../.gitbook/assets/триггер ветви.png>)
+
+2. В область действия перетащите элемент с той активностью, которую нужно запустить при успешном выполнении условия. Например, [**Запись в журнал**](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/els_dialogs/el_dialogs_addlog). Действий может быть несколько.
+
+3. Дополнительно можете заполнить общие свойства элемента. Их описание см. в разделе  [**Работа с элементами**](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements).
+
