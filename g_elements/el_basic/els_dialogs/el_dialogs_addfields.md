@@ -4,9 +4,7 @@
 
 ![](<../../../.gitbook/assets/Добавить поля журнала.png>)
 
-Позволяет добавить дополнительные поля в журнал Робота Оркестратора.
-
-Впоследствии можно удалить ненужные поля при помощи компонента [**Удалить поля журнала**](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/els_dialogs/el_dialogs_removefields).
+Позволяет добавить дополнительные поля в журнал Робота Оркестратора. Впоследствии ненужные поля можно удалить при помощи компонента [**Удалить поля журнала**](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/els_dialogs/el_dialogs_removefields).
 
 > _Описание общих свойств элемента см. в разделе_ [_**Работа с элементами**_](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements)
 
