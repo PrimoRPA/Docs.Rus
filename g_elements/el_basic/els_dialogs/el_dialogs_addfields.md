@@ -13,3 +13,28 @@
 | Поля\*   | [Dictionary<string, string>](https://learn.microsoft.com/ru-ru/dotnet/api/system.collections.generic.dictionary-2?view=net-5.0) | Массив полей, которые нужно добавить в журнал. Пример: new Dictionary<string, string>() { { "key", "\\"value\\"" } } |
 
 Впоследствии можно удалить ненужные поля при помощи компонента [**Удалить поля журнала**](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/els_dialogs/el_dialogs_removefields).
+
+{% tabs %}
+{% tab title="C#" %}
+```csharp
+LTools.Workflow.PrimoApp.AddLogField(wf, new Dictionary<string, string>() { { "key", "\"value\"" } });
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```python
+msg = Dictionary[String, String]()
+msg.Add("key", "\"value\"")
+		LTools.Workflow.PrimoApp.AddLogField(wf, msg
+```
+{% endtab %}
+
+{% tab title="JavaScript" %}
+```javascript
+var host = new _lib.Microsoft.ClearScript.HostFunctions();
+var msg = host.newObj(_lib.System.Collections.Generic.Dictionary(_lib.System.String, _lib.System.String));
+msg.Add("key", "\"value\"");
+		_lib.LTools.Workflow.PrimoApp.AddLogField(wf, msg)
+```
+{% endtab %}
+{% endtabs %}
