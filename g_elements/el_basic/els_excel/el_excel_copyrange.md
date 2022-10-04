@@ -26,3 +26,27 @@
 | Индекс страницы-приемника | Int32  | Номер страницы-приемника (отсчет с 0) |
 | Формат              | -  | Выберите, в каком формате нужно скопировать данные. Описание значений приведено выше |
 | Путь к документу    | String  | Если данные нужно вставить во внешний файл Excel, укажите к нему путь. Если он не задан, диапазон будет вставлен внутри файла-источника |
+
+{% tabs %}
+{% tab title="C#" %}
+```csharp
+LTools.Office.ExcelApp app = LTools.Office.ExcelApp.Init(wf, @"c:\file.xlsx");
+app.CopyRange("A1:C22", "A1:C22", null, 0, null, 1);
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```python
+app = LTools.Office.ExcelApp.Init(wf, @"c:\file.xlsx")
+app.CopyRange("A1:C22", "A1:C22", None, 0, None, 1)
+```
+{% endtab %}
+
+{% tab title="JavaScript" %}
+```javascript
+var app = _lib.LTools.Office.ExcelApp.Init(wf, @"c:\file.xlsx");
+app.CopyRange("A1:C22", "A1:C22", null, 0, null, 1);
+```
+{% endtab %}
+{% endtabs %}
+
