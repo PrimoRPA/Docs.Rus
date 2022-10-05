@@ -8,4 +8,4 @@ LTools.Common.Model.ExecutionExceptionInfo
 | Message      | String   | Сообщение           |
 | ComponentID  | Guid?    | ID элемента         |
 | WorkflowPath | String   | Выполняемый процесс |
-
+| StackTrace   | String   | Cтек вызова исключения. Позволяет увидеть всю историю вызовов исключений и благодаря этому определить источник ошибки |
