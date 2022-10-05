@@ -12,7 +12,7 @@
 
 **ВАЖНО!** После копирования диапазона не забудьте использовать элемент [**Сохранить документ**](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/prilozhenie-excel/el_excel_save), чтобы внесенные изменения применились.
 
-> _Описание общих свойств элемента см. в разделе_ [_**Работа с элементами**_](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements)
+> _Описание общих свойств см. в разделе_ [_**Работа с элементами**_](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements)
 
 | Свойство | Тип                | Описание        |
 | -------- | ------------------ | --------------- |
