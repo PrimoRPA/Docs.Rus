@@ -10,8 +10,8 @@
     * [1.1.28](release-notes/2022/studio/1.1.28.md)
     * [июнь-август 2022](release-notes/2022/studio/summer.md)
   * [Оркестратор](release-notes/2022/orch/README.md)
-    * [2.2.16.md](release-notes/2022/orch/2.2.16.0.md)
-    * [2.2.15.md](release-notes/2022/orch/2.2.15.0.md)
+    * [2.2.16](release-notes/2022/orch/2.2.16.0.md)
+    * [2.2.15](release-notes/2022/orch/2.2.15.0.md)
 
 ## Primo Studio
 
