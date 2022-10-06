@@ -45,7 +45,6 @@
   * [Выполнение и отладка процессов](primo-studio/process/debug/README.md)
     * [Тестирование](primo-studio/process/debug/testing.md)
 * [Робот](primo-studio/robot/README.md)
-  * [Издания робота](primo-studio/robot/robot\_editions.md)
 * [Настройка студии](primo-studio/settings/README.md)
   * [Мультисессионная работа](primo-studio/settings/multisession.md)
   * [Nuget](primo-studio/settings/nuget.md)
