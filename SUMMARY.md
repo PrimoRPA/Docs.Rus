@@ -132,6 +132,7 @@
     * [Чтение текста](g\_elements/el\_basic/els\_pdf/el\_pdf\_gettext.md)
   * [SAP Front End](g\_elements/el\_basic/els\_sap/README.md)
     * [Типы данных](g\_elements/el\_basic/els\_sap/datatypes/README.md)
+      * [SAPInst](g\_elements/el\_basic/els\_sap/datatypes/sapinst.md)
       * [SAPUITree](g\_elements/el\_basic/els\_sap/datatypes/sapuitree.md)
       * [SAPUITreeNode](g\_elements/el\_basic/els\_sap/datatypes/sapuitreenode.md)
       * [SAPUITabStrip](g\_elements/el\_basic/els\_sap/datatypes/sapuitabstrip.md)
