@@ -9,7 +9,7 @@
 | Свойство            | Тип                                 | Описание                                                                                                                |
 | ------------------- | ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | Соединение с БД\*   | LTools.Database.DatabaseInst        | Инстанс соединения с БД
-| Тип БД              | LTools.Database.ModelюDatabaseTypes | Тип подсоединяемой базы данных  
+| Тип БД              | LTools.Database.Model.DatabaseTypes | Тип подсоединяемой базы данных  
 | Строка соединения   | String                              | Строка соединения с БД. Например: "Provider=SQLOLEDB;Data Source=<servername>;Initial Catalog=<dbname>;Integrated Security=SSPI"
 | Таблица\*           | String                              | Название таблицы в БД, в которую нужно вставить данные
 | Данные\*            | [System.Data.DataTable](https://learn.microsoft.com/ru-ru/dotnet/api/system.data.datatable?view=net-5.0) | Данные в виде таблицы
