@@ -1,6 +1,6 @@
 # Документ Word
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (287).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (10) (170).png>)
 
 ![](<../../../.gitbook/assets/image (169).png>)
 

@@ -1,6 +1,6 @@
 # Параллельный цикл ForEach
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (301).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (10) (188).png>)
 
 ![](<../../../.gitbook/assets/image (147).png>)
 
