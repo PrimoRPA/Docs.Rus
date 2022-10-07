@@ -10,6 +10,6 @@ LTools.UIInteraction.Model.UIControl.
 | DesktopElement  | Desktop.Model.DUIControl       | Элемент рабочего стола    |
 | BrowserElement  | WebBrowser.Model.IElementInfo  | Элемент браузера          |
 | SapElement      | SAP.Model.SAPUIItem            | Элемент SAP               |
-| Coordinates     | Rectangle                      | Координаты элемента       |
+| Coordinates     | [Rectangle](https://learn.microsoft.com/ru-Ru/dotnet/api/system.drawing.rectangle?view=netframework-4.8) | Координаты элемента |
 
 
