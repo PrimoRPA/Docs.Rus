@@ -1,6 +1,6 @@
 # RecognitionResult
 
-LTools.OCR.Model.FlexiCapture.RecognitionResult
+LTools.OCR.Model.FlexiCapture.RecognitionResult - результат обработки шаблона.
 | Свойство             | Тип                                                      | Описание                                                     |
 | -------------------- | -------------------------------------------------------- | ------------------------------------------------------------ |
 | \[string (имя поля)] | String                                                   | Данные поля                                                  |
