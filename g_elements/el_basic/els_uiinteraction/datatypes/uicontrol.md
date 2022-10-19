@@ -1,6 +1,6 @@
 # UIControl
 
-LTools.UIInteraction.Model.UIControl.
+LTools.UIInteraction.Model.UIControl - объект, содержащий найденный Java апплет.
 
 | Свойство    | Тип                                | Описание                  |
 | ----------- | ---------------------------------- | ------------------------- |
