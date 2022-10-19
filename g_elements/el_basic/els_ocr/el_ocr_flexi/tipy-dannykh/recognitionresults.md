@@ -1,6 +1,6 @@
 # RecognitionResults
 
-LTools.OCR.Model.FlexiCapture.RecognitionResults.
+LTools.OCR.Model.FlexiCapture.RecognitionResults - объект, содержащий результат обработки документов.
 
 | Свойство | Тип                                                                                                             | Описание                     |
 | -------- | --------------------------------------------------------------------------------------------------------------- | ---------------------------- |
