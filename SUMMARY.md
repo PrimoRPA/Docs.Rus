@@ -6,7 +6,7 @@
 
 * [2022](release-notes/2022/README.md)
   * [Студия](release-notes/2022/studio/README.md)
-    * [1.1.29](release-notes/2022/studio/1.1.29.md)
+  * [1.1.29](release-notes/2022/studio/1.1.29.md)
     * [1.1.28](release-notes/2022/studio/1.1.28.md)
     * [июнь-август 2022](release-notes/2022/studio/summer.md)
   * [Оркестратор](release-notes/2022/orch/README.md)
