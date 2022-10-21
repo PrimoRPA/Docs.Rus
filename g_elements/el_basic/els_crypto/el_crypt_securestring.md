@@ -8,8 +8,10 @@
 
 | Свойство             | Тип                   | Описание                                      |
 | -------------------- | --------------------- | --------------------------------------------- |
-| Строка\*             | String                | Строковая переменная                          |
-| SecureString\*       | [System.Security.SecureString](https://learn.microsoft.com/ru-ru/dotnet/api/system.security.securestring?view=net-5.0) | Переменная, в которой будут сохранены данные в формате SecureString           |
+| ***Процесс***        |           |              |
+| Строка\*             | String                 | Укажите строковую переменную                 |
+| ***Вывод***        |           |              |
+| SecureString\*       | [System.Security.SecureString](https://learn.microsoft.com/ru-ru/dotnet/api/system.security.securestring?view=net-5.0) | Укажите переменную, в которой будут сохранены данные в формате SecureString           |
 
 ---
 
