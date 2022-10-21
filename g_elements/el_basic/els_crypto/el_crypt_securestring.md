@@ -12,6 +12,10 @@
 | SecureString\*       | [System.Security.SecureString](https://learn.microsoft.com/ru-ru/dotnet/api/system.security.securestring?view=net-5.0) | Переменная, в которой будут сохранены данные в формате SecureString           |
 
 
+Пример работы элемента можно посмотреть [здесь](https://github.com/PrimoRPA/Learning/tree/master/Ru/%D0%9A%D1%80%D0%B8%D0%BF%D1%82%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F).
+
+
+
 {% tabs %}
 {% tab title="C#" %}
 ```csharp
