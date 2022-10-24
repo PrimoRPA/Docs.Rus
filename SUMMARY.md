@@ -2,15 +2,14 @@
 
 * [Primo RPA](README.md)
 * [Примечания к выпускам](release-notes/README.md)
-  * [2022](release-notes/2022/README.md)
-    * [Студия](release-notes/2022/studio/README.md)
-      * [1.1.29](release-notes/2022/studio/1.1.29.md)
-      * [1.1.28](release-notes/2022/studio/1.1.28.md)
-      * [июнь-август 2022](release-notes/2022/studio/summer.md)
-    * [Оркестратор](release-notes/2022/orch/README.md)
-      * [2.2.20](release-notes/2022/orch/2.2.20.md)
-      * [2.2.16](release-notes/2022/orch/2.2.16.0.md)
-      * [2.2.15](release-notes/2022/orch/2.2.15.0.md)
+  * [Студия](release-notes/studio/README.md)
+    * [1.1.29](release-notes/studio/1.1.29.md)
+    * [1.1.28](release-notes/studio/1.1.28.md)
+    * [июнь-август 2022](release-notes/studio/summer.md)
+  * [Оркестратор](release-notes/orch/README.md)
+    * [2.2.20](release-notes/orch/2.2.20.md)
+    * [2.2.16](release-notes/orch/2.2.16.0.md)
+    * [2.2.15](release-notes/orch/2.2.15.0.md)
 
 ## Primo Studio
 
