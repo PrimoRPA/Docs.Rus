@@ -1,9 +1,6 @@
 # Table of contents
 
 * [Primo RPA](README.md)
-
-## Примечания к выпускам <a href="#release-notes" id="release-notes"></a>
-
 * [Примечания к выпускам](release-notes/README.md)
   * [2022](release-notes/2022/README.md)
     * [Студия](release-notes/2022/studio/README.md)
