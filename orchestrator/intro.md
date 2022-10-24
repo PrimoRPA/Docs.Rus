@@ -23,7 +23,7 @@
 
 **Основной пользователь** использует Оркестратор для типового сценария:
 
-1. В «Primo Studio» (далее Студия) [разрабатывает RPA-проект](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects).
+1. [В «Primo Studio» (далее Студия) разрабатывает RPA-проект](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects).
 
 2. Загружает RPA-проект в Оркестратор.
 
