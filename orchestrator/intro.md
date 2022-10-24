@@ -9,25 +9,25 @@
 
 **Администратор** настраивает Оркестратор для обеспечения сценариев использования основным пользователем. К основным настройкам Оркестратора относятся:
 
-1\.       [Работа с лицензиями](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/licensing/new-license) (для работы Оркестратора и Роботов требуется получить у вендора соответствующие лицензии).
+1. [Работа с лицензиями](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/licensing/new-license) (для работы Оркестратора и Роботов требуется получить у вендора соответствующие лицензии).
 
-2\.       [Загрузка дистрибутивов Робота в Оркестратор](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/upload-robot).
+2. [Загрузка дистрибутивов Робота в Оркестратор](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/upload-robot).
 
-3\.       Настройка машин Роботов и [регистрация их в Оркестраторе](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/register-robot) (включая [настройку RDP-сессий](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/register-rdp)).
+3. Настройка машин Роботов и [регистрация их в Оркестраторе](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/register-robot) (включая [настройку RDP-сессий](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/register-rdp)).
 
-4\.       [Настройка пользователей](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/users).
+4. [Настройка пользователей](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/users).
 
-5\.       Настройка Роботов.
+5. Настройка Роботов.
 
 Эти и остальные настройки далее будут описаны подробно.
 
 **Основной пользователь** использует Оркестратор для типового сценария:
 
-1\.       В «Primo Studio» (далее Студия) [разрабатывает RPA-проект](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects).
+1. В «Primo Studio» (далее Студия) [разрабатывает RPA-проект](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects).
 
-2\.       Загружает RPA-проект в Оркестратор.
+2. Загружает RPA-проект в Оркестратор.
 
-3\.       [Запускает RPA-проект](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/project-manual-start) через интерфейс Оркестратора (разово или [по расписанию](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/tasks)).
+3. [Запускает RPA-проект](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/project-manual-start) через интерфейс Оркестратора (разово или [по расписанию](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/tasks)).
 
 Роль основного пользователя Оркестратора может совмещаться с ролью администратора Оркестратора. Пользователь имеет возможность самостоятельно сменить свой пароль.
 
