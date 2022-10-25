@@ -8,15 +8,7 @@
 2.	Обязательно – **опыт администрирования ОС Linux**:    
     * Уметь запускать программы и скрипты.    
     * Иметь опыт работы c bash.     
-    * Иметь опыт сетевого и системного администрирования ОС Linux.    
-
-### **Содержание документа**:
-
-1. [Введение](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/robotmachine#введение).
-2. [Файлы из комплекта поставки Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/robotmachine#файлы-из-комплекта-поставки-оркестратора).
-3. [Аппаратные требования](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/robotmachine#аппаратные-требования).
-4. [Инструкция по установке агента Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/robotmachine/agentinstall).
-
+    * Иметь опыт сетевого и системного администрирования ОС Linux.   
 
 ## Введение
 Компоненты Оркестратора (выборочно ) и их связи и с Роботами/Машиной робота приведены на схеме ниже:
