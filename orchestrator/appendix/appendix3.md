@@ -44,70 +44,70 @@
 | 38.      | 501   | RobotCreated                                     | Робот зарегистрирован       |
 | 39.      | 502   | RobotDisabled                                    | Робот выведен из эксплуатации |
 | 40.      | 503   | RobotDeployStarted                               | Развертывание робота запущено |
-| 41.                    | 504   | RobotStartStarted                                | Старт робота запущен                                                                                        |
-| 42.                    | 505   | RobotStartCompleted                              | Старт робота завершен                                                                                       |
-| 43.                    | 506   | RobotEraseStarted                                | Стирание робота запущено                                                                                    |
-| 44.                    | 507   | RobotEraseCompleted                              | Стирание робота завершено                                                                                   |
-| 45.                    | 508   | RobotProjectRun                                  | Проект на роботе запущен                                                                                    |
-| 46.                    | 509   | RobotProjectStopped                              | Проект на роботе остановлен                                                                                 |
-| 47.                    | 510   | RobotDeployCompleted                             | Развертывание робота завершено                                                                              |
-| 48.                    | 511   | RobotStartError                                  | Ошибка при запуске робота                                                                                   |
-| 49.                    | 512   | RobotProjectCompletedSuccess                     | Зафиксировано удачное завершение выполнения проекта роботом                                                 |
-| 50.                    | 513   | RobotProjectCompletedError                       | Зафиксировано не удачное завершение выполнения проекта роботом                                              |
-| 49.                    | 514   | RobotHardKillStarted                             | Старт принудительной остановки робота                                                                       |
-| 50.                    | 515   | RobotHardKillCompleted                           | Принудительная остановка робота завершена                                                                   |
-| 51.                    | 516   | RobotSoftKillStarted                             | Старт мягкой остановки робота                                                                               |
-| 52.                    | 517   | RobotSoftKillCompleted                           | Мягкая остановка робота завершена                                                                           |
-| 53.                    | 601   | LicenseAdded                                     | Лицензия добавлена                                                                                          |
-| 54.                    | 602   | LicenseDeleted                                   | Лицензия удалена                                                                                            |
-| 55.                    | 603   | LicenseDownloaded                                | Лицензия скачана                                                                                            |
-| 56.                    | 604   | LicenseRevoked                                   | Лицензия отозвана                                                                                           |
-| 57.                    | 605   | LicenseRevokeReplaced                            | Отозванная лицензия заменена                                                                                |
-| 58.                    | 606   | LicenseRequested                                 | Создан запрос на новую лицензию                                                                             |
-| 59.                    | 607   | LicenseReplaceRequested                          | Создан запрос на замен лицензии                                                                             |
-| 60.                    | 608   | LicenseTakeAvailableRobotOk                      | Робот занял свободную лицензию                                                                              |
-| 61.                    | 609   | LicenseTakeAvailableRobotError                   | Ошибка занятия лицензии роботом                                                                             |
-| 62.                    | 610   | LicenseRobotReleaseOk                            | Лицензия робота освобождена                                                                                 |
-| 63.                    | 611   | LicenseRobotReleaseError                         | Ошибка освобождения лицензии робота                                                                         |
-| 64.                    | 612   | LicenseToTenantAdded                             | Лицензия выдана на тенант                                                                                   |
-| 65.                    | 613   | LicenseTakeAvailableStudioOk                     | Студия заняла свободную лицензию                                                                            |
-| 66.                    | 614   | LicenseTakeAvailableStudioError                  | Ошибка занятия лицензии студией                                                                             |
-| 67.                    | 615   | LicenseStudioTimeoutRelease                      | Лицензия студии освобождена по таймауту                                                                     |
-| 68.                    | 616   | LicenseRobotTimeoutRelease                       | Лицензия робота освобождена по таймауту                                                                     |
-| 69.                    | 701   | AssetCreated                                     | Ресурс создан                                                                                               |
-| 70.                    | 702   | AssetChanged                                     | Ресурс изменен                                                                                              |
-| 71.                    | 703   | AssetDeleted                                     | Ресурс удален                                                                                               |
-| 72.                    | 801   | DeployTemplateCreated                            | Шаблон развертывания создан                                                                                 |
-| 73.                    | 802   | DeployTemplateChanged                            | Шаблон развертывания изменен                                                                                |
-| 74.                    | 803   | DeployTemplateDisabled                           | Шаблон развертывания выведен из эксплуатации                                                                |
-| 75.                    | 1101  | ScheduledTaskCreated                             | Задача создана                                                                                              |
-| 76.                    | 1102  | ScheduledTaskChanged                             | Задача изменена                                                                                             |
-| 77.                    | 1103  | ScheduledTaskDeleted                             | Задача удалена                                                                                              |
-| 78.                    | 1104  | ScheduledTaskStarted                             | Задача стартовала                                                                                           |
-| 79.                    | 1105  | ScheduledTaskPaused                              | Задача поставлена на паузу                                                                                  |
-| 80.                    | 1106  | ScheduledTaskResumed                             | Задача снята с паузы                                                                                        |
-| 81.                    | 1107  | ScheduledTaskDisabled                            | Задача выключена                                                                                            |
-| 82.                    | 1108  | ScheduledTaskEnabled                             | Задача включена                                                                                             |
-| 83.                    | 1201  | RobotDistrUploaded                               | Дистрибутив робота загружен                                                                                 |
-| 84.                    | 1202  | RobotDistrActivated                              | Дистрибутив робота активирован                                                                              |
-| 85.                    | 1203  | RobotDistrDeleted                                | Дистрибутив робота удален                                                                                   |
-| 86.                    | 2001  | Login                                            | Пользователь авторизовался                                                                                  |
-| 87.                    | 2002  | LoginUserNotExists                               | Пользователь не существует                                                                                  |
-| 88.                    | 2003  | LoginUserLocked                                  | Пользователь заблокирован                                                                                   |
-| 89.                    | 2004  | LoginUserUnauthorized                            | Ошибка авторизации                                                                                          |
-| 90.                    | 2005  | LoginUserUnauthorizedAD                          | Ошибка авторизации в AD                                                                                     |
-| 91.                    | 2006  | LoginUserNoRightsGroupAD                         | Группа AD не имеет привязки к роли                                                                          |
-| 92.                    | 2007  | LogOut                                           | Пользователь вышел из системы    |
-| 9.                     | 2008   | LoginUserExpired                                | Срок действия учетной записи истек  |
+| 41.      | 504   | RobotStartStarted                                | Старт робота запущен          |
+| 42.      | 505   | RobotStartCompleted                              | Старт робота завершен         |
+| 43.      | 506   | RobotEraseStarted                                | Стирание робота запущено      |
+| 44.      | 507   | RobotEraseCompleted                              | Стирание робота завершено     |
+| 45.      | 508   | RobotProjectRun                                  | Проект на роботе запущен      |
+| 46.      | 509   | RobotProjectStopped                              | Проект на роботе остановлен   |
+| 47.      | 510   | RobotDeployCompleted                             | Развертывание робота завершено |
+| 48.      | 511   | RobotStartError                                  | Ошибка при запуске робота      |
+| 49.      | 512   | RobotProjectCompletedSuccess                     | Зафиксировано удачное завершение выполнения проекта роботом |
+| 50.      | 513   | RobotProjectCompletedError                       | Зафиксировано неудачное завершение выполнения проекта роботом |
+| 51.      | 514   | RobotHardKillStarted                             | Старт принудительной остановки робота |
+| 52.      | 515   | RobotHardKillCompleted                           | Принудительная остановка робота завершена |            
+| 53.      | 516   | RobotSoftKillStarted                             | Старт мягкой остановки робота         |
+| 54.      | 517   | RobotSoftKillCompleted                           | Мягкая остановка робота завершена     |
+| 55.      | 518   | RobotStartedFromAssignment                       | Робот запущен из задания     |
+| 56.      | 601   | LicenseAdded                                     | Лицензия добавлена           |   
+| 57.      | 602   | LicenseDeleted                                   | Лицензия удалена             |
+| 58.      | 603   | LicenseDownloaded                                | Лицензия скачана             |
+| 59.      | 604   | LicenseRevoked                                   | Лицензия отозвана            |
+| 60.      | 605   | LicenseRevokeReplaced                            | Отозванная лицензия заменена |
+| 61.      | 606   | LicenseRequested                                 | Создан запрос на новую лицензию |
+| 62.      | 607   | LicenseReplaceRequested                          | Создан запрос на замен лицензии |
+| 63.      | 608   | LicenseTakeAvailableRobotOk                      | Робот занял свободную лицензию  |
+| 64.      | 609   | LicenseTakeAvailableRobotError                   | Ошибка занятия лицензии роботом |
+| 65.      | 610   | LicenseRobotReleaseOk                            | Лицензия робота освобождена     |
+| 66.      | 611   | LicenseRobotReleaseError                         | Ошибка освобождения лицензии робота |
+| 67.      | 612   | LicenseToTenantAdded                             | Лицензия выдана на тенант       |
+| 68.      | 613   | LicenseTakeAvailableStudioOk                     | Студия заняла свободную лицензию |
+| 69.      | 614   | LicenseTakeAvailableStudioError                  | Ошибка занятия лицензии студией  |
+| 70.      | 615   | LicenseStudioTimeoutRelease                      | Лицензия студии освобождена по таймауту |
+| 71.      | 616   | LicenseRobotTimeoutRelease                       | Лицензия робота освобождена по таймауту |
+| 72.      | 617   | LicenseTakeAvailableAttendedRobotOk              | Аттендед робот занял свободную лицензию |
+| 73.      | 618   | LicenseTakeAvailableAttendedRobotError           | Ошибка занятия лицензии аттендед роботом |
+| 74.      | 619   | LicenseAttendedRobotReleaseOk                    | Лицензия аттендед робота освобождена |
+| 75.      | 620   | LicenseAttendedRobotReleaseError                 | Ошибка освобождения лицензии аттендед робота |
+| 76.      | 701   | AssetCreated                                     | Ресурс создан                      |
+| 77.      | 702   | AssetChanged                                     | Ресурс изменен                     |
+| 78.      | 703   | AssetDeleted                                     | Ресурс удален                      |
+| 79.      | 801   | DeployTemplateCreated                            | Шаблон развертывания создан        |
+| 80.      | 802   | DeployTemplateChanged                            | Шаблон развертывания изменен       |          
+| 81.      | 803   | DeployTemplateDisabled                           | Шаблон развертывания выведен из эксплуатации |
+| 82.      | 1201  | RobotDistrUploaded                               | Дистрибутив робота загружен        |
+| 83.      | 1202  | RobotDistrActivated                              | Дистрибутив робота активирован     |
+| 84.      | 1203  | RobotDistrDeleted                                | Дистрибутив робота удален          |
+| 85.      | 2001  | Login                                            | Пользователь авторизовался         |
+| 86.      | 2002  | LoginUserNotExists                               | Пользователь не существует         |
+| 87.      | 2003  | LoginUserLocked                                  | Пользователь заблокирован          |
+| 88.      | 2004  | LoginUserUnauthorized                            | Ошибка авторизации                 |
+| 89.      | 2005  | LoginUserUnauthorizedAD                          | Ошибка авторизации в AD            |
+| 90.      | 2006  | LoginUserNoRightsGroupAD                         | Группа AD не имеет привязки к роли |
+| 91.      | 2007  | LogOut                                           | Пользователь вышел из системы      |
+| 92.      | 2008  | LoginUserExpired                                 | Срок действия учетной записи истек |
+| 93.      | 3001  | ExchangeQueueCreated                             | Очередь обмена для роботов создана |
+| 94.      | 3002  | ExchangeQueueChanged                             | Очередь обмена для роботов изменена |
+| 95.      | 3003  | ExchangeQueueDeleted                             | Очередь обмена для роботов удалена  |
+| 96.      | 3004  | ExchangeQueuePermissionsAssigned                 | Очередь обмена для роботов - назначены права |
+| 97.      | 3005  | ExchangeQueueEnqueue                             | Очередь обмена для роботов - добавление значения |
+| 98.      | 3006  | ExchangeQueuePeek                                | Очередь обмена для роботов - извлечение значения |
+| 99.      | 3007  | ExchangeQueueReadedByKey                         | Очередь обмена для роботов - чтение значения по ключу |
+| 100.     | 3008  | ExchangeQueueRemovedByKey                        | Очередь обмена для роботов - удаление значения по ключу |
 
-| 93.                    | 3001  | ExchangeQueueCreated                             | Очередь обмена для роботов создана                                                                          |
-| 94.                    | 3002  | ExchangeQueueChanged                             | Очередь обмена для роботов изменена                                                                         |
-| 95.                    | 3003  | ExchangeQueueDeleted                             | Очередь обмена для роботов удалена                                                                          |
-| 96.                    | 3004  | ExchangeQueuePermissionsAssigned                 | Очередь обмена для роботов - назначены права                                                                |
-| 97.                    | 3005  | ExchangeQueueEnqueue                             | Очередь обмена для роботов - добавление значения                                                            |
-| 98.                    | 3006  | ExchangeQueuePeek                                | Очередь обмена для роботов - извлечение значения                                                            |
-| 99.                    | 4001  | RobotGroupCreated                                | Группа роботов создана                                                                                      |
-| 100.                   | 4002  | RobotGroupChanged                                | Группа роботов изменена                                                                                     |
+
+| 99.      | 4001  | RobotGroupCreated                                | Группа роботов создана              |
+| 100.     | 4002  | RobotGroupChanged                                | Группа роботов изменена             |
 | 101.                   | 4003  | RobotGroupDeleted                                | Группа роботов удалена                                                                                      |
 | 102.                   | 4004  | RobotGroupAddedRobots                            | В группу роботов добавлены роботы                                                                           |
 | 103.                   | 4005  | RobotGroupDeletedRobots                          | Из группы роботов удалены роботы                                                                            |
