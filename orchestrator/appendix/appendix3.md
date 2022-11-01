@@ -104,53 +104,100 @@
 | 98.      | 3006  | ExchangeQueuePeek                                | Очередь обмена для роботов - извлечение значения |
 | 99.      | 3007  | ExchangeQueueReadedByKey                         | Очередь обмена для роботов - чтение значения по ключу |
 | 100.     | 3008  | ExchangeQueueRemovedByKey                        | Очередь обмена для роботов - удаление значения по ключу |
-
-
-| 99.      | 4001  | RobotGroupCreated                                | Группа роботов создана              |
-| 100.     | 4002  | RobotGroupChanged                                | Группа роботов изменена             |
-| 101.                   | 4003  | RobotGroupDeleted                                | Группа роботов удалена                                                                                      |
-| 102.                   | 4004  | RobotGroupAddedRobots                            | В группу роботов добавлены роботы                                                                           |
-| 103.                   | 4005  | RobotGroupDeletedRobots                          | Из группы роботов удалены роботы                                                                            |
-| 104.                   | 5000  | ProjectQueuePurged                               | Очередь проектов на выполнение очищена                                                                      |
-| 105.                   | 6000  | ScheduleCreated                                  | Расписание создано                                                                                          |
-| 106.                   | 6001  | ScheduleChanged                                  | Расписание изменено                                                                                         |
-| 107.                   | 6002  | ScheduleDeleted                                  | Расписание удалено                                                                                          |
-| 108.                   | 7001  | AgentDeployTrackingStart                         | Развертывание робота - Процесс запущен                                                                      |
-| 109.                   | 7010  | AgentDeployTrackingCopyingRobotDistr             | Развертывание робота - Скачивание дистрибутива Робота с Оркестратора                                        |
-| 110.                   | 7011  | AgentDeployTrackingSaveRobotDistr                | Развертывание робота - Сохранение дистрибутива Робота на машине Робота                                      |
-| 111.                   | 7020  | AgentDeployTrackingKillRobotProcess              | Развертывание робота - Уничтожение процесса Робота, если такой есть запущенный                              |
-| 112.                   | 7030  | AgentDeployTrackingUnpackRobotDistr              | Развертывание робота - Распаковка дистрибутива Робота                                                       |
-| 113.                   | 7040  | AgentDeployTrackingImportingSSLCert              | Развертывание робота - Импорт ssl-сертификата из дистрибутива Робота в хранилище сертификатов ОС            |
-| 114.                   | 7050  | AgentDeployTrackingTransforRobotConfig           | Развертывание робота - Трансформация конфига Робота под параметры деплоя                                    |
-| 115.                   | 7060  | AgentDeployTrackingReservationUrlWithOrchPort    | Развертывание робота - Резервирование url+port для https-службы Робота с port, переданным Оркестратором     |
-| 116.                   | 7061  | AgentDeployTrackingReservationUrlWithActualPort  | Развертывание робота - url зарезервирован для port, резервировать с первым свободным после переданного port |
-| 117.                   | 7070  | AgentDeployTrackingBindingSSLCertToRobotService  | Развертывание робота - Привязка ssl-сертификата к службе робота                                             |
-| 118.                   | 8001  | AgentStartRobotTrackingStart                     | Старт робота - Процесс запущен                                                                              |
-| 119.                   | 8010  | AgentStartRobotTrackingDownloadProjectArch       | Старт робота - Скачивание архива проекта с Оркестратора                                                     |
-| 120.                   | 8011  | AgentStartRobotTrackingSaveProjectArch           | Старт робота - Сохранение архива проекта на машине Робота                                                   |
-| 121.                   | 8020  | AgentStartRobotTrackingKillRobotProcess          | Старт робота - Уничтожение процесса Робота, если такой есть запущенный                                      |
-| 122.                   | 8021  | AgentStartRobotTrackingGenerateRunScript         | Старт робота - Генерация скрипта запуска Робота                                                             |
-| 123.                   | 8022  | AgentStartRobotTrackingCreateTaskToStartRobot    | Старт робота - Создание Windows Task запуска Робота (для Windows 2016 Server)                               |
-| 124.                   | 8023  | AgentStartRobotTrackingDirectlyStartRobot        | Старт робота - Непосредственный запуска Робота (для Windows 10)                                             |
-| 125.                   | 8030  | AgentStartRobotTrackingWaitStartRobot            | Старт робота - Ожидание старта приложения Робота                                                            |
-| 126.                   | 8031  | AgentStartRobotTrackingTakeAvailableRobotLicense | Старт робота - Робот получил свободную лицензию                                                             |
-| 127.                   | 8040  | AgentStartRobotWaitExecuteWorkflow               | Старт робота - Ожидание выполнения проекта Роботом                                                          |
-| 128.                   | 8050  | AgentStartRobotTrackingExecuteWorkflow           | Старт робота - Проект запущен                                                                               |
-| 129.                   | 9000  | AssignmentCreated                                | Задание создано                                                                                             |
-| 130.                   | 9001  | AssignmentChanged                                | Задание изменено                                                                                            |
-| 131.                   | 9002  | AssignmentDeleted                                | Задание удалено                                                                                             |
-| 132.                   | 9010  | AssignmentProjectQueued                          | Проект задания поставлен в очередь выполнения                                                               |
-| 133.                   | 9011  | AssignmentProjectQueuedError                     | Ошибка постановки проекта задания в очередь выполнения                                                      |
-| 134.                   | 9012  | AssignmentStarted                                | Задание запущено                                                                                            |
-| 135.                   | 9013  | AssignmentPaused                                 | Задание остановлено                                                                                         |
-| 136.                   | 9014  | AssignmentResumed                                | Задание возобновлено                                                                                        |
-| 137.                   | 9015  | AssignmentCompleted                              | Задание выполнено                                                                                           |
-| 138.                   | 10000 | RpaProjectQueueProcessingTypeChanged             | Параметры обработки очереди на выполнение проектов изменены                                                 |
-| 139.                   | 20000 | LogsTruncate                                     | Очистка логов                                                                                               |
-| 140.                   | 20001 | LogsDumpStarted                                  | Выгрузка логов запущена                                                                                     |
-| 141.                   | 20002 | LogsDumpCompleted                                | Выгрузка логов завершена                                                                                    |
-| 142.                   | 30001 | ProductionCalendarsCreated                       | Создание производственного календаря                                                                        |
-| 143.                   | 30002 | ProductionCalendarsChanged                       | Изменение производственного календаря                                                                       |
-| 144.                   | 30003 | ProductionCalendarsDeleted                       | Удаление производственного календаря                                                                        |
+| 101.     | 3009  | ExchangeQueueChangeStatusByKey                   | Очередь обмена для роботов - изменение статуса элемента по ключу |
+| 102.     | 3011  | ExchangeQueueAddMetadataByKey                    | Очередь обмена для роботов - добавление метаданных к элементу по ключу |
+| 103.     | 3012  | ExchangeQueueReadedItems                         | Очередь обмена для роботов - чтение элементов по фильтру |
+| 104.     | 3013  | ExchangeQueueItemTagsAdded                       | Очередь обмена для роботов - добавление тегов к элементу |
+| 105.     | 3014  | ExchangeQueueItemTagsDeleted                     | Очередь обмена для роботов - удаление тегов у элемента |
+| 106.     | 3015  | ExchangeQueueAddTagsByKey                        | Очередь обмена для роботов - добавление тегов к элементу по ключу |
+| 107.     | 3016  | ExchangeQueueEnqueueFromOrchestrator             | Очередь обмена для роботов - добавление элемента из оркестратора |
+| 108.     | 3017  | ExchangeQueueItemChangedFromOrchestrator         | Очередь обмена для роботов - изменение элемента из оркестратора |
+| 109.     | 3018  | ExchangeQueueItemDeletedFromOrchestrator         | Очередь обмена для роботов - удаление элемента из оркестратора |
+| 110.     | 3019  | ExchangeQueueItemClonedFromOrchestrator          | Очередь обмена для роботов - клонирование элемента из оркестратора |
+| 111.     | 3020  | ExchangeQueueItemRepeatedFromOrchestrator        | Очередь обмена для роботов - повторение элемента из оркестратора |
+| 112.     | 3021  | ExchangeQueueEditValueByKey                      | Очередь обмена для роботов - изменение значения элемента |
+| 113.     | 3022  | ExchangeQueueReadedItemsWithLock                 | Очередь обмена для роботов - чтение элементов по фильтру с блокировкой |
+| 114.     | 3023  | ExchangeQueueUnlockItems                         | Очередь обмена для роботов - снятие блокировки с элементов |
+| 115.     | 3024  | ExchangeQueueReadedByKeyWithLock                 | Очередь обмена для роботов - чтение элемента по ключу с блокировкой |
+| 116.      | 4001  | RobotGroupCreated                                | Группа роботов создана              |
+| 117.      | 4002  | RobotGroupChanged                                | Группа роботов изменена             |
+| 118.      | 4003  | RobotGroupDeleted                                | Группа роботов удалена              |
+| 119.      | 4004  | RobotGroupAddedRobots                            | В группу роботов добавлены роботы   |
+| 120.      | 4005  | RobotGroupDeletedRobots                          | Из группы роботов удалены роботы    |
+| 121.      | 5000  | ProjectQueuePurged                               | Очередь проектов на выполнение очищена |
+| 122.      | 6000  | ScheduleCreated                                  | Расписание создано                  |
+| 123.      | 6001  | ScheduleChanged                                  | Расписание изменено                 |
+| 124.      | 6002  | ScheduleDeleted                                  | Расписание удалено                  |
+| 125.      | 7001  | AgentDeployTrackingStart                         | Развертывание робота - Процесс запущен |
+| 126.      | 7010  | AgentDeployTrackingCopyingRobotDistr             | Развертывание робота - Скачивание дистрибутива Робота с Оркестратора |
+| 127.      | 7011  | AgentDeployTrackingSaveRobotDistr                | Развертывание робота - Сохранение дистрибутива Робота на машине Робота |
+| 128.      | 7020  | AgentDeployTrackingKillRobotProcess              | Развертывание робота - Уничтожение процесса Робота, если такой есть запущенный |
+| 129.      | 7030  | AgentDeployTrackingUnpackRobotDistr              | Развертывание робота - Распаковка дистрибутива Робота |
+| 130.      | 7040  | AgentDeployTrackingImportingSSLCert              | Развертывание робота - Импорт ssl-сертификата из дистрибутива Робота в хранилище сертификатов ОС |
+| 131.      | 7050  | AgentDeployTrackingTransforRobotConfig           | Развертывание робота - Трансформация конфига Робота под параметры деплоя                                    |
+| 132.       | 7060  | AgentDeployTrackingReservationUrlWithOrchPort    | Развертывание робота - Резервирование url+port для https-службы Робота с port, переданным Оркестратором     |
+| 133.       | 7061  | AgentDeployTrackingReservationUrlWithActualPort  | Развертывание робота - url зарезервирован для port, резервировать с первым свободным после переданного port |
+| 134.       | 7070  | AgentDeployTrackingBindingSSLCertToRobotService  | Развертывание робота - Привязка ssl-сертификата к службе робота |
+| 135.       | 8001  | AgentStartRobotTrackingStart                     | Старт робота - Процесс запущен  |
+| 136.       | 8010  | AgentStartRobotTrackingDownloadProjectArch       | Старт робота - Скачивание архива проекта с Оркестратора |
+| 137.       | 8011  | AgentStartRobotTrackingSaveProjectArch           | Старт робота - Сохранение архива проекта на машине Робота |
+| 138.       | 8020  | AgentStartRobotTrackingKillRobotProcess          | Старт робота - Уничтожение процесса Робота, если такой есть запущенный |
+| 139.       | 8021  | AgentStartRobotTrackingGenerateRunScript         | Старт робота - Генерация скрипта запуска Робота |
+| 140.       | 8022  | AgentStartRobotTrackingCreateTaskToStartRobot    | Старт робота - Создание Windows Task запуска Робота (для Windows 2016 Server) |
+| 141.       | 8023  | AgentStartRobotTrackingDirectlyStartRobot        | Старт робота - Непосредственный запуска Робота (для Windows 10) |
+| 142.       | 8030  | AgentStartRobotTrackingWaitStartRobot            | Старт робота - Ожидание старта приложения Робота |
+| 143.       | 8031  | AgentStartRobotTrackingTakeAvailableRobotLicense | Старт робота - Робот получил свободную лицензию  |
+| 144.       | 8040  | AgentStartRobotWaitExecuteWorkflow               | Старт робота - Ожидание выполнения проекта Роботом |
+| 145.       | 8050  | AgentStartRobotTrackingExecuteWorkflow           | Старт робота - Проект запущен                    |
+| 146.       | 9000  | AssignmentCreated                                | Задание создано                                  |
+| 147.       | 9001  | AssignmentChanged                                | Задание изменено                                 |
+| 148.       | 9002  | AssignmentDeleted                                | Задание удалено                                  |
+| 149.       | 9010  | AssignmentProjectQueued                          | Проект задания поставлен в очередь выполнения    |
+| 150.       | 9011  | AssignmentProjectQueuedError                     | Ошибка постановки проекта задания в очередь выполнения |
+| 151.       | 9012  | AssignmentStarted                                | Задание запущено                                 |
+| 152.       | 9013  | AssignmentPaused                                 | Задание остановлено                              |
+| 153.       | 9014  | AssignmentResumed                                | Задание возобновлено                             |
+| 154.       | 9015  | AssignmentCompleted                              | Задание выполнено                                |
+| 155.       | 10000 | RpaProjectQueueProcessingTypeChanged             | Параметры обработки очереди на выполнение проектов изменены  |
+| 156.       | 20000 | LogsTruncate                                     | Очистка логов                                    |
+| 157.       | 20001 | LogsDumpStarted                                  | Выгрузка логов запущена                          |
+| 158.       | 20002 | LogsDumpCompleted                                | Выгрузка логов завершена                         |
+| 159.       | 30001 | ProductionCalendarsCreated                       | Создание производственного календаря             |
+| 160.       | 30002 | ProductionCalendarsChanged                       | Изменение производственного календаря            |
+| 161.       | 30003 | ProductionCalendarsDeleted                       | Удаление производственного календаря             |
+| 162.       | 40001 | AgentCreated                                     | Агент создан             |
+| 163.       | 40002 | AgentChanged                                     | Агент создан             |
+| 164.       | 40001 | AgentCreated                                     | Агент создан             |
+| 165.       | 40001 | AgentCreated                                     | Агент создан             |
+| 166.       | 40001 | AgentCreated                                     | Агент создан             |
+| 167.       | 40001 | AgentCreated                                     | Агент создан             |
+| 168.       | 40001 | AgentCreated                                     | Агент создан             |
+| 169.       | 40001 | AgentCreated                                     | Агент создан             |
+| 170.       | 40001 | AgentCreated                                     | Агент создан             |
+| 171.       | 40001 | AgentCreated                                     | Агент создан             |
+| 172.       | 40001 | AgentCreated                                     | Агент создан             |
+| 173.       | 40001 | AgentCreated                                     | Агент создан             |
+| 174.       | 40001 | AgentCreated                                     | Агент создан             |
+| 175.       | 40001 | AgentCreated                                     | Агент создан             |
+| 176.       | 40001 | AgentCreated                                     | Агент создан             |
+| 177.       | 40001 | AgentCreated                                     | Агент создан             |
+| 178.       | 40001 | AgentCreated                                     | Агент создан             |
+| 179.       | 40001 | AgentCreated                                     | Агент создан             |
+| 180.       | 40001 | AgentCreated                                     | Агент создан             |
+| 181.       | 40001 | AgentCreated                                     | Агент создан             |
+| 182.       | 40001 | AgentCreated                                     | Агент создан             |
+| 183.       | 40001 | AgentCreated                                     | Агент создан             |
+| 184.       | 40001 | AgentCreated                                     | Агент создан             |
+| 185.       | 40001 | AgentCreated                                     | Агент создан             |
+| 186.       | 40001 | AgentCreated                                     | Агент создан             |
+| 187.       | 40001 | AgentCreated                                     | Агент создан             |
+| 188.       | 40001 | AgentCreated                                     | Агент создан             |
+| 189.       | 40001 | AgentCreated                                     | Агент создан             |
+| 190.       | 40001 | AgentCreated                                     | Агент создан             |
+| 191.       | 40001 | AgentCreated                                     | Агент создан             |
+| 192.       | 40001 | AgentCreated                                     | Агент создан             |
+| 193.       | 40001 | AgentCreated                                     | Агент создан             |
+| 194.       | 40001 | AgentCreated                                     | Агент создан             |
+| 195.       | 40001 | AgentCreated                                     | Агент создан             |
 
 Список событий может быть изменен в следующих версиях Оркестратора.
