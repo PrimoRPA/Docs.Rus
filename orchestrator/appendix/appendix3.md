@@ -55,7 +55,7 @@
 | 49.      | 512   | RobotProjectCompletedSuccess                     | Зафиксировано удачное завершение выполнения проекта роботом |
 | 50.      | 513   | RobotProjectCompletedError                       | Зафиксировано неудачное завершение выполнения проекта роботом |
 | 51.      | 514   | RobotHardKillStarted                             | Старт принудительной остановки робота |
-| 52.      | 515   | RobotHardKillCompleted                           | Принудительная остановка робота завершена |            
+| 52.      | 515   | RobotHardKillCompleted                           | Принудительная остановка робота завершена |           
 | 53.      | 516   | RobotSoftKillStarted                             | Старт мягкой остановки робота         |
 | 54.      | 517   | RobotSoftKillCompleted                           | Мягкая остановка робота завершена     |
 | 55.      | 518   | RobotStartedFromAssignment                       | Робот запущен из задания     |
@@ -166,38 +166,38 @@
 | 160.       | 30002 | ProductionCalendarsChanged                       | Изменение производственного календаря            |
 | 161.       | 30003 | ProductionCalendarsDeleted                       | Удаление производственного календаря             |
 | 162.       | 40001 | AgentCreated                                     | Агент создан             |
-| 163.       | 40002 | AgentChanged                                     | Агент создан             |
-| 164.       | 40001 | AgentCreated                                     | Агент создан             |
-| 165.       | 40001 | AgentCreated                                     | Агент создан             |
-| 166.       | 40001 | AgentCreated                                     | Агент создан             |
-| 167.       | 40001 | AgentCreated                                     | Агент создан             |
-| 168.       | 40001 | AgentCreated                                     | Агент создан             |
-| 169.       | 40001 | AgentCreated                                     | Агент создан             |
-| 170.       | 40001 | AgentCreated                                     | Агент создан             |
-| 171.       | 40001 | AgentCreated                                     | Агент создан             |
-| 172.       | 40001 | AgentCreated                                     | Агент создан             |
-| 173.       | 40001 | AgentCreated                                     | Агент создан             |
-| 174.       | 40001 | AgentCreated                                     | Агент создан             |
-| 175.       | 40001 | AgentCreated                                     | Агент создан             |
-| 176.       | 40001 | AgentCreated                                     | Агент создан             |
-| 177.       | 40001 | AgentCreated                                     | Агент создан             |
-| 178.       | 40001 | AgentCreated                                     | Агент создан             |
-| 179.       | 40001 | AgentCreated                                     | Агент создан             |
-| 180.       | 40001 | AgentCreated                                     | Агент создан             |
-| 181.       | 40001 | AgentCreated                                     | Агент создан             |
-| 182.       | 40001 | AgentCreated                                     | Агент создан             |
-| 183.       | 40001 | AgentCreated                                     | Агент создан             |
-| 184.       | 40001 | AgentCreated                                     | Агент создан             |
-| 185.       | 40001 | AgentCreated                                     | Агент создан             |
-| 186.       | 40001 | AgentCreated                                     | Агент создан             |
-| 187.       | 40001 | AgentCreated                                     | Агент создан             |
-| 188.       | 40001 | AgentCreated                                     | Агент создан             |
-| 189.       | 40001 | AgentCreated                                     | Агент создан             |
-| 190.       | 40001 | AgentCreated                                     | Агент создан             |
-| 191.       | 40001 | AgentCreated                                     | Агент создан             |
-| 192.       | 40001 | AgentCreated                                     | Агент создан             |
-| 193.       | 40001 | AgentCreated                                     | Агент создан             |
-| 194.       | 40001 | AgentCreated                                     | Агент создан             |
-| 195.       | 40001 | AgentCreated                                     | Агент создан             |
+| 163.       | 40002 | AgentChanged                                     | Агент изменен             |
+| 164.       | 40003 | AgentDeleted                                     | Агент удален             |
+| 165.       | 40004 | AgentTestAvailable                               | Агент доступен             |
+| 166.       | 40005 | AgentTestNotAvailable                            | Агент недоступен             |
+| 167.       | 40006 | AgentEnabledKeepRDPSession                       | Агент - EnabledKeepRDPSession |
+| 168.       | 40007 | AgentDisabledKeepRDPSession                      | Агент - DisabledKeepRDPSession  |
+| 169.       | 40008 | AgentEnabledKeepRDPSessionError                  | Агент - EnabledKeepRDPSessionError |
+| 170.       | 50001 | TenantCreated                                    | Тенант создан             |
+| 171.       | 50002 | TenantChanged                                    | Тенант изменен          |
+| 172.       | 50003 | TenantDisabled                                   | Тенант выведен из эксплуатации |
+| 173.       | 60001 | TriggerScheduleFired                             | Сработал триггер расписания    |
+| 174.       | 60002 | TriggerEmailFired                                | Сработал триггер Email             |
+| 175.       | 60003 | TriggerExchangeQueueFired                      | Сработал триггер очереди обмена данными |
+| 176.       | 60004 | TriggerFolderFired                               | Сработал триггер папки             |
+| 177.       | 60005 | TriggerProjectCompletedFired                     | Сработал триггер завершения проекта |
+| 178.       | 60006 | TriggerFromRobotFired                        | Сработал триггер запуска задания из робота|
+| 179.       | 70001 | IncomingEmailCreated                             | Создание Email для входящей почты  |
+| 180.       | 70002 | IncomingEmailChanged                             | Изменение Email для входящей почты |
+| 181.       | 70003 | IncomingEmailDeleted                             | Удаление Email для входящей почты  |
+| 182.       | 80001 | FolderCreated                                    | Создание личной папки             |
+| 183.       | 80002 | FolderChanged                                    | Изменение личной папки             |
+| 184.       | 80003 | FolderDeleted                                    | Удаление личной папки             |
+| 185.       | 80004 | FolderResubordination                            | Переподчинение личной папки       |
+| 186.       | 80005 | FolderMoveObjects                                | Перемещение объектов в личную папку |
+| 187.       | 80006 | FolderMissingProject                             | Проект отсутствует в личной папке  |
+| 188.       | 80007 | FolderMissingRobots                              | В личной папке отсутствуют роботы  |
+| 189.       | 90001 | GrantUserWorker                              | Предоставление пользователю машина робота |
+| 190.       | 90002 | GrantUserWorkerCanceled             | Предоставление пользователю машина робота отменено |
+| 191.       | 90003 | GrantUserAgent                                   | Предоставление пользователю агента |
+| 192.       | 90004 | GrantUserAgentCanceled                     | Предоставление пользователю агента отменено |
+| 193.       | 90101 | UserGrantCreated                                 | Наследование объектов создано        |
+| 194.       | 90102 | UserGrantChanged                                 | Наследование объектов изменено      |
+| 195.       | 90103 | UserGrantDeleted                                 | Наследование объектов удалено       |
 
 Список событий может быть изменен в следующих версиях Оркестратора.
