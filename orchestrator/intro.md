@@ -25,7 +25,7 @@ Primo RPA Orchestrator (далее Оркестратор) предназнач�
 
 1. [В Primo Studio (далее Студия) разрабатывает RPA-проект](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects).
 
-2. Загружает RPA-проект в Оркестратор.
+2. [Загружает RPA-проект в Оркестратор](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics#dobavlenie-rpa-proekta).
 
 3. [Запускает RPA-проект](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/project-manual-start) через интерфейс Оркестратора ([разово или по расписанию](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/tasks)).
 
