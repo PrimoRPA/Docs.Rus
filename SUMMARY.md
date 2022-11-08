@@ -344,6 +344,7 @@
     * [Процесс](g\_elements/el\_basic/els\_orch/els\_process/README.md)
       * [Должен остановиться](g\_elements/el\_basic/els\_orch/els\_process/el\_shouldstop.md)
       * [Вызов проекта](g\_elements/el\_basic/els\_orch/els\_process/el\_invokeproject.md)
+      * [Запустить робота](g\_elements/el\_basic/els\_orch/els\_process/el\_invokerobot.md)
   * [Очереди сообщений](g\_elements/el\_basic/els\_mq/README.md)
     * [Типы данных](g\_elements/el\_basic/els\_mq/datatypes/README.md)
       * [AMQMessage](g\_elements/el\_basic/els\_mq/datatypes/amqmessage.md)
