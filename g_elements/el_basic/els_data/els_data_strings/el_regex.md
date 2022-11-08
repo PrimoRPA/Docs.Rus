@@ -5,7 +5,7 @@
 ![](<../../../../.gitbook/assets/image (264).png>)
 
 Компонент, применяющий регулярное выражение к заданной строке. В результате вернется значение true или false.\
-Также есть элемент [Регулярное выражение (Matches)](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/els_data/els_data_strings/el_stringmatches), возвращающий массив соответствий.
+**Примечание**. Также есть элемент [Регулярное выражение (Matches)](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/els_data/els_data_strings/el_stringmatches), который отличается тем, что возвращает массив соответствий.
 
 | Свойство    | Тип     | Описание                                   |
 | ----------- | ------- | ------------------------------------------ |
