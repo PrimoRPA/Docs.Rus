@@ -5,7 +5,7 @@
 ![](<../../../../.gitbook/assets/Рег выражение(массив).png>)
 
 Применяет регулярное выражение к заданной строке. В результате вернется массив соответствий.\
-Также в Студии есть элемент [Регулярное выражение (IsMatch)](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/els_data/els_data_strings/el_regex), возвращающий результат в виде boolean.
+Также в Студии есть элемент [Регулярное выражение (IsMatch)](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/els_data/els_data_strings/el_regex), возвращающий результат в формате boolean.
 
 | Свойство    | Тип     | Описание                                   |
 | ----------- | ------- | ------------------------------------------ |
