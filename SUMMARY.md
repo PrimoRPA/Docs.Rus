@@ -704,6 +704,7 @@
   * [Лицензии](orchestrator/settings/licensing/README.md)
     * [Получение новой лицензии](orchestrator/settings/licensing/new-license.md)
     * [Замена лицензии](orchestrator/settings/licensing/change-license.md)
+    * [Устаревшие лицензии](orchestrator/settings/licensing/outdated.md)
   * [Настройка машины Робота на Linux](orchestrator/settings/robotmachine/README.md)
     * [Установка агента Оркестратора](orchestrator/settings/robotmachine/agentinstall.md)
   * [Загрузка дистрибутивов Робота](orchestrator/settings/upload-robot.md)
