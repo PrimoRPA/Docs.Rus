@@ -14,22 +14,22 @@
 | Consumer secret    | String                                                                             | Consumer secret |
 | OAuth1 token       | String                                                                             | OAuth1 token  |
 | OAuth1 secret      | String                                                                             | OAuth1 secret |
-| ***OAuth2***       |  |  |
+| **OAuth2**       |  |  |
 | OAuth2 token       | String                                                                             | OAuth2 token  |
-| ***Аутентификация сертификата клиента***  |  |  |
+| **Аутентификация сертификата клиента**  |  |  |
 | Сертификат клиента     | String                                                                         | Сертификат клиента |
 | Пароль сертификата     | String                                                                         | Пароль сертификата |
 | Зашифрованный пароль   | [SecureString](https://learn.microsoft.com/ru-Ru/dotnet/api/system.security.securestring?view=netcore-3.1) | Зашифрованный пароль сертификата |
 | Проверка SSL           | Boolean  | Установите отметку, если нужно включить проверку сертификата SSL |
-| ***Ввод***             |  |  |
+| **Ввод**             |  |  |
 | URL\*                  | String      | URL-адрес, на который сделан запрос |
 | Метод                  | -           | Выберите метод запроса. По умолчанию GET  |
 | Формат                 | -           | Выберите формат ответа, требуемый от сервера. По умолчанию установлен ANY - любой формат |
-| ***Вывод***            |  |  |
-| Заголовки              | [Dictionary](https://learn.microsoft.com/ru-ru/dotnet/api/system.collections.generic.dictionary-2?view=net-5.0)\<string, string\> | Заголовки |
+| **Вывод**            |  |  |
+| Заголовки              | [Dictionary](https://learn.microsoft.com/ru-ru/dotnet/api/system.collections.generic.dictionary-2?view=net-5.0)\<string, string\> | Заголовки ответа |
 | Контент                | String          | Контент ответа сервера   |
 | Статус                 | Int32           | Статус ответа сервера   |
-| ***Параметры***        |  |  |
+| **Параметры**        |  |  |
 | Cookies                | [Dictionary](https://learn.microsoft.com/ru-ru/dotnet/api/system.collections.generic.dictionary-2?view=net-5.0)\<string, string\> | Cookies  |
 | Вложения               | Dictionary\<string, string\> | Массив путей файлов для загрузки в запрос    |
 | Заголовки              | Dictionary\<string, string\> | Заголовки запроса |
@@ -38,7 +38,7 @@
 | Тело                   |  String                      | Тело запроса      |
 | Формат                 |  String                      | Задайте формат тела. По умолчанию используется XML  |
 | Сегменты URL           | Dictionary\<string, string\> | Словарь сегментов, добавляемых к URL. Задаются в формате "{key}" |
-| ***Простая проверка подлинности*** |  |  |
+| **Простая проверка подлинности** |  |  |
 | Логин     | String            | Логин |
 | Пароль    | String            | Пароль |
 | Зашифрованный пароль | [SecureString](https://learn.microsoft.com/ru-Ru/dotnet/api/system.security.securestring?view=netcore-3.1) | Поле используется для вставки зашифрованного с помощью SecureString пароля. Такой пароль нигде не хранится в открытом виде, даже в памяти. Получить пароль с типом SecureString можно, например, из Credential Manager (Диспетчера учетных данных) |
