@@ -4,7 +4,7 @@
 
 Создает запрос к конечной точке сервера для получения ответа. Имеет возможности аутентификации, что отличает его от элемента [Запрос WEB-сервиса](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/els_network/el_webrequest). Работает на ОС Windows.
 
-**ВАЖНО!** Элемент доступен для использования только в рамках пакета Primo.Networking, который требуется устанавливать дополнительно при помощи [Менеджера зависимостей Студии](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects/manage-dependencies#menedzher-zavisimostei) либо [на сайте NuGet.org](https://www.nuget.org/packages/Primo.Networking).
+**ВАЖНО!** Элемент доступен для использования только в рамках пакета Primo.Networking, который устанавливается дополнительно при помощи [Менеджера зависимостей Студии](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects/manage-dependencies#menedzher-zavisimostei) либо [на сайте NuGet.org](https://www.nuget.org/packages/Primo.Networking).
 
 | Свойство           | Тип                                                                                | Описание                                                  |
 | ------------------ | ---------------------------------------------------------------------------------- | --------------------------------------------------------- |
