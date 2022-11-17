@@ -8,7 +8,7 @@
 
 | Свойство           | Тип                                                                                | Описание                                                  |
 | ------------------ | ---------------------------------------------------------------------------------- | --------------------------------------------------------- |
-| ***Общие***        |  | Описание общих свойств см. в разделе [**Работа с элементами**](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements) |
+| ***Общие***        |  | Описание общих свойств см. в разделе [Работа с элементами](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements) |
 | ***OAuth1***       |  |  |
 | Consumer key       | String                                                                             | Consumer key  |
 | Consumer secret    | String                                                                             | Consumer secret |
