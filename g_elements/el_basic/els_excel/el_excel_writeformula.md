@@ -2,7 +2,7 @@
 
 ![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (10) (207).png>)
 
-![](<../../../.gitbook/assets/Ввод формулы в ячейку.png>)
+![](<../../../.gitbook/assets/Ввод формулы в ячейку. Excel.png>)
 
 Компонент записывает формулу в ячейку Excel.\
 После вставки формулы не забудьте сохранить изменения при помощи элемента [**Сохранить документ**](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/prilozhenie-excel/el_excel_save).
