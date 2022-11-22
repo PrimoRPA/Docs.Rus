@@ -2,7 +2,7 @@
 
 Для работы Primo Studio требуются:
 
-* Microsoft Windows 7 и выше
+* Microsoft Windows 7 (SP2) и выше
 * Microsoft .NET Framework 4.6.1
 * Microsoft Visual C++ Runtime 14
 * Windows PowerShell (для установки расширений)
@@ -13,7 +13,7 @@
 | Робот           | CPU | RAM | HDD | ОС                                      |
 | --------------- | --- | --- | --- | --------------------------------------- |
 | Stand-alone     | 4   | 8   | 100 | Windows 10 / Windows Server 2016 и выше |
-| С Оркестратором | 4   | 8   | 100 | Windows 10 / Windows Server 2016 и выше              |
+| С Оркестратором | 4   | 8   | 100 | Windows 10 / Windows Server 2016 и выше |
 
 | Оркестратор         | CPU | RAM | HDD  | ОС                                 |
 | ------------------- | --- | --- | ---- | ---------------------------------- |
