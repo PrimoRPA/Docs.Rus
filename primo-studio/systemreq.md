@@ -1,6 +1,6 @@
 # Требования к программному обеспечению
 
-Для работы Primo Studio на требуются:
+Для работы Primo Studio требуются:
 
 * Microsoft Windows 7 и выше
 * Microsoft .NET Framework 4.6.1
