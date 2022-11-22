@@ -16,7 +16,7 @@
 ## Primo Studio
 
 * [Полезные ресурсы](primo-studio/useful-links.md)
-* [Требования к программному обеспечению](primo-studio/systemreq.md)
+* [Системные требования](primo-studio/systemreq.md)
 * [Установка и запуск](primo-studio/installation/README.md)
   * [Ручная установка и запуск робота Core](primo-studio/installation/install\_robot\_core.md)
 * [Начало работы](primo-studio/getting-started/README.md)
