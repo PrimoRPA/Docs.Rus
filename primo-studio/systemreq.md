@@ -4,7 +4,7 @@
 
 | Параметры    |  OС | ПО |
 | ------------ | ------------- | ----- |
-| CPU 4 ядра, RAM 8 Гб, HDD 100 Гб | Microsoft Windows 7 (SP2) и выше | <p>Microsoft .NET Framework 4.6.1</p><p>Microsoft Visual C++ Runtime 14</p><p>Windows PowerShell (для установки расширений)</p><p>Также нужны права локального администратора (в зависимости от используемых компонентов)</p> |
+| CPU 4 ядра, RAM 8 Гб, HDD 100 Гб | Microsoft Windows 7 (SP2) и выше | <p>Microsoft .NET Framework 4.6.1;</p><p>Microsoft Visual C++ Runtime 14;</p><p>Windows PowerShell;</p>Также нужны права локального администратора (в зависимости от используемых компонентов) |
 
 Для **машины робота** требуются:
 
