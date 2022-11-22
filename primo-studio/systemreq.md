@@ -11,13 +11,13 @@
 | Параметры     |  OС |
 | ------------- | ------------- |
 | CPU 8 ядер, RAM 8 Гб, HDD 250 Гб  | Windows 10 / Windows Server 2016 и выше |
-| CPU 6 ядер, RAM 8 Гб, HDD 250 Гб  | Linux: CentOS 8+, Ubuntu 20+ |
+| CPU 6 ядер, RAM 8 Гб, HDD 250 Гб  | Linux: CentOS 8+, Ubuntu 20+, Astra Linux 1.7+ |
 
 Для работы **Оркестратора** требуются:
 
 | Наименование   | Параметры     | ОС  |
 | ------------- | ------------- | ----- |
-| Сервер Оркестратора | CPU 8 ядер, RAM 16 Гб, HDD 200 Гб | Windows Server 2016 и выше. <p>Linux: CentOS 8+, Ubuntu 20+</p> |
+| Сервер Оркестратора | CPU 8 ядер, RAM 16 Гб, HDD 200 Гб | Windows Server 2016 и выше. <p>Linux: CentOS 8+, Ubuntu 20+, Astra Linux 1.7+ </p> |
 | Сервер БД | CPU 8 ядер, RAM 16 Гб, HDD 200 Гб  | см. выше |
 | Сервер журнала | CPU 8 ядер, RAM 16 Гб, HDD 1000 Гб | см. выше |
 
