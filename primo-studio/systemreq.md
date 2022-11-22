@@ -4,21 +4,21 @@
 
 | Параметры    |  OС | ПО |
 | ------------ | ------------- | ----- |
-| CPU 4 ядра, RAM 8 Гб, HDD 100 Гб | Microsoft Windows 7 (SP2) и выше | <p>Microsoft .NET Framework 4.6.1;</p><p>Microsoft Visual C++ Runtime 14;</p><p>Windows PowerShell;</p>Также нужны права локального администратора (в зависимости от используемых компонентов) |
+| CPU 4 ядра, RAM 8 Гб, HDD 100 Гб | Microsoft Windows 7 (SP2) и выше | <p>Microsoft .NET Framework 4.6.1;</p><p>Microsoft Visual C++ Runtime 14;</p><p>Windows PowerShell;</p>И права локального администратора <p>(в зависимости от используемых компонентов)</p> |
 
-Для **машины робота** требуются:
+Для **машины Робота** требуются:
 
-| Параметры    |  OС |
+| Параметры     |  OС |
 | ------------- | ------------- |
 | CPU 8 ядер, RAM 8 Гб, HDD 250 Гб  | Windows 10 / Windows Server 2016 и выше |
-| CPU 6 ядер, RAM 8 Гб, HDD 250 Гб  | Linux |
+| CPU 6 ядер, RAM 8 Гб, HDD 250 Гб  | Linux: CentOS 7, Ubuntu 18, RedOs 7.3, Astra Linux 1.7 |
 
 Для **Оркестратора** требуются:
 
-| Название      | Параметры     | ОС  |
+| Сервер   | Параметры     | ОС  |
 | ------------- | ------------- | ----- |
-| Сервер Оркестратора | CPU 8 ядер, RAM 16 Гб, HDD 200 Гб | Windows Server 2016 и выше / Linux |
-| Сервер БД | CPU 8 ядер, RAM 16 Гб, HDD 200 Гб  | Windows Server 2016 и выше / Linux |
-| Сервер журнала | CPU 8 ядер, RAM 16 Гб, HDD 1000 Гб | Windows Server 2016 и выше / Linux |
+| Оркестратора | CPU 8 ядер, RAM 16 Гб, HDD 200 Гб | Windows Server 2016 и выше. <p>Linux: CentOS 7, Ubuntu 18, RedOs 7.3, Astra Linux 1.7 </p> |
+| Базы данных | CPU 8 ядер, RAM 16 Гб, HDD 200 Гб  | см. выше |
+| Журнала | CPU 8 ядер, RAM 16 Гб, HDD 1000 Гб | см. выше |
 
 
