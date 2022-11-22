@@ -10,12 +10,19 @@
 
 Аппаратные требования:
 
-1. **К машине робота**
-    *  Windows: CPU 8 ядер, RAM 8 Гб, HDD 250 Гб (OS + Data). Windows 10 / Windows Server 2016 и выше.
-    *  Linux: CPU 6 ядер, RAM 8 Гб, HDD 250 Гб. 
+1. **Машина робота**
+
+| Параметры    |  OС |
+| ------------- | ------------- |
+| CPU 8 ядер, RAM 8 Гб, HDD 250 Гб (OS + Data) | Windows 10 / Windows Server 2016 и выше |
+| CPU 6 ядер, RAM 8 Гб, HDD 250 Гб  | Linux |
  
-2. **К Оркестратору**
-    *  Сервер Оркестратора, сервер БД: CPU 8 ядер, RAM 16 Гб, HDD 200 Гб. ОS Windows Server 2016 и выше / Linux.
-    *  Сервер журнала: CPU 8 ядер, RAM 16 Гб, HDD 1000 Гб (OS + Data). ОS Windows Server 2016 и выше / Linux. 
+2. **Оркестратор**
+
+| Название      | Параметры     | ОС  |
+| ------------- | ------------- | ----- |
+| Сервер Оркестратора | CPU 8 ядер, RAM 16 Гб, HDD 200 Гб | Windows Server 2016 и выше / Linux |
+| Сервер БД | CPU 8 ядер, RAM 16 Гб, HDD 200 Гб  | Windows Server 2016 и выше / Linux |
+| Сервер журнала | CPU 8 ядер, RAM 16 Гб, HDD 1000 Гб | Windows Server 2016 и выше / Linux |
 
 
