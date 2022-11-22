@@ -14,7 +14,7 @@
 
 | Параметры    |  OС |
 | ------------- | ------------- |
-| CPU 8 ядер, RAM 8 Гб, HDD 250 Гб (OS + Data) | Windows 10 / Windows Server 2016 и выше |
+| CPU 8 ядер, RAM 8 Гб, HDD 250 Гб  | Windows 10 / Windows Server 2016 и выше |
 | CPU 6 ядер, RAM 8 Гб, HDD 250 Гб  | Linux |
  
 2. **Оркестратор**
