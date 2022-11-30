@@ -4,7 +4,7 @@
 
 | Параметры    |  OС | ПО |
 | ------------ | ------------- | ----- |
-| CPU 4 ядра, RAM 8 Гб, HDD 100 Гб | Microsoft Windows 7 (SP2) и выше | <p>Microsoft .NET Framework 4.6.1;</p><p>Microsoft Visual C++ Runtime 14;</p><p>Windows PowerShell;</p><br> И права локального администратора (в зависимости от используемых компонентов)</br> |
+| CPU 4 ядра, RAM 8 Гб, HDD 100 Гб | Microsoft Windows 7 (SP2) и выше | <p>Microsoft .NET Framework 4.6.1;</p><p>Microsoft Visual C++ Runtime 14;</p><p>Windows PowerShell.</p><br> Права локального администратора (в зависимости от используемых компонентов)</br> |
 
 Для **машины Робота** требуются\*:
 
