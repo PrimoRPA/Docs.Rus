@@ -25,5 +25,5 @@
 ![](../../.gitbook/assets/Untitled.png)
 
 В случае установки Студии версии Community можно сразу начинать с ней работать.\
-Если была установлена версия Enterprise, ознакомьтесь с процессом запуска в разделе (Запуск Primo Studio)[https://docs.primo-rpa.ru/primo-rpa/primo-studio/installation/licenses].
+Если была установлена версия Enterprise, ознакомьтесь с процессом запуска в разделе [Запуск Primo Studio](https://docs.primo-rpa.ru/primo-rpa/primo-studio/installation/licenses).
 
