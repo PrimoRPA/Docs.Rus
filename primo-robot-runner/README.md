@@ -1,0 +1,33 @@
+# Робот
+
+Робот является самостоятельным приложением с минимальным графическим интерфейсом.
+
+![](<../../.gitbook/assets/0 (8).png>)
+
+Кнопка ![](<../../.gitbook/assets/4 (8).png>) служит для очистки текста консоли робота.
+
+Робот выпускается в двух изданиях:
+
+* Enterprise: полное издание.
+* Standard: усеченное издание. В настоящее время это [устаревшая лицензия](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/licensing/outdated).
+
+Запускать робота необходимо из командной строки, используя следующие аргументы:
+
+* projPath: путь к папке выполняемого проекта
+* seqPath: путь к главной последовательности проекта
+* instantStart: стартовать запуск проекта как только робот будет загружен
+* exitOnSuccess: закрыть робота по завершении выполнения проекта
+* noOrchestrator: режим работы в отсутствии оркестратора (обязателен, если робот запускается вручную)
+* StartupPosition: вариант отображения робота на старте. Возможные варианты - Normal (стандартный), Minimized (свернутый), Maximized (во весь экран), Tray (свернут в системный трэй)
+* CloseRdp: автоматически корректно завершать сессию RDP на старте
+* logToFile: признак записи журнала в файл (папка Log)
+* logCustomToFile: признак записи пользовательских событий в журнал
+* logMsgTypes: типы журналируемых событий (Error, Info, Debug, Network). Для указания нескольких используется символ | (Error|Info|Debug)
+* logType: тип журнала (Text, Csv)
+* noConsole: отключает отображение журнала в консоли
+* RunConfig: тип конфигурации запуска (для переменной WorkflowVar.RunConfig). Возможные варианты: None, Debug, Release
+* RunConfigCustom: тип конфигурации запуска (для переменной WorkflowVar.RunConfigCustom)
+
+Например:
+
+Primo.Robot.exe instantStart exitOnSuccess noOrchestrator logType=Csv "seqPath=C:\Work\Project\Sequence.ltw" "projPath=C:\Work\Project\\
