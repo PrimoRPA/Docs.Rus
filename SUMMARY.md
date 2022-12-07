@@ -709,7 +709,7 @@
 * [Настройки Оркестратора](orchestrator/settings/README.md)
   * [Лицензии](orchestrator/settings/licensing/README.md)
     * [Типы лицензий](orchestrator/settings/licensing/license-types.md)
-    * [Получение новой лицензии](orchestrator/settings/licensing/new-license.md)
+    * [Получение лицензии](orchestrator/settings/licensing/new-license.md)
     * [Замена лицензии](orchestrator/settings/licensing/change-license.md)
     * [Устаревшие лицензии](orchestrator/settings/licensing/outdated.md)
   * [Настройка машины Робота на Linux](orchestrator/settings/robotmachine/README.md)
