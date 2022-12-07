@@ -25,7 +25,7 @@
        # chmod -R 777 /opt/Primo/Agent/Primo.Orchestrator.Agent
        # chmod -R 777 /opt/Primo/Agent/BashScripts
 
-6. **В конфигурационном файле службы** appsettings.WorkerLinux.json **пропишите адрес Оркестратора и TenantId** (если эта машина не в тенанте по умолчанию), **а также пользователя из тенанта:**
+6. В конфигурационном файле службы appsettings.WorkerLinux.json **пропишите адрес Оркестратора и TenantId** (если эта машина не в тенанте по умолчанию), **а также пользователя из тенанта:**
 
 ![](<../../../.gitbook/assets/Конфиг службы appsettings.WorkerLinux.json.png>)
     
