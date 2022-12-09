@@ -29,7 +29,7 @@
 **Запуск и регистрация:**
 
 1. [Запуск Primo Robot из командной строки](https://docs.primo-rpa.ru/primo-rpa/primo-robot/launch-command).
-2. [Запуск и регистрация Primo Robot с помощью программы Primo Robot Runner](https://docs.primo-rpa.ru/primo-rpa/primo-robot/robot-runner/registration-desktop).
+2. [Запуск и регистрация Primo Robot локальным ключом - с помощью программы Primo Robot Runner](https://docs.primo-rpa.ru/primo-rpa/primo-robot/robot-runner/registration-desktop).
 
 **Primo Robot Runner:**
 
