@@ -19,7 +19,7 @@
 
 ### Издания
 
-Робот выпускается в двух изданиях:
+Робот выпускается в двух изданиях (то же, что и лицензии):
 
 * **Enterprise:** полное издание. Доступна внешняя поддержка Рабочего стола через RDP-соединения.
 * **Desktop:** Робот с данным типом лицензии предназначен для работы с локальной станцией и должен быть установлен на рабочем месте пользователя. Для него недоступна поддержка Рабочего стола через RDP-соединения.
@@ -28,27 +28,36 @@
 
 Оба типа лицензий можно использовать для работы с Роботом через Primo Robot или Robot Runner:
 
-1. Запрос лицензии Enterprise осуществляется через Оркестратор: для формирования запроса см. разделы [Типы лицензий](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/licensing/license-types) и [Получение лицензий](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/licensing/new-license) в Оркестраторе.
+1. Запрос лицензии Enterprise осуществляется через Оркестратор.
 2. Лицензию Desktop можно запросить как через Оркестратор, так и локально с компьютера пользователя при запуске Робота.
 
 
 
 ### Установка и использование
 
-**Установка:**
+**Запуск и регистрация в автономном режиме:**
 
-1. [Установка Primo Robot через Оркестратор](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/upload-robot). 
-2. [Ручная установка Primo Robot на компьютер пользователя](https://docs.primo-rpa.ru/primo-rpa/primo-robot/install_robot). 
-3. [Ручная установка кроссплатформенной версии Primo Robot](https://docs.primo-rpa.ru/primo-rpa/primo-robot/install_robot_core).
-
-**Запуск и регистрация:**
-
-1. [Запуск Робота из командной строки - через Primo Robot](https://docs.primo-rpa.ru/primo-rpa/primo-robot/launch-command).
-2. [Запуск и регистрация Робота локальным ключом - через Robot Runner](https://docs.primo-rpa.ru/primo-rpa/primo-robot/robot-runner/registration-desktop).
+1. [Ручная установка Primo Robot на компьютер пользователя - ОС Windows](https://docs.primo-rpa.ru/primo-rpa/primo-robot/install_robot). 
+2. [Ручная установка кроссплатформенной версии Primo Robot](https://docs.primo-rpa.ru/primo-rpa/primo-robot/install_robot_core).
+3. [Запуск Робота из командной строки - через Primo Robot](https://docs.primo-rpa.ru/primo-rpa/primo-robot/launch-command).
+4. [Запуск и регистрация Робота локальным ключом - через Robot Runner](https://docs.primo-rpa.ru/primo-rpa/primo-robot/robot-runner/registration-desktop).
 
 **Primo Robot Runner:**
 
 1. [Работа с Robot Runner: запуск задач по расписанию без Оркестратора](https://docs.primo-rpa.ru/primo-rpa/primo-robot/robot-runner/README).
+
+**Запуск и регистрация через Оркестратор:**
+
+1. [Установка Primo Robot через Оркестратор](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/upload-robot). 
+2. [Регистрация машины Робота](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/register-robot).
+3. [Типы лицензий](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/licensing/license-types) и [Запрос лицензии](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/licensing/new-license) в Оркестраторе.
+4. [Ручной запуск Робота с RPA-проектом](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/robot-manual-start).
+5. [Задания](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/tasks) и [Расписания](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/schedules).
+
+Для более полного понимания работы с Роботом через Оркестратор рекомендуется ознакомиться с документацией из раздела **Оркестратор**.
+
+
+
 
 
 
