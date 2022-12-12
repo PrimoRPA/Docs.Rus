@@ -1,5 +1,7 @@
 # Установка и запуск
 
+> *Перед установкой ознакомьтесь с [системными требованиями](https://docs.primo-rpa.ru/primo-rpa/primo-studio/systemreq) к компьютеру.*
+
 Установку приложения Primo Studio осуществляет инсталлятор, запускаемый файлом setup.exe. Для корректной работы Primo Studio необходим Microsoft .NET Framework 4.6.1, установка которого производится вместе с установкой Студии.
 
 ![](<../../.gitbook/assets/Untitled (6).png>)
