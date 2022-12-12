@@ -19,7 +19,6 @@
 * [Системные требования](primo-studio/systemreq.md)
 * [Установка и запуск](primo-studio/installation/README.md)
   * [Запуск Primo Studio](primo-studio/installation/licenses.md)
-  * [Ручная установка и запуск робота Core](primo-studio/installation/install\_robot\_core.md)
 * [Начало работы](primo-studio/getting-started/README.md)
   * [Начало работы (устаревший интерфейс)](primo-studio/getting-started/gettingstarted.md)
 * [Работа с проектами](primo-studio/projects/README.md)
@@ -46,7 +45,6 @@
   * [События](primo-studio/process/events.md)
   * [Выполнение и отладка процессов](primo-studio/process/debug/README.md)
     * [Тестирование](primo-studio/process/debug/testing.md)
-* [Робот](primo-studio/robot/README.md)
 * [Настройка студии](primo-studio/settings/README.md)
   * [Мультисессионная работа](primo-studio/settings/multisession.md)
   * [Nuget](primo-studio/settings/nuget.md)
@@ -686,13 +684,18 @@
     * [Сохранить документ](g\_elements/el\_extra/els\_powerpoint/el\_powerpoint\_save.md)
     * [Удалить слайд](g\_elements/el\_extra/els\_powerpoint/el\_powerpoint\_deleteslide.md)
 
-## Primo Robot Runner
+## Primo Robot
 
-* [Базовая информация](primo-robot-runner/basics.md)
-* [Модули](primo-robot-runner/modules/README.md)
-  * [Задачи](primo-robot-runner/modules/tasks.md)
-  * [Расписания](primo-robot-runner/modules/schedules.md)
-  * [Настройки](primo-robot-runner/modules/settings.md)
+* [Робот](primo-robot/README.md)
+* [Ручная установка Primo Robot](primo-robot/installation/README.md)
+  * [Ручная установка и запуск Робота Core](primo-robot/installation/robot\_core.md)
+* [Запуск из командной строки](primo-robot/launch-command.md)
+* [Primo Robot Runner](primo-robot/robot-runner/README.md)
+* [Регистрация Primo Robot локальным ключом](primo-robot/robot-runner/registration-desktop.md)
+* [Модули](primo-robot/robot-runner/modules/README.md)
+  * [Задачи](primo-robot/robot-runner/modules/tasks.md)
+  * [Расписания](primo-robot/robot-runner/modules/schedules.md)
+  * [Настройки](primo-robot/robot-runner/modules/settings.md)
 
 ## Оркестратор <a href="#orchestrator" id="orchestrator"></a>
 
