@@ -39,8 +39,8 @@
 
 1. [Ручная установка Primo Robot на компьютер пользователя - ОС Windows](https://docs.primo-rpa.ru/primo-rpa/primo-robot/install_robot). 
 2. [Ручная установка кроссплатформенной версии Primo Robot](https://docs.primo-rpa.ru/primo-rpa/primo-robot/install_robot_core).
-3. [Запуск Робота из командной строки - через Primo Robot](https://docs.primo-rpa.ru/primo-rpa/primo-robot/launch-command).
-4. [Запуск и регистрация Робота локальным ключом - через Robot Runner](https://docs.primo-rpa.ru/primo-rpa/primo-robot/robot-runner/registration-desktop).
+3. [Запуск и регистрация Робота локальным ключом - через Robot Runner](https://docs.primo-rpa.ru/primo-rpa/primo-robot/robot-runner/registration-desktop).
+4. [Запуск Робота из командной строки - через Primo Robot](https://docs.primo-rpa.ru/primo-rpa/primo-robot/launch-command).
 
 **Primo Robot Runner:**
 
