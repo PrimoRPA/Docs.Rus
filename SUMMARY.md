@@ -693,7 +693,7 @@
 * [Primo Robot Runner](primo-robot/robot-runner/README.md)
   * [Регистрация Primo Robot локальным ключом](primo-robot/robot-runner/registration-desktop.md)
   * [Модули](primo-robot/robot-runner/modules/README.md)
-    * [Задачи](primo-robot/robot-runner/modules/tasks.md)
+    * [Задачи](primo-robot/robot-runner/modules/task.md)
     * [Расписания](primo-robot/robot-runner/modules/schedules.md)
     * [Настройки](primo-robot/robot-runner/modules/settings.md)
 
