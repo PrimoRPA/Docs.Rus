@@ -12,10 +12,12 @@
 | ------------- | ------- | ---------------------- |
 | Индекс слайда | Int32   | Индекс слайда          |
 | Фигура        | String  | Имя фигуры для вставки |
-| Слева         | double? | Отступ слева           |
+| Слева         | [double](https://learn.microsoft.com/ru-ru/dotnet/api/system.double?view=net-5.0&viewFallbackFrom=windowsdesktop-3.0)? | Отступ слева           |
 | Сверху        | double? | Отступ сверху          |
 | Ширина        | double? | Ширина                 |
 | Высота        | double? | Высота                 |
+
+Символ ? в типе данных указывает на то, что значение может быть null.
 
 {% tabs %}
 {% tab title="C#" %}
