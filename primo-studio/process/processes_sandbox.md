@@ -18,7 +18,7 @@
 
 ![](<../../.gitbook/assets/image (193).png>)
 
-**ВНИМАНИЕ! Основной и вспомогательный робот могут обмениваться только простыми данными (String, Double, DateTime, Boolean и т.д.) либо коллекциями простых данных (List\<String>, List\<DateTime> и т.д.)**
+**ВНИМАНИЕ! Основной и вспомогательный робот могут обмениваться только простыми данными (String, [Double](https://learn.microsoft.com/ru-ru/dotnet/api/system.double?view=net-5.0&viewFallbackFrom=windowsdesktop-3.0), [DateTime](https://learn.microsoft.com/ru-ru/dotnet/api/system.datetime?view=net-5.0), Boolean и т.д.) либо коллекциями простых данных (List\<String>, List\<DateTime> и т.д.)**
 
 Для того чтобы песочница закрывалась по завершении работы процесса, используйте флаг **Закрывать**.
 
