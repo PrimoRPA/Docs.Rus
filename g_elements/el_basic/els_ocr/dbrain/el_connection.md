@@ -10,7 +10,7 @@
 | -------- | ------ | ------------------------------ |
 | Сервер   | String | URL сервера                    |
 | Токен    | String | Токен подключения              |
-| Порог    | double | Порог корректности             |
+| Порог    | [double](https://learn.microsoft.com/ru-ru/dotnet/api/system.double?view=net-5.0&viewFallbackFrom=windowsdesktop-3.0) | Порог корректности             |
 | Ошибка   | double | Порог ошибки                   |
 | Тайм-аут | Int32  | Тайм-аут действий сервера (мс) |
 
