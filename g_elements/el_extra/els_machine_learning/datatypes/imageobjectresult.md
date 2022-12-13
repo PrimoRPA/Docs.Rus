@@ -4,7 +4,7 @@ Aura.MachineLearning.Model.ImageObjectResult
 
 | Свойство  | Тип    | Описание                         |
 | --------- | ------ | -------------------------------- |
-| XMin      | double | Координата начала X (%)          |
+| XMin      | [double](https://learn.microsoft.com/ru-ru/dotnet/api/system.double?view=net-5.0&viewFallbackFrom=windowsdesktop-3.0) | Координата начала X (%)          |
 | YMin      | double | Координата начала Y (%)          |
 | XMax      | double | Координата окончания X (%)       |
 | YMax      | double | Координата окончания Y (%)       |
