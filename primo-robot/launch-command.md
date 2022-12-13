@@ -8,7 +8,7 @@
 
 Кнопка ![](<../../.gitbook/assets/4 (8).png>) служит для очистки текста консоли Робота.
 
-**ВНИМАНИЕ!** Чтобы программа работала корректно, предварительно запросите лицензию через Primo Robot Runner: процесс подробно описан [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-robot/robot-runner/registration-desktop#получение-лицензионного-ключа-и-регистрация).
+**ВНИМАНИЕ!** Чтобы программа работала корректно, предварительно запросите лицензию через Primo Robot Runner: процесс подробно описан [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-robot/robot-runner/registration-desktop#poluchenie-licenzionnogo-klyucha-i-registraciya).
 
 Для запуска Робота из командной строки используйте следующие аргументы:
 
