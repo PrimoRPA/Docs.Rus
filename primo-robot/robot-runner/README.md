@@ -4,9 +4,11 @@
 
 ### Установка
 
-Robot Runner входит в стандартную поставку Primo Studio и Primo Robot. Программа устанавливается автоматически вместе с приложением Primo Studio, процесс установки которого описан [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-studio/installation). 
+Robot Runner входит в стандартную поставку Primo Studio и Primo Robot. Поскольку Robot Runner не является самостоятельным приложением, то на компьютере пользователя также должна быть [установлена программа Primo Robot](https://docs.primo-rpa.ru/primo-rpa/primo-robot/installation) - без него Runner запустится, но работать полноценно не сможет, т.к. будет отсутствовать Робот, который должен выполнять задачи.
 
-Поскольку Robot Runner не является самостоятельным приложением, то на компьютере пользователя также должна быть [установлена программа Primo Robot](https://docs.primo-rpa.ru/primo-rpa/primo-robot/installation) - без него Runner запустится, но работать полноценно не сможет, т.к. будет отсутствовать Робот, который должен выполнять задачи. 
+### Регистрация
+
+Регистрация Робота локальным ключом (Robot Desktop) в Robot Runner подробно описана [в этом разделе](https://docs.primo-rpa.ru/primo-rpa/primo-robot/robot-runner/registration-desktop). Без регистрации полноценная работа с Роботом в Robot Runner невозможна.
 
 
 ### Запуск 
