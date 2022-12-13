@@ -14,7 +14,7 @@
 | Фигура           | String                                     | Имя фигуры для редактирования       |
 | Менять положение | Boolean                                    | Признак изменения положения в слоях |
 | Тип положения    | Primo.Office.PowerPoint. Model.ShapeZOrder | Тип изменения положения в слоях     |
-| Размер           | double                                     | Размер шрифта                       |
+| Размер           | [double](https://learn.microsoft.com/ru-ru/dotnet/api/system.double?view=net-5.0&viewFallbackFrom=windowsdesktop-3.0)   | Размер шрифта |
 
 {% tabs %}
 {% tab title="C#" %}
