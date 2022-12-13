@@ -8,15 +8,17 @@ LTools.SAP.Model.SAPUIGrid
 | Id             | String                                                          | ID элемента                            |
 | Columns        | List<[LTools.SAP.Model.SAPUIGridColumn](sapuigridcolumn.md)>    | Колонки                                |
 | Cells          | List\<List<[LTools.SAP.Model.SAPUIGridCell](sapuigridcell.md)>> | Ячейки                                 |
-| CellsDT        | System.Data.DataTable                                           | Ячейки                                 |
+| CellsDT        | [System.Data.DataTable](https://learn.microsoft.com/ru-ru/dotnet/api/system.data.datatable?view=net-5.0) | Ячейки  |
 | SelectedRows   | List\<int>                                                      | Индексы выбранных строк                |
-| SelectedCells  | Dictionary\<int, string>                                        | Выбранные ячейки. Индекс, Ключ колонки |
-| ScrollLimit    | System.Drawing.Point                                            | Предельное значение прокрутки          |
+| SelectedCells  | [Dictionary](https://learn.microsoft.com/ru-ru/dotnet/api/system.collections.generic.dictionary-2?view=net-5.0)\<int, string>                                        | Выбранные ячейки. Индекс, Ключ колонки |
+| ScrollLimit    | [System.Drawing.Point](https://learn.microsoft.com/ru-ru/dotnet/api/System.Drawing.Point?view=netcore-1.1) | Предельное значение прокрутки |
 | ScrollPosition | System.Drawing.Point                                            | Текущее состояние прокрутки            |
 | ScreenLeft     | int?                                                            | Отступ слева                           |
 | ScreenTop      | int?                                                            | Отступ сверху                          |
 | Width          | int?                                                            | Ширина                                 |
 | Height         | int?                                                            | Высота                                 |
+
+> Символ ? в типе данных указывает на то, что значение может быть null.
 
 | Метод                                                                                      | Описание                                              |
 | ------------------------------------------------------------------------------------------ | ----------------------------------------------------- |
