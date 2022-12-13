@@ -10,7 +10,7 @@
 | URL API    | String | URL API                 |
 | URL        | String | URL сайта капчи         |
 | Ключ сайта | String | Ключ капчи reCapcha     |
-| Точность   | Double | Необходимая точность    |
+| Точность   | [Double](https://learn.microsoft.com/ru-ru/dotnet/api/system.double?view=net-5.0&viewFallbackFrom=windowsdesktop-3.0) | Необходимая точность    |
 | Тайм-аут   | Int32  | Тайм-аут                |
 | Результат  | String | Результат разбора капчи |
 
