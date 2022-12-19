@@ -97,6 +97,6 @@
 | MachineInfo |  +           |         |       |
 
 
-Для Windows-серверов рекомендуется: MSSQL, WebApi (IIS), Front (IIS).
+Для Windows-серверов рекомендуется: MSSQL, WebApi (IIS), Front (IIS).\
 Для Linux-серверов рекомендуется: PostgreSQL.
 
