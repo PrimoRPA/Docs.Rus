@@ -15,7 +15,7 @@
 
 > \**Архив PasswordEncriptor.zip из комплекта поставки*
 
-![](<../../.gitbook/assets/3. Шифрование паролей.png>)
+![](<../../.gitbook/assets/3.Шифрование паролей.png>)
 
 Зашифрованные пароли из окна терминала нужно будет скопировать в конфигурационные файлы appsettings.ProdWin.json\*\* и appsettings.Worker.json. Зашифрованный пароль находится под строкой **Copy following string:**.
 
