@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Primo RPA](README.md)
-* [Примечания к выпускам](release-notes/common.md)
+* [Примечания к выпускам](release-notes/README.md)
   * [Студия](release-notes/studio/README.md)
     * [Primo Studio 1.1.30.6](release-notes/studio/1.1.30.6.md)
     * [Primo Studio 1.1.30](release-notes/studio/1.1.30.md)
