@@ -9,7 +9,7 @@
 | ***Общие***              |  | Описание общих свойств см. в разделе [Работа с элементами](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements) |
 | ***Процесс***            |  |  |
 | Массив\*                 | System.Data.[DataTable](https://learn.microsoft.com/ru-ru/dotnet/api/system.data.datatable?view=net-5.0) | Массив, значения которого перебираются в цикле |
-| Переменная\*             | System.Data.[DataRow](https://learn.microsoft.com/ru-ru/dotnet/api/system.data.datarow?view=net-7.0) | Переменная, хранящая значение текущей переменной массива |
 | Виртуальная переменная\* |                       | Переменная, хранящая значение текущей переменной массива |
+| Переменная\*             | System.Data.[DataRow](https://learn.microsoft.com/ru-ru/dotnet/api/system.data.datarow?view=net-7.0) | Переменная, хранящая значение текущей переменной массива. В отличие от виртуальной, будет доступна в проекте даже после завершения работы цикла |
 | Индекс                   | Int32                 | Индекс текущей итерации                                  |
 | Кешировать               | Boolean               | Определяет, нужно ли кешировать коллекцию. По умолчанию кеширование включено |
