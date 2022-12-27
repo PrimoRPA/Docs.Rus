@@ -7,7 +7,7 @@
     * [Primo Studio 1.1.30](release-notes/studio/1.1.30.md)
     * [Primo Studio 1.1.29](release-notes/studio/1.1.29.md)
     * [Primo Studio 1.1.28](release-notes/studio/1.1.28.md)
-    * [Обновления Primo RPA за июнь-август 2022](release-notes/studio/summer.md)
+    * [Primo RPA. Июнь-август 2022](release-notes/studio/summer.md)
   * [Оркестратор](release-notes/orch/README.md)
     * [2.2.21](release-notes/orch/2.2.21.md)
     * [2.2.20](release-notes/orch/2.2.20.md)
