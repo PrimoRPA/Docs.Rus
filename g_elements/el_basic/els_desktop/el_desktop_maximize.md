@@ -2,7 +2,7 @@
 
 ![](<../../../.gitbook/assets/image (68).png>)
 
-Компонент, разворачивающий окно приложения. Компонент корректно работает только внутри контейнера [**Присоединиться к приложению**](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/els_desktop/el_desktop_attach).
+Компонент, разворачивающий окно приложения. Элемент корректно работает только внутри контейнера [**Присоединиться к приложению**](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/els_desktop/el_desktop_attach).
 
 > *Описание общих свойств см. в разделе [Работа с элементами](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements).*
 
