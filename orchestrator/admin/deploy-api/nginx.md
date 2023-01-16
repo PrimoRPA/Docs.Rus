@@ -1,7 +1,6 @@
 # Развертывание фермы WebApi за Nginx
 
 1. Развертываем по инструкциям компоненты WebApi, States, Notifications на каждом узле фермы.
-
 2. Правим конфиг WebApi (c:\Primo\WebApi\appsettings.ProdWin.json или c:\Primo\WebApi\appsettings.ProdLinux.json), где:\
    RobotDeployment: **OrchBaseUrl** – url, на который отвечает nginx;\
    InstanceInfo: **Id** – уникальный номер для каждого узла:
@@ -20,17 +19,15 @@
      "Id": 0
    },
    ```
-
 3. Правим конфиг nginx (/etc/nginx/nginx.conf):
    * Прописываем url узлов фермы (на узлах порты должны быть открыты):\
      ![](<../../../.gitbook/assets/url узлов фермы.png>)
    * Настраиваем [Passive Health Checks](https://docs.nginx.com/nginx/admin-guide/load-balancer/http-health-check/):\
      **fail_timeout** – время, в течение которого должно произойти количество неудачных попыток, чтобы сервер был помечен как недоступный, а также время, в течение которого сервер помечается как недоступный (по умолчанию 10 секунд).\
      **max_fails** – количество неудачных попыток, которые должны произойти в течение периода fail_timeout, чтобы сервер был помечен как недоступный (по умолчанию – 1 попытка).
-
-4. Запускаем программу синхронизации папок [Syncthing](https://docs.syncthing.net/index.html)  (идет в комплекте поставки) и настраиваем через её UI синхронизацию папки C:\tmp  (или /srv/samba/shared/tmp для Linux) на узлах фермы:
-   * На Windows просто запускаем syncthing.exe (его потом нужно добавить в автозагрузку).
-   * На Linux:\
+4. Запускаем программу синхронизации папок [Syncthing](https://docs.syncthing.net/index.html) (идет в комплекте поставки) и настраиваем через её UI синхронизацию папки C:\tmp (или /srv/samba/shared/tmp для Linux) на узлах фермы:
+   * На **Windows** просто запускаем syncthing.exe (его потом нужно добавить в автозагрузку).
+   * На **Linux**:\
      Разархивируем архив в директорию /srv/samba/shared/install/syncthing-linux-amd64-v1.18.2 командой:
      ```
      # tar -xvf /srv/samba/shared/install/syncthing-linux-amd64-v1.18.2.tar.gz -C /srv/samba/shared/install/syncthing-linux-amd64-v1.18.2/
@@ -42,7 +39,7 @@
    * Добавляем папку C:\tmp (или /srv/samba/shared/tmp для Linux) в папки синхронизации для текущего устройства:
 
      ![](<../../../.gitbook/assets/деплой фермы. Рис. для п. 4.3.png>)
-
+   
    * Добавляем удаленные устройства:
 
      ![](<../../../.gitbook/assets/деплой фермы. Рис. для п. 4.4.png>)
@@ -65,7 +62,8 @@
 
 
 ## Добавление Syncthing в автозагрузку Windows
-Создаем bat-файл C:\syncthing_start.bat со следующими командами : 
+Создаем bat-файл C:\syncthing_start.bat со следующими командами\*: 
+> *\*путь зависит от того, куда распакован архив syncthing-windows-amd64-v1.18.2.zip*. 
 ```
 cd C:\Install\syncthing-windows-amd64-v1.18.2\syncthing-windows-amd64-v1.18.2 
 start syncthing
@@ -77,6 +75,8 @@ start syncthing
 Добавится значение в системный реестр:
 
 ![](<../../../.gitbook/assets/деплой фермы. Syncthing-1.png>)
+
+
 
 ## Запуск Syncthing как службы в Linux
 Копируем папку с файлами из комплекта поставки (архив предварительно распаковываем):
