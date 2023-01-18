@@ -66,7 +66,7 @@ Pешение Primo RPA позволяет:
 
 ## Системные требования
 
-### Primo Studio
+### Studio
 
 Для установки и эксплуатации ПО Primo Studio компьютер пользователя должен соответствовать требованиям:
 
@@ -83,7 +83,7 @@ Pешение Primo RPA позволяет:
 | CPU 8 ядер, RAM 8 Гб, HDD 250 Гб  | Windows 10 / Windows Server 2016 и выше | 
 | CPU 6 ядер, RAM 8 Гб, HDD 250 Гб  | Linux: CentOS 8+, Ubuntu 20+, Astra Linux 1.7+ | 
 
-### Оркестратор
+### Orchestrator
 
 Для установки и эксплуатации ПО Primo Orchestrator требуется, чтобы сервер соответствовал требованиям:
 
