@@ -82,8 +82,8 @@ Pешение Primo RPA позволяет:
 
 | Аппаратные требования     |  OС | ПО
 | ------------- | ------------- | ---- |
-| CPU 8 ядер, RAM 8 Гб, HDD 250 Гб  | Windows 10 / Windows Server 2016 и выше | |
-| CPU 6 ядер, RAM 8 Гб, HDD 250 Гб  | Linux: CentOS 8+, Ubuntu 20+, Astra Linux 1.7+ | |
+| CPU 8 ядер, RAM 8 Гб, HDD 250 Гб  | Windows 10 / Windows Server 2016 и выше | - |
+| CPU 6 ядер, RAM 8 Гб, HDD 250 Гб  | Linux: CentOS 8+, Ubuntu 20+, Astra Linux 1.7+ | - |
 
 ### Оркестратор
 
