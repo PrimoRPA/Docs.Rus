@@ -1,0 +1,54 @@
+# Руководство по настройке автоматической очистки событий Оркестратора для MSSQL
+
+Разверните узел Агент SQL Server, откройте контекстное меню узла **Задания** и выберите **Управление расписаниями**:
+
+![](<../.gitbook/assets/1. MSSQL Управление расписаниями.png>)
+
+В диалоговом окне **Управление расписаниями** выберите **Создать**:
+
+![](<../.gitbook/assets/2. MSSQL Создать.png>)
+
+В поле **Имя** введите имя нового расписания - **Каждые 30 минут**. Если не нужно, чтобы расписание вступило в силу немедленно после создания, снимите флажок **Включено**. Тип расписания – **Повторяющееся задание**. Задание будет выполняться ежедневно каждые 30 минут.
+
+![](<../.gitbook/assets/3. MSSQL Свойства расписания задания.png>)
+
+Создаем хранимую процедуру:
+
+```
+USE ltoolslogs;
+
+CREATE PROC truncate_logs(
+    @last_minutes INTEGER, 
+    @max_database_size INTEGER)  
+AS 
+BEGIN
+    DECLARE @database_size INTEGER;  
+	SET @database_size = (SELECT total_size_mb = SUM(size)
+                          FROM sys.master_files WITH(NOWAIT)
+                          WHERE database_id = DB_ID() 
+                          GROUP BY database_id);
+    IF (@database_size > @max_database_size) BEGIN
+       EXEC msdb.dbo.sp_delete_database_backuphistory @database_name = 'ltoolslogs';
+       DELETE FROM OrchEvents 
+       WHERE OrchTimestampUtc < DATEADD(mi, -@last_minutes, GETUTCDATE());
+    END;
+END;
+```
+
+
+
+![](<../.gitbook/assets/4. MSSQL Создание задания с процедурой.png>)
+  
+  
+![](<../../.gitbook/assets/5. MSSQL Общие параметры задания.png>)
+ 
+![](<../../.gitbook/assets/6. MSSQL Шаги задания.png>)
+  
+![](<../../.gitbook/assets/7. MSSQL Расписание параметры.png>)
+  
+![](<../../.gitbook/assets/8. MSSQL Выбор расписания для задания.png>)
+  
+![](<../../.gitbook/assets/9. MSSQL Выбор-2.png>)
+  
+![](<../../.gitbook/assets/10. MSSQL Отображение задания.png>)
+  
