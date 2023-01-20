@@ -4,7 +4,7 @@
 Все данные в формате JSON (заголовок Content-Type = application/json).
 
 ## End-point авторизации
-Авторизация по токену (JWT token). Адрес этого end-point задается в настройках сервиса LogEventsWebhook как HttpEndPoint:LoginUrl.
+Авторизация по токену (JWT token). Адрес этого end-point задается в настройках сервиса LogEventsWebhook как `HttpEndPoint:LoginUrl`.
 
 POST: LoginUrl 
 
@@ -15,7 +15,7 @@ POST: LoginUrl
      "Password": "password"
 }
 ```
-Логин и пароль также задаются в настройках сервиса LogEventsWebhook в секции HttpEndPoint.\
+Логин и пароль также задаются в настройках сервиса LogEventsWebhook в секции `HttpEndPoint`.\
 Возвращается токен в теле ответа в виде объекта:
 ```json
 {
@@ -24,11 +24,11 @@ POST: LoginUrl
 ```
 
 ## End-point приема событий
-Адрес этого end-point задается в настройках сервиса LogEventsWebhook как HttpEndPoint:Url
+Адрес этого end-point задается в настройках сервиса LogEventsWebhook как `HttpEndPoint:Url`
 
 POST: Url
 
-Данные передаются в теле запроса как объект события (таблица 1):
+Данные передаются в теле запроса как объект события (см. таблицу 1):
 ```
 {
      "Id": "955f8b51-00a4-4807-b723-a3e5c547da01",
@@ -36,7 +36,7 @@ POST: Url
      ...
 }
 ```
-Токен передается в заголовке Authorization = Bearer <token>
+Токен передается в заголовке `Authorization = Bearer \<token\>`
 
 Если end-point приема событий **не допускает** неавторизованный запрос, должен возвращаться http-статус **401 Unauthorized**.\
 Если end-point приема событий **допускает** неавторизованный запрос, HttpEndPoint:LoginUrl можно оставить пустым или null.
@@ -47,30 +47,34 @@ POST: Url
 | Свойство  | Тип  | Описание  |  
 | --------- | ---- | --------- |   
 | Id        | Guid | Идентификатор события |   
-| Event     | Enum? | Событие  |
-|         |    |   | 
-|         |    |   | 
-|         |    |   | 
-|         |    |   | 
-|         |    |   | 
-|         |    |   | 
-|         |    |   | 
-|         |    |   | 
-|         |    |   | 
-|         |    |   | 
-|         |    |   | 
-|         |    |   | 
+| Event     | Enum? | Событие. См. поле **Код** в [Приложении 3 - События Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator/appendix/appendix3) |
+| EntityId  | string | Идентификатор сущности, связанной с событием | 
+| UserId    | string | Идентификатор пользователя, связанного с событием  | 
+| OrchTimestampUtc | DateTime | Время события по времени оркестратора в UTC | 
+| OperationKey | Guid? | Идентификатор бизнес-операции  | 
+| Signature | string   | Подпись события  | 
+| WorkerAdminName | string | Имя администратора машины робота  | 
+| Text        | string  | Произвольное описание, связанное с событием  | 
+| EventType   | Enum?   | Классификация события. См. поле **Код** в Таблице 2 (ниже)  |
+| IP        | string    | IP-адрес, связанный с событием  | 
+| TenantId  | string    | Идентификатор тенанта, в котором произошло событие  | 
+| EntityData | string   | Расширенная информация о сущности, связанной с событием. См. свойство EntityId | 
+| SendedAt   | DateTime | Дата отправки события в интеграционный end-point | 
 
-  
-  
-  
-  
+Таблица 2 – Классификация событий Оркестратора
+     
+| Код | Наименование  | Описание     |  
+| --- | ------------- | ------------ |   
+| 1   | Info	       | Информационное |  
+| 2   | Error         | Ошибка       |  
+| 3   | SecurityIncident | Инцидент безопасности |  
+| 4   | Correction    | Корректировка |  
+     
+**ВНИМАНИЕ!** Для ознакомления с перечнем событий Оркестратора см. [Приложение 3 - События Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator/appendix/appendix3).
+
 ## End-point приема событий для интеграции с ArcSight
 
-В качестве примера интеграционной конечной точки (end-point) в поставку включена служба Primo.Orchestrator.ArcSight\*. Служба конвертирует события в формат ArcSight и сохраняет их в файлах в папке обмена. 
-
->\**Требования к сервису могут быть уточнены по результатам тестирования Заказчиком работы интеграции*.\
-> **ССЫЛКА НА ДОКУ ПО УСТАНОВКЕ ArcSight в винде и Линуксе**
+В качестве примера интеграционного end-point в поставку включена служба Primo.Orchestrator.ArcSight\*. Служба конвертирует события в формат ArcSight и сохраняет их в файлах в папке обмена. 
 
 Служба Primo.Orchestrator.ArcSight не фильтрует события, в файлах обмена сохраняются все принятые события Оркестратора.
 
@@ -98,3 +102,6 @@ May 22 15:33:50 host CEF:0|Primo|Orchestrator.ArcSight|1.0.0.0|8021|AgentStartRo
 May 22 15:33:51 host CEF:0|Primo|Orchestrator.ArcSight|1.0.0.0|8022|AgentStartRobotTrackingCreateTaskToStartRobot|10|entityid='87' entitydata='' ip= operationkey=8a8224e3-43eb-4611-bbe0-4a7eedffa88a userid= workeradminname= id=a798956b-abc7-43bc-a710-a0815cb4377b
 May 22 15:33:53 host CEF:0|Primo|Orchestrator.ArcSight|1.0.0.0|8040|AgentStartRobotWaitExecuteWorkflow|10|entityid='87' entitydata='' ip= operationkey=8a8224e3-43eb-4611-bbe0-4a7eedffa88a userid= workeradminname= id=478b2ebd-32bb-420e-9923-f5679b73136c
 ```
+
+>\**Требования к сервису могут быть уточнены по результатам тестирования Заказчиком работы интеграции*.\
+> **ССЫЛКА НА ДОКУ ПО УСТАНОВКЕ ArcSight в винде и Линуксе**
