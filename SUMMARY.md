@@ -42,7 +42,7 @@
   * [Запись сценария](primo-studio/process/recording.md)
   * [Переменные и аргументы](primo-studio/process/variables.md)
   * [Шаблоны поиска](primo-studio/process/searchpatterns/README.md)
-    * [Категории приложений](apps-categories.md)
+    * [Категории приложений](primo-studio/process/searchpatterns/apps-categories.md)
     * [Поколение 1](primo-studio/process/searchpatterns/gen1.md)
   * [События](primo-studio/process/events.md)
   * [Выполнение и отладка процессов](primo-studio/process/debug/README.md)
