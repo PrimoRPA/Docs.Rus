@@ -48,7 +48,7 @@ END;
 
 ![](<../../../../.gitbook/assets/4. MSSQL Создание задания с процедурой.png>)
 
-Задаем шаги задания: будет один шаг с Именем шага - **truncate_logs** и командой:
+Задаем шаги задания: будет один шаг с именем шага **truncate_logs** и командой:
 ```
 USE ltoolslogs;
 EXEC truncate_logs  @last_minutes=30, @max_database_size=524288000;
