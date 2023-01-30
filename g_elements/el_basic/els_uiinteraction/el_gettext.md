@@ -13,6 +13,6 @@
 | Элемент              | LTools.UIInteraction.Model.[UIControl](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/els_uiinteraction/tipy-dannykh/uicontrol) | Ссылка на элемент управления |
 | Область              | System.Drawing.[Rectangle](https://learn.microsoft.com/ru-ru/dotnet/api/system.drawing.rectangle?view=netcore-3.0) | Область поиска компонента |
 | Текущий пользователь | Boolean                              | Искать только среди процессов текущего пользователя |
-| Режим                | -                                    | Режим чтения текста. Если при использовании режима по умолчанию возникает проблема с чтением текста, попробуйте переключить режим |
+| Режим                | -                                    | Режим чтения текста - Default (по умолчанию), Native, Native_Full. Если возникает проблема с чтением текста в режиме по умолчанию, попробуйте переключить режим |
 | ***Вывод***          |         |        |
 | Переменная\*         | String                               | Переменная для хранения полученного текста          |
