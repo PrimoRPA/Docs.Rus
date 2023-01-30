@@ -1,8 +1,8 @@
 # Полезные ресурсы
 
-1. Сайт Primo RPA:
+1. Официальный сайт платформы Primo RPA:
 
-   {% embed url="http://primo-rpa.ru" %}
+{% embed url="http://primo-rpa.ru" %}
 
 2. Академия Primo:
 
@@ -10,11 +10,11 @@
 
    [https://rondem-s-academy.thinkific.com/](https://rondem-s-academy.thinkific.com/)
 
-3. Wiki на английском языке:
+3. Обучающие примеры:
 
-   {% embed url="https://rondem.gitbook.io/primo-rpa-eng/" %}
+{% embed url="https://github.com/PrimoRPA/Learning" %}
 
-4. Обучающие примеры:
+4. Wiki на английском языке:
 
-   {% embed url="https://github.com/PrimoRPA/Learning" %}
+{% embed url="https://rondem.gitbook.io/primo-rpa-eng/" %}
 
