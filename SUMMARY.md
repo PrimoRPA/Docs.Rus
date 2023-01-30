@@ -689,6 +689,7 @@
 ## Primo Robot
 
 * [Робот](primo-robot/intro.md)
+* [Системные требования](primo-robot/systemreq.md)
 * [Ручная установка Primo Robot](primo-robot/installation/README.md)
   * [Ручная установка и запуск Робота Core](primo-robot/installation/robot\_core.md)
 * [Запуск из командной строки](primo-robot/launch-command.md)
