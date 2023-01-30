@@ -33,18 +33,21 @@
 
 1. Описание общих свойств элемента см. в разделе [**Работа с элементами**](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements). 
 2. Пример заполнения свойства **Значение** в формате JSON (кавычки нужно заэкранировать: **\\"**):
-      > {"collection":{"row":{"field":\[{"name":"FIO","type":"text","value":"Иванов Иван Иванович"},{"name":"from","type":"text","value":"Москва, Улица, Номер дома"},{"name":"to","type":"text","value":"Санкт-Петербург,Улица, Номер дома"},{"name":"dateAndTime","type":"text","value":"23.08.2022 19:04"},{"name":"reestrFullPath","type":"text","value":"\\\of-FS-01\Common\Works\Название отдела\Такси реестр\реестры в оплату\такси\_август.xlsx"},{"name":"row","type":"text","value":"70"}]\}}}
-3. **Идентификатор**. Пример: "mykey1".
+```
+{"collection":{"row":{"field":\[{"name":"FIO","type":"text","value":"Иванов Иван Иванович"},{"name":"from","type":"text","value":"Москва, Улица, Номер дома"},{"name":"to","type":"text","value":"Санкт-Петербург,Улица, Номер дома"},{"name":"dateAndTime","type":"text","value":"23.08.2022 19:04"},{"name":"reestrFullPath","type":"text","value":"\\\of-FS-01\Common\Works\Название отдела\Такси реестр\реестры в оплату\такси\_август.xlsx"},{"name":"row","type":"text","value":"70"}]\}}}
+```
+3. **Идентификатор**. Пример: `"mykey1"`.
 4. **Метаданные**. Пример:
-      > {"Tags":"123","KeyField":"FIO","KeyValue":"Иван Иванович Иванов","Attempt":"1","Loaded":"9/20/2022 4:31:12 PM","Completed":"9/20/2022 11:38:06 AM","Worktime":"1","Priority":"0","Prevworktime":"0","Attemptworktime":"1","Finished":"9/20/2022 11:38:06 AM","LastUpdated":"9/20/2022 11:38:06 AM"}
-    
-    Если метаданные неизвестны на момент создания элемента, но их нужно добавить позднее, действуйте по алгоритму:
-      * добавьте элемент очереди с пустыми метаданными;
-      * прочитайте элемент с помощью активности [**Получить из очереди**](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/orkestrator/els_queues/readfromqueue) или **Получить по ID/фильтру**;
-      * удалите старый элемент либо измените его статус на Success с помощью компонента [**Изменить статус в очереди**](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/orkestrator/els_queues/changestatequeue);
-      * добавьте новый элемент с помощью активности **Добавить в очередь** и запишите в него нужные метаданные.  
-5. **Тэги**. Пример: List{"tag"}.
-6. **Недоступен до**. Пример: new DateTime(2022, 9, 19)
+```
+{"Tags":"123","KeyField":"FIO","KeyValue":"Иван Иванович Иванов","Attempt":"1","Loaded":"9/20/2022 4:31:12 PM","Completed":"9/20/2022 11:38:06 AM","Worktime":"1","Priority":"0","Prevworktime":"0","Attemptworktime":"1","Finished":"9/20/2022 11:38:06 AM","LastUpdated":"9/20/2022 11:38:06 AM"}
+```       
+  Если метаданные неизвестны на момент создания элемента, но их нужно добавить позднее, действуйте по алгоритму:
+  * добавьте элемент очереди с пустыми метаданными;
+  * прочитайте элемент с помощью активности [**Получить из очереди**](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/orkestrator/els_queues/readfromqueue) или **Получить по ID/фильтру**;
+  * удалите старый элемент либо измените его статус на Success с помощью компонента [**Изменить статус в очереди**](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/orkestrator/els_queues/changestatequeue);
+  * добавьте новый элемент с помощью активности **Добавить в очередь** и запишите в него нужные метаданные.  
+5. **Тэги**. Пример: `List{"tag"}`.
+6. **Недоступен до**. Пример: `new DateTime(2022, 9, 19)`.
 
 ---
 
