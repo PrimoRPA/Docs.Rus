@@ -2,7 +2,7 @@
 
 ## Общие
 
-* Открыть проект - `Ctrl` + `O`
+* Открыть [проект](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects) - `Ctrl` + `O`
 * Создать [процесс](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process) - `Ctrl` + `N`
 * Сохранить процесс - `Ctrl` + `S`
 * Сохранить проект - `Ctrl` + `Shift` + `S`
