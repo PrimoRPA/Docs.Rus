@@ -4,7 +4,7 @@
 
 ![](<../../../.gitbook/assets/image (446).png>)
 
-Элемент фильтрует данные таблицы по столбцу. Для этого он работает с переменной типа DataTable, которая хранит таблицу, - ее возможно получить, например, после [**Чтения диапазона**](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/prilozhenie-excel/el_excel_readrange) Excel-файла.
+Элемент фильтрует данные таблицы по столбцу. Для этого он работает с переменной типа DataTable, которая хранит таблицу - ее возможно получить, например, после [**Чтения диапазона**](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/prilozhenie-excel/el_excel_readrange) Excel-файла.
 
 Запрос к таблице возможно указать двумя способами:
 1. В свойстве **Запрос**. Допустимо использование переменных в запросе. 
