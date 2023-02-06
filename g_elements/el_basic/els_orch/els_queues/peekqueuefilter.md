@@ -27,7 +27,7 @@
 | Только свои | Boolean | При установке флага будут прочитаны только те сообщения, которые были добавлены в очередь с идентичной учетной записи (тем же Роботом), с которой в данный момент осуществляется настройка |
 | Таймаут   | Int32  | Лимит времени операции (мс). Если по истечении лимита операция не выполнена, Робот закончит работу с ошибкой |
 | ***Вывод*** |  |      |  
-| Элемент    | List<[LTools.Enterprise.Model.QueueItem](https://github.com/ttalantseva/Docs.Rus/blob/main/g_elements/el_basic/els_orch/els_queues/datatypes.md)> | Список элементов очереди, полученных по фильтру  |
+| Элемент    | List<[LTools.Enterprise.Model.QueueItem](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/orkestrator/els_queues/datatypes)> | Список элементов очереди, полученных по фильтру  |
   
   
 {% tabs %}
