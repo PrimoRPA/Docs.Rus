@@ -4,7 +4,7 @@ description: Руководство пользователя
 
 # Primo RPA
 
-![](<.gitbook/assets/logo_4.png>)
+![](<.gitbook/assets/logo_3.png>)
 
 Primo RPA - это российская система для роботизации бизнес-процессов.
 
