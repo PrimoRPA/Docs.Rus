@@ -28,8 +28,8 @@
 * **logMsgTypes:** типы журналируемых событий (Error, Info, Debug, Network). Для указания нескольких используется символ | (Error|Info|Debug)
 * **logType:** тип журнала (Text, Csv)
 * **noConsole:** отключает отображение журнала в консоли
-* **RunConfig:** тип конфигурации запуска (для переменной WorkflowVar.RunConfig). Возможные варианты: None, Debug, Release
-* **RunConfigCustom:** тип конфигурации запуска (для переменной WorkflowVar.RunConfigCustom)
+* **RunConfig:** тип конфигурации запуска (для переменной \_Workflow.RunConfig). Возможные варианты: None, Debug, Release
+* **RunConfigCustom:** тип конфигурации запуска (для переменной \_Workflow.RunConfigCustom)
 
 Пример:
 
