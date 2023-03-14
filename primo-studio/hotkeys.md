@@ -22,6 +22,7 @@
 * Cвернуть активный элемент процесса -`Ctrl` + `H`
 * Установить [точку останова](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/debug#tochka-ostanova) на выбранном элементе - `Ctrl` + `B`
 * Пропустить выбранный элемент - `Ctrl` + `D`. Нужный элемент проигнорируется во время прохождения сценария.
+* Редактировать [аннотацию](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#annotaciya) элемента - `Ctrl` + `F2`.
 
 ## Буфер обмена
 
