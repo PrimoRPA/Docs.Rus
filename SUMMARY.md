@@ -3,6 +3,7 @@
 * [Primo RPA](README.md)
 * [Примечания к выпускам](release-notes/README.md)
   * [Студия](release-notes/studio/README.md)
+    * [Версия 23.2](release-notes/studio/23.2.md)
     * [Версия 23.1](release-notes/studio/23.1.md)
     * [Версия 1.1.30](release-notes/studio/1.1.30.md)
     * [Версия 1.1.29](release-notes/studio/1.1.29.md)
