@@ -333,7 +333,7 @@
       * [Сохранить документ](g\_elements/el\_basic/els\_myoffice/els\_text/el\_text\_save.md)
       * [Чтение текста](g\_elements/el\_basic/els\_myoffice/els\_text/el\_text\_readtext.md)
       * [Экспортировать документ](g\_elements/el\_basic/els\_myoffice/els\_text/el\_text\_export.md)
-  * [Оркестратор](g\_elements/osnovnye-elementy/orkestrator/README.md)
+  * [Оркестратор](g\_elements/el\_basic/els\_orch/README.md)
     * [Значения](g\_elements/el\_basic/els\_orch/els\_assets/README.md)
       * [Получить значение](g\_elements/el\_basic/els\_orch/els\_assets/el\_orch\_getvalue.md)
       * [Получить учетные данные](g\_elements/el\_basic/els\_orch/els\_assets/el\_orch\_getcredentials.md)
