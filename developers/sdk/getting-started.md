@@ -22,7 +22,7 @@
 
    ![](<../../.gitbook/assets/0 (133).png>)
 
-6\. Добавьте в проект компонент типа **User Control (WPF)** (Add -> New Item…)
+6\. Добавьте в проект компонент типа **User Control (WPF)** (Add ➝ New Item…)
 
 ![](<../../.gitbook/assets/1 (118).png>)
 
