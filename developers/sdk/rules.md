@@ -217,16 +217,90 @@ IAnalysisRule
 | Code	          | Код правила |
 | Name	          | Наименование правила |
 | Description	    | Описание правила |
-| HelpUrl	       | Ссылка на описание |
+| HelpUrl	        | Ссылка на описание |
 | Areas	          | Области, к которым применимо правило (Проект, Процесс, Элемент) |
-| DefaultAction	 | Действие по умолчанию (Info, Error, Warning, Verbose) |
-| Arguments	       | Аргументы правила |
-| Inspect(…)	    | Методы, осуществляющие проверку правила |
-| Reset()	       | Вызывается при сбросе правила в состояние по умолчанию |
+| DefaultAction	  | Действие по умолчанию (Info, Error, Warning, Verbose) |
+| Arguments	      | Аргументы правила |
+| Inspect(...)	    | Методы, осуществляющие проверку правила |
+| Reset()	        | Вызывается при сбросе правила в состояние по умолчанию |
 
 
+AnalysisRuleArg
+
+| Имя члена класса | Описание |
+| ---------------- | -------- |
+| Key	             | Ключ-идентификатор |
+| Name	           | Наименование аргумента |
+| RegEx	           | Регулярное выражение, применяемое при проверке ввода аргумента |
+| Value	           | Значение аргумента |
 
 ![](<../../.gitbook/assets/2.sdk.rules.png>) 
 
+RuleResult
+
+| Имя члена класса | Описание |
+| ---------------- | -------- |
+| Level	           | Действие |
+| HasErrors	       | Признак наличия ошибки (для Error, Warning и Vaerbose) (Info попадает в результат всегда |
+| RecommendationMessage	| Текст рекомендации |
+| Messages	       | Сообщения  |
+
 ![](<../../.gitbook/assets/3.sdk.rules.png>) 
  
+## Анатомия проекта Primo
+
+IRobotProject – информация о проекте.
+
+| Имя члена класса | Описание |
+| ---------------- | -------- |
+| Project	         | Данные проекта |
+| Items	           | Массив файлов проекта |
+| Dependencies	   | Массив зависимостей проекта |
+| GetAllProcesses() |	Возвращает все процессы проекта |
+
+IRobotProcess – информация о процессе.
+
+| Имя члена класса | Описание |
+| ---------------- | -------- |
+| FileName	       | Имя файла |
+| ProcessType	     | Тип процесса |
+| IsTestCase	     | Признак тестового случая |
+| UseArgs	         | Признак использования аргументов |
+| ScriptType	     | Тип скрипта |
+| RootContainer	   | Корневой контейнер (для последовательности) |
+| Components	     | Элементы процесса (для диаграммы) |
+| GlobalVariables  | Перменные |
+| Arguments	       | Аргументы |
+| GetAllElements() |Возвращает все элементы процесса |
+
+SerializationComponent – информация об элементе.
+
+| Имя члена класса | Описание |
+| ---------------- | -------- |
+| ClassName	       | Имя класса |
+| AssemblyName	   | Имя сборки |
+| Properties	     | Массив свойств (Name – имя, Value – значение) |
+
+SerializationContainer : SerializationComponent – информация об элементе-контейнере.
+
+| Имя члена класса | Описание |
+| ---------------- | -------- |
+| Components	     | Массив элементов контейнера |
+
+## Сборка и отладка
+
+Для отладки можно использовать класс Inspector. Например:
+
+```c#
+Primo.ProjectAnalyzer.Inspector insp = new Primo.ProjectAnalyzer.Inspector();
+
+var proj = Primo.ProjectAnalyzer.Helper.ProcessHelper.LoadProject(@"C:\Test\project.ltp");
+var ret = insp.InspectRule(proj, testrule1);
+
+var proc = Primo.ProjectAnalyzer.Helper.ProcessHelper.LoadProcess(@"C:\Test\Main.ltw");
+ret = insp.InspectRule(proc, testrule2);
+```
+
+
+
+
