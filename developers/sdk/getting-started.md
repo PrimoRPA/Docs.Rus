@@ -1,9 +1,9 @@
 # Начало работы
 
 1. Запустить Visual Studio.
-2. Выбрать **Create a new project** с типом проекта Class Library (.NET Framework)
-3. Ввести имя проекта. **ВНИМАНИЕ!!!** **Имя проекта и библиотеки dll должны начинаться с Primo.** 
-4. Выбрать фреймворк .NET Framework 4.6.1
+2. Выбрать **Create a new project** с типом проекта Class Library (.NET Framework).
+3. Ввести имя проекта. **ВНИМАНИЕ!** **Имя проекта и библиотеки dll должны начинаться с префикса "Primo.".** 
+4. Выбрать фреймворк .NET Framework 4.6.1.
 5. Добавить в References проекта сборки:
    * _LTools.Common.dll_
    * _LTools.Dto.dll_
