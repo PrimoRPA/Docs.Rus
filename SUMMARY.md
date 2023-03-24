@@ -757,5 +757,6 @@
   * [Кастомные свойства](developers/sdk/custom-properties.md)
   * [Валидация ввода](developers/sdk/input-validation.md)
   * [Привязка данных к UI](developers/sdk/ui-binding.md)
+  * [Правило анализа кода](rules.md)
   * [Сборка и отладка](developers/sdk/debugging.md)
   * [Упаковка и публикация](developers/sdk/publish.md)
