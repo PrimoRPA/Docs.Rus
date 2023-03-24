@@ -241,7 +241,7 @@ RuleResult.
 | Имя члена класса | Описание |
 | ---------------- | -------- |
 | Level	           | Действие |
-| HasErrors	       | Признак наличия ошибки (для Error, Warning и Vaerbose) (Info попадает в результат всегда |
+| HasErrors	       | Признак наличия ошибки (для Error, Warning и Vaerbose). Info попадает в результат всегда |
 | RecommendationMessage	| Текст рекомендации |
 | Messages	       | Сообщения  |
 
@@ -300,7 +300,6 @@ var ret = insp.InspectRule(proj, testrule1);
 var proc = Primo.ProjectAnalyzer.Helper.ProcessHelper.LoadProcess(@"C:\Test\Main.ltw");
 ret = insp.InspectRule(proc, testrule2);
 ```
-
 
 
 
