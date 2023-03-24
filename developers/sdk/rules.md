@@ -1,5 +1,5 @@
 # Правило анализа кода
-> *Подробнее о механизме см. в разделе [Анализ проекта](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects/analyzer)*.
+> *Подробнее о действии механизма см. в разделе [Анализ проекта](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects/analyzer)*.
 
 ## Начало работы
 
