@@ -10,7 +10,7 @@
   
   ![](<../../.gitbook/assets/1.sdk.rules.png>) 
 
-5\. Создайте класс (Add ➝ Class...), который будет содержать правило. Для этого надо унаследовать интерфейс Primo.ProjectAnalyzer.IAnalysisRule.
+5\. Создать класс (Add ➝ Class...), который будет содержать правило. Для этого надо унаследовать интерфейс Primo.ProjectAnalyzer.IAnalysisRule.
 
 ## Создание правила
 
