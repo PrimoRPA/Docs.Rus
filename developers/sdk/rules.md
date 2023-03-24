@@ -6,7 +6,7 @@
 1.	Запустить Visual Studio.
 2.	Выбрать **Create a new project** с типом Class Library (.NET Framework) либо Class Library (поддерживаются .NET Framework 4.6.1 и .NET Standard 2.0).
 3.	Ввести имя проекта. ***Важно! Имя проекта и библиотеки dll должны начинаться с префикса “Primo.”***.
-4.	Добавить в References проекта сборку Primo.ProjectAnalyzer.Dto.dll:
+4.	Добавить в Dependencies проекта сборку Primo.ProjectAnalyzer.Dto.dll:
   
   ![](<../../.gitbook/assets/1.sdk.rules.png>) 
 
@@ -210,7 +210,7 @@ namespace Primo.ProjectAnalyzer.Dto.Rules
 ```
 
 ### Описание классов
-IAnalysisRule
+IAnalysisRule.
 
 | Имя члена класса | Описание |
 | ---------------- | -------- |
@@ -221,11 +221,11 @@ IAnalysisRule
 | Areas	          | Области, к которым применимо правило (Проект, Процесс, Элемент) |
 | DefaultAction	  | Действие по умолчанию (Info, Error, Warning, Verbose) |
 | Arguments	      | Аргументы правила |
-| Inspect(...)	    | Методы, осуществляющие проверку правила |
+| Inspect(...)	  | Методы, осуществляющие проверку правила |
 | Reset()	        | Вызывается при сбросе правила в состояние по умолчанию |
 
 
-AnalysisRuleArg
+AnalysisRuleArg.
 
 | Имя члена класса | Описание |
 | ---------------- | -------- |
@@ -236,7 +236,7 @@ AnalysisRuleArg
 
 ![](<../../.gitbook/assets/2.sdk.rules.png>) 
 
-RuleResult
+RuleResult.
 
 | Имя члена класса | Описание |
 | ---------------- | -------- |
@@ -300,6 +300,8 @@ var ret = insp.InspectRule(proj, testrule1);
 var proc = Primo.ProjectAnalyzer.Helper.ProcessHelper.LoadProcess(@"C:\Test\Main.ltw");
 ret = insp.InspectRule(proc, testrule2);
 ```
+
+
 
 
 
