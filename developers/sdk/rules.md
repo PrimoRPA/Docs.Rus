@@ -225,7 +225,7 @@ namespace Primo.ProjectAnalyzer.Dto.Rules
 | Reset()	        | Вызывается при сбросе правила в состояние по умолчанию |
 
 
-AnalysisRuleArg.
+**AnalysisRuleArg**.
 
 | Имя члена класса | Описание |
 | ---------------- | -------- |
