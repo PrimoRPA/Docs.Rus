@@ -188,7 +188,7 @@ namespace Primo.ProjectAnalyzer.Dto.Rules
         }
 
         /// <summary>
-        /// Проуерка элемента
+        /// Проверка элемента
         /// </summary>
         /// <param name="component">Элемент</param>
         /// <returns>Результат проверки</returns>
@@ -209,7 +209,7 @@ namespace Primo.ProjectAnalyzer.Dto.Rules
 }
 ```
 
-### Описание
+### Описание классов
 IAnalysisRule
 
 | Имя члена класса | Описание |
