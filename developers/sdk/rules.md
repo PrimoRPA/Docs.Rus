@@ -85,7 +85,7 @@ namespace Primo.ProjectAnalyzer.Dto.Rules
 
         private RuleActions defaultAction = RuleActions.Error;
         /// <summary>
-        /// Действие по-умолчанию
+        /// Действие по умолчанию
         /// </summary>
         public RuleActions DefaultAction
         {
