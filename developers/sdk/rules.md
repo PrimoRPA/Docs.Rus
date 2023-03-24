@@ -16,7 +16,7 @@
 
 Пример правила ST-PR-003, проверяющего вложенность диаграмм:
 
-```c#
+```csharp
 using Primo.ProjectAnalyzer.Model;
 using Primo.ProjectAnalyzer.Model.Serialization;
 using System;
@@ -291,7 +291,7 @@ namespace Primo.ProjectAnalyzer.Dto.Rules
 
 Для отладки можно использовать класс Inspector. Например:
 
-```c#
+```csharp
 Primo.ProjectAnalyzer.Inspector insp = new Primo.ProjectAnalyzer.Inspector();
 
 var proj = Primo.ProjectAnalyzer.Helper.ProcessHelper.LoadProject(@"C:\Test\project.ltp");
