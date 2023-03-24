@@ -210,7 +210,7 @@ namespace Primo.ProjectAnalyzer.Dto.Rules
 ```
 
 ### Описание классов
-IAnalysisRule.
+**IAnalysisRule**.
 
 | Имя члена класса | Описание |
 | ---------------- | -------- |
@@ -236,7 +236,7 @@ AnalysisRuleArg.
 
 ![](<../../.gitbook/assets/2.sdk.rules.png>) 
 
-RuleResult.
+**RuleResult**.
 
 | Имя члена класса | Описание |
 | ---------------- | -------- |
@@ -249,7 +249,7 @@ RuleResult.
  
 ## Анатомия проекта Primo
 
-IRobotProject – информация о проекте.
+**IRobotProject** – информация о проекте.
 
 | Имя члена класса | Описание |
 | ---------------- | -------- |
@@ -258,7 +258,7 @@ IRobotProject – информация о проекте.
 | Dependencies	   | Массив зависимостей проекта |
 | GetAllProcesses() |	Возвращает все процессы проекта |
 
-IRobotProcess – информация о процессе.
+**IRobotProcess** – информация о процессе.
 
 | Имя члена класса | Описание |
 | ---------------- | -------- |
@@ -273,7 +273,7 @@ IRobotProcess – информация о процессе.
 | Arguments	       | Аргументы |
 | GetAllElements() |Возвращает все элементы процесса |
 
-SerializationComponent – информация об элементе.
+**SerializationComponent** – информация об элементе.
 
 | Имя члена класса | Описание |
 | ---------------- | -------- |
@@ -281,7 +281,7 @@ SerializationComponent – информация об элементе.
 | AssemblyName	   | Имя сборки |
 | Properties	     | Массив свойств (Name – имя, Value – значение) |
 
-SerializationContainer : SerializationComponent – информация об элементе-контейнере.
+**SerializationContainer : SerializationComponent** – информация об элементе-контейнере.
 
 | Имя члена класса | Описание |
 | ---------------- | -------- |
