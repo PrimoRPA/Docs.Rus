@@ -81,9 +81,9 @@
 
 Добавляя или изменяя строки регулярных выражений, можно значительно расширить автоматизацию исправления ошибок импорта, анализируя разницу между исходными файлами, полученными после Primo импорта и файлами, исправленными вручную. Такое сравнение можно делать, например, используя плагин “Compare” программы Notepad++. Таким же образом можно тестировать новые регулярные выражения, проверяя корректность преобразования.
 
-![](<../../.gitbook/assets/importfix_backup2.png>)
+![](<../../.gitbook/assets/importfix_settings3.png>)
 
-![](<../../.gitbook/assets/importfix_backup2.png>)
+![](<../../.gitbook/assets/importfix_settings4.png>)
 
 Справочник по регулярным выражениям можно найти, например, [здесь](https://docs.microsoft.com/ru-ru/dotnet/standard/base-types/regular-expression-language-quick-reference) или [здесь](https://regex.sorokin.engineer/ru/latest/regular_expressions.html).
 
