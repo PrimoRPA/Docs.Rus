@@ -85,7 +85,7 @@
 
 ![](<../../.gitbook/assets/importfix_settings4.png>)
 
-Справочник по регулярным выражениям можно найти, например, [здесь](https://docs.microsoft.com/ru-ru/dotnet/standard/base-types/regular-expression-language-quick-reference) или [здесь](https://regex.sorokin.engineer/ru/latest/regular_expressions.html).
+Справочник по регулярным выражениям можно найти [здесь](https://docs.microsoft.com/ru-ru/dotnet/standard/base-types/regular-expression-language-quick-reference) или, например, [здесь](https://regex.sorokin.engineer/ru/latest/regular_expressions.html).
 
 
 ## Внешний вид интерфейса, выбор скинов
