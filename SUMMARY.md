@@ -70,6 +70,7 @@
   * [Инспектор БД](primo-studio/tools/db\_explorer.md)
   * [Мобильные устройства](primo-studio/tools/mobile.md)
   * [Импорт](primo-studio/tools/import.md)
+  * [PrimoImportFix](primo-studio/tools/importfix.md)
   * [Редактор шаблонов OCR](primo-studio/tools/ocr-template-editor.md)
   * [Редактор диалогов](primo-studio/tools/dialogs-editor.md)
 
