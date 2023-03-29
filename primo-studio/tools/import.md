@@ -14,5 +14,5 @@
 
 ## Демонстрация импорта проекта UiPath в Primo 
 
-https://user-images.githubusercontent.com/98688247/228447076-ac28dc53-f028-472a-984f-025c2d15b590.mp4
+https://user-images.githubusercontent.com/98688247/228448510-b1a5cd7c-44a6-4615-b92f-a2e4155309a7.mov
 
