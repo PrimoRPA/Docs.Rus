@@ -414,7 +414,7 @@
     * [Запустить VBA](g\_elements/el\_basic/els\_excel/el\_excel\_vba.md)
     * [Запустить макрос](g\_elements/el\_basic/els\_excel/el\_excel\_macro.md)
     * [Копирование диапазона](g\_elements/el\_basic/els\_excel/el\_excel\_copyrange.md)
-    * [Найти начальную/конечную строку](g\_elements/el\_basic/els\_excel/el\_excel\_finddatarows.md)
+    * [Найти начальную/конечную строку](g\_elements/el\_basic/els\_excel/el\_excel\_getavailrange.md)
     * [Пересчет формул](g\_elements/el\_basic/els\_excel/el\_excel\_calc.md)
     * [Поиск в диапазоне](g\_elements/el\_basic/els\_excel/el\_excel\_lookuprange.md)
     * [Поиск на странице](g\_elements/el\_basic/els\_excel/el\_excel\_findall.md)
