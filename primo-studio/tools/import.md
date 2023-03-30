@@ -53,5 +53,5 @@
 
 ![](<../../.gitbook/assets/tools-open-fix.png>)
 
-И далее работайте с утилитой [по этой инструкции](https://docs.primo-rpa.ru/primo-rpa/primo-studio/tools/importfix). Те правила замен (таблица в настройках), которые ранее были подгружены в PrimoImportFix или изменены - применяются автоматически.
+И далее работайте с утилитой [по этой инструкции](https://docs.primo-rpa.ru/primo-rpa/primo-studio/tools/importfix). 
 
