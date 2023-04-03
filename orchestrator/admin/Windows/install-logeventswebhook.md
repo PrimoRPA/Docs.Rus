@@ -3,7 +3,7 @@
 
 Как это сделать:
 
-1. Разархивируйте `C:\Install\LogEventsWebhook.zip` в` C:\Primo\LogEventsWebhook` при помощи PowerShell:
+1. Разархивируйте C:\\**Install\LogEventsWebhook.zip** в C:\\**Primo\LogEventsWebhook** при помощи PowerShell:
 ```
 $InstallPath = "C:\Install"
 Expand-Archive -LiteralPath "$InstallPath\LogEventsWebhook.zip" -DestinationPath "C:\Primo\LogEventsWebhook" -Force
@@ -21,7 +21,7 @@ Expand-Archive -LiteralPath "$InstallPath\LogEventsWebhook.zip" -DestinationPath
 **Описание необходимых параметров:**
 
 * В секции RabbitMQ задайте параметр **Host** – адрес сервера с RabbitMQ.
-* В секции HttpEndPoint полностью задаем все параметры:
+* В секции HttpEndPoint полностью укажите все параметры:
   * **Url** – адрес end-point приема событий.
   * **LoginUrl** – адрес end-point получения токена.
   * **UserName** – имя пользователя для получения токена.
@@ -46,14 +46,14 @@ New-Service -Name Primo.Orchestrator.LogEventsWebhook -BinaryPathName "C:\Primo\
 $s = Get-Service "Primo.Orchestrator.LogEventsWebhook"
 $s.Start()
 ```
-**Примечание**: в `$secpasswd` можно задать любой пароль.
+**Примечание к коду**: в `$secpasswd` можно задать любой пароль.
 
-После чего служба Primo.Orchestrator.LogEventsWebhook будет отображаться в списке всех служб как запущенная:
+После чего служба Primo.Orchestrator.LogEventsWebhook будет отображаться в списке служб как запущенная:
 
 ![](<../../../.gitbook/assets/install-webhooks-4.png>)
 
 ![](<../../../.gitbook/assets/install-webhooks-5.png>)
 
-6\. В конфигурационном файле службы WebApi разрешите интеграцию:
+6\. В завершение в конфигурационном файле службы WebApi нужно разрешить интеграцию:
 
 ![](<../../../.gitbook/assets/install-webhooks-6.png>)
