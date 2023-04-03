@@ -24,11 +24,11 @@ location /swagger/ {
 
 3\. При помощи cmd перезапустите Nginx:
 * Перейдите в папку с установленным Nginx: 
-`>cd C:\Primo\nginx-1.21.1`
+`cd C:\Primo\nginx-1.21.1`
 * Выполните команду перезапуска Nginx: 
-`> nginx -s reload`
+`nginx -s reload`
 * Убедитесь, что Nginx запущен, используя команду: 
-`>tasklist /fi "imagename eq nginx.exe"`
+`tasklist /fi "imagename eq nginx.exe"`
 
 ![](<../../../../.gitbook/assets/swagger-nginx-2.png>)
 
