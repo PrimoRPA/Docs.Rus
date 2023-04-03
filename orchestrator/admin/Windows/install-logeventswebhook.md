@@ -14,22 +14,21 @@ Expand-Archive -LiteralPath "$InstallPath\LogEventsWebhook.zip" -DestinationPath
 [System.Environment]::SetEnvironmentVariable('ASPNETCORE_ENVIRONMENT', 'ProdWin', [System.EnvironmentVariableTarget]::Machine)
 ```
 
-3\. Настройте необходимые параметры в файле appsettings.ProdWin.json:
+3\. Настройте параметры в файле appsettings.ProdWin.json:
 
 ![](<../../../.gitbook/assets/install-webhooks-1.png>)
 
-В секции RabbitMQ задайте параметр **Host** – адрес сервера с RabbitMQ.
+**Описание необходимых параметров:**
 
-В секции HttpEndPoint полностью задаем все параметры:
-* **Url** – адрес end-point приема событий.
-* **LoginUrl** – адрес end-point получения токена.
-* **UserName** – имя пользователя для получения токена.
-* **Password** – пароль для получения токена. Пароль должен быть зашифрован утилитой LTools.Orchestrator.PasswordEncriptor
-
-В секции Orchestrator задайте параметр **BaseUrl** – адрес Оркестратора.
-
-В секции Cache настройте атрибут параметра **EntityData**:
-* **DurationInMinutes** – время (минут) жизни кэша для получения расширенной информации о связанной с событием сущности Оркестратора.
+* В секции RabbitMQ задайте параметр **Host** – адрес сервера с RabbitMQ.
+* В секции HttpEndPoint полностью задаем все параметры:
+  * **Url** – адрес end-point приема событий.
+  * **LoginUrl** – адрес end-point получения токена.
+  * **UserName** – имя пользователя для получения токена.
+  * **Password** – пароль для получения токена. Пароль должен быть зашифрован утилитой LTools.Orchestrator.PasswordEncriptor.
+* В секции Orchestrator задайте параметр **BaseUrl** – адрес Оркестратора.
+* В секции Cache настройте атрибут параметра **EntityData**:
+  * **DurationInMinutes** – время (минут) жизни кэша для получения расширенной информации о связанной с событием сущности Оркестратора.
 
 4\. Настройте уровни логирования (Information, Warning, Error):
 
@@ -49,7 +48,7 @@ $s.Start()
 ```
 **Примечание**: в `$secpasswd` можно задать любой пароль.
 
-После чего созданная служба Primo.Orchestrator.LogEventsWebhook будет отображаться в списке всех служб как запущенная:
+После чего служба Primo.Orchestrator.LogEventsWebhook будет отображаться в списке всех служб как запущенная:
 
 ![](<../../../.gitbook/assets/install-webhooks-4.png>)
 
