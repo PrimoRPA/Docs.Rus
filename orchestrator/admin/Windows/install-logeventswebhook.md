@@ -31,15 +31,15 @@ Expand-Archive -LiteralPath "$InstallPath\LogEventsWebhook.zip" -DestinationPath
 В секции Cache настройте атрибут параметра **EntityData**:
 * **DurationInMinutes** – время (минут) жизни кэша для получения расширенной информации о связанной с событием сущности Оркестратора.
 
-Настраиваем уровни логирования (Information, Warning, Error):
+4\. Настройте уровни логирования (Information, Warning, Error):
 
 ![](<../../../.gitbook/assets/install-webhooks-2.png>)
 
-4\. Настройте путь до папки с логами и шаблон имени файлов логов:
+5\. Настройте путь до папки с логами и шаблон имени файлов логов:
 
 ![](<../../../.gitbook/assets/install-webhooks-3.png>)
 
-5\. Зарегистрируйте Primo.Orchestrator.LogEventsWebhook.exe как службу Windows и сразу запустите её. Она должна работать как локальная служба. Для этого в PowerShell последовательно выполняем команды:
+5\. Зарегистрируйте Primo.Orchestrator.LogEventsWebhook.exe как службу Windows и сразу запустите. Она должна работать как локальная служба. Для этого последовательно выполните в PowerShell команды:
 ```
 $secpasswd = ConvertTo-SecureString 'Qwe123!@#' -AsPlainText -Force 
 $mycreds = New-Object System.Management.Automation.PSCredential ('NT AUTHORITY\LOCAL SERVICE', $secpasswd)  
@@ -55,6 +55,6 @@ $s.Start()
 
 ![](<../../../.gitbook/assets/install-webhooks-5.png>)
 
-В конфиге службы WebApi разрешаем интеграцию:
+6\. В конфигурационном файле службы WebApi разрешите интеграцию:
 
 ![](<../../../.gitbook/assets/install-webhooks-6.png>)
