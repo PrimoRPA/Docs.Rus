@@ -56,7 +56,7 @@ New-Service -Name Primo.Orchestrator.ArcSight -BinaryPathName "C:\Primo\ArcSight
 $s = Get-Service "Primo.Orchestrator.ArcSight"
 $s.Start()
 ```
-Пароль в строке `$mycreds -> $secpasswd` можно задать любой.
+Пароль в `$secpasswd` можно задать любой.
 
 После этого созданная служба Primo.Orchestrator.ArcSight будет отображаться в списке всех служб как запущенная:
 
