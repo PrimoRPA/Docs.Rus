@@ -1,4 +1,4 @@
-# Руководство по установке LogEventsWebhook как службы под Windows 2016 Server
+# Установка LogEventsWebhook как службы
 Раздел содержит инструкцию по установке LogEventsWebhook как службы под Windows 2016 Server. В версии Windows 2016 Server среда исполнения ASP .NET Core предустановлена, поэтому возможно сразу установить WebApi. 
 
 Как это сделать:
