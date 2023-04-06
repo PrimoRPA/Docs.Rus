@@ -1,7 +1,7 @@
 # Установка Notifications под Windows 2016 Server
 Раздел содержит инструкцию по установке Notifications под Windows 2016 Server.
 
-**Как это сделать:**
+**Как установить Notifications:**
 
 1\. Распакуйте архив `C:\Install\Notifications.zip в C:\Primo\Notifications`.\
 2\. Внесите изменения в конфигурационный файл Notifications (`C:\Primo\Notifications\appsettings.ProdWin.json`):
