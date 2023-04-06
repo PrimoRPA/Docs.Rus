@@ -1,15 +1,15 @@
 # Установка MachineInfo как службы 
 Раздел содержит инструкцию по установке MachineInfo как службы под Windows 2016 Server. В версии Windows 2016 Server среда исполнения ASP .NET Core предустановлена, поэтому есть возможность сразу установить MachineInfo. 
 
-Как это сделать:
+**Как установить MachineInfo:**
 
-1. Разархивируем C:\\**Install\\MachineInfo.zip** в C:\\**Primo\\MachineInfo**. Например, через PowerShell:
+1. Распакуйте архив `C:\\**Install\\MachineInfo.zip` в `C:\\Primo\\MachineInfo`. Например, выполнив команды в PowerShell:
 ```
 > $InstallPath = "C:\Install"
 > Expand-Archive -LiteralPath "$InstallPath\MachineInfo.zip" -DestinationPath "C:\Primo\MachineInfo" -Force
 ```
 
-2\. Создаем системную переменную окружения. Для этого в PoweShell выполняем команду:
+2\. Создайте системную переменную окружения. Для этого в PoweShell выполняем команду:
 ```
 > [System.Environment]::SetEnvironmentVariable('ASPNETCORE_ENVIRONMENT', 'ProdWin', [System.EnvironmentVariableTarget]::Machine)
 Регистрируем Primo.Orchestrator. MachineInfo.exe как службу Windows и сразу запускаем её. Служба должна работать как локальная служба. Для этого в PowerShell последовательно выполняем команды:
