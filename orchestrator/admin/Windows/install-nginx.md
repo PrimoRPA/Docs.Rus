@@ -5,21 +5,21 @@
 
 1\. Разархивируйте файл nginx-service.zip, который идет в комплекте поставки, в директорию `C:\Primo\nginx-1.21.1` (версия nginx может изменится):
 
-![](<../../../.gitbook/assets/install-mssql-start.png>)
+![](<../../../.gitbook/assets/install-nginx-1.png>)
 
 2\.	Щелкнуте правой кнопкой мыши по пустому простанству и откройте PowerShell от имени Администратора:
 
-![](<../../../.gitbook/assets/install-mssql-start.png>)
+![](<../../../.gitbook/assets/install-nginx-2.png>)
 
 3\. Выполните команду:
 ```
 .\nginx-service.exe install
 ```
-![](<../../../.gitbook/assets/install-mssql-start.png>)
+![](<../../../.gitbook/assets/install-nginx-3.png>)
 
 4\. После успешной установки службы можно запускать/останавливать ее в разделе **Управление сервером > Службы**:
 
-![](<../../../.gitbook/assets/install-mssql-start.png>)
+![](<../../../.gitbook/assets/install-nginx-4.png>)
 
 Альтернативный способ - с использованием окна PowerShell*. Для остановки и запуска используйте команды:
 ```
@@ -27,6 +27,6 @@
 > net start nginx
 ```
 
-![](<../../../.gitbook/assets/install-mssql-start.png>)
+![](<../../../.gitbook/assets/install-nginx-5.png>)
 
 *\*После установки службы Nginx PowerShell необходимо перезапустить*.
