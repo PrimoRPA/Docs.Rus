@@ -5,6 +5,7 @@
 
 1\. Распакуйте архив `C:\Install\Notifications.zip в C:\Primo\Notifications`.\
 2\. Внесите изменения в конфигурационный файл Notifications (`C:\Primo\Notifications\appsettings.ProdWin.json`):
+    
     * Отредактируйте секцию **Email** - она отвечает за SMTP-сервер, с которого будет происходить рассылка:
 
 ![](<../../../.gitbook/assets/install-notifications-1.png>)
