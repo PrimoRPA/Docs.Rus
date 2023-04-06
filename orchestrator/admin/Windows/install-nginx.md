@@ -7,13 +7,13 @@
 
 ![](<../../../.gitbook/assets/install-nginx-1.png>)
 
-2\.	Щелкнуте правой кнопкой мыши по пустому простанству и откройте PowerShell от имени Администратора:
+2\.	Щелкните правой кнопкой мыши по пустому пространству и откройте PowerShell от имени Администратора:
 
-![](<../../../.gitbook/assets/install-nginx-2.png>)
+![](<../../../.gitbook/assets/install-nginx-2step.png)
 
 3\. Выполните команду:
 ```
-.\nginx-service.exe install
+> .\nginx-service.exe install
 ```
 ![](<../../../.gitbook/assets/install-nginx-3.png>)
 
