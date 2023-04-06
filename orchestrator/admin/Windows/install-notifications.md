@@ -18,7 +18,7 @@
 ```
 > [System.Environment]::SetEnvironmentVariable('DOTNET_ENVIRONMENT', 'ProdWin', [System.EnvironmentVariableTarget]::Machine)
 ```
-4\. Зарегистрируйте Primo.Orchestrator.Notifications.exe как службу Windows и сразу запустите. Она должна работать как сетевая служба. Для этого в PoweShell последовательно выполните команды:
+4\. Зарегистрируйте **Primo.Orchestrator.Notifications.exe** как службу Windows и сразу запустите. Она должна работать как сетевая служба. Для этого в PoweShell последовательно выполните команды:
 ```
 > $secpasswd = ConvertTo-SecureString 'Qwe123!@#' -AsPlainText -Force 
 > $mycreds = New-Object System.Management.Automation.PSCredential ('NT AUTHORITY\NETWORK SERVICE', $secpasswd)  
@@ -28,6 +28,8 @@
 ```
 После чего созданная служба Primo.Orchestrator.Notifications будет отображаться в списке служб как запущенная.
 
-5\. Перейдите в UI Оркестратора и в разделе **Настройки ➝ Пользователи** отредактируйте для пользователей параметры рассылки – укажите e-mail и типы событий:
+5\. Перейдите в UI Оркестратора и в разделе **Настройки ➝ Пользователи** отредактируйте для пользователей параметры рассылки: укажите e-mail и типы событий, по которым необходимо получать уведомления:
 
 ![](<../../../.gitbook/assets/install-notifications-2.png>)
+
+:white_check_mark: **Готово**: уведомления успешно настроены.
