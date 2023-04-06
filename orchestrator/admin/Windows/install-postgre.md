@@ -56,14 +56,14 @@
 15\. Заходим в PostgreSQL через pgAdmin (пользователь postgres/postgres). PgAdmin установится вместе с PostgreSQL и доступен через меню **Пуск**. Требуется для определения параметров оборудования. Если для этого используется сервис MachineInfo, то не нужно.
 * Создаем пользователя, под которым будут работать компоненты Оркестратора, и необходимые БД:
 ```
-CREATE ROLE orch_user WITH
-  LOGIN
-  NOSUPERUSER
-  INHERIT
-  NOCREATEDB
-  NOCREATEROLE
-  NOREPLICATION
-  PASSWORD 'postgres';
+CREATE ROLE orch_user
+   LOGIN
+   NOSUPERUSER
+   INHERIT
+   NOCREATEDB
+   NOCREATEROLE
+   NOREPLICATION
+   PASSWORD 'postgres';
 GRANT pg_execute_server_program TO orch_user;
 
 CREATE DATABASE ltools WITH OWNER orch_user;
@@ -71,17 +71,17 @@ CREATE DATABASE ltoolslogs WITH OWNER orch_user;
 CREATE DATABASE ltoolsidentity WITH OWNER orch_user;
 CREATE DATABASE ltoolslicense WITH OWNER orch_user;
 ```
-* В БД ltoolslicense выполняем скрипты из папки C:\Install\ltoolslicense:
-  * get_cpu_id.sql
-  * get_hdd_id.sql
-  * get_host_name.sql
+* В БД **ltoolslicense** выполняем скрипты из папки `C:\Install\ltoolslicense`:
+  * `get_cpu_id.sql`
+  * `get_hdd_id.sql`
+  * `get_host_name.sql`
 
 :red_circle: **Важно!**\
 **При выполнении скриптов из postgresql-13/ltoolslicense нужно следить, чтобы случайно не внести изменения в текст скрипта. Недопустимо вносить даже не значимые с точки зрения кода скрипта пробелы и пустые строки.
 В том числе, если отредактировали скрипт в редакторе, который заменил визуально не наблюдаемые символы конца строки (отличаются для Windows- и Linux-строк).**
 
 16\. Настраиваем доступ к БД по сети (по умолчанию она доступна только локально по localhost):
-* Открываем папку C:\Primo\PostgreSQL\Data
+* Открываем папку `C:\Primo\PostgreSQL\Data`;
 * Вносим изменения в файл postgresql.conf:
 ```
 listen_addresses = '*'
@@ -91,6 +91,6 @@ listen_addresses = '*'
 local   all      all                  trust
 host    all      all     0.0.0.0/0  	trust
 ```
-* Перезапускаем службу PostgreSQL
+* Перезапускаем службу PostgreSQL.
 
 :white_check_mark: **Готово**: PostgreSQL успешно установлено.
