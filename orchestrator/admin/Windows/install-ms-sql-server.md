@@ -1,6 +1,6 @@
 # Установка MS SQL Server 2019 и MS SQL Management Studio
 
-Раздел содержит инструкцию по установке MS SQL Server 2019 и MS SQL Management Studio под Windows 2016 Server. 
+Раздел содержит инструкцию по установке MS SQL Server 2019 и MS SQL Management Studio (далее - MS SQL MS) под Windows 2016 Server. 
 
 **Для установки выполните шаги:**
 
@@ -9,9 +9,9 @@
 1. Установите PowerShell из `C:\Install\PowerShell-7.1.3-win-x64.msi`.
 1. Включите учетную запись суперпользователя **sa** базы данных. Для этого запустите MS SQL Management Studio:
 
-![](<../../../.gitbook/assets/install-mssql-start.png)
+![](<../../../.gitbook/assets/install-mssql-start.png>)
 
-5. В разделе Security переключите Аутентификацию сервера, как показано на рисунке ниже:
+5. В разделе Security выберите параметр для **Аутентификации сервера** в соответствии с рисунком ниже:
 
 ![](<../../../.gitbook/assets/install-mssql-2.png>)
 
@@ -19,15 +19,15 @@
 
 ![](<../../../.gitbook/assets/install-mssql-3.png>)
 
-7. В этом же окне в разделе Status включите Login. Перезагрузите сервер:
+7. В этом же окне в разделе Status включите **Login**. Перезагрузите сервер:
 
 ![](<../../../.gitbook/assets/install-mssql-4.png>)
 
-8.	При подключении к базе данных в MS SQL Management Studio, выберите Аутентификацию, введите логин и пароль, как показано на рисунке:
+8.	При подключении к базе данных в MS SQL Management Studio выберите нужную **аутентификацию**, введите **логин** и **пароль**, как показано на рисунке:
 
 ![](<../../../.gitbook/assets/install-mssql-5.png>)
 
-9. Последовательно выполнить команды  из C:\Install\MSSQL.zip\get_cpu_hdd_host.txt:
+9. Последовательно выполните команды  из файла `C:\Install\MSSQL.zip\get_cpu_hdd_host.txt`. Это требуется для определения параметров оборудования. Если для этого используется сервис MachineInfo, то выполнять команды не нужно.
 
 ![](<../../../.gitbook/assets/install-mssql-6.png>)
 
@@ -49,7 +49,7 @@
 
 ![](<../../../.gitbook/assets/install-mssql-13.png>)
 
-11. При помощи утилиты C:\Windows\System32\SQLServerManager15.msc включите TCP/IP для сервера БД:
+11. При помощи утилиты `C:\Windows\System32\SQLServerManager15.msc` включите TCP/IP для сервера БД. Название и расположение файла зависит от версии и установки MS SQL SERVER:
 
 ![](<../../../.gitbook/assets/install-mssql-14.png>)
 
