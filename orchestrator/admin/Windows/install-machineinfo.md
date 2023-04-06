@@ -19,7 +19,7 @@
 > $s = Get-Service "Primo.Orchestrator.MachineInfo"
 > $s.Start()
 ```
-**Примечание к коду:** пароль в `$secpasswd` можно указать любой.
+:large_blue_circle: **Примечание:** пароль в `$secpasswd` можно указать любой.
 
 После чего служба Primo.Orchestrator.MachineInfo будет отображаться в списке служб как запущенная:
 
