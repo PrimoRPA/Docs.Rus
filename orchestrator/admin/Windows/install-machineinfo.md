@@ -9,7 +9,7 @@
 > Expand-Archive -LiteralPath "$InstallPath\MachineInfo.zip" -DestinationPath "C:\Primo\MachineInfo" -Force
 ```
 
-2\. Создайте системную переменную окружения. Для этого в PoweShell выполняем команду:
+2\. Создайте системную переменную окружения. Для этого в PoweShell выполните команду:
 ```
 > [System.Environment]::SetEnvironmentVariable('ASPNETCORE_ENVIRONMENT', 'ProdWin', [System.EnvironmentVariableTarget]::Machine)
 Регистрируем Primo.Orchestrator. MachineInfo.exe как службу Windows и сразу запускаем её. Служба должна работать как локальная служба. Для этого в PowerShell последовательно выполняем команды:
@@ -28,7 +28,7 @@
 
 ![](<../../../.gitbook/assets/nstall-machineinfo-2.png>)
 
-3\. Открываем порт 5051 на файерволе.\
+3\. Откройте порт 5051 на файерволе.\
 Если используется один сервер с MachineInfo, в конфигурационном файле службы WebApi нужно добавить на него ссылку:
 
 ![](<../../../.gitbook/assets/install-machineinfo-3.png>)
