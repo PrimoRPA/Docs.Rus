@@ -9,7 +9,7 @@
 1. Установите PowerShell из `C:\Install\PowerShell-7.1.3-win-x64.msi`.
 1. Включите учетную запись суперпользователя **sa** базы данных. Для этого запустите MS SQL Management Studio:
 
-![](<../../../.gitbook/assets/install-mssql-1.png>)
+![](<../../../.gitbook/assets/install-mssql-start.png)
 
 5. В разделе Security переключите Аутентификацию сервера, как показано на рисунке ниже:
 
