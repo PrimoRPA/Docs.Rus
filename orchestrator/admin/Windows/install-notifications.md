@@ -14,7 +14,7 @@
 ```
 > [Environment]::GetEnvironmentVariable('DOTNET_ENVIRONMENT', 'Machine')
 ```
-:yellow_circle: ***Если системная переменная окружения DOTNET_ENVIRONMENT не существует, создайте ее через PoweShell с помощью команды:***
+:yellow_circle: **Если системная переменная окружения DOTNET_ENVIRONMENT не существует, создайте ее через PoweShell с помощью команды:**
 ```
 > [System.Environment]::SetEnvironmentVariable('DOTNET_ENVIRONMENT', 'ProdWin', [System.EnvironmentVariableTarget]::Machine)
 ```
