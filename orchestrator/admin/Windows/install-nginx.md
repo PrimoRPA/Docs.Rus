@@ -36,7 +36,7 @@ cd C:\Primo\nginx-1.21.1
 start nginx 
 ```
 * Внесите созданный файл в автозагрузку Windows командой:
-* ```
+```
 > REG ADD HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v orch_start /t REG_SZ /d "C:\orch_start.bat"
 ```
 Добавится соответствующее значение в системный реестр:
