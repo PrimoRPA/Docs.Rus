@@ -52,3 +52,4 @@ start nginx
 >nginx -s reload
 ```
 
+:white_check_mark: **Готово**: Nginx успешно установлен.
