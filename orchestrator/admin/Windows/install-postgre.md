@@ -82,11 +82,11 @@ CREATE DATABASE ltoolslicense WITH OWNER orch_user;
 
 16\. Настраиваем доступ к БД по сети (по умолчанию она доступна только локально по localhost):
 * Открываем папку `C:\Primo\PostgreSQL\Data`;
-* Вносим изменения в файл postgresql.conf:
+* Вносим изменения в файл **postgresql.conf**:
 ```
 listen_addresses = '*'
 ```
-* Вносим изменения в файл pg_hba.conf:
+* Вносим изменения в файл **pg_hba.conf**:
 ```
 local   all      all                  trust
 host    all      all     0.0.0.0/0  	trust
