@@ -9,7 +9,7 @@
 
 2\.	Щелкните правой кнопкой мыши по пустому пространству и откройте PowerShell от имени Администратора:
 
-![](<../../../.gitbook/assets/install-nginx-2step.png)
+![](<../../../.gitbook/assets/install-nginx-2step.png>)
 
 3\. Выполните команду:
 ```
