@@ -52,4 +52,4 @@ start nginx
 >nginx -s reload
 ```
 
-:white_check_mark: **Готово**: Nginx успешно установлен и поставлен в режим автозагрузки.
+:white_check_mark: **Готово**: Nginx успешно установлен и добавлен в автозагрузку Windows.
