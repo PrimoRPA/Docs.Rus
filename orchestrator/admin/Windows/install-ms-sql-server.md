@@ -4,13 +4,10 @@
 
 **Для установки выполните шаги:**
 
-1\. Запустите установку MSSQL SERVER из `C:\Install\MSSQL.zip\SQL2019-SSEI-Dev.exe`.
-
-2\. Установите MS SQL MS из `C:\Install\MSSQL.zip\SSMS-Setup-RUS.exe`.
-
-3\. Установите PowerShell из `C:\Install\PowerShell-7.1.3-win-x64.msi`.
-
-4\. Включите учетную запись суперпользователя **sa** базы данных. Для этого запустите MS SQL Management Studio:
+1. Запустите установку MSSQL SERVER из `C:\Install\MSSQL.zip\SQL2019-SSEI-Dev.exe`.
+2. Установите MS SQL MS из `C:\Install\MSSQL.zip\SSMS-Setup-RUS.exe`.
+3. Установите PowerShell из `C:\Install\PowerShell-7.1.3-win-x64.msi`.
+4. Включите учетную запись суперпользователя **sa** базы данных. Для этого запустите MS SQL Management Studio:
 
 ![](<../../../.gitbook/assets/install-mssql-start.png>)
 
