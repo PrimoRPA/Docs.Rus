@@ -43,7 +43,7 @@ start nginx
 
 ![](<../../../.gitbook/assets/install-nginx-win-4.png>)
 
-5\. Открываем порт 44392 на файерволе. В PowerShell выполняем команду:
+5\. Откройте порт 44392 на файерволе. В PowerShell выполните команду:
 ```
 > New-NetFirewallRule -DisplayName 'Primo Orchestrator (44392)' -Profile 'Private, Domain, Public' -Direction Inbound -Action Allow -Protocol TCP -LocalPort 44392
 ```
