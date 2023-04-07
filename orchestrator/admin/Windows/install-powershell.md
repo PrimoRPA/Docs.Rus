@@ -33,7 +33,7 @@ PowerShell Core нужен для настройки окружения и ко�
 
 ![](<../../../.gitbook/assets/install-powershell-7.png>)
 
-:white_check_mark: **Готово**: PowerShell 7.1.3 успешно установлен.
+:white_check_mark: **Готово**: PowerShell 7.1.3 успешно установлен под Windows 2016 Server.
 
 
 
