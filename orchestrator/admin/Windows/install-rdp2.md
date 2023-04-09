@@ -18,11 +18,11 @@
 ```
 > [System.Environment]::SetEnvironmentVariable('DOTNET_ENVIRONMENT', 'ProdWin', [System.EnvironmentVariableTarget]::Machine)
 ```
-4\. Зарегистрируйте **Primo.Orchestrator.RDP2.exe** как службу Windows и сразу запустите ее. Она должна работать как локальная служба. Для этого в PowerShell последовательно выполните команды:
+4\. Зарегистрируйте **Primo.Orchestrator.RDP2.exe** как службу Windows и сразу запустите ее. Для этого в PowerShell последовательно выполните команды:
 ```
 > New-Service -Name Primo.Orchestrator.RDP2 -BinaryPathName "C:\Primo\RDP2\Primo.Orchestrator.RDP2.exe" -Description "Primo.Orchestrator.RDP2" -DisplayName "Primo.Orchestrator.RDP2" -StartupType Automatic 
 ```
-5\. Запустите службу - она должна работать под **Local System account**:
+5\. Запустите службу - она должна работать как локальная служба, т.е. под **Local System account**:
 
 ![](<../../../.gitbook/assets/install-rdp2-2.png>)
 
