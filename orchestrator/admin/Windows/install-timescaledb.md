@@ -18,27 +18,31 @@
 * В секции **ConnectionStrings** измените **HOST** для всех строк подключения к БД на реальный IP серверов БД.\
   Если поменялся пользователь/пароль БД – их тоже нужно изменить.
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/install-timescale-1.png>)
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/install-timescale-2.png>)
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/install-timescale-3.png>)
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/install-timescale-4.png>)
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/install-timescale-5.png>)
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/install-timescale-6.png>)
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/install-timescale-7.png>)
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/install-timescale-8.png>)
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/install-timescale-9.png>)
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/install-timescale-10.png>)
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/install-timescale-11.png>)
+
+![](<../../../.gitbook/assets/install-timescale-12.png>)
+
+![](<../../../.gitbook/assets/install-timescale-13.png>)
 
 3\. Проверьте, что значение системной переменной окружения **DOTNET_ENVIRONMENT** равно **ProdWin**. Для этого выполните в PoweShell команду:
 ```
