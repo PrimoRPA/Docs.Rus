@@ -1,65 +1,64 @@
 # Установка TimescaleDB
-Раздел содержит инструкцию по установке **TimescaleDB* под Windows 2016 Server. 
-
-Расширение для базы данных PostgreSQL  12 – TimescaleDB – используется в Оркестраторе для Logs DB (см. Введение, рисунок 1).
+Расширение для базы данных PostgreSQL 12 – TimescaleDB – используется в Оркестраторе для Logs DB. Раздел содержит инструкцию по установке TimescaleDB под Windows 2016 Server. 
 
 **Как установить TimescaleDB:**
 
-1\. Проверяем, что в системной переменной окружения Path установлен путь, соответствующей версии PostgreSQL:
+1\. Проверяем, что в системной переменной окружения **Path** установлен путь до соответствующей версии PostgreSQL.
 
-![](<../../../.gitbook/assets/>)
-
-![](<../../../.gitbook/assets/>)
-
-Если он отсутствует, добавляем его вручную.
-
-2\. Распакуем архив `C:\Install\timescaledb-postgresql-12_1.7.4-windows-amd64.zip` в папку `C:\Install`.\
-3\. Внесите изменения в конфигурационный файл States (`C:\Primo\States\appsettings.ProdWin.json`):
-* В секции **ConnectionStrings** измените **HOST** для всех строк подключения к БД на реальный IP серверов БД.\
-  Если поменялся пользователь/пароль БД – их тоже нужно изменить.
+:yellow_circle: ***Если путь отсутствует, добавляем его вручную.***
 
 ![](<../../../.gitbook/assets/install-timescale-1.png>)
 
+Диалог редактирования переменной окружения:
+
 ![](<../../../.gitbook/assets/install-timescale-2.png>)
+
+
+2\. Далее распакуем архив `C:\Install\timescaledb-postgresql-12_1.7.4-windows-amd64.zip` в папку `C:\Install`.\
+3\.	Из папки `timescaledb` запускаем установочный файл `setup.exe` от имени Администратора:
 
 ![](<../../../.gitbook/assets/install-timescale-3.png>)
 
+4\. Выбираем **Да** в окне разрешения на установку приложения:
+
 ![](<../../../.gitbook/assets/install-timescale-4.png>)
+
+5\. Для начала установки выбираем на клавиатуре латинскую букву `y` и жмем `Enter`:
 
 ![](<../../../.gitbook/assets/install-timescale-5.png>)
 
+6\. Указываем полный путь к файлу конфигурации `C:\Primo\PostgreSQL\Data\postgresql.conf` и жмем `Enter`:
+
 ![](<../../../.gitbook/assets/install-timescale-6.png>)
+
+7\. В последующих шагах принимаем все настройки по умолчанию и вводим латинскую букву `y`:
 
 ![](<../../../.gitbook/assets/install-timescale-7.png>)
 
+8\.
+
 ![](<../../../.gitbook/assets/install-timescale-8.png>)
+
+9\.
 
 ![](<../../../.gitbook/assets/install-timescale-9.png>)
 
+10\. 
+
 ![](<../../../.gitbook/assets/install-timescale-10.png>)
+
+11\.
 
 ![](<../../../.gitbook/assets/install-timescale-11.png>)
 
+12\.
+
 ![](<../../../.gitbook/assets/install-timescale-12.png>)
+
+13\. На этом шаге вы должны увидеть уведомление об успешной установке:
 
 ![](<../../../.gitbook/assets/install-timescale-13.png>)
 
-3\. Проверьте, что значение системной переменной окружения **DOTNET_ENVIRONMENT** равно **ProdWin**. Для этого выполните в PoweShell команду:
-```
-> [Environment]::GetEnvironmentVariable('DOTNET_ENVIRONMENT', 'Machine')
-```
-:yellow_circle: ***Если переменная DOTNET_ENVIRONMENT не была создана ранее, создайте ее***. Для этого в PowerShell выполните команду:
-```
-> [System.Environment]::SetEnvironmentVariable('DOTNET_ENVIRONMENT', 'ProdWin', [System.EnvironmentVariableTarget]::Machine)
-```
-4\. Зарегистрируйте `Primo.Orchestrator.States.exe` как службу Windows и сразу запустите её. Она должна работать как сетевая служба.
+Нажмите `Enter` для закрытия окна терминала.
 
-Для этого в PowerShell последовательно выполните команды:
-```
-> $secpasswd = ConvertTo-SecureString 'Qwe123!@#' -AsPlainText -Force 
-> $mycreds = New-Object System.Management.Automation.PSCredential ('NT AUTHORITY\NETWORK SERVICE', $secpasswd)  
-> New-Service -Name Primo.Orchestrator.States -BinaryPathName "C:\Primo\States\Primo.Orchestrator.States.exe" -Credential $mycreds -Description "Primo.Orchestrator.States" -DisplayName "Primo.Orchestrator.States " -StartupType Automatic 
-> $s = Get-Service "Primo.Orchestrator.States"
-> $s.Start()
-```
-:white_check_mark: **Готово**: создана сетевая служба **Primo.Orchestrator.States**, которая будет отображаться в списке всех служб как запущенная.
+:white_check_mark: **Готово**: расширение TimescaleDB успешно установлено.
