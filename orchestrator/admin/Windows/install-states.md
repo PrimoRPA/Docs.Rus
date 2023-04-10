@@ -28,4 +28,4 @@
 > $s = Get-Service "Primo.Orchestrator.States"
 > $s.Start()
 ```
-:white_check_mark: **Готово**: создана служба **Primo.Orchestrator.States**, которая будет отображаться в списке всех служб как запущенная.
+:white_check_mark: **Готово**: создана сетевая служба **Primo.Orchestrator.States**, которая будет отображаться в списке всех служб как запущенная.
