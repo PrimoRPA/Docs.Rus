@@ -15,28 +15,51 @@
 > [System.Environment]::SetEnvironmentVariable('ASPNETCORE_ENVIRONMENT', 'ProdWin', [System.EnvironmentVariableTarget]::Machine)
 ```
 
-3\. Для узла WebApi создаем отдельный неуправляемый Application Pool с наименованием **Primo.WebApi** (рисунки 28 – 30), Start Mode = AlwaysRunning и Regular Time Interval (minutes) = 0:
+3\. Для узла WebApi создаем отдельный неуправляемый Application Pool:
 
 ![](<../../../../.gitbook/assets/install-webapi-node-2.png>)
 
+* Задаем ему имя **Primo.WebApi**:
+
 ![](<../../../../.gitbook/assets/install-webapi-node-3.png>)
+
+* Выбираем для **Start Mode** значение **AlwaysRunning**:
 
 ![](<../../../../.gitbook/assets/install-webapi-node-4.png>)
 
-4\. Создаем папки C:\Primo\UI и C:\Primo\WebApi, в которые разархивируем UI.zip и 
-WebApi-IIS.zip из комплекта поставки (рисунки 31, 32):
+* И для **Regular Time Interval** (minutes) значение **0**:
 
 ![](<../../../../.gitbook/assets/install-webapi-node-5.png>)
 
+В результате будет добавлен Application Pool с наименованием **Primo.WebApi**:
+
 ![](<../../../../.gitbook/assets/install-webapi-node-6.png>)
 
-5\. Добавляем веб-узел Primo.WebApi (рисунки 33 – 35), устанавливаем для него ранее созданный Application Pool с наименованием Primo.WebApi:
+4\. Создаем папки `C:\Primo\UI` и `C:\Primo\WebApi`, в которые разархивируем `UI.zip` и `WebApi-IIS.zip` из комплекта поставки.
+
+Рабочий каталог узла UI:
 
 ![](<../../../../.gitbook/assets/install-webapi-node-7.png>)
 
+Рабочий каталог узла WebApi:
+
 ![](<../../../../.gitbook/assets/install-webapi-node-8.png>)
 
+5\. Добавляем веб-узел **Primo.WebApi**:
+* Добавление веб-узла Primo.WebApi:
+
 ![](<../../../../.gitbook/assets/install-webapi-node-9.png>)
+
+* Параметры веб-узла Primo.WebApi:
+
+![](<../../../../.gitbook/assets/install-webapi-node-10.png>)
+
+* Добавленный веб-узел Primo.WebApi:
+
+![](<../../../../.gitbook/assets/install-webapi-node-11.png>)
+
+6\. Устанавливаем для веб-узла ранее созданный Application Pool с наименованием Primo.WebApi:
+
 
 6\. Чтобы Primo.WebApi заработал под IIS, устанавливаем из комплекта поставки:
 * aspnetcore-runtime-3.1.15-win-x64.exe\
@@ -49,10 +72,6 @@ WebApi-IIS.zip из комплекта поставки (рисунки 31, 32):
 7\. Для создания узла UI сначала создадим для веб-сервера SSL-сертификат* , так как этот узел будет работать по https (рисунки 36 – 39):
 
 *\***Для промышленного узла необходимо использовать SSL-сертификат, выданный доверенным удостоверяющим центром.***
-
-![](<../../../../.gitbook/assets/install-webapi-node-10.png>)
-
-![](<../../../../.gitbook/assets/install-webapi-node-11.png>)
 
 ![](<../../../../.gitbook/assets/install-webapi-node-12.png>)
 
