@@ -10,27 +10,45 @@
 
 ![](<../../../../.gitbook/assets/install-webapi-node-1.png>)
 
-2\.
+2\. Создаем системную переменную окружения ASPNETCORE_ENVIRONMENT= ProdWin. Для этого в PoweShell выполняем команду:
+```
+> [System.Environment]::SetEnvironmentVariable('ASPNETCORE_ENVIRONMENT', 'ProdWin', [System.EnvironmentVariableTarget]::Machine)
+```
+
+3\. Для узла WebApi создаем отдельный неуправляемый Application Pool с наименованием **Primo.WebApi** (рисунки 28 – 30), Start Mode = AlwaysRunning и Regular Time Interval (minutes) = 0:
 
 ![](<../../../../.gitbook/assets/install-webapi-node-2.png>)
 
-3\.
-
 ![](<../../../../.gitbook/assets/install-webapi-node-3.png>)
 
-4\.
-
 ![](<../../../../.gitbook/assets/install-webapi-node-4.png>)
+
+4\. Создаем папки C:\Primo\UI и C:\Primo\WebApi, в которые разархивируем UI.zip и 
+WebApi-IIS.zip из комплекта поставки (рисунки 31, 32):
 
 ![](<../../../../.gitbook/assets/install-webapi-node-5.png>)
 
 ![](<../../../../.gitbook/assets/install-webapi-node-6.png>)
+
+5\. Добавляем веб-узел Primo.WebApi (рисунки 33 – 35), устанавливаем для него ранее созданный Application Pool с наименованием Primo.WebApi:
 
 ![](<../../../../.gitbook/assets/install-webapi-node-7.png>)
 
 ![](<../../../../.gitbook/assets/install-webapi-node-8.png>)
 
 ![](<../../../../.gitbook/assets/install-webapi-node-9.png>)
+
+6\. Чтобы Primo.WebApi заработал под IIS, устанавливаем из комплекта поставки:
+* aspnetcore-runtime-3.1.15-win-x64.exe\
+  (https://download.visualstudio.microsoft.com/download/pr/ae6e6b5b-5e7c-45f9-a668-cb1899f22e46/9c917acfab934ddd64340ba46490264e/aspnetcore-runtime-3.1.15-win-x64.exe);
+* dotnet-hosting-3.1.15-win.exe\
+  (https://download.visualstudio.microsoft.com/download/pr/c8eabe25-bb2b-4089-992e-48198ff72ad8/a55a5313bfb65ac9bd2e5069dd4de5bc/dotnet-hosting-3.1.15-win.exe).
+  
+И перезагружаем компьютер.
+
+7\. Для создания узла UI сначала создадим для веб-сервера SSL-сертификат* , так как этот узел будет работать по https (рисунки 36 – 39):
+
+*\***Для промышленного узла необходимо использовать SSL-сертификат, выданный доверенным удостоверяющим центром.***
 
 ![](<../../../../.gitbook/assets/install-webapi-node-10.png>)
 
@@ -40,7 +58,15 @@
 
 ![](<../../../../.gitbook/assets/install-webapi-node-13.png>)
 
+8\. Добавляем веб-узел Primo.UI (рисунок 40), устанавливаем для него Application Pool с наименованием DefaultAppPool и выбираем ранее созданный SSL-сертификат с наименованием Primo: 
+
 ![](<../../../../.gitbook/assets/install-webapi-node-14.png>)
+
+На этом шаге узлы Primo.WebApi и Primo.UI по отдельности рабочие. Далее надо связать Primo.UI и Primo.WebApi, настроив реверс-прокси для API. Предварительно надо установить модули IIS из комплекта поставки (обязательно в приведенной ниже последовательности), обеспечивающие функциональность реверс-прокси:
+* rewrite_amd64_en-US.msi
+* requestRouter_amd64.msi
+	На узле Primo.UI настраиваем реверс-прокси для API (рисунки 41 – 45):
+
 
 ![](<../../../../.gitbook/assets/install-webapi-node-15.png>)
 
