@@ -37,15 +37,15 @@
 
 4\. Создаем папки `C:\Primo\UI` и `C:\Primo\WebApi`, в которые разархивируем `UI.zip` и `WebApi-IIS.zip` из комплекта поставки.
 
-Рабочий каталог узла UI:
+* Рабочий каталог узла UI:
 
 ![](<../../../../.gitbook/assets/install-webapi-node-7.png>)
 
-Рабочий каталог узла WebApi:
+* Рабочий каталог узла WebApi:
 
 ![](<../../../../.gitbook/assets/install-webapi-node-8.png>)
 
-5\. Добавляем веб-узел **Primo.WebApi**:
+5\. Добавляем веб-узел **Primo.WebApi**.
 * Добавление веб-узла Primo.WebApi:
 
 ![](<../../../../.gitbook/assets/install-webapi-node-9.png>)
