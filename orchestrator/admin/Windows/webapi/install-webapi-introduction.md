@@ -12,7 +12,7 @@
 
 2\. Во всплывающем меню выбираем **Open Network and Sharing Center**:
 
-![](<../../../.gitbook/assets/install-webapi-ad-2.png>)
+![](<../../../../.gitbook/assets/install-webapi-ad-2.png>)
 
 3\. В открывшемся окне **Network and Sharing Center** в левом меню выбираем **Change adapter settings**:	
 
