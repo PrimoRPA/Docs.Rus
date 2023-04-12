@@ -4,8 +4,8 @@
 ### Содержание
 
 1. Включение компьютера в AD (пропустите, если используется DHCP).
-2. Установка IIS.
-3. Разворачивание узлов веб-приложения.
+2. [Установка IIS](https://github.com/PrimoRPA/Docs.Rus/blob/139-%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B-%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B0-%D0%B2-%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB-%D0%BE%D1%80%D0%BA%D0%B5%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B0/orchestrator/admin/Windows/webapi/webapi-install-iis.md).
+3. [Разворачивание узлов веб-приложения](https://github.com/PrimoRPA/Docs.Rus/blob/139-%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B-%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B0-%D0%B2-%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB-%D0%BE%D1%80%D0%BA%D0%B5%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B0/orchestrator/admin/Windows/webapi/web-app-nodes.md).
 
 ## Включение компьютера в AD
 
@@ -31,6 +31,8 @@
 5\. Во всплывающем меню выбираем **Properties**:
 
 ![](<../../../../.gitbook/assets/install-webapi-ad-5.png>)
+
+✅ Готово: веб-сервер IIS успешно установлен в Windows 2016 Server. Для завершения установки WebApi и UI на IIS перейдите к разворачиванию узлов веб-приложения.
 
 6\. В открывшемся окне **Ethernet Properties** кликаем по **Internet Protocol Version 4 (NCP/IPv4)**: 
 
@@ -78,90 +80,7 @@
 
 ![](<../../../../.gitbook/assets/install-webapi-ad-16.png>)
 
-## Установка IIS
+:white_check_mark: **Готово**: компьютер успешно включен в службу каталогов Active Directory - можно переходить к [**установке IIS**](https://github.com/PrimoRPA/Docs.Rus/blob/139-%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B-%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B0-%D0%B2-%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB-%D0%BE%D1%80%D0%BA%D0%B5%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B0/orchestrator/admin/Windows/webapi/webapi-install-iis.md).
 
-![](<../../../.gitbook/assets/install-webapi-iis-1.png>)
 
-![](<../../../.gitbook/assets/install-webapi-iis-2.png>)
 
-![](<../../../.gitbook/assets/install-webapi-iis-3.png>)
-
-![](<../../../.gitbook/assets/install-webapi-iis-4.png>)
-
-![](<../../../.gitbook/assets/install-webapi-iis-5.png>)
-
-![](<../../../.gitbook/assets/install-webapi-iis-6.png>)
-
-![](<../../../.gitbook/assets/install-webapi-iis-7.png>)
-
-![](<../../../.gitbook/assets/install-webapi-iis-8.png>)
-
-![](<../../../.gitbook/assets/install-webapi-iis-9.png>)
-
-![](<../../../.gitbook/assets/install-webapi-iis-10.png>)
-
-![](<../../../.gitbook/assets/install-webapi-iis-11.png>)
-
-![](<../../../.gitbook/assets/>)
-
-![](<../../../.gitbook/assets/>)
-
-![](<../../../.gitbook/assets/>)
-
-![](<../../../.gitbook/assets/>)
-
-![](<../../../.gitbook/assets/>)
-
-![](<../../../.gitbook/assets/>)
-
-![](<../../../.gitbook/assets/>)
-
-![](<../../../.gitbook/assets/>)
-
-![](<../../../.gitbook/assets/>)
-
-![](<../../../.gitbook/assets/>)
-
-![](<../../../.gitbook/assets/>)
-
-![](<../../../.gitbook/assets/>)
-
-![](<../../../.gitbook/assets/>)
-
-![](<../../../.gitbook/assets/>)
-
-![](<../../../.gitbook/assets/>)
-
-![](<../../../.gitbook/assets/>)
-
-![](<../../../.gitbook/assets/>)
-
-![](<../../../.gitbook/assets/>)
-
-![](<../../../.gitbook/assets/>)
-
-![](<../../../.gitbook/assets/>)
-
-![](<../../../.gitbook/assets/>)
-
-![](<../../../.gitbook/assets/>)
-
-![](<../../../.gitbook/assets/>)
-
-![](<../../../.gitbook/assets/>)
-
-![](<../../../.gitbook/assets/>)
-
-![](<../../../.gitbook/assets/>)
-
-![](<../../../.gitbook/assets/>)
-
-![](<../../../.gitbook/assets/>)
-
-![](<../../../.gitbook/assets/>)
-
-![](<../../../.gitbook/assets/>)
-
-![](<../../../.gitbook/assets/>)
-
-:white_check_mark: **Готово**: приложение Nginx успешно установлено и добавлено в автозагрузку Windows.
