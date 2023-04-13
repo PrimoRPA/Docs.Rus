@@ -4,39 +4,31 @@
 
 **Последовательно выполняем шаги:**
 
-1\. Разархивируем `C:\Install\WebApi.zip` в `C:\Primo\WebApi`. Можно при помощи PowerShell:
+1\. Распакуем архив `C:\Install\WebApi.zip` в папку `C:\Primo\WebApi`. Можно при помощи PowerShell:
 ```
 > Expand-Archive -LiteralPath "$InstallPath\WebApi.zip" -DestinationPath 'C:\Primo\WebApi' -Force
 ```
 2\. Редактируем конфиг WebApi (`C:\Primo\WebApi\appsettings.ProdWin.json`):
-*Меняем на реальный (который у вашего сервера, см. nginx.config «Руководство по установке Nginx под Windows 2016 Server.docx») IP:
+* Меняем на реальный IP (который у вашего сервера, см. nginx.config «Руководство по установке Nginx под Windows 2016 Server.docx»):
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/install-webapi-as-service-1.png>)
 
-3\. Создаем папку для публикации дистрибутивов Робота, например, `C:\tmp`, и указываем её в конфиге `appsettings.ProdWin.json`:
+3\. Создаем папку для публикации дистрибутивов Робота, например, `C:\tmp` и указываем её в конфиге `appsettings.ProdWin.json`:
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/install-webapi-as-service-2.png>)
 
-Меняем в секции ConnectionStrings конфига appsettings.ProdWin.json HOST для всех строк подключения к БД на реальный IP серверов БД:
-Тут (для PostgreSQL):
+В секции `ConnectionStrings` конфигурационного файла `appsettings.ProdWin.json` меняем **HOST** для всех строк подключения к БД на реальный IP серверов БД:
+* Для **PostgreSQL** меняем подчеркнутые значения:
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/install-webapi-as-service-3.png>)
 
-или тут (для MS SQL SERVER):
+* Для **MS SQL SERVER** меняем подчеркнутые значения:
 
-![](<../../../.gitbook/assets/>)
- 
-меняем это:
-
-![](<../../../.gitbook/assets/>)
- 
-или это:
- 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/install-webapi-as-service-4.png>)
 
 Если для работы лицензий используется сервис получения параметров оборудования, то настраиваем WebApi на работу с этим сервисом – вводим адрес этого сервиса:
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/install-webapi-as-service-5.png>)
  
 Если поменялся пользователь/пароль БД – их тоже меняем.
 
@@ -55,13 +47,10 @@
 ```
 После чего созданная служба Primo.Orchestrator.WebApi будет отображаться в списке всех служб как запущенная:
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/install-webapi-as-service-6.png>)
  
 Служба может не запуститься. Наиболее вероятная причина – это не верный коннекшнстринг (пароль) в appsettings.ProdWin.json и/или не развернута/не настроена какая-либо из 4-х БД Оркестратора.
 
 При обновлении службы WebApi может потребоваться дополнительная настройка для RabbitMQ. Для выполнения настройки необходимо перед стартом службы WebApi запустить скрипт из комплекта поставки: deletequeues.bat – для RabbitMQ, запущенном на ОС Windows и deletequeues.sh – для RabbitMQ, запущеном на ОС Linux. Скрипты необходимо запустить на сервере, на котором запущен RabbitMQ. 
 
-:white_check_mark: **Готово**: WebApi как служба успешно установлена в Windows 2016 Server и готова к работе.
-
-
-
+:white_check_mark: **Готово**: WebApi как служба успешно установлена в Windows 2016 Server и готова к работе. 
