@@ -58,5 +58,3 @@
 * `deletequeues.sh` – для RabbitMQ, запущеном на ОС Linux. 
  
 Скрипты необходимо запустить на сервере, на котором запущен RabbitMQ. 
-
-:white_check_mark: **Готово**: WebApi успешно установлена как служба в Windows 2016 Server. 
