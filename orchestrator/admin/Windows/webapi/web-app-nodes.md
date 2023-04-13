@@ -91,36 +91,81 @@
 
 ![](<../../../../.gitbook/assets/install-webapi-node-16.png>)
 
-На этом шаге узлы Primo.WebApi и Primo.UI по отдельности рабочие. Далее надо связать Primo.UI и Primo.WebApi, настроив реверс-прокси для API. Предварительно надо установить модули IIS из комплекта поставки (обязательно в приведенной ниже последовательности), обеспечивающие функциональность реверс-прокси:
+На этом шаге узлы **Primo.WebApi** и **Primo.UI** по отдельности рабочие. Далее надо связать **Primo.UI** и **Primo.WebApi**, настроив реверс-прокси для API. Предварительно надо установить модули IIS из комплекта поставки, обеспечивающие функциональность реверс-прокси.
+
+9\. Устанавливаем модули IIS (обязательно в приведенной ниже последовательности):
 * rewrite_amd64_en-US.msi
 * requestRouter_amd64.msi
-	На узле Primo.UI настраиваем реверс-прокси для API (рисунки 41 – 45):
+
+10\. На узле **Primo.UI** настраиваем реверс-прокси для API.
+* Выбираем иконку оснастки управления правилами URL Rewrite:
 
 ![](<../../../../.gitbook/assets/install-webapi-node-17.png>)
 
+* Добавляем правила URL Rewrite:
+
 ![](<../../../../.gitbook/assets/install-webapi-node-18.png>)
+
+* Выбираем шаблон правила URL Rewrite:
 
 ![](<../../../../.gitbook/assets/install-webapi-node-19.png>)
 
+* Настраиваем параметры правила URL Rewrite:
+  * Name: `Reverse Proxy to API`
+  * Pattern: `^api/(.*)`
+  * Rewrite URL: `http://localhost:5001/api/{R:1}`
+  * Устанавливаем галочку в чекбоксе **Stop processing of subsequent rules**.
+
 ![](<../../../../.gitbook/assets/install-webapi-node-20.png>)
+
+* Правило URL Rewrite добавлено:
 
 ![](<../../../../.gitbook/assets/install-webapi-node-21.png>)
 
+11\. Чтобы ARR заработал, надо его активировать. Для этого пробуем добавить **Reverse Proxy** правило:
+
 ![](<../../../../.gitbook/assets/install-webapi-node-22.png>)
+
+12\. IIS выдаст предупреждение об активации ARR, на которое надо согласиться и нажать **ОК**:
 
 ![](<../../../../.gitbook/assets/install-webapi-node-23.png>)
 
+13\. Добавлять **Reverse Proxy** правило не надо, это все нужно было только для активации ARR. Нажимаем **Cancel**:
+
 ![](<../../../../.gitbook/assets/install-webapi-node-24.png>)
+
+Теперь ARR активировано, и узел **Primo.UI** может работать как реверс-прокси.
+
+Управлять правилами также можно из **Web.config** (секция `<rewrite/>`) узла Primo.UI:
 
 ![](<../../../../.gitbook/assets/install-webapi-node-25.png>)
 
+Секция `<rewrite/>` Web.config:
+
 ![](<../../../../.gitbook/assets/install-webapi-node-26.png>)
 
+14\. Для каждого узла – **Primo.UI** и **Primo.WebApi** настраиваем максимальный размер загружаемых файлов.
+* Размер файлов для узла Primo.UI:
+
 ![](<../../../../.gitbook/assets/install-webapi-node-27.png>)
+* Размер файлов для узла Primo.WebApi:
+
+![](<../../../../.gitbook/assets/install-webapi-node-primowebapi.png>)
+
+Проверяем, что в appsettings.ProdWin.json для UseIISIntegration = true. Остальные настройки appsettings.ProdWin.json выставляем аналогично «Руководство по установке WebApi как службы под Windows 2016 Server». 
+Файлы web.config для каждого узла идут в комплекте поставки: для Primo.WebApi в архиве WebApi-IIS.zip, для Primo.UI в папке Distr\Windows
+Проверяем работоспособность, запуская приложение в браузере по адресу:
+https://[адрес]:44392
+	Если WebApi работает с MS SQL SERVER используя Windows-аутентификацию (Trusted_Connection=True), то для Application Pool с наименованием Primo.WebApi необходимо задать этого (доменного) Windows-пользователя. Правой кнопкой мыши открываем окно Advanced Settings (рисунок 53) и находим свойство Identity:
 
 ![](<../../../../.gitbook/assets/install-webapi-node-28.png>)
 
+Меняем значение свойства Identity – выбираем Custom account и нажимаем кнопку «Set…» (рисунки 54, 55):
+* Application Pool Identity, Custom account:
+
 ![](<../../../../.gitbook/assets/install-webapi-node-29.png>)
+
+* Set Credentials:
 
 ![](<../../../../.gitbook/assets/install-webapi-node-30.png>)
 
