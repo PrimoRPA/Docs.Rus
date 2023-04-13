@@ -173,4 +173,4 @@
 
 ![](<../../../../.gitbook/assets/install-webapi-node-30.png>)
 
-:white_check_mark: **Готово**: узлы веб-приложения успешно развернуты. Установка WebApi и UI на IIS в Windows 2016 Server завершена.
+:white_check_mark: **Готово**: узлы веб-приложения успешно развернуты. На этом установка WebApi и UI на IIS в Windows 2016 Server завершена.
