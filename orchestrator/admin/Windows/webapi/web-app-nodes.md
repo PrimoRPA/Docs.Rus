@@ -32,7 +32,7 @@
 
 ![](<../../../../.gitbook/assets/install-webapi-node-5.png>)
 
-В результате будет добавлен Application Pool с наименованием **Primo.WebApi**:
+* В результате будет добавлен Application Pool с наименованием **Primo.WebApi**:
 
 ![](<../../../../.gitbook/assets/install-webapi-node-6.png>)
 
