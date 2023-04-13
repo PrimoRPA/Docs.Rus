@@ -94,8 +94,8 @@
 На этом шаге узлы **Primo.WebApi** и **Primo.UI** по отдельности рабочие. Далее надо связать **Primo.UI** и **Primo.WebApi**, настроив реверс-прокси для API. Предварительно надо установить модули IIS из комплекта поставки, обеспечивающие функциональность реверс-прокси - см. шаг 9.
 
 9\. Устанавливаем модули IIS (обязательно в приведенной ниже последовательности):
-* rewrite_amd64_en-US.msi
-* requestRouter_amd64.msi
+* `rewrite_amd64_en-US.msi`
+* `requestRouter_amd64.msi`
 
 10\. На узле **Primo.UI** настраиваем реверс-прокси для API.
 * Выбираем иконку оснастки управления правилами URL Rewrite:
@@ -136,41 +136,41 @@
 
 Теперь ARR активировано, и узел **Primo.UI** может работать как реверс-прокси.
 
-:green_circle: Управлять правилами также можно из файла `Web.config` (секция `<rewrite/>`) узла Primo.UI:
+:green_circle: ***Управлять правилами также можно из файла `Web.config` (секция `<rewrite/>`) узла **Primo.UI**:***
 
 ![](<../../../../.gitbook/assets/install-webapi-node-25.png>)
 
-Секция `<rewrite/>` в web.config:
+***Секция `<rewrite/>` в web.config:***
 
 ![](<../../../../.gitbook/assets/install-webapi-node-26.png>)
 
-14\. Для каждого узла – **Primo.UI** и **Primo.WebApi** настраиваем максимальный размер загружаемых файлов.
-* Размер файлов для узла **Primo.UI**:
+14\. Для каждого узла – **Primo.UI** и **Primo.WebApi** - настраиваем максимальный размер загружаемых файлов. Настройки указываются в файлах `web.config`. Файлы `web.config` для каждого узла идут в комплекте поставки: 
+* для **Primo.WebApi** в архиве `WebApi-IIS.zip`;
+* для **Primo.UI** в папке `Distr\Windows`.
+
+Размер файлов для узла **Primo.UI**:
 
 ![](<../../../../.gitbook/assets/install-webapi-node-27.png>)
-* Размер файлов для узла **Primo.WebApi**:
+
+Размер файлов для узла **Primo.WebApi**:
 
 ![](<../../../../.gitbook/assets/install-webapi-node-primowebapi.png>)
 
 15\. Проверяем, что в файле `appsettings.ProdWin.json` для `UseIISIntegration` установлено значение `true`. Остальные настройки `appsettings.ProdWin.json` выставляем аналогично «Руководствe по установке WebApi как службы под Windows 2016 Server». 
 
-Файлы web.config для каждого узла идут в комплекте поставки: 
-* для Primo.WebApi в архиве `WebApi-IIS.zip`;
-* для Primo.UI в папке `Distr\Windows`.
+16\. Проверяем работоспособность, запуская приложение в браузере по адресу: **https://<адрес>:44392**
 
-16\. Проверяем работоспособность, запуская приложение в браузере по адресу: https://[адрес]:44392
-
-Если WebApi работает с MS SQL SERVER используя Windows-аутентификацию (Trusted_Connection=True), то для Application Pool с наименованием Primo.WebApi необходимо задать этого (доменного) Windows-пользователя. Правой кнопкой мыши открываем окно Advanced Settings (рисунок 53) и находим свойство Identity:
+17\. Если WebApi работает с MS SQL SERVER, используя Windows-аутентификацию (Trusted_Connection=True), то для Application Pool с наименованием **Primo.WebApi** необходимо задать этого (доменного) Windows-пользователя:
+* Правой кнопкой мыши открываем окно Advanced Settings и находим свойство **Identity**:
 
 ![](<../../../../.gitbook/assets/install-webapi-node-28.png>)
 
-Меняем значение свойства Identity – выбираем Custom account и нажимаем кнопку «Set…» (рисунки 54, 55):
-* Application Pool Identity, Custom account:
+* Меняем значение свойства **Identity**: выбираем параметр **Custom account** и нажимаем кнопку **Set…**:
 
 ![](<../../../../.gitbook/assets/install-webapi-node-29.png>)
 
-* Set Credentials:
+* Устанавливаем учетные данные Windows-пользователя в окне Set Credentials:
 
 ![](<../../../../.gitbook/assets/install-webapi-node-30.png>)
 
-:white_check_mark: **Готово**:
+:white_check_mark: **Готово**: узлы веб-приложения успешно развернуты.
