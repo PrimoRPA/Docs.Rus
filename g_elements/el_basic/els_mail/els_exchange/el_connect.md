@@ -14,10 +14,10 @@
 | ***Exchange*** |  |  |
 | Версия             | Microsoft.Exchange.WebServices. Data.ExchangeVersion | Версия сервера MS Exchange                                                   |
 | URL сервера        | String                                               | URL сервера MS Exchange. Пример: `"https://<server>/EWS/Exchange.asmx"`      |
-| URL Auto Discovery | String                                               | Укажите email пользователя, чтобы использовать автообнаружение URL для эндпойта веб-служб Exchange (EWS)  |
+| URL Auto Discovery | String                                               | Укажите email пользователя, чтобы использовать автообнаружение URL для эндпойта веб-служб Exchange (EWS). Пример: `"user1@example.com"`  |
 | Домен              | String                                               | Имя домена                                                                   |
 | Логин              | String                                               | Имя пользователя                                                             |
-| Пароль             | String                                               | Пароль профиля Outlook                                                       |
+| Пароль             | String                                               | Пароль учетной записи Exchange              |
 | Защищенный пароль |[SecureString](https://learn.microsoft.com/ru-ru/dotnet/api/system.security.securestring?view=netcore-2.0) | Если используется пароль в зашифрованном виде, укажите его в этом поле. В целях безопасности пароль в формате SecureString не хранится в открытом виде даже в памяти компьютера. Получить его можно, например, из **Диспетчера учетных данных** (Credential Manager) |
 | Российский часовой пояс | Boolean                                         | Настройка предназначена для корректировки времени. Например, в случае, если в русской локализации приложения наблюдается ошибка определения часового пояса  |
 
