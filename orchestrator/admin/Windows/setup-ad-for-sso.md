@@ -7,50 +7,50 @@
 
 ## Настройка AD для тестирования SSO
 
-Для машины контроллера AD и рабочки, которая будет введена в этот AD, должны быть прописаны статические IP. Причем, для рабочки «DNS» = «IP контроллера AD».
+Для машины контроллера AD и рабочего места пользователя Оркестратора, которое будет введено в AD, должны быть прописаны статические IP. Причем, для рабочего места «DNS» = «IP контроллера AD».
 Должно быть установлено:
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/setup-ad-1.png>)
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/setup-ad-2.png>)
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/setup-ad-3.png>)
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/setup-ad-4.png>)
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/setup-ad-5.png>)
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/setup-ad-6.png>)
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/setup-ad-7.png>)
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/setup-ad-8.png>)
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/setup-ad-9.png>)
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/setup-ad-10.png>)
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/setup-ad-11.png>)
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/setup-ad-12.png>)
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/setup-ad-13.png>)
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/setup-ad-14.png>)
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/setup-ad-15.png>)
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/setup-ad-16.png>)
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/setup-ad-17.png>)
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/setup-ad-18.png>)
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/setup-ad-19.png>)
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/setup-ad-20.png>)
 
-![](<../../../.gitbook/assets/>)
+![](<../../../.gitbook/assets/setup-ad-21.png>)
  
 AD DS и DNS можно сразу, AD CS – после того, как машина станет контроллером AD.
 В DNS надо прописывать сервис в прямую зону. Имя контроллера туда само пропишется при настройке AD.
