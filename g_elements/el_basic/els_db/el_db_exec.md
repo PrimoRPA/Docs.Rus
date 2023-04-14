@@ -24,7 +24,7 @@
 | ***Общие***          | | Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa) | 
 | ***База данных***    | |  |
 | Соединение с БД      | LTools.Database.DatabaseInst | Инстанс соединения с БД. Заполняется, если уже имеется установленное подключение к БД, сохраненное в переменную. Если это поле заполнено, то свойства **Строка соединения** и **Тип БД** следует оставить пустыми |
-| Строка соединения    | String                | Строка соединения, которая используется для установки подключения к базе данных. Вид строки зависит от типа БД. Пример для Postgre: `"Host=localhost;Password=1111;Username=postgres;Database=testdb"`. Строку можно сформировать по кнопке <img src="../../../.gitbook/assets/connection_editor_button.png" alt="" data-size="line">, подробности см. ниже |
+| Строка соединения    | String                | Строка соединения, которая используется для установки подключения к базе данных. Вид строки зависит от выбранного типа БД. Пример для Postgre: `"Host=localhost;Password=1111;Username=postgres;Database=testdb"`. Строку можно сформировать автоматически по кнопке <img src="../../../.gitbook/assets/connection_editor_button.png" alt="" data-size="line">, подробности см. ниже |
 | Тип БД               | -                     | Тип подсоединяемой базы данных. Доступные значения: 1) Ole DB (по умолчанию); 2) Postgre Sql; 3) ODBC |
 | ***Данные запроса*** |  |  |
 | Текст запроса\*      | String                | Текст запроса SQL. Пример для Postgre: `"SELECT * FROM table1 WHERE column1 = @par1"` |
