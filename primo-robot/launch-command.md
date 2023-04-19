@@ -32,6 +32,5 @@
 * **RunConfigCustom:** тип конфигурации запуска (для переменной \_Workflow.RunConfigCustom)
 
 Пример:
-```
-Primo.Robot.exe instantStart exitOnSuccess noOrchestrator logType=Csv "seqPath=C:\Work\Project\Sequence.ltw" "projPath=C:\Work\Project"
-```
+
+`Primo.Robot.exe instantStart exitOnSuccess noOrchestrator logType=Csv "seqPath=C:\Work\Project\Sequence.ltw" "projPath=C:\Work\Project"`
