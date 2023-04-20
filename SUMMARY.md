@@ -8,7 +8,7 @@
     * [Версия 1.1.30](release-notes/studio/1.1.30.md)
     * [Версия 1.1.29](release-notes/studio/1.1.29.md)
     * [Версия 1.1.28](release-notes/studio/1.1.28.md)
-    * [Primo RPA. Июнь-август 2022](release-notes/studio/summer.md)
+    * [Июнь-август 2022](release-notes/studio/summer.md)
   * [Оркестратор](release-notes/orch/README.md)
     * [Версия 23.4](release-notes/orch/23.4.md)
     * [Версия 2.2.21](release-notes/orch/2.2.21.md)
