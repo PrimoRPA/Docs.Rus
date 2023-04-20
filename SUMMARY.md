@@ -732,6 +732,8 @@
     * [Пользователи AD](orchestrator/settings/users/ad-users.md)
     * [Типовые сценарии управления пользователями](orchestrator/settings/users/common-scenarios.md)
     * [Личные папки пользователей](orchestrator/settings/users/personalfolders.md)
+  * [Журналы](orchestrator/settings/journals.md)
+  * [Кэширование проекта](orchestrator/settings/project-caching.md)
   * [Стратегия очереди RPA-проектов](orchestrator/settings/projects-queue.md)
   * [Производственный календарь](orchestrator/settings/calendar.md)
 * [Мониторинг](orchestrator/monitoring/README.md)
