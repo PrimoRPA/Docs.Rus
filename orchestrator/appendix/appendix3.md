@@ -186,7 +186,7 @@
 | 180.       | 70002 | IncomingEmailChanged                             | Изменение Email для входящей почты |
 | 181.       | 70003 | IncomingEmailDeleted                             | Удаление Email для входящей почты  |
 | 182.       | 80001 | FolderCreated                                    | Создание личной папки             |
-| 183.       | 80002 | FolderChanged                                    | Изменение личной папки             |
+| 183.       | 80002 | FolderChanged                                    | Изменение личной папки            |
 | 184.       | 80003 | FolderDeleted                                    | Удаление личной папки             |
 | 185.       | 80004 | FolderResubordination                            | Переподчинение личной папки       |
 | 186.       | 80005 | FolderMoveObjects                                | Перемещение объектов в личную папку |
@@ -196,8 +196,13 @@
 | 190.       | 90002 | GrantUserWorkerCanceled             | Предоставление пользователю машина робота отменено |
 | 191.       | 90003 | GrantUserAgent                                   | Предоставление пользователю агента |
 | 192.       | 90004 | GrantUserAgentCanceled                     | Предоставление пользователю агента отменено |
-| 193.       | 90101 | UserGrantCreated                                 | Наследование объектов создано        |
+| 193.       | 90101 | UserGrantCreated                                 | Наследование объектов создано       |
 | 194.       | 90102 | UserGrantChanged                                 | Наследование объектов изменено      |
-| 195.       | 90103 | UserGrantDeleted                                 | Наследование объектов удалено       |
+| 195.       | 90103 | UserGrantDeleted                                 | Наследование объектов удалено  |
+| 196.       |       | ProjectRobotServiceBreakAssignmentNotAllowOverlay | Проект запущен по заданию и еще не завершен (RobotService) |
+| 197.       |       | ProjectRobotServiceBreakProjectLimitedLaunch | Проект запущен в максимальном количестве экземпляров (RobotService) |
+| 198.       |       | ProjectRobotStartBreakAssignmentNotAllowOverlay | Проект запущен по заданию и еще не завершен (RobotStart) |
+| 199.       |       | ProjectRobotStartBreakProjectLimitedLaunch | Проект запущен в максимальном количестве экземпляров (RobotStart) |
+| 200.       |       | ProjectQueueBreakProjectLimitedLaunch      | Проект запущен в максимальном количестве экземпляров (Queue)      |
 
 Список событий может быть изменен в следующих версиях Оркестратора.
