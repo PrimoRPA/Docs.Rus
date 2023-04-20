@@ -6,4 +6,6 @@
 | ------------ | ------------- |
 | CPU 4 ядра, RAM 8 Гб, HDD 100 Гб | <p>Microsoft Windows 7 (SP2) и выше. </p> <br>Microsoft .NET Framework 4.6.1; Microsoft Visual C++ Runtime 14; Windows PowerShell.</br> <br>Права локального администратора (в зависимости от используемых компонентов)</br> |
 
+Указанные параметры должны быть соблюдены для работы каждого пользователя Студии, т.е. указаны с расчетом на одну учетную запись. 
+
 Системные требования для всех продуктов Primo RPA приведены [здесь](https://docs.primo-rpa.ru/primo-rpa/#sistemnye-trebovaniya).
