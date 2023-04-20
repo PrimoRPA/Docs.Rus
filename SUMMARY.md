@@ -697,12 +697,11 @@
 * [Ручная установка Primo Robot](primo-robot/installation/README.md)
   * [Ручная установка и запуск Робота Core](primo-robot/installation/robot\_core.md)
 * [Регистрация Primo Robot локальным ключом](primo-robot/registration-desktop.md)
-* [Запуск Primo Robot из командной строки](primo-robot/launch-command.md)
+* [Запуск Primo Robot](primo-robot/launch-command.md)
 * [Primo Robot Runner](primo-robot/robot-runner/README.md)
-  * [Модули](primo-robot/robot-runner/modules/README.md)
-    * [Задачи](primo-robot/robot-runner/modules/tasks.md)
-    * [Расписания](primo-robot/robot-runner/modules/schedules.md)
-    * [Настройки](primo-robot/robot-runner/modules/settings.md)
+  * [Задачи](primo-robot/robot-runner/tasks.md)
+  * [Расписания](primo-robot/robot-runner/schedules.md)
+  * [Настройки](primo-robot/robot-runner/settings.md)
 
 ## Оркестратор <a href="#orchestrator" id="orchestrator"></a>
 
