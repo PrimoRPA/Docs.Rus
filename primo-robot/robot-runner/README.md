@@ -21,6 +21,6 @@ Robot Runner входит в стандартную поставку Primo Studi
 
 Подробнее с работой программы можно ознакомиться в разделах:
 
-1. [Работа с задачами](https://docs.primo-rpa.ru/primo-rpa/primo-robot/robot-runner/modules/tasks).
-2. [Работа с расписаниями](https://docs.primo-rpa.ru/primo-rpa/primo-robot/robot-runner/modules/schedules).
-3. [Настройки Robot Runner](https://docs.primo-rpa.ru/primo-rpa/primo-robot/robot-runner/modules/settings).
+1. [Работа с задачами](https://docs.primo-rpa.ru/primo-rpa/primo-robot/robot-runner/tasks).
+2. [Работа с расписаниями](https://docs.primo-rpa.ru/primo-rpa/primo-robot/robot-runner/schedules).
+3. [Настройки Robot Runner](https://docs.primo-rpa.ru/primo-rpa/primo-robot/robot-runner/settings).
