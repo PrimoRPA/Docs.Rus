@@ -1,12 +1,12 @@
 # Запуск Primo Robot
 
-Запустить Робота можно двумя способами: из командной строки или с помощью утилиты [Primo Robot Runner](https://docs.primo-rpa.ru/primo-rpa/primo-robot/robot-runner). Отличия следующие:
+Запустить робота можно двумя способами: из командной строки или с помощью утилиты [Primo Robot Runner](https://docs.primo-rpa.ru/primo-rpa/primo-robot/robot-runner). Отличия следующие:
 * При использовании робота из командной строки запуск задач осуществляется вручную. Primo Robot не поддерживает запуск задач по расписанию. 
 * При использовании робота в Robot Runner доступен запуск задач по расписанию. Также приложение обладает графическим интерфейсом пользователя. 
  
 Данная инструкция описывает запуск робота из командной строки.
 
-:bangbang: **ВНИМАНИЕ! Чтобы программа работала корректно, предварительно запросите лицензию через Primo Robot Runner. Процесс подробно описан [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-robot/registration-desktop#poluchenie-licenzionnogo-klyucha-i-registraciya).**
+:bangbang: **ВНИМАНИЕ! Перед запуском Primo Robot требуется запросить лицензию на робота через Primo Robot Runner. Процесс подробно описан [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-robot/registration-desktop#poluchenie-licenzionnogo-klyucha-i-registraciya).**
 
 ## Запуск из командной строки
 
