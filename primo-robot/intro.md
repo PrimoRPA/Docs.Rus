@@ -36,7 +36,7 @@
    * ИЛИ: [Ручная установка кроссплатформенной версии Primo Robot](https://docs.primo-rpa.ru/primo-rpa/primo-robot/installation/robot_core).
 2. [Регистрация Робота локальным ключом](https://docs.primo-rpa.ru/primo-rpa/primo-robot/registration-desktop).
 3. [Запуск Робота из командной строки (через Primo Robot)](https://docs.primo-rpa.ru/primo-rpa/primo-robot/launch-command).
-4. [Запуск Робота в Robot Runner](https://docs.primo-rpa.ru/primo-rpa/primo-robot/robot-runner).
+4. [Запуск Робота с помощию Robot Runner](https://docs.primo-rpa.ru/primo-rpa/primo-robot/robot-runner).
 
 **Запуск и регистрация через Оркестратор:**
 
