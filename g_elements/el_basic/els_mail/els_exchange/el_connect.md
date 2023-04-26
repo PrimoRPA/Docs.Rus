@@ -10,11 +10,11 @@
 
 | Свойство           | Тип                                                  | Описание                                                                     |
 | ------------------ | ---------------------------------------------------- | ---------------------------------------------------------------------------- |
-| ***Общие***  |  | Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa) | 
+| ***Общие***    |  | Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa) | 
 | ***Exchange*** |  |  |
 | Версия             | Microsoft.Exchange.WebServices. Data.ExchangeVersion | Версия сервера MS Exchange                                                   |
 | URL сервера        | String                                               | URL сервера MS Exchange. Пример: `"https://<server>/EWS/Exchange.asmx"`      |
-| URL Auto Discovery | String                                               | Укажите email пользователя, чтобы использовать автообнаружение URL для эндпойта веб-служб Exchange (EWS). Пример: `"user1@example.com"`  |
+| E-mail             | String                                               | Укажите email пользователя, чтобы использовать автообнаружение URL для эндпойта веб-служб Exchange (EWS). Пример: `"user1@example.com"`  |
 | Домен              | String                                               | Имя домена                                                                   |
 | Логин              | String                                               | Имя пользователя                                                             |
 | Пароль             | String                                               | Пароль учетной записи Exchange              |
