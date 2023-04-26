@@ -621,6 +621,7 @@
     * [Анализ текста](g\_elements/el\_extra/ner/el\_textanalysis.md)
   * [Networking](g\_elements/el\_extra/els\_networking/README.md)
     * [Запрос HTTP](g\_elements/el\_extra/els\_networking/el\_httpclient.md)
+    * [Запрос SOAP](g\_elements/el\_extra/els\_networking/el\_soaprequest.md)
   * [T1-Интеграция](g\_elements/el\_extra/t1/README.md)
     * [Крипто Про](g\_elements/el\_extra/t1/els\_cryptopro/README.md)
       * [Данные подписи](g\_elements/el\_extra/t1/els\_cryptopro/el\_getsigncerts.md)
