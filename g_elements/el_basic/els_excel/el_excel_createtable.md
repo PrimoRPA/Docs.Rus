@@ -4,7 +4,7 @@
 
 ![](<../../../.gitbook/assets/excel-create-table.png>)
 
-Компонент создает таблицу на заданном листе Excel. Не забудьте сохранить готовую таблицу с помощью элемента [**Сохранить документ**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/prilozhenie-excel/el_excel_save) (Excel).
+Компонент создает таблицу на заданном листе Excel. Не забудьте сохранить готовую таблицу с помощью элемента [**Сохранить документ**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/prilozhenie-excel/el_excel_save).
 
 ## Свойства
 
