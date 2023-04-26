@@ -2,7 +2,7 @@
 
 ![](<../../../.gitbook/assets/SOAPRequest.png>)
 
-***Важно!** Элемент доступен для использования только в рамках пакета **Primo.Networking**, который устанавливается дополнительно при помощи [Менеджера зависимостей Студии](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects/manage-dependencies#menedzher-zavisimostei) либо на сайте [NuGet.org](https://www.nuget.org/packages/Primo.Networking).*
+***Важно!** Элемент доступен только при установке пакета **Primo.Networking**, который скачивается с помощью [Менеджера зависимостей Студии](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects/manage-dependencies#menedzher-zavisimostei) либо на сайте [NuGet.org](https://www.nuget.org/packages/Primo.Networking).*
 
 Элемент осуществляет базовые виды запросов к сервисам SOAP. Работает на каких ОС?
 
@@ -11,14 +11,14 @@
 | ***Общие***    |  | *Описание общих свойств см. в разделе [Работа с элементами](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements)* |
 | ***Аутентификация*** |  |  |
 | Аутентификация |  -    | Выберите из раскрывающегося списка тип аутентификации. Доступные значения: 1) None - по умолчанию без аутентификации; 2) Simple; 3) Windows; 4) Client Certificate |
-| ***Simple***   |  | *Свойства данной группы следует заполнить, если был выбран тип аутентификации Simple* | 
+| ***Simple***   |  | *Свойства этой группы заполняются, если был выбран тип аутентификации Simple* | 
 | Логин          | String                       | Логин  |
 | Пароль         | String                       | Пароль |
-| Защищенный пароль | [SecureString](https://learn.microsoft.com/ru-Ru/dotnet/api/system.security.securestring?view=netcore-3.1) | Защищенный пароль (Simple). Пароль, зашифрованный с помощью SecureString, не хранится в открытом виде нигде, даже в памяти компьютера. Получить пароль с типом SecureString можно, к примеру, из **Диспетчера учетных данных** (Credential Manager)|
-| ***Сертификат*** |  | *Свойства этой группы следует заполнить, если был выбран тип аутентификации Client Certificate* |
+| Защищенный пароль | [SecureString](https://learn.microsoft.com/ru-Ru/dotnet/api/system.security.securestring?view=netcore-3.1) | Пароль, зашифрованный с помощью SecureString. Такой пароль не хранится в открытом виде нигде, даже в памяти компьютера. Получить пароль с типом SecureString можно, к примеру, из **Диспетчера учетных данных** (Credential Manager)|
+| ***Сертификат*** |  | *Свойства этой группы заполняются, если был выбран тип аутентификации Client Certificate* |
 | Сертификат    | String    | Укажите путь к файлу сертификата, либо Subject в хранилище Root |
 | Пароль сертификата | String     | Пароль для файла с сертификатом  |
-| Защищенный пароль  | [SecureString](https://learn.microsoft.com/ru-Ru/dotnet/api/system.security.securestring?view=netcore-3.1) | Защищенный пароль сертификата (для файла). Пароль, зашифрованный с помощью SecureString, не хранится в открытом виде нигде, даже в памяти компьютера |
+| Защищенный пароль  | [SecureString](https://learn.microsoft.com/ru-Ru/dotnet/api/system.security.securestring?view=netcore-3.1) | Защищенный пароль сертификата (для файла). Пароль, зашифрованный с помощью SecureString |
 | ***SOAP***    |  |  |
 | Endpoint\*    | String      | Endpoint сервиса |
 | Contract\*    | String      | Contract сервиса |
