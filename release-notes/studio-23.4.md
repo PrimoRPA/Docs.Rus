@@ -6,7 +6,7 @@
 1. Добавлена востребованная возможность автоматизации процессов на виртуальных машинах под Citrix с использованием канала ICA, что существенно упрощает развертывание в закрытом контуре и позволяет повысить безопасность.
 1. Значительно ускорено чтение больших Excel-файлов с драйвером Interop. Например, при чтении таблицы в 100 тыс. строк скорость выполнения повысилась в 3 раза.
 1. В NuGet появилась библиотека для интеграции робота с Python - [**Primo.Python**](https://www.nuget.org/packages/Primo.Python). Ее также можно скачать через [Менеджер зависимостей](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects/manage-dependencies#menedzher-zavisimostei) Студии. Библиотека содержит набор элементов, которые позволяют взаимодействовать со сценарием, функциями и объектами на языке Python, а именно:
-   * [**Python**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_python/el_pythonscope) - устанавливает соединение с Python.exe. Требуется установленный Python 3.9 и Pywin23. 
+   * [**Python**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_python/el_pythonscope) - устанавливает соединение с Python.exe. Требуется установленный Python 3.9 и Pywin32. 
    * [**Выполнить скрипт**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_python/el_execscript) - выполняет сценарий Python.
    * [**Получить объект**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_python/el_getobject) - позволяет получить объект Python и привести его к нужному типу.
    * [**Добавить функцию**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_python/el_addfunction) - добавляет функцию Python, которую впоследствии можно вызвать.
