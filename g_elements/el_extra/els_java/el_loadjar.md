@@ -2,7 +2,7 @@
 
 ![](<../../../.gitbook/assets/java-jar-load.png>)
 
-Элемент загружает файл \*.jar в контекст Java.
+Элемент загружает файл \*.jar в контекст Java для последующих действий. Например, [вызвать метод](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_java/el_invokemethod) возможно только после загрузки необходимого jar-файла.
 
 ## Свойства
 Описание общих свойств элемента см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
