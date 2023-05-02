@@ -11,12 +11,12 @@
    * [**Получить объект**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_python/el_getobject) - позволяет получить объект Python и привести его к нужному типу.
    * [**Добавить функцию**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_python/el_addfunction) - добавляет функцию Python, которую впоследствии можно вызвать.
 3. В NuGet появилась библиотека для интеграции робота с Java - [**Primo.Java**](https://www.nuget.org/packages/Primo.Java). Она содержит набор элементов для работы с методами и объектами на языке Java, а именно:
-   *  **Java** - устанавливает соединение с Java.exe. На машине должна быть установлена Java 8.
-   *  **Загрузить Jar** - загружает файл \*.jar в контекст Java.
-   *  **Создать объект Java** - создает объект Java с заданным типом.
-   *  **Вызвать метод Java** - вызывает нужный метод в экземпляре Java.
-   *  **Получить поле** - получает поле объекта Java.
-   *  **Преобразовать объект Java** -  преобразовывает объект Java к нужному типу.
+   *  [**Java**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_java/el_javascope) - устанавливает соединение с Java.exe. На машине должна быть установлена Java 8.
+   *  [**Загрузить Jar**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_java/el_loadjar) - загружает файл \*.jar в контекст Java.
+   *  [**Создать объект Java**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_java/el_createobject) - создает объект Java с заданным типом.
+   *  [**Вызвать метод Java**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_java/el_invokemethod) - вызывает нужный метод в экземпляре Java.
+   *  [**Получить поле**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_java/el_getfield) - получает поле объекта Java.
+   *  [**Преобразовать объект Java**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_java/el_convertobject) - преобразовывает объект Java к нужному типу.
 5. В NuGet добавлена библиотека [**Primo.Active Directory**](https://www.nuget.org/packages/Primo.ActiveDirectory). Пакет содержит набор элементов для взаимодействия с доменными службами Active Directory (AD DS), которые сгруппированы по их назначению:
    * **Группы** - набор элементов для управления группами в AD: создание, удаление, проверка того, что группа существует. 
    * **Компьютеры** - набор элементов для управления компьютерами: создание, удаление, добавление в группу, проверка того, что компьютер существует и др.
