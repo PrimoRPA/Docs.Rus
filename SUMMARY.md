@@ -592,7 +592,7 @@
     * [Стандартизация телефона](g\_elements/el\_extra/els\_ahunter/el\_ahunter\_cleansephone.md)
     * [Стандартизация ФИО](g\_elements/el\_extra/els\_ahunter/el\_ahunter\_cleansefio.md)
   * [Java](g\_elements/el\_extra/els\_java//README.md)
-    * [Java]](g\_elements/el\_extra/els\_python/el\_javascope.md)
+    * [Java](g\_elements/el\_extra/els\_python/el\_javascope.md)
     * [Загрузить Jar](g\_elements/el\_extra/els\_python/el\_loadjar.md)
     * [Создать объект Java](g\_elements/el\_extra/els\_python/el\_createobject.md)
     * [Вызвать метод Java](g\_elements/el\_extra/els\_python/el\_invokemethod.md)
