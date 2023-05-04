@@ -4,7 +4,7 @@
 
 ![](<../../../.gitbook/assets/excel-read-cell.png>)
 
-Элемент читает данные из ячейки Excel.
+Элемент считывает данные из ячейки Excel и сохраняет их в переменную.
 
 ## Свойства
 Описание общих свойств элемента см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
