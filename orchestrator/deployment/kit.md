@@ -1,6 +1,6 @@
 # Комплект поставки
 
-Полный комплект поставки содержит 99 файлов: 
+Полный комплект поставки содержит файлы: 
 * 57 файла дистрибутивов (папка `Distr` с подпапками `Windows` и `Linux`);
 * 54 файлов документации (папка `Docs`). 
  
@@ -15,10 +15,10 @@
 1. **WebApi.zip**. WebApi - для развертывания как службы Windows.
 2. **WebApi-IIS.zip**. WebApi - для развертывания под IIS.
 3. **WebApi-linux.zip**. WebApi - включает файл службы.
-4. **States.zip.** States.
-5. **States-linux.zip**. States. Включает файл службы.
-6. **Notifications.zip**.	Notifications.
-7. **Notifications-linux.zip**.	Notifications. Включает файл службы.
+4. **States.zip.** States. Включает файл службы.
+5. **States-linux.zip**. То же, что и выше, но для Linux.
+6. **Notifications.zip**.	Notifications. Включает файл службы.
+7. **Notifications-linux.zip**.	То же, что и выше, но для Linux.
 8. **nginx-1.21.1.zip**. Включает конфигурационный файл Nginx (`nginx.conf`) и файлы самоподписанного SSL-сертификата для HTTPS (`cert1.crt`, `cert1.rsa`).
 9. **nginx-linux.zip**. То же, что и выше, но для Linux.
 10. **UI.zip**. Файлы UI Оркестратора в браузере, SPA.
@@ -27,44 +27,48 @@
 13. **rewrite_amd64_en-US.msi**. Модули IIS, обеспечивающие функциональность реверс-прокси.
 14. **requestRouter_amd64.msi**. Модули IIS, обеспечивающие функциональность реверс-прокси.
 15. **postgresql-13.4-1-windows.zip**. PostgreSQL. Включает скрипты начальной настройки БД ltoolslicense (в зависимости от поставки может не включать дистрибутив PostgreSQL - пакеты или установочные файлы).
-16. **postgresql-13-linux.zip**. PostgreSQL. То же, что и выше.
+16. **postgresql-13-linux.zip**. PostgreSQL для Linux. 
 17. **pg_ms.sh**. Для кластера Postgres под Linux.
 18. **MSSQL.exe**. MS SQL SERVER 2019, MSSMS. Включает скрипты начальной настройки БД ltoolslicense.
 19. **timescaledb-postgresql-13_2.4.1-windows-amd64.zip.** TimescaleDB.
-20. **timescaledb-postgresql-13-linux.zip.** TimescaleDB.
+20. **timescaledb-postgresql-13-linux.zip.** TimescaleDB для Linux.
 21. **rabbitmq.zip**. RabbitMQ server. Включает Erlang.
 22. **rabbitmq-linux.zip**.	То же, что и выше, но для Linux.
 23. **Agent.zip**. Agent.
 24. **Agent-linux.zip**. Agent для Linux.
-25. **Primo.Robot.x64.zip**. Дистрибутив Робота x64 (не работает с SAP). Для последующей публикации в Оркестраторе.
-26. **Primo.Robot.x86.zip**. Дистрибутив Робота x86.
-27. **Primo.Robot.x64-linux.zip**. Дистрибутив Робота x64 для Linux (ограниченные возможности работы с UI).
+25. **Primo.Robot.x64.zip**. Дистрибутив Робота x64 (не работает с SAP) для последующей публикации в Оркестраторе.
+26. **Primo.Robot.x86.zip**. Дистрибутив Робота x86 для публикации в Оркестраторе.
+27. **Primo.Robot.x64-linux.zip**. Дистрибутив Робота x64 под Linux (ограниченные возможности работы с UI) для публикации в Оркестраторе.
 28. **PowerShell-7.1.3-win-x64.msi**. PowerShell 7.1.3.
 29. **PrimoWorker.ps1**. PowerShell-скрипт для автоматизации настройки машины Робота и развертывания Агента.
 30. **ChromeStandaloneSetup64.exe**. Браузер Google Chrome.
-31. **PasswordEncriptor.zip**.Программа для шифрования паролей в конфигурационных файлах.
+31. **PasswordEncriptor.zip**. Программа для шифрования паролей в конфигурационных файлах.
 32. **grafana-8.0.6.windows-amd64.msi**. Внешняя аналитическая система Grafana. Не является компонентом Оркестратора.
 33. **Роботы-1627543691525.json**. Пример отчета в Grafana.
 34. **v_AllWorked-postgres.sql**.	View в БД для примера отчета в Grafana. Примечание: PostgreSQL.
 35. **v_AllWorked-mssql.sql**. View в БД для примера отчета в Grafana. Примечание:	MS SQL Server.
 36. **dotnet31-sdk-linux.zip**. Пакеты `dotnet-sdk-3.1`, `aspnetcore-runtime-3.1`.
-37. **syncthing-linux-amd64-v1.18.2.tar.gz**. Программа синхронизации папок. Для синхронизации папок с дистрибутивами робота и дампами Журнала.
-38. **syncthing.service**. Программа синхронизации папок. Для синхронизации папок с дистрибутивами робота и дампами Журнала.
-39. **syncthing-windows-amd64-v1.18.2.zip**. Программа синхронизации папок. Для синхронизации папок с дистрибутивами робота и дампами Журнала.
-40. **RDP-Disconnector.xml**. Windows Task для восстановления сеанса после отключения RDP. Используется вместе с файлом restore_console.bat.
+37. **syncthing-linux-amd64-v1.18.2.tar.gz**. Программа синхронизации папок с дистрибутивами робота и дампами журнала.
+38. **syncthing.service**. Программа синхронизации папок с дистрибутивами робота и дампами журнала.
+39. **syncthing-windows-amd64-v1.18.2.zip**. Программа синхронизации папок с дистрибутивами робота и дампами журнала.
+40. **RDP-Disconnector.xml**. Windows Task для восстановления сеанса после отключения RDP. Используется вместе с файлом `restore_console.bat`.
 41. **restore_console.bat**. Скрипт для перенаправления RDP-сессии в консоль. Используется вместе с файлом выше.
 42. **web.config**. Должен использоваться при развертывании UI под IIS.
-43. **RDP.zip**. Программа (приложение с графическим UI) поддержки активных RDP-сессий. Только для Windows.
+43. **RDP.zip**. Программа (приложение с графическим UI) поддержки активных RDP-сессий. Только для Windows. Исключена из поставки 09.12.2022.
 44. **MachineInfo.zip**. Служба определения параметров оборудования для работы лицензий.
-45. **MachineInfo-linux.zip**. Служба определения параметров оборудования для работы лицензий.
+45. **MachineInfo-linux.zip**. См. выше.
 46. **LogEventsWebhook.zip**.	Служба Webhooks на события Оркестратора.
-47. **LogEventsWebhook-linux.zip**. Служба Webhooks на события Оркестратора.
+47. **LogEventsWebhook-linux.zip**. См. выше.
 48. **haproxy.zip**. HAProxy. Только для Linux. Включает конфигурационный файл, файлы сертификата.
 49. **pg_cron_13-1.3.0-1.rhel8.x86_64.rpm**. Расширение PostgreSQL для выполнения заданий по расписанию для Linux.
 50. **AgentInstaller.zip**. Инсталлятор для машины робота. Включает автоматическую регистрацию машины робота в Оркестраторе.
-51. **RDP2.zip**. Служба поддержки активных RDP-сессий.
-52. **RDP2-Astra.zip**. Служба поддержки активных RDP-сессий.
-53. **RDP2-CentOS.zip**. Служба поддержки активных RDP-сессий.
+51. **RDP2.7.zip**. Служба поддержки активных RDP-сессий.
+52. **RDP2-Astra.zip**. См. выше.
+53. **RDP2-CentOS.zip**. См. выше.
+54. **RobotLogs.zip**. Служба приема логов от роботов.
+55. **RobotLogs-linux.zip**. См. выше.
+56. **scr2.ps1**. Скрипт открытия теневой RDP-сессии.
+57. **logstash.7z**. Утилита Logstash.
 
 Итоговый вес файлов дистрибутивов -	**3,65 Гб**. 
 
