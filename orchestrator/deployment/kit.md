@@ -19,23 +19,23 @@
 5. **States-linux.zip**. States. Включает файл службы.
 6. **Notifications.zip**.	Notifications.
 7. **Notifications-linux.zip**.	Notifications. Включает файл службы.
-8. **nginx-1.21.1.zip**. Nginx. Включает конфигурационный файл nginx (nginx.conf) и файлы самоподписанного SSL-сертификата для https (cert1.crt, cert1.rsa).
-9. **nginx-linux.zip**. Включает конфигурационный файл nginx (nginx.conf) и файлы самоподписанного SSL-сертификата для https (cert1.crt, cert1.rsa).
+8. **nginx-1.21.1.zip**. Включает конфигурационный файл Nginx (`nginx.conf`) и файлы самоподписанного SSL-сертификата для HTTPS (`cert1.crt`, `cert1.rsa`).
+9. **nginx-linux.zip**. То же, что и выше, но для Linux.
 10. **UI.zip**. Файлы UI Оркестратора в браузере, SPA.
 11. **aspnetcore-runtime-3.1.15-win-x64.exe**. Для хостинга Core-приложения под IIS.
 12. **dotnet-hosting-3.1.15-win.exe**. Для хостинга Core-приложения под IIS.
 13. **rewrite_amd64_en-US.msi**. Модули IIS, обеспечивающие функциональность реверс-прокси.
 14. **requestRouter_amd64.msi**. Модули IIS, обеспечивающие функциональность реверс-прокси.
-15. **postgresql-13.4-1-windows.zip**. PostgreSQL. Включает скрипты начальной настройки БД ltoolslicense.
-16. **postgresql-13-linux.zip**. PostgreSQL. Включает скрипты начальной настройки БД ltoolslicense.
+15. **postgresql-13.4-1-windows.zip**. PostgreSQL. Включает скрипты начальной настройки БД ltoolslicense (в зависимости от поставки может не включать дистрибутив PostgreSQL - пакеты или установочные файлы).
+16. **postgresql-13-linux.zip**. PostgreSQL. То же, что и выше.
 17. **pg_ms.sh**. Для кластера Postgres под Linux.
-18. **MSSQL.exe**. MS SQL SERVER 2019, MSSMS	+	Включает скрипты начальной настройки БД ltoolslicense.
+18. **MSSQL.exe**. MS SQL SERVER 2019, MSSMS. Включает скрипты начальной настройки БД ltoolslicense.
 19. **timescaledb-postgresql-13_2.4.1-windows-amd64.zip.** TimescaleDB.
 20. **timescaledb-postgresql-13-linux.zip.** TimescaleDB.
 21. **rabbitmq.zip**. RabbitMQ server. Включает Erlang.
-22. **rabbitmq-linux.zip**.	RabbitMQ server. Включает Erlang.
+22. **rabbitmq-linux.zip**.	То же, что и выше, но для Linux.
 23. **Agent.zip**. Agent.
-24. **Agent-linux.zip**. Agent.
+24. **Agent-linux.zip**. Agent для Linux.
 25. **Primo.Robot.x64.zip**. Дистрибутив Робота x64 (не работает с SAP). Для последующей публикации в Оркестраторе.
 26. **Primo.Robot.x86.zip**. Дистрибутив Робота x86.
 27. **Primo.Robot.x64-linux.zip**. Дистрибутив Робота x64 для Linux (ограниченные возможности работы с UI).
