@@ -1,4 +1,4 @@
-# Развертывание сервера приложений Оркестратора для Windows 2016 Server
+# Развертывание сервера приложений для Windows 2016 Server
 
 Имеется 2 варианта развертывания WebApi и Front для ОС Windows 2016 Server:
 
@@ -7,17 +7,17 @@
 | WebApi и Front работают под IIS      | Сервер может быть включен в AD или можно использовать keytab-файл | Руководство по установке Nginx под Windows 2016 Server **ССЫЛКА**|
 | WebApi – служба Windows, <p>Front – nginx</p> | Только keytab-файл | <p>Руководство по установке LogEventsWebhook под CentOS 8 (**ССЫЛКА**),</p> <p>Руководство по предварительной настройке машины Оркестратора под Windows 2016 Server(**ССЫЛКА**),</p> <p>Руководство по установке Notifications под Windows 2016 Server(**ССЫЛКА**)</p> |
 
-**keytab-файл** – файл, полученный в результате команды ktpass при регистрации Front сервиса в AD.\
-Путь к полученному keytab-файлу настраивается в конфигурационном файле WebApi в секции ActiveDirectory в параметре **KerberosKeytabPath**:
+**keytab-файл** – файл, полученный в результате команды `ktpass` при регистрации Front сервиса в AD.\
+Путь к полученному keytab-файлу настраивается в конфигурационном файле WebApi в секции `ActiveDirectory` в параметре `KerberosKeytabPath`:
 
 ```json
 "ActiveDirectory": {
   "KerberosKeytabPath": "C:\\Primo\\krb5.keytab",
   "Type": 5,
 ```
-### WebApi и Front работают под IIS
+### Вариант 1. WebApi и Front работают под IIS
 
-При этом варианте развертывания в конфигурационном файле WebApi в параметре **UseIISIntegration** должно быть установлено значение **true**:
+При этом развертывании в конфигурационном файле WebApi в параметре `UseIISIntegration` установите значение `true`:
 
 ```json
 "Assignment": {
@@ -26,9 +26,9 @@
 },
 "UseIISIntegration": true,
 ```
-### WebApi – служба Windows,  Front – nginx
+### Вариант 2. WebApi – служба Windows, Front – nginx
 
-При этом варианте развертывания в параметре **UseIISIntegration** должно быть установлено значение **false**.
+При этом варианте развертывания в параметре `UseIISIntegration` должно быть установлено значение `false`.
 
 ### Linux
 
