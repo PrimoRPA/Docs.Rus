@@ -721,6 +721,7 @@
 ## Оркестратор <a href="#orchestrator" id="orchestrator"></a>
 
 * [Введение](orchestrator/intro.md)
+* [Системные требования](orchestrator/systemreq.md)
 * [Сценарии работы основного пользователя](orchestrator/basics/README.md)
   * [Ручной запуск Робота с RPA-проектом](orchestrator/basics/robot-manual-start.md)
   * [Задания](orchestrator/basics/tasks.md)
