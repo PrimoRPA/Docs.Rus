@@ -95,23 +95,27 @@
 | LogEventsWebhook | + | + |
 
 
-| Windows | Отдельная служба | Nginx   | IIS   |
+### OС Windows
+
+Для Windows-серверов рекомендуется: MSSQL, WebApi (IIS), Front (IIS).
+
+| Компоненты | Отдельная служба | Nginx   | IIS   |
 | ------  | ---------------- | ------- | ----- |
 | WebApi  |  +               |         | +     |
 | Front   |                  | \* (консольное приложение в автозагрузке)| + |
 | RobotLogs |                |         |       |
 | MachineInfo |  +           |         |       |
 
-| Linux   | Отдельная служба | Nginx   | IIS   |
+
+### ОС Linux
+
+Для Linux-серверов рекомендуется: PostgreSQL\*.
+
+\* *Иначе не получится полноценно использовать pgbouncer. Не рекомендуется использовать PostgreSQL под Windows.*
+
+| Компоненты   | Отдельная служба | Nginx   | IIS   |
 | ------  | ---------------- | ------- | ----- |
 | WebApi  |  +               |         |       |
 | Front   |  +               | +       |       |
 | RobotLogs |                |         |       |
 | MachineInfo |  +           |         |       |
-
-
-Для Windows-серверов рекомендуется: MSSQL, WebApi (IIS), Front (IIS).\
-Для Linux-серверов рекомендуется: PostgreSQL\*.
-
-\* *Иначе не получится полноценно использовать pgbouncer. Не рекомендуется использовать PostgreSQL под Windows.*
-
