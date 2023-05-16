@@ -32,21 +32,7 @@
 
 Если используется SSO, то привязка тенантов к AD также настраивается в секции **ActiveDirectory** в параметре **Tenants**:
 
-```json
-"ActiveDirectory": {
-    "KerberosKeytabPath": "C:\\Primo\\krb5.keytab",
-    "Type": 5,
-    "MultyForest": {
-      "primo1.orch": {
-        "Host": "185.247.193.52",
-        "AdminUserName": "Administrator@primo1.orch",
-        "AdminPassword": "JLWIyl1xZNDVVx8tcVllOg==",
-        "StartPoint": "CN=Users,DC=primo1,DC=orch",
-        "UserFilterTemplate": "(&(objectCategory=user)(objectClass=user)(userPrincipalName={0}))",
-        "GroupsFilter": "(&(ObjectClass=group))",
-        "Tenants": [ "", "BUCH" ],
-      },
-```
+![](<../../.gitbook/assets/tenants-to-ad.png>) 
 
 В массиве Tenants перечисляются ID тенантов, которые привязаны к AD. Пустая строка – это ID дефолтного тенанта.
 
