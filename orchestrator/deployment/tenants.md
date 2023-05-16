@@ -1,36 +1,9 @@
 # Мультитенантность
+Оркестратор может функционировать в мультитенантном варианте - под тенантом подразумевается относительно независимый экземпляр Оркестратора. Например, если организация состоит из обособленных подразделений/филиалов, то этому подразделению/филиалу можно назначить тенант.
 
 Мультитенантность настраивается в конфигурационном файле WebApi в секции **Tenants**:
 
-```json
- "Tenants": {
-    "FromAppsettings": true,
-    "TimeOffset": 5,
-    "IncomingEmail": {
-      "UserName": "primo.rpa@mail.ru",
-      "Password": "mzLqI9JworwzqU4vmelY7EIkkokx97DaAkTNU1rEpcM=",
-      "Pop3": "pop.mail.ru",
-      "Pop3Port": 995,
-      "RequireAuthenticate": true,
-      "UseSsl": true
-    },
-    "Items": [
-      {
-        "Id": "BUCH",
-        "Name": "BUCH",
-        "TimeOffset": 3,
-        "IncomingEmail": {
-          "UserName": "primo.rpa@mail.ru",
-          "Password": "mzLqI9JworwzqU4vmelY7EIkkokx97DaAkTNU1rEpcM=",
-          "Pop3": "pop.mail.ru",
-          "Pop3Port": 995,
-          "RequireAuthenticate": true,
-          "UseSsl": true
-        }
-      },
-```
-
-В таблице ниже приведено описание параметров для настройки мультитенантности:
+![](<../../.gitbook/assets/tenants-config.png>) 
 
 #### Таблица 1 – Описание параметров для настройки мультитенантности.
 
