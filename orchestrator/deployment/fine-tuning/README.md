@@ -2,7 +2,7 @@
 Тонкая настройка Оркестратора включает в себя:
 
 * [Внешняя поддержка RDP-сессии](orchestrator/deployment/fine-tuning/rdp-sessions.md)
-* [Отключение/разлогинивание RDP-сессий ](
+* [Отключение/разлогинивание RDP-сессий ](orchestrator/deployment/fine-tuning/disabling-rdp-sessions.md)
 * [Множественные производственные календари](orchestrator/deployment/fine-tuning/multiple-production-calendars.md)
 * [Блокировка робота агентом](orchestrator/deployment/fine-tuning/blocking-robot-by-agent.md)
 * [Настройка очереди проектов](orchestrator/deployment/fine-tuning/setting-project-queue.md)
