@@ -730,6 +730,7 @@
   * [Контроль целостности конфигурационных файлов](orchestrator/deployment/integrity-of-configs.md)
   * [Интеграция с Active Directory](orchestrator/deployment/AD-integration.md)
   * [Мультитенантность](orchestrator/deployment/tenants.md)
+  * [Первоначальная настройка](orchestrator/deployment/initial-setup.md)
   * [Интеграция с внешними системами](orchestrator/deployment/integration.md)
 * [Сценарии работы основного пользователя](orchestrator/basics/README.md)
   * [Ручной запуск Робота с RPA-проектом](orchestrator/basics/robot-manual-start.md)
