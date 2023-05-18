@@ -39,14 +39,23 @@
 1. [Комплект поставки](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/kit).
 1. [Системные требования](https://docs.primo-rpa.ru/primo-rpa/orchestrator/systemreq).
 1. [Установка компонентов](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/install-orch).
-1. [Атрибуты безопасности](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/security-attributes
+1. [Развертывание сервера приложений на Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/deploy-options).
+1. [Атрибуты безопасности](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/security-attributes).
 1. [Контроль целостности конфигурационных файлов](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/integrity-of-configs).
 1. [Интеграция с Active Directory](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/ad-integration).
 1. [Мультитенантность](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/tenants).
 1. [Первоначальная настройка](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/initial-setup).
 1. [Интеграция с внешними системами](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/integration).
-1. [Тонкая настройка](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/
-1. [](
+1. [Тонкая настройка](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/fine-tuning):
+   * [Внешняя поддержка RDP-сессий](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/fine-tuning/rdp-sessions).
+   * [Отключение RDP-сессий ](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/fine-tuning/disabling-rdp-sessions).
+   * [Множественные производственные календари](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/fine-tuning/multiple-production-calendars).
+   * [Блокировка робота агентом](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/fine-tuning/blocking-robot-by-agent).
+   * [Настройка очереди проектов](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/fine-tuning/project-queue).
+   * [Сбор состояния роботов по KeepAlive](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/fine-tuning/collecting-state-of-robots).
+   * [Настройка папки для дампа секций журналов](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/fine-tuning/log-section-dump-folder).
+   * [Настройка стратегии очереди проектов для тенанта](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/fine-tuning/project-queue-strategies-for-tenant).
+
 
 
 
