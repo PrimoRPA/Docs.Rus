@@ -721,9 +721,10 @@
 ## Оркестратор <a href="#orchestrator" id="orchestrator"></a>
 
 * [Введение](orchestrator/intro.md)
+* [Системные требования](orchestrator/systemreq.md)
 * [Развертывание](orchestrator/deployment/README.md)
+  * [Компоненты системы](orchestrator/deployment/system-components.md)
   * [Комплект поставки](orchestrator/deployment/kit.md)
-  * [Системные требования](orchestrator/deployment/systemreq.md)
   * [Установка компонентов](orchestrator/deployment/install-orch.md)
   * [Атрибуты безопасности](orchestrator/deployment/security-attributes.md)
   * [Контроль целостности конфигурационных файлов](orchestrator/deployment/integrity-of-configs.md)
