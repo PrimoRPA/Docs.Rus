@@ -738,7 +738,7 @@
     * [Отключение RDP-сессий](orchestrator/deployment/fine-tuning/disabling-rdp-sessions.md)
     * [Множественные производственные календари](orchestrator/deployment/fine-tuning/multiple-production-calendars.md)
     * [Блокировка робота агентом](orchestrator/deployment/fine-tuning/blocking-robot-by-agent.md)
-    * [Настройка очереди проектов](orchestrator/deployment/fine-tuning/setting-project-queue.md)
+    * [Настройка очереди проектов](orchestrator/deployment/fine-tuning/project-queue.md)
     * [Сбор состояния роботов по KeepAlive](orchestrator/deployment/fine-tuning/collecting-state-of-robots.md)
     * [Настройка папки для дампа секций журналов](orchestrator/deployment/fine-tuning/log-section-dump-folder.md)
     * [Стратегия очереди проектов для тенанта](orchestrator/deployment/fine-tuning/project-queue-strategies-for-tenant.md).
