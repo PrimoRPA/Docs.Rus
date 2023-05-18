@@ -744,8 +744,9 @@
     * [Стратегия очереди проектов для тенанта](orchestrator/deployment/fine-tuning/project-queue-strategies-for-tenant.md).
 * [Сценарии работы основного пользователя](orchestrator/basics/README.md)
   * [Ручной запуск Робота с RPA-проектом](orchestrator/basics/robot-manual-start.md)
-  * [Задания](orchestrator/basics/tasks.md)
-  * [Расписания](orchestrator/basics/schedules.md)
+  * [Задания](orchestrator/basics/tasks/README.md)
+    * [Аргументы проекта](orchestrator/basics/tasks/orch-args.md)
+    * [Расписания](orchestrator/basics/schedules.md)
   * [Шаблоны развертывания](orchestrator/basics/templates.md)
   * [Ресурсы](orchestrator/basics/assets.md)
   * [Очереди обмена данными](orchestrator/basics/data-queues.md)
