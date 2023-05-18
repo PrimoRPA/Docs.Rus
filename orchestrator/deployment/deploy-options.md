@@ -4,8 +4,8 @@
 
 | Вариант развертывания <p>WebApi и Front</p> | Особенности SSO | Инструкция | 
 | ------------------------------------ | --------------- | ---------------------------------- |
-| WebApi и Front работают под IIS      | Сервер может быть включен в AD или можно использовать keytab-файл | "Руководство по установке Nginx под Windows 2016 Server.docx" |
-| WebApi – служба Windows, <p>Front – nginx</p> | Только keytab-файл | <p>"Руководство по установке LogEventsWebhook под CentOS 8.docx",</p> <p>"Руководство по предварительной настройке машины Оркестратора под Windows 2016 Server.docx",</p> <p>"Руководство по установке Notifications под Windows 2016 Server.docx"</p> |
+| WebApi и Front работают под IIS      | Сервер может быть включен в AD или можно использовать keytab-файл | См. "Руководство по установке WebApi и UI на IIS под Windows 2016 Server.docx" (входит в поставку) |
+| WebApi – служба Windows, <p>Front – nginx</p> | Только keytab-файл | См.  <p>"Руководство по установке WebApi как службы под Windows 2016 Server.docx",</p> <p>"Руководство по предварительной настройке машины Оркестратора под Windows 2016 Server.docx",</p> <p>"Руководство по установке Notifications под Windows 2016 Server.docx"</p> Все документы входят в поставку |
 
 **keytab-файл** – файл, полученный в результате команды `ktpass` при регистрации Front сервиса в AD.\
 Путь к полученному keytab-файлу настраивается в конфигурационном файле WebApi в секции `ActiveDirectory` в параметре `KerberosKeytabPath`:
