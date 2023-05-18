@@ -11,5 +11,5 @@
 1. [Настройка очереди проектов](orchestrator/deployment/fine-tuning/setting-project-queue.md)
 1. [Сбор состояния роботов по KeepAlive](orchestrator/deployment/fine-tuning/collecting-state-of-robots.md)
 1. [Настройка папки для дампа секций журналов](orchestrator/deployment/fine-tuning/log-section-dump-folder.md)
-1. [Настройка стратегии очереди проектов для тенанта](orchestrator/deployment/fine-tuning/project-queue-strategies-for-tenant.md)
+1. [Стратегия очереди проектов для тенанта](orchestrator/deployment/fine-tuning/project-queue-strategies-for-tenant.md)
 
