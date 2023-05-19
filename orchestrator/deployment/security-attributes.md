@@ -1,21 +1,10 @@
 # Атрибуты безопасности
 
-Конфигурационные файлы поставляются с зашифрованными паролями. Используется 4 предустановленных пароля - см. таблицу.
-
-#### Таблица 1 – Предустановленные пароли.
-
-|	Открытый пароль	| Зашифрованный пароль	| Назначение |
-| --------------- | --------------------- | ---------- |
-| Qwe123!@# | JLWIyl1xZNDVVx8tcVllOg== | ActiveDirectory, SslCert, RabbitMQ |
-| postgres  | 49EqQ30zfcQTWxEGYE/mSw== | БД: ltools, ltoolsidentity, ltoolslicense, ltoolslogs (PostgeSQL) |
-| 123!@#Qwe123!@#Qwe123 | 8TQ18jklcX3CPIsG6cVeb4iClxAxrqSabembVRUnvXQ= | Email, с которого происходит рассылка |
-| sa | OrrNv0YQhLhnAwG+CuUPKA== | БД: ltools, ltoolsidentity, ltoolslicense, ltoolslogs (MS SQL SERVER) |
+Конфигурационные файлы поставляются с зашифрованными паролями. Используется 4 предустановленных пароля - они приведены в документе "Развертывание Primo RPA 1.23.x - Руководство администратора.docx".
 
 Если требуется сменить предустановленный пароль - например, у пользователя БД меняется пароль - то его нужно сначала зашифровать при помощи программы **LTools.Orchestrator.PasswordEncriptor.exe**\*:
 
 \* *Архив PasswordEncriptor.zip из [комплекта поставки](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/kit).*
-
-![](<../../.gitbook/assets/3.Шифрование паролей.png>)
 
 После чего скопировать из окна терминала зашифрованные пароли (находятся под строкой **Copy following string:** ) в конфигурационные файлы `appsettings.ProdWin.json`\*\* и `appsettings.Worker.json`.
 
