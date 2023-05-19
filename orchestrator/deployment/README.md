@@ -40,7 +40,6 @@
 1. [Системные требования](https://docs.primo-rpa.ru/primo-rpa/orchestrator/systemreq).
 1. [Установка компонентов](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/install-orch).
 1. [Развертывание сервера приложений на Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/deploy-options).
-1. [Атрибуты безопасности](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/security-attributes).
 1. [Контроль целостности конфигурационных файлов](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/integrity-of-configs).
 1. [Интеграция с Active Directory](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/ad-integration).
 1. [Мультитенантность](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/tenants).
