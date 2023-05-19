@@ -728,7 +728,6 @@
   * [Комплект поставки](orchestrator/deployment/kit.md)
   * [Установка компонентов](orchestrator/deployment/install-orch.md)
   * [Варианты развертывания сервера приложений на Windows 2016 Server](orchestrator/deployment/deploy-options.md)
-  * [Атрибуты безопасности](orchestrator/deployment/security-attributes.md)
   * [Контроль целостности конфигурационных файлов](orchestrator/deployment/integrity-of-configs.md)
   * [Интеграция с Active Directory](orchestrator/deployment/AD-integration.md)
   * [Мультитенантность](orchestrator/deployment/tenants.md)
