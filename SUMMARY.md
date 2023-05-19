@@ -740,6 +740,7 @@
     * [Множественные производственные календари](orchestrator/deployment/fine-tuning/multiple-production-calendars.md)
     * [Блокировка робота агентом](orchestrator/deployment/fine-tuning/blocking-robot-by-agent.md)
     * [Настройка очереди проектов](orchestrator/deployment/fine-tuning/project-queue.md)
+    * [Кэширование проекта](orchestrator/deployment/fine-tuning/project-caching.md)
     * [Сбор состояния роботов по KeepAlive](orchestrator/deployment/fine-tuning/collecting-state-of-robots.md)
     * [Настройка папки для дампа секций журналов](orchestrator/deployment/fine-tuning/log-section-dump-folder.md)
     * [Стратегия очереди проектов для тенанта](orchestrator/deployment/fine-tuning/project-queue-strategies-for-tenant.md).
@@ -760,7 +761,6 @@
     * [Типовые сценарии управления пользователями](orchestrator/settings/users/common-scenarios.md)
     * [Личные папки пользователей](orchestrator/settings/users/personalfolders.md)
   * [Журналы](orchestrator/settings/journals.md)
-  * [Кэширование проекта](orchestrator/settings/project-caching.md)
   * [Стратегия очереди RPA-проектов](orchestrator/settings/projects-queue.md)
   * [Производственный календарь](orchestrator/settings/calendar.md)
 * [Сценарии работы основного пользователя](orchestrator/basics/README.md)
