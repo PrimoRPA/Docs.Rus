@@ -745,7 +745,6 @@
     * [Стратегия очереди проектов для тенанта](orchestrator/deployment/fine-tuning/project-queue-strategies-for-tenant.md).
 * [Настройки Оркестратора](orchestrator/settings/README.md)
   * [Лицензии](orchestrator/settings/licensing/README.md)
-    * [Типы лицензий](orchestrator/settings/licensing/license-types.md)
     * [Получение лицензии](orchestrator/settings/licensing/new-license.md)
     * [Замена лицензии](orchestrator/settings/licensing/change-license.md)
     * [Устаревшие лицензии](orchestrator/settings/licensing/outdated.md)
