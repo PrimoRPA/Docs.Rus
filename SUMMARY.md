@@ -732,7 +732,7 @@
   * [Интеграция с Active Directory](orchestrator/deployment/AD-integration.md)
   * [Мультитенантность](orchestrator/deployment/tenants.md)
   * [Первоначальная настройка](orchestrator/deployment/initial-setup.md)
-  * [Интеграция с внешними системами](orchestrator/deployment/integration.md)
+  * [Интеграция с внешними системами через Webhooks](orchestrator/deployment/integration.md)
   * [Тонкая настройка](orchestrator/deployment/fine-tuning/README.md)
     * [Внешняя поддержка RDP-сессии](orchestrator/deployment/fine-tuning/rdp-sessions.md)
     * [Отключение RDP-сессий](orchestrator/deployment/fine-tuning/disabling-rdp-sessions.md)
