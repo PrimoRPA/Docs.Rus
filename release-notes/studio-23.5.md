@@ -8,7 +8,7 @@
 
 ## Новые функции 
 1. В элементе **Try-Catch** есть переменная с типом данных [ExceptionExceptionInfo](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_logic/datatypes/executionexceptioninfo), которая хранит исключение. Теперь у этой переменной есть свойство `.Data`, в которую можно записать произвольную текстовую информацию.
-
+1. Значительно ускорено выполнение циклов **ForEach** и **ForEach для DataTable**. В том числе, если для циклов не установлено кеширование. 
 3. Условие doWhile сверху активности https://dev.azure.com/primorpa/Primo/_queries/edit/1416/?triage=true
 
 
@@ -28,6 +28,7 @@
 
 ## Исправленные ошибки
 1. Устранено накопление данных в `C:\Users\<user>\AppData\Local\Temp\Primo.Studio`. Ранее при каждом запуске проекта с зависимостями (`.Dependencies`) из Студии или Robot Runner они копировались в папку `Temp` и не очищались. Теперь данные очищаются перед каждым запуском робота. 
+
 1. Элементы **Цикл ForEach** и **Цикл ForEach для DataTable** стали импортироваться с включенным параметром кеширования. Ранее при импорте для них отсутствовала галочка в свойстве **Кешировать**, хотя фактически оно производилось. Кеширование позволяет запоминать вычисляемые значения в цикле Foreach и, таким образом, выполнять проект быстрее. 
 1. Инструмент [пропустить элемент](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/debug#propusk-elementa) работал не только при отладке, но и при запуске проекта, что являлось некорректным поведением. Ошибка исправлена, пропускать элемент возможно только в режиме отладки.
 1. Улучшена работа окна редактора кода (Expression Editor): 
@@ -42,10 +43,11 @@
 1. При использовании элемента **Найти начальную/конечную строку** с драйвером Interop поиск мог вернуть неверное значение. Ошибка исправлена.
 
 
-12. Медленное выполнение процесса https://dev.azure.com/primorpa/Primo/_queries/edit/1291/?triage=true
-13. Робот завис при выполнении проекта https://dev.azure.com/primorpa/Primo/_queries/edit/1329/?triage=true
-14. Не работает добавление строки Таблица\"Добавить строку" через DataRow https://dev.azure.com/primorpa/Primo/_queries/edit/1344/?triage=true
+
 15. Ширина диаграммы Excel ссылается на высоту, а высота на ширину https://dev.azure.com/primorpa/Primo/_queries/edit/1349/?triage=true
+
+
+
 16. Баг в работе Try Catch https://dev.azure.com/primorpa/Primo/_queries/edit/1398/?triage=true
 17. OpenBrowser CloseBrowser "Object reference not set to an instance of an object" в версии ядра v2 https://dev.azure.com/primorpa/Primo/_queries/edit/1484/?triage=true
 18. Astro bugfix https://dev.azure.com/primorpa/Primo/_queries/edit/1594/?triage=true
@@ -58,4 +60,5 @@
 4. Некорректное отображение функции "Отобразить компонент" https://dev.azure.com/primorpa/Primo/_queries/edit/912/?triage=true
 8. Сохранение скринов активностей при перемещении "Move to new sequence" https://dev.azure.com/primorpa/Primo/_queries/edit/1036/?triage=true
 10. (1246) - Бесконечный запуск процессов при неуказанных входных аргументах https://dev.azure.com/primorpa/Primo/_queries/edit/1123/?triage=true
-
+13. Робот завис при выполнении проекта https://dev.azure.com/primorpa/Primo/_queries/edit/1329/?triage=true
+14. Не работает добавление строки Таблица\"Добавить строку" через DataRow https://dev.azure.com/primorpa/Primo/_queries/edit/1344/?triage=true
