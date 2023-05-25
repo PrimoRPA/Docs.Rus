@@ -40,20 +40,19 @@
 1. Для переменных и аргументов отсутствовала проверка синтаксиса на предмет доступности ссылок на модули в DataType. Если при добавлении в проект зависимости были созданы переменные/аргументы, которые ссылались на доступный в рамках этой зависимости тип данных, то при удалении зависимости для них не отображались индикаторы ошибки :warning:. Проверка синтаксиса улучшена, теперь индикатор ошибки и ее текст отображаются.
 1. При использовании драйвера Interop ввод формулы в ячейку Excel допускался только на английском языке. С этой версии Interop также позволяет использовать формулы на русском.
 1. При использовании элемента **Найти начальную/конечную строку** с драйвером Interop поиск мог вернуть неверное значение. Ошибка исправлена.
-1. В элементе **Вставка диаграммы** (Excel) высота и ширина работали некорректно. Ширина ссылалась на высоту, а высота на ширину. Ошибка исправлена.
+1. В элементе **Вставка диаграммы** (Excel) высота и ширина работали некорректно: значения в диаграмме выполнялись противоположным образом. Ошибка исправлена.
+1. При вставке в **Try Catch** любого скопированного элемента, например, **Клика мышью** со скриншотом, возникала ошибка при выполнении процесса. Ошибка исправлена.
 
 
 
-1. Баг в работе Try Catch https://dev.azure.com/primorpa/Primo/_queries/edit/1398/?triage=true
+1. OpenBrowser CloseBrowser "Object reference not set to an instance of an object" в версии ядра v2 https://dev.azure.com/primorpa/Primo/_queries/edit/1484/?triage=true
 
 
-
-17. OpenBrowser CloseBrowser "Object reference not set to an instance of an object" в версии ядра v2 https://dev.azure.com/primorpa/Primo/_queries/edit/1484/?triage=true
-18. Astro bugfix https://dev.azure.com/primorpa/Primo/_queries/edit/1594/?triage=true
-19. Поддержка аргументов в активности "Запустить VBA" https://dev.azure.com/primorpa/Primo/_queries/edit/1819/?triage=true
-20. Теряется связь с удаленным репозиторием https://dev.azure.com/primorpa/Primo/_queries/edit/1870/?triage=true
-21. "Приостанавливать отладку на исключении" начинает отладку на исключении при обычном запуске проекта без отладки https://dev.azure.com/primorpa/Primo/_queries/edit/2001/?triage=true
-22. Чтение почты - Ссылка на объект не указывает на экземпляр объекта. https://dev.azure.com/primorpa/Primo/_queries/edit/2005/?triage=true
+1. Astro bugfix https://dev.azure.com/primorpa/Primo/_queries/edit/1594/?triage=true
+1. Поддержка аргументов в активности "Запустить VBA" https://dev.azure.com/primorpa/Primo/_queries/edit/1819/?triage=true
+1. Теряется связь с удаленным репозиторием https://dev.azure.com/primorpa/Primo/_queries/edit/1870/?triage=true
+1. "Приостанавливать отладку на исключении" начинает отладку на исключении при обычном запуске проекта без отладки https://dev.azure.com/primorpa/Primo/_queries/edit/2001/?triage=true
+1. Чтение почты - Ссылка на объект не указывает на экземпляр объекта. https://dev.azure.com/primorpa/Primo/_queries/edit/2005/?triage=true
 
 
 4. Некорректное отображение функции "Отобразить компонент" https://dev.azure.com/primorpa/Primo/_queries/edit/912/?triage=true
