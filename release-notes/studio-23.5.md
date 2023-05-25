@@ -4,12 +4,7 @@
 
 ## Новые функции 
 
-1. Баг или фича? - Элементы **ForEach** и **ForEach row** стали импортироваться с включенным параметром кеширования. Ранее при импорте отсутствовала галочка в свойстве **Кешировать**, хотя фактически кеширование производилось. Кеширование позволяет запоминать вычисляемые значения в циклах Foreach и, таким образом, выполнять проект быстрее.  
-https://dev.azure.com/primorpa/Primo/_queries/edit/813/?triage=true
-
-
-1. Накопление данных в C:\Users\"учетка"\AppData\Local\Temp\Primo.Studio https://dev.azure.com/primorpa/Primo/_queries/edit/815/?triage=true
-
+1. Баг или фича? - Элементы **Цикл ForEach** и **Цикл ForEach для DataTable** стали импортироваться с включенным параметром кеширования. Ранее при импорте для них отсутствовала галочка в свойстве **Кешировать**, хотя фактически оно производилось. Кеширование позволяет запоминать вычисляемые значения в цикле Foreach и, таким образом, выполнять проект быстрее.  https://dev.azure.com/primorpa/Primo/_queries/edit/813/?triage=true
 
 1. Исправления в Expression Editor https://dev.azure.com/primorpa/Primo/_queries/edit/875/?triage=true
 
@@ -35,7 +30,12 @@ https://dev.azure.com/primorpa/Primo/_queries/edit/813/?triage=true
 
 
 ## Исправленные ошибки
+1. Устранено накопление данных в `C:\Users\<user>\AppData\Local\Temp\Primo.Studio`. Ранее при каждом запуске проекта с зависимостями (`.Dependencies`) из Студии или Robot Runner они копировались в папку `Temp` и не очищались. Теперь данные очищаются перед каждым запуском робота. 
+
 1. Ошибка в инструменте пропустить элемент https://dev.azure.com/primorpa/Primo/_queries/edit/857/?triage=true
+
+
+
 2. При поиске переменных название активности "Множественное присвоение" не отображается https://dev.azure.com/primorpa/Primo/_queries/edit/892/?triage=true
 3. Нельзя удалить индекс в браузерном селекторе https://dev.azure.com/primorpa/Primo/_queries/edit/902/?triage=true
 4. Некорректное отображение функции "Отобразить компонент" https://dev.azure.com/primorpa/Primo/_queries/edit/912/?triage=true
