@@ -43,9 +43,8 @@
 1. В элементе **Вставка диаграммы** (Excel) высота и ширина работали некорректно: значения в диаграмме выполнялись противоположным образом. Ошибка исправлена.
 1. При вставке в **Try Catch** любого скопированного элемента, например, **Клика мышью** со скриншотом, возникала ошибка при выполнении процесса. Ошибка исправлена.
 
+1. Элементы **Открыть браузер** **Закрыть браузер** "Object reference not set to an instance of an object" в версии ядра v2 https://dev.azure.com/primorpa/Primo/_queries/edit/1484/?triage=true
 
-
-1. OpenBrowser CloseBrowser "Object reference not set to an instance of an object" в версии ядра v2 https://dev.azure.com/primorpa/Primo/_queries/edit/1484/?triage=true
 
 
 1. Astro bugfix https://dev.azure.com/primorpa/Primo/_queries/edit/1594/?triage=true
