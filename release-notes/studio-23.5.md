@@ -4,14 +4,31 @@
 
 ## Новые функции 
 
-1. Ставить галку "кэшировать" на "For-each" и "For-each row" при импорте. https://dev.azure.com/primorpa/Primo/_queries/edit/813/?triage=true
+1. Элементы **ForEach** и **ForEach row** стали импортироваться с включенным параметром кеширования. Ранее при импорте отсутствовала галочка в свойстве **Кешировать**, хотя фактически кеширование производилось. Кеширование позволяет запоминать вычисляемые значения в циклах Foreach и, таким образом, выполнять проект быстрее.  
+https://dev.azure.com/primorpa/Primo/_queries/edit/813/?triage=true
+
+
 1. Накопление данных в C:\Users\"учетка"\AppData\Local\Temp\Primo.Studio https://dev.azure.com/primorpa/Primo/_queries/edit/815/?triage=true
+
+
 1. Исправления в Expression Editor https://dev.azure.com/primorpa/Primo/_queries/edit/875/?triage=true
+
+
 2. В исключение добавить поле Exception.Data(словарь) для передачи значений https://dev.azure.com/primorpa/Primo/_queries/edit/1029/?triage=true
+
+
 3. Условие doWhile сверху активности https://dev.azure.com/primorpa/Primo/_queries/edit/1416/?triage=true
+
+
 4. Новое лого https://dev.azure.com/primorpa/Primo/_queries/edit/1981/?triage=true
+
+
 5. Новое лого + фавикон https://dev.azure.com/primorpa/Primo/_queries/edit/1982/?triage=true
+
+
 6. Доработка формы загрузки пакетов https://dev.azure.com/primorpa/Primo/_queries/edit/2041/?triage=true
+
+
 7. Некорректное отображение отступов в элементах управление TreeView https://dev.azure.com/primorpa/Primo/_queries/edit/2205/?triage=true
 
 
@@ -40,7 +57,6 @@
 20. Теряется связь с удаленным репозиторием https://dev.azure.com/primorpa/Primo/_queries/edit/1870/?triage=true
 21. "Приостанавливать отладку на исключении" начинает отладку на исключении при обычном запуске проекта без отладки https://dev.azure.com/primorpa/Primo/_queries/edit/2001/?triage=true
 22. Чтение почты - Ссылка на объект не указывает на экземпляр объекта. https://dev.azure.com/primorpa/Primo/_queries/edit/2005/?triage=true
-23. 
 
 
 
