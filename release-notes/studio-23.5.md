@@ -47,19 +47,14 @@ https://dev.azure.com/primorpa/Primo/_queries/edit/1982/?triage=true
 1. В элементе **Вставка диаграммы** (Excel) высота и ширина работали некорректно: значения в диаграмме выполнялись противоположным образом. Ошибка исправлена.
 1. При вставке в **Try Catch** любого скопированного элемента, например, **Клика мышью** со скриншотом, возникала ошибка при выполнении процесса. Ошибка исправлена.
 7. На панели элементов исправлено некорректное отображение отступов веток дерева. 
+1. При указании в элементе **Чтение почты** (Outlook) неправильного названия папки не отображалась ошибка. Теперь, если путь указан неверно, ошибка будет отображаться, что является корректным поведением.  
+
 
 
 1. Баг или фича? - Увеличено количество аргументов, поддерживаемых в элементе **Запустить VBA** для Excel: стало возможным запускать до 20 аргументов. В предыдущих версиях разрешалось использовать до 10.
-1. Почему это ошибка?? - В элементе **Чтение почты** (Outlook) возникала ошибка **Ссылка на объект не указывает на экземпляр объекта** при указании неверного адреса в свойстве **Путь к папке**. Ошибка исправлена
-https://dev.azure.com/primorpa/Primo/_queries/edit/2005/?triage=true
-
-
 
 1. Теряется связь с удаленным репозиторием https://dev.azure.com/primorpa/Primo/_queries/edit/1870/?triage=true
 кто-то хранил исходники в Azure, клонировал в репозиторий, и у него пропадала связь с удаленным репозиторием.  - подробнее уточнить у Пономарева Ивана. Касается только Azure? Вто это за инструмент в студии
-
-
-
 
 1. "Приостанавливать отладку на исключении" начинает отладку на исключении при обычном запуске проекта без отладки https://dev.azure.com/primorpa/Primo/_queries/edit/2001/?triage=true
 
@@ -81,17 +76,9 @@ https://dev.azure.com/primorpa/Primo/_queries/edit/2005/?triage=true
 
 
 
-
-
-
-
-
-
-
-
-4. Некорректное отображение функции "Отобразить компонент" https://dev.azure.com/primorpa/Primo/_queries/edit/912/?triage=true
-8. Сохранение скринов активностей при перемещении "Move to new sequence" https://dev.azure.com/primorpa/Primo/_queries/edit/1036/?triage=true
-10. (1246) - Бесконечный запуск процессов при неуказанных входных аргументах https://dev.azure.com/primorpa/Primo/_queries/edit/1123/?triage=true
-13. Робот завис при выполнении проекта https://dev.azure.com/primorpa/Primo/_queries/edit/1329/?triage=true
-14. Не работает добавление строки Таблица\"Добавить строку" через DataRow https://dev.azure.com/primorpa/Primo/_queries/edit/1344/?triage=true
+1. Некорректное отображение функции "Отобразить компонент" https://dev.azure.com/primorpa/Primo/_queries/edit/912/?triage=true
+1. Сохранение скринов активностей при перемещении "Move to new sequence" https://dev.azure.com/primorpa/Primo/_queries/edit/1036/?triage=true
+1. (1246) - Бесконечный запуск процессов при неуказанных входных аргументах https://dev.azure.com/primorpa/Primo/_queries/edit/1123/?triage=true
+1. Робот завис при выполнении проекта https://dev.azure.com/primorpa/Primo/_queries/edit/1329/?triage=true
+1. Не работает добавление строки Таблица\"Добавить строку" через DataRow https://dev.azure.com/primorpa/Primo/_queries/edit/1344/?triage=true
 1. Astro bugfix https://dev.azure.com/primorpa/Primo/_queries/edit/1594/?triage=true
