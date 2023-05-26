@@ -22,9 +22,7 @@
 
 https://dev.azure.com/primorpa/Primo/_boards/board/t/Orchestrator%20Team/Stories
 
-3. Условие doWhile сверху активности https://dev.azure.com/primorpa/Primo/_queries/edit/1416/?triage=true
-Суть: у цикла While шапка сверху, а у цикла doWhile - снизу. 
-
+3. Изменен внешний вид цикла [Do-While](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_logic/el_logic_dowhile): поле с условием теперь располагается внизу, чтобы визуально отличаться от элемента **Цикл While**.
 
 
 5. Изменен внешний вид логотипов для Primo Studio, Primo Robot и Robot Runner.
