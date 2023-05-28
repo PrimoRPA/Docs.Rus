@@ -12,7 +12,7 @@
    * [**Tesseract OCR**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_ocr/el_ocr_tesseract) - для подключения к ядру OCR Tesseract.
    * [**Клик текста мышью**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_ocr/el_ocr_textclick) - кликает мышью на/в указанном тексте.
    * [**Распознать текст**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_ocr/el_ocr_recog) - распознает изображение методом OCR. 
-5. Добавлена функция принудительной синхронизации папки в Outlook. Ее выполняет элемент [**Синхронизировать папку**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_outlook/el_outlook_sync). Использование элемента позволяет предотвратить ситуацию, когда при закрытии приложения Outlook письмо оказывается неотправленным.
+5. Добавлена функция принудительной синхронизации папки Outlook. Ее выполняет элемент [**Синхронизировать папку**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_outlook/el_outlook_sync). Использование элемента позволяет предотвратить ситуацию, когда при закрытии приложения Outlook письмо оказывается неотправленным.
 6. Появился элемент [**Выполнить скрипт VB**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_prog/el_invokevb), который выполняет файл на языке VBScript.
 7. Значительно ускорено выполнение циклов **ForEach** и **ForEach для DataTable**. В том числе, если для циклов не установлено кеширование. 
 8. У элемента [**Фильтр таблицы**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_coll/el_coll_filtertable) (Коллекции) появилось окно мастера фильтров. Оно позволяет удалять ненужные столбцы и строки при фильтрации. 
