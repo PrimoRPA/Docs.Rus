@@ -3,17 +3,20 @@
 Примечания к выпуску Студии 23.5 описывают изменения для версии приложения, выпущенной в мае 2023 года.
 
 ## Новые функции 
-1. В NuGet добавлен пакет [Primo.T1.CSV](https://www.nuget.org/packages/Primo.T1.Csv), который позволяет без ограничений работать с большими CSV-файлами - дополню в чистовой версии, распишу коротко назначение каждого элемента папки CSV.
-1. В NuGet добавлен пакет  [Primo.T1.OCR](https://www.nuget.org/packages/Primo.T1.OCR) - дополню в чистовой версии, распишу коротко назначение каждого элемента.
-1. Добавлена функция принудительной синхронизации папки в Outlook. Ее выполняет элемент [**Синхронизировать папку**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_outlook/el_outlook_sync). Использование элемента позволяет предотвратить ситуацию, когда при закрытии приложения Outlook письмо оказывается неотправленным.
-1. Появился элемент [**Выполнить скрипт VB**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_prog/el_invokevb), который выполняет файл на языке VBScript.
-1. Значительно ускорено выполнение циклов **ForEach** и **ForEach для DataTable**. В том числе, если для циклов не установлено кеширование. 
-1. У элемента [**Фильтр таблицы**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_coll/el_coll_filtertable) (Коллекции) появилось окно мастера фильтров. Оно позволяет удалять ненужные столбцы и строки при фильтрации. 
-1. В элементе [**Удалить колонку**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_data/els_data_tables/deletecolumn) (**Данные > Таблицы**) добавлено свойство **Имя**, которое позволяет удалять столбец по его названию, а не только по индексу, как было ранее. 
-1. В элементе **Try-Catch** для переменной с типом данных [**ExceptionExceptionInfo**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_logic/datatypes/executionexceptioninfo) (хранит исключение) добавлено поле `.Data`. В значении свойства можно указать произвольную текстовую информацию.
-1. Увеличено количество аргументов, поддерживаемых в элементе [**Запустить VBA**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_vba) для Excel: стало возможным использовать до 20-ти аргументов вместо 10-ти в предыдущих версиях.
-1. Улучшен внешний вид цикла [**Do-While**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_logic/el_logic_dowhile): поле с условием теперь располагается внизу, чтобы визуально отличаться от элемента **Цикл While**.
-1. Обновлен внешний вид логотипов для Primo Studio, Primo Robot и Robot Runner.
+1. В NuGet добавлен пакет [Primo.T1.CSV](https://www.nuget.org/packages/Primo.T1.Csv), который позволяет без ограничений работать с большими CSV-файлами:
+  * [**Добавить в CSV**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/t1/els_csv/el_appendcsv) - добавляет данные в файл CSV.
+  * [**Записать CSV**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_csv/el_writecsv) - 
+  * [**Читать CSV**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_csv/el_readcsv) - 
+3. В NuGet добавлен пакет  [Primo.T1.OCR](https://www.nuget.org/packages/Primo.T1.OCR) - дополню в чистовой версии, распишу коротко назначение каждого элемента.
+4. Добавлена функция принудительной синхронизации папки в Outlook. Ее выполняет элемент [**Синхронизировать папку**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_outlook/el_outlook_sync). Использование элемента позволяет предотвратить ситуацию, когда при закрытии приложения Outlook письмо оказывается неотправленным.
+5. Появился элемент [**Выполнить скрипт VB**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_prog/el_invokevb), который выполняет файл на языке VBScript.
+6. Значительно ускорено выполнение циклов **ForEach** и **ForEach для DataTable**. В том числе, если для циклов не установлено кеширование. 
+7. У элемента [**Фильтр таблицы**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_coll/el_coll_filtertable) (Коллекции) появилось окно мастера фильтров. Оно позволяет удалять ненужные столбцы и строки при фильтрации. 
+8. В элементе [**Удалить колонку**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_data/els_data_tables/deletecolumn) (**Данные > Таблицы**) добавлено свойство **Имя**, которое позволяет удалять столбец по его названию, а не только по индексу, как было ранее. 
+9. В элементе **Try-Catch** для переменной с типом данных [**ExceptionExceptionInfo**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_logic/datatypes/executionexceptioninfo) (хранит исключение) добавлено поле `.Data`. В значении свойства можно указать произвольную текстовую информацию.
+10. Увеличено количество аргументов, поддерживаемых в элементе [**Запустить VBA**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_vba) для Excel: стало возможным использовать до 20-ти аргументов вместо 10-ти в предыдущих версиях.
+11. Улучшен внешний вид цикла [**Do-While**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_logic/el_logic_dowhile): поле с условием теперь располагается внизу, чтобы визуально отличаться от элемента **Цикл While**.
+12. Обновлен внешний вид логотипов для Primo Studio, Primo Robot и Robot Runner.
 
 ## Исправленные ошибки
 1. Устранено накопление данных в `C:\Users\<user>\AppData\Local\Temp\Primo.Studio`. Ранее при каждом запуске проекта с зависимостями (`.Dependencies`) из Студии или Robot Runner они копировались в папку `Temp` и не очищались. Теперь данные очищаются перед каждым запуском робота. 
