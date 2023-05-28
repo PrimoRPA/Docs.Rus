@@ -11,7 +11,7 @@
 1. В элементе [**Удалить колонку**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_data/els_data_tables/deletecolumn) (**Данные > Таблицы**) добавлено свойство **Имя**, которое позволяет удалять столбец по его названию, а не только по индексу, как было ранее. 
 1. В элементе **Try-Catch** для переменной с типом данных [**ExceptionExceptionInfo**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_logic/datatypes/executionexceptioninfo) (хранит исключение) добавлено поле `.Data`. В значении свойства можно указать произвольную текстовую информацию.
 1. Значительно ускорено выполнение циклов **ForEach** и **ForEach для DataTable**. В том числе, если для циклов не установлено кеширование. 
-1. Увеличено количество аргументов, поддерживаемых в элементе **Запустить VBA** для Excel: стало возможным использовать до 20 аргументов. В предыдущих версиях допускалось до 10.
+1. Увеличено количество аргументов, поддерживаемых в элементе [**Запустить VBA**}(https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_vba) для Excel: стало возможным использовать до 20 аргументов вместо 10 в предыдущих версиях.
 1. Улучшен внешний вид цикла [**Do-While**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_logic/el_logic_dowhile): поле с условием теперь располагается внизу, чтобы визуально отличаться от элемента **Цикл While**.
 1. Обновлен внешний вид логотипов для Primo Studio, Primo Robot и Robot Runner.
 
