@@ -4,9 +4,9 @@
 
 ## Новые функции 
 1. В NuGet добавлен пакет [Primo.T1.CSV](https://www.nuget.org/packages/Primo.T1.Csv), который позволяет без ограничений работать с большими CSV-файлами:
-  * [**Добавить в CSV**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/t1/els_csv/el_appendcsv) - добавляет данные в файл CSV.
-  * [**Записать CSV**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_csv/el_writecsv) - 
-  * [**Читать CSV**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_csv/el_readcsv) - 
+   * [**Добавить в CSV**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/t1/els_csv/el_appendcsv) - добавляет данные в файл CSV.
+   * [**Записать CSV**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_csv/el_writecsv) - 
+   * [**Читать CSV**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_csv/el_readcsv) - 
 3. В NuGet добавлен пакет  [Primo.T1.OCR](https://www.nuget.org/packages/Primo.T1.OCR) - дополню в чистовой версии, распишу коротко назначение каждого элемента.
 4. Добавлена функция принудительной синхронизации папки в Outlook. Ее выполняет элемент [**Синхронизировать папку**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_outlook/el_outlook_sync). Использование элемента позволяет предотвратить ситуацию, когда при закрытии приложения Outlook письмо оказывается неотправленным.
 5. Появился элемент [**Выполнить скрипт VB**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_prog/el_invokevb), который выполняет файл на языке VBScript.
