@@ -3,7 +3,7 @@
 Примечания к выпуску Студии 23.5 описывают изменения для версии приложения, выпущенной в мае 2023 года.
 
 ## Новые функции 
-1. В NuGet добавлен пакет [Primo.T1.CSV](https://www.nuget.org/packages/Primo.T1.Csv), который позволяет без ограничений работать с большими CSV-файлами:
+1. В NuGet добавлен пакет [Primo.T1.CSV](https://www.nuget.org/packages/Primo.T1.Csv), который позволяет без ограничений работать с большими CSV-файлами. В пакет входят элементы:
    * [**Добавить в CSV**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/t1/els_csv/el_appendcsv) - добавляет данные в файл CSV.
    * [**Записать CSV**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_csv/el_writecsv) - 
    * [**Читать CSV**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_csv/el_readcsv) - 
