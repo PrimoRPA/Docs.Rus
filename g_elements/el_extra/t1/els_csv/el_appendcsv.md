@@ -1,6 +1,6 @@
 # Добавить в CSV
 
-![](<../../../.gitbook/assets/append_csv.png>)
+![](<../../../../.gitbook/assets/append_csv.png>)
 
 Элемент добавляет данные в файл CSV.
 
