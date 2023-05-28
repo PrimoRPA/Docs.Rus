@@ -7,7 +7,7 @@
    * [**Добавить в CSV**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/t1/els_csv/el_appendcsv) - добавляет данные в файл CSV.
    * [**Записать CSV**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_csv/el_writecsv) - записывает файл CSV.
    * [**Читать CSV**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_csv/el_readcsv) - читает файл CSV.
-3. В NuGet добавлен пакет  [Primo.T1.OCR](https://www.nuget.org/packages/Primo.T1.OCR). В библиотеку входят элементы:
+3. В NuGet добавлен пакет  [Primo.T1.OCR](https://www.nuget.org/packages/Primo.T1.OCR), который .... . В библиотеку входят элементы:
    * [**Microsoft OCR**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/t1/els_ocr/el_ocr_microsoft) - для подключения к ядру OCR Microsoft.
    * [**Tesseract OCR**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_ocr/el_ocr_tesseract) - для подключения к ядру OCR Tesseract.
    * [**Клик текста мышью**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_ocr/el_ocr_textclick) - кликает мышью на/в указанном тексте.
