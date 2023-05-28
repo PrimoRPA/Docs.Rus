@@ -3,17 +3,17 @@
 Примечания к выпуску Студии 23.5 описывают изменения для версии приложения, выпущенной в мае 2023 года.
 
 ## Новые функции 
-1. В NuGet добавлен пакет [Primo.T1.CSV](https://www.nuget.org/packages/Primo.T1.Csv), который позволяет работать с большими CSV-файлами. В библиотеку входят элементы:
+1. В NuGet добавлен пакет [Primo.T1.CSV](https://www.nuget.org/packages/Primo.T1.Csv) для работы с большими табличными данными. В библиотеку входят элементы:
    * [**Добавить в CSV**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/t1/els_csv/el_appendcsv) - добавляет данные в файл CSV.
    * [**Записать CSV**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_csv/el_writecsv) - записывает файл CSV.
    * [**Читать CSV**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_csv/el_readcsv) - читает файл CSV.
-3. В NuGet добавлен пакет  [Primo.T1.OCR](https://www.nuget.org/packages/Primo.T1.OCR), который .... . В библиотеку входят элементы:
+3. В NuGet добавлен пакет [Primo.T1.OCR](https://www.nuget.org/packages/Primo.T1.OCR) для интеграции с OCR. В библиотеку входят элементы:
    * [**Microsoft OCR**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/t1/els_ocr/el_ocr_microsoft) - для подключения к ядру OCR Microsoft.
    * [**Tesseract OCR**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_ocr/el_ocr_tesseract) - для подключения к ядру OCR Tesseract.
    * [**Клик текста мышью**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_ocr/el_ocr_textclick) - кликает мышью на/в указанном тексте.
    * [**Распознать текст**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_ocr/el_ocr_recog) - распознает изображение методом OCR. 
 5. Добавлена функция принудительной синхронизации папки Outlook. Ее выполняет элемент [**Синхронизировать папку**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_outlook/el_outlook_sync). Использование компонента позволяет предотвратить ситуацию, когда при закрытии приложения Outlook письмо оказывается неотправленным.
-6. Появился элемент [**Выполнить скрипт VB**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_prog/el_invokevb), который выполняет файл на языке VBScript.
+6. Появился элемент [**Выполнить скрипт VB**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_prog/el_invokevb), который вызывает и выполняет файл на языке VBScript.
 7. Значительно ускорено выполнение циклов **ForEach** и **ForEach для DataTable**. В том числе, если для циклов не установлено кеширование. 
 8. У элемента [**Фильтр таблицы**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_coll/el_coll_filtertable) (Коллекции) появилось окно мастера фильтров. Оно позволяет удалять ненужные столбцы и строки при фильтрации. 
 9. В элементе [**Удалить колонку**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_data/els_data_tables/deletecolumn) (**Данные > Таблицы**) добавлено свойство **Имя**, которое позволяет удалять столбец по его названию, а не только по индексу, как было ранее. 
