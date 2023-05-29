@@ -2,7 +2,7 @@
 
 ![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (10) (209).png>)
 
-![](<../../../.gitbook/assets/image (446).png>)
+![](<../../../.gitbook/assets/new-filter-of-table.png>)
 
 Элемент фильтрует данные таблицы по столбцу. Для этого он работает с переменной типа DataTable, которая хранит таблицу - ее возможно получить, например, после [**Чтения диапазона**](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/prilozhenie-excel/el_excel_readrange) Excel-файла.\
 Результатом применения фильтра является получение таблицы только с теми данными, которые соответствуют условиям фильтрации.
