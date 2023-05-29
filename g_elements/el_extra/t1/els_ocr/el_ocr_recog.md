@@ -11,7 +11,7 @@
 | Свойство             | Тип                   | Описание                                      |
 | -------------------- | --------------------- | --------------------------------------------- |
 | ***OCR:*** | |  |
-| Переменная\* | Primo.T1.OCR.OCRInst | Переменная со ссылкой на ядро OCR |
+| Переменная\* | Primo.T1.OCR.OCRInst | Переменная со ссылкой на ядро OCR. При использовании элемента внутри контейнера [Microsoft OCR](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/t1/els_ocr/el_ocr_microsoft) или [Tesseract OCR](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/t1/els_ocr/el_ocr_tesseract) свойство можно не заполнять |
 | ***Прочее:***  |  |  |
 | Bmp | [System.Drawing.Bitmap](https://learn.microsoft.com/ru-ru/dotnet/api/system.drawing.bitmap?view=windowsdesktop-7.0) | Массив байт изображения |
 | ***Вывод:***  |  |  |
