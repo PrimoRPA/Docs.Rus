@@ -2,7 +2,7 @@
 
 ![](<../../../../.gitbook/assets/microsoft_ocr_scope.png>)
 
-Элемент осуществляет подключение к ядру OCR Microsoft.
+Элемент осуществляет подключение к ядру OCR Microsoft. Поддерживается только для Windows 10.
 
 ## Свойства
 Описание общих свойств элемента см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
