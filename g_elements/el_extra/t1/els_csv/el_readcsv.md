@@ -2,7 +2,7 @@
 
 ![](<../../../../.gitbook/assets/read_csv.png>)
 
-Элемент читает файл CSV.
+Элемент копирует все записи из указанного CSV-файла в переменную с типом DataTable для последующего использования.
 
 ## Свойства
 Описание общих свойств элемента см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
