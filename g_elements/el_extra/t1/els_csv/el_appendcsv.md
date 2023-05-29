@@ -14,4 +14,4 @@
 | Путь к файлу\* | String | Путь к файлу CSV, в который нужно добавить данные |
 | Данные\* | [DataTable](https://learn.microsoft.com/ru-ru/dotnet/api/system.data.datatable?view=net-7.0) | Переменная с таблицей данных |
 | Кодировка | String | Кодировка символов |
-| Разделитель | Boolean | Разделитель CSV файла. По умолчанию Comma. Доступны другие значения: Tab, Semicolon, Caret, Pipe |
+| Разделитель | Boolean | Разделитель CSV файла. По умолчанию Comma (`,`). Доступны другие значения: Tab, Semicolon (`;`), Caret (`^`), Pipe (`\|`) |
