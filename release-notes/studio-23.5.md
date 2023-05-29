@@ -10,8 +10,8 @@
 3. В NuGet добавлена библиотека [Primo.T1.OCR](https://www.nuget.org/packages/Primo.T1.OCR) для интеграции с инструментами OCR. После установки пакета в Студии станет доступна папка **Т1-Интеграция** с подпапкой **OCR**. Она содержит элементы:
    * [**Microsoft OCR**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/t1/els_ocr/el_ocr_microsoft) - для подключения к ядру OCR Microsoft.
    * [**Tesseract OCR**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_ocr/el_ocr_tesseract) - для подключения к ядру OCR Tesseract. Только для версии Tesseract 3.
-   * [**Клик текста мышью**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_ocr/el_ocr_textclick) - производит клик мышью на указанном тексте.
    * [**Распознать текст**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_ocr/el_ocr_recog) - обрабатывает изображение на экране и извлекает из него текстовые данные. 
+   * [**Клик текста мышью**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_ocr/el_ocr_textclick) - производит клик мышью на указанном тексте.
 5. Добавлена функция принудительной синхронизации папки Outlook. Ее выполняет элемент [**Синхронизировать папку**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_outlook/el_outlook_sync). Использование компонента позволяет предотвратить ситуацию, когда при закрытии приложения Outlook письмо оказывается неотправленным.
 6. Появился элемент [**Выполнить скрипт VB**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_prog/el_invokevb), который вызывает и выполняет файл на языке VBScript.
 7. Значительно ускорено выполнение циклов **ForEach** и **ForEach для DataTable**. В том числе, если для циклов не установлено кеширование. 
