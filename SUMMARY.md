@@ -779,7 +779,7 @@
   * [Ручной запуск Робота с RPA-проектом](orchestrator/basics/robot-manual-start.md)
   * [Задания](orchestrator/basics/tasks/README.md)
     * [Аргументы проекта](orchestrator/basics/tasks/orch-args.md)
-    * [Расписания](orchestrator/basics/schedules.md)
+    * [Расписания](orchestrator/basics/tasks/schedules.md)
   * [Шаблоны развертывания](orchestrator/basics/templates.md)
   * [Ресурсы](orchestrator/basics/assets.md)
   * [Очереди обмена данными](orchestrator/basics/data-queues.md)
