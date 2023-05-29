@@ -7,7 +7,7 @@
    * [**Читать CSV**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_csv/el_readcsv) - сохраняет прочитанные данные в переменную DataTable для дальнейшего использования.
    * [**Добавить в CSV**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/t1/els_csv/el_appendcsv) - добавляет табличные данные в файл CSV после уже существующих.
    * [**Записать CSV**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_csv/el_writecsv) - перезаписывает данные в файле CSV.
-3. В NuGet добавлена библиотека [Primo.T1.OCR](https://www.nuget.org/packages/Primo.T1.OCR) для интеграции с инструментами OCR. Отличается от готовых OCR-элементов наличием профилей предобработки изображения. После установки пакета в Студии станет доступна папка **Т1-Интеграция** с подпапкой **OCR**, которая содержит элементы:
+3. В NuGet добавлена библиотека [Primo.T1.OCR](https://www.nuget.org/packages/Primo.T1.OCR) для интеграции с инструментами OCR. Отличается от готовых OCR-элементов наличием профилей предобработки изображения, что позволяет достичь лучших результатов распознавания. После установки пакета в Студии станет доступна папка **Т1-Интеграция** с подпапкой **OCR**, которая содержит элементы:
    * [**Microsoft OCR**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/t1/els_ocr/el_ocr_microsoft) - для подключения к ядру OCR Microsoft. Поддерживается только для Windows 10.
    * [**Tesseract OCR**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_ocr/el_ocr_tesseract) - для подключения к ядру OCR Tesseract. Поддерживается только для версии 3.
    * [**Распознать текст**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_ocr/el_ocr_recog) - обрабатывает изображение на экране и извлекает из него текстовые данные. 
