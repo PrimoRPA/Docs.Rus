@@ -9,7 +9,7 @@
    * [**Читать CSV**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_csv/el_readcsv) - читает файл CSV.
 3. В NuGet добавлена библиотека [Primo.T1.OCR](https://www.nuget.org/packages/Primo.T1.OCR) для интеграции с OCR. После установки пакета в Студии станет доступна папка **Т1-Интеграция** с подпапкой **OCR**. Она содержит элементы:
    * [**Microsoft OCR**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/t1/els_ocr/el_ocr_microsoft) - для подключения к ядру OCR Microsoft.
-   * [**Tesseract OCR**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_ocr/el_ocr_tesseract) - для подключения к ядру OCR Tesseract.
+   * [**Tesseract OCR**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_ocr/el_ocr_tesseract) - для подключения к ядру OCR Tesseract. Только для версии Tesseract 3.
    * [**Клик текста мышью**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_ocr/el_ocr_textclick) - кликает мышью указанный текст.
    * [**Распознать текст**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_ocr/el_ocr_recog) - распознает изображение методом OCR. 
 5. Добавлена функция принудительной синхронизации папки Outlook. Ее выполняет элемент [**Синхронизировать папку**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_outlook/el_outlook_sync). Использование компонента позволяет предотвратить ситуацию, когда при закрытии приложения Outlook письмо оказывается неотправленным.
