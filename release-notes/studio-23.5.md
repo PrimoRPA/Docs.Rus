@@ -3,10 +3,10 @@
 Примечания к выпуску Студии 23.5 описывают изменения для версии приложения, выпущенной в мае 2023 года.
 
 ## Новые функции 
-1. В NuGet добавлена библиотека [Primo.T1.CSV](https://www.nuget.org/packages/Primo.T1.Csv) для работы с большими табличными данными. После установки пакета в Студии станет доступна папка **Т1-Интеграция** с подпапкой **CSV**. Она содержит элементы:
-   * [**Добавить в CSV**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/t1/els_csv/el_appendcsv) - добавляет данные в файл CSV.
-   * [**Записать CSV**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_csv/el_writecsv) - записывает файл CSV.
-   * [**Читать CSV**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_csv/el_readcsv) - читает файл CSV.
+1. В NuGet добавлена библиотека [Primo.T1.CSV](https://www.nuget.org/packages/Primo.T1.Csv) для работы с большими табличными данными (свыше 1 048 576 строк). После установки пакета в Студии станет доступна папка **Т1-Интеграция** с подпапкой **CSV**. Она содержит элементы:
+   * [**Читать CSV**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_csv/el_readcsv) - сохраняет прочитанные данные в переменную DataTable для дальнейшего использования.
+   * [**Добавить в CSV**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/t1/els_csv/el_appendcsv) - добавляет табличные данные в файл CSV после уже существующих.
+   * [**Записать CSV**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_csv/el_writecsv) - перезаписывает данные в файле CSV.
 3. В NuGet добавлена библиотека [Primo.T1.OCR](https://www.nuget.org/packages/Primo.T1.OCR) для интеграции с OCR. После установки пакета в Студии станет доступна папка **Т1-Интеграция** с подпапкой **OCR**. Она содержит элементы:
    * [**Microsoft OCR**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/t1/els_ocr/el_ocr_microsoft) - для подключения к ядру OCR Microsoft.
    * [**Tesseract OCR**](https://docs.primo-rpa.ru/g_elements/el_extra/t1/els_ocr/el_ocr_tesseract) - для подключения к ядру OCR Tesseract. Только для версии Tesseract 3.
