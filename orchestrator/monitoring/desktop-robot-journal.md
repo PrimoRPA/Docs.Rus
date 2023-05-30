@@ -3,6 +3,6 @@
 
 ![](<../../.gitbook/assets/desktop-robot-journal-1.png>)
 
-Форма по структуре аналогична [журналу оркестраторного робота](https://docs.primo-rpa.ru/primo-rpa/orchestrator/monitoring/robot-log), только на ней отображаются клиентские роботы и их операции. Клиентский робот идентифицируется в Оркестраторе по идентификатору задачи в Primo Robot Runner:
+Форма по структуре аналогична [Журналу оркестраторного робота](https://docs.primo-rpa.ru/primo-rpa/orchestrator/monitoring/robot-log), только на ней отображаются клиентские роботы и их операции. Клиентский робот идентифицируется в Оркестраторе по идентификатору задачи в Primo Robot Runner:
 
 ![](<../../.gitbook/assets/desktop-robot-journal-2.png>)
