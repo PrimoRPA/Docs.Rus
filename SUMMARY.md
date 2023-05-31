@@ -468,7 +468,7 @@
     * [JavaScript](g\_elements/el\_basic/els\_prog/el\_prog\_js.md)
     * [Power Shell](g\_elements/el\_basic/els\_prog/el\_prog\_powershell.md)
     * [Python Script](g\_elements/el\_basic/els\_prog/el\_prog\_python.md)
-    * [Выполнить скрипт VB](g\_elements/el\_basic/els\_prog/el\_prog\_invokevb.md)
+    * [Выполнить скрипт VB](g\_elements/el\_basic/els\_prog/el\_invokevb.md)
     * [Вызов метода](g\_elements/el\_basic/els\_prog/el\_invoke.md)
     * [Командная строка](g\_elements/el\_basic/els\_prog/el\_prog\_cmd.md)
   * [Работа с UI](g\_elements/el\_basic/els\_uiinteraction/README.md)
