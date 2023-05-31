@@ -34,9 +34,6 @@
 22. **rabbitmq-linux.zip**.	То же, что и выше, но для Linux.
 23. **Agent.zip**. Agent.
 24. **Agent-linux.zip**. Agent для Linux.
-25. **Primo.Robot.x64.zip**. Дистрибутив Робота x64 (не работает с SAP) для последующей публикации в Оркестраторе.
-26. **Primo.Robot.x86.zip**. Дистрибутив Робота x86 для публикации в Оркестраторе.
-27. **Primo.Robot.x64-linux.zip**. Дистрибутив Робота x64 под Linux (ограниченные возможности работы с UI) для публикации в Оркестраторе.
 28. **PowerShell-7.1.3-win-x64.msi**. PowerShell 7.1.3.
 29. **PrimoWorker.ps1**. PowerShell-скрипт для автоматизации настройки машины Робота и развертывания Агента.
 30. **ChromeStandaloneSetup64.exe**. Браузер Google Chrome.
