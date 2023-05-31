@@ -5,7 +5,7 @@
   * [Студия 23.5](release-notes/studio-23.5.md)
   * [Оркестратор 23.5](release-notes/orch-23.5.md)
   * [Предыдущие версии Студии](release-notes/studio/README.md)
-    * [Версия 23.4](release-notes/23.4.md)
+    * [Версия 23.4](release-notes/studio/23.4.md)
     * [Версия 23.2](release-notes/studio/23.2.md)
     * [Версия 23.1](release-notes/studio/23.1.md)
     * [Версия 1.1.30](release-notes/studio/1.1.30.md)
