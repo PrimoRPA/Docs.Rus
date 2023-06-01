@@ -2,7 +2,7 @@
 
 Элемент подключается к серверу Active Directory.
 
-![](<../../../../.gitbook/assets/ad-scope.png>)
+![](<../../../.gitbook/assets/ad-scope.png>)
 
 # Свойства
 Описание общих свойств элемента см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
