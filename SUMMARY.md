@@ -800,6 +800,7 @@
   * [Приложение 1 - Стадии развертывания робота](orchestrator/appendix/appendix1.md)
   * [Приложение 2 - Стадии запуска робота](orchestrator/appendix/appendix2.md)
   * [Приложение 3 - События Оркестратора](orchestrator/appendix/appendix3.md)
+* [Безопасность](orchestrator/security.md)
 
 ## Разработчикам <a href="#developers" id="developers"></a>
 
