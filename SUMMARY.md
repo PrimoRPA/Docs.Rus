@@ -766,7 +766,7 @@
     * [Устаревшие лицензии](orchestrator/settings/licensing/outdated.md)
   * [Загрузка дистрибутивов Робота](orchestrator/settings/upload-robot.md)
   * [Регистрация машины Робота](orchestrator/settings/register-robot.md)
-  * [Регистрация агентов для RDP-сессий на машине Робота](orchestrator/settings/register-rdp.md)
+  * [Регистрация RDP-пользователей на машине Робота](orchestrator/settings/register-rdp-users.md)
   * [Управление пользователями](orchestrator/settings/users/README.md)
     * [Роли пользователей](orchestrator/settings/users/roles.md)
     * [Пользователи Оркестратора](orchestrator/settings/users/orch-users.md)
