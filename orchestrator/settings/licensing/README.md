@@ -11,7 +11,7 @@
 | Orchestrator                | orchestrator | Лицензия, необходимая для работы Оркестратора |
 | Robot (Enterprise)          | robot        | Робот Оркестратора (Unattended-Робот)         |
 | Robot (Desktop)             | robot_desktop | Робот, работающий без Оркестратора (Attended-Робот). Если эту лицензию использует оркестраторный Робот – для него не обеспечивается автоматическая поддержка RDP-сессий для RDP-пользователей машины робота |
-| Studio                      | studio | Для управления [оркестраторными лицензиями](https://docs.primo-rpa.ru/primo-rpa/primo-studio/installation/licenses) Студий (для локальных лицензий Оркестратор не нужен) |   
+| Studio                      | studio | Для Студий, использующих [оркестраторную лицензию](https://docs.primo-rpa.ru/primo-rpa/primo-studio/installation/licenses) Студий (для локальных лицензий Оркестратор не нужен) |   
 
 **Примечания:**
 
