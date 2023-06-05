@@ -20,7 +20,7 @@
 | Items[].IncomingEmail | То же что и параметр `IncomingEmail`, только для недефолного тенанта |   |
 | Items[].Agent  | То же что и параметр `Agent`, только для недефолного тенанта    | За счет этой настройки можно на одной машине робота развернуть несколько агентов для разных тенантов. Каждый агент будет слушать входящие запросы на своем порту  |
 | IncomingEmail.UserName  | Пользователь – полное имя почтового ящика. Например, primo.rpa@mail.ru   |   |
-| IncomingEmail.Password  | Пароль к почтовому ящику   | Пароль шифруется при помощи программы LTools.Orchestrator.PasswordEncriptor.exe (входит в поставку)  |
+| IncomingEmail.Password  | Пароль к почтовому ящику   | Пароль шифруется при помощи программы LTools.Orchestrator.PasswordEncryptor.exe (входит в поставку)  |
 | IncomingEmail.Pop3  | Адрес Pop3-сервера. Например, pop.mail.ru   | Если используется Imap, то не заполняется  |
 | IncomingEmail.Pop3Port  | Порт Pop3-сервера. Например, 995   | Если используется Imap, то не заполняется  |
 | IncomingEmail.RequireAuthenticate  | Определяет, требуется ли аутентификация |   |
