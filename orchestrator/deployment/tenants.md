@@ -25,7 +25,7 @@
 | IncomingEmail.Pop3Port  | Порт Pop3-сервера. Например, 995   | Если используется Imap, то не заполняется  |
 | IncomingEmail.RequireAuthenticate  | Определяет, требуется ли аутентификация |   |
 | IncomingEmail.UseSsl  | Используется ли SSL/TLS/STARTTLS   |   |
-| IncomingEmail. UseStandartNotSSLPort  | Используется [стандартный порт](https://github.com/jstedfast/MailKit/blob/master/FAQ.md#SslHandshakeException ). В этом случае игнорируется флаг UseSsl   |   |
+| IncomingEmail. UseStandartNotSSLPort  | Используется [стандартный порт](https://github.com/jstedfast/MailKit/blob/master/FAQ.md#ssl-handshake-exception). В этом случае игнорируется флаг UseSsl   |   |
 | IncomingEmail.Imap  | Адрес Imap-сервера. Например, imap.mail.ru   | Если используется Pop3, то не заполняется  |
 | IncomingEmail.ImapPort  | Порт Imap-сервера. Например, 993   |  Если используется Pop3, то не заполняется  |
 | IncomingEmail.ImapFolder  | Папка с письмами. Например, INBOX   |  Если используется Pop3, то не заполняется  |
