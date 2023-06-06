@@ -103,7 +103,7 @@
 | ------  | ---------------- | ------- | ----- |
 | WebApi  |  +               |         | +     |
 | Front   |                  | \* (консольное приложение в автозагрузке)| + |
-| RobotLogs |                |         |       |
+| RobotLogs | +              |         |       |
 | MachineInfo |  +           |         |       |
 | LogEventsWebhook | +       |         |       |
 | NuGet   |  +               |         |       |
@@ -118,7 +118,7 @@
 | ------  | ---------------- | ------- | ----- |
 | WebApi  |  +               |         |       |
 | Front   |  +               | +       |       |
-| RobotLogs |                |         |       |
+| RobotLogs | +              |         |       |
 | MachineInfo |  +           |         |       |
 | LogEventsWebhook | +       |         |       |
 | NuGet   |  +               |         |       |
