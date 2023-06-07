@@ -38,9 +38,7 @@
    * **postgresql-13-linux.zip** - под Linux. 
    * **pg_ms.sh** - для кластера Postgres под Linux.
    * **pg_cron_13-1.3.0-1.rhel8.x86_64.rpm** - расширение PostgreSQL для выполнения заданий по расписанию для Linux.
-
-
-18. **MSSQL.exe**. MS SQL SERVER 2019, MSSMS. Включает скрипты начальной настройки БД ltoolslicense.
+1. **MSSQL.exe** - MS SQL SERVER 2019, MSSMS. Включает скрипты начальной настройки БД ltoolslicense.
 
 
 19. **timescaledb-postgresql-13_2.4.1-windows-amd64.zip.** TimescaleDB.
@@ -53,10 +51,13 @@
 
 30. **ChromeStandaloneSetup64.exe**. Браузер Google Chrome.
 31. **PasswordEncryptor.zip**. Программа для шифрования паролей в конфигурационных файлах.
-32. **grafana-8.0.6.windows-amd64.msi**. Внешняя аналитическая система Grafana. Не является компонентом Оркестратора.
-33. **Роботы-1627543691525.json**. Пример отчета в Grafana.
-34. **v_AllWorked-postgres.sql**.	View в БД для примера отчета в Grafana. Примечание: PostgreSQL.
-35. **v_AllWorked-mssql.sql**. View в БД для примера отчета в Grafana. Примечание:	MS SQL Server.
+1. Grafana:
+   * **grafana-8.0.6.windows-amd64.msi**. Внешняя аналитическая система Grafana. Не является компонентом Оркестратора.
+   * **Роботы-1627543691525.json**. Пример отчета в Grafana.
+   * **v_AllWorked-postgres.sql**.	View в БД для примера отчета в Grafana. Примечание: PostgreSQL.
+   * **v_AllWorked-mssql.sql**. View в БД для примера отчета в Grafana. Примечание:	MS SQL Server.
+
+
 36. **dotnet31-sdk-linux.zip**. Пакеты `dotnet-sdk-3.1`, `aspnetcore-runtime-3.1`.
 37. **syncthing-linux-amd64-v1.18.2.tar.gz**. Программа синхронизации папок с дистрибутивами робота и дампами журнала.
 38. **syncthing.service**. Программа синхронизации папок с дистрибутивами робота и дампами журнала.
