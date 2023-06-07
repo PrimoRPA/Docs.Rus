@@ -1,7 +1,7 @@
 # Комплект поставки
 
 Полный комплект поставки весит ~ 3,5 Гб и содержит: 
-* 56 файлов дистрибутивов (папка `Distr` с подпапками `Windows` и `Linux`);
+* 55 файлов дистрибутивов (папка `Distr` с подпапками `Windows` и `Linux`);
 * 54 файла документации (папка `Docs`). 
 
 С версии 23.5 дистрибутивы роботов больше не входят в комплект поставки и распространяются отдельно. Оркестраторные роботы имеют название `Primo.Robot.<архитектура>.Orchestrator.<версия>.zip`.
@@ -11,32 +11,46 @@
 
 > \* *Может меняться в зависимости от конкретной поставки.*
 
-1. **WebApi.zip**. WebApi - для развертывания как службы Windows.
-2. **WebApi-IIS.zip**. WebApi - для развертывания под IIS.
-3. **WebApi-linux.zip**. WebApi - включает файл службы.
-4. **States.zip.** States. Включает файл службы.
-5. **States-linux.zip**. То же, что и выше, но для Linux.
-6. **Notifications.zip**.	Notifications. Включает файл службы.
-7. **Notifications-linux.zip**.	То же, что и выше, но для Linux.
-8. **nginx-1.21.1.zip**. Включает конфигурационный файл Nginx (`nginx.conf`) и файлы самоподписанного SSL-сертификата для HTTPS (`cert1.crt`, `cert1.rsa`).
-9. **nginx-linux.zip**. То же, что и выше, но для Linux.
-10. **UI.zip**. Файлы UI Оркестратора в браузере, SPA.
+1. WebApi - REST веб-API -.NET Core 3.1-приложение:
+   * **WebApi.zip** - для развертывания как службы Windows.
+   * **WebApi-IIS.zip** - для развертывания под IIS.
+   * **WebApi-linux.zip** - под Linux. Включает файл службы. 
+1. States - служба вычисления системных состояний.
+   * **States.zip** - под Windows. Включает файл службы.
+   * **States-linux.zip** - под Linux.
+1. Notifications - служба нотификаций на email:
+   * **Notifications.zip** - под Windows. Включает файл службы.
+   * **Notifications-linux.zip** - под Linux.
+1. Nginx - веб-сервер:
+   * **nginx-1.21.1.zip** - под Windows. Включает конфигурационный файл Nginx (`nginx.conf`) и файлы самоподписанного SSL-сертификата для HTTPS (`cert1.crt`, `cert1.rsa`).
+   * **nginx-linux.zip** - под Linux.
+1. UI:
+   * **UI.zip**. Файлы UI Оркестратора в браузере, SPA.
+   * **web.config**. Должен использоваться при развертывании UI под IIS.
+
 11. **aspnetcore-runtime-3.1.15-win-x64.exe**. Для хостинга Core-приложения под IIS.
 12. **dotnet-hosting-3.1.15-win.exe**. Для хостинга Core-приложения под IIS.
 13. **rewrite_amd64_en-US.msi**. Модули IIS, обеспечивающие функциональность реверс-прокси.
 14. **requestRouter_amd64.msi**. Модули IIS, обеспечивающие функциональность реверс-прокси.
-15. **postgresql-13.4-1-windows.zip**. PostgreSQL. Включает скрипты начальной настройки БД ltoolslicense (в зависимости от поставки может не включать дистрибутив PostgreSQL - пакеты или установочные файлы).
-16. **postgresql-13-linux.zip**. PostgreSQL для Linux. 
-17. **pg_ms.sh**. Для кластера Postgres под Linux.
+
+1. PostgreSQL:
+   * **postgresql-13.4-1-windows.zip**. PostgreSQL. Включает скрипты начальной настройки БД ltoolslicense (в зависимости от поставки может не включать дистрибутив PostgreSQL - пакеты или установочные файлы).
+   * **postgresql-13-linux.zip** - под Linux. 
+   * **pg_ms.sh** - для кластера Postgres под Linux.
+   * **pg_cron_13-1.3.0-1.rhel8.x86_64.rpm** - расширение PostgreSQL для выполнения заданий по расписанию для Linux.
+
+
 18. **MSSQL.exe**. MS SQL SERVER 2019, MSSMS. Включает скрипты начальной настройки БД ltoolslicense.
+
+
 19. **timescaledb-postgresql-13_2.4.1-windows-amd64.zip.** TimescaleDB.
 20. **timescaledb-postgresql-13-linux.zip.** TimescaleDB для Linux.
-21. **rabbitmq.zip**. RabbitMQ server. Включает Erlang.
-22. **rabbitmq-linux.zip**.	То же, что и выше, но для Linux.
-23. **Agent.zip**. Agent.
-24. **Agent-linux.zip**. Agent для Linux.
-28. **PowerShell-7.1.3-win-x64.msi**. PowerShell 7.1.3.
-29. **PrimoWorker.ps1**. PowerShell-скрипт для автоматизации настройки машины Робота и развертывания Агента.
+
+1. RabbitMQ - брокер очередей сообщений:
+   * **rabbitmq.zip**. RabbitMQ server. Включает Erlang.
+   * **rabbitmq-linux.zip**.	То же, что и выше, но для Linux.
+
+
 30. **ChromeStandaloneSetup64.exe**. Браузер Google Chrome.
 31. **PasswordEncryptor.zip**. Программа для шифрования паролей в конфигурационных файлах.
 32. **grafana-8.0.6.windows-amd64.msi**. Внешняя аналитическая система Grafana. Не является компонентом Оркестратора.
@@ -49,15 +63,17 @@
 39. **syncthing-windows-amd64-v1.18.2.zip**. Программа синхронизации папок с дистрибутивами робота и дампами журнала.
 40. **RDP-Disconnector.xml**. Windows Task для восстановления сеанса после отключения RDP. Используется вместе с файлом `restore_console.bat`.
 41. **restore_console.bat**. Скрипт для перенаправления RDP-сессии в консоль. Используется вместе с файлом выше.
-42. **web.config**. Должен использоваться при развертывании UI под IIS.
-43. **RDP.zip**. Программа (приложение с графическим UI) поддержки активных RDP-сессий. Только для Windows. Исключена из поставки 09.12.2022.
-44. **MachineInfo.zip**. Служба определения параметров оборудования для работы лицензий.
-45. **MachineInfo-linux.zip**. См. выше.
-46. **LogEventsWebhook.zip**.	Служба Webhooks на события Оркестратора.
-47. **LogEventsWebhook-linux.zip**. См. выше.
+
+
+1. MachineInfo - служба определения параметров оборудования для работы с лицензиями.
+   * **MachineInfo.zip** - под Windows.
+   * **MachineInfo-linux.zip** - под Linux.
+1. LogEventsWebhook - служба интеграции логов (события Оркестратора) посредством веб-хуков.
+   * **LogEventsWebhook.zip** - под Windows.
+   * **LogEventsWebhook-linux.zip** - под Linux.
+
 48. **haproxy.zip**. HAProxy. Только для Linux. Включает конфигурационный файл, файлы сертификата.
-49. **pg_cron_13-1.3.0-1.rhel8.x86_64.rpm**. Расширение PostgreSQL для выполнения заданий по расписанию для Linux.
-50. **AgentInstaller.zip**. Инсталлятор для машины робота. Включает автоматическую регистрацию машины робота в Оркестраторе.
+
 51. **RDP2.7.zip**. Служба поддержки активных RDP-сессий.
 52. **RDP2-Astra.zip**. См. выше.
 53. **RDP2-CentOS.zip**. См. выше.
@@ -65,10 +81,18 @@
 55. **RobotLogs-linux.zip**. См. выше.
 56. **scr2.ps1**. Скрипт открытия теневой RDP-сессии.
 57. **logstash.7z**. Утилита Logstash.
-58. **NuGet2.zip**. Локальный NuGet-сервер под Windows.
-59. **NuGet2-linux.zip**. Локальный NuGet-сервер под Linux.
 
-Итоговый вес файлов дистрибутивов -	3,5 Гб. 
+1. NuGet - локальный NuGet-сервер:
+   * **NuGet2.zip** - под Windows.
+   * **NuGet2-linux.zip** - под Linux.
+
+Роботы:
+1. **Agent.zip** - веб-приложение для управления Роботом и машиной Робота. Дистрибутив под Windows.
+1. **Agent-linux.zip** - под Linux.
+1. **AgentInstaller.zip**. Инсталлятор для машины Робота. Включает автоматическую регистрацию машины Робота в Оркестраторе. (под обе ОС? допом к агент-зипу?)
+1. **PowerShell-7.1.3-win-x64.msi**. PowerShell 7.1.3.
+1. **PrimoWorker.ps1**. PowerShell-скрипт для автоматизации настройки машины Робота и развертывания Агента.
+
 
 Размер каждого файла приведен в руководстве «Развертывание Primo RPA 23.x - Руководство администратора.docx» (входит в поставку). Точный размер файла также можно просмотреть в его свойствах. Размер на диске может оказаться на единицу больше.
 
@@ -103,7 +127,7 @@
 | ------  | ---------------- | ------- | ----- |
 | WebApi  |  +               |         | +     |
 | Front   |                  | \* (консольное приложение в автозагрузке)| + |
-| RobotLogs |                |         |       |
+| RobotLogs | +              |         |       |
 | MachineInfo |  +           |         |       |
 | LogEventsWebhook | +       |         |       |
 | NuGet   |  +               |         |       |
@@ -118,7 +142,7 @@
 | ------  | ---------------- | ------- | ----- |
 | WebApi  |  +               |         |       |
 | Front   |  +               | +       |       |
-| RobotLogs |                |         |       |
+| RobotLogs | +              |         |       |
 | MachineInfo |  +           |         |       |
 | LogEventsWebhook | +       |         |       |
 | NuGet   |  +               |         |       |
