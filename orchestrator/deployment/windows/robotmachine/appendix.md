@@ -32,7 +32,9 @@
 
 ![](<../../../../.gitbook/assets/robot-machine-without-istaller-4.png>)
 
-Редактируем конфигурационный файл `C:\Primo\Agent\appsettings.ProdWin.json` – указываем IP-адрес Оркестратора, TenantId Агента и пользователя из тенанта. Для дефолтного тенанта null.
+Редактируем конфигурационный файл `C:\Primo\Agent\appsettings.ProdWin.json` – указываем IP-адрес Оркестратора, TenantId Агента и пользователя из тенанта\*. Для дефолтного тенанта null.
+
+\* *Встроенная учетная запись agent из тенанта по умолчанию. Для шифрования пароля используется программа шифрования паролей PasswordEncryptor.zip из комплекта поставки Оркестратора.*
 
 ![](<../../../../.gitbook/assets/robot-machine-without-istaller-5.png>)
 
