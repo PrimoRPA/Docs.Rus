@@ -1,4 +1,4 @@
-# Установка агента Оркестратора
+# Установка Агента Оркестратора
 
 Для установки агента выполните следующие шаги:
 
@@ -7,11 +7,11 @@
    
        # cp -R  /srv/samba/shared/install/Agent-linux /opt/Primo/Agent
 
-2. **Создайте службу.** Перейдите в каталог `/opt/Primo/Agent`:
+2. **Создайте службу,** для этого перейдите в каталог `/opt/Primo/Agent`:
 
        # cd /opt/Primo/Agent
 
-3. **Скопируйте файл службы (идет с комплектом поставки) в /etc/systemd/system:**
+3. **И скопируйте файл службы (идет с комплектом поставки) в /etc/systemd/system:**
 
        # cp Primo.Orchestrator.Agent.service /etc/systemd/system/Primo.Orchestrator.Agent.service
        # systemctl daemon-reload
@@ -25,9 +25,9 @@
        # chmod -R 777 /opt/Primo/Agent/Primo.Orchestrator.Agent
        # chmod -R 777 /opt/Primo/Agent/BashScripts
 
-6. В конфигурационном файле службы appsettings.WorkerLinux.json **пропишите адрес Оркестратора и TenantId** (если эта машина не в тенанте по умолчанию), **а также пользователя из тенанта:**
+6. В конфигурационном файле службы `appsettings.ProdLinux.json` **пропишите адрес Оркестратора и TenantId** (если эта машина не в тенанте по умолчанию), **а также пользователя тенанта** (встроенная учетная запись agent из тенанта по умолчанию):
 
-![](<../../../.gitbook/assets/Конфиг службы appsettings.WorkerLinux.json.png>)
+![](<../../../../.gitbook/assets/config-agent-centos.png>)
     
 7. **Запустите службу:**
 
@@ -41,6 +41,8 @@
 
        # firewall-cmd --zone=public --add-port=5002/tcp --permanent
        # firewall-cmd --reload
+       
+       # journalctl -u Primo.Orchestrator.Agent
 
 ---
 
