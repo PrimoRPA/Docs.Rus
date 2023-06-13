@@ -10,7 +10,7 @@
 
 | Шаг                           | Примечание     |
 | ----------------------------- | -------------- |
-| 1. Предварительная настройка  |                |
+| 1. Предварительная настройка машины Оркестратора | 1. См. [Предварительная настройка машины Оркестратора под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/windows/presetting-orch-machine)<p>2. См. [Предварительная настройка машины Оркестратора под CentOS 8](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/linux/presetting-orch-machine)</p> Либо одноименные руководства в формате \*.docx из комплекта поставки |
 | 2. Установка PostgreSQL (+pgbouncer) или MS SQL SERVER | Может включать  первоначальную настройку БД ltoolslicense\*. Может включать настройку очистки журналов Робота и Оркестратора |
 | 3. Установка RabbitMQ     | Если установлен ранее, требуется удалить все очереди. Может быть установлен для соединения по SSL (см. «Руководство по настройке работы сервисов оркестратора с RabbitMQ через SSL.docx», входит в комплект поставки) |
 | 4. Установка WebApi и MachineInfo\*\* | Включает описанное ниже шифрование паролей в конфигурационных файлах. При установке на Linux chmod назначить в соответствии с «Руководством по предварительной настройке машины Оркестратора под CentOS 8.docx» (входит в комплект поставки) |
@@ -27,10 +27,17 @@
 Изначально можно пропустить шаги 5–7 и выполнить установку этих компонентов позже. Другие шаги не могут быть пропущены.\
 Установка LogEventsWebhook может быть произведена позже, когда будет разработан и развернут интеграционный шлюз Заказчика (см. [Интеграция с внешними системами](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/integration)). 
 
+Руководства по установке всех перечисленных компонентов входят в комплект поставки Оркестратора.
+
 ## **Установка Робота** 
 После установки Оркестратора переходите к установке Робота:
-1. Сначала настройте машину Робота.
-2. Затем установите Agent на машине Робота.
+1. Сначала настройте машину Робота:
+   * См. [Настройка машины Робота под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/windows/robotmachine);
+   * См. [Настройка машины Робота под CentOS 8](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/linux/robotmachine).
+2. Затем установите Agent на машине Робота:
+   * См. [Установка Агента Оркестратора из инсталлятора под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/windows/agentinstaller) 
+     * или [Установка Агента без инсталлятора под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/windows/appendix);
+   * См. [Установка Агента Оркестратора под CentOS 8](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/linux/agentinstall).
 
 
 
