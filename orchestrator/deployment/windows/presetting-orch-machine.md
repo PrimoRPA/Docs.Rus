@@ -31,7 +31,7 @@ grafana-8.0.6.windows-amd64.msi
 
 **Шаг 2. Установка PowerShell 7.1.3**
 
-Произведите установку PowerShell в соответствии с инструкцией «Руководство по установке PowerShell-7.1.3 под Windows.docx» из комплекта поставки. PowerShell будет использоваться далее при настройке Оркестратора.
+Произведите установку PowerShell в соответствии с инструкцией [Установка PowerShell-7.1.3 под Windows](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/windows/powershell-install). PowerShell будет использоваться далее при настройке Оркестратора.
 
 **Шаг 3. Установка браузера Google Chrome**
 
