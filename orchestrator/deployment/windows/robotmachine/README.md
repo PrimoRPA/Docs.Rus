@@ -60,7 +60,7 @@
 ## Установка Агента
 Установить Агента Оркестратора на машине Робота можно двумя способами:
 * [из инсталлятора `AgentInstaller.zip`](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/windows/robotmachine/agentinstaller) - это основной инструмент для настройки машины Робота;
-* [без использования инсталлятора](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/windows/robotmachine/appendix).
+* [без использования инсталлятора](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/windows/robotmachine/appendix) - альтернативный вариант на случай, если не получилось установить Агента через инсталлятор.
 
 
 
