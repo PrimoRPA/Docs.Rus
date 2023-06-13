@@ -762,7 +762,7 @@
     * [Установка PowerShell](orchestrator/deployment/windows/powershell-install.md)
     * [Настройка машины Робота](orchestrator/deployment/windows/robotmachine/README.md)
     * [Установка Агента Оркестратора из инсталлятора](orchestrator/deployment/windows/robotmachine/agentinstaller.md)
-    * [Установка Агента без инсталлятора](orchestrator/deployment/windows/robotmachine/appendix.md/)
+    * [Установка Агента без инсталлятора](orchestrator/deployment/windows/robotmachine/appendix.md)
   * [Linux](orchestrator/deployment/linux/README.md)
     * [Предварительная настройка машины Оркестратора](orchestrator/deployment/linux/presetting-orch-machine.md)
     * [Настройка машины Робота на CentOS 8](orchestrator/deployment/linux/robotmachine/README.md)
