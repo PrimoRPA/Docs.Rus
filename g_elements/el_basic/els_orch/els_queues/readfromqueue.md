@@ -16,7 +16,7 @@
 | Таймаут   | Int32  | Лимит времени операции (мс). Если по истечении лимита операция не выполнена, Робот закончит работу с ошибкой |
 | ***Вывод*** |     |    |
 | Результат | String | Переменная для хранения полученных данных |
-| Элемент    | [LTools.Enterprise.Model.QueueItem](https://github.com/ttalantseva/Docs.Rus/blob/main/g_elements/el_basic/els_orch/els_queues/datatypes.md) | Переменная для хранения элемента очереди в виде объекта | 
+| Элемент    | [LTools.Enterprise.Model.QueueItem](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_queues/datatypes) | Переменная для хранения элемента очереди в виде объекта | 
 | Таблица    | DataTable | Переменная для хранения полученных данных в виде таблицы | 
 
 
