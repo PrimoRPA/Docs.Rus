@@ -13,7 +13,7 @@
 | ID\*       | [Guid](https://docs.microsoft.com/ru-ru/dotnet/api/system.guid?view=net-6.0) | ID элемента очереди Оркестратора, переменная | item_id
 | Таймаут   | Int32  | Лимит времени операции (мс). Если по истечении лимита операция не выполнена, Робот закончит работу с ошибкой |
 | ***Вывод*** |   |   |
-| Элемент    | [LTools.Enterprise.Model.QueueItem](https://github.com/ttalantseva/Docs.Rus/blob/main/g_elements/el_basic/els_orch/els_queues/datatypes.md) | Переменная для хранения элемента очереди | item
+| Элемент    | [LTools.Enterprise.Model.QueueItem](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_queues/datatypes) | Переменная для хранения элемента очереди | item
 | Таблица    | DataTable | Переменная для хранения полученных данных | item_table
 | Результат  | String    | Переменная для хранения полученных данных | item_string
 
