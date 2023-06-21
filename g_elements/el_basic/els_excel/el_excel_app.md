@@ -39,10 +39,13 @@
 
 Если запуск Робота с правами администратора не приводит к загрузке надстроек, то, вероятно, происходит вмешательство центра безопасности MS Office. Например, источник файла (файла надстройки?) расценивается им как неблагоприятный. В этом случае следует [правильным образом сконфигурировать MS Office](https://support.microsoft.com/ru-ru/office/%D0%B2%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B8-%D0%BE%D1%82%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D0%B0%D1%80%D0%B0%D0%BC%D0%B5%D1%82%D1%80%D0%BE%D0%B2-%D1%8D%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2-activex-%D0%B2-%D1%84%D0%B0%D0%B9%D0%BB%D0%B0%D1%85-office-f1303e08-a3f8-41c5-a17e-b0b8898743ed#:~:text=%D0%9E%D1%82%D0%BA%D1%80%D0%BE%D0%B9%D1%82%D0%B5%20%D0%B2%D0%BA%D0%BB%D0%B0%D0%B4%D0%BA%D1%83%20%D0%A4%D0%B0%D0%B9%D0%BB.%2c%D0%A4%D0%B0%D0%B9%D0%BB%20%D1%81%D1%82%D0%B0%D0%BD%D0%B5%D1%82%20%D0%BD%D0%B0%D0%B4%D0%B5%D0%B6%D0%BD%D1%8B%D0%BC%20%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%BC): необходимо, чтобы при вызове по ярлыку (Пуск > Программы > Excel) приложение загружало требуемые надстройки без ограничений от центра безопасности. Тогда и Еxcel, запущенный через контейнер **Приложение Excel** (Interop), загрузит нужные надстройки.
 
-Запуск Excel из [командной строки](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_prog/el_prog_cmd) обычным образом не загружает все надстройки, поэтому меню и функциональность могут отличаться. Чтобы этого не происходило, команда запуска** должна включать дополнительный ключ `/x`:
+Запуск Excel из [командной строки](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_prog/el_prog_cmd) обычным образом не загружает все надстройки, поэтому меню и функциональность могут отличаться. Чтобы этого не происходило, команда запуска должна включать дополнительный ключ `/x`:
 
+> *"/x Starts a new instance (a separate process) of Excel."*
+
+Пример\**:
 ```
-/x - Starts Word from the operating system shell so that Word responds to only one Dynamic Data Exchange (DDE) request (for example, to print a document programmatically).
+"excel.exe /x "c:\My Folder\book1.xlsx""
 ```
 Если к командной строке добавить этот переключатель, то вид Еxcel, запущенный из командной строки, будет соответствовать внешнему виду приложения, запущенному через контейнер **Приложение Excel** (Interop).
 Подробнее про особенности командной строки можно прочитать [здесь](https://support.microsoft.com/en-us/office/command-line-switches-for-microsoft-office-products-079164cd-4ef5-4178-b235-441737deb3a6).
