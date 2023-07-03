@@ -2,7 +2,7 @@
 
 ![](<../../../.gitbook/assets/image (385).png>)
 
-Получает указатель на UI-элемент Закладки.
+Получает указатель на UI-элемент «закладки».
 
 ## Свойства
 Описание общих свойств элемента см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
