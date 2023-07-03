@@ -2,7 +2,7 @@
 
 ![](<../../../.gitbook/assets/image (400).png>)
 
-Элемент, получающий указатель на UI-элемент Радио-кнопка.
+Получает указатель на UI-элемент Радио-кнопка.
 
 ## Свойства
 Описание общих свойств элемента см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
