@@ -2,7 +2,7 @@
 
 ![](<../../../.gitbook/assets/image (430).png>)
 
-Получает указатель на UI-элемент комбо-бокс.
+Получает указатель на UI-элемент «комбо-бокс».
 
 ## Свойства
 Описание общих свойств элемента см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
