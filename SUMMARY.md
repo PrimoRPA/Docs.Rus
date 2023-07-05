@@ -476,6 +476,7 @@
   * [Работа с UI](g\_elements/el\_basic/els\_uiinteraction/README.md)
     * [Типы данных](g\_elements/el\_basic/els\_uiinteraction/datatypes/README.md)
       * [UIControl](g\_elements/el\_basic/els\_uiinteraction/datatypes/uicontrol.md)
+      * [TextBlock](g\_elements/el\_basic/els\_uiinteraction/datatypes/textblock.md) 
     * [Ввод текста](g\_elements/el\_basic/els\_uiinteraction/el\_inputtext.md)
     * [Выбор значения](g\_elements/el\_basic/els\_uiinteraction/el\_selectitem.md)
     * [Выбрать элемент](g\_elements/el\_basic/els\_uiinteraction/el\_checked.md)
