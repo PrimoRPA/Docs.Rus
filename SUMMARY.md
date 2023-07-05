@@ -131,7 +131,7 @@
     * [Yandex Vision OCR](g\_elements/el\_basic/els\_ocr/el\_ocr\_yandexvision.md)
     * [Исчезновение изображения](g\_elements/el\_basic/els\_ocr/el\_image\_vanish.md)
     * [Клик изображения мышью](g\_elements/el\_basic/els\_ocr/el\_ocr\_click.md)
-    * [Клик текста мышью](g\_elements/el\_basic/els\_ocr/el\_ocr\_textclick.md)
+    * [Клик OCR-текста мышью](g\_elements/el\_basic/els\_ocr/el\_ocr\_textclick.md)
     * [Поиск изображения](g\_elements/el\_basic/els\_ocr/el\_ocr\_find.md)
     * [Проверить документ](g\_elements/el\_basic/els\_ocr/el\_ocr\_verify.md)
     * [Распознать текст](g\_elements/el\_basic/els\_ocr/el\_ocr\_recog.md)
