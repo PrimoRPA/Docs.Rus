@@ -19,8 +19,8 @@
 | Кнопка клавиатуры    | -                                    | При необходимости выберите клавишу клавиатуры. По умолчанию `NONE` - ни одна из клавиш. Чтобы выбрать другое значение, щелкните выпадающий список |
 | Шаблон поиска        | String                               | [Шаблон поиска](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/searchpatterns) элемента управления (JSON)            |
 | Элемент              | [LTools.UIInteraction.Model.UIControl](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_uiinteraction/tipy-dannykh/uicontrol) | Переменная, которая содержит ссылку на элемент управления |
-| Координаты           | [System.Drawing.Point](https://learn.microsoft.com/ru-RU/dotnet/api/system.drawing.point?view=net-6.0&viewFallbackFrom=windowsdesktop-3.1) | Координаты клика курсора |
 | Область              | [System.Drawing.Rectangle](https://learn.microsoft.com/ru-ru/dotnet/api/system.drawing.rectangle?view=netcore-3.0) | Область поиска компонента |
+| Координаты           | [System.Drawing.Point](https://learn.microsoft.com/ru-RU/dotnet/api/system.drawing.point?view=net-6.0&viewFallbackFrom=windowsdesktop-3.1) | Координаты клика курсора |
 | Корректировка        | Boolean                              | Определите, нужно ли использовать корректировку координат |
 | Корректировка по X   | Int32                                | При установленном параметре **Корректировка**. Укажите корректировку по оси X |
 | Корректировка по Y   | Int32                                | При установленном параметре **Корректировка**. Укажите корректировку по оси Y |
