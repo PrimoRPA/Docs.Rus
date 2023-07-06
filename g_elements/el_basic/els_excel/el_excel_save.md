@@ -4,7 +4,7 @@
 
 ![](<../../../.gitbook/assets/image (283).png>)
 
-Элемент сохраняет состояние файла Excel. 
+Элемент сохраняет текущее состояние файла Excel. 
 
 ### Свойства
 Описание общих свойств элемента см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
