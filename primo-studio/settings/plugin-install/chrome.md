@@ -26,7 +26,8 @@
 
  ![](../../../.gitbook/assets/chrome-extensions.png)
 
-7\. Проверьте, что в окне загрузки указан путь до сохраненных файлов расширения (п.4), и нажмите кнопку **Выбор папки**. Пример пути: `C:\Program Files\Primo\Primo Studio x64\Extensions\Chrome`:
+7\. Проверьте, что в окне загрузки указан путь до сохраненных файлов расширения (п.4), и нажмите кнопку **Выбор папки**.\
+ Пример пути: `C:\Program Files\Primo\Primo Studio x64\Extensions\Chrome`:
 
  ![](../../../.gitbook/assets/extensions-path-chrome.png)
 
