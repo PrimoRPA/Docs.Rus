@@ -1,7 +1,7 @@
 # TextBlock
 LTools.Desktop.Model.DesktopTextBlock - содержит блок полученного текста.
 
-**Важно**: все поля модели, кроме Text, для USP10 будут иметь в значениях `0`. Выбор библиотеки (GDI или USP10) осуществляется в свойстве элемента [Получить текст](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_uiinteraction/el_gettext).
+**Важно**: для библиотеки USP10 все поля, кроме Text, будут иметь значения `0`. Выбор библиотеки (GDI или USP10) осуществляется в свойстве элемента [Получить текст](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_uiinteraction/el_gettext).
 
 | Свойство    | Тип                                | Описание                  |
 | ----------- | ---------------------------------- | ------------------------- |
