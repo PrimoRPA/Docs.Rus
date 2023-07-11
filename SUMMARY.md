@@ -58,7 +58,7 @@
     * [Тестирование](primo-studio/process/debug/testing.md)
 * [Настройка Студии](primo-studio/settings/README.md)
   * [Мультисессионная работа](primo-studio/settings/multisession.md)
-  * [Nuget](primo-studio/settings/nuget.md)
+  * [NuGet](primo-studio/settings/nuget.md)
   * [Управление панелями](primo-studio/settings/layout.md)
   * [Установка расширений и плагинов](primo-studio/settings/plugin-install/README.md)
     * [Chrome](primo-studio/settings/plugin-install/chrome.md)
