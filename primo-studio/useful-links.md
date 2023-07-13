@@ -1,6 +1,6 @@
 # Полезные ресурсы
 
-1\. [Официальный сайт платформы Primo RPA](http://primo-rpa.ru) - кейсы, новости, запрос демо и Студии Community для ознакомления.
+1\. [Официальный сайт платформы Primo RPA](http://primo-rpa.ru) - кейсы, новости, запрос демо, запрос Студии Community для ознакомления с функционалом.
 
 2\. Академия Primo:
    * [видео на YouTube](https://www.youtube.com/channel/UCHc4loXmLSH1-l6PBGnz5ng);
