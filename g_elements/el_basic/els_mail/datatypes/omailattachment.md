@@ -1,10 +1,10 @@
 # OMailAttachment
 
-LTools.Office.Model.OMailAttachment
+LTools.Office.Model.OMailAttachment - модель описывает вложение электронной почты.
 
 | Свойство    | Тип     | Описание         |
 | ----------- | ------- | ---------------- |
-| FileName    | String  | Имя файла        |
-| DisplayName | String  | Отображаемое имя |
-| Data        | byte\[] | Содержимое       |
+| FileName    | String  | Имя файла вложения. При использовании элементов MS Exchange параметр `OMailAttachment.FileName` не всегда корректно отображает имя файла (может быть пустым). Поэтому вместо него рекомендуем использовать `.DisplayName`  |
+| DisplayName | String  | Отображаемое имя вложения |
+| Data        | byte\[] | Содержимое файла     |
 
