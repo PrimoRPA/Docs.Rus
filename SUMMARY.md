@@ -63,7 +63,6 @@
   * [Установка расширений и плагинов](primo-studio/settings/plugin-install/README.md)
     * [Chrome](primo-studio/settings/plugin-install/chrome.md)
     * [FireFox](primo-studio/settings/plugin-install/firefox.md)
-    * [Opera (Более недоступно)](primo-studio/settings/plugin-install/opera.md)
     * [Edge](primo-studio/settings/plugin-install/edge.md)
     * [Yandex](primo-studio/settings/plugin-install/yandex.md)
     * [RDP](primo-studio/settings/plugin-install/rdp.md)
