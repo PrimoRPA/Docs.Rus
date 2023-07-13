@@ -28,7 +28,6 @@
 * [Установка и запуск](primo-studio/installation/README.md)
   * [Запуск Primo Studio](primo-studio/installation/licenses.md)
 * [Начало работы](primo-studio/getting-started/README.md)
-  * [Начало работы (устаревший интерфейс)](primo-studio/getting-started/gettingstarted.md)
 * [Горячие клавиши](primo-studio/hotkeys.md)
 * [Работа с проектами](primo-studio/projects/README.md)
   * [Анализ проекта](primo-studio/projects/analyzer.md)
