@@ -41,18 +41,24 @@
 
 ## Запуск анализатора из консоли
 
-Для запуска анализатора из командной строки используются аргументы:
+Для запуска анализатора из командной строки используются параметры:
+
+1. rulepath=<путь к файлу правил>.
+2. projfile=<путь к проекту>.
+3. outputfile=<путь к файлу результатов>.
+4. errlog=<путь к файлу журнала>.
+5. noclose - не закрывать по завершении анализа.
+6. console - вывод в консоль.
+7. output=[json,xml,xlsx] - формат файла результата.
+8. lang=\<ru-RU\> - язык.
+
+Пример:
 
 ```
-rulepath=путь к файлу правил
-projfile=путь к проекту
-outputfile=путь к файлу результатов
-errlog=путь к файлу журнала
-noclose (не закрывать по завершении анализа)
-console (вывод в консоль)
-output=[json,xml,xlsx] (формат результата)
-lang=ru-RU (язык)
+Primo.ProjectAnalyzer.App.exe "rulepath=c:\Test\rules2.json" "projfile=C:\Users\Username\Documents\Primo\LibTest\project.ltp" noclose console "output=xlsx" "outputfile=c:\Test\aout.xlsx" "errlog=c:\Test\elog.txt" "lang=ru"
 ```
+
+
 
 ## Дополнительно
 
