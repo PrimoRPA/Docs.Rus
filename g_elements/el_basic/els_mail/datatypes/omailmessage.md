@@ -23,8 +23,8 @@ LTools.Office.Model.OMailMessage - модель письма.
 | Body        | String                                                          | Текст тела письма     |
 | HTMLBody    | Тип данных?                                                     | Текст тела письма в формате HTML (в чем разница с body? он всегда в html - баг или фича) |
 | MessageProperties | Какой тип данных? | Свойства письма.  |
-| Element     | [Microsoft.Exchange.WebServices.Data.EmailMessage](https://learn.microsoft.com/ru-ru/dotnet/api/microsoft.exchange.webservices.data.emailmessage?view=exchange-ews-api) | Класс, представляющий сообщение электронной почты. Свойства класса доступны для просмотра только при использовании элементов MS Exchange    |
-| Attachments | List<[LTools.Office.Model.OMailAttachment](omailattachment.md)> | Вложения             |
+| Element     | [Microsoft.Exchange.WebServices.Data.EmailMessage](https://learn.microsoft.com/ru-ru/dotnet/api/microsoft.exchange.webservices.data.emailmessage?view=exchange-ews-api) | Класс, представляющий сообщение электронной почты. Свойства класса доступны для просмотра только при использовании элементов MS Exchange (Мише: верно?)   |
+| Attachments | List<[LTools.Office.Model.OMailAttachment](omailattachment.md)> | Вложения письма            |
 
 
 ## Детализация
