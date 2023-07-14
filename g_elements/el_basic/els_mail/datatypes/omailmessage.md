@@ -36,7 +36,7 @@ LTools.Office.Model.OMailMessage - модель письма.
 
 2\. **MessageProperties** (только Outlook) обладает свойствами, представленными на рисунке ниже: 
 
-![](<../../../../.gitbook/assets/omail-message-properties.png>)
+![](<../../../../.gitbook/assets/omail-message-properties2.png>)
 
 | Свойство        | Тип        | Описание                     |
 | --------------- | ---------- | ---------------------------- |
