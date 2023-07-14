@@ -54,7 +54,11 @@ LTools.Office.Model.OMailMessage - модель письма.
 
 Пример получения отображаемого имени отправителя: `var_list_mails[0].MessageProperties.PR_SENDER_NAME`.
 
-3\. **Element** (только Exchange). Для того, чтобы получить значение свойств Element, требуется привести его к классу EmailMessage. Пример получения имени отправителя: `(var_list_mails[0].Element as Microsoft.Exchange.WebServices.Data.EmailMessage).Sender`. 
+3\. **Element** (только Exchange) обладает списком свойств класса [EmailMessage](https://learn.microsoft.com/ru-ru/dotnet/api/microsoft.exchange.webservices.data.emailmessage?view=exchange-ews-api): 
+
+![](<../../../../.gitbook/assets/omail-element.png>)
+
+**Внимание!** Для того, чтобы получить значение свойств Element, требуется привести его к классу EmailMessage. Пример получения имени отправителя: `(var_list_mails[0].Element as Microsoft.Exchange.WebServices.Data.EmailMessage).Sender`. 
 
 
 
