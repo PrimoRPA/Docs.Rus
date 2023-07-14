@@ -52,7 +52,9 @@ LTools.Office.Model.OMailMessage - модель письма.
 | PR_SENT_REPRESENTING_NAME          | String   | Отображаемое имя отправителя сообщения (в чем разница с PR_SENDER_NAME?). Подробнее см. [здесь](https://learn.microsoft.com/ru-ru/office/client-developer/outlook/mapi/pidtagsentrepresentingname-canonical-property) |
 | PR_TRANSPORT_MESSAGE_HEADERS       | String   | Сведения о конверте сообщений, относящихся к транспорту. Поставщик транспорта может создавать сведения о заголовке сообщения для входящих сообщений. Подробнее см. [здесь](https://learn.microsoft.com/ru-ru/office/client-developer/outlook/mapi/pidtagtransportmessageheaders-canonical-property)  |
 
-Пример получения отображаемого имени отправителя: `var_list_mails[0].MessageProperties.PR_SENDER_NAME`
+Пример получения отображаемого имени отправителя: `var_list_mails[0].MessageProperties.PR_SENDER_NAME`.
+
+3\. **Element** (только Exchange). Для того, чтобы получить значение свойств Element, требуется привести его к классу EmailMessage. Пример получения имени отправителя: `(var_list_mails[0].Element as Microsoft.Exchange.WebServices.Data.EmailMessage).Sender`. 
 
 
 
