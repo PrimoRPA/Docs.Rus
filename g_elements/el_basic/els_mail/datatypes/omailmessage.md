@@ -34,7 +34,7 @@ LTools.Office.Model.OMailMessage - модель письма.
 
 Пример вызова в редакторе одного из полей: `var_list_mails[0].CreateDate.Day`.
 
-2\. **MessageProperties** обладает свойствами, представленными на рисунке ниже: 
+2\. **MessageProperties** (только Outlook) обладает свойствами, представленными на рисунке ниже: 
 
 ![](<../../../../.gitbook/assets/omail-message-properties.png>)
 
@@ -52,7 +52,7 @@ LTools.Office.Model.OMailMessage - модель письма.
 | PR_SENT_REPRESENTING_NAME          | String   | Отображаемое имя отправителя сообщения (в чем разница с PR_SENDER_NAME?). Подробнее см. [здесь](https://learn.microsoft.com/ru-ru/office/client-developer/outlook/mapi/pidtagsentrepresentingname-canonical-property) |
 | PR_TRANSPORT_MESSAGE_HEADERS       | String   | Сведения о конверте сообщений, относящихся к транспорту. Поставщик транспорта может создавать сведения о заголовке сообщения для входящих сообщений. Подробнее см. [здесь](https://learn.microsoft.com/ru-ru/office/client-developer/outlook/mapi/pidtagtransportmessageheaders-canonical-property)  |
 
-
+Пример получения отображаемого имени отправителя в редакторе: `var_list_mails[0].MessageProperties.PR_SENDER_NAME`
 
 
 
