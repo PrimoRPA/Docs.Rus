@@ -16,12 +16,15 @@ LTools.Office.Model.OMailMessage - модель письма.
 | CreateDate  | [System.DateTime](https://learn.microsoft.com/ru-ru/dotnet/api/system.datetime?view=netframework-4.8) | Дата и время создания письма. Пример значения: `13.07.2023 18:21:25`  |
 | ReceiveDate | System.DateTime                                                 | Дата и время получения письма  |
 | Subject     | String                                                          | Тема письма      |
-| ConversationTopic |                                                           | Тема беседы               |
+| ConversationTopic |                                                           | Тема беседы (что за беседа?)              |
 | Body        | String                                                          | Текст тела письма     |
+| HTMLBody    | Тип данных?                                                     | Текст тела письма в формате HTML (в чем разница с body? он всегда в html - баг или фича) |
 | Element     | [Microsoft.Exchange.WebServices.Data.EmailMessage](https://learn.microsoft.com/ru-ru/dotnet/api/microsoft.exchange.webservices.data.emailmessage?view=exchange-ews-api) | Класс, представляющий сообщение электронной почты. Свойства класса доступны для просмотра только при использовании элементов MS Exchange    |
 | MailFormat  | [LTools.Office.Model.OMailMessage.MailFormats](mailformats.md)  | Формат письма. Пример значения: `HTML` |
 | MessageType |  | Тип письма. Пример значения: `Message` (Вопрос Мише: какие бывают?) |
+| MessageProperties | Какой тип данных? | Свойства письма.  |
 | Attachments | List<[LTools.Office.Model.OMailAttachment](omailattachment.md)> | Вложения             |
+| ReplyAll    | Boolean                                                         | ? для отпр или для вход?  Пример значения: `False`  |
 
 
 ## Детализация
@@ -33,6 +36,15 @@ LTools.Office.Model.OMailMessage - модель письма.
 
 2\. Класс **Element** обладает свойствами, представленными на рисунке ниже: 
 
+![](<../../../../.gitbook/assets/>)
+
+3\. Пример тела письма, полученного в свойстве **Body**:
+
+![](<../../../../.gitbook/assets/>)
+
+4\. **MessageProperties** обладает свойствами, представленными на рисунке ниже: 
+
+![](<../../../../.gitbook/assets/>)
 
 
 
