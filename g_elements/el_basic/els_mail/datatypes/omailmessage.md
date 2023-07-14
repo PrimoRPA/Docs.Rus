@@ -19,7 +19,7 @@ LTools.Office.Model.OMailMessage - модель письма.
 | CreateDate  | [System.DateTime](https://learn.microsoft.com/ru-ru/dotnet/api/system.datetime?view=netframework-4.8) | Дата и время создания письма. Пример значения: `13.07.2023 18:21:25`  |
 | ReceiveDate | System.DateTime                                                 | Дата и время получения письма  |
 | Subject     | String                                                          | Тема письма      |
-| ConversationTopic |                                                           | Тема беседы (что за беседа?)              |
+| ConversationTopic |                                                           | Тема для потока беседы. Беседа содержит все сообщения в одной беседе с одинаковой строкой темы. Тема беседы обычно является темой первого сообщения электронной почты в потоке  |
 | Body        | String                                                          | Текст тела письма     |
 | HTMLBody    | Тип данных?                                                     | Текст тела письма в формате HTML (в чем разница с body? он всегда в html - баг или фича) |
 | MessageProperties | Какой тип данных? | Свойства письма.  |
