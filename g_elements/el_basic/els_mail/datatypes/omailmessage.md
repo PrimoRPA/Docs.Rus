@@ -19,7 +19,7 @@ LTools.Office.Model.OMailMessage - модель письма.
 | Body        | String                                                          | Текст тела письма. **В Exchange** тело будет представлено здесь **только в HTML**, в Outlook - может быть в виде простого текста (PLAIN). Простой текст не поддерживает картинки, гиперссылки (вместо них будут обычные ссылки) и другие подобные элементы. Пример значения для PLAIN: `"Текст\n"`. Если это беседа, то тело будет включать все письма беседы (и в Exchange, и в Outlook) |
 | HTMLBody    | String                                                          | Только для Outlook, в Exchange - пустое. Текст тела письма в формате HTML  |
 | MessageProperties | LTools.Office.Model.OMailMessage.OMailProperties  | Только для Outlook. Свойства письма. Отображаются, если в [**Чтении почты**](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/els_outlook/el_outlook_readmail) установлен флаг "Читать свойства". С помощью свойств письма можно узнать, например, отображаемое имя отправителя/получателя   |
-| Element     | [Microsoft.Exchange.WebServices.Data.EmailMessage](https://learn.microsoft.com/ru-ru/dotnet/api/microsoft.exchange.webservices.data.emailmessage?view=exchange-ews-api) | Только для MS Exchange. Класс, представляющий сообщение электронной почты  |
+| Element     | [Microsoft.Exchange.WebServices.Data.EmailMessage](https://learn.microsoft.com/ru-ru/dotnet/api/microsoft.exchange.webservices.data.emailmessage?view=exchange-ews-api) | Только для MS Exchange. Класс, представляющий сообщение электронной почты. Свойства класса подробно описаны по ссылке в типе данных  |
 | Attachments | List<[LTools.Office.Model.OMailAttachment](omailattachment.md)> | Вложения письма   |
 
 :small_blue_diamond: **Примечание**:
