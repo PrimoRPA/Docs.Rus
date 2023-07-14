@@ -27,8 +27,8 @@ LTools.Office.Model.OMailMessage - модель письма.
 Все свойства, начинающиеся со слова **Send**, в настоящее время не несут информации и имеют пустое значение. Это такие свойства, как: SendTo, SendСс, SendВсс, SendOnBehalf.
 
 
-## Детализация
-1\. Свойство **CreateDate** имеет атрибуты, представленные на рисунке ниже:
+## Детализация свойств модели
+1\. **CreateDate** имеет свойства, представленные на рисунке ниже:
 
 ![](<../../../../.gitbook/assets/omail-createdate.png>)
 
@@ -36,7 +36,7 @@ LTools.Office.Model.OMailMessage - модель письма.
 
 2\. **MessageProperties** обладает свойствами, представленными на рисунке ниже: 
 
-![](<../../../../.gitbook/assets/omail-messageproperties.png>)
+![](<../../../../.gitbook/assets/omail-message-properties.png>)
 
 2\. Класс **Element** обладает свойствами, представленными на рисунке ниже: 
 
