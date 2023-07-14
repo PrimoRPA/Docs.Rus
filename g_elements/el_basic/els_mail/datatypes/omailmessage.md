@@ -18,9 +18,9 @@ LTools.Office.Model.OMailMessage - модель письма.
 | ConversationTopic | String                                                    | Только для Outlook. Тема для потока беседы. Беседа содержит все связанные сообщения в одной беседе с одинаковой строкой темы. Темой беседы обычно является тема первого сообщения электронной почты в потоке. Подробнее о беседах в Outlook см. [здесь](https://support.microsoft.com/ru-ru/office/%D0%BE%D0%B1%D1%89%D0%B8%D0%B5-%D1%81%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BE-%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%B0%D1%85-0eeec76c-f59b-4834-98e6-05cfdfa9fb07). При чтении письма в Outlook могут быть заполнены как Subject, так и ConversationTopic. Пример значений для отправленного письма: Subject - `"Re: Скоро отпуск"`,  ConversationTopic - `"Скоро отпуск"` |
 | Body        | String                                                          | Текст тела письма. **В Exchange** тело будет представлено здесь **только в HTML**, в Outlook - может быть в виде простого текста (PLAIN). Простой текст не поддерживает картинки, гиперссылки (вместо них будут ссылки с синим подчеркиванием) и другие подобные элементы. Пример значения для PLAIN: `"Текст\n"`. Если это беседа, то тело будет включать все письма беседы (и в Exchange, и в Outlook) |
 | HTMLBody    | String                                                          | Только для Outlook, в Exchange - пустое. Текст тела письма в формате HTML  |
-| MessageProperties | LTools.Office.Model.OMailMessage.OMailProperties  | Только для Outlook. Свойства письма. Отображаются только, если в [**Чтении почты**](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/els_outlook/el_outlook_readmail) установлен флаг "Читать свойства"  |
+| MessageProperties | LTools.Office.Model.OMailMessage.OMailProperties  | Только для Outlook. Свойства письма. Отображаются только, если в [**Чтении почты**](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/els_outlook/el_outlook_readmail) установлен флаг "Читать свойства". С помощью свойств письма можно узнать, например, отображаемое имя отправителя/получателя   |
 | Element     | [Microsoft.Exchange.WebServices.Data.EmailMessage](https://learn.microsoft.com/ru-ru/dotnet/api/microsoft.exchange.webservices.data.emailmessage?view=exchange-ews-api) | Только для MS Exchange. Класс, представляющий сообщение электронной почты  |
-| Attachments | List<[LTools.Office.Model.OMailAttachment](omailattachment.md)> | Вложения письма            |
+| Attachments | List<[LTools.Office.Model.OMailAttachment](omailattachment.md)> | Вложения письма   |
 
 :small_blue_diamond: **Примечание**:
 
@@ -38,9 +38,20 @@ LTools.Office.Model.OMailMessage - модель письма.
 
 ![](<../../../../.gitbook/assets/omail-message-properties.png>)
 
-2\. Класс **Element** обладает свойствами, представленными на рисунке ниже: 
+| Свойство        | Тип        | Описание                     |
+| --------------- | ---------- | ---------------------------- |
+| PR_DISPLAY_TO   | String     | Отображаемое имя получателя (-ей) письма. Пример: `"Сергей Есенин, Анна Ахматова"` |
+| PR_DISPLAY_BCC  | String     | Отображаемое имя получателя скрытой копии, если таковой имеется |
+| PR_DISPLAY_CC   | String     | Отображаемое имя получателя копии         |
+| PR_RECEIVED_BY_EMAIL_ADDRESS | String  | На какой адрес было получено письмо  |
+| PR_RECEIVED_BY_NAME | String | Имя получателя |
+| PR_REPLY_RECIPIENT_NAMES | String |  |
+| PR_SENDER_EMAIL_ADDRESS  | String | Адрес почты отправителя. Подробнее см. [здесь](https://learn.microsoft.com/ru-ru/office/client-developer/outlook/mapi/pidtagsenderemailaddress-canonical-property)  |
+| PR_SENDER_NAME          | String  | Отображаемое имя отправителя сообщения. Пример: `"Иван Иванов"`. Подробнее см. [здесь](https://learn.microsoft.com/ru-ru/office/client-developer/outlook/mapi/pidtagsendername-canonical-property) |
+| PR_SENT_REPRESENTING_EMAIL_ADDRESS | String   | Адрес электронной почты пользователя обмена сообщениями, представленного отправителем. Подробнее см. [здесь](https://learn.microsoft.com/ru-ru/office/client-developer/outlook/mapi/pidtagsentrepresentingemailaddress-canonical-property) |
+| PR_SENT_REPRESENTING_NAME          | String   | Отображаемое имя пользователя обмена сообщениями, представленного отправителем. Подробнее см. [здесь](https://learn.microsoft.com/ru-ru/office/client-developer/outlook/mapi/pidtagsentrepresentingname-canonical-property) |
+| PR_TRANSPORT_MESSAGE_HEADERS       | String   | Сведения о конверте сообщений, относящихся к транспорту. Подробнее см. [здесь](https://learn.microsoft.com/ru-ru/office/client-developer/outlook/mapi/pidtagtransportmessageheaders-canonical-property)  |
 
-![](<../../../../.gitbook/assets/>)
 
 
 
