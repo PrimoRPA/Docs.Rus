@@ -88,7 +88,7 @@
 ## Инструменты
 
 ### Расширения
-Меню управляет установкой расширений браузеров.
+Меню управляет установкой [расширений браузеров](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/plugin-install).
 
 ![](<../../.gitbook/assets/image (700).png>)
 
