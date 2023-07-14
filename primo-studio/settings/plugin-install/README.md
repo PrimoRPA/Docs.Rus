@@ -38,10 +38,6 @@ Extensions\JavaBridge.ps1
 [firefox.md](firefox.md)
 {% endcontent-ref %}
 
-{% content-ref url="opera.md" %}
-[opera.md](opera.md)
-{% endcontent-ref %}
-
 {% content-ref url="edge.md" %}
 [edge.md](edge.md)
 {% endcontent-ref %}
