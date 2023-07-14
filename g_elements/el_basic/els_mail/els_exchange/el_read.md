@@ -15,7 +15,7 @@
 | Кол-во               | Int32                                                                  | Количество читаемых сообщений                    |
 | Вложения             | Boolean                                                                | Установите флаг, если нужно получать вложения из писем |
 | Запрос               | String                                                                 | Текст запроса фильтра  |
-| Общий ящик           | String                                                                 | Укажите адрес [общего почтового ящика](https://learn.microsoft.com/ru-ru/exchange/collaboration/shared-mailboxes/shared-mailboxes?view=exchserver-2019), если требуется вычитывать его почту. Пример:  info@company.com |
+| Общий ящик           | String                                                                 | Укажите адрес [общего почтового ящика](https://learn.microsoft.com/ru-ru/exchange/collaboration/shared-mailboxes/shared-mailboxes?view=exchserver-2019), если требуется вычитывать его почту. Пример:  `"info@company.com"` |
 | Переменная\*         | List<[LTools.Office.Model.OMailMessage](../datatypes/omailmessage.md)> | Переменная вывода для сохранения списка полученных писем |
 
 ## Только код
