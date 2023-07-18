@@ -1,33 +1,30 @@
 # Установка расширений и плагинов
 
-**Установка расширений браузеров**
+## Установка расширений браузеров
 
 ```
 LTools.WebBrowser.Native.exe install=[browser] lang=[language] mode=[mode]
 ```
-
-browser - тип браузера (CHROME, FIREFOX, OPERA, EDGE, YANDEX)
-
-language - язык установки (EN, RU)
-
-mode - режим установки (store, packed, unpacked, storelocal)
+Поддерживаемые параметры:
+* **browser** - тип браузера (CHROME, FIREFOX, EDGE, YANDEX);
+* **language** - язык установки (EN, RU);
+* **mode** - режим установки (store, packed, unpacked, storelocal).
 
 
 
-**Установка расширения RDP**
+## Установка плагинов
+
+### Расширение RDP
 
 ```
 Primo.RemoteAgent.exe InstallClient
 ```
 
-
-
-**Установка расширения Java**
+### Расширение Java
 
 ```
 Extensions\JavaBridge.ps1
 ```
-
 
 
 {% content-ref url="chrome.md" %}
