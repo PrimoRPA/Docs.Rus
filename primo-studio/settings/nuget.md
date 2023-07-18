@@ -2,7 +2,7 @@
 
 Primo Studio позволяет подключать собственные источники пакетов NuGet. Для этого можно использовать:
 * раздел меню **Файл > Настройки > Network > Nuget**;
-* либо глобальную конфигурацию Nuget: см. статью Microsoft [«Команда sources (Интерфейс командной строки NuGet)](https://docs.microsoft.com/ru-ru/nuget/reference/cli-reference/cli-ref-sources)».
+* либо глобальную конфигурацию Nuget: см. статью Microsoft [«Команда sources (интерфейс командной строки NuGet)](https://docs.microsoft.com/ru-ru/nuget/reference/cli-reference/cli-ref-sources)».
 
 <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
