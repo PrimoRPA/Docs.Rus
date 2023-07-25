@@ -1,6 +1,6 @@
 # Try-Catch
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (10) (80).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (1) (46).png>)
 
 ![](<../../../.gitbook/assets/image (53).png>)
 
@@ -9,4 +9,4 @@
 | Свойство            | Тип                                                                               | Описание                                    |
 | ------------------- | --------------------------------------------------------------------------------- | ------------------------------------------- |
 | Скриншот исключения | Boolean                                                                           | Создает скриншот при исключении в блоке Try |
-| Исключение          | [LTools.Common.Model.ExecutionExceptionInfo](datatypes/executionexceptioninfo.md) | Переменная для сохранения данных исключения | 
+| Исключение          | [LTools.Common.Model.ExecutionExceptionInfo](datatypes/executionexceptioninfo.md) | Переменная для сохранения данных исключения |

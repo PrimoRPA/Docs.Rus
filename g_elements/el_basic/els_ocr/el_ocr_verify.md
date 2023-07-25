@@ -7,7 +7,7 @@
 | Свойство     | Тип                                                                                             | Описание                                |
 | ------------ | ----------------------------------------------------------------------------------------------- | --------------------------------------- |
 | Dbrain       | [LTools.OCR.Model.Dbrain. DbrainRecognitionResult](dbrain/datatypes/dbrainrecognitionresult.md) | Переменная для хранения данных проверки |
-| FlexiCapture | [OCR.Model.FlexiCapture.RecognitionResults](el\_ocr\_flexi/tipy-dannykh/recognitionresult.md)   | Переменная для хранения данных проверки |
+| FlexiCapture | [OCR.Model.FlexiCapture.RecognitionResults](el\_ocr\_flexi/datatypes/recognitionresult.md)      | Переменная для хранения данных проверки |
 
 В случае успешной обработки входных данных, на экране появится окно
 

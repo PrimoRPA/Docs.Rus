@@ -1,6 +1,6 @@
 # Tesseract OCR
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (10) (133).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (128).png>)
 
 ![](<../../../.gitbook/assets/image (309).png>)
 
