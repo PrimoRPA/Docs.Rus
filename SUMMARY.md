@@ -27,6 +27,7 @@
 * [Системные требования](primo-studio/systemreq.md)
 * [Установка и запуск](primo-studio/installation/README.md)
   * [Запуск Primo Studio](primo-studio/installation/licenses.md)
+  * [Обновление](primo-studio/installation/update.md)
 * [Начало работы](primo-studio/getting-started/README.md)
 * [Горячие клавиши](primo-studio/hotkeys.md)
 * [Работа с проектами](primo-studio/projects/README.md)
