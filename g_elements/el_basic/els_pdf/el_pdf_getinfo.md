@@ -26,4 +26,3 @@
 * Title – название документа.
 * Keywords – ключевые слова. Могут быть разделены запятыми. 
 
-The values must be text, no other types of data are allowed. Applications can add their own sets of data to the info dictionary.
