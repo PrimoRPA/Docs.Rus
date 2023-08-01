@@ -145,6 +145,7 @@
     * [Получение изображений](g\_elements/el\_basic/els\_pdf/el\_pdf\_getimage.md)
     * [Преобразовать в изображение](g\_elements/el\_basic/els\_pdf/el\_pdf\_toimage.md)
     * [Чтение текста](g\_elements/el\_basic/els\_pdf/el\_pdf\_gettext.md)
+    * [Информация о документе](g\_elements/el\_basic/els\_pdf/el\_pdf\_getinfo.md)
   * [SAP Front End](g\_elements/el\_basic/els\_sap/README.md)
     * [Типы данных](g\_elements/el\_basic/els\_sap/datatypes/README.md)
       * [SAPInst](g\_elements/el\_basic/els\_sap/datatypes/sapinst.md)
