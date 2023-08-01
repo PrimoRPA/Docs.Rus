@@ -1,0 +1,29 @@
+# Информация о документе
+
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (41).png>)
+
+![](<../../../.gitbook/assets/get-pdf-file-info.png)
+
+Элемент, с помощью которого можно получить сведения о документе PDF.
+
+## Свойства
+
+Описание общих свойств элемента см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
+Символ `*` в названии свойства указывает на обязательность заполнения.
+
+| Свойство       | Тип                          | Описание                                   |
+| -------------- | ---------------------------- | ------------------------------------------ |
+| Путь к файлу\* | String                       | Путь к файлу PDF. Пример: `"C:\\Users\\Username\\Desktop\\Folder\\File.pdf"` |
+| Пароль         | String                       | Пароль от защищенного документа PDF        |
+| Защищенный пароль | [SecureString](https://learn.microsoft.com/ru-ru/dotnet/api/system.security.securestring?view=net-8.0) | Зашифрованный пароль документа. В целях безопасности пароль в формате SecureString не хранится в открытом виде. Получить его можно, например, из программы «Диспетчер учетных данных» (Credential Manager), после чего вставить в это поле           |
+| Переменная     | LTools.Office.Model.Pdf.PdfFileInfo | Переменная для хранения полученных метаданных pdf-документа   |
+
+В переменной вывода PdfFileInfo может содержаться такая информация, как: 
+* Author – кем был создан документ.
+* CreationDate – дата и время создания документа. Пример: `26.09.2022 6:35:06`.
+* Modified - дата и время последнего изменения документа. 
+* Subject – о чем этот документ. 
+* Title – название документа.
+* Keywords – ключевые слова. Могут быть разделены запятыми. 
+
+The values must be text, no other types of data are allowed. Applications can add their own sets of data to the info dictionary.
