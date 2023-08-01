@@ -2,7 +2,7 @@
 
 ![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (41).png>)
 
-![](<../../../.gitbook/assets/get-pdf-file-info.png)
+![](<../../../.gitbook/assets/get-pdf-file-info.png>)
 
 Элемент, с помощью которого можно получить сведения о документе PDF.
 
