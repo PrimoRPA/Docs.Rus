@@ -62,23 +62,9 @@ LTools.Office.Model.OMailMessage - модель письма. Используе
 
 Их описание можно найти в разделе [Свойства](https://learn.microsoft.com/ru-ru/office/client-developer/outlook/mapi/mapi-properties), выбрав нужное название канонического свойства в левом меню. 
 
-Пример получения отображаемого имени отправителя: `var_list_mails[0].MessageProperties.PR_SENDER_NAME`. 
+Пример получения отображаемого [имени отправителя](https://learn.microsoft.com/ru-ru/office/client-developer/outlook/mapi/pidtagsendername-canonical-property): `var_list_mails[0].MessageProperties.PR_SENDER_NAME`. 
 
 Необходимо учитывать, что имя отправителя может и не отображаться - это зависит от настроек почтового сервера.
-
-| Свойство        | Тип        | Описание                     |
-| --------------- | ---------- | ---------------------------- |
-| PR_DISPLAY_TO   | String     | Отображаемое имя получателя (-ей) письма. Пример: `"Константин Бальмонт, Зинаида Гиппиус"` |
-| PR_DISPLAY_BCC  | String     | Отображаемое имя получателя скрытой копии, если таковой имеется |
-| PR_DISPLAY_CC   | String     | Отображаемое имя получателя копии         |
-| PR_RECEIVED_BY_EMAIL_ADDRESS | String  | Адрес электронной почты получателя сообщения (?? у меня здесь был адрес отправителя, а не получателя - это видно на скрине). Подробнее см. [здесь](https://learn.microsoft.com/ru-RU/office/client-developer/outlook/mapi/pidtagreceivedbyemailaddress-canonical-property). Пример: `/O=CS24 EXCHANGE/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=361786F4F0444280A5B6FAF5AE5A79D3-USER` -  это стандартный вид для этого поля? как его расшифровать? Почему совпадает с PR_SENDER_EMAIL_ADDRESS? |
-| PR_RECEIVED_BY_NAME | String | Отображаемое имя истинного получателя сообщения (??? у меня здесь высветилось имя отправителя). Задается поставщиком входящего транспорта. Подробнее см. [здесь](https://learn.microsoft.com/ru-ru/office/client-developer/outlook/mapi/pidtagreceivedbyname-canonical-property) |
-| PR_REPLY_RECIPIENT_NAMES | String | Список отображаемых имен пользователей, которые должны получить ответ. Если это свойство отсутствует, ответ отправляется только пользователю, идентифицируему свойством PR_SENDER_NAME. Подробнее см. [здесь](https://learn.microsoft.com/ru-ru/office/client-developer/outlook/mapi/pidtagreplyrecipientnames-canonical-property) |
-| PR_SENDER_NAME          | String  | Отображаемое имя отправителя сообщения. Пример: `"Андрей Белый"`. Подробнее см. [здесь](https://learn.microsoft.com/ru-ru/office/client-developer/outlook/mapi/pidtagsendername-canonical-property) |
-| PR_SENDER_EMAIL_ADDRESS  | String | Адрес почты отправителя. Подробнее см. [здесь](https://learn.microsoft.com/ru-ru/office/client-developer/outlook/mapi/pidtagsenderemailaddress-canonical-property). Пример значения: `/O=CS24 EXCHANGE/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=361786F4F0444280A5B6FAF5AE5A79D3-USER` - это стандартный вид для этого поля?  |
-| PR_SENT_REPRESENTING_EMAIL_ADDRESS | String   | Адрес электронной почты отправителя сообщения (в чем разница с PR_SENDER_EMAIL_ADDRESS?). Подробнее см. [здесь](https://learn.microsoft.com/ru-ru/office/client-developer/outlook/mapi/pidtagsentrepresentingemailaddress-canonical-property) |
-| PR_SENT_REPRESENTING_NAME          | String   | Отображаемое имя отправителя сообщения (в чем разница с PR_SENDER_NAME?). Подробнее см. [здесь](https://learn.microsoft.com/ru-ru/office/client-developer/outlook/mapi/pidtagsentrepresentingname-canonical-property) |
-| PR_TRANSPORT_MESSAGE_HEADERS       | String   | Сведения о конверте сообщений, относящихся к транспорту. Поставщик транспорта может создавать сведения о заголовке сообщения для входящих сообщений. Подробнее см. [здесь](https://learn.microsoft.com/ru-ru/office/client-developer/outlook/mapi/pidtagtransportmessageheaders-canonical-property)  |
 
 
 
