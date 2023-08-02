@@ -2,6 +2,8 @@
 
 LTools.Office.Model.OMailMessage - модель письма. Используется в элементах, работающих с почтами Outlook, Exchange, Lotus Notes.
 
+## Свойства модели
+
 | Свойство    | Тип                                                             | Описание             |
 | ----------- | --------------------------------------------------------------- | -------------------- |
 | ID          | String                                                          | Идентификатор письма. Позволяет обратиться к конкретному сообщению по его ID. Получить ID можно при считывании писем соответствующими элементами Студии. Например, в результате [Чтения почты](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/els_outlook/el_outlook_readmail) получаем список писем, у каждого из которых есть свой ID |
@@ -24,8 +26,10 @@ LTools.Office.Model.OMailMessage - модель письма. Используе
 :small_blue_diamond: **Примечание**. Все свойства, начинающиеся со слова **Send**, а также свойство **ReplyAll** содержат только техническую информацию и не предназначены для пользователей. Это такие свойства, как: SendTo, SendСс, SendВсс, SendOnBehalf, ReplyAll. 
 
 
-## Детализация свойств модели
-1\. **CreateDate** имеет свойства, представленные на рисунке ниже:
+## Детализация свойств 
+
+### CreateDate
+Свойства модели CreateDate/ReceiveDate имеет следующий набор свойств:
 
 ![](<../../../../.gitbook/assets/omail-createdate.png>)
 
@@ -35,9 +39,32 @@ LTools.Office.Model.OMailMessage - модель письма. Используе
 
 Если используется вывод результата через элемент [**Запись в журнал**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_dialogs/el_dialogs_addlog), не забудьте привести значение к строке. Пример результата: `13`.
 
-2\. **MessageProperties** (только Outlook) обладает свойствами, представленными на рисунке ниже. Пример получения отображаемого имени отправителя: `var_list_mails[0].MessageProperties.PR_SENDER_NAME`. 
+### Element
+
+Свойство модели **Element** представляет почтовое сообщение. Тип данных зависит от используемой почты: 
+* для Exchange - это [EmailMessage](https://learn.microsoft.com/ru-ru/dotnet/api/microsoft.exchange.webservices.data.emailmessage?view=exchange-ews-api);
+* для Outlook - это [Microsoft.Office.Interop.Outlook.MailItem](https://learn.microsoft.com/ru-ru/dotnet/api/microsoft.office.interop.outlook.mailitem?view=outlook-pia);
+* для Lotus - это Domino.NotesDocument.
+
+Список свойств будет соответствовать классу сообщения. 
+
+:bangbang: **Важно.** Для того, чтобы получить значение какого-либо свойства Element, требуется вручную привести его к нужному классу. 
+
+Например, чтобы получить имя отправителя для сообщения Exchange, приведите его сначала к EmailMessage: 
+
+`(var_list_mails[0].Element as Microsoft.Exchange.WebServices.Data.EmailMessage).Sender`. 
+
+### MessageProperties
+
+Свойство модели MessageProperties (только Outlook) обладает следующим набором свойств: 
 
 ![](<../../../../.gitbook/assets/omail-message-properties2.png>)
+
+Их описание можно найти в разделе [Свойства](https://learn.microsoft.com/ru-ru/office/client-developer/outlook/mapi/mapi-properties), выбрав нужное название канонического свойства в левом меню. 
+
+Пример получения отображаемого имени отправителя: `var_list_mails[0].MessageProperties.PR_SENDER_NAME`. 
+
+Необходимо учитывать, что имя отправителя может и не отображаться - это зависит от настроек почтового сервера.
 
 | Свойство        | Тип        | Описание                     |
 | --------------- | ---------- | ---------------------------- |
@@ -53,16 +80,7 @@ LTools.Office.Model.OMailMessage - модель письма. Используе
 | PR_SENT_REPRESENTING_NAME          | String   | Отображаемое имя отправителя сообщения (в чем разница с PR_SENDER_NAME?). Подробнее см. [здесь](https://learn.microsoft.com/ru-ru/office/client-developer/outlook/mapi/pidtagsentrepresentingname-canonical-property) |
 | PR_TRANSPORT_MESSAGE_HEADERS       | String   | Сведения о конверте сообщений, относящихся к транспорту. Поставщик транспорта может создавать сведения о заголовке сообщения для входящих сообщений. Подробнее см. [здесь](https://learn.microsoft.com/ru-ru/office/client-developer/outlook/mapi/pidtagtransportmessageheaders-canonical-property)  |
 
-3\. **Element** - почтовое сообщение. Тип данных зависит от используемой почты: 
-* для Exchange - это [EmailMessage](https://learn.microsoft.com/ru-ru/dotnet/api/microsoft.exchange.webservices.data.emailmessage?view=exchange-ews-api);
-* для Outlook - это [Microsoft.Office.Interop.Outlook.MailItem](https://learn.microsoft.com/ru-ru/dotnet/api/microsoft.office.interop.outlook.mailitem?view=outlook-pia);
-* для Lotus - это [Domino.NotesDocument]().
 
-Список свойств будет соответствовать классу сообщения. 
-
-:bangbang: **Важно.** Для того, чтобы получить значение какого-либо свойства Element, требуется вручную привести его к нужному классу. 
-
-Например, чтобы получить имя отправителя для сообщения Exchange, приведите его сначала к EmailMessage: `(var_list_mails[0].Element as Microsoft.Exchange.WebServices.Data.EmailMessage).Sender`. 
 
 
 
