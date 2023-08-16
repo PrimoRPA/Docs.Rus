@@ -81,7 +81,7 @@
   * [Редактор диалогов](primo-studio/tools/dialogs-editor.md)
 * [Горячие клавиши](primo-studio/hotkeys.md)
 
-## Рабочие элементы <a href="#g_elements" id="g_elements"></a>
+## Рабочие элементы в Studio <a href="#g_elements" id="g_elements"></a>
 
 * [Основные элементы](g\_elements/el\_basic/README.md)
   * [Google Sheets](g\_elements/el\_basic/gsheets/README.md)
