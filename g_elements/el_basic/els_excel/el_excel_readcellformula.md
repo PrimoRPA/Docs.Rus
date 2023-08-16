@@ -4,7 +4,7 @@
 
 ![](<../../../.gitbook/assets/excel-read-cell-formula.png>)
 
-Элемент читает формулу из заданной ячейки Excel.
+Элемент считывает формулу из указанной ячейки Excel. Путь до файла, тип драйвера и прочие параметры предварительно настраиваются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app).
 
 ## Свойства
 Описание общих свойств элемента см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
@@ -18,3 +18,50 @@
 | Индекс страницы      | Int32    | Порядковый номер страницы, отсчет с 0 |
 | ***Вывод***  | |  |
 | Формула\*            | String   | Переменная, в которой будет храниться формула, полученная из ячейки |
+
+## Только код
+Пример использования элемента в процессе с типом **Только код** (Pure code):
+  
+{% tabs %}
+{% tab title="C#" %}
+```csharp
+//String data = app.ReadCellFormula(cell, [sheet], [sheetIdx]);
+		
+LTools.Office.ExcelApp app = LTools.Office.ExcelApp.Init(wf, ".\\formula.xlsx", ";", LTools.Office.Model.InteropTypes.DX);
+String data = app.ReadCellFormula("B2", "Лист1", 0);
+
+//Вывод в лог
+LTools.Workflow.PrimoApp.AddToLog(wf, data, LTools.Enums.LogMessageType.Info);
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```python
+#data = app.ReadCellFormula(cell, [sheet], [sheetIdx]) #String
+		
+app = LTools.Office.ExcelApp.Init(wf, ".\\formula.xlsx", ";", LTools.Office.Model.InteropTypes.DX)
+data = app.ReadCellFormula("B2", "Лист1", 0) #String
+
+#Вывод в лог
+LTools.Workflow.PrimoApp.AddToLog(wf, str(data), LTools.Enums.LogMessageType.Info)
+```
+{% endtab %}
+
+{% tab title="JavaScript" %}
+```javascript
+//var data = app.ReadCellFormula(cell, [sheet], [sheetIdx]); //String
+		
+		
+var host = new _lib.Microsoft.ClearScript.HostFunctions();
+var lst = host.newObj(_lib.System.Collections.Generic.List(_lib.System.Collections.Generic.List(_lib.System.String)));
+var lst2 = host.newObj(_lib.System.Collections.Generic.List(_lib.System.Collections.Generic.List(_lib.LTools.Office.Model.ExcelCellInfo)));
+var lst3 = host.newObj(_lib.System.Data.DataTable);
+var app = _lib.LTools.Office.ExcelApp.Init(wf, "c://Users//Alex//Documents//Primo//LearningPureCode//formula.xlsx", ";", _lib.LTools.Office.Model.InteropTypes.DX);	
+var data = app.ReadCellFormula("B2", "Лист1", 0); //String
+		
+//Вывод в лог
+_lib.LTools.Workflow.PrimoApp.AddToLog(wf, data, _lib.LTools.Enums.LogMessageType.Info);
+```
+{% endtab %}
+{% endtabs %}
+
