@@ -418,6 +418,7 @@
     * [Ввод формулы в ячейку](g\_elements/el\_basic/els\_excel/el\_excel\_writeformula.md)
     * [Вставка колонок](g\_elements/el\_basic/els\_excel/el\_excel\_insertcolumns.md)
     * [Вставка строк](g\_elements/el\_basic/els\_excel/el\_excel\_insertrows.md)
+    * [Вставка диаграммы](g\_elements/el\_basic/els\_excel/el\_excel\_createchart.md)
     * [Выделение диапазона](g\_elements/el\_basic/els\_excel/el\_excel\_selectrange.md)
     * [Запись диапазона](g\_elements/el\_basic/els\_excel/el\_excel\_writerange.md)
     * [Запустить VBA](g\_elements/el\_basic/els\_excel/el\_excel\_vba.md)
