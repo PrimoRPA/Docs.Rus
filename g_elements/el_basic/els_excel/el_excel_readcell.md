@@ -6,6 +6,8 @@
 
 Элемент считывает данные из ячейки Excel и сохраняет их в переменную.
 
+Путь до файла, тип драйвера, стиль ссылок на ячейку и прочие параметры предварительно настраиваются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app).
+
 ### Свойства
 Описание общих свойств элемента см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
 Символ `*` в названии свойства указывает на обязательность его заполнения.
@@ -33,34 +35,34 @@
 {% tab title="C#" %}
 ```csharp
 LTools.Office.ExcelApp app = LTools.Office.ExcelApp.Init(wf, ".\\book.xlsx", ";", LTools.Office.Model.InteropTypes.DX);
-		object data = app.ReadCell("C5", "Лист1", 0);
+object data = app.ReadCell("C5", "Лист1", 0);
 		
-		//Вывод в лог
-		LTools.Workflow.PrimoApp.AddToLog(wf, data.ToString(), LTools.Enums.LogMessageType.Info);
+//Вывод в лог
+LTools.Workflow.PrimoApp.AddToLog(wf, data.ToString(), LTools.Enums.LogMessageType.Info);
 ```
 {% endtab %}
 
 {% tab title="Python" %}
 ```python
 app = LTools.Office.ExcelApp.Init(wf, ".\\book.xlsx", ";", LTools.Office.Model.InteropTypes.DX)
-		data = app.ReadCell("F4", "Лист1", 0) #Object
+data = app.ReadCell("F4", "Лист1", 0) #Object
 		
-		#Вывод в лог
-		LTools.Workflow.PrimoApp.AddToLog(wf, str(data), LTools.Enums.LogMessageType.Info)
+#Вывод в лог
+LTools.Workflow.PrimoApp.AddToLog(wf, str(data), LTools.Enums.LogMessageType.Info)
 ```
 {% endtab %}
 
 {% tab title="JavaScript" %}
 ```javascript
 var host = new _lib.Microsoft.ClearScript.HostFunctions();
-		var lst = host.newObj(_lib.System.Collections.Generic.List(_lib.System.Collections.Generic.List(_lib.System.String)));
-		var lst2 = host.newObj(_lib.System.Collections.Generic.List(_lib.System.Collections.Generic.List(_lib.LTools.Office.Model.ExcelCellInfo)));
-		var lst3 = host.newObj(_lib.System.Data.DataTable);
-		var app = _lib.LTools.Office.ExcelApp.Init(wf, "c://Users//Alex//Documents//Primo//LearningPureCode//book.xlsx", ";", _lib.LTools.Office.Model.InteropTypes.DX);	
-		var data = app.ReadCell("D5", "Лист1", 0); //Object
+var lst = host.newObj(_lib.System.Collections.Generic.List(_lib.System.Collections.Generic.List(_lib.System.String)));
+var lst2 = host.newObj(_lib.System.Collections.Generic.List(_lib.System.Collections.Generic.List(_lib.LTools.Office.Model.ExcelCellInfo)));
+var lst3 = host.newObj(_lib.System.Data.DataTable);
+var app = _lib.LTools.Office.ExcelApp.Init(wf, "c://Users//Alex//Documents//Primo//LearningPureCode//book.xlsx", ";", _lib.LTools.Office.Model.InteropTypes.DX);	
+var data = app.ReadCell("D5", "Лист1", 0); //Object
 		
-		//Вывод в лог
-		_lib.LTools.Workflow.PrimoApp.AddToLog(wf, data.toString(), _lib.LTools.Enums.LogMessageType.Info);
+//Вывод в лог
+_lib.LTools.Workflow.PrimoApp.AddToLog(wf, data.toString(), _lib.LTools.Enums.LogMessageType.Info);
 ```
 {% endtab %}
 {% endtabs %}
