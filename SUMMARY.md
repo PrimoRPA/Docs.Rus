@@ -12,7 +12,6 @@
     * [Студия 1.1.30](release-notes/studio/1.1.30.md)
     * [Студия 1.1.29](release-notes/studio/1.1.29.md)
     * [Студия 1.1.28](release-notes/studio/1.1.28.md)
-    * [Июнь-август 2022](release-notes/studio/summer.md)
   * [Оркестратор](release-notes/orch/README.md)
     * [Оркестратор 23.7](release-notes/orch/orch-23.7.md)
     * [Оркестратор 23.6](release-notes/orch/orch-23.6.md)
