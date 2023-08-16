@@ -437,6 +437,7 @@
     * [Удаление строк](g\_elements/el\_basic/els\_excel/el\_excel\_deleterows.md)
     * [Фильтр диапазона](g\_elements/el\_basic/els\_excel/el\_excel\_filterrange.md)
     * [Чтение диапазона](g\_elements/el\_basic/els\_excel/el\_excel\_readrange.md)
+    * [Чтение из ячейки](g\_elements/el\_basic/els\_excel/el\_excel\_readcell.md)
   * [Приложение Outlook](g\_elements/el\_basic/els\_outlook/README.md)
     * [Приложение Outlook](g\_elements/el\_basic/els\_outlook/el\_outlook\_app.md)
     * [Закрыть Outlook](g\_elements/el\_basic/els\_outlook/el\_outlook\_close.md)
