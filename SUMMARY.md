@@ -741,7 +741,7 @@
   * [Расписания](primo-robot/robot-runner/schedules.md)
   * [Настройки](primo-robot/robot-runner/settings.md)
 
-## Оркестратор <a href="#orchestrator" id="orchestrator"></a>
+## Primo Orchestrator <a href="#orchestrator" id="orchestrator"></a>
 
 * [Введение](orchestrator/intro.md)
 * [Системные требования](orchestrator/systemreq.md)
