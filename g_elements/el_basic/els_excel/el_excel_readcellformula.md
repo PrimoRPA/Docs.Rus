@@ -25,6 +25,11 @@
 {% tabs %}
 {% tab title="C#" %}
 ```csharp
+//app - [LTools.Office.ExcelApp] Приложение Excel
+//cell - Ячейка: [String] Идентификатор ячейки (A4)
+//data - Формула: [String] Формула, полученная из ячейки
+//sheet - Страница: [String] Наименование страницы
+//sheetIdx - Индекс страницы: [Int32] Индекс страницы
 //String data = app.ReadCellFormula(cell, [sheet], [sheetIdx]);
 		
 LTools.Office.ExcelApp app = LTools.Office.ExcelApp.Init(wf, ".\\formula.xlsx", ";", LTools.Office.Model.InteropTypes.DX);
@@ -37,6 +42,11 @@ LTools.Workflow.PrimoApp.AddToLog(wf, data, LTools.Enums.LogMessageType.Info);
 
 {% tab title="Python" %}
 ```python
+#app - [LTools.Office.ExcelApp] Приложение Excel
+#cell - Ячейка: [String] Идентификатор ячейки (A4)
+#data - Формула: [String] Формула, полученная из ячейки
+#sheet - Страница: [String] Наименование страницы
+#sheetIdx - Индекс страницы: [Int32] Индекс страницы
 #data = app.ReadCellFormula(cell, [sheet], [sheetIdx]) #String
 		
 app = LTools.Office.ExcelApp.Init(wf, ".\\formula.xlsx", ";", LTools.Office.Model.InteropTypes.DX)
@@ -49,8 +59,12 @@ LTools.Workflow.PrimoApp.AddToLog(wf, str(data), LTools.Enums.LogMessageType.Inf
 
 {% tab title="JavaScript" %}
 ```javascript
+//app - [LTools.Office.ExcelApp] Приложение Excel
+//cell - Ячейка: [String] Идентификатор ячейки (A4)
+//data - Формула: [String] Формула, полученная из ячейки
+//sheet - Страница: [String] Наименование страницы
+//sheetIdx - Индекс страницы: [Int32] Индекс страницы
 //var data = app.ReadCellFormula(cell, [sheet], [sheetIdx]); //String
-		
 		
 var host = new _lib.Microsoft.ClearScript.HostFunctions();
 var lst = host.newObj(_lib.System.Collections.Generic.List(_lib.System.Collections.Generic.List(_lib.System.String)));
