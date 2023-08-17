@@ -776,6 +776,7 @@
     * [Предварительная настройка машины Оркестратора](orchestrator/deployment/linux/presetting-orch-machine.md)
     * [Настройка машины Робота на CentOS 8](orchestrator/deployment/linux/robotmachine/README.md)
     * [Установка Агента Оркестратора](orchestrator/deployment/linux/robotmachine/agentinstall.md)
+* [Сетевые порты](orchestrator/ports.md)
 * [Настройки Оркестратора](orchestrator/settings/README.md)
   * [Лицензии](orchestrator/settings/licensing/README.md)
     * [Получение лицензии](orchestrator/settings/licensing/new-license.md)
