@@ -29,6 +29,11 @@
 {% tabs %}
 {% tab title="C#" %}
 ```csharp
+//app - [LTools.Office.ExcelApp] Приложение Excel
+//range - Диапазон: [String] Диапазон таблицы (A1:D12)
+//name - Наименование: [String] Наименование таблицы
+//sheet - Страница: [String] Наименование страницы
+//sheetIdx - Индекс страницы: [Int32] Индекс страницы
 //app.CreateTable(range, name, [sheet], [sheetIdx]);
 		
 LTools.Office.ExcelApp app = LTools.Office.ExcelApp.Init(wf, ".\\book.xlsx", ";", LTools.Office.Model.InteropTypes.DX);
@@ -39,6 +44,11 @@ app.SaveAs(".\\booktable.xlsx");
 
 {% tab title="Python" %}
 ```python
+#app - [LTools.Office.ExcelApp] Приложение Excel
+#range - Диапазон: [String] Диапазон таблицы (A1:D12)
+#name - Наименование: [String] Наименование таблицы
+#sheet - Страница: [String] Наименование страницы
+#sheetIdx - Индекс страницы: [Int32] Индекс страницы
 #app.CreateTable(range, name, [sheet], [sheetIdx])
 		
 app = LTools.Office.ExcelApp.Init(wf, ".\\book.xlsx", ";", LTools.Office.Model.InteropTypes.DX)
