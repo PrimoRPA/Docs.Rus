@@ -21,10 +21,10 @@
     * [Оркестратор 2.2.20](release-notes/orch/2.2.20.md)
     * [Оркестратор 2.2.16](release-notes/orch/2.2.16.0.md)
     * [Оркестратор 2.2.15](release-notes/orch/2.2.15.0.md)
+* [Полезные ресурсы](useful-links.md)
 
 ## Primo Studio
 
-* [Полезные ресурсы](primo-studio/useful-links.md)
 * [Системные требования](primo-studio/systemreq.md)
 * [Установка и запуск](primo-studio/installation/README.md)
   * [Запуск Primo Studio](primo-studio/installation/licenses.md)
