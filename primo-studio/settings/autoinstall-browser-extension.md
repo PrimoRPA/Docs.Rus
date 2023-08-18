@@ -12,7 +12,7 @@
 
 Плагин может быть установлен:
 * Вручную после установки Студии/Робота. Установка осуществляется согласно этой [инструкции](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/plugin-install).
-* Автоматически - с помощью скриптов **_Install_BrowserExtensions_GPO.bat** и **_InstallWebBrowserNative.bat**. О них подробнее будет сказано ниже.
+* Автоматически - с помощью скриптов **_Install_BrowserExtensions_GPO.bat** и **_InstallWebBrowserNative.bat**. О них речь пойдет ниже.
 
 Студия и Робот взаимодействуют с браузером и его расширением через файл **LTools.WebBrowser.Native.exe**. Он находится в папке с программами Primo Studio и Primo Robot. Расширение связывается с этим файлом через:
 * реестр Windows, соответствующий браузеру и его плагину;
