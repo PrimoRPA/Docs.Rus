@@ -6,9 +6,9 @@
 
 ## Общая информация
 
-Дистрибутив расширения расположен в подпапке `\Extensions\Chrome` программы Studio/Robot, которая должна быть предварительно установлена на компьютере пользователя. 
+Дистрибутив расширения расположен в папке `\Extensions` программы Studio/Robot, которая должна быть предварительно установлена на компьютере пользователя. 
 
-Для браузеров Chrome, Edge и Yandex дистрибутив имеет название chrome.crx, для браузера Firefox используется файл `\Extensions\primo_rpa_extension-1.2-fx.xpi`.
+Для браузеров Chrome, Edge и Yandex используется дистрибутив `\Extensions\Chrome\chrome.crx`, для браузера Firefox - файл `\Extensions\primo_rpa_extension-1.2-fx.xpi`.
 
 Плагин может быть установлен:
 * Вручную после установки Студии/Робота. Установка осуществляется согласно этой [инструкции](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/plugin-install).
