@@ -41,7 +41,7 @@
     * [Yandex](primo-studio/settings/plugin-install/yandex.md)
     * [RDP](primo-studio/settings/plugin-install/rdp.md)
     * [Java](primo-studio/settings/plugin-install/java.md)
-  * [Автоматизация установки расширений для браузеров](primo-studio/settings/autoinstall-browser-extension.md)
+  * [Автоматическая установка расширений для браузеров](primo-studio/settings/autoinstall-browser-extension.md)
 * [Работа с проектами](primo-studio/projects/README.md)
   * [Анализ проекта](primo-studio/projects/analyzer.md)
   * [Шаблоны проектов](primo-studio/projects/project\_template.md)
