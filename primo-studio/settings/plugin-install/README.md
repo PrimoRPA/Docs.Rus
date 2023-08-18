@@ -10,8 +10,6 @@ LTools.WebBrowser.Native.exe install=[browser] lang=[language] mode=[mode]
 * **language** - язык установки (EN, RU);
 * **mode** - режим установки (store, packed, unpacked, storelocal).
 
-## Установка браузерных расширений
-
 {% content-ref url="chrome.md" %}
 [chrome.md](chrome.md)
 {% endcontent-ref %}
