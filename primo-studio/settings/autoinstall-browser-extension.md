@@ -6,7 +6,7 @@
 
 ## Общая информация
 
-Дистрибутив расширения расположен в папке `\Extensions` программ Primo Studio/Primo Robot, которые должны быть предварительно установлены. 
+Дистрибутив расширения расположен в папке `\Extensions` программ Primo Studio/Primo Robot, которые должны быть предварительно установлены на компьютере. 
 
 Для браузеров Chrome, Edge и Yandex используется дистрибутив \Extensions\Chrome\chrome.crx. Для браузера Firefox - файл \Extensions\primo_rpa_extension-1.2-fx.xpi.
 
