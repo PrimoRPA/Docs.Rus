@@ -22,8 +22,8 @@ LTools.WebBrowser.Native.exe install=[browser] lang=[language] mode=[mode]
 [edge.md](edge.md)
 {% endcontent-ref %}
 
-{% content-ref url="rdp.md" %}
-[rdp.md](rdp.md)
+{% content-ref url="yandex.md" %}
+[yandex.md](yandex.md)
 {% endcontent-ref %}
 
 ## Установка плагинов
@@ -34,11 +34,19 @@ LTools.WebBrowser.Native.exe install=[browser] lang=[language] mode=[mode]
 Primo.RemoteAgent.exe InstallClient
 ```
 
+{% content-ref url="rdp.md" %}
+[rdp.md](rdp.md)
+{% endcontent-ref %}
+
 ### Расширение Java
 
 ```
 Extensions\JavaBridge.ps1
 ```
+
+{% content-ref url="java.md" %}
+[java.md](java.md)
+{% endcontent-ref %}
 
 
 
