@@ -26,7 +26,7 @@
 
    ![](../../.gitbook/assets/auto-install-ext-files.png)
    
-2. Скопируйте файлы **_Install_BrowserExtensions_GPO.bat** и **_InstallWebBrowserNative.bat** в папку с программой Студии/Робота, чтобы они были расположены рядом с файлом Primo.Robot.exe - например, в папку `C:\Program Files\Primo\Primo Studio x64`.
+2. Скопируйте файлы **_Install_BrowserExtensions_GPO.bat** и **_InstallWebBrowserNative.bat** в папку с программой Студии/Робота, чтобы они были расположены рядом с файлом Primo.Robot.exe - например, в папку `C:\Program Files\Primo\Primo Studio`.
 3. Последовательно запустите скрипты. 
 
 :bangbang:**Важно. Скрипт **_Install_BrowserExtensions_GPO.bat** необходимо запускать от имени администратора**. Для запуска второго файла права администратора не требуются.
