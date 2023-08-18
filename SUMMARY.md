@@ -42,7 +42,6 @@
     * [RDP](primo-studio/settings/plugin-install/rdp.md)
     * [Java](primo-studio/settings/plugin-install/java.md)
   * [Автоматизация установки расширения](primo-studio/settings/autoinstall-browser-extension.md)
-* [Горячие клавиши](primo-studio/hotkeys.md)
 * [Работа с проектами](primo-studio/projects/README.md)
   * [Анализ проекта](primo-studio/projects/analyzer.md)
   * [Шаблоны проектов](primo-studio/projects/project\_template.md)
@@ -81,6 +80,7 @@
   * [PrimoImportFix](primo-studio/tools/importfix.md)
   * [Редактор шаблонов OCR](primo-studio/tools/ocr-template-editor.md)
   * [Редактор диалогов](primo-studio/tools/dialogs-editor.md)
+* [Горячие клавиши](primo-studio/hotkeys.md)
 
 ## Рабочие элементы в Studio <a href="#g_elements" id="g_elements"></a>
 
