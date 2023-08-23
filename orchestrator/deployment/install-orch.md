@@ -38,7 +38,7 @@
 | Шаг                                              | Примечание     |
 | ------------------------------------------------ | -------------- |
 | 1. Настройка машины Робота                       | 1. См. [Настройка машины Робота под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/windows/robotmachine) <p>2. См. [Настройка машины Робота под CentOS 8](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/linux/robotmachine) </p> |  
-| 2. Установка Agent на машине Робота              | 1. См. [Установка Агента Оркестратора из инсталлятора под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/windows/agentinstaller) или [Установка Агента без инсталлятора под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/windows/appendix); </p> 2. См. [Установка Агента Оркестратора под CentOS 8](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/linux/agentinstall) </p> |  
+| 2. Установка Agent на машине Робота              | 1. См. [Установка Агента Оркестратора из инсталлятора под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/windows/agentinstaller) или [Установка Агента без инсталлятора под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/windows/appendix). <p> 2. См. [Установка Агента Оркестратора под CentOS 8](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/linux/agentinstall) </p> |  
 
 
 
