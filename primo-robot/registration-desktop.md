@@ -1,18 +1,17 @@
 # Регистрация Primo Robot локальным ключом
 
-Для запуска Primo Robot, установленного на рабочем месте пользователя, требуется лицензия [**Robot (Desktop)**](https://docs.primo-rpa.ru/primo-rpa/primo-robot/intro#izdaniya). Этот тип лицензии предназначен для роботов, работающих без Оркестратора (attended-роботов). 
+Для запуска Primo Robot, установленного на рабочем месте пользователя и работающего без Оркестратора, требуется лицензия [**Robot (Desktop)**](https://docs.primo-rpa.ru/primo-rpa/primo-robot/intro#izdaniya). 
 
 :bangbang: **Чтобы запросить лицензию Desktop локально с компьютера пользователя, нужно использовать утилиту Primo Robot Runner.**
 
-Ниже описана процедура получения лицензии **Desktop** и последующая регистрации робота локальным ключом.
-
+Ниже описана процедура получения лицензии Desktop и последующая регистрации робота.
 
 
 ## Primo Robot Runner
 
 Primo Robot Runner - утилита, позволяющая запускать роботов без Оркестратора и командной строки. Она поставляется вместе с дистрибутивом Primo Studio и Primo Robot.
 
-Для работы совместно с **Primo Studio Enterprise**, [зарегистрированной](https://docs.primo-rpa.ru/primo-rpa/primo-studio/installation/licenses) локальным ключом/либо через Оркестратор, строго рекомендуется ставить Primo Robot Runner отдельно - используя дистрибутив **Primo Robot**.
+Для работы совместно с **Primo Studio Enterprise**, [зарегистрированной](https://docs.primo-rpa.ru/primo-rpa/primo-studio/installation/licenses) локальным ключом/либо через Оркестратор, строго рекомендуется **ставить Primo Robot Runner отдельно** - используя дистрибутив Primo Robot.
 
 ![](<../.gitbook/assets/1. Дистрибутив Раннер.png>)
 
