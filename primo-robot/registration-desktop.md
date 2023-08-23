@@ -12,7 +12,7 @@
 
 Primo Robot Runner - утилита, позволяющая запускать роботов без Оркестратора и командной строки. Она поставляется вместе с дистрибутивом Primo Studio и Primo Robot.
 
-Для работы совместно с **Primo Studio Enterprise**, зарегистрированной [локальным ключом](https://docs.primo-rpa.ru/primo-rpa/primo-studio/installation/licenses)/либо через Оркестратор, строго рекомендуется ставить Primo Robot Runner отдельно - используя дистрибутив **Primo Robot**.
+Для работы совместно с **Primo Studio Enterprise**, [зарегистрированной](https://docs.primo-rpa.ru/primo-rpa/primo-studio/installation/licenses) локальным ключом/либо через Оркестратор, строго рекомендуется ставить Primo Robot Runner отдельно - используя дистрибутив **Primo Robot**.
 
 ![](<../.gitbook/assets/1. Дистрибутив Раннер.png>)
 
