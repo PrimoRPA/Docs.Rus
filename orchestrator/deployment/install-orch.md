@@ -29,15 +29,18 @@
 
 Руководства по установке всех перечисленных компонентов входят в комплект поставки Оркестратора.
 
+### Пример установки
+Пошаговое видео по установке Оркестратора на Windows Server 2019 с WebApi (IIS) можно просмотреть [здесь](https://www.youtube.com/watch?v=IAIRmChw65k&ab_channel=PrimoRPA).
+
 ## **Установка Робота** 
-После установки Оркестратора переходите к установке Робота:
-1. Сначала настройте машину Робота:
-   * См. [Настройка машины Робота под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/windows/robotmachine);
-   * См. [Настройка машины Робота под CentOS 8](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/linux/robotmachine).
-2. Затем установите Agent на машине Робота:
-   * См. [Установка Агента Оркестратора из инсталлятора под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/windows/agentinstaller) 
-     * или [Установка Агента без инсталлятора под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/windows/appendix);
-   * См. [Установка Агента Оркестратора под CentOS 8](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/linux/agentinstall).
+После установки Оркестратора переходите к установке Робота. Выполните последовательные шаги:
+
+| Шаг                                              | Примечание     |
+| ------------------------------------------------ | -------------- |
+| 1. Настройка машины Робота                       | 1. См. [Настройка машины Робота под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/windows/robotmachine) <p>2. См. [Настройка машины Робота под CentOS 8](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/linux/robotmachine) </p> |  
+| 2. Установка Agent на машине Робота              | 1. См. [Установка Агента Оркестратора из инсталлятора под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/windows/agentinstaller) или [Установка Агента без инсталлятора под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/windows/appendix); </p> 2. См. [Установка Агента Оркестратора под CentOS 8](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/linux/agentinstall) </p> |  
+
+
 
 
 
