@@ -35,5 +35,5 @@ Primo Studio поставляется в двух изданиях: Community (�
 Если вы установили Primo Studio Enterprise, ознакомьтесь с процессом запуска в разделе [Запуск Primo Studio](https://docs.primo-rpa.ru/primo-rpa/primo-studio/installation/licenses).
 
 ## Обновление 
-Процедуры обновления и удаления Студии описана в [этом разделе](https://docs.primo-rpa.ru/primo-rpa/primo-studio/installation/update).
+Процедуры обновления и удаления Студии описаны в [этом разделе](https://docs.primo-rpa.ru/primo-rpa/primo-studio/installation/update).
 
