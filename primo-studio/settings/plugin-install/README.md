@@ -1,6 +1,8 @@
 # Установка расширений и плагинов
 
-## Установка расширений браузеров
+В статье приводится способ установки плагинов из командной строки.
+
+## Расширения браузеров
 
 ```
 LTools.WebBrowser.Native.exe install=[browser] lang=[language] mode=[mode]
@@ -9,6 +11,25 @@ LTools.WebBrowser.Native.exe install=[browser] lang=[language] mode=[mode]
 * **browser** - тип браузера (CHROME, FIREFOX, EDGE, YANDEX);
 * **language** - язык установки (EN, RU);
 * **mode** - режим установки (store, packed, unpacked, storelocal).
+
+## Установка плагинов
+
+### Расширение RDP
+
+```
+Primo.RemoteAgent.exe InstallClient
+```
+
+### Расширение Java
+
+```
+Extensions\JavaBridge.ps1
+```
+
+
+## Установка плагинов из Студии
+
+Установка перечисленных плагинов также доступна вручную из окна настроек Студии. Инструкции см. в разделах:
 
 {% content-ref url="chrome.md" %}
 [chrome.md](chrome.md)
@@ -26,28 +47,11 @@ LTools.WebBrowser.Native.exe install=[browser] lang=[language] mode=[mode]
 [yandex.md](yandex.md)
 {% endcontent-ref %}
 
-## Установка плагинов
-
-### Расширение RDP
-
-```
-Primo.RemoteAgent.exe InstallClient
-```
-
 {% content-ref url="rdp.md" %}
 [rdp.md](rdp.md)
-{% endcontent-ref %}
-
-### Расширение Java
-
-```
-Extensions\JavaBridge.ps1
-```
+{% endcontent-ref %} 
 
 {% content-ref url="java.md" %}
 [java.md](java.md)
 {% endcontent-ref %}
-
-
-
 
