@@ -7,7 +7,7 @@
 ```
 LTools.WebBrowser.Native.exe install=[browser] lang=[language] mode=[mode]
 ```
-Поддерживаемые параметры:
+Поддерживаемые аргументы:
 * **browser** - тип браузера (CHROME, FIREFOX, EDGE, YANDEX);
 * **language** - язык установки (EN, RU);
 * **mode** - режим установки (store, packed, unpacked, storelocal).
