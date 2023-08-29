@@ -39,4 +39,4 @@
 * Создать [аргумент](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/variables#argumenty) - `Ctrl` + `Alt` + `K`.\
   Если аргумент нужно создать в свойствах элемента, выделите свойство и используйте горячие клавиши - тип данных будет задан автоматически.
 
-  Указанные горячие клавиши также поддерживаются в окне аргументов в элементе [**Ссылка на процесс**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_logic/el_logic_link).
+  Горячие клавиши также поддерживаются в окне аргументов [Ссылки на процесс](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_logic/el_logic_link).
