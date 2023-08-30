@@ -4,7 +4,7 @@
 
 ![](<../../../../.gitbook/assets/image (269).png>)
 
-Компонент позволяет получить значение [ресурса](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) (assets) из Оркестратора.
+Компонент позволяет получить значение [ресурса](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) (asset) из Оркестратора.
 
 ### Свойства
 Описание общих свойств элемента см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
