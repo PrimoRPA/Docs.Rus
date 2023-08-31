@@ -4,9 +4,9 @@
 
 ![](<../../../../.gitbook/assets/image (269).png>)
 
-Компонент позволяет получить [ресурс](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) (asset) из Оркестратора. Поддерживаются ресурсы с типом данных: String, Integer, Floating, DateTime, Boolean. Полученный ресурс необходимо сохранить в переменную вывода (свойство **Результат**), которой задан тип System.Object.
+Компонент позволяет получить [ресурс](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) (asset) из Оркестратора. Полученный ресурс необходимо сохранить в переменную вывода (свойство **Результат**), которой задан тип System.Object.
 
-Чтобы получить ресурс с типом данных Credentials, следует использовать элемент [Получить учетные данные](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_assets/el_orch_getcredentials).
+:small_blue_diamond: **Примечание**. Поддерживаются ресурсы Оркестратора со всеми типами данных, кроме Credentials. Чтобы получить ресурс с типом Credentials, следует использовать элемент [Получить учетные данные](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_assets/el_orch_getcredentials).
 
 
 ### Свойства
