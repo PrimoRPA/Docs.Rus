@@ -2,33 +2,64 @@
 
 Примечания к выпуску Оркестратора 23.8 описывают изменения для версии приложения, выпущенной в августе 2023 года.
 
-Список задач (с посл демо):
-
-1. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Новые функции и улучшения
 
-1. 1115 - Мультитенантная AD-авторизация. Добавить возможность используя AD авторизацию использовать разные тенанты под одной УЗ. - сделали или нет? как работает?
+1. 1115, 3344 - Мультитенантная AD-авторизация + Поменять расположение элементов на форме авторизации.
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/1115
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/3344
+
+1115 - Мультитенантная AD-авторизация. Добавить возможность используя AD авторизацию использовать разные тенанты под одной УЗ. - как работает?
 Включает:
-    1.1. 703 - Добавить возможность используя AD авторизацию использовать разные тенанты под одной УЗ. Добавить возможность используя AD авторизацию использовать разные тенанты под одной УЗ. Есть определенное кол-во админов, создавать дубликаты никто не будет, обсудить, как обойти данную проблемы для администрирования нескольких тенантов. Локалки запрещены.       https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/703
+    703 - Добавить возможность используя AD авторизацию использовать разные тенанты под одной УЗ. Добавить возможность используя AD авторизацию использовать разные тенанты под одной УЗ. Есть определенное кол-во админов, создавать дубликаты никто не будет, обсудить, как обойти данную проблемы для администрирования нескольких тенантов. Локалки запрещены.       https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/703
+
+
+
+
+
+
+1. 768 - Добавить версию проекта
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/768
+
+1. 701 - Невозможно добавить два триггера с одной и той же очередью обмена. Скрыли триггер.
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/701
+
+1. 202, 961 - Реализовать отображение используемых лицензий + Поменять метод для запроса файла лицензии на v2
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/202
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/961
+
+1. 909 - Поменять текст на "Пауза" для кнопке в таблице Машины
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/909
+
+1. 931 - Скрывать кнопку Пауза по конфигу
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/931
+
+1. 1005 - Добавить подсказку для поля интервал в Роботах
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/1005
+
+1. 1021 - Добавить поля для журнала регистрации событий
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/1021
+
+1. 1052 - Переименовать поле Логи в консоль
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/1052
+
+1. 1107 - Добавить поля FIFOLocked и FIFORetry
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/1107
+
+1. 1013 - Статистика очередей обмена данными
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/1013
+
+1. Изменена проверка на уникальность email пользователя: теперь адрес должен быть уникальным в рамках тенанта, к которому пользователь принадлежит. Ранее проверка осуществлялась глобально, что не давало возможность указывать один и тот же почтовый адрес в разных тенантах.
+1. Максимальное количество символов в поле с наименованием Робота увеличено до 200. Теперь можно указывать более полные и ясные названия.
+
+-----------
+1. Князьков далее (-13:40) 
+
+
+
+
+
+
+
 
 2. 1011 - Удаление зависимости Primo.FreeRdpWrapper'а от .NET Core SDK. - на что это влияет? нужно ли в релизе?
 
@@ -75,9 +106,10 @@ service Primo.Orchestrator.WebApi restart
 
 ### Исправленные ошибки
 
-1.
-
-
+1. 749 - Скорректировать работу фильтра         https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/749
+1. 750 - Список RDP-пользователей    https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/750
+1. 104 - Баг с отображением очереди выполнения  https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/104
+1. 773 - В форме Добавить/Редактировать задание валидация не пропускает email https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/773
 
 
 -------------
@@ -101,9 +133,9 @@ service Primo.Orchestrator.WebApi restart
 ### Где скачать
 
 Скачать комплект поставки Оркестратора 23.8 можно по [этой ссылке](https://disk.primo-rpa.ru/index.php/s/release?path=%2FOrchestrator). Он содержит 2 архива:
-* Primo RPA Orchestrator 23.8.0 FULL.zip - полный комплект поставки, в который входят дистрибутивы Оркестратора и внешних компонентов: например, базы данных PostgreSQL Server, брокера сообщений RabbitMQ и др.
-* Primo RPA Orchestrator 23.8.0.zip - облегченный вариант поставки. 
+* **Primo RPA Orchestrator 23.8.0 FULL.zip** - полный комплект поставки, в который входят дистрибутивы Оркестратора и внешних компонентов: например, базы данных PostgreSQL Server, брокера сообщений RabbitMQ и др.
+* **Primo RPA Orchestrator 23.8.0.zip** - облегченный вариант поставки, который весит около ~ 1,1 Гб.
 
-Обращаем внимание, что робот Enterprise, дистрибутив которого загружается в Оркестратор, скачивается отдельно от комплекта поставки. Архив с роботом имеет название Primo RPA Robot Orchestrator <архитектура> 23.8.0.zip и находится [здесь](https://disk.primo-rpa.ru/index.php/s/release?path=%2FRobot).
+Робот Enterprise, дистрибутив которого загружается в Оркестратор, скачивается отдельно от комплекта поставки. Архив имеет название **Primo RPA Robot Orchestrator <архитектура> 23.8.0.zip** и находится [здесь](https://disk.primo-rpa.ru/index.php/s/release?path=%2FRobot).
 
 
