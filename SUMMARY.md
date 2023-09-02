@@ -4,6 +4,7 @@
 * [Полезные ресурсы](useful-links.md)
 * [Примечания к выпускам](release-notes/README.md)
   * [Студия](release-notes/studio/README.md)
+    * [Студия 23.8](release-notes/studio/studio-23.8.md)
     * [Студия 23.7](release-notes/studio/studio-23.7.md)
     * [Студия 23.6](release-notes/studio/studio-23.6.md)
     * [Студия 23.5](release-notes/studio/studio-23.5.md)
