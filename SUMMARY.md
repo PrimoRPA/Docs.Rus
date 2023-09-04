@@ -737,7 +737,7 @@
 * [Системные требования](primo-robot/systemreq.md)
 * [Ручная установка Primo Robot](primo-robot/installation/README.md)
   * [Ручная установка и запуск Робота Core](primo-robot/installation/robot\_core.md)
-* [Регистрация Primo Robot](primo-robot/registration-desktop.md)
+* [Регистрация Primo Robot локальным ключом](primo-robot/registration-desktop.md)
 * [Запуск из командной строки](primo-robot/launch-command.md)
 * [Primo Robot Runner](primo-robot/robot-runner/README.md)
   * [Задачи](primo-robot/robot-runner/tasks.md)
