@@ -7,7 +7,7 @@
 * События OCR (клик изображения)
 * События файловой системы (изменение файла)
 
-Для создания обработчика события добавьте в проект контейнер [**События**](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/els_desktop/els_events) из группы элементов **Рабочий стол ➝ События**:
+Для создания обработчика события добавьте в проект контейнер [**События**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_desktop/els_events/el_events) из группы элементов **Рабочий стол ➝ События**:
 
 ![](<../../.gitbook/assets/image (99).png>)
 
