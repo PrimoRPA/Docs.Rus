@@ -28,11 +28,11 @@
 ## Primo Studio
 
 * [Системные требования](primo-studio/systemreq.md)
-* [Установка и запуск](primo-studio/installation/README.md)
-  * [Запуск Primo Studio (Enterprise)](primo-studio/installation/licenses.md)
+* [Установка и обновление](primo-studio/installation/README.md)
   * [Обновление и удаление](primo-studio/installation/update.md)
+* [Запуск](primo-studio/launch/enterprise.md)
 * [Начало работы](primo-studio/getting-started/README.md)
-* [Настройка Студии](primo-studio/settings/README.md)
+* [Настройки](primo-studio/settings/README.md)
   * [Управление панелями](primo-studio/settings/layout.md)
   * [Мультисессионная работа](primo-studio/settings/multisession.md)
   * [Ручная установка расширений и плагинов](primo-studio/settings/plugin-install/README.md)
@@ -58,7 +58,7 @@
   * [Работа с диаграммой](primo-studio/process/diagram.md)
   * [Работа с кодом](primo-studio/process/coding.md)
   * [Песочница](primo-studio/process/processes\_sandbox.md)
-  * [Работа с элементами](primo-studio/process/elements.md)
+  * [Элементы](primo-studio/process/elements.md)
   * [Переменные. Глобальная переменная](primo-studio/process/variables.md)
   * [Аргументы](primo-studio/process/args.md)
   * [Шаблоны поиска](primo-studio/process/searchpatterns/README.md)
