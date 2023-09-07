@@ -1,4 +1,4 @@
-## Запуск Primo Studio (Enterprise)
+# Запуск Studio Enterprise
 
 Запустить приложение можно по ярлыку на рабочем столе либо через меню **Пуск** ➝ **Primo ➝ Primo Studio**.
 
