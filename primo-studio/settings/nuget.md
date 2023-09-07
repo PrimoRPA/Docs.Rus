@@ -4,9 +4,11 @@ Primo Studio позволяет подключать собственные ис
 * раздел меню **Файл > Настройки > Network > Nuget**;
 * либо глобальную конфигурацию Nuget: см. статью Microsoft [«Команда sources (интерфейс командной строки NuGet)](https://docs.microsoft.com/ru-ru/nuget/reference/cli-reference/cli-ref-sources)».
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+## Подключение из Студии
 
-В разделе **Network > Nuget** для управления источниками имеются кнопки: «Создать», «Редактировать», «Удалить». Они отображаются в правом верхнем углу в виде иконок (см. скриншот выше). 
+В разделе **Network > Nuget** для управления источниками имеются кнопки: «Создать», «Редактировать», «Удалить». Они отображаются в правом верхнем углу в виде иконок:
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 При создании источника появится окно:
 
