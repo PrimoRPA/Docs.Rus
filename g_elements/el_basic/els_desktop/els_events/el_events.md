@@ -41,90 +41,18 @@ Primo Studio позволяет настроить реакцию Робота �
 
 ### TriggerEventArgs
 
-LTools.Common.Model. Triggers.TriggerEventArgs - модель данных события. Данные зависят от события: робот заполняет только те свойства модели, которые относятся к вызываемому событию.
+LTools.Common.Model.Triggers.TriggerEventArgs - модель данных события. Данные зависят от события: робот заполняет только те свойства модели, которые относятся к вызываемому событию.
 
 Свойства модели:
-1. TriggerName - имя триггера.
-2. TriggerID - ID элемента-события.
-3. TriggerType - тип триггера. 
-4. HotKey - данные о горячих клавишах.
-5. MouseClick - данные о клике мыши.
-6. FileChange - данные об изменении файла.
-7. ProcessInf - данные о процессе.
-8. Attribute - данные атрибута.
+1. TriggerName - имя триггера. String.
+2. TriggerID - ID элемента-события. Guid.
+3. TriggerType - тип триггера. System.RuntimeType.
+4. HotKey - данные о горячих клавишах. LTools.Common.Model.Triggers.HotKeyInfo.
+5. MouseClick - данные о клике мыши. MouseClickInfo.
+6. FileChange - данные об изменении файла. FileChangeInfo.
+7. ProcessInf - данные о процессе. ProcessInfo.
+8. Attribute - данные атрибута. AttributeInfo.
 
 **Пример данных для события спецкнопки:**
 
 ![](<../../../../.gitbook/assets/events-args-model.png>)
-
-        /// <summary>
-        /// Имя триггера
-        /// </summary>
-        public string TriggerName
-        {
-            get;
-            set;
-        }
-
-        /// <summary>
-        /// ID элемента
-        /// </summary>
-        public Guid? TriggerID
-        {
-            get;
-            set;
-        }
-
-        /// <summary>
-        /// Тип триггера
-        /// </summary>
-        public Type TriggerType
-        {
-            get;
-            set;
-        }
-
-        /// <summary>
-        /// Данные о горячих клавишах
-        /// </summary>
-        public HotKeyInfo HotKey
-        {
-            get;
-            set;
-        }
-
-        /// <summary>
-        /// Данные о клике мыши
-        /// </summary>
-        public MouseClickInfo MouseClick
-        {
-            get;
-            set;
-        }
-
-        /// <summary>
-        /// Изменение файла
-        /// </summary>
-        public FileChangeInfo FileChange
-        {
-            get;
-            set;
-        }
-
-        /// <summary>
-        /// Данные процесса
-        /// </summary>
-        public ProcessInfo ProcessInf
-        {
-            get;
-            set;
-        }
-
-        /// <summary>
-        /// Данные аттрибута
-        /// </summary>
-        public AttributeInfo Attribute
-        {
-            get;
-            set;
-        }
