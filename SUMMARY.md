@@ -740,7 +740,7 @@
   * [Установка и запуск Робота Core](primo-robot/installation/robot\_core.md)
 * [Регистрация локальным ключом](primo-robot/registration-desktop.md)
 * [Запуск из командной строки](primo-robot/launch-command.md)
-* [Primo Robot Runner](primo-robot/robot-runner/README.md)
+* [Robot Runner](primo-robot/robot-runner/README.md)
   * [Задачи](primo-robot/robot-runner/tasks.md)
   * [Расписания](primo-robot/robot-runner/schedules.md)
   * [Настройки](primo-robot/robot-runner/settings.md)
