@@ -29,7 +29,7 @@
 
 * [Системные требования](primo-studio/systemreq.md)
 * [Установка и обновление](primo-studio/installation/README.md)
-  * [Обновление и удаление](primo-studio/installation/update.md)
+  * [Обновление](primo-studio/installation/update.md)
 * [Запуск](primo-studio/launch/enterprise.md)
 * [Начало работы](primo-studio/getting-started/README.md)
 * [Настройки](primo-studio/settings/README.md)
