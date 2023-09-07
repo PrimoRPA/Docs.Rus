@@ -61,7 +61,7 @@
   * [Элементы](primo-studio/process/elements.md)
   * [Переменные. Глобальная переменная](primo-studio/process/variables.md)
   * [Аргументы](primo-studio/process/args.md)
-  * [Шаблоны поиска](primo-studio/process/searchpatterns/README.md)
+  * [Шаблон поиска](primo-studio/process/searchpatterns/README.md)
     * [Категории приложений](primo-studio/process/searchpatterns/apps-categories.md)
     * [Поколение 1](primo-studio/process/searchpatterns/gen1.md)
   * [События](primo-studio/process/events.md)
@@ -86,7 +86,7 @@
 
 ## Элементы в Studio <a href="#g_elements" id="g_elements"></a>
 
-* [Основные элементы](g\_elements/el\_basic/README.md)
+* [Основные](g\_elements/el\_basic/README.md)
   * [Google Sheets](g\_elements/el\_basic/gsheets/README.md)
     * [Документ Google Sheets](g\_elements/el\_basic/gsheets/el\_gsheets\_document.md)
     * [Запись диапазона](g\_elements/el\_basic/gsheets/el\_gsheets\_writerange.md)
@@ -596,7 +596,7 @@
     * [Существует файл/папка](g\_elements/el\_basic/els\_files/el\_files\_exists.md)
     * [Удалить файл/папку](g\_elements/el\_basic/els\_files/el\_files\_deldir.md)
     * [Чтение файла](g\_elements/el\_basic/els\_files/el\_files\_readfile.md)
-* [Дополнительные элементы](g\_elements/el\_extra/README.md)
+* [Дополнительные](g\_elements/el\_extra/README.md)
   * [2captcha](g\_elements/el\_extra/els\_2capcha/README.md)
     * [Решить hCapcha](g\_elements/el\_extra/els\_2capcha/el\_solvehcapcha.md)
     * [Решить ReCapcha v2](g\_elements/el\_extra/els\_2capcha/el\_solverecapcha2.md)
