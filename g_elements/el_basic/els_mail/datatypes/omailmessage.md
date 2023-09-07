@@ -60,7 +60,7 @@ LTools.Office.Model.OMailMessage - модель письма. Используе
 
 ![](<../../../../.gitbook/assets/omail-message-properties2.png>)
 
-Их описание можно найти в разделе [Свойства](https://learn.microsoft.com/ru-ru/office/client-developer/outlook/mapi/mapi-properties), выбрав нужное название канонического свойства в левом меню. 
+Их описание можно найти в [этом разделе](https://learn.microsoft.com/ru-ru/office/client-developer/outlook/mapi/mapi-properties), выбрав нужное название канонического свойства в левом меню. 
 
 Пример получения отображаемого [имени отправителя](https://learn.microsoft.com/ru-ru/office/client-developer/outlook/mapi/pidtagsendername-canonical-property): `var_list_mails[0].MessageProperties.PR_SENDER_NAME`. 
 
