@@ -8,3 +8,7 @@
 .
 
 <iframe id="ytplayer" type="text/html" width="640" height="360" src="http://www.youtube.com/embed/IAIRmChw65k?si=EGuQeE-o9Cn21OF8" frameborder="0"/></iframe>
+
+.
+
+[![](https://img.youtube.com/vi/IAIRmChw65k?si=EGuQeE-o9Cn21OF8/0.jpg)](https://www.youtube.com/watch?v=IAIRmChw65k?si=EGuQeE-o9Cn21OF8)
