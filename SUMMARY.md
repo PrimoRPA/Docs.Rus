@@ -731,6 +731,8 @@
     * [Редактировать фигуру](g\_elements/el\_extra/els\_powerpoint/el\_powerpoint\_setshape.md)
     * [Сохранить документ](g\_elements/el\_extra/els\_powerpoint/el\_powerpoint\_save.md)
     * [Удалить слайд](g\_elements/el\_extra/els\_powerpoint/el\_powerpoint\_deleteslide.md)
+  * [Тест](g\_elements/el\_extra/video-test.md)
+
 
 ## Primo Robot
 
