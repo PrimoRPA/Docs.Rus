@@ -11,3 +11,6 @@
 ![](<../../../.gitbook/assets/test-pic.png>)
 
 
+...
+
+[Руководство по Markdown](https://www.youtube.com/watch?v=6A5EpqqDOdk)
