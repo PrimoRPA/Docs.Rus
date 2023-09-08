@@ -11,6 +11,6 @@
 [![текст](https://img.youtube.com/vi/IAIRmChw65k&ab_channel=PrimoRPA/0.png)](https://www.youtube.com/watch?v=IAIRmChw65k?si=EGuQeE-o9Cn21OF8)
 
 ..
+[![установка оркестратора](<../../../.gitbook/assets/test-pic.png>)]
 
-[![](<img src="//img.youtube.com/vi/IAIRmChw65k&ab_channel=PrimoRPA/0.png" width="640" height="480">)](https://www.youtube.com/watch?v=IAIRmChw65k&ab_channel=PrimoRPA)
 
