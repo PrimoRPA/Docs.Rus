@@ -29,3 +29,5 @@ https://user-images.githubusercontent.com/5617868/194554107-2bd89c77-2faf-4048-8
 .....
 
 [![Превью видео](https://raw.githubusercontent.com/PrimoRPA/Docs.Rus/main/.gitbook/assets/video_preview/test_gif.gif)](https://www.youtube.com/watch?v=IAIRmChw65k)
+
+![(<https://raw.githubusercontent.com/PrimoRPA/Docs.Rus/main/.gitbook/assets/video_preview/test_gif.gif>)](https://www.youtube.com/watch?v=IAIRmChw65k)
