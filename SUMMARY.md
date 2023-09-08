@@ -802,7 +802,7 @@
   * [Email входящей почты](orchestrator/settings/email.md)
   * [Черный/Белый список Студий](orchestrator/settings/black-white-list.md)
   * [NuGet](orchestrator/settings/nuget.md)
-* [Рук-во пользователя](orchestrator/basics/README.md)
+* [Руководство пользователя](orchestrator/basics/README.md)
   * [Ручной запуск Робота с RPA-проектом](orchestrator/basics/robot-manual-start.md)
   * [Задания](orchestrator/basics/tasks/README.md)
     * [Аргументы проекта](orchestrator/basics/tasks/orch-args.md)
