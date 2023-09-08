@@ -11,4 +11,6 @@
 
 Еще вариант:
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/IAIRmChw65k&ab_channel=PrimoRPA/1.jpg)](https://www.youtube.com/watch?v=IAIRmChw65k&ab_channel=PrimoRPA)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/IAIRmChw65k&ab_channel=PrimoRPA/0.jpg)](https://www.youtube.com/watch?v=IAIRmChw65k&ab_channel=PrimoRPA)
+
+[![Текст](https://i.stack.imgur.com/q3ceS.png)](https://youtu.be/StTqXEQ2l-Y?t=35s "Everything Is AWESOME")
