@@ -24,3 +24,8 @@
 .....
 
 https://user-images.githubusercontent.com/5617868/194554107-2bd89c77-2faf-4048-8c21-002b4b704611.mp4
+
+
+.....
+
+[![Превью видео](https://raw.githubusercontent.com/PrimoRPA/Docs.Rus/main/.gitbook/assets/video_preview/test_gif.gif)](https://www.youtube.com/watch?v=IAIRmChw65k)
