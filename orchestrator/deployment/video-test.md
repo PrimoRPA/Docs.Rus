@@ -14,3 +14,15 @@
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/IAIRmChw65k&ab_channel=PrimoRPA/0.jpg)](https://www.youtube.com/watch?v=IAIRmChw65k&ab_channel=PrimoRPA)
 
 [![Текст](https://i.stack.imgur.com/q3ceS.png)](https://youtu.be/StTqXEQ2l-Y?t=35s "Everything Is AWESOME")
+
+
+
+
+[![Текст](https://i.stack.imgur.com/q3ceS.png)](https://youtu.be/IAIRmChw65k?si=EGuQeE-o9Cn21OF8?t=5s "Установка орка")
+
+https://youtu.be/IAIRmChw65k?si=EGuQeE-o9Cn21OF8
+
+
+Final
+
+[![](<../../.gitbook/assets/test-pic.png>)](https://youtu.be/IAIRmChw65k?si=EGuQeE-o9Cn21OF8?t=5s "Установка орка")
