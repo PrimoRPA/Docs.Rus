@@ -13,4 +13,4 @@
 
 ...
 
-[Руководство по Markdown](https://www.youtube.com/watch?v=6A5EpqqDOdk)
+[![Превью видео](https://img.youtube.com/vi/ваш_идентификатор_видео/0.jpg)](https://www.youtube.com/watch?v=IAIRmChw65k)
