@@ -13,4 +13,4 @@
 
 ...
 
-[![Превью видео](https://img.youtube.com/vi/ваш_идентификатор_видео/0.jpg)](https://www.youtube.com/watch?v=IAIRmChw65k)
+[![Превью видео](https://img.youtube.com/vi/IAIRmChw65k/0.jpg)](https://www.youtube.com/watch?v=IAIRmChw65k)
