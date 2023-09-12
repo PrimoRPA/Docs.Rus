@@ -1,35 +1,82 @@
 # HTML к объекту
 
-![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (176).png>)
+##	Словарь
 
-![](<../../../../.gitbook/assets/image (381).png>)
+* Активность – элемент, задающий роботу команду для выполнения.
+* Процесс – модуль, содержащий несколько активностей (ltw-файл).
+* Проект – набор процессов для выполнения поставленной задачи.
 
-Компонент, осуществляющий преобразование HTML в объект и поиск в нем. Если указан XPath, результат будет иметь тип AngleSharp.Dom.INode, в противном случае AngleSharp.Html.Parser.IHtmlDocument
+##	Данные
+Активности группы «Данные» предназначены для работы:
+* с таблицами, строками, датами, изображениями и архивацией данных;
+* с JSON, HTML, XML-кодом.
 
-| Свойство     | Тип                                                         | Описание                                                                                                                       |
-| ------------ | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| Переменная\* | AngleSharp.Dom.INode / AngleSharp.Html.Parser.IHtmlDocument | Переменная, получающая результат поиска '[https://github.com/AngleSharp/AngleSharp](https://github.com/AngleSharp/AngleSharp)' |
-| Данные\*     | String                                                      | Строка HTML                                                                                                                    |
-| XPath        | String                                                      | Строка выражения XPath '[https://ru.wikipedia.org/wiki/XPath](https://ru.wikipedia.org/wiki/XPath)'                            |
+###	HTML
+Этот блок активностей может использоваться в бизнес-процессах, направленных на работу с HTML-кодом. Например, такой код может прийти в теле письма. Или может понадобиться извлечь данные из HTML-кода сайта и обработать их.
 
-{% tabs %}
-{% tab title="C#" %}
-```csharp
-List<AngleSharp.Dom.INode> ret = AngleSharp.XPath.Extensions.SelectNodes(new AngleSharp.Html.Parser.HtmlParser().ParseDocument("html").DocumentElement, "xpath");
+####	HTML к объекту
+Активность преобразует текст формата HTML в объект, а также позволяет произвести поиск в нем с помощью XPath. Если XPath указан, результат будет иметь тип данных AngleSharp.Dom.INode:
+
+![](<../../../../.gitbook/assets/html-to-object-type-variable.png>)
+
+Пример: 
+
+•	 Input data – переменная типа String, содержащая HTML-код:
 ```
-{% endtab %}
+<!DOCTYPE html>
+<html>
+      <body>
+      <h2>Primo RPA</h2>
+      <ul style="list-style-type:square;">
+  	         <li id="1" class="studio">Primo Studio</li>
+  	         <li id="2" class ="robot">Primo Robot</li>
+  	         <li id="3" class ="orc">Primo Orchestrator</li>
+      </ul>
+      </body>
+</html>
+ ```
 
-{% tab title="Python" %}
-```python
-ret = AngleSharp.XPath.Extensions.SelectNodes(AngleSharp.Html.Parser.HtmlParser().ParseDocument("html").DocumentElement, "xpath")
-```
-{% endtab %}
+Присвоение HTML-кода в Студии:
 
-{% tab title="JavaScript" %}
-```javascript
-var host = new _lib.Microsoft.ClearScript.HostFunctions();
-var doc = host.newObj(_lib.AngleSharp.Html.Parser.HtmlParser);
-var ret = _lib.AngleSharp.XPath.Extensions.SelectNodes(doc.ParseDocument("html").DocumentElement, "xpath");
-```
-{% endtab %}
-{% endtabs %}
+![](<../../../../.gitbook/assets/html-to-object-assign.png>)
+
+•	XPath – это язык запросов к элементам HTML. Может быть представлен в виде абсолютного и относительного пути:
+1. Относительный путь начинается с двух наклонных черт и последующим одиночным тегом нужного нам элемента. Пример:
+
+   `//*[@id="2"]` – поиск по свойству тега id.
+
+   `//*[@id>"1"]` – поиск по свойству тега id (все, где id больше 1).
+
+   `//li[@class="studio"]` – поиск во всех элементах li по свойству class.
+3. Абсолютный путь - является простейшим маршрутом поиска, указывающим на корневой узел документа. Начинается с наклонной черты. Пример:
+
+   `/html/body/ul/li[2]` – поиск второго элемента списка.
+
+Присвоение xPath в Студии:
+ 
+![](<../../../../.gitbook/assets/html-to-object-assign-xpath.png>)
+
+Активность **HTML to object** в Студии:
+
+![](<../../../../.gitbook/assets/html-to-object-in-studio.png>)
+
+•	Output – переменная типа System.Collections.Generic.List<AngleSharp.Dom.INode>.
+
+### Полезные ссылки
+
+Ссылка для ознакомления с теорией по созданию XPath запросов: https://devhints.io/xpath
+
+Ссылка для проверки созданных XPath запросов: http://xpather.com/ 
+
+:bangbang: ***Ссылка на гитхаб с примером, появится, когда согласуем добавление***
+
+
+
+
+
+
+
+
+
+
+
