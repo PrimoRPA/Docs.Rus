@@ -19,3 +19,9 @@
 | ---------- | --- | ------------------------------------------------------- |
 | Данные\*   | T   | Выражение, результат которого будет присвоен переменной |
 | Переменная | T   | Переменная, которой будет присвоено значение            |
+
+**Примечание**:
+
+Тип `T` - это параметр универсального типа. О нем можно прочесть в документации Microsoft:
+* [на англ. языке](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/generic-type-parameters).
+* [на русском](https://learn.microsoft.com/ru-ru/dotnet/csharp/fundamentals/types/generics).
