@@ -19,7 +19,7 @@ RPA-разработчики управляют очередями при пом
 * [Получить из очереди по ID](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/orkestrator/els_queues/peekqueueid)
 * [Получить из очереди по фильтру](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/orkestrator/els_queues/peekqueuefilter)
 * [Ожидать сообщения из очереди](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/orkestrator/els_queues/waitqueue)
-* [Изменить статус очереди](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/orkestrator/els_queues/changestatequeue)
+* [Изменить статус в очереди](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/orkestrator/els_queues/changestatequeue)
 * [Удалить из очереди](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/orkestrator/els_queues/deletequeueitem)
 
 Их можно найти на панели **Элементы** в группе **Оркестратор ➝ Очереди**, как показано на рисунке ниже:
