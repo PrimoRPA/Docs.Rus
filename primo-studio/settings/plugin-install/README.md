@@ -14,13 +14,13 @@ LTools.WebBrowser.Native.exe install=[browser] lang=[language] mode=[mode]
 
 ## Установка плагинов
 
-### Расширение RDP
+### RDP
 
 ```
 Primo.RemoteAgent.exe InstallClient
 ```
 
-### Расширение Java
+### Java
 
 ```
 Extensions\JavaBridge.ps1
