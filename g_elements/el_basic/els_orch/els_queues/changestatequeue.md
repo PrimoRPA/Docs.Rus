@@ -1,10 +1,12 @@
 # Изменить статус в очереди
 
+**Английское название**: Change queue item state
+
 ![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (1) (8).png>)
 
 ![](<../../../../.gitbook/assets/change-status-orch-queue-items.png>)
 
-**Английское название**: Change queue item state
+
 
 **Назначение**: позволяет изменить статус элемента в [очереди обмена данных](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/data-queues) Оркестратора.
 
