@@ -1,6 +1,6 @@
 # Изменить статус в очереди
 
-Change queue item state
+<center> Change queue item state </center>
 
 ![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (1) (8).png>)
 
