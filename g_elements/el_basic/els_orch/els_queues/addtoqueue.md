@@ -38,7 +38,7 @@
 | _**Вывод:**_     |                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | Элемент         | [LTools.Enterprise.Model.QueueItem](https://docs.primo-rpa.ru/primo-rpa/g\_elements/osnovnye-elementy/orkestrator/els\_queues/datatypes) | Укажите переменную, в которую нужно сохранить добавленный элемент очереди                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 
-### Пример заполнения свойств:
+### Пример заполнения свойств
 
 1\. Указание свойства **Значение** в формате JSON (кавычки нужно заэкранировать: **\\"**):
 
