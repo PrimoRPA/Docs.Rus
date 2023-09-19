@@ -4,7 +4,9 @@
 
 ![](<../../../../.gitbook/assets/change-status-orch-queue-items.png>)
 
-**«Изменить статус в очереди» (Change queue item state)** - позволяет изменить статус элемента в [очереди обмена данных](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/data-queues) Оркестратора.
+**Английское название**: Change queue item state
+
+**Назначение**: позволяет изменить статус элемента в [очереди обмена данных](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/data-queues) Оркестратора.
 
 Жизненный цикл элемента очереди:
 
