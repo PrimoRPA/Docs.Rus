@@ -29,12 +29,8 @@
 ## Запуск
 
 Primo Studio поставляется в двух изданиях: 
-* Community - бесплатная;
-* Enterprise - требуется покупка лицензии.
-
-Если вы установили Primo Studio Community, то можно сразу начинать работу. 
-
-Если вы установили Primo Studio Enterprise, ознакомьтесь с разделом [Запуск](https://docs.primo-rpa.ru/primo-rpa/primo-studio/enterprise).
+* Community - бесплатная. Если вы установили Studio Community, то можно сразу начинать работать. 
+* Enterprise - требует лицензии. Если вы установили Studio Enterprise, сначала ознакомьтесь с разделом [Запуск](https://docs.primo-rpa.ru/primo-rpa/primo-studio/enterprise).
 
 ## Обновление 
 Процедуры обновления и удаления Студии описаны в [этом разделе](https://docs.primo-rpa.ru/primo-rpa/primo-studio/installation/update).
