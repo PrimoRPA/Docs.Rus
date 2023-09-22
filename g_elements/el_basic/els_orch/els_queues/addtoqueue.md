@@ -4,7 +4,7 @@
 
 ![](<../../../../.gitbook/assets/image (375).png>)
 
-**Английское название:** Add to queue
+**Eng:** Add to queue
 
 **Назначение**: добавляет новый элемент [в очередь Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/data-queues). Добавленный элемент будет иметь статус New и ожидать обработки Роботом.
 
