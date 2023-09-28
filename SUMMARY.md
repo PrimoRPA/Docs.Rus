@@ -562,7 +562,7 @@
     * [Try-Catch](g\_elements/el\_basic/els\_logic/el\_logic\_trycatch.md)
     * [Ветвь](g\_elements/el\_basic/els\_logic/el\_logic\_branch.md)
     * [Выбрать ветвь](g\_elements/el\_basic/els\_logic/el\_logic\_pickbranch.md)
-    * [Выход из последовательности](g\_elements/el\_basic/els\_logic/el\_logic\_return.md)
+    * [Выход из процесса](g\_elements/el\_basic/els\_logic/el\_logic\_return.md)
     * [Выход из цикла](g\_elements/el\_basic/els\_logic/el\_logic\_break.md)
     * [Закомментировать](g\_elements/el\_basic/els\_logic/el\_logic\_commentout.md)
     * [Исключение](g\_elements/el\_basic/els\_logic/el\_logic\_throw.md)
