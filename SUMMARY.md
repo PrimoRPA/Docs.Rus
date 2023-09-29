@@ -734,7 +734,7 @@
 
 ## Primo Robot
 
-* [Введение](primo-robot/intro.md)
+* [Описание](primo-robot/intro.md)
 * [Системные требования](primo-robot/systemreq.md)
 * [Установка](primo-robot/installation/README.md)
   * [Установка и запуск Робота Core](primo-robot/installation/robot\_core.md)
