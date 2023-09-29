@@ -6,7 +6,7 @@
 
 **Eng:** Get Credentials
 
-Компонент позволяет получить [ресурс](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) с типом Credentials (учетные данные) из Оркестратора. Для успешной работы должна быть настроена связь Студии и Оркестратора.
+Компонент позволяет получить [ресурс](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) с типом Credentials (учетные данные) из Оркестратора. Для успешной работы должна быть настроена связь Студии и Оркестратора. О том, как подключиться к Оркестратору, см. [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings#orkestrator).
 
 ### Свойства
 Описание общих свойств элемента см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
