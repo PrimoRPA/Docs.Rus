@@ -8,7 +8,7 @@
 
 Элемент создает учетные данные в Оркестраторе. Под учетными данными имеется в виду [ресурс](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) с типом Credentials.
 
-Для успешной работы должна быть настроена связь Студии и Оркестратора.
+Для успешной работы должна быть настроена связь Студии и Оркестратора. О том, как подключиться к Оркестратору, см. [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings#orkestrator).
 
 ### Свойства
 Описание общих свойств элемента см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
