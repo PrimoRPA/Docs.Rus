@@ -12,7 +12,7 @@ LTools.WebBrowser.Native.exe install=[browser] lang=[language] mode=[mode]
 * **language** - язык установки (EN, RU);
 * **mode** - режим установки (store, packed, unpacked, storelocal).
 
-## Установка плагинов
+## Плагины
 
 ### RDP
 
