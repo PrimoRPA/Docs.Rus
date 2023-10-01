@@ -7,7 +7,7 @@
 ## Лицензия
 :bangbang: ***Перед запуском Primo Robot требуется запросить лицензию.***
 
-Вне зависимости от того, какой способ запуска вы выбрали, сначала потребуется запросить лицензию на программу Primo Robot. Без нее использование робота невозможно. Лицензия запрашивается только через утилиту Primo Robot Runner, см. [инструкцию](https://docs.primo-rpa.ru/primo-rpa/primo-robot/registration-desktop#poluchenie-licenzionnogo-klyucha-i-registraciya). 
+Вне зависимости от того, какой способ запуска вы выбрали, сначала потребуется запросить лицензию на программу Primo Robot. Без нее использование робота невозможно. Лицензия запрашивается только через утилиту Primo Robot Runner, см. [инструкцию](https://docs.primo-rpa.ru/primo-rpa/primo-robot/installation/registration-desktop).
 
 ## Запуск из командной строки
 
