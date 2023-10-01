@@ -6,7 +6,7 @@
 
 **Eng:** Change queue item state
 
-**Назначение:** позволяет изменить статус элемента в [очереди обмена данных](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/data-queues) Оркестратора.
+Компонент позволяет изменить статус элемента в [очереди обмена данных](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/data-queues) Оркестратора.
 
 Жизненный цикл элемента очереди:
 
