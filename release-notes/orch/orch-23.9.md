@@ -28,6 +28,6 @@
     * **Primo RPA Orchestrator 23.9.0 FULL.zip** - полный комплект поставки, в который входят дистрибутивы Оркестратора и внешних компонентов: например, базы данных PostgreSQL Server, брокера сообщений RabbitMQ и др. Вес дистрибутива ~ 3,5 Гб.
     * **Primo RPA Orchestrator 23.9.0.zip** - облегченный вариант поставки, весит ~ 1,1 Гб.
 
-2. [Скачать дистрибутив Robot Enterprise 23.9](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease%2FRobot). Архив называется **Primo RPA Robot Orchestrator <архитектура> 23.9.0.zip**. Дистрибутив этого робота загружается непосредственно в Оркестратор.
+2. [Скачать дистрибутив Robot Enterprise 23.9](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease%2FRobot). Архив должен иметь название **Primo RPA Robot Orchestrator <архитектура> 23.9.0.zip**. Дистрибутив этого робота загружается непосредственно в Оркестратор.
 
 
