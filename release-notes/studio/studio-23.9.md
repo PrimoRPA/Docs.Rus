@@ -13,9 +13,9 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/169
 
    ![](<../../.gitbook/assets/excel-only-read.png>)   
 
-1. Добавлен новый тип ресурса Оркестратора - JObject. В значении этого ресурса можно хранить данные в формате JSON. Студия позволяет работать с ресурсом такого типа через элементы [**Получить значение**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_assets/el_orch_getvalue) и [**Установить значение**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_assets/el_orch_setvalue). 
+1. Добавлен новый тип ресурса Оркестратора - JObject. В значении этого ресурса можно хранить данные в формате JSON. Студия позволяет работать с ресурсом такого типа через элементы [**Получить значение**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_assets/el_orch_getvalue) и [**Установить значение**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_assets/el_orch_setvalue). Например, если в Оркестраторе был создан ресурс с типом JObject, то при помощи элемента **Получить значение** робот сможет получить данный ресурс и сохранить его в переменную свойства **Результат**. Студия автоматически распознает тип полученного ресурса.
 
-1. В элементе [Комментарий](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_dialogs/el_dialogs_comment) стал доступен ввод текста с переводом строки. 
+1. В элементе [**Комментарий**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_dialogs/el_dialogs_comment) стал доступен ввод текста с переводом строки. 
 
    ![](<../../.gitbook/assets/comment-element-lines-much.png>)
 
