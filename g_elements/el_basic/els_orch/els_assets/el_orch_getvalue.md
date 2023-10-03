@@ -6,9 +6,13 @@
 
 **Eng:** Get asset
 
-Позволяет получить [ресурс](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) (asset) из Оркестратора. Для успешной работы должна быть настроена связь Студии и Оркестратора. О том, как подключиться к Оркестратору, см. [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings#orkestrator).
+С помощью этого элемента робот может получить [ресурс](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) (asset) из Оркестратора. 
 
-Робот может получить ресурс с любым типом данных, заданным на стороне Оркестратора. А именно:
+**Предварительные условия:**
+1. Успешно настроена связь Студии и Оркестратора. О том, как это сделать, см. [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings#orkestrator).
+2. В Оркестраторе имеются добавленные ресурсы.
+
+Возможно получить ресурс с любым типом данных, заданным на стороне Оркестратора. А именно:
 * String
 * Integer
 * Floating
