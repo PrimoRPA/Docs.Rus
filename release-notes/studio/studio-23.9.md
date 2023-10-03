@@ -11,17 +11,9 @@
 
 1. Добавлен новый тип ресурса Оркестратора - JObject. В значении этого ресурса можно хранить данные в формате JSON. Студия позволяет работать с ресурсом такого типа через элементы [**Получить значение**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_assets/el_orch_getvalue) и [**Установить значение**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_assets/el_orch_setvalue). Например, если в Оркестраторе был создан ресурс с типом JObject, то при помощи элемента **Получить значение** робот сможет получить данный ресурс и сохранить его в переменную свойства **Результат**. Студия автоматически распознает тип полученного ресурса.
 
-1. В элементе [**Комментарий**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_dialogs/el_dialogs_comment) стал доступен ввод текста с переводом строки. 
-
-   ![](<../../.gitbook/assets/comment-element-lines-much.png>)
-
 1. Улучшен инструмент публикации проекта в Оркестраторе через Студию. Теперь при публикации новой версии проекта рабочий файл будет сопоставляться с существующим проектом в Оркестраторе. При найденном совпадении Студия предложит его для выбора, указав на нужную запись в окне проектов. Это позволит избежать ситуации, когда новую версию проекта можно по ошибке загрузить в неподходящий проект.
 
    ![](<../../.gitbook/assets/export-project-to-orch.png>)
-
-1. В окне [Поиска](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects/search) (Ctrl+F) стало сохраняться последнее значение, введенное в поисковой строке.
-
-   ![](<../../.gitbook/assets/recently-value-in-find-line.png>)
 
 1. Стал поддерживаться WebDriver актуальной версии. Улучшение призвано повысить эффективность работы с шаблонами поиска для веб-приложений.
 
@@ -29,6 +21,14 @@
    * **Read Status Bar** > конвертируется в контейнер **Присоединиться к SAP** с вложенным элементом [**Строка состояния**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_sap/el_statusbar) (SAP). Контейнер добавляется только в том случае, когда импортируется элемент без него. 
    * **Type into** > конвертируется в элемент [**Ввод текста**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_uiinteraction/el_inputtext) (Работа с UI) с заданными свойствами и режимом SIMULATE.
    * **Сall transaction** > конвертируется в контейнер **Присоединиться к SAP** с вложенным элементом [**Ввод текста**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_sap/el_sap_input) (SAP). Ранее не конвертировался. Контейнер добавляется только в том случае, когда импортируется элемент без него. 
+
+1. В элементе [**Комментарий**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_dialogs/el_dialogs_comment) стал доступен ввод текста с переводом строки. 
+
+   ![](<../../.gitbook/assets/comment-element-lines-much.png>)
+
+1. В окне [Поиска](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects/search) (Ctrl+F) стало сохраняться последнее значение, введенное в поисковой строке.
+
+   ![](<../../.gitbook/assets/recently-value-in-find-line.png>)
 
 ### Улучшения в Robot Runner
 
