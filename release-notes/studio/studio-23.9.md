@@ -51,6 +51,6 @@
 
 
 ### Где скачать 
-Скачать Primo Studio Enterprise 23.9 можно по этой [ссылке](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease%2FStudio).
+Primo Studio Enterprise 23.9 можно скачать по этой [ссылке](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease%2FStudio).
 
 Дистрибутив Primo Robot 23.9, работающий на компьютере пользователя, находится [здесь](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease%2FRobot). Обратите внимание, что он **не должен** содержать слова Orchestrator в названии.
