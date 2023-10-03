@@ -26,9 +26,9 @@
 1. Стал поддерживаться WebDriver актуальной версии. Улучшение призвано повысить эффективность работы с шаблонами поиска для веб-приложений.
 
 1. Улучшен импорт SAP-элементов из UIPath-проектов:
-   * **Read Status Bar** > конвертируется в элемент [**Строка состояния**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_sap/el_statusbar) (SAP).
+   * **Read Status Bar** > конвертируется в контейнер **Присоединиться к SAP** с вложенным элементом [**Строка состояния**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_sap/el_statusbar) (SAP). Контейнер добавляется только в том случае, когда импортируется элемент без него. 
    * **Type into** > конвертируется в элемент [**Ввод текста**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_uiinteraction/el_inputtext) (Работа с UI) с заданными свойствами и режимом SIMULATE.
-   * **Сall transaction** > конвертируется в контейнер **Присоединиться к SAP** с вложенным элементом [**Ввод текста**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_sap/el_sap_input) (SAP). Ранее не конвертировался.
+   * **Сall transaction** > конвертируется в контейнер **Присоединиться к SAP** с вложенным элементом [**Ввод текста**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_sap/el_sap_input) (SAP). Ранее не конвертировался. Контейнер добавляется только в том случае, когда импортируется элемент без него. 
 
 ### Улучшения в Robot Runner
 
