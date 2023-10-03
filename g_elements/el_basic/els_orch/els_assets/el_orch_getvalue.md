@@ -22,7 +22,7 @@
 
 :bangbang: ***Исключение составляет тип данных Credentials. Чтобы получить ресурс с типом Credentials, следует использовать элемент [Получить учетные данные](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_assets/el_orch_getcredentials).***
 
-Полученный ресурс необходимо сохранить в виде переменной в свойстве **Результат**. Эта переменная имеет тип данных System.Object.
+Полученный ресурс необходимо сохранить в переменную, указанную в свойстве **Результат**. Эта переменная имеет тип данных System.Object.
 
 ### Свойства
 Описание общих свойств элемента см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
