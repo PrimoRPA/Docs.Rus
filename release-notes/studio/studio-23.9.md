@@ -18,7 +18,7 @@
 1. Стал поддерживаться Selenium WebDriver актуальной версии. Улучшение призвано повысить эффективность работы с шаблонами поиска для веб-приложений.
 
 1. Улучшен импорт SAP-элементов из UIPath-проектов:
-   * **Read Status Bar** > конвертируется в контейнер **Присоединиться к SAP** с вложенным элементом [**Строка состояния**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_sap/el_statusbar) (SAP). Контейнер добавляется только в том случае, когда элемент импортируется без него. 
+   * **Read Status Bar** > конвертируется в контейнер **Присоединиться к SAP** с вложенным элементом [**Строка состояния**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_sap/el_statusbar) (SAP). Контейнер добавляется только в том случае, если элемент импортируется без него. 
    * **Type into** > конвертируется в элемент [**Ввод текста**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_uiinteraction/el_inputtext) (Работа с UI) с заданными свойствами и режимом SIMULATE.
    * **Сall transaction** > конвертируется в контейнер **Присоединиться к SAP** с вложенным элементом [**Ввод текста**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_sap/el_sap_input) (SAP). Ранее не конвертировался. Контейнер добавляется только в том случае, когда импортируется элемент без него. 
 
@@ -53,4 +53,10 @@
 ### Где скачать 
 Primo Studio Enterprise 23.9 можно скачать по этой [ссылке](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease%2FStudio).
 
-Дистрибутив Primo Robot 23.9, работающий на компьютере пользователя, находится [здесь](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease%2FRobot). Обратите внимание, что он **не должен** содержать слова Orchestrator в названии.
+Дистрибутив Primo Robot 23.9 находится [здесь](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease%2FRobot):
+* Primo RPA Robot 1.23.9 - предназначен для установки на локальной рабочей станции. Выступает в роли цифрового ассистента пользователя. Дистрибутив поставляется в разрядности x64 и x86.
+* Primo RPA Robot Orchestrator 1.23.9 - предназначен для автоматической установки Оркестратором. Дистрибутив поставляется в разрядности x64 и x86.
+
+
+
+
