@@ -28,6 +28,7 @@
 ## Primo Studio
 
 * [Системные требования](primo-studio/systemreq.md)
+* [Издания](primo-studio/editions.md)
 * [Установка и обновление](primo-studio/installation/README.md)
   * [Обновление](primo-studio/installation/update.md)
 * [Запуск и начало работы](primo-studio/launch/enterprise.md)
