@@ -10,7 +10,7 @@
 
 1. В область триггера перетащите любой элемент, возвращающий булевое значение (true или false). Например, [**Регулярное выражение**](https://docs.primo-rpa.ru/primo-rpa/g\_elements/osnovnye-elementy/els\_data/els\_data\_strings/el\_regex). В триггере может быть только одно условие.
 
-  ![](<../../../.gitbook/assets/триггер ветви.png>)
+   ![](<../../../.gitbook/assets/триггер ветви.png>)
 
 2. В область действия перетащите элемент с той активностью, которую нужно запустить при успешном выполнении условия. Например, [**Запись в журнал**](https://docs.primo-rpa.ru/primo-rpa/g\_elements/osnovnye-elementy/els\_dialogs/el\_dialogs\_addlog). Действий может быть несколько.
 3. Дополнительно можете заполнить общие свойства элемента. Их описание см. в разделе [**Работа с элементами**](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements).
