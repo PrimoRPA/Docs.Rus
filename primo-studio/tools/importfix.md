@@ -1,6 +1,6 @@
 # PrimoImportFix
 
-PrimoImportFix - встроенная утилита, которая позволяет корректировать \*.ltw файлы Primo Studio, сформированные после процедуры [импорта](https://docs.primo-rpa.ru/primo-rpa/primo-studio/instrumenty/import) из проекта UiPath. Инструмент доступен в разделе меню **Инструменты ➝ Открыть PrimoImportFix**:
+PrimoImportFix - встроенная в Студию утилита, которая позволяет корректировать \*.ltw файлы Primo Studio, сформированные после процедуры [импорта](https://docs.primo-rpa.ru/primo-rpa/primo-studio/instrumenty/import) из проекта UiPath. Инструмент доступен на вкладке **Инструменты > Открыть PrimoImportFix**:
 
 ![](<../../.gitbook/assets/tools-open-fix.png>)
 
