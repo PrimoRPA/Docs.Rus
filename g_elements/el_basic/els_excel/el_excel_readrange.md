@@ -4,7 +4,7 @@
 
 ![](<../../../.gitbook/assets/image (75).png>)
 
-Компонент считывает данные из диапазона ячеек Excel.
+**Чтение диапазона (Read range)** - считывает данные из диапазона ячеек Excel.
 
 Путь до файла, тип драйвера и прочие параметры предварительно настраиваются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app).
 
