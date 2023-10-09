@@ -22,7 +22,7 @@
 
 ## Демонстрационный проект
 
-На портале [Learning](https://github.com/PrimoRPA/Learning) можно найти проект StudioActivities. При помощи простых сценариев в нем демонстрируется работа основных элементов Студии.
+На портале [Learning](https://github.com/PrimoRPA/Learning) можно найти проект **StudioActivities**. При помощи простых сценариев в нем демонстрируется работа основных элементов Студии.
 
 Процесс с демонстрацией работы ветвей можно найти в подпапке StudioActivities > En > Flow control > Branches.ltw. 
 
