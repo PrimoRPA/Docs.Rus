@@ -6,7 +6,10 @@
 
 **Eng:** Add to queue
 
-Позволяет добавить новый элемент [в очередь обмена данными](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/data-queues) Оркестратора. Добавленный элемент будет иметь статус New и ожидать обработки Роботом.
+Позволяет добавить новый элемент в [очередь обмена данными](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/data-queues) Оркестратора. Для успешной работы должно быть установлено [подключение Студии к Оркестратору](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings#orkestrator).
+
+
+Элемент добавляется в статусе **New** и ожидает обработки Роботом.
 
 Пример отображения добавленного элемента в UI Оркестратора:
 
