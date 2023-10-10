@@ -21,7 +21,7 @@
 2. Работа с ветвями на Гитхабе:
    * [создание и удаление веток](https://docs.github.com/ru/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository)
    * [о пул реквестах](https://docs.github.com/ru/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
-   * [о мерже пул реквеста](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request)
+   * [о мерже пул реквеста (слиянии)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request)
    * [как закрыть пул реквест без слияния](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/closing-a-pull-request)
 
 3. Как быстро перейти в файлик на гитхабе, находясь на сайте документации.
