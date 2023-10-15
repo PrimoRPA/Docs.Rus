@@ -15,10 +15,10 @@
 
 1. **WebApi.zip**. Для развертывания WebApi как службы Windows.
 1. **WebApi-IIS.zip**. Для развертывания WebApi под IIS.
-1. **WebApi-linux.zip**. WebApi. Включает файл службы.
-1. **States.zip.** States - служба вычисления системных состояний. Включает файл службы.
+1. **WebApi-linux.zip**. Для установки WebApi под Linux. Включает файл службы.
+1. **States.zip.** States - служба вычисления системных состояний. Архив включает файл службы.
 1. **States-linux.zip**. States для Linux.
-1. **Notifications.zip**.	Notifications - служба уведомлений на email. Включает файл службы.
+1. **Notifications.zip**.	Notifications - служба уведомлений на email. Архив включает файл службы.
 1. **Notifications-linux.zip**.	Notifications для Linux.
 1. **nginx-1.21.1.zip**. Включает конфигурационный файл Nginx (`nginx.conf`) и файлы самоподписанного SSL-сертификата для HTTPS (`cert1.crt`, `cert1.rsa`).
 1. **nginx-linux.zip**. То же, что и выше, но для Linux.
@@ -37,8 +37,8 @@
 1. **rabbitmq-linux.zip**. То же, что и выше, но для Linux.
 1. **grafana-8.0.6.windows-amd64.msi**. Внешняя аналитическая система Grafana. Не является компонентом Оркестратора.
 1. **Роботы-1627543691525.json**. Пример отчета в Grafana.
-1. **v_AllWorked-postgres.sql**. View в БД для примера отчета в Grafana. Примечание: PostgreSQL.
-1. **v_AllWorked-mssql.sql**. View в БД для примера отчета в Grafana. Примечание:	MS SQL Server.
+1. **v_AllWorked-postgres.sql**. Представление (View) в БД для примера отчета в Grafana. Примечание: PostgreSQL.
+1. **v_AllWorked-mssql.sql**. Представление (View) в БД для примера отчета в Grafana. Примечание:	MS SQL Server.
 1. **dotnet31-sdk-linux.zip**. Пакеты `dotnet-sdk-3.1`, `aspnetcore-runtime-3.1`.
 1. **syncthing-linux-amd64-v1.18.2.tar.gz**. Программа синхронизации папок с дистрибутивами робота и дампами Журнала.
 1. **syncthing.service**. Программа синхронизации папок с дистрибутивами робота и дампами журнала.
