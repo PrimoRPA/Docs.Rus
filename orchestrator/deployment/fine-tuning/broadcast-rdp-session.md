@@ -21,7 +21,7 @@
 
   В конфиге WebApi используется только параметр `RdpBaseUrl`. Параметр `RdpBaseUrls` не используется. В конфиге RDP2 параметр `Host` можно не задавать.
 
-* Вариант 2 – Используется несколько экземпляров RDP2, множество машин роботов поделено (без пересечения!!!) между экземплярами за счет параметра AddressFilter:
+* Вариант 2 – Используется несколько экземпляров RDP2, множество машин роботов поделено (без пересечения!!!) между экземплярами за счет параметра `AddressFilter`:
 
   ![](<../../../.gitbook/assets/config-for-some-instance-rdp2.png>)
 
@@ -31,7 +31,7 @@
 
   ![](<../../../.gitbook/assets/host-parameter-in-config-rdp2.png>)
 
-В секции `EnabledOrigins` конфига каждого экземпляра службы RDP2 должен быть прописан внешний Url Оркестратора!!! 	
+ :bangbang: В секции `EnabledOrigins` конфига каждого экземпляра службы RDP2 должен быть прописан внешний URL Оркестратора:
 
-![](<../../../.gitbook/assets/enabledorigins-in-config-rdp2.png>)
+  ![](<../../../.gitbook/assets/enabledorigins-in-config-rdp2.png>)
 
