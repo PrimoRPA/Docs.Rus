@@ -766,7 +766,7 @@
   * [Устранение неполадок](orchestrator/deployment/troubleshooting.md)
   * [Тонкая настройка](orchestrator/deployment/fine-tuning/README.md)
     * [Внешняя поддержка RDP-сессии](orchestrator/deployment/fine-tuning/rdp-sessions.md)
-    * [Отключение RDP-сессий](orchestrator/deployment/fine-tuning/disabling-rdp-sessions.md)
+    * [Настройка RDP-сессий](orchestrator/deployment/fine-tuning/disabling-rdp-sessions.md)
     * [Множественные производственные календари](orchestrator/deployment/fine-tuning/multiple-production-calendars.md)
     * [Блокировка робота агентом](orchestrator/deployment/fine-tuning/blocking-robot-by-agent.md)
     * [Настройка очереди проектов](orchestrator/deployment/fine-tuning/project-queue.md)
