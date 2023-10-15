@@ -10,7 +10,7 @@
 1. [Блокировка робота агентом](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/fine-tuning/blocking-robot-by-agent)
 1. [Настройка очереди проектов](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/fine-tuning/project-queue)
 1. [Кэширование проекта](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/fine-tuning/project-caching)
-1. [Сбор состояния роботов по KeepAlive](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/fine-tuning/collecting-state-of-robots)
+1. [Таймаут, после которого робот переходит в состояние «Не доступен»](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/fine-tuning/robot-state)
 1. [Настройка папки для дампа секций журналов](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/fine-tuning/log-section-dump-folder)
 1. [Стратегия очереди проектов для тенанта](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/fine-tuning/project-queue-strategies-for-tenant)
 
