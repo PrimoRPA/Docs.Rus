@@ -1,17 +1,21 @@
 # Добавление RPA-проекта 
 
-Раздел посвящен загрузке RPA-проекта в Оркестратор. Добавить проект можно двумя способами: [средствами Студии](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects/publish) или через Оркестратор. 
+Добавить RPA-проект в Оркестратор можно двумя способами: 
+1. [Из Студии](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects/publish).
+2. Через Оркестратор. 
 
 Публикация через Оркестратор подходит, если:
 * отсутствует издание Primo Studio Enterprise (установлена [Community](https://docs.primo-rpa.ru/primo-rpa/primo-studio/editions));
 * к Студии нет прямого доступа;
 * требуется удалить ненужные файлы из проекта перед тем, как загрузить его в Оркестратор.
 
-Если выбрана публикация в Оркестраторе, то предварительно проект должен быть [упакован в ZIP-архив](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects/publish#publikaciya-v-orkestratore).
+## Предварительные условия
+
+RPA-проект должен быть [упакован в ZIP-архив](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects/publish#publikaciya-v-orkestratore).
+
+Пользователь, который собирается опубликовать проект, должен иметь права на создание RPA-проекта. Права [назначаются администратором](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/users/roles).
 
 ## Публикация в Оркестраторе
-
-Чтобы опубликовать проект в Оркестраторе, у пользователя должны быть права на создание RPA-проекта. Права [назначаются администратором](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/users/roles).
 
 Для загрузки архива с проектом:
 1. Перейдите в раздел **RPA-проекты > Все RPA-проекты**.
