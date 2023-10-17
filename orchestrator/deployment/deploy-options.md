@@ -28,7 +28,7 @@
 },
 "UseIISIntegration": true,
 ```
-### Вариант 2. WebApi – служба Windows, Front – nginx
+### Вариант 2. WebApi – служба Windows, Front – Nginx
 
 При этом варианте развертывания в параметре `UseIISIntegration` должно быть установлено значение `false`.
 
