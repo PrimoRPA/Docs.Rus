@@ -756,7 +756,7 @@
   * [Компоненты системы](orchestrator/deployment/system-components.md)
   * [Комплект поставки](orchestrator/deployment/kit.md)
   * [Варианты развертывания компонентов](orchestrator/deployment/component-deployment-options.md)
-  * [Варианты развертывания сервера приложений](orchestrator/deployment/deploy-options.md)
+  * [Развертывание сервера приложений](orchestrator/deployment/deploy-options.md)
   * [Порядок установки компонентов](orchestrator/deployment/install-orch.md)
   * [Контроль целостности конфигурационных файлов](orchestrator/deployment/integrity-of-configs.md)
   * [Интеграция с Active Directory](orchestrator/deployment/AD-integration.md)
