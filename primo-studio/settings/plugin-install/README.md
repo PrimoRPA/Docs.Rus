@@ -1,6 +1,37 @@
 # Установка расширений и плагинов
 
-В статье приводятся способы установки расширений и плагинов из командной строки.
+## Установка из Студии
+
+Расширения можно установить напрямую из Студии. Инструкции см. в разделах:
+
+{% content-ref url="chrome.md" %}
+[chrome.md](chrome.md)
+{% endcontent-ref %}
+
+{% content-ref url="firefox.md" %}
+[firefox.md](firefox.md)
+{% endcontent-ref %}
+
+{% content-ref url="edge.md" %}
+[edge.md](edge.md)
+{% endcontent-ref %}
+
+{% content-ref url="yandex.md" %}
+[yandex.md](yandex.md)
+{% endcontent-ref %}
+
+{% content-ref url="rdp.md" %}
+[rdp.md](rdp.md)
+{% endcontent-ref %} 
+
+{% content-ref url="java.md" %}
+[java.md](java.md)
+{% endcontent-ref %}
+
+
+## Установка из командной строки
+
+Ниже приводятся способы установки расширений и плагинов из командной строки.
 
 ## Расширения браузеров
 
@@ -27,31 +58,5 @@ Extensions\JavaBridge.ps1
 ```
 
 
-## Установка плагинов из Студии
 
-Перечисленные плагины также можно установить напрямую из Студии. Инструкции см. в разделах:
-
-{% content-ref url="chrome.md" %}
-[chrome.md](chrome.md)
-{% endcontent-ref %}
-
-{% content-ref url="firefox.md" %}
-[firefox.md](firefox.md)
-{% endcontent-ref %}
-
-{% content-ref url="edge.md" %}
-[edge.md](edge.md)
-{% endcontent-ref %}
-
-{% content-ref url="yandex.md" %}
-[yandex.md](yandex.md)
-{% endcontent-ref %}
-
-{% content-ref url="rdp.md" %}
-[rdp.md](rdp.md)
-{% endcontent-ref %} 
-
-{% content-ref url="java.md" %}
-[java.md](java.md)
-{% endcontent-ref %}
 
