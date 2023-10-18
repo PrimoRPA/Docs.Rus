@@ -2,7 +2,7 @@
 
 ## QueueItem
 
-LTools.Enterprise.Model.QueueItem описывает структуру элемента, который находится в очереди Оркестратора.
+LTools.Enterprise.Model.QueueItem - описывает структуру элемента, который находится в очереди Оркестратора.
 
 :small_blue_diamond: **Примечание**. Знак «?» в типе данных указывает на то, что значение может быть null.
 
@@ -17,5 +17,6 @@ LTools.Enterprise.Model.QueueItem описывает структуру элем
 | QueueName   | String                                                          | Название очереди в Оркестраторе, в которой находится данный элемент |
 | PostponeAt  | [DateTime?](https://learn.microsoft.com/ru-ru/dotnet/api/system.datetime?view=net-6.0) | Время, до которого откладывается обработка значения элемента |
 | DeadlineAt  | DateTime?                                                       | Время, после которого элемент будет удален из очереди |
-| State       | Ltools.Enums.ExchangeQueueValueEventType2                       | Текущий статус элемента очереди. Возможные статусы: New, Empty, Success, Error, Business Error и др. Подробнее описаны в [этом разделе](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/orkestrator/els_queues/changestatequeue) |
+| State       | Ltools.Enums.ExchangeQueueValueEventType2                       | Текущий статус элемента очереди. Возможные статусы: New, In Progress, Success, Error, Business Error. Они подробнее описаны в [этом разделе](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/orkestrator/els_queues/changestatequeue) |
+| RetryCount  | Int32                                                           | Возвращает количество повторов элемента, если они были. Извлеченный из очереди элемент может быть добавлен в очередь повторно в ответ на возникновение ошибки. Допустимость повторов определяется настройкой очереди |
 | StateText   | String                                                          | Содержит комментарий пользователя, добавленный при изменении статуса элемента очереди |
