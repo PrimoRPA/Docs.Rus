@@ -26,11 +26,11 @@
 1. В UI исправлен некорректный порядок сортировки в таблице «RPA-проекты». Не работала сортировка по двум и более столбцам.
 
 
-### Где скачать
-1. [Комплект поставки Оркестратора 23.9:](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease%2FOrchestrator)
-    * **Primo RPA Orchestrator 23.9.0 FULL.zip** - полный комплект поставки, в который входят дистрибутивы Оркестратора и внешних компонентов: например, базы данных PostgreSQL Server, брокера сообщений RabbitMQ и др. Вес дистрибутива ~ 3,5 Гб.
-    * **Primo RPA Orchestrator 23.9.0.zip** - облегченный вариант поставки, весит ~ 1,1 Гб.
+### Где найти
+1. [Скачать комплект поставки Оркестратора:](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease%2FOrchestrator)
+    * **Primo RPA Orchestrator 1.23.9 FULL.zip** - полный комплект поставки, в который входят дистрибутивы Оркестратора и внешних компонентов: например, базы данных PostgreSQL Server, брокера сообщений RabbitMQ и др. Вес дистрибутива ~ 3,5 Гб.
+    * **Primo RPA Orchestrator 1.23.9.zip** - облегченный вариант поставки, весит ~ 1,1 Гб.
 
-2. [Дистрибутив Robot Enterprise 23.9](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease%2FRobot). Архив должен иметь название **Primo RPA Robot Orchestrator <архитектура> 23.9.0.zip**. Дистрибутив этого робота загружается непосредственно в Оркестратор.
+2. [Скачать дистрибутив Robot Enterprise](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease%2FRobot). Архив должен иметь название **Primo RPA Robot Orchestrator <архитектура> 1.23.9.zip**. Дистрибутив этого робота загружается непосредственно в Оркестратор.
 
 
