@@ -4,7 +4,7 @@
 
 ![](<../../../../.gitbook/assets/image (269).png>)
 
-С помощью элемента[^1] робот может получить [ресурс (asset)](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) из Оркестратора. Доступен ресурс со следующим типом данных:
+С помощью элемента[^1] робот может получить [ресурс (asset)](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) из Оркестратора. Доступны ресурсы со следующими типами данных:
 * String
 * Integer
 * Floating
