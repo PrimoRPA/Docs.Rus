@@ -52,7 +52,9 @@
    * Зачем нужна настройка, какую пользу приносит, как облегчает жизнь пользователя.
    * Если можем показать ее, добавляем небольшой скрин.
 
-1. **Описание элементов Студии**. Примеры, которые можно использовать в качестве условного шаблона (но можно и лучше):
+### Описание элементов Студии. 
+
+Примеры, которые можно использовать в качестве условного шаблона (но можно и лучше):
    * [Получить значение](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_assets/el_orch_getvalue)
    * [Чтение диапазона](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_readrange)
    * [Запись в журнал](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_dialogs/el_dialogs_addlog)
