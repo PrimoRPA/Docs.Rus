@@ -4,7 +4,7 @@
 
 ![](<../../../../.gitbook/assets/image (269).png>)
 
-**Получить значение (Get asset)** - позволяет получить [ресурс (asset)](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) из Оркестратора. Доступны ресурсы со следующими типами данных:
+С помощью элемента робот может получить [ресурс (asset)](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) из Оркестратора. Доступны ресурсы со следующими типами данных:
 * String
 * Integer
 * Floating
@@ -59,5 +59,3 @@ var ret = _lib.LTools.Enterprise.OrchestratorApp.AssetGet(wf, "Key");
 ```
 {% endtab %}
 {% endtabs %}
-
-[^1]: Английское название элемента - Get asset
