@@ -60,6 +60,7 @@ $settings['trusted_host_patterns'] = [
 ***drush status***  
 
 Результат должен быть примерно таким:
-![](<.gitbook/assets/IdeaHub_Installation_1.png>)
+
+![](<../../.gitbook/assets/IdeaHub_Installation_1.png>)
 
 
