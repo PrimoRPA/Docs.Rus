@@ -4,15 +4,13 @@
 
 ![](<../../../.gitbook/assets/image (293).png>)
 
-Управляет браузером и позволяет автоматизировать взаимодействие с веб-страницами.
-
-Функции элемента:
+Элемент выполняет 2 основные функции:
 * Открывает новую вкладку в браузере.
-* Выступает в роли контейнера для других элементов, работающих с веб-страницами. 
+* Выступает в роли контейнера для других элементов, работающих с веб-страницами. Например, для [**Обновить страницу**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_browser/el_refresh), [**Перейти к странице**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_browser/el_browser_navigate), [**Клик мышью**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_uiinteraction/el_click) и т. д.
 
 :large_orange_diamond: ***Исключение:** в Internet Explorer будет открываться новый экземпляр браузера, а не вкладка.*
 
-Компонент работает независимо от плагинов и может использоваться как с ними, так и без. Однако следует учитывать, что элементы, помещенные в контейнер - такие как [**Обновить страницу**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_browser/el_refresh), [**Перейти к странице**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_browser/el_browser_navigate), [**Клик мышью**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_uiinteraction/el_click) (если клик работает внутри контейнера **Открыть браузер** и привязан к нему) и др. -  могут потребовать установку плагина. 
+Несмотря на то, что **Открыть браузер** работает независимо от наличия расширения, элементы, вложенные в контейнер и присоединенные к нему, требуют установки расширения браузера. Способы установки описаны [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/plugin-install).
 
 ## Свойства
 Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
