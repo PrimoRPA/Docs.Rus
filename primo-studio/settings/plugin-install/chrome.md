@@ -2,7 +2,7 @@
 
 ## Рекомендации
 
-После того, как вы обновили Студию, требуется либо переустановить расширение, либо придерживаться рекомендаций из инструкции по [обновлению](https://docs.primo-rpa.ru/primo-rpa/primo-studio/installation/update).
+После каждого обновления Студии требуется либо переустанавливать расширение, либо придерживаться рекомендаций из инструкции по [обновлению](https://docs.primo-rpa.ru/primo-rpa/primo-studio/installation/update).
 
 Исключением является ситуация, когда расширение было установлено с помощью [скриптов](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/autoinstall-browser-extension).
 
@@ -14,7 +14,7 @@
 2\. Под иконкой браузера Chrome щелкните выпадающий список и установите значение **Распакованное**. Это режим установки расширения.\
 3\. После чего нажмите на иконку Chrome:
 
-  ![](../../../.gitbook/assets/chrome-icon.png)
+  ![](../../../.gitbook/assets/chrome-icon-white-unpack.png)
 
 4\. По нажатию иконки откроются:
   * окно браузера Chrome;
@@ -59,9 +59,14 @@
 
 ## Магазин (машина)
 
-Расширение автоматически устанавливается из [интернет-магазина Chrome](https://chrome.google.com/webstore/detail/primo-rpa-extension/pbdnfhljkbaiibahdfcmgnfpapchlmmp) и регистрируется в ветке реестра Windows. 
+1. В настройках Студии, под иконкой браузера Chrome, выберите из списка значение **Магазин (машина)**.
 
-Для установки должен быть выход в интернет и доступ к https://clients2.google.com/service/update2/crx.
+   ![](../../../.gitbook/assets/chrome-ext-machine.png)
+
+2. Нажмите на иконку Chrome.
+3. Расширение автоматически установится из [интернет-магазина Chrome](https://chrome.google.com/webstore/detail/primo-rpa-extension/pbdnfhljkbaiibahdfcmgnfpapchlmmp) и зарегистрируется в ветке реестра Windows. 
+
+Должен быть обеспечен выход в интернет и доступ к https://clients2.google.com/service/update2/crx.
 
 ## Магазин (текущий пользователь)
 
