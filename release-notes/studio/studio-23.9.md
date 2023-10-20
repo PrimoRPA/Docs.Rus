@@ -5,7 +5,7 @@
 
 **Работа с шаблоном поиска**:
 
-1. Значительно улучшен UI/UX **Редактора шаблона поиска**. Изменения призваны сделать сделать его более удобным и понятным в использовании. Подробности см. в разделе [Новый редактор шаблон поиска](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/searchpatterns/new-pattern-editor).
+1. Значительно улучшен UI/UX **Редактора шаблона поиска**. Изменения призваны сделать его более удобным и понятным в использовании. Подробности см. в разделе [Новый редактор шаблон поиска](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/searchpatterns/new-pattern-editor).
 
     ![](<../../.gitbook/assets/new-template-editor.png>)
 
