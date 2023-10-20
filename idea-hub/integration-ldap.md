@@ -4,15 +4,15 @@
 
 В вертикальном меню слева выберите иконку с изображением шестеренки – будет открыто меню **Конфигурация**. Далее выберите пункт **Пользователи -> LDAP -> Servers** - откроется страница **Servers**.
 
-![](<.gitbook/assets/LDAP_integration-Servers_page_access.png>)
+![](<../.gitbook/assets/LDAP_integration-Servers_page_access.png>)
 
 На странице **Servers** нажмите кнопку **Add Server** в правом верхнем углу экрана для доступа в диалог настроек сервера.
 
-![](<.gitbook/assets/LDAP_integration-AddServer_button.png>)
+![](<../.gitbook/assets/LDAP_integration-AddServer_button.png>)
 
 В открывшемся диалоге **Add Server** заполните поля необходимой информацией, затем нажмите кнопку **Сохранить**.
 
-![](<.gitbook/assets/LDAP_integration-AddServer_dialog.png>)
+![](<../.gitbook/assets/LDAP_integration-AddServer_dialog.png>)
 
 Поля диалога **Add Server**:
 
