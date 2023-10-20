@@ -66,7 +66,7 @@
 2. Нажмите на иконку Chrome.
 3. Расширение автоматически установится из [интернет-магазина Chrome](https://chrome.google.com/webstore/detail/primo-rpa-extension/pbdnfhljkbaiibahdfcmgnfpapchlmmp) и зарегистрируется в ветке реестра Windows. 
 
-Должен быть обеспечен выход в интернет и доступ к https://clients2.google.com/service/update2/crx.
+:small_blue_diamond: ***Примечание**. Должен быть обеспечен выход в интернет и доступ к https://clients2.google.com/service/update2/crx.*
 
 ## Магазин (текущий пользователь)
 
