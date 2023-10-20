@@ -6,11 +6,11 @@
 
 Элемент выполняет 2 основные функции:
 * Открывает новую вкладку в браузере.
-* Выступает в роли контейнера для других элементов, работающих с веб-страницами. Например, для [**Обновить страницу**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_browser/el_refresh), [**Перейти к странице**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_browser/el_browser_navigate), [**Клик мышью**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_uiinteraction/el_click) и т. д.
+* Выступает в роли контейнера для других элементов, работающих с веб-страницами. Например, для таких как [**Обновить страницу**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_browser/el_refresh), [**Перейти к странице**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_browser/el_browser_navigate), [**Клик мышью**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_uiinteraction/el_click) и т. д.
 
 :large_orange_diamond: ***Исключение:** в Internet Explorer будет открываться новый экземпляр браузера, а не вкладка.*
 
-Несмотря на то, что **Открыть браузер** работает независимо от наличия расширения, элементы, вложенные в контейнер и присоединенные к нему, требуют установки расширения браузера. Способы установки описаны [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/plugin-install).
+Несмотря на то, что **Открыть браузер** работает независимо от наличия расширения, элементы, вложенные в контейнер и присоединенные к нему, требуют установки расширения браузера. Способы установки расширений описаны [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/plugin-install).
 
 ## Свойства
 Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
@@ -24,7 +24,7 @@
 
 Если использование элемента не привело к открытию вкладки, проверьте:
 
-- что браузер, выбранный в свойстве **Тип браузера**, установлен в системе;
+- установлен в системе браузер, выбранный в свойстве **Тип браузера**;
 - права доступа пользователя на использование браузера;
 - описание ошибки в консоли.
 
