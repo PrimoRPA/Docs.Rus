@@ -609,6 +609,7 @@
     * [Решить ReCapcha v3](g\_elements/el\_extra/els\_2capcha/el\_solverecapcha3.md)
     * [Решить вопрос](g\_elements/el\_extra/els\_2capcha/el\_solvequestion.md)
     * [Решить изображение](g\_elements/el\_extra/els\_2capcha/el\_solveimage.md)
+    * [Табличный тест](g\_elements/el\_extra/els\_2capcha/table-test.md)
   * [Active Directory](g\_elements/el\_extra/els\_activediresctory/README.md)
   * [AHunter](g\_elements/el\_extra/els\_ahunter/README.md)
     * [Стандартизация адреса](g\_elements/el\_extra/els\_ahunter/el\_ahunter\_cleanseaddress.md)
