@@ -1,6 +1,6 @@
-# Обновление Selenium WebDriver для работы с браузером
+# Обновление Selenium WebDriver 
 
-Ниже приводится инструкция по обновлению Selenium WebDriver. Шаги являются общими:
+Ниже приводится инструкция по обновлению Selenium WebDriver для работы с браузером. Шаги являются общими:
 * для различных ОС - Windows, Linux, MacOS;
 * для различных браузеров - Firefox, Chrome, Edge, Opera, Yandex.
 
