@@ -10,11 +10,7 @@
 
 
 ## Свойства
-Символ `*` в названии свойства указывает на обязательность заполнения. 
-
-#### Группа «Общие» 
-
-Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
+Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
 
 #### Группа «Новое ядро»
 
@@ -56,8 +52,8 @@
 С использованием **Нового ядра**:
 
 * Новое ядро: Включено
-* Основная кнопка: A
-* Модификатор: Ctrl
+* Основная кнопка: `VK_A`
+* Модификатор: `CONTROL`
 
 С использованием **Спецкнопки**:
 
@@ -71,54 +67,7 @@
 Для эмуляции нажатия сочетания клавиш `Ctrl` + `Shift` + `N` установите следующие параметры в свойствах элемента:
 
 * Новое ядро: Выключено (если активировано, то команда может не сработать).
-* Спецкнопки: `"^n"`.
-
-
-#### Спецкнопки
-
-Перечень с некоторыми значениями для эмуляции спецкнопок:
-
-1. BACKSPACE: "{BACKSPACE}", "{BS}", or "{BKSP}"
-2. BREAK: "{BREAK}"
-3. CAPS LOCK: "{CAPSLOCK}"
-4. DELETE: "{DELETE}" or "{DEL}"
-5. DOWN ARROW: "{DOWN}"
-6. END: "{END}"
-7. ENTER: "{ENTER}" or "~"
-8. ESC: "{ESC}"
-9. HELP: "{HELP}"
-10. HOME: "{HOME}"
-11. INSERT: "{INSERT}" or "{INS}"
-12. LEFT ARROW: "{LEFT}"
-13. NUM LOCK: "{NUMLOCK}"
-14. PAGE DOWN: "{PGDN}"
-15. PAGE UP: "{PGUP}"
-16. PRINT SCREEN: "{PRTSC}" (reserved for future use)
-17. RIGHT ARROW: "{RIGHT}"
-18. SCROLL LOCK: "{SCROLLLOCK}"
-19. TAB: "{TAB}"
-20. UP ARROW: "{UP}"
-21. F1: "{F1}"
-22. F2: "{F2}"
-23. F3: "{F3}"
-24. F4: "{F4}"
-25. F5: "{F5}"
-26. F6: "{F6}"
-27. F7: "{F7}"
-28. F8: "{F8}"
-29. F9: "{F9}"
-30. F10: "{F10}"
-31. F11: "{F11}"
-32. F12: "{F12}"
-33. F13: "{F13}"
-34. F14: "{F14}"
-35. F15: "{F15}"
-36. F16: "{F16}"
-37. Keypad add: "{ADD}"
-38. Keypad subtract: "{SUBTRACT}"
-39. Keypad multiply: "{MULTIPLY}"
-40. Keypad divide: "{DIVIDE}"
-
+* Спецкнопки: `"^+n"`.
 
 ## Только код
 
