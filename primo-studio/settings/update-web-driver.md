@@ -13,7 +13,7 @@
    * [для Chrome](https://chromedriver.chromium.org/downloads);
    * [для Edge](https://developer.microsoft.com/ru-ru/microsoft-edge/tools/webdriver/);
    * [для Yandex](https://github.com/yandex/YandexDriver);
-   * [для Opera](https://github.com/operasoftware/operachromiumdriver)
+   * [для Opera](https://github.com/operasoftware/operachromiumdriver).
 
 4. Замените geckodriver в папке `<путь до студии>/WebDriver`.
 
