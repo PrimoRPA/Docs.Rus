@@ -829,6 +829,22 @@
   * [Приложение 3 - События Оркестратора](orchestrator/appendix/appendix3.md)
 * [Безопасность](orchestrator/security.md)
 
+## Idea Hub
+
+* [Установка и обновление](idea-hub/installation/readme-installation.md)
+	* [Системные требования](idea-hub/installation/system-requirements.md)
+	* [Установка на ОС Linux](idea-hub/installation/installation-linux.md)
+	* [Установка на ОС Windows](idea-hub/installation/installation-windows.md)
+	* [Обновление](idea-hub/installation/update.md)
+* [Процессы](idea-hub/processes/readme-processes.md)
+	* [Создание процесса](idea-hub/processes/create-process.md)
+	* [Редактирование процесса](idea-hub/processes/edit-process.md)
+	* [Файл process.csv](idea-hub/file-process.md)
+* [Импорт из Оркестратора](idea-hub/import-from-orchestrator.md)
+* [Настройка формул](idea-hub/formulas.md)
+* [Создание индикаторов](idea-hub/indicators.md)
+* [Интеграция с LDAP](idea-hub/integration-ldap.md)
+
 ## Разработчикам <a href="#developers" id="developers"></a>
 
 * [SDK](developers/sdk/README.md)
