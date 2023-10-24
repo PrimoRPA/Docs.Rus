@@ -1,24 +1,24 @@
 # Импорт данных из Оркестратора
 
 Импорт данных из Оркестратора в Idea Hub позволяет получить имеющиеся в Оркестраторе данные о роботах, пользователях, департаментах и т.д. и перенести их для использования в Idea Hub.  
-На стороне Оркестратора данные извлекаются из базы данных с помощью скриптов "orc-data-fetch" и формируются в файлы формата CSV.  
+На стороне Оркестратора данные извлекаются из базы данных с помощью скриптов `orc-data-fetch` и формируются в файлы формата CSV.  
 Сформированные CSV файлы сохраняются в специальным образом организованной структуре каталогов, откуда автоматически импортируются собственными средствами Idea Hub.
 
 ## Требования
 * Psql;
 * cron (Linux) - поставляется по умолчанию во всех системах Linux;
 * Планировщик заданий (Windows) - есть в OS по умолчанию;
-* pass (опционально для Linux);
-Доступ к серверам, на которых размещены базы данных Оркестратора и доступ на чтение к таблицам (ИМЯ_БАЗЫ_ДАННЫХ.ТАБЛИЦА):  
-ltools.Assets;  
-ltools.RpaProjectLaunches;  
-ltools.Workers;  
-ltools.RpaProjects;  
-ltools.ExchangeQueues;  
-ltools.Robots;  
-ltoolsidentity.Users;  
-ltoolslicense.Licenses;  
-ltoolslogs.OrchEvents;  
+* Утилита pass (опционально для Linux);
+* Доступ к серверам, на которых размещены базы данных Оркестратора и доступ на чтение к таблицам (ИМЯ_БАЗЫ_ДАННЫХ.ТАБЛИЦА):  
+`ltools.Assets`;  
+`ltools.RpaProjectLaunches`;  
+`ltools.Workers`;  
+`ltools.RpaProjects`;  
+`ltools.ExchangeQueues`;  
+`ltools.Robots`;  
+`ltoolsidentity.Users`;  
+`ltoolslicense.Licenses`;  
+`ltoolslogs.OrchEvents`;  
 * Пользователь, от имени которого будут выполняться запросы, должен иметь права на чтение таблиц из указанного выше списка таблиц.
 
 
@@ -28,7 +28,7 @@ ltoolslogs.OrchEvents;
 ![](<../.gitbook/assets/IdeaHub_OrchImport.png>)
 
 Комплект поставки включает в себя скрипты для запуска на ОС Windows («get_data.bat», для PostgreSQL) и ОС Linux («get_data.sh»). Для работы с MS SQL используется скрипт «get_data.ps1».
-Папка запросов («queries» и «queries_mssql» для MS SQL) должна содержать подпапки ltoolslogs и ltools, в которых лежат запросы к соответствующим базам в с расширением SQL.
+Папка запросов («queries» и «queries_mssql» для MS SQL) должна содержать подпапки ltoolslogs и ltools, в которых лежат запросы к соответствующим базам с расширением SQL.
 Результаты выполнения скриптов будут находиться в папке данных («output»).
 
 **❗❗ВАЖНО:** Названия файлов с результатами выполнения запросов должны остаться такими, какими они были после выполнения скрипта. Их не нужно переименовывать.
@@ -39,14 +39,14 @@ ltoolslogs.OrchEvents;
 
 ## Параметры скрипта
 
-**DB_USER:** пользователь берется из переменной окружения DB_USER, либо из утилиты pass (primo/dblogin);  
-**DB_PASSWORD:** пароль берется из переменной окружения DB_PASSWORD, либо из утилиты pass (primo/dbpassword).  
-**DB_HOST:** IP адрес сервера, на котором расположена база данных.  
+`DB_USER:` пользователь берется из переменной окружения DB_USER, либо из утилиты pass (primo/dblogin);  
+`DB_PASSWORD:` пароль берется из переменной окружения DB_PASSWORD, либо из утилиты pass (primo/dbpassword).  
+`DB_HOST:` IP адрес сервера, на котором расположена база данных.  
 Иные параметры.
 
 ## Структура каталогов для импорта данных
 
-Для реализации автоматического импорта данных из Оркестратора разместите файлы, полученные с помощью выполнения скриптов "orc-data-fetch", по пути **PATH_TO_IDEAHUB/private/import-source/environments**.
+Для реализации автоматического импорта данных из Оркестратора разместите файлы, полученные с помощью выполнения скриптов `orc-data-fetch`, по пути `PATH_TO_IDEAHUB/private/import-source/environments`.
 
 Пример правильного размещения структуры файлов:
  
@@ -72,8 +72,8 @@ PATH_TO_IDEAHUB
  
 Файлы будут автоматически обнаруживать и обновлять соответствующие данные на стороне IdeaHub.
  
-Контуры в системе будут называться по имени каталога **PATH_TO_IDEAHUB/private/import-source/environments/prom**, **PATH_TO_IDEAHUB/private/import-source/environments/test**, 
-**PATH_TO_IDEAHUB/private/import-source/environments/something-else**, с изменением регистра первого символа на верхний, например "Prom", "Test", "Something-else".
+Контуры в системе будут называться по имени каталога `PATH_TO_IDEAHUB/private/import-source/environments/prom`, `PATH_TO_IDEAHUB/private/import-source/environments/test`, 
+`PATH_TO_IDEAHUB/private/import-source/environments/something-else`, с изменением регистра первого символа на верхний, например "Prom", "Test", "Something-else".
  
 Остальные файлы импорта:
 - `PATH_TO_IDEAHUB/private/import-source/areas.csv`
