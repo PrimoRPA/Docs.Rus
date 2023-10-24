@@ -8,7 +8,7 @@
 
 1. Проверьте установленную версию вашего браузера на ОС.
 2. Проверьте совместимость драйвера и браузера. Например, для Firefox это можно сделать [здесь](https://firefox-source-docs.mozilla.org/testing/geckodriver/Support.html).
-3. Скачайте совместимую версию geckodriver для вашей ОС. Пример:
+3. Скачайте совместимую версию webdriver для вашей ОС. Пример:
    * [для Firefox](https://github.com/mozilla/geckodriver/releases);
    * [для Chrome](https://chromedriver.chromium.org/downloads);
    * [для Edge](https://developer.microsoft.com/ru-ru/microsoft-edge/tools/webdriver/);
