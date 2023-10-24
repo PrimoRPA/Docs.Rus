@@ -27,7 +27,7 @@
   
    Как ее получить:
    * В сценарии сначала используем компонент [**Присутствие элемента**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_uiinteraction/el_exists). В этом компоненте, в свойстве вывода **Элемент**, указываем переменную с типом [UIControl](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_uiinteraction/datatypes/uicontrol) - она сохранит ссылку на найденный элемент управления.
-   * В элементе **Выполнить JS** в свойстве **Элемент** открываем редактор кода и указываем `<название переменной>.BrowserElement`.
+   * В элементе **Выполнить JS**, в свойстве **Элемент**, открываем редактор кода и указываем `<название переменной>.BrowserElement`.
   
      ![](<../../../.gitbook/assets/execute-js-browser-element.png>)                                                                  
 
