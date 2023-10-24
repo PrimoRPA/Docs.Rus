@@ -17,11 +17,11 @@
 
 4. Замените geckodriver в папке `<путь до студии>/WebDriver`.
 
-   Пример для Linux:
+   * Пример для Linux:
 
    ![](../../.gitbook/assets/update-webdriver-linux.png)
 
-   Пример для Windows:
+   * Пример для Windows:
 
    ![](../../.gitbook/assets/update-webdriver-windows.png)
  
