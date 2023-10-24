@@ -44,6 +44,7 @@
     * [RDP](primo-studio/settings/plugin-install/rdp.md)
     * [Java](primo-studio/settings/plugin-install/java.md)
   * [Автоматическая установка расширений для браузеров](primo-studio/settings/autoinstall-browser-extension.md)
+  * [Обновление Selenium WebDriver](primo-studio/settings/update-web-driver.md)
   * [NuGet](primo-studio/settings/nuget.md)
   * [Тонкая настройка](primo-studio/settings/fine-tuning/layout.md)
     * [Мультисессионная работа](primo-studio/settings/fine-tuning/multisession.md)
