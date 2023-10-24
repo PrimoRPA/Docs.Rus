@@ -54,10 +54,10 @@
 
 ### Описание элементов Студии. 
 
-Примеры, которые можно использовать в качестве условного шаблона (но можно и лучше):
-   * [Получить значение](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_assets/el_orch_getvalue)
-   * [Чтение диапазона](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_readrange)
-   * [Запись в журнал](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_dialogs/el_dialogs_addlog)
+Пример, который можно использовать в качестве шаблона (но можно и лучше):
+   * [Открыть браузер](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_browser/el_browser_open)
+   * [Сам шаблон](https://github.com/PrimoRPA/Docs.Rus/blob/main/element-description-template.md)
+  
 
    В описании элементов стараемся придерживаться следующей логики:
    * В тело статьи добавляем название элемента на англ.языке - чтобы поддерживался поиск. Пока название на англ мало где добавлено, это хорошо бы исправить.
