@@ -15,7 +15,7 @@
    * [для Yandex](https://github.com/yandex/YandexDriver);
    * [для Opera](https://github.com/operasoftware/operachromiumdriver)
 
-5. Замените geckodriver в папке `<путь до студии>/WebDriver`.
+4. Замените geckodriver в папке `<путь до студии>/WebDriver`.
 
    Пример для Linux:
 
