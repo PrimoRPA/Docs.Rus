@@ -1,22 +1,22 @@
-# Получить атрибут
+# Получить атрибут 
+_Eng: Get Attribute_
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (42).png>)
+![Get Attribute 2](<../../../.gitbook/assets/image (319).png>)
 
-![](<../../../.gitbook/assets/image (319).png>)
+Данный компонент предназначен для получения данных атрибута элемента управления. Он корректно функционирует только внутри контейнера "Открыть браузер" или "Присоединиться к браузеру".
 
-Компонент, производящий получение данных атрибута элемента управления. Компонент корректно работает только внутри контейнера "Открыть браузер" либо "Присоединиться к браузеру".
+**Свойства:**
+- **Шаблон поиска**: string. Это шаблон поиска элемента управления.
+- **Элемент**: LTools.WebBrowser.Model.IElementInfo. Ссылка на элемент управления.
+- **Атрибут**: string. Это название атрибута элемента управления.
+- **Результат**: string. Переменная для сохранения данных первого найденного атрибута.
+- **Результат (массив)**: List\<string>. Переменная для сохранения данных всех найденных атрибутов.
+- **Таймаут\***: int. Предельное время ожидания завершения процесса (в миллисекундах).
 
-| Свойство           | Тип                                  | Описание                                                     |
-| ------------------ | ------------------------------------ | ------------------------------------------------------------ |
-| Шаблон поиска      | String                               | Шаблон поиска элемента управления                            |
-| Элемент            | LTools.WebBrowser.Model.IElementInfo | Ссылка на элемент управления                                 |
-| Атрибут            | String                               | Название атрибута элемента управления                        |
-| Результат          | String                               | Переменная для сохранения данных первого найденного атрибута |
-| Результат (массив) | List\<string>                        | Переменная для сохранения данных всех найденных атрибутов    |
-| Таймаут\*          | Int32                                | Предельное время ожидания завершения процесса (мс)           |
+Примеры кода для разных языков:
 
-{% tabs %}
-{% tab title="C#" %}
+### C#
+
 ```csharp
 LTools.WebBrowser.BrowserApp app = LTools.WebBrowser.BrowserApp.Init(wf, "Free email*", LTools.WebBrowser.Model.BrowserTypes_Short.IE);
 //Шаблон поиска
@@ -26,9 +26,9 @@ LTools.WebBrowser.Model.IElementInfo el = app.FindElement("{\"Tag\":\"INPUT\",\"
 att = app.GetAttribute(el, "title");		
 LTools.Workflow.PrimoApp.AddToLog(wf, att[0]);
 ```
-{% endtab %}
 
-{% tab title="Python" %}
+### Python
+
 ```python
 app = LTools.WebBrowser.BrowserApp.Init(wf, "Free email*", LTools.WebBrowser.Model.BrowserTypes_Short.IE)
 #Шаблон поиска
@@ -38,9 +38,9 @@ el = app.FindElement("{\"Tag\":\"INPUT\",\"SearchFrames\":false,\"Attributes\":[
 att = app.GetAttribute(el, "title");	
 LTools.Workflow.PrimoApp.AddToLog(wf, att[0])
 ```
-{% endtab %}
 
-{% tab title="JavaScript" %}
+### JavaScript
+
 ```javascript
 var app = _lib.LTools.WebBrowser.BrowserApp.Init(wf, "Free email*", _lib.LTools.WebBrowser.Model.BrowserTypes_Short.IE);
 //Шаблон поиска
@@ -50,5 +50,3 @@ var el = app.FindElement("{\"Tag\":\"INPUT\",\"SearchFrames\":false,\"Attributes
 att = app.GetAttribute(el, "title");	
 _lib.LTools.Workflow.PrimoApp.AddToLog(wf, att[0]);
 ```
-{% endtab %}
-{% endtabs %}
