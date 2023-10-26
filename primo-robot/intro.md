@@ -42,7 +42,7 @@
 
 1. [Установка Primo Robot через Оркестратор](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/upload-robot). 
 2. [Регистрация машины Робота](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/register-robot).
-3. [Типы лицензий](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/licensing/license-types) и [Запрос лицензии в Оркестраторе](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/licensing/new-license).
+3. [Типы лицензий](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/licensing) и [Запрос лицензии в Оркестраторе](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/licensing/new-license).
 4. [Ручной запуск Робота с RPA-проектом](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/robot-manual-start).
 5. Автоматизированный запуск RPA-проектов с помощью [Заданий](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/tasks) и [Расписаний](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/schedules).
 
