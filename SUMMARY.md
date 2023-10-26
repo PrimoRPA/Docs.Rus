@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Primo RPA](README.md)
+* [Лицензии](licenses.md)
 * [Полезные ресурсы](useful-links.md)
 * [Примечания к выпускам](release-notes/README.md)
   * [Студия](release-notes/studio/README.md)
