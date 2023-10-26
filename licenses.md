@@ -9,7 +9,7 @@
 ## Primo RPA Orchestrator
 
 Для решения Primo RPA Orchestrator\* предоставляются лицензии:
-* **Orchestrator** - для работы в продуктивной среде. Мнемоника (текст в файле лицензии) - **orchestrator**. Лицензия запрашивается/обновляется через UI Оркестратора и хранится в БД. Способ получения описан [здесь](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/licensing/new-license).
+* **Orchestrator** - для работы в продуктивной среде. Мнемоника (текст в файле лицензии) - **orchestrator**. Лицензия запрашивается, обновляется через UI Оркестратора и хранится в БД. Способ получения описан [здесь](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/licensing/new-license).
 * **Orchestrator Non-Production** - для работы в непродуктивной среде (тестирования). Мнемоника - **orchestrator**. Для запроса этой лицензии напишите вендору на email License@primo-rpa.ru.
 
 > \**Допустимые названия далее - Primo Orchestrator, Оркестратор.*
