@@ -18,8 +18,8 @@
 ## Primo RPA Studio
 
 Приложение Primo RPA Studio\* поставляется в [двух изданиях](https://docs.primo-rpa.ru/primo-rpa/primo-studio/editions):
-* Enterprise - лицензируется;
-* Community - не требует лицензии.
+* Enterprise - полная версия, лицензируется. 
+* Community - ограниченная версия для первичного ознакомления. Не требует лицензии.
 
 Издание Primo RPA Studio Enterprise\*\* может использовать для работы 2 вида лицензии:
 
