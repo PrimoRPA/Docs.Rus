@@ -2,7 +2,7 @@
 
 *Eng: Change queue item state*
 
-Позволяет изменить статус элемента [очереди обмена данных](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/data-queues) Оркестратора на один из следующих: Success, Error, Business Error. Выбранный статус обозначает результат обработки элемента роботом.
+Позволяет изменить статус элемента [очереди обмена данных](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/data-queues) Оркестратора на один из следующих: Success, Error, Business Error. Выбранный статус будет обозначать результат обработки элемента роботом.
 
 ![](<../../../../.gitbook/assets/change-status-orch-queue-items.png>)
 
