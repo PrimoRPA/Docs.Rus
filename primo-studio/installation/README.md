@@ -2,7 +2,7 @@
 
 > *Перед установкой ознакомьтесь с [системными требованиями](https://docs.primo-rpa.ru/primo-rpa/primo-studio/systemreq) к компьютеру.*
 
-Установку приложения Primo Studio осуществляет инсталлятор, запускаемый файлом setup.exe. Для корректной работы Primo Studio необходим Microsoft .NET Framework 4.6.1, установка которого производится вместе с установкой Студии.
+Установку приложения Primo RPA Studio осуществляет инсталлятор, запускаемый файлом setup.exe. Для корректной работы Primo RPA Studio необходим Microsoft .NET Framework 4.6.1, установка которого производится вместе с установкой Студии.
 
 ![](<../../.gitbook/assets/Untitled (6).png>)
 
@@ -10,7 +10,7 @@
 
 ![](<../../.gitbook/assets/Untitled (2).png>)
 
-После нажатия кнопки **Далее** инсталлятор предложит выбрать папку для установки Primo Studio:
+После нажатия кнопки **Далее** инсталлятор предложит выбрать папку для установки Primo RPA Studio:
 
 ![](<../../.gitbook/assets/Untitled (5).png>)
 
@@ -28,9 +28,9 @@
 
 ## Запуск
 
-Primo Studio поставляется в двух изданиях: 
-* Community - бесплатная. Если вы установили Studio Community, то можно сразу начинать работать. 
-* Enterprise - требует лицензии. Если вы установили Studio Enterprise, сначала ознакомьтесь с разделом [Запуск](https://docs.primo-rpa.ru/primo-rpa/primo-studio/enterprise).
+Primo RPA Studio поставляется в [двух изданиях](https://docs.primo-rpa.ru/primo-rpa/primo-studio/editions): 
+* Community -  ознакомительная версия, имеет ограничения и не подлежит лицензированию. Если вы установили это издание, то можно сразу начинать работу со Студией. 
+* Enterprise - полная версия, подлежит лицензированию. Если вы установили это издание, сначала ознакомьтесь с разделом [Запуск](https://docs.primo-rpa.ru/primo-rpa/primo-studio/enterprise).
 
 ## Обновление 
 Процедуры обновления и удаления Студии описаны в [этом разделе](https://docs.primo-rpa.ru/primo-rpa/primo-studio/installation/update).
