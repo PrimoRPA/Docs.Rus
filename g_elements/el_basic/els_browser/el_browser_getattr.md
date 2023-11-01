@@ -3,11 +3,11 @@ _Eng: Get Attribute_
 
 Компонент позволяет получить данные атрибута элемента управления. 
 
-![Get Attribute 2](<../../../.gitbook/assets/image (319).png>)
+Для корректной работы:
+1. Поместите компонент внутрь контейнера [**Открыть браузер**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_browser/el_browser_open) или [**Присоединиться к браузеру**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_browser/el_browser_attach).
+2. [Установите расширение того браузера](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/plugin-install), к которому вы хотите подключиться.
 
-Для корректной работы требуется:
-* поместить компонент внутрь контейнера [**Открыть браузер**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_browser/el_browser_open) или [**Присоединиться к браузеру**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_browser/el_browser_attach);
-* [установить расширение браузера](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/plugin-install), к которому вы хотите подключиться.
+![Get Attribute 2](<../../../.gitbook/assets/image (319).png>)
 
 
 ## Свойства
@@ -18,7 +18,7 @@ _Eng: Get Attribute_
 - **Атрибут**: String. Название атрибута элемента управления. Пример: `"title"`.
 - **Таймаут\***: Int32. Предельное время ожидания завершения процесса (в миллисекундах). По умолчанию `10000`. 
 - **Шаблон поиска**: String. [Шаблон поиска](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/searchpatterns) элемента управления (то же, что и селектор). Для быстрого формирования шаблона используйте инструмент **Выбрать компонент** ![](<../../../.gitbook/assets/image (553).png>)
-- **Элемент**: LTools.WebBrowser.Model.IElementInfo. Переменная со ссылкой на элемент управления. Заполняется, если нужный элемент управления был найден ранее, с помощью компонента **Присутствие элемента**, и сохранен в переменную.
+- **Элемент**: LTools.WebBrowser.Model.IElementInfo. Переменная со ссылкой на элемент управления. Заполняется, если нужный элемент управления был найден ранее, с помощью компонента **Присутствие элемента**.
 
 **Группа «Вывод»**:
 
