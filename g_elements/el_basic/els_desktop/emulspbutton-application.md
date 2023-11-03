@@ -20,64 +20,60 @@
 
 | Кнопка             | Описание                           |
 | ------------------ | ---------------------------------- |
-| VK_(0-9)           | Эмуляция цифровых клавиш 0-9       |
-| VK_(A-Z)           | Эмуляция буквенных клавиш A-Z      |
+| VK_(0-9)           | Цифровые клавиши 0-9       |
+| VK_(A-Z)           | Буквенные клавиши A-Z      |
 
 ### F1-F24
 
 | Кнопка             | Описание                           |
 | ------------------ | ---------------------------------- |
-| F1...F24           | Эмуляция нажатия функциональных клавиш F1, F2...F24 |
+| F1...F24           | Функциональные клавиши F1, F2...F24 |
 
 ### Спецкнопки
 
-Примечание: названия клавиш точно такие же, как и сами клавиши на клавиатуре.
-
-Почему нет ALT??
-
-| Кнопка             | Эквивалент                          |
+| Кнопка             | Эквивалент                         |
 | ------------------ | ---------------------------------- |
-| TAB                | Клавиша `Tab` (табуляции)                  |
-| SHIFT              | Клавиша `Shift` (какой???)  |
-| LSHIFT             | Левый `Shift`              |
-| RSHIFT             | Правый `Shift`             |
-| CONTROL            | Клавиша `Ctrl` (какой???)   |
-| LCONTROL           | Левый `Ctrl`               |
-| RCONTROL           | Правый `Ctrl`              |
-| SPACE              | Пробел      |
-| ESCAPE             | Клавиша `Esc` (отмена)     |
-| INSERT             | Клавиша `Ins` (вставить)      |
-| DELETE             | Клавиша `Del` (удалить)     |
-| END                | Клавиша `End`      |
-| HOME               |       |
-| LEFT               |       |
-| RIGHT              |       |
-| UP                 |       |
-| DOWN               |       |
+| TAB                | Клавиша `Tab` (табуляции)          |
+| SHIFT              | Клавиша `Shift` (вспомогательная) - какой именно??? |
+| LSHIFT             | Левый `Shift`                      |
+| RSHIFT             | Правый `Shift`                     |
+| CONTROL            | Клавиша `Ctrl` (управления) - какая именно?? |
+| LCONTROL           | Левый `Ctrl`                       |
+| RCONTROL           | Правый `Ctrl`                      |
+| SPACE              | Клавиша `Spacebar` (пробел)        |
+| ESCAPE             | Клавиша `Esc` (отмена)             |
+| INSERT             | Клавиша `Ins` (вставить)           |
+| DELETE             | Клавиша `Del` (удалить)            |
+| END                | Клавиша `End` (в конец текста)     |
+| HOME               | Клавиша `Home` (в начало текста)   |
+| LEFT               | Клавиша `LEFT ARROW` (стрелка влево)   |
+| RIGHT              | Клавиша `RIGHT ARROW` (стрелка вправо) |
+| UP                 | Клавиша `UP ARROW` (стрелка вверх)     |
+| DOWN               | Клавиша `DOWN ARROW` (стрелка вниз)    |
+| PRIOR              | Клавиша `PAGE UP` (страницей выше)     |
+| NEXT               | Клавиша `PAGE DOWN` (страницей ниже)   |
 | HELP               | Клавиша `Help` (справка). Редкая клавиша, присутствует не на всех клавиатурах  |
 | SLEEP              | Клавиша `Sleep` (сон компьютера). погуглить, на всех клавах или нет     |
 | APPS               | Клавиша приложения (клавиша, вызывающая контекстное меню файла/программы, как при правом клике мышкой ???? уточнить значение и на каких клавах -Клавиатура Microsoft® Natural® )    |
-| CANCEL             |       |
-| BACK               | `Back` (или `Backspace`) |
-| CLEAR              | `Clear` - не на всех клавиатурах?       |
-| RETURN             | Enter???      |
-| MENU               |       |
-| LMENU              |       |
-| RMENU              |       |
-| PAUSE              | Клавиша `Pause`      |
+| CANCEL             | Обработка комбинации клавиш Control-Break (УТОЧНИТЬ!!)      |
+| BACK               | Клавиша `Back` (или `Backspace`) - возврат на позицию? |
+| CLEAR              | Клавиша `Clear` - не на всех клавиатурах?       |
+| RETURN             | Клавиша `Enter` (ввод)      |
+| MENU               | Клавиша `Alt` (навигация по меню)     |
+| LMENU              | Левая клавиша `Alt` - уточнить    |
+| RMENU              | Правая клавиша `Alt` - уточнить      |
+| PAUSE              | Клавиша `Pause` (останов работы)      |
 | CAPITAL            | Клавиша `CapsLock` (переключатель регистра символов)      |
-| HANGEUL (в студии 3 раза)  | Редактор метода ввода (IME) режим Hanguel (поддерживается для совместимости) |
+| HANGEUL (в студии 3 раза)  | Редактор метода ввода (IME) режим Hanguel  |
 | JUNJA              | Редактор метода ввода (IME) режим Junja      |
 | FINAL              | Редактор метода ввода (IME) заключительный режим      |
 | KANJI (в студии 2 раза) | Редактор метода ввода (IME) режим Kanji      |
-| CONVERT            |       |
-| NONCONVERT         |       |
-| ACCEPT             |       |
-| MODECHANGE         |       |
-| PRIOR              |       |
-| NEXT               |       |
+| CONVERT            | Преобразованный IME      |
+| NONCONVERT         | Не преобразованный IME      |
+| ACCEPT             | Принятый IME      |
+| MODECHANGE         | Запрос изменить режим IME      |
 | SELECT             | Клавиша `SELECT` (выбор)      |
-| PRINT              |       |
+| PRINT              | Клавиша `PRINT` (печать)      |
 | EXECUTE            | Клавиша `EXECUTE` (исполнить)  |
 | SNAPSHOT           | Клавиша `Print Screen` (печать экрана) |
 | LWIN               | Левая клавиша "Windows"       |
@@ -85,11 +81,11 @@
 | MULTIPLY           | Клавиша `*` (умножение)  |
 | ADD                |       |
 | SEPARATOR          |       |
-| SUBTRACT          |       |
-| DECIMAL          |       |
-| DIVIDE           |       |
-| SCROLL           |       |
-
+| SUBTRACT           |       |
+| DECIMAL            |       |
+| DIVIDE             |       |
+| SCROLL             |       |
+ 
 
 ### NUMPAD
 
@@ -109,26 +105,28 @@
 
 ### BROWSER, MEDIA, LAUNCH
 
-Клавиши расширенных функций Мультимедийных и Интернет-клавиатур:
+Клавиши расширенных функций Мультимедийных и Интернет-клавиатур.
 
-* BROWSER_BACK
-* BROWSER_FORWARD
-* BROWSER_REFRESH
-* BROWSER_STOP
-* BROWSER_SEARCH
-* BROWSER_FAVORITES
-* BROWSER_HOME
-* VOLUME_MUTE
-* VOLUME_DOWN
-* VOLUME_UP
-* MEDIA_NEXT_TRACK
-* MEDIA_PREV_TRACK
-* MEDIA_STOP
-* MEDIA_PLAY_PAUSE
-* LAUNCH_MAIL
-* LAUNCH_MEDIA_SELECT
-* LAUNCH_APP1
-* LAUNCH_APP2
+| Кнопка             | Описание                                         |
+| ------------------ | ------------------------------------------------ |
+| BROWSER_BACK       | Клавиша `Browser Back` (просмотр вперед) |
+| BROWSER_FORWARD    | Клавиша `Browser Forward` (просмотр назад)   |
+| BROWSER_REFRESH    | Клавиша `Browser Refresh` (обновить экран просмотра) |
+| BROWSER_STOP       | Клавиша `Browser Stop` (остановить просмотр)       |
+| BROWSER_SEARCH     | Клавиша `Browser Search` (поиск в окне просмотра)  |
+| BROWSER_FAVORITES  | Клавиша `Browser Favorites` (предпочтительного просмотра)   |
+| BROWSER_HOME       | Клавиша `Browser Start` и `Home` (эапуск брузера и на главную страницу)  |
+| VOLUME_MUTE        | Клавиша `Volume Mute` (временно выключить звук)   |
+| VOLUME_DOWN        | Клавиша `Volume Down` (понизить громкость звука)   |
+| VOLUME_UP          | Клавиша `Volume Up` (повысить громкость звука)     |
+| MEDIA_NEXT_TRACK   | Клавиша `Next Track` (следующая дорожка)           |
+| MEDIA_PREV_TRACK   | Клавиша `Previous Track` (предыдущая дорожка)      |
+| MEDIA_STOP         | Клавиша `Stop Media` (останов проигрывателя)   |
+| MEDIA_PLAY_PAUSE   | Клавиша `Play/Pause Media` (воспроизведение/пауза проигрывателя)  |
+| LAUNCH_MAIL        | Клавиша `Start Mail` (запуск почтовой программы)   |
+| LAUNCH_MEDIA_SELECT | Клавиша `Select Media` (выбор медиа)  |
+| LAUNCH_APP1        | Клавиша `Start Application 1` (запуск приложения 1)   |
+| LAUNCH_APP2        | Клавиша `Start Application 2` (запуск приложения 2)   |
 
 ### OEM
 
