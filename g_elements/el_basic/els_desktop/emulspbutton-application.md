@@ -76,14 +76,14 @@
 | PRINT              | Клавиша `PRINT` (печать)      |
 | EXECUTE            | Клавиша `EXECUTE` (исполнить) |
 | SNAPSHOT           | Клавиша `Print Screen` (печать экрана) |
-| LWIN               | Левая клавиша "Windows"       |
-| RWIN               | Правая клавиша "Windows"      |
+| LWIN               | Левая клавиша `Windows`       |
+| RWIN               | Правая клавиша `Windows`      |
 | MULTIPLY           | Клавиша `*` (умножение)       |
 | ADD                | Клавиша `+` сложения (+)      |
-| SEPARATOR          | Клавиша `\` (разделение)      |
 | SUBTRACT           | Клавиша `-` (вычитание)       |
-| DECIMAL            | Клавиша десятичная            |
 | DIVIDE             | Клавиша `/` (деление)         |
+| SEPARATOR          | Клавиша `\` (разделение)      |
+| DECIMAL            | Клавиша десятичная            |
 | SCROLL             | Клавиша `SCROLL LOCK`         |
  
 
