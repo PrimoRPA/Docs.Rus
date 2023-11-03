@@ -47,4 +47,4 @@
 
 ![](<../../.gitbook/assets/ltools.selector.exe-here.png>)
 
-Также рекомендуем ознакомиться с инструкцией [по мультисессионной работе](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/multisession).
+Также рекомендуем ознакомиться с инструкцией [по мультисессионной работе](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/layout/multisession).
