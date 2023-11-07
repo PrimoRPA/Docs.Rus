@@ -12,7 +12,7 @@
 1. При остановке из-за исключения можно изменять значения переменных, и продолжить выполнение с помощью кнопки "Повтор шага".  Ажур https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_boards/board/t/Studio%20Team/Stories/?workitem=1182
 2. Исправлено неправильное поведение при копировании и перетаскивании элементов, которое зависело от порядка нажатия Ctrl. Теперь копирование и перетаскивание работают корректно, независимо от последовательности нажатия Ctrl. https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/1181
 3. Исправлена ошибка "Ссылка на объект не указывает на экземпляр объекта", которая возникала при использовании функции "Закомментировать" для элементов, находящихся в разных контейнерах в Studio версии 1.23.8.4 Enterprise. Теперь комментирование происходит корректно, и элементы правильно помещаются в соответствующий контейнер. https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_boards/board/t/Studio%20Team/Stories/?workitem=4193
-
+4. Исправлена ошибка, при которой нельзя было установить зависимость на предыдущую версию из окна "Управление зависимостями". Теперь можно устанавливать и обновлять на предыдущие версии зависимости. https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_boards/board/t/Studio%20Team/Stories/?workitem=3233
 
 ### Где найти
 [Скачать дистрибутив Primo Studio Enterprise](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease%2FStudio).
