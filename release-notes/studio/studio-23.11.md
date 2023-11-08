@@ -3,7 +3,7 @@
 
 ### Новые функции и улучшения
 
-1. В Robot Runner была добавлена информация о версии Runner, которую можно найти в разделе меню **Файл ➝ О программе** https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_boards/board/t/Studio%20Team/Stories/?workitem=3253
+1. В Robot Runner добавлена информация о версии Runner, которую можно найти в разделе меню **Файл ➝ О программе** https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_boards/board/t/Studio%20Team/Stories/?workitem=3253
 2. Добавлена функциональность, которая позволяет без ошибок перемещать элементы в блок 'try-catch', сохраняя их логику работы. Теперь такая возможность также доступна для элемента 'try-catch', что  предотвращает аварийное завершение при возникновении исключений. https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/3567
 3. Улучшена работа элемента **Повтор попыток (Retry)**, включая свойство **Продолжить при ошибке**, что позволяет более гибко управлять выполнением процессов и обработкой ошибок, включая изменение поведения выполнения цикла. https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_boards/board/t/Studio%20Team/Stories/?workitem=169
 
