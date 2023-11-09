@@ -31,6 +31,7 @@
 14. Исправлена проблема с обновлением скриншота в окне элемента **Клик мышью**, когда выбор элемента производился через редактор шаблона поиска. Теперь скриншот корректно обновляется при выборе нового элемента в редакторе.
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/3205
 
+
 ### Где найти
 [Скачать дистрибутив Primo Studio Enterprise](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease%2FStudio).
 
