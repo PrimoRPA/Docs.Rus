@@ -32,19 +32,19 @@
 
 **Запуск и регистрация в автономном режиме:**
 
-1. [Ручная установка Primo Robot на компьютер пользователя - ОС Windows](https://docs.primo-rpa.ru/primo-rpa/primo-robot/installation). 
+1. [Ручная установка Primo Robot на компьютер пользователя - ОС Windows](https://docs.primo-rpa.ru/primo-rpa/primo-robot/installation).   
    * ИЛИ: [Ручная установка кроссплатформенной версии Primo Robot](https://docs.primo-rpa.ru/primo-rpa/primo-robot/installation/robot_core).
-2. [Регистрация Робота локальным ключом](https://docs.primo-rpa.ru/primo-rpa/primo-robot/registration-desktop).
-3. [Запуск Робота из командной строки (через Primo Robot)](https://docs.primo-rpa.ru/primo-rpa/primo-robot/launch-command).
+2. [Регистрация Робота локальным ключом](https://docs.primo-rpa.ru/primo-rpa/primo-robot/installation/registration-desktop).
+3. [Запуск Робота из командной строки (через Primo Robot)](https://docs.primo-rpa.ru/primo-rpa/primo-robot/installation/launch-command).
 4. [Запуск Робота с помощию Robot Runner](https://docs.primo-rpa.ru/primo-rpa/primo-robot/robot-runner).
 
 **Запуск и регистрация через Оркестратор:**
 
 1. [Установка Primo Robot через Оркестратор](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/upload-robot). 
 2. [Регистрация машины Робота](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/register-robot).
-3. [Типы лицензий](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/licensing) и [Запрос лицензии в Оркестраторе](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/licensing/new-license).
+3. [Запрос лицензии в Оркестраторе](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/licensing/new-license).
 4. [Ручной запуск Робота с RPA-проектом](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/robot-manual-start).
-5. Автоматизированный запуск RPA-проектов с помощью [Заданий](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/tasks) и [Расписаний](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/schedules).
+5. Автоматизированный запуск RPA-проектов с помощью [Заданий](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/tasks) и [Расписаний](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/tasks/schedules).
 
 Для более полного понимания работы с Роботом через Оркестратор рекомендуется ознакомиться с документацией из раздела **Оркестратор**.
 
