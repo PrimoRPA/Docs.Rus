@@ -4,7 +4,7 @@
 
 2\. Академия Primo:
    * [видео на YouTube](https://www.youtube.com/channel/UCHc4loXmLSH1-l6PBGnz5ng);
-   * [на портале Академии](https://rondem-s-academy.thinkific.com).
+   * [на портале Академии](https://academy.primo-rpa.ru).
 
 4\. [Обучающие примеры на GitHub](https://github.com/PrimoRPA/Learning) - RPA-проекты с использованием различных элементов Студии.
 
