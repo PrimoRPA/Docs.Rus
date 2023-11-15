@@ -40,8 +40,8 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/3205
 
 
 ### Где найти
-[Скачать дистрибутив Primo Studio Enterprise](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease%2FStudio).
+[Скачать дистрибутив Primo RPA Studio Enterprise](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease%2FStudio).
 
-[Скачать дистрибутив Primo Robot](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease%2FRobot):
+[Скачать дистрибутив Primo RPA Robot](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease%2FRobot):
 * **Primo RPA Robot 1.23.11** - предназначен для установки на локальной рабочей станции. Выступает в роли цифрового ассистента пользователя. Дистрибутив поставляется в разрядности x64 и x86.
 * **Primo RPA Robot Orchestrator 1.23.11** - предназначен для автоматической установки Оркестратором. Дистрибутив поставляется в разрядности x64 и x86.
