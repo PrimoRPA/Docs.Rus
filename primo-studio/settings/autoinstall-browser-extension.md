@@ -46,7 +46,7 @@ C:\Scripts\_InstallWebBrowserNative.bat “C:\Program Files\Primo\Primo Robot x6
 
 При изменении версии расширения с 1.59 может потребоваться корректировка скрипта `_Install_BrowserExtensions_GPO.bat`. Откройте файл скрипта и проверьте версию устанавливаемого расширения. При необходимости измените ее:
 
-![](<../../.gitbook/assets/version-in-script-bat-to-chrome-ext.png>)
+<img src="../../.gitbook/assets/version-in-script-bat-to-chrome-ext.png" alt="version-in-script-bat-to-chrome-ext">
 
 
 ## Описание установки
