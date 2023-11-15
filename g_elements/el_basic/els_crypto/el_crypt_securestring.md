@@ -1,19 +1,26 @@
-# SecureString к строке
+  # SecureString к строке
+
+*Eng: SecureStringToString*
 
 ![](<../../../.gitbook/assets/SecureString к строке.png>)
 
-Компонент, преобразующий SecureString к строке.
+Компонент, который преобразует SecureString в строку. Элемент "SecureString к строке" может быть полезен при автоматизации задач, которые требуют обработки конфиденциальных данных. 
 
-> *Описание общих свойств см. в разделе [**Работа с элементами**](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements)*.
+### Свойства
+
+Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
+
 
 | Свойство             | Тип                   | Описание                                      |
 | -------------------- | --------------------- | --------------------------------------------- |
 | ***Процесс***        |           |              |
-| Строка\*             | String                 | Укажите строковую переменную                 |
+| Строка\*             | Строка                 | Укажите переменную строки                 |
 | ***Вывод***          |           |              |
-| SecureString\*       | [System.Security.SecureString](https://learn.microsoft.com/ru-ru/dotnet/api/system.security.securestring?view=net-5.0) | Укажите переменную вывода, в которой будут сохранены данные в формате SecureString           |
+| SecureString\*       | [System.Security.SecureString](https://learn.microsoft.com/ru-ru/dotnet/api/system.security.securestring?view=net-5.0) | Укажите переменную вывода, в которую будут сохранены данные в формате SecureString           |
 
-Пример работы элемента можно посмотреть [**здесь**](https://github.com/PrimoRPA/Learning/tree/master/Ru/%D0%9A%D1%80%D0%B8%D0%BF%D1%82%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F).
+## Только код
+
+Пример использования элемента в процессе с типом **Только код** (Pure code)
 
 {% tabs %}
 {% tab title="C#" %}
