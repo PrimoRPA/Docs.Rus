@@ -4,7 +4,7 @@
 
 Раздел содержит инструкцию по автоматизации установки расширения Primo RPA Extension версии 1.59.\*
 
-> \**При изменении версии расширения с 1.59 может потребоваться корректировка скрипта _Install_BrowserExtensions_GPO.bat. Подробнее описано далее.*
+> \**При изменении версии расширения с 1.59 может потребоваться корректировка скрипта _Install_BrowserExtensions_GPO.bat. Подробнее см. в подразделе [ниже](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/autoinstall-browser-extension#izmenenie-versii-rasshireniya).*
 
 ## Общая информация
 
