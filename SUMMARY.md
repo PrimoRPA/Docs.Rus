@@ -554,6 +554,7 @@
     * [Чтение таблицы](g\_elements/el\_basic/els\_desktop/el\_desktop\_gettable.md)
     * [Эмуляция ввода текста](g\_elements/el\_basic/els\_desktop/el\_desktop\_emulinput.md)
     * [Эмуляция спецкнопки](g\_elements/el\_basic/els\_desktop/el\_desktop\_emulspbutton.md)
+    * [Приложение 1. Кнопки для эмулирования](g_elements/el_basic/els_desktop/emulspbutton-application.md)
   * [Тестирование](g\_elements/el\_basic/testing/README.md)
     * [Заглушка](g\_elements/el\_basic/testing/mock.md)
     * [Получить следующие локальные тестовые данные](g\_elements/el\_basic/testing/getnextlocaltestdata.md)
