@@ -8,7 +8,7 @@ Robot Runner входит в стандартную поставку Primo Studi
 
 ### Регистрация
 
-Регистрация Робота локальным ключом (Robot Desktop) через Robot Runner подробно описана [в этом разделе](https://docs.primo-rpa.ru/primo-rpa/primo-robot/registration-desktop). Без регистрации полноценная работа с Роботом в Robot Runner невозможна.
+Регистрация Робота локальным ключом (Robot Desktop) через Robot Runner подробно описана [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-robot/registration-desktop). Без регистрации полноценная работа с Роботом в Robot Runner невозможна.
 
 
 ### Запуск 
