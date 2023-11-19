@@ -1,6 +1,8 @@
 # ExecutionExceptionInfo
 
-LTools.Common.Model.ExecutionExceptionInfo
+LTools.Common.Model.ExecutionExceptionInfo - информация об исключении.
+
+:small_blue_diamond: **Примечание**. Знак «?» в типе данных указывает на то, что значение может быть null.
 
 | Свойство     | Тип      | Описание            |
 | ------------ | -------- | ------------------- |
