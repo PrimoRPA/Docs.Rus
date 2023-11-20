@@ -11,7 +11,7 @@ Hope UI – это новый интерфейс Primo RPA Orchestrator, рез�
 Видеообзор нового интерфейса доступен по [ссылке](https://www.youtube.com/watch?v=SlxgjXDrvsM).
 
 
-<a href="https://www.youtube.com/watch?v=SlxgjXDrvsM"><img src=".gitbook/assets1/youtube-hope-ui-part1.gif" width="850" title="hover text"></a>
+<a href="https://www.youtube.com/watch?v=SlxgjXDrvsM"><img src="../.gitbook/assets1/youtube-hope-ui-part1.gif" width="850" title="hover text"></a>
 
 
 ## Начало работы с Hope UI
