@@ -23,7 +23,7 @@ LTools.Office.Model.OMailMessage - модель письма. Используе
 | HTMLBody    | String                                                          | Текст тела письма в формате HTML  |
 | MessageProperties | LTools.Office.Model.OMailMessage.OMailProperties  | Только для Outlook. Свойства письма. Отображаются, если в элементе [Чтение почты](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/els_outlook/el_outlook_readmail) установлен флаг **Читать свойства**. С помощью свойств письма можно узнать, например, отображаемое имя отправителя/получателя   |
 | Element     | -                                                               | Представляет сообщение электронной почты. Тип данных зависит от используемой почты: для Exchange - это EmailMessage, для Outlook - это MailItem, для Lotus - это Domino.NotesDocument. Чтобы получить доступ к свойствам класса, требуется сначала вручную привести его к нужному типу. Подробнее см. в подразделе ниже  |
-| Attachments | List<[LTools.Office.Model.OMailAttachment](omailattachment.md)> | Вложения письма. Например, фото, чек и т.д. С версии 23.11 в качестве вложения может выступать и другое письмо (в формате \*.eml)   |
+| Attachments | List<[LTools.Office.Model.OMailAttachment](omailattachment.md)> | Вложения письма |
 
 
 
