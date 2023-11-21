@@ -37,3 +37,5 @@
 Опция позволяет указать обязательность смены пароля при первом входе в систему.
 
 [Посмотреть видео на YouTube](https://youtu.be/SlxgjXDrvsM?t=550)
+
+[Управление ролями пользователя можно посмотреть по ссылке] (https://github.com/PrimoRPA/Docs.Rus/blob/SiuzanaTedzhoeva-HopeUI/orchestrator-hope-ui/User_role_managment.md)
