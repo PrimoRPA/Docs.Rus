@@ -82,6 +82,45 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/3205
 1. Исправлена ошибка, приводившая к потере изменений в текущем проекте при создании нового проекта. 
 
 
+Другие задачи:
+
+1. Зависание робота на активности "Ссылка на процесс" на 1.23.9.501
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_boards/board/t/Studio%20Team/Stories/?workitem=8436
+
+2. Еще 2 ошибки в 23.9.5 про работу редактора шаблонов с IE
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_boards/board/t/Studio%20Team/Stories/?workitem=8606
+
+3. Переключатель селектора
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_boards/board/t/Studio%20Team/Stories/?workitem=8542
+
+4. Восстановить ввод текста в поле Index в селекторе
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_boards/board/t/Studio%20Team/Stories/?workitem=7738
+
+5. Реализовать ввод текста в редакторе шаблона в поле "Index" при поиске элемента
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_boards/board/t/Studio%20Team/Stories/?workitem=8030
+
+6. Зависание процесса при вызове метода AddLog
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_boards/board/t/Studio%20Team/Stories/?workitem=7602
+
+7. В окне элемента "Клик мышью" не обновляется скриншот
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_boards/board/t/Studio%20Team/Stories/?workitem=3205
+
+8. Не работает активности 'Получить письма (IMAP)' и  'Переместить в папку (IMAP)' на 143 порту, если на сервере отключено шифрование SSL
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_boards/board/t/Studio%20Team/Stories/?workitem=1084
+
+9. Не работают клики IE если это контейнер браузера
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_boards/board/t/Studio%20Team/Stories/?workitem=7565
+
+10. Не работают процессы OnlyCode в режиме Playback (v2)
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_boards/board/t/Studio%20Team/Stories/?workitem=9102
+
+11. "Адресат вызова создал исключение" при использовании функции "Раскомментировать"
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_boards/board/t/Studio%20Team/Stories/?workitem=4211
+
+12. При перетаскивании элементов мышкой (drag-drop) подчиненные активности не переносятся
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_boards/board/t/Studio%20Team/Stories/?workitem=7796
+
+
 
 
 ## Где найти
