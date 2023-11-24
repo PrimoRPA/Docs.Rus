@@ -40,7 +40,9 @@
 1. Исправлена проблема с вводом текста в поле Index в селекторе. Теперь ввод допустимых значений в поле Index корректно работает, без ограничения на количество вводимых символов. В названии переменной можно использовать цифры, символ подчеркивания и латиницу в обоих регистрах. https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/7738
 
 Восстановить ввод текста в поле Index в селекторе
-https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_boards/board/t/Studio%20Team/Stories/?workitem=7738
+
+1. Реализовать ввод текста в редакторе шаблона в поле "Index" при поиске элемента
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_boards/board/t/Studio%20Team/Stories/?workitem=8030
 
 
 1. Исправлена ошибка, при которой параметры CssSelector и Index не сохранялись при редактировании. Теперь поиск элемента работает только с корректными значениями, иначе выводится сообщение «Элемент не найден». https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/7682
@@ -50,9 +52,6 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/3222
 1. Исправлены ошибки в работе редактора шаблонов с Internet Explorer (IE) в Студии 23.9.5:
    * не работала валидация шаблона для IE;
    * не изменялся тип браузера после вызова пикера на существующем шаблоне. 
-
-1. Реализовать ввод текста в редакторе шаблона в поле "Index" при поиске элемента
-https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_boards/board/t/Studio%20Team/Stories/?workitem=8030
 
 10. Не работают клики IE если это контейнер браузера
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_boards/board/t/Studio%20Team/Stories/?workitem=7565
