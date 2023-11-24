@@ -8,7 +8,7 @@
 
 ![](<../../../.gitbook/assets1/setup-library-by-depend-manager.png>)
 
-После установки пакета в Студии на панели элементов станет доступна папка Python:
+После установки пакета в Студии, на панели элементов, станет доступна папка Python:
 
 ![](<../../../.gitbook/assets1/packet-primo.python.png>)
 
