@@ -3,6 +3,13 @@
 
 ### Новые функции и улучшения
 
+1. Добавлена возможность переключения между старым и новым окном редактирования селекторов:
+   * в настройках Студии добавлен параметр **Использовать старый редактор шаблона поиска по умолчанию**. Его можно найти в разделе **Файл > Настройки > Общие > Элементы**, по умолчанию он отключен - используется новый редактор.
+
+   ![](<../../.gitbook/assets1/use-old-default-pattern-editor-studio.png>)
+
+   ![](<../../.gitbook/assets1/open-old-pattern-editor-studio.png>)
+
 1. В контекстное меню элементов добавлены команды:
    * **Перенести элемент в try/catch** - позволяет переместить выделенный элемент в контейнер **Try-Catch**. Поддерживается множественный перенос.
    * **Извлечь элемент из try/catch** - извлекает элемент или элементы из **Try-Cath**.
@@ -40,10 +47,7 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_boards/board/t/Studio%2
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/3222
 1. Исправлены ошибки в работе редактора шаблонов с Internet Explorer (IE) в Студии 23.9.5:
    * не работала валидация шаблона для IE;
-   * не изменялся тип браузера после вызова пикера на существующем шаблоне.
-
-1. Переключатель селектора
-https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_boards/board/t/Studio%20Team/Stories/?workitem=8542
+   * не изменялся тип браузера после вызова пикера на существующем шаблоне. 
 
 1. Реализовать ввод текста в редакторе шаблона в поле "Index" при поиске элемента
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_boards/board/t/Studio%20Team/Stories/?workitem=8030
