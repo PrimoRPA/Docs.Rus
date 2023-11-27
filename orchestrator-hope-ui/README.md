@@ -42,5 +42,5 @@ Hope UI – это новый интерфейс Primo RPA Orchestrator, рез�
 
 ![](../.gitbook/assets1/Nastr.png)
 
-
+Перейдем к разделу [**Настройка интерфейса**](https://github.com/PrimoRPA/Docs.Rus/blob/SiuzanaTedzhoeva-HopeUI/orchestrator-hope-ui/interface_settings.md), чтобы адаптировать интерфейс под ваши требования.
 
