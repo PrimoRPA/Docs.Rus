@@ -24,16 +24,37 @@
    - Обращаемся к документации по установке Агента.
    - Если PowerShell не установлен, сначала устанавливаем его.
    - Возвращаемся в папку с AgentInstaller и продолжаем установку, следуя указаниям из [видео](https://youtu.be/SlxgjXDrvsM?t=599)
-   - Создаем переменную окружения для продуктивной среды через PowerShell, вставляя скопированный скрипт.
-   - Создаем службу Агента, вставляя соответствующий скрипт в PowerShell и проверяем ее создание.
+   - Откройте PowerShell и вставьте следующий скрипт, чтобы создать переменную окружения для продуктивной среды:
+
+   ```powershell
+   [System.Environment]::SetEnvironmentVariable('ASPNETCORE_ENVIRONMENT', 'ProdWin', [System.EnvironmentVariableTarget]::Machine)
+   ```
+
+   - В PowerShell вставьте следующий скрипт для создания службы Агента. Этот скрипт устанавливает имя службы, путь к исполняемому файлу, описание и тип запуска:
+
+   ```powershell
+   New-Service -Name "Primo.Orchestrator.Agent" -BinaryPathName "C:\Primo\Agent\Primo.Orchestrator.Agent.exe" -Description "Primo.Orchestrator.Agent" -DisplayName "Primo.Orchestrator.Agent" -StartupType Automatic
+   ```
+
 
 6. **Конфигурация и запуск**:
-   - Конфигурируем файл appsettings.prod.json, указывая текущий адрес Оркестратора.
+   - Конфигурируем файл **appsettings.prod.json**, указывая текущий адрес Оркестратора.
    - Сохраняем изменения в файле.
-   - Добавляем необходимые порты в фаервол, копируя и вставляя скрипты в PowerShell.
+   - Добавляем необходимые порты в фаервол, копируя и вставляя последовательно скрипты в PowerShell.
+  
+   ```powershell
+   New-NetFirewallRule -Name "Primo Agent (5002)" -DisplayName "Primo Agent (5002)" -Profile "Private, Domain, Public" -Direction Inbound -Action Allow -Protocol TCP -LocalPort 5002
+   ```
+
+   ```powershell
+   New-NetFirewallRule -Name "Primo Robot (8000-9000)" -DisplayName "Primo Robot (8000-9000)" -Profile "Private, Domain, Public" -Direction Inbound -Action Allow -Protocol TCP -LocalPort 8000-9000
+   ```
+   - Эти скрипты добавят исключения в фаервол, разрешая доступ к указанным портам.
    - Запускаем сервис агента.
 
-7. **Проверка подключения и завершение настройки**:
+
+
+8. **Проверка подключения и завершение настройки**:
    - Открываем браузер и проверяем, подключилась ли машина к Оркестратору.
    - Создаем задачу для удержания RDP-сессии, копируя файл `console.bat` в корень диска `C` из комплекта поставки Оркестратора.
    - Импортируем задачу с именем RDP Disconnector из пакета поставки Оркестратора в Task Viewer.
