@@ -33,8 +33,6 @@
 ![](../.gitbook/assets1/Change_password.png) 
 
 
-
-
 ![](../.gitbook/assets1/youtube-video-gif.gif)
 
-Управление ролями пользователя можно просмотреть [здесь](https://github.com/PrimoRPA/Docs.Rus/blob/SiuzanaTedzhoeva-HopeUI/orchestrator-hope-ui/User_role_managment.md).
+Об управлении ролями пользователя можно узнать [здесь](https://github.com/PrimoRPA/Docs.Rus/blob/SiuzanaTedzhoeva-HopeUI/orchestrator-hope-ui/User_role_managment.md).
