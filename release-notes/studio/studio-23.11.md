@@ -3,7 +3,7 @@
 
 ### Новые функции и улучшения
 
-1. Реализован **LTools.Office.SDK** - набор инструментов и компонентов, предоставляющих доступ к функциональности таких приложений Microsoft Office, как Excel, Word, Outlook и Exchange. Описание работы с **LTools.Office.SDK** можно найти [здесь](https://github.com/PrimoRPA/Docs.Rus/blob/652-%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C-%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D1%83-sdk/developers/sdk/LTools.Office.SDK/getting-started.md).
+1. Реализован **LTools.Office.SDK** - набор инструментов и компонентов, предоставляющих доступ к функциональности таких приложений Microsoft Office, как Excel, Word, Outlook и Exchange. Описание работы с **LTools.Office.SDK** смотрите [здесь](https://github.com/PrimoRPA/Docs.Rus/blob/652-%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C-%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D1%83-sdk/developers/sdk/LTools.Office.SDK/getting-started.md).
 
 1. Добавлена возможность переключения между старым и новым редактором шаблона поиска. По умолчанию в Студии используется обновленный редактор. Чтобы изменить значение:
    * Перейдите в раздел **Файл > Настройки > Общие > Элементы** и установите чекбокс **Использовать старый редактор шаблона поиска по умолчанию**. 
