@@ -17,7 +17,7 @@
 | Строка (справочник)* | Dictionary\<String, Object>                                                             | Создаваемые строки. Ключ - имя колонки, Значение - значение ячейки |
 | Строка*             | System.Collections.Generic.List<Object>                                                  | Создаваемые строки                                                 |
 | Строка*             | [DataRow](https://docs.microsoft.com/ru-ru/dotnet/api/system.data.datarow?view=net-5.0) | Создаваемые строки                                                 |
-| Таблица*             | System.Data.DataTable                                                                   | Редактируемая таблица                                              
+| Таблица*            | System.Data.DataTable                                                                   | Редактируемая таблица                                              
 
 ### Описание свойств
 
