@@ -38,11 +38,11 @@
    * _System.Xaml_
    * _WindowsBase_
 
-   ![](<../../.gitbook/assets1/sdk-office-start.png>)
+   ![](<../../../.gitbook/assets1/sdk-office-start.png>)
 
 6\. Добавьте в проект компонент типа **User Control (WPF)** (Add > New Item...)
 
-   ![](<../../.gitbook/assets/1 (118).png>)
+   ![](<../../../.gitbook/assets/1 (118).png>)
 
    Данный элемент будет являться визуальной составляющей нашего элемента Primo. Данные будущего элемента автоматически будут смаплены на DataContext этого контролла (пример приводится далее).
 
