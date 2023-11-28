@@ -1,4 +1,4 @@
-  # SecureString к строке
+# SecureString к строке
 
 *Eng: SecureStringToString*
 
@@ -6,17 +6,26 @@
 
 Компонент, который преобразует SecureString в строку. Элемент **SecureString к строке** может быть полезен при автоматизации задач, которые требуют обработки конфиденциальных данных. 
 
-### Свойства
+## Свойства
 
 Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
 
-
 | Свойство             | Тип                   | Описание                                      |
 | -------------------- | --------------------- | --------------------------------------------- |
-| ***Процесс***        |           |              |
-| Строка\*             | Строка                 | Укажите переменную строки                 |
-| ***Вывод***          |           |              |
-| SecureString\*       | [System.Security.SecureString](https://learn.microsoft.com/ru-ru/dotnet/api/system.security.securestring?view=net-5.0) | Укажите переменную вывода, в которую будут сохранены данные в формате SecureString           |
+| **Процесс:**         |           |           |
+| Строка\*             | String                | Название строковой переменной                 |
+| **Вывод:**           |           |           |
+| SecureString\*       | [System.Security.SecureString](https://learn.microsoft.com/ru-ru/dotnet/api/system.security.securestring?view=net-5.0) | Название переменной вывода, в которую будут сохранены данные в формате SecureString           |
+
+## Learning
+
+На странице [Learning](https://github.com/PrimoRPA/Learning) доступен RPA-проект, демонстрирующий работу элемента.
+
+1. Скачайте архив со всеми обучающими материалами по ссылке: [Скачать архив Learning](https://github.com/PrimoRPA/Learning/archive/refs/heads/master.zip).
+2. Распакуйте архив и откройте в Студии проект **StudioActivities**.
+3. Выберите процесс `StudioActivities/Ru/Криптография/Secure_string.ltw.ltw` для просмотра.
+
+
 
 ## Только код
 
