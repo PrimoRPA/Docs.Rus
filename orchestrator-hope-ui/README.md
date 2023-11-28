@@ -6,15 +6,15 @@ Hope UI – это новый интерфейс Primo RPA Orchestrator, рез�
 
 ![](../.gitbook/assets1/2.png)
 
-В дополнение к основным функциям, веб-интерфейс Оркестратора  предлагает ряд расширенных опций, включая процессы:
+В дополнение к основным функциям, веб-интерфейс Оркестратора  предлагает ряд расширенных опций, включая такие процессы как:
 
-* [Получения лицензии](https://github.com/PrimoRPA/Docs.Rus/blob/main/orchestrator-hope-ui/get_licenses.md) 
+* [Получение лицензий](https://github.com/PrimoRPA/Docs.Rus/blob/main/orchestrator-hope-ui/get_licenses.md) 
 * [Управление ролями](https://github.com/PrimoRPA/Docs.Rus/blob/main/orchestrator-hope-ui/User_role_managment.md) 
-* [Дистрибутивами роботов](https://github.com/PrimoRPA/Docs.Rus/blob/main/orchestrator-hope-ui/robot_distribution_management.md)
-* [Настройку производственного календаря](https://github.com/PrimoRPA/Docs.Rus/blob/main/orchestrator-hope-ui/production_calendar.md)
+* [Управление дистрибутивами роботов](https://github.com/PrimoRPA/Docs.Rus/blob/main/orchestrator-hope-ui/robot_distribution_management.md)
+* [Настройка производственного календаря](https://github.com/PrimoRPA/Docs.Rus/blob/main/orchestrator-hope-ui/production_calendar.md)
 * [Использование шаблонов развертывания](https://github.com/PrimoRPA/Docs.Rus/blob/SiuzanaTedzhoeva-HopeUI/orchestrator-hope-ui/template.md)
 * [Управление пользователями](https://github.com/PrimoRPA/Docs.Rus/blob/SiuzanaTedzhoeva-HopeUI/orchestrator-hope-ui/add_user.md)
-* [Машинами](https://github.com/PrimoRPA/Docs.Rus/blob/SiuzanaTedzhoeva-HopeUI/orchestrator-hope-ui/add_mashine.md). 
+* [Добавление машин Роботов](https://github.com/PrimoRPA/Docs.Rus/blob/SiuzanaTedzhoeva-HopeUI/orchestrator-hope-ui/add_mashine.md)
 
 ## Полезные источники
 
