@@ -59,7 +59,7 @@
   ![](../.gitbook/assets1/console2.png)
 
   
-  ![](../.gitbook/assets1/console.png)
+  ![](../.gitbook/assets1/qconsole.png)
 
   
 ## Устранение проблем с Видеотрансляцией RDP-сессии
