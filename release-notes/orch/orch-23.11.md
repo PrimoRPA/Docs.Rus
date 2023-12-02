@@ -15,7 +15,9 @@
 
    ![](<../../.gitbook/assets1/black-white-permissions.png>)
 
+1. Улучшен UX/UI раздела **Роботы > Все роботы**. При невозможности разблокировать робота система отобразит сообщение о возможных причинах. 
 1. Улучшено изменение приоритетов для роботов, добавленных к RPA-проекту. Реализован способ drag-and-drop - теперь изменить приоритет робота можно путем перетаскивания соответствующей строки в таблице.
+_______________________________________
 
 1. Добавлены RDP-пользователи для Linux-роботов. (послушать демо, если не понятно - к Максу)
 Для UI:
@@ -30,6 +32,10 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_boards/board/t/Or
 
    * отключить встроенные не технические учетные записи: admin, superadmin, studio
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_boards/board/t/Orchestrator%20Team/Stories/?workitem=9181
+
+_______________________________________
+
+1. 
 
 
 
@@ -48,11 +54,8 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_boards/board/t/Or
 1. Исправлена логика для очистки ссылок на триггеры в таблице запусков RPA-проекта.
 
 
-
-
 Из РЕДМИ:
 
-- (735) Невозможно разблокировать робота при отсутствии связи с машиной робота 
 - (7570) Для постгреса возможность задать схему, отличную от public, чтобы не создавать вручную в ней таблицу миграций
 - (7592) Изменение статуса возможно только у прочитанного элемента
 - (3566) Добавлена возможность использования Email MS Exchange Server
@@ -60,10 +63,6 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_boards/board/t/Or
 - (7754) Разделить RpaProjectLaunches на оперативную (в основной БД) архивную (в БД с логами) части
 - (7974) Использовать ограничение для потока событий триггеров + Мониторинг очереди потока событий триггеров
 - (8560) Автоматическое временное замедление очереди проектов при пиках нагрузки на машинах роботов
-
-
-
-
 
 
 Вопросы Князькову:
@@ -79,7 +78,8 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_boards/board/t/Or
 
 1. Корректна ли для задачи "Ошибки в логе оркестратора" следующая формулировка: "Исправлена запись многочисленных ошибок в журнал Оркестратора. Проблема воспроизводилась для конфигурации Windows Server 2016 + IIS + MSSQL".
 Задача: https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_boards/board/t/Orchestrator%20Team/Stories/?workitem=4152
-
+1. Корректна ли формулировка: "Улучшен UX/UI раздела **Роботы > Все роботы**. При невозможности разблокировать робота система отобразит сообщение о возможных причинах".
+для задачи https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_boards/board/t/Orchestrator%20Team/Stories/?workitem=735
 
 
 Вопросы Тимуру:
@@ -95,6 +95,7 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_boards/board/t/Or
 
 Статус: не задокументирована.
 (4164) Исправлен баг с удалением больший секций логов
+
 
 ### Где найти
 1. [Скачать комплект поставки Оркестратора:](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease%2FOrchestrator)
