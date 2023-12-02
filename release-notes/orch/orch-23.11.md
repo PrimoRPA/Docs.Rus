@@ -35,8 +35,21 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_boards/board/t/Or
 
 _______________________________________
 
-1. 
+1. Улучшена работа ...(БД? или производительность скрипта license_usage.sql?). Добавлены недостающие индексы в поля таблиц RpaProjectLaunches и Robots. 
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_boards/board/t/Orchestrator%20Team/Stories/?workitem=7642
 
+1.
+(7754) Разделить таблицу RpaProjectLaunches на оперативную (в основной БД) архивную (в БД с логами) части.
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/7754
+
+
+1. Добавлена возможность использования Email MS Exchange Server (..возможность работы Оркестратора с Exchange ActiveSync).
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_boards/board/t/Orchestrator%20Team/Stories/?workitem=3566
+
+
+1. (7570) Для постгреса возможность задать схему, отличную от public, чтобы не создавать вручную в ней таблицу миграций
+1. (7974) Использовать ограничение для потока событий триггеров + Мониторинг очереди потока событий триггеров
+1. (8560) Автоматическое временное замедление очереди проектов при пиках нагрузки на машинах роботов
 
 
 ### Исправленные ошибки
@@ -52,21 +65,10 @@ _______________________________________
 1. Устранена потеря тегов при повторении элемента в очереди обмена данных.
 1. Исправлена запись многочисленных ошибок в журнал Оркестратора. Проблема воспроизводилась для конфигурации Windows Server 2016 + IIS + MSSQL. 
 1. Исправлена логика для очистки ссылок на триггеры в таблице запусков RPA-проекта.
-1. Time Out активности Add to Queue (Изменение статуса возможно только у прочитанного элемента).
-(7592) Изменение статуса возможно только у прочитанного элемента
+1. Исправлена ошибка «Изменение статуса возможно только у прочитанного элемента». Ошибка возникала при выполнении элемента **Добавить в очередь** и приводила к преждевременному завершению проекта.
 
 
-
-Из РЕДМИ:
-
-- (7570) Для постгреса возможность задать схему, отличную от public, чтобы не создавать вручную в ней таблицу миграций
-- (3566) Добавлена возможность использования Email MS Exchange Server
-- (7642) Добавлены недостающие индексы в RpaProjectLaunches и Robots
-- (7754) Разделить RpaProjectLaunches на оперативную (в основной БД) архивную (в БД с логами) части
-- (7974) Использовать ограничение для потока событий триггеров + Мониторинг очереди потока событий триггеров
-- (8560) Автоматическое временное замедление очереди проектов при пиках нагрузки на машинах роботов
-
-
+________________________
 Вопросы Князькову:
 
 1. Корректна ли формулировка "Исправлена логика для очистки ссылок на триггеры в таблице запусков RPA-проекта" для задачи https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_boards/board/t/Orchestrator%20Team/Stories/?workitem=7801
@@ -82,6 +84,9 @@ _______________________________________
 Задача: https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_boards/board/t/Orchestrator%20Team/Stories/?workitem=4152
 1. Корректна ли формулировка: "Улучшен UX/UI раздела **Роботы > Все роботы**. При невозможности разблокировать робота система отобразит сообщение о возможных причинах".
 для задачи https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_boards/board/t/Orchestrator%20Team/Stories/?workitem=735
+1. Корректна ли формулировка: "Исправлена ошибка «Изменение статуса возможно только у прочитанного элемента». Ошибка возникала при выполнении элемента **Добавить в очередь** и приводила к преждевременному завершению проекта".
+для задачи https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_boards/board/t/Orchestrator%20Team/Stories/?workitem=7592
+1. 
 
 
 Вопросы Тимуру:
@@ -89,15 +94,16 @@ _______________________________________
 1. Почему у релизной задачи статус Removed?
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_boards/board/t/Orchestrator%20Team/Stories/?workitem=1053
 - (1053) Пропадает очередь выполнения с проектов (в случайный момент)
-
 Статус: не задокументирована.
 
 2. Эта релизная задача готова или нет? Есть в редми у Макса
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_boards/board/t/Orchestrator%20Team/Stories/?workitem=4164
-
 Статус: не задокументирована.
 (4164) Исправлен баг с удалением больший секций логов
+3. Актуализировать статус релизной задачи https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/7754
+4. Актуализировать статус релизной задачи https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_boards/board/t/Orchestrator%20Team/Stories/?workitem=7642
 
+_________________________________
 
 ### Где найти
 1. [Скачать комплект поставки Оркестратора:](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease%2FOrchestrator)
