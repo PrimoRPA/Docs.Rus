@@ -11,8 +11,8 @@
 
 ### Предварительные условия
 
-* RPA-проект должен быть [упакован в ZIP-архив](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects/publish#publikaciya-v-orkestratore).
-* Пользователь, который собирается добавить проект, должен иметь права на создание RPA-проекта. Права назначаются администратором в [настройках роли](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/users/roles) этого пользователя.
+* RPA-проект должен быть [упакован](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects/publish#publikaciya-v-orkestratore) в ZIP-архив.
+* Пользователь, который собирается добавить проект, должен иметь права на создание RPA-проекта. Права назначаются администратором в настройках [роли](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/users/roles) этого пользователя.
 
 ### Как добавить проект
 
