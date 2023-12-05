@@ -836,7 +836,7 @@
   * [Приложение 3 - События Оркестратора](orchestrator/appendix/appendix3.md)
 * [Безопасность](orchestrator/security.md)
 
-## Idea Hub
+## Primo Idea Hub
 
 * [Установка и обновление](idea-hub/installation/readme-installation.md)
 	* [Системные требования](idea-hub/installation/system-requirements.md)
