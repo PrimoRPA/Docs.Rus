@@ -846,7 +846,7 @@
 * [Процессы](idea-hub/processes/readme-processes.md)
 	* [Создание процесса](idea-hub/processes/create-process.md)
 	* [Редактирование процесса](idea-hub/processes/edit-process.md)
-	* [Файл process.csv](idea-hub/file-process.md)
+	* [Файл process.xlsx](idea-hub/file-process.md)
 * [Импорт из Оркестратора](idea-hub/import-from-orchestrator.md)
 * [Настройка формул](idea-hub/formulas.md)
 * [Создание индикаторов](idea-hub/indicators.md)
