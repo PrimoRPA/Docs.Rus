@@ -23,7 +23,7 @@
 ## Журналы
 
 Предназначены для записи и отслеживания всех важных событий и операций в системе, обеспечивая возможность анализа и мониторинга деятельности роботов и процессов.
-[Сделать дамп](https://github.com/PrimoRPA/Docs.Rus/blob/SiuzanaTedzhoeva-HopeUI/orchestrator-hope-ui/journal_damp.md)
+[Журналы](https://github.com/PrimoRPA/Docs.Rus/blob/SiuzanaTedzhoeva-HopeUI/orchestrator-hope-ui/journal_damp.md)
 
 ## Производственный календарь
 
