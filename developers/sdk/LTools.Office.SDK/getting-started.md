@@ -12,7 +12,7 @@
    * _LTools.SDK.dll_
    * _LTools.Office.dll_
  
-   Найдите сборки MS Office в Assemblies > Extensions менеджера зависимостей Visual Studio.\
+   В менеджере зависимостей Visual Studio найдите сборки MS Office в Assemblies > Extensions.\
    Для работы с **Excel** добавьте:
    * _DevExpress.Docs.v20.1.dll_
    * _DevExpress.Spreadsheet.v20.1.Core.dll_
@@ -40,11 +40,11 @@
 
    ![](<../../../.gitbook/assets1/sdk-office-start.png>)
 
-6\. Добавьте в проект компонент типа **User Control (WPF)** (Add > New Item...)
+6\. Добавьте в проект компонент типа **User Control (WPF)** (Add > New Item...):
 
    ![](<../../../.gitbook/assets/1 (118).png>)
 
-   Данный элемент будет являться визуальной составляющей нашего элемента Primo. Данные будущего элемента автоматически будут смаплены на DataContext этого контролла (пример приводится далее).
+   Этот элемент будет являться визуальной составляющей элемента Primo. Данные будущего элемента автоматически будут смаплены на DataContext этого контролла (пример приводится далее).
 
 7\. Создайте класс (Add > Class…). Этот класс будет являться code-behind нашего элемента.
 
