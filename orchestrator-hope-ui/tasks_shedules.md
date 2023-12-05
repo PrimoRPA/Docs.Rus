@@ -56,5 +56,5 @@
 - **Просмотр и управление триггерами задания:**
   - Пользователи могут просматривать и настраивать триггеры для каждого задания, устанавливая условия, при которых задание должно быть запущено или остановлено. 
 
-Подробнее о триггерах можно ознакомиться по ссылке [Триггеры](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/tasks)
+Подробнее о триггерах можно ознакомиться по ссылке [Триггеры]([https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/tasks](https://github.com/PrimoRPA/Docs.Rus/blob/main/orchestrator-hope-ui/triggers.md)https://github.com/PrimoRPA/Docs.Rus/blob/main/orchestrator-hope-ui/triggers.md)
 
