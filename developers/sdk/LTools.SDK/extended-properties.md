@@ -11,11 +11,11 @@
 * **Images** – имя папки, содержащей рисунок;
 * **sample.png** – имя файла рисунка. 
  
-:small_red_triangle: **ВНИМАНИЕ!** Не забудьте пометить **Build Action** файла рисунка как **Resource**.
+:small_orange_diamond: **ВНИМАНИЕ!** Не забудьте пометить **Build Action** файла рисунка как **Resource**.
 
 **Ссылка на ресурс помощи.** URL сайта онлайн-справки по элементу задается с помощью свойства sdkComponentHelpUrl. Ссылка на портал Primo находится в константе WFElementBase.HELP\_URL\_ROOT.
 
-Например:
+Пример:
 
 ```csharp
 public PrimoElementBack(IWFContainer container) : base(container)
