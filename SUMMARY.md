@@ -810,6 +810,9 @@
   * [Черный/Белый список Студий](orchestrator/settings/black-white-list.md)
   * [NuGet](orchestrator/settings/nuget.md)
 * [Пользователям](orchestrator/basics/README.md)
+  * [Развертывание Робота](orchestrator/basics/deploy-robot.md)
+  * [Добавление RPA-проекта](orchestrator/basics/add-project.md)
+  * [Обновление RPA-проекта](orchestrator/basics/update-project.md)
   * [Ручной запуск Робота с RPA-проектом](orchestrator/basics/robot-manual-start.md)
   * [Задания](orchestrator/basics/tasks/README.md)
     * [Аргументы проекта](orchestrator/basics/tasks/orch-args.md)
@@ -834,7 +837,6 @@
 * [Безопасность](orchestrator/security.md)
 
 
-
 ## Hope UI <a href="#orchestrator" id="orchestrator"></a>
 * [Новый интерфейс Оркестратора](orchestrator-hope-ui/README.md)
 * [Настройки веб-интерфейса](orchestrator-hope-ui/interface_settings.md)
@@ -856,7 +858,12 @@
 * [Экспорт в CSV](orchestrator-hope-ui/export_to_CSV.md)
 * [Шаблон развертывания](orchestrator-hope-ui/template.md)
 
+
+
 ## Idea Hub
+=======
+## Primo Idea Hub
+
 
 * [Установка и обновление](idea-hub/installation/readme-installation.md)
 	* [Системные требования](idea-hub/installation/system-requirements.md)
@@ -866,7 +873,7 @@
 * [Процессы](idea-hub/processes/readme-processes.md)
 	* [Создание процесса](idea-hub/processes/create-process.md)
 	* [Редактирование процесса](idea-hub/processes/edit-process.md)
-	* [Файл process.csv](idea-hub/file-process.md)
+	* [Файл process.xlsx](idea-hub/file-process.md)
 * [Импорт из Оркестратора](idea-hub/import-from-orchestrator.md)
 * [Настройка формул](idea-hub/formulas.md)
 * [Создание индикаторов](idea-hub/indicators.md)
