@@ -836,7 +836,34 @@
   * [Приложение 3 - События Оркестратора](orchestrator/appendix/appendix3.md)
 * [Безопасность](orchestrator/security.md)
 
+
+## Hope UI <a href="#orchestrator" id="orchestrator"></a>
+* [Новый интерфейс Оркестратора](orchestrator-hope-ui/README.md)
+* [Настройки веб-интерфейса](orchestrator-hope-ui/interface_settings.md)
+* [Начало работы: типы лицензий](orchestrator-hope-ui/Start_type_of_Licenses.md)
+   * [Роли пользователей](orchestrator-hope-ui/User_role_managment.md)
+   * [Дистрибутивы Робота](orchestrator-hope-ui/robot_distribution_management.md)
+   * [Лицензии](orchestrator-hope-ui/get_licenses.md)
+   * [Стратегия Очереди](orchestrator-hope-ui/strategy_queue_projects.md)
+   * [Журналы](orchestrator-hope-ui/journal_damp.md)
+   * [Производственный календарь](orchestrator-hope-ui/production_calendar.md)
+* [Очереди](orchestrator-hope-ui/Queues.md)
+* [Ресурсы](orchestrator-hope-ui/assets.md)
+* [Роботы](orchestrator-hope-ui/add_rdp_users.md)
+* [Задания и расписания](orchestrator-hope-ui/tasks_shedules.md)
+* [Проекты](orchestrator-hope-ui/add_project.md)
+* [Добавить пользователя](orchestrator-hope-ui/add_user.md)
+* [Добавить машину](orchestrator-hope-ui/add_machine.md)
+* [Черно-белый список](orchestrator-hope-ui/Black_white_list.md)
+* [Экспорт в CSV](orchestrator-hope-ui/export_to_CSV.md)
+* [Шаблон развертывания](orchestrator-hope-ui/template.md)
+
+
+
+## Idea Hub
+=======
 ## Primo Idea Hub
+
 
 * [Установка и обновление](idea-hub/installation/readme-installation.md)
 	* [Системные требования](idea-hub/installation/system-requirements.md)
@@ -851,6 +878,9 @@
 * [Настройка формул](idea-hub/formulas.md)
 * [Создание индикаторов](idea-hub/indicators.md)
 * [Интеграция с LDAP](idea-hub/integration-ldap.md)
+
+
+
 
 ## Разработчикам <a href="#developers" id="developers"></a>
 
@@ -868,3 +898,8 @@
   * [Сборка и отладка](developers/sdk/debugging.md)
   * [Упаковка и публикация](developers/sdk/publish.md)
   * [Правила анализа кода](developers/sdk/rules.md)
+ 
+
+
+  
+
