@@ -44,16 +44,7 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_boards/board/t/Or
 раньше был зашит 1 день. Из рук-ва админа: реализован параметр ProjectQueue:CleaningDepth  - позволяет настроить периодичность автоматического удаления из очереди проектов записей, старше (дней) чем текущее время.
 
 
-Нет в демо:
-
-//1. Доработка графика Время элемента очереди.
-https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/8725
-
-//1. Переделать механизм выделения элементов в таблице.
-https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/7990
-
-
-- 8.30 (Константин Мамонов)
+(Константин Мамонов)
 
 1. (важно) UI - Новое отображение RDP-сессии.
 Открытие RDP-сессии теперь может сопровождаться проверкой загрузки профиля пользователя. В таблице роботов при открытии RDP-сессии/загрузке профиля пользователя или ошибке открытия RDP-сессии/загрузки профиля пользователя отображать двойной кружек (таблица 1) в зависимости от значений полей RDPConnected, RDPUserProfileLoaded и StartError:
@@ -63,8 +54,20 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_boards/board/t/Or
 
   ![](<../../.gitbook/assets1/not-last-version-project.png>)
 
+1. В окно просмотра RDP-сессии робота добавлена функция **Скопировать подключение к теневой**. С ее помощью можно скопировать строку теневого подключения к RDP-сессии, чтобы впоследствии использовать в командной строке. Функция призвана облегчить настройку теневого подключения. 
+
+  ![](<../../.gitbook/assets1/viewing-rpd-session-copy.png>)
+
 1. 
 
+
+Нет в демо:
+
+//1. Доработка графика Время элемента очереди.
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/8725
+
+//1. Переделать механизм выделения элементов в таблице.
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/7990
 
 _______________________________________
 
