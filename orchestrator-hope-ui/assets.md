@@ -21,9 +21,10 @@
    
    - **String** (Строка)
    - **Integer** (Целое число)
+   - **Floating** (Дробное число)
    - **Boolean** (Логическое значение)
    - **DateTime** (Дата и время)
-   - **Credential** (Учетные данные)
+   - **Credentials** (Учетные данные)
    - **JObject** (JSON-объект. все типы данных). 
 
 Если выбрано значение **Сredentials**, то будет создан ресурс, хранящий учетные данные пользователя. Пароль хранится в формате SecureString, т.е. в базу данных он попадет в зашифрованном виде и в таком же виде будет передаваться в Студию при помощи элемента [Получить учетные данные](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/orkestrator/els_assets/el_orch_getcredentials).
