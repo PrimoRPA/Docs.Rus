@@ -851,7 +851,7 @@
   - [Производственный календарь](orchestrator-hope-ui/production_calendar.md)
   - [Черно-белый список](orchestrator-hope-ui/Black_white_list.md)
   - [Шаблон развертывания](orchestrator-hope-ui/template.md)
-- **Очереди**
+- **Рабочее пространство**
   - [Очереди](orchestrator-hope-ui/Queues.md)
   - [Ресурсы](orchestrator-hope-ui/assets.md)
   - [Роботы](orchestrator-hope-ui/add_rdp_users.md)
