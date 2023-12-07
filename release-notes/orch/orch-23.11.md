@@ -31,7 +31,7 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_boards/board/t/Or
    * Подсветка значений. Если машина доступна, то значение подсветится зеленым. Если недоступна - красным.
    * Вывод даты тестирования доступности машины робота. В случае, если машина недоступна, отобразится дата начала недоступности.
 
-   ![](<../../.gitbook/assets1/test-succeeded-23-11.png>)
+   ![](<../../.gitbook/assets1/robot-machine-test-succeeded.png>)
 
 
 1. Добавлена настройка в конфиге:
