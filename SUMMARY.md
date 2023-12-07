@@ -839,11 +839,11 @@
 ## Hope UI <a href="#orchestrator" id="orchestrator"></a>
 
 
-* Особенности
+### Особенности
 - [Новый интерфейс Оркестратора](orchestrator-hope-ui/README.md)
 - [Настройки веб-интерфейса](orchestrator-hope-ui/interface_settings.md)
 - [Экспорт в CSV](orchestrator-hope-ui/export_to_CSV.md)
-* Тенанты
+### Тенанты
 - [Роли пользователей](orchestrator-hope-ui/User_role_managment.md)
 - [Дистрибутивы Робота](orchestrator-hope-ui/robot_distribution_management.md)
 - [Лицензии](orchestrator-hope-ui/get_licenses.md)
@@ -852,13 +852,13 @@
 - [Производственный календарь](orchestrator-hope-ui/production_calendar.md)
 - [Черно-белый список](orchestrator-hope-ui/Black_white_list.md)
 - [Шаблон развертывания](orchestrator-hope-ui/template.md)
-* Рабочее Пространство
+### Рабочее Пространство
 - [Очереди](orchestrator-hope-ui/Queues.md)
 - [Ресурсы](orchestrator-hope-ui/assets.md)
 - [Роботы](orchestrator-hope-ui/add_rdp_users.md)
 - [Задания и расписания](orchestrator-hope-ui/tasks_shedules.md)
 - [Проекты](orchestrator-hope-ui/add_project.md)
-* Начало Работы
+### Начало Работы
 - [Типы лицензий](orchestrator-hope-ui/Start_type_of_Licenses.md)
 - [Добавить машину](orchestrator-hope-ui/add_machine.md)
 - [Добавить пользователя](orchestrator-hope-ui/add_user.md)
