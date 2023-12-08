@@ -755,7 +755,7 @@
 
 ## Primo Orchestrator <a href="#orchestrator" id="orchestrator"></a>
 
-* [О системе](orchestrator/intro.md)
+* [Описание](orchestrator/intro.md)
 * [Системные требования](orchestrator/systemreq.md)
 * [Развертывание](orchestrator/deployment/README.md)
   * [Компоненты системы](orchestrator/deployment/system-components.md)
