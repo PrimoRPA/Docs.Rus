@@ -8,13 +8,14 @@ Hope UI – это новый интерфейс Primo RPA Orchestrator, рез�
 
 В дополнение к основным функциям, веб-интерфейс Оркестратора  предлагает ряд расширенных опций, включая такие процессы как:
 
-* [Получение лицензий](https://github.com/PrimoRPA/Docs.Rus/blob/main/orchestrator-hope-ui/get_licenses.md) 
-* [Управление ролями](https://github.com/PrimoRPA/Docs.Rus/blob/main/orchestrator-hope-ui/User_role_managment.md) 
-* [Управление дистрибутивами роботов](https://github.com/PrimoRPA/Docs.Rus/blob/main/orchestrator-hope-ui/robot_distribution_management.md)
-* [Настройка производственного календаря](https://github.com/PrimoRPA/Docs.Rus/blob/main/orchestrator-hope-ui/production_calendar.md)
-* [Использование шаблонов развертывания](https://github.com/PrimoRPA/Docs.Rus/blob/SiuzanaTedzhoeva-HopeUI/orchestrator-hope-ui/template.md)
-* [Управление пользователями](https://github.com/PrimoRPA/Docs.Rus/blob/SiuzanaTedzhoeva-HopeUI/orchestrator-hope-ui/add_user.md)
-* [Добавление машин Роботов](https://github.com/PrimoRPA/Docs.Rus/blob/SiuzanaTedzhoeva-HopeUI/orchestrator-hope-ui/add_mashine.md)
+* [Получение лицензий](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/tenant/get_licenses) 
+* [Управление ролями](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/tenant/user_role_managment) 
+* [Управление дистрибутивами роботов](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/tenant/robot_distribution_management)
+* [Настройка производственного календаря](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/tenant/production_calendar)
+* [Использование шаблонов развертывания](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/tenant/template)
+* [Управление пользователями](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/start/add_user)
+* [Добавление машин Роботов](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/start/add_machine)
+* [Добавление проекта](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/start/add_project)
 
 ## Полезные источники
 
