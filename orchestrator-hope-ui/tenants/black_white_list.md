@@ -13,7 +13,7 @@
 1. Перейдите в раздел **Настройки** в Оркестраторе.
 2. Нажмите на кнопку **Ч-Б список Студий** и выберите **Добавить правило**.
 
-   ![](../.gitbook/assets1/black-white_list.png)
+   ![](../../.gitbook/assets1/black-white_list.png)
 
    
 3. Заполните форму настроек:
@@ -26,4 +26,4 @@
 4. Нажмите **Сохранить**, чтобы создать новое правило.
    
 
-   ![](../.gitbook/assets1/edit_black_white_list.png)
+   ![](../../.gitbook/assets1/edit_black_white_list.png)

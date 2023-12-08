@@ -2,6 +2,6 @@
 
 Здесь представлены описания следующих разделов:
 
-* [Новый интерфейс Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator-1/osobennosti/orchestrator-hope-ui)
-* [Настройки веб-интерфейса](https://docs.primo-rpa.ru/primo-rpa/orchestrator-1/osobennosti/interface_settings)
-* [Экспорт в CSV](https://docs.primo-rpa.ru/primo-rpa/orchestrator-1/osobennosti/export_to_csv)
+* [Новый интерфейс Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/features/README)
+* [Настройки веб-интерфейса](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/features/interface_settings)
+* [Экспорт в CSV](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/features/export_to_CSV)

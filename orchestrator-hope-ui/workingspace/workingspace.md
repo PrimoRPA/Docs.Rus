@@ -2,8 +2,8 @@
 
 Здесь представлены описания следующих разделов:
 
-* [Очереди](orchestrator-hope-ui/Queues.md)
-* [Ресурсы](orchestrator-hope-ui/assets.md)
-* [Роботы](orchestrator-hope-ui/add_rdp_users.md)
-* [Задания и расписания](orchestrator-hope-ui/tasks_shedules.md)
-* [Проекты](orchestrator-hope-ui/add_project.md)
+* [Очереди](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/workingspace/queues)
+* [Ресурсы](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/workingspace/assets)
+* [Роботы](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/workingspace/add_rdp_users)
+* [Задания и расписания](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/workingspace/tasks_shedules)
+* [Проекты](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/workingspace/add_project)

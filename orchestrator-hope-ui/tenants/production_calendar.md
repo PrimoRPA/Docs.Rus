@@ -2,7 +2,7 @@
 
 В разделе **Производственный календарь** вы можете создать производственные календари на текущий и следующий год.
 
-![](../.gitbook/assets1/production_calend.png)
+![](../../.gitbook/assets1/production_calend.png)
 
 
 Чтобы **Добавить** новый календарь:
@@ -16,9 +16,9 @@
 3. Выйти из режима редактирования. Сохранение происходит автоматически
 
 
-![](../.gitbook/assets1/calend1.png)
+![](../../.gitbook/assets1/calend1.png)
 
-![](../.gitbook/assets1/proizv_calend.png)
+![](../../.gitbook/assets1/proizv_calend.png)
 
 
 **Множественный режим для производственных календарей**

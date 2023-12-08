@@ -2,10 +2,10 @@
 
 Новый интерфейс Оркестратора предоставляет возможность ограничивать доступ пользователей, наделяя их правами только на просмотр данных. Эта цель достигается путем создания специальных ролей и настройки соответствующих прав.
 
-![](../.gitbook/assets1/Nast-tenant.png)
+![](../../.gitbook/assets1/Nast-tenant.png)
 
 
-![](../.gitbook/assets1/svernut_vse.png)
+![](../../.gitbook/assets1/svernut_vse.png)
 
 
 ## Создание и настройка роли
@@ -18,7 +18,7 @@
 Подробнее в [видео](https://www.youtube.com/watch?v=SlxgjXDrvsM&t=174s)
 
 
-![](../.gitbook/assets1/Role.png)
+![](../../.gitbook/assets1/Role.png)
 
 
 

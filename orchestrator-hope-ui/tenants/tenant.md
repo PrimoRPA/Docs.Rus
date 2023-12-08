@@ -2,11 +2,11 @@
 
 Здесь представлены описания следующих разделов:
 
-* [Роли пользователей](/User_role_managment.md)
-* [Дистрибутивы Робота](orchestrator-hope-ui/robot_distribution_management.md)
-* [Лицензии](orchestrator-hope-ui/get_licenses.md)
-* [Стратегия Очереди](orchestrator-hope-ui/strategy_queue_projects.md)
-* [Журналы](orchestrator-hope-ui/journal_damp.md)
-* [Производственный календарь](orchestrator-hope-ui/production_calendar.md)
-* [Черно-белый список](orchestrator-hope-ui/Black_white_list.md)
-* [Шаблон развертывания](orchestrator-hope-ui/template.md)
+* [Роли пользователей](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/tenants/user_role_managment)
+* [Дистрибутивы Робота](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/tenants/robot_distribution_management)
+* [Лицензии](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/tenants/get_licenses)
+* [Стратегия Очереди](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/tenants/strategy_queue_projects)
+* [Журналы](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/tenants/journal_damp)
+* [Производственный календарь](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/tenants/production_calendar)
+* [Черно-белый список](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/tenants/black_white_list)
+* [Шаблон развертывания](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/tenants/template)
