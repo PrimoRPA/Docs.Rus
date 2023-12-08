@@ -34,6 +34,6 @@
 ![](../../.gitbook/assets1/youtube-video-gif.gif)
 
 
-Об управлении ролями пользователя можно узнать [здесь](https://github.com/PrimoRPA/Docs.Rus/blob/SiuzanaTedzhoeva-HopeUI/orchestrator-hope-ui/User_role_managment.md).
+Об управлении ролями пользователя можно узнать [здесь](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/tenant/user_role_managment).
 
 
