@@ -856,6 +856,7 @@
   * [Ресурсы](orchestrator-hope-ui/workingspace/assets.md)
   * [Роботы](orchestrator-hope-ui/workingspace/add_rdp_users.md)
   * [Задания и расписания](orchestrator-hope-ui/workingspace/tasks_shedules.md)
+  * [Триггеры](orchestrator-hope-ui/workingspace/triggers.md)
   * [Проекты](orchestrator-hope-ui/workingspace/add_project.md)
 * [Начало работы](orchestrator-hope-ui/start/start.md)
   * [Типы лицензий](orchestrator-hope-ui/start/start_type_of_licenses.md)
