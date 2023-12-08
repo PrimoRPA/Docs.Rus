@@ -839,7 +839,7 @@
 ## Hope UI 
 
 * [Особенности](orchestrator-hope-ui/features/features.md)
-  * [Новый интерфейс Оркестратора](orchestrator-hope-ui/features/README.md)
+  * [Новый интерфейс Оркестратора](orchestrator-hope-ui/features/new_interface.md)
   * [Настройки веб-интерфейса](orchestrator-hope-ui/features/interface_settings.md)
   * [Экспорт в CSV](orchestrator-hope-ui/features/export_to_CSV.md)
 * [Тенанты](orchestrator-hope-ui/tenants/tenant.md)
