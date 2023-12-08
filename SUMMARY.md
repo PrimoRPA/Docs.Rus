@@ -857,7 +857,7 @@
   * [Роботы](orchestrator-hope-ui/add_rdp_users.md)
   * [Задания и расписания](orchestrator-hope-ui/tasks_shedules.md)
   * [Проекты](orchestrator-hope-ui/add_project.md)
-* [Начало Работы](orchestrator-hope-ui/start.md)
+* [Начало работы](orchestrator-hope-ui/start.md)
   * [Типы лицензий](orchestrator-hope-ui/Start_type_of_Licenses.md)
   * [Добавить машину](orchestrator-hope-ui/add_machine.md)
   * [Добавить пользователя](orchestrator-hope-ui/add_user.md)
