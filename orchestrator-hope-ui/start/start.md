@@ -1,8 +1,8 @@
 # Начало работы
 
 Здесь представлены описания следующих разделов:
-* [Типы лицензий](orchestrator-hope-ui/Start_type_of_Licenses.md)
-* [Добавить машину](orchestrator-hope-ui/add_machine.md)
-* [Добавить пользователя](orchestrator-hope-ui/add_user.md)
-* [Добавить робота](orchestrator-hope-ui/add_rdp_users.md)
-* [Добавить проект](orchestrator-hope-ui/add_project.md)
+* [Типы лицензий](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/start/start_type_of_licenses)
+* [Добавить машину](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/start/add_machine)
+* [Добавить пользователя](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/start/add_user)
+* [Добавить робота](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/start/add_rdp_users)
+* [Добавить проект](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/start/add_project)
