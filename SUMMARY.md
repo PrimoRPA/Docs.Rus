@@ -836,12 +836,36 @@
   * [Приложение 3 - События Оркестратора](orchestrator/appendix/appendix3.md)
 * [Безопасность](orchestrator/security.md)
 
+## Hope UI 
 
+* [Особенности](orchestrator-hope-ui/features/features.md)
+  * [Новый интерфейс Оркестратора](orchestrator-hope-ui/features/README.md)
+  * [Настройки веб-интерфейса](orchestrator-hope-ui/features/interface_settings.md)
+  * [Экспорт в CSV](orchestrator-hope-ui/features/export_to_CSV.md)
+* [Тенанты](orchestrator-hope-ui/tenants/tenant.md)
+  * [Роли пользователей](orchestrator-hope-ui/tenants/user_role_managment.md)
+  * [Дистрибутивы Робота](orchestrator-hope-ui/tenants/robot_distribution_management.md)
+  * [Лицензии](orchestrator-hope-ui/tenants/get_licenses.md)
+  * [Стратегия Очереди](orchestrator-hope-ui/tenants/strategy_queue_projects.md)
+  * [Журналы](orchestrator-hope-ui/tenants/journal_damp.md)
+  * [Производственный календарь](orchestrator-hope-ui/tenants/production_calendar.md)
+  * [Черно-белый список](orchestrator-hope-ui/tenants/black_white_list.md)
+  * [Шаблон развертывания](orchestrator-hope-ui/tenants/template.md)
+* [Рабочее пространство](orchestrator-hope-ui/workingspace/workingspace.md)
+  * [Очереди](orchestrator-hope-ui/workingspace/queues.md)
+  * [Ресурсы](orchestrator-hope-ui/workingspace/assets.md)
+  * [Роботы](orchestrator-hope-ui/workingspace/add_rdp_users.md)
+  * [Задания и расписания](orchestrator-hope-ui/workingspace/tasks_shedules.md)
+  * [Проекты](orchestrator-hope-ui/workingspace/add_project.md)
+* [Начало работы](orchestrator-hope-ui/start/start.md)
+  * [Типы лицензий](orchestrator-hope-ui/start/start_type_of_licenses.md)
+  * [Добавить машину](orchestrator-hope-ui/start/add_machine.md)
+  * [Добавить пользователя](orchestrator-hope-ui/start/add_user.md)
+  * [Добавить робота](orchestrator-hope-ui/start/add_rdp_users.md)
+  * [Добавить проект](orchestrator-hope-ui/start/add_project.md)
 
-## Idea Hub
 
 ## Primo Idea Hub
-
 
 * [Установка и обновление](idea-hub/installation/readme-installation.md)
 	* [Системные требования](idea-hub/installation/system-requirements.md)
