@@ -27,7 +27,7 @@
 
 
 ## Получение лицензий
-Процесс подробно описан [здесь](https://github.com/PrimoRPA/Docs.Rus/blob/SiuzanaTedzhoeva-HopeUI/orchestrator-hope-ui/get_licenses.md)
+Процесс подробно описан [здесь](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/tenant/get_licenses)
 
 
 
