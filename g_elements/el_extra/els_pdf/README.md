@@ -18,6 +18,7 @@ Primo.Office.Pdf - это набор элементов для автомати�
 ## Установка пакета
 
 Для установки пакета **Primo.Office.Pdf**, следуйте этим шагам:
+
 **1.** Скачайте пакет с [NuGet](https://www.nuget.org/packages/Primo.Office.Pdf/#readme-body-tab)
 
 ![](<../../../.gitbook/assets1/download_pack.png>)
