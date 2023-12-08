@@ -2,7 +2,7 @@
 
 Здесь представлены описания следующих разделов:
 
-*  [Роли пользователей](orchestrator-hope-ui/User_role_managment.md)
+* [Роли пользователей](/User_role_managment.md)
 * [Дистрибутивы Робота](orchestrator-hope-ui/robot_distribution_management.md)
 * [Лицензии](orchestrator-hope-ui/get_licenses.md)
 * [Стратегия Очереди](orchestrator-hope-ui/strategy_queue_projects.md)
