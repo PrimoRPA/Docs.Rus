@@ -30,8 +30,8 @@
 
 ## Primo Studio
 
-* [Системные требования](primo-studio/systemreq.md)
 * [Издания](primo-studio/editions.md)
+* [Системные требования](primo-studio/systemreq.md)
 * [Установка и обновление](primo-studio/installation/README.md)
   * [Обновление](primo-studio/installation/update.md)
 * [Запуск и начало работы](primo-studio/launch/enterprise.md)
@@ -756,7 +756,7 @@
 ## Primo Orchestrator <a href="#orchestrator" id="orchestrator"></a>
 
 * [О системе](orchestrator/intro.md)
-* [Требования](orchestrator/systemreq.md)
+* [Системные требования](orchestrator/systemreq.md)
 * [Развертывание](orchestrator/deployment/README.md)
   * [Компоненты системы](orchestrator/deployment/system-components.md)
   * [Комплект поставки](orchestrator/deployment/kit.md)
