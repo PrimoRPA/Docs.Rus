@@ -836,34 +836,6 @@
   * [Приложение 3 - События Оркестратора](orchestrator/appendix/appendix3.md)
 * [Безопасность](orchestrator/security.md)
 
-## Hope UI 
-
-* [Особенности](orchestrator-hope-ui/features.md)
-  * [Новый интерфейс Оркестратора](orchestrator-hope-ui/README.md)
-  * [Настройки веб-интерфейса](orchestrator-hope-ui/interface_settings.md)
-  * [Экспорт в CSV](orchestrator-hope-ui/export_to_CSV.md)
-* [Тенанты](orchestrator-hope-ui/tenant.md)
-  * [Роли пользователей](orchestrator-hope-ui/user_role_managment.md)
-  * [Дистрибутивы Робота](orchestrator-hope-ui/robot_distribution_management.md)
-  * [Лицензии](orchestrator-hope-ui/get_licenses.md)
-  * [Стратегия Очереди](orchestrator-hope-ui/strategy_queue_projects.md)
-  * [Журналы](orchestrator-hope-ui/journal_damp.md)
-  * [Производственный календарь](orchestrator-hope-ui/production_calendar.md)
-  * [Черно-белый список](orchestrator-hope-ui/black_white_list.md)
-  * [Шаблон развертывания](orchestrator-hope-ui/template.md)
-* [Рабочее пространство](/workingspace.md)
-  * [Очереди](orchestrator-hope-ui/queues.md)
-  * [Ресурсы](orchestrator-hope-ui/assets.md)
-  * [Роботы](orchestrator-hope-ui/add_rdp_users.md)
-  * [Задания и расписания](/tasks_shedules.md)
-  * [Проекты](orchestrator-hope-ui/add_project.md)
-* [Начало работы](/start.md)
-  * [Типы лицензий](orchestrator-hope-ui/start_type_of_Licenses.md)
-  * [Добавить машину](orchestrator-hope-ui/add_machine.md)
-  * [Добавить пользователя](orchestrator-hope-ui/add_user.md)
-  * [Добавить робота](orchestrator-hope-ui/add_rdp_users.md)
-  * [Добавить проект](orchestrator-hope-ui/add_project.md)
-
 
 
 ## Idea Hub
