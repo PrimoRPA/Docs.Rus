@@ -10,27 +10,27 @@
 
 ## Управление дистрибутивами Роботов
 
-Имеется возможность управлять дистрибутивами роботов, загружая их, назначая основными или удаляя по необходимости. [Подробнее по ссылке ](https://github.com/PrimoRPA/Docs.Rus/blob/SiuzanaTedzhoeva-HopeUI/orchestrator-hope-ui/robot_distribution_management.md)
+Имеется возможность управлять дистрибутивами роботов, загружая их, назначая основными или удаляя по необходимости. [Подробнее по ссылке ](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/tenant/robot_distribution_management)
 
 ## Экспорт в CSV
 
 Все табличные данные можно экспортировать в формат CSV для дальнейшего анализа или интеграции в другие системы. 
- [Подробнее по ссылке ](https://github.com/PrimoRPA/Docs.Rus/blob/SiuzanaTedzhoeva-HopeUI/orchestrator-hope-ui/export_to_CSV.md)
+ [Подробнее по ссылке ](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/features/export_to_csv)
 
 ## Стратегии очереди проектов
 
  Эта функция позволяет управлять порядком и приоритетами выполнения проектов в очереди, оптимизируя распределение ресурсов и эффективность обработки задач.
-[Подробнее по ссылке ]( https://github.com/PrimoRPA/Docs.Rus/blob/SiuzanaTedzhoeva-HopeUI/orchestrator-hope-ui/strategy_queue_projects.md) 
+[Подробнее по ссылке ](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/tenant/strategy_queue_projects) 
 
 ## Журналы
 
 Предназначены для записи и отслеживания всех важных событий и операций в системе, обеспечивая возможность анализа и мониторинга деятельности роботов и процессов.
-[Журналы](https://github.com/PrimoRPA/Docs.Rus/blob/SiuzanaTedzhoeva-HopeUI/orchestrator-hope-ui/journal_damp.md)
+[Журналы](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/tenant/journal_damp)
 
 ## Производственный календарь
 
 Используется для планирования и управления рабочими и выходными днями, позволяя настраивать расписание работы роботов в соответствии с производственными потребностями и праздниками.
-[Подробнее по ссылке ](https://github.com/PrimoRPA/Docs.Rus/blob/SiuzanaTedzhoeva-HopeUI/orchestrator-hope-ui/production_calendar.md)
+[Подробнее по ссылке ](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/tenant/production_calendar)
 
 ## E-mail входящей почты
 
@@ -39,12 +39,12 @@
 ## Черно-Белый список Студий
 
 Обеспечивает управление доступом, позволяя определять, какие из машин Студий имеют право на доступ.
-[Подробнее](https://github.com/PrimoRPA/Docs.Rus/blob/SiuzanaTedzhoeva-HopeUI/orchestrator-hope-ui/Black_white_list.md)
+[Подробнее](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/tenant/black_white_list)
 
 ## Шаблон развертывания
 
 Это набор предварительно заданных настроек, который упрощает создание новых роботов или компонентов, так как не нужно каждый раз настраивать параметры заново.
-[Подробнее о шаблонах ](https://github.com/PrimoRPA/Docs.Rus/blob/SiuzanaTedzhoeva-HopeUI/orchestrator-hope-ui/template.md)
+[Подробнее о шаблонах ](https://docs.primo-rpa.ru/primo-rpa/orchestrator-hope-ui/tenant/template)
 
 ## NuGet-пакеты
 
