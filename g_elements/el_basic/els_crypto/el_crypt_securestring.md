@@ -23,7 +23,7 @@
 
 1. Скачайте архив со всеми обучающими материалами по ссылке: [Скачать архив Learning](https://github.com/PrimoRPA/Learning/archive/refs/heads/master.zip).
 2. Распакуйте архив и откройте в Студии проект **StudioActivities**.
-3. Выберите процесс `StudioActivities/Ru/Криптография/Secure_string.ltw.ltw` для просмотра.
+3. Выберите процесс `StudioActivities/Ru/Криптография/Secure_string.ltw` для просмотра.
 
 
 
