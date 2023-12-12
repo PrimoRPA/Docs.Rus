@@ -5,7 +5,7 @@
  любой другой контент в HTML-коде, не являющийся таблицей, в результате преобразования отображаться не будет.
 
 
-![](<../../.gitbook/assets1/data_table9.png>)
+![](<../../../../.gitbook/assets1/data_table9.png>)
 
 
 **Свойства:**
@@ -19,10 +19,10 @@
   -  **HTML\*:** `System.String`. Переменная, содержащая строку с HTML-кодом. Пример HTML-кода: `<table><tr><th>текст заголовка1</th><th>текст заголовка2</th></tr><tr><td>данные1</td><td>данные2</td></tr></table>`.
 
 
-![](<../../.gitbook/assets1/1.png>)
+![](<../../../../.gitbook/assets1/1.png>)
 
 
-![](<../../.gitbook/assets1/processing.png>)
+![](<../../../../.gitbook/assets1/processing.png>)
 
 
 ## Learning
