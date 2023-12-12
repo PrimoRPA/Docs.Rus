@@ -13,6 +13,39 @@ GroupName - необязательное свойство. Оно позволя
 -	LTools.Office.OutlookInst.ELEMENTS_GROUP_NAME
 -	LTools.Office.OfficeInst.InteropExchange.ELEMENTS_GROUP_NAME
 
+```
+using LTools.Common.Model;
+using LTools.Common.UIElements;
+using LTools.SDK;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Primo.SDKSample
+{
+    public class PrimoElementBack : PrimoComponentSimple<PrimoElement>
+    {
+        public override string GroupName 
+        { 
+            get => LTools.Office.ExcelInst.ELEMENTS_GROUP_NAME; 
+            protected set { }
+        }
+
+        public PrimoElementBack(IWFContainer container) : base(container)
+        {
+            InitClass(container);
+        }
+
+        public override ExecutionResult SimpleAction(ScriptingData sd)
+        {
+            return new ExecutionResult();
+        }
+    }
+}
+```
+
 
 ## Классы PrimoComponent
 
