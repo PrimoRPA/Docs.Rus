@@ -1,4 +1,4 @@
-# LTools.Office.SDK
+# Дополнительные свойства
 
 ## Свойство GroupName
 
