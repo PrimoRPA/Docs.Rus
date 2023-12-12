@@ -2,9 +2,7 @@
 
 ## Свойство GroupName
 
-GroupName - необязательное свойство. Оно позволяет группировать элементы по категориям палитры элементов. Например, можно установить значение "Форматирование" для свойства GroupName, чтобы все элементы палитры, относящиеся к форматированию, отображались в одной группе.
-
-В случае, если свойство GroupName не переопределено, элементы попадут в соответствующие группы палитры элементов.
+**GroupName** - необязательное свойство. Позволяет сгруппировать элементы на панели элементов. В случае, если свойство GroupName не переопределено, элементы попадут в соответствующие группы панели элементов.
 
 Названия групп можно получить из:
 
@@ -12,6 +10,8 @@ GroupName - необязательное свойство. Оно позволя
 -	LTools.Office.WordInst.ELEMENTS_GROUP_NAME
 -	LTools.Office.OutlookInst.ELEMENTS_GROUP_NAME
 -	LTools.Office.OfficeInst.InteropExchange.ELEMENTS_GROUP_NAME
+
+Пример:
 
 ```csharp
 using LTools.Common.Model;
@@ -25,7 +25,7 @@ using System.Threading.Tasks;
 
 namespace Primo.SDKSample
 {
-    public class PrimoElementBack : PrimoComponentSimple<PrimoElement>
+    public class PrimoElementBack : LTools.Office.SDK.PrimoComponentExcel<WFSampleExcelBase>
     {
         public override string GroupName 
         { 
