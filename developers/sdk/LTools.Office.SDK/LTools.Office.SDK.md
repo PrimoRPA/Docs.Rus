@@ -13,7 +13,7 @@ GroupName - необязательное свойство. Оно позволя
 -	LTools.Office.OutlookInst.ELEMENTS_GROUP_NAME
 -	LTools.Office.OfficeInst.InteropExchange.ELEMENTS_GROUP_NAME
 
-```
+```csharp
 using LTools.Common.Model;
 using LTools.Common.UIElements;
 using LTools.SDK;
