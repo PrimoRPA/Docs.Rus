@@ -657,7 +657,7 @@
     * [Запрос HTTP](g\_elements/el\_extra/els\_networking/el\_httpclient.md)
     * [Запрос SOAP](g\_elements/el\_extra/els\_networking/el\_soaprequest.md)
   * [PDF](g\_elements/el\_extra/els\_pdf/README.md)
-    * [PDF](g\_elements/el\_extra/els\_pdf/el\_gettable.md)
+    * [Чтение таблицы](g\_elements/el\_extra/els\_pdf/el\_gettable.md)
   * [Python](g\_elements/el\_extra/els\_python/README.md)
     * [Python](g\_elements/el\_extra/els\_python/el\_pythonscope.md)
     * [Выполнить скрипт](g\_elements/el\_extra/els\_python/el\_execscript.md)
