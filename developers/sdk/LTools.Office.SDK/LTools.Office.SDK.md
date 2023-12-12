@@ -49,19 +49,19 @@ namespace Primo.SDKSample
 
 ## Классы PrimoComponent
 
-Классы **PrimoComponent** представляют собой компоненты, которые предоставляют доступ к функциональности различных приложений Microsoft Office.
+Каждый класс **PrimoComponent** обладает свойством **Driver** для взаимодействия с приложениями Excel, Word, Outlook, Exchange. В свойстве содержатся информация о типе автоматизации и ссылки на объекты, связанные с конкретным приложением.
 
-У каждого компонента есть свойство **Driver**, которое содержит информацию о типе автоматизации (DX/Interop) и ссылки на объекты, связанные с конкретным приложением.
+Свойство **Driver** может иметь один из следующих типов:
 
--	LTools.Office.SDK.ExcelDriver
+-   LTools.Office.SDK.ExcelDriver
 -	LTools.Office.SDK.WordDriver
 -	LTools.Office.SDK.OutlookDriver
 -	LTools.Office.SDK.ExchangeDriver
 
 
-Например, свойство **Driver** типа **ExcelDriver** содержит ссылку на объект LTools.Office.ExcelInst, который представляет собой оболочку для работы с Excel. Также свойство Driver содержит ссылку на книгу Excel для DX (DevExpress.Spreadsheet.Workbook) и ссылку на приложение Excel для Interop (Microsoft.Office.Interop.Excel.Application).
+Например, тип **.ExcelDriver** содержит ссылку на объект LTools.Office.ExcelInst, который представляет собой оболочку для работы с Excel. Также свойство Driver содержит ссылку на книгу Excel для DX (DevExpress.Spreadsheet.Workbook) и ссылку на приложение Excel для Interop (Microsoft.Office.Interop.Excel.Application).
 
-Аналогично, свойство **Driver** типа **WordDriver** содержит ссылку на объект LTools.Office.WordInst, свойство Driver типа OutlookDriver содержит ссылку на объект LTools.Office.OutlookInst, а свойство Driver типа ExchangeDriver содержит ссылку на объект LTools.Office.OfficeInst.InteropExchange.
+Аналогично, тип **.WordDriver** содержит ссылку на объект LTools.Office.WordInst. Тип **.OutlookDriver** содержит ссылку на объект LTools.Office.OutlookInst, а тип **.ExchangeDriver** содержит ссылку на объект LTools.Office.OfficeInst.InteropExchange.
 
 ## Функциональность
 
