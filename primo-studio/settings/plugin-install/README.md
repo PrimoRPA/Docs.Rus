@@ -41,12 +41,22 @@
 ## Расширения браузеров
 
 ```
-LTools.WebBrowser.Native.exe install=[browser] lang=[language] mode=[mode]
+LTools.WebBrowser.Native.exe install=<browser> lang=<language> mode=<mode>
 ```
 Поддерживаемые аргументы:
-* **browser** - тип браузера (CHROME, FIREFOX, EDGE, YANDEX);
-* **language** - язык установки (EN, RU);
-* **mode** - режим установки (store, packed, unpacked, storelocal).
+* **browser** - тип браузера: CHROME, FIREFOX, EDGE, YANDEX;
+* **language** - язык установки: EN, RU;
+* **mode** - режим установки расширения. Значения: packed (упакованное), storelocal (из магазина для текущего  пользователя), unpacked (распакованное).
+
+Пример установки без интернета:
+```
+LTools.WebBrowser.Native.exe install=CHROME lang=RU mode=packed
+```
+
+Пример заполнения при наличии интернета:
+```
+LTools.WebBrowser.Native.exe install=CHROME lang=RU mode=storelocal
+```
 
 ## Плагины
 
