@@ -421,7 +421,7 @@
       * [CellValue](g\_elements/el\_basic/els\_excel/datatypes/cellvalue.md)
     * [Страницы](g\_elements/el\_basic/els\_excel/els\_excel\_pages/README.md)
       * [Добавить страницу](g\_elements/el\_basic/els\_excel/els\_excel\_pages/el\_excel\_addpage.md)
-      * [Копировать страницу](g\_elements/el\_basic/els\_excel/els\_excel\_pages/el\_excel\el_excel_copysheet.md)
+      * [Копировать страницу](g\_elements/el\_basic/els\_excel/els\_excel\_pages/el_excel_copypage.md) 
       * [Переименовать страницу](g\_elements/el\_basic/els\_excel/els\_excel\_pages/el\_excel\_renamepage.md)
       * [Список страниц](g\_elements/el\_basic/els\_excel/els\_excel\_pages/el\_excel\_pages.md)
       * [Удалить страницу](g\_elements/el\_basic/els\_excel/els\_excel\_pages/el\_excel\_pageremove.md)
