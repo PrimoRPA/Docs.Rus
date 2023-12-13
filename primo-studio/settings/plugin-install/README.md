@@ -53,7 +53,7 @@ LTools.WebBrowser.Native.exe install=<browser> lang=<language> mode=<mode>
 LTools.WebBrowser.Native.exe install=CHROME lang=RU mode=packed
 ```
 
-Пример заполнения при наличии интернета:
+Пример установки при наличии интернета:
 ```
 LTools.WebBrowser.Native.exe install=CHROME lang=RU mode=storelocal
 ```
