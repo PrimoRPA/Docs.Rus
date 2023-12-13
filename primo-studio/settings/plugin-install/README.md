@@ -3,7 +3,7 @@
 Расширения возможно установить:
 * [автоматически](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/autoinstall-browser-extension) - только для браузерных расширений;
 * вручную из Студии - для браузерных расширений и плагинов RDP, Java;
-* из командной строки - для браузерных расширений и плагинов RDP, Java.
+* [из командной строки](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/plugin-install#ustanovka-iz-komandnoi-stroki) - для браузерных расширений и плагинов RDP, Java.
 
 ## Установка из Студии
 
