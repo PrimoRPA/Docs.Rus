@@ -72,26 +72,26 @@ DB_PASSWORD_LTOOLS=""
 ## Структура каталогов для импорта данных
 
 Для реализации автоматического импорта данных из Оркестратора разместите файлы, полученные с помощью выполнения скриптов `orc-data-fetch`, по пути `PATH_TO_IDEAHUB/private/import-source/environments`. Термин “environments” используется для обозначения контуров - изолированных подсетей внутри общей сети организации.
-Пример правильного размещения структуры файлов:
+Пример правильного размещения структуры каталогов:
  
 PATH_TO_IDEAHUB  
 -- private  
 ---- import-source  
 ------ environments  
 -------- prom  
----------- projects.xlsx  
----------- machines.xlsx  
----------- robots.xlsx  
+---------- projects.csv  
+---------- machines.csv  
+---------- robots.csv  
 ---------- ...  
 -------- test  
----------- projects.xlsx  
----------- machines.xlsx  
----------- robots.xlsx  
+---------- projects.csv  
+---------- machines.csv  
+---------- robots.csv  
 ---------- ...  
 -------- something-else  
----------- projects.xlsx  
----------- machines.xlsx  
----------- robots.xlsx  
+---------- projects.csv  
+---------- machines.csv  
+---------- robots.csv  
 ---------- ...  
  
 Контуры в системе будут называться по имени каталога: `PATH_TO_IDEAHUB/private/import-source/environments/prom`, `PATH_TO_IDEAHUB/private/import-source/environments/test`, `PATH_TO_IDEAHUB/private/import-source/environments/something-else`, с изменением регистра первого символа на верхний, например "Prom", "Test", "Something-else".
