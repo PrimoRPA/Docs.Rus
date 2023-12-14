@@ -783,6 +783,8 @@
     * [Множественные производственные календари](orchestrator/deployment/fine-tuning/multiple-production-calendars.md)
     * [Настройка папки для дампа секций журналов](orchestrator/deployment/fine-tuning/log-section-dump-folder.md)
     * [Физическое удаление элементов очереди](orchestrator/deployment/fine-tuning/physic-removing-items.md)
+    * [Ограничение версии Студии](orchestrator/deployment/fine-tuning/limit-studio-version.md)
+    * [Ограничение потока событий от триггеров](orchestrator/deployment/fine-tuning/limit-thread-of-events-from-triggers.md)
   * [Windows](orchestrator/deployment/windows/README.md)
     * [Предварительная настройка машины Оркестратора](orchestrator/deployment/windows/presetting-orch-machine.md)
     * [Установка PowerShell](orchestrator/deployment/windows/powershell-install.md)
