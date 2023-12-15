@@ -785,6 +785,7 @@
     * [Физическое удаление элементов очереди](orchestrator/deployment/fine-tuning/physic-removing-items.md)
     * [Ограничение версии Студии](orchestrator/deployment/fine-tuning/limit-studio-version.md)
     * [Ограничение потока событий от триггеров](orchestrator/deployment/fine-tuning/limit-thread-of-events-from-triggers.md)
+    * [Отключение тенанта по умолчанию и блокировка встроенных учетных записей](orchestrator/deployment/fine-tuning/disable-default-tenant.md)
   * [Windows](orchestrator/deployment/windows/README.md)
     * [Предварительная настройка машины Оркестратора](orchestrator/deployment/windows/presetting-orch-machine.md)
     * [Установка PowerShell](orchestrator/deployment/windows/powershell-install.md)
