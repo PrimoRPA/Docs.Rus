@@ -3,7 +3,7 @@
 
 ### Новые функции и улучшения
 
-1. Реализован набор инструментов для разработчиков **LTools.Office.SDK**. С его помощью можно разрабатывать свои элементы Primo для автоматизации работы с программами MS Office: Excel, Word, Outlook и Exchange. Описание работы с **LTools.Office.SDK** см. [здесь](https://docs.primo-rpa.ru/primo-rpa/developers/sdk).
+1. Реализован набор инструментов для разработчиков **LTools.Office.SDK**. Теперь можно разрабатывать свои элементы Primo для автоматизации работы с программами MS Office: Excel, Word, Outlook и Exchange. Описание работы с **LTools.Office.SDK** см. [здесь](https://docs.primo-rpa.ru/primo-rpa/developers/sdk).
 
 1. Добавлена библиотека [**Primo.Office.Pdf**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_pdf), содержащая элемент [**Чтение таблицы**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_pdf/el_gettable). Элемент позволяет автоматически извлекать табличные данные из PDF-документов. 
 1. Добавлена возможность переключения между старым и новым редактором шаблона поиска. По умолчанию в Студии используется обновленный редактор. Чтобы изменить значение:
