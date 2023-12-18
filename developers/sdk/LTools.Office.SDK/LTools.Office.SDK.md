@@ -2,7 +2,7 @@
 
 ## Свойство GroupName
 
-**GroupName** - необязательное свойство. Позволяет сгруппировать элементы на панели элементов. В случае, если свойство GroupName не переопределено, элементы попадут в соответствующие группы панели элементов.
+**GroupName** - необязательное свойство. Позволяет сгруппировать элементы по категориям. Если не переопределить **GroupName**, элементы попадут в соответствующие группы панели элементов.
 
 Названия групп можно получить из:
 
@@ -47,9 +47,9 @@ namespace Primo.SDKSample
 ```
 
 
-## Классы PrimoComponent
+## Свойство Driver
 
-Каждый класс **PrimoComponent** обладает свойством **Driver** для взаимодействия с приложениями Excel, Word, Outlook, Exchange. В свойстве содержатся информация о типе автоматизации и ссылки на объекты, связанные с конкретным приложением.
+Каждый класс **PrimoComponent** обладает свойством **Driver**, которое обеспечивает взаимодействие с приложениями MS Office. В свойстве содержится информация о типе автоматизации и ссылки на объекты, связанные с конкретным приложением.
 
 Свойство **Driver** может иметь один из следующих типов:
 
@@ -59,13 +59,15 @@ namespace Primo.SDKSample
 -	LTools.Office.SDK.ExchangeDriver
 
 
-Например, тип **.ExcelDriver** содержит ссылку на объект LTools.Office.ExcelInst, который представляет собой оболочку для работы с Excel. Также свойство Driver содержит ссылку на книгу Excel для DX (DevExpress.Spreadsheet.Workbook) и ссылку на приложение Excel для Interop (Microsoft.Office.Interop.Excel.Application).
+Например, тип **.ExcelDriver** содержит ссылку на объект `LTools.Office.ExcelInst`, который представляет собой оболочку для работы с Excel. Также свойство Driver содержит ссылку на книгу Excel для DX (DevExpress.Spreadsheet.Workbook) и ссылку на приложение Excel для Interop (Microsoft.Office.Interop.Excel.Application).
 
-Аналогично, тип **.WordDriver** содержит ссылку на объект LTools.Office.WordInst. Тип **.OutlookDriver** содержит ссылку на объект LTools.Office.OutlookInst, а тип **.ExchangeDriver** содержит ссылку на объект LTools.Office.OfficeInst.InteropExchange.
+Аналогично, тип **.WordDriver** содержит ссылку на объект `LTools.Office.WordInst`. 
 
-## Функциональность
+Тип **.OutlookDriver** содержит ссылку на объект `LTools.Office.OutlookInst`, а тип **.ExchangeDriver** - на объект `LTools.Office.OfficeInst.InteropExchange`.
 
-Объекты, связанные с конкретным приложением, предоставляют доступ к функциональности соответствующих приложений Microsoft Office.
+### Функциональность
+
+Объекты, связанные с конкретным приложением MS Office, предоставляют доступ к функциональности этих приложений.
 
 Например, с помощью объекта `LTools.Office.ExcelInst` можно выполнять операции с ячейками и диапазонами в Excel, создавать, открывать и сохранять книги.
 
