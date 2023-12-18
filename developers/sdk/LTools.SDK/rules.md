@@ -5,10 +5,10 @@
 
 1.	Запустить Visual Studio.
 2.	Выбрать **Create a new project** с типом Class Library (.NET Framework) либо Class Library (поддерживаются .NET Framework 4.6.1 и .NET Standard 2.0).
-3.	Ввести имя проекта. ***Важно! Имя проекта и библиотеки dll должны начинаться с префикса “Primo.”***.
+3.	Ввести имя проекта. **Имя проекта и библиотеки dll должны начинаться с префикса Primo.**
 4.	Добавить в Dependencies проекта сборку Primo.ProjectAnalyzer.Dto.dll:
   
-  ![](<../../.gitbook/assets/1.sdk.rules.png>) 
+  ![](<../../../.gitbook/assets/1.sdk.rules.png>) 
 
 5\. Создать класс (Add ➝ Class...), который будет содержать правило. Для этого надо унаследовать интерфейс Primo.ProjectAnalyzer.IAnalysisRule.
 
@@ -210,7 +210,7 @@ namespace Primo.ProjectAnalyzer.Dto.Rules
 ```
 
 ### Описание классов
-**IAnalysisRule**.
+**IAnalysisRule**
 
 | Имя члена класса | Описание |
 | ---------------- | -------- |
@@ -225,7 +225,7 @@ namespace Primo.ProjectAnalyzer.Dto.Rules
 | Reset()	        | Вызывается при сбросе правила в состояние по умолчанию |
 
 
-**AnalysisRuleArg**.
+**AnalysisRuleArg**
 
 | Имя члена класса | Описание |
 | ---------------- | -------- |
@@ -234,9 +234,9 @@ namespace Primo.ProjectAnalyzer.Dto.Rules
 | RegEx	           | Регулярное выражение, применяемое при проверке ввода аргумента |
 | Value	           | Значение аргумента |
 
-![](<../../.gitbook/assets/2.sdk.rules.png>) 
+![](<../../../.gitbook/assets/2.sdk.rules.png>) 
 
-**RuleResult**.
+**RuleResult**
 
 | Имя члена класса | Описание |
 | ---------------- | -------- |
@@ -245,7 +245,7 @@ namespace Primo.ProjectAnalyzer.Dto.Rules
 | RecommendationMessage	| Текст рекомендации |
 | Messages	       | Сообщения  |
 
-![](<../../.gitbook/assets/3.sdk.rules.png>) 
+![](<../../../.gitbook/assets/3.sdk.rules.png>) 
  
 ## Анатомия проекта Primo
 
@@ -289,7 +289,9 @@ namespace Primo.ProjectAnalyzer.Dto.Rules
 
 ## Сборка и отладка
 
-Для отладки можно использовать класс Inspector. Например:
+Для отладки можно использовать класс Inspector. 
+
+Пример:
 
 ```csharp
 Primo.ProjectAnalyzer.Inspector insp = new Primo.ProjectAnalyzer.Inspector();
