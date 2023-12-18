@@ -12,7 +12,7 @@
    * _LTools.SDK.dll_
    * _LTools.Office.dll_
  
-   В менеджере зависимостей Visual Studio найдите сборки MS Office в Assemblies > Extensions.\
+6. В менеджере зависимостей Visual Studio найдите сборки MS Office в Assemblies > Extensions.\
    Для работы с **Excel** добавьте:
    * _DevExpress.Docs.v20.1.dll_
    * _DevExpress.Spreadsheet.v20.1.Core.dll_
@@ -40,15 +40,15 @@
 
    ![](<../../../.gitbook/assets1/sdk-office-start.png>)
 
-6\. Добавьте в проект компонент типа **User Control (WPF)** (Add > New Item...):
+7\. Добавьте в проект компонент типа **User Control (WPF)** (Add > New Item...):
 
    ![](<../../../.gitbook/assets/1 (118).png>)
 
    Этот элемент будет являться визуальной составляющей элемента Primo. Данные будущего элемента автоматически будут смаплены на DataContext этого контролла (пример приводится далее).
 
-7\. Создайте класс (Add > Class…). Этот класс будет являться code-behind нашего элемента.
+8\. Создайте класс (Add > Class…). Этот класс будет являться code-behind нашего элемента.
 
-8\. Для создания элемента с синхронным поведением необходимо унаследовать класс `LTools.Office.SDK.PrimoComponent*<UI>`, где:
+9\. Для создания элемента с синхронным поведением необходимо унаследовать класс `LTools.Office.SDK.PrimoComponent*<UI>`, где:
 * UI – это имя вашего визуального компонента из шага 5.
 * Вместо `*` нужно выбрать Excel, Word, Outlook либо Exchange, в зависимости от целевого использования. Пример: LTools.Office.SDK.PrimoComponentExcel.
 
