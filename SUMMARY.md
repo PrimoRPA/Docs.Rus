@@ -913,7 +913,7 @@
 * [LTools.Office.SDK](developers/sdk/LTools.Office.SDK/README.md)
     * [Начало работы](developers/sdk/LTools.Office.SDK/getting-started.md)
     * [Синхронный элемент](developers/sdk/LTools.Office.SDK/sync-element.md)
-    * [Элемент с тайм-аутом](developers/sdk/LTools.Office.SDK/to-element.md)
+    * [Элемент с тайм-аутом](developers/sdk/LTools.Office.SDK/element-with-timeout.md)
     * [Простой контейнер](developers/sdk/LTools.Office.SDK/simple-container.md)
     * [Специальный контейнер](developers/sdk/LTools.Office.SDK/custom-container.md)
     * [Расширенные свойства](developers/sdk/LTools.Office.SDK/extended-properties.md)
