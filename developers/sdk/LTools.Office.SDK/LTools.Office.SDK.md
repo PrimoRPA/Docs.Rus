@@ -59,7 +59,7 @@ namespace Primo.SDKSample
 -	LTools.Office.SDK.ExchangeDriver
 
 
-Например, тип **.ExcelDriver** содержит ссылку на объект `LTools.Office.ExcelInst`, который представляет собой оболочку для работы с Excel. Также свойство Driver содержит ссылку на книгу Excel для DX (DevExpress.Spreadsheet.Workbook) и ссылку на приложение Excel для Interop (Microsoft.Office.Interop.Excel.Application).
+Например, тип **.ExcelDriver** содержит ссылку на объект `LTools.Office.ExcelInst`, который представляет собой оболочку для работы с Excel. Также этот тип содержит ссылку на книгу Excel для DX (DevExpress.Spreadsheet.Workbook) и ссылку на приложение Excel для Interop (Microsoft.Office.Interop.Excel.Application).
 
 Аналогично, тип **.WordDriver** содержит ссылку на объект `LTools.Office.WordInst`. 
 
