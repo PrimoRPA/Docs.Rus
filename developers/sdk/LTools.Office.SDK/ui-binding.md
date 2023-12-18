@@ -18,4 +18,4 @@
 
 ```
 
-![](<../../.gitbook/assets/0 (126).png>)
+![](<../../../.gitbook/assets/0 (126).png>)
