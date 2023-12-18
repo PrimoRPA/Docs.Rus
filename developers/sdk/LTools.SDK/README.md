@@ -4,10 +4,8 @@
 
 Кроме того, **LTools.SDK** позволяет разработать собственные правила анализа кода для RPA-проектов и процессов.
 
-## Примеры работы с LTools.SDK
+## Пример работы с LTools.SDK
 
-Код примеров работы с LTools.SDK доступен по адресу:
-
-{% embed url="https://github.com/PrimoRPA/SDK.Sample/tree/main/LTools.SDK" %}
+Код примеров работы с LTools.SDK доступен по [ссылке](https://github.com/PrimoRPA/SDK.Sample/tree/main/LTools.SDK).
 
 
