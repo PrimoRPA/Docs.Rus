@@ -52,5 +52,5 @@
 * UI – это имя вашего визуального компонента из шага 5.
 * Вместо `*` нужно выбрать Excel, Word, Outlook либо Exchange, в зависимости от целевого использования. Пример: LTools.Office.SDK.PrimoComponentExcel.
 
-Далее все из LTools.SDK относится и к этому, поскольку LTools.Office.SDK его наследует.
+:small_orange_diamond: *Далее все из LTools.SDK относится и к этому SDK, поскольку LTools.Office.SDK его наследует. Если вы уже работали с LTools.SDK и понимаете общий принцип, то рекомендуем сразу обратиться к разделу [Дополнительные свойства](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.office.sdk/additional-properties), которым отличается LTools.Office.SDK от стандартного.*
 
