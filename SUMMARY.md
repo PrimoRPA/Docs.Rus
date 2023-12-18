@@ -895,7 +895,7 @@
 
 ## Разработчикам <a href="#developers" id="developers"></a>
 
-* [Общая информация](developers/sdk/README.md)
+* [Что такое SDK](developers/sdk/README.md)
 * [LTools.SDK](developers/sdk/LTools.SDK/README.md)
     * [Начало работы](developers/sdk/getting-started.md)
     * [Синхронный элемент](developers/sdk/sync-element.md)
