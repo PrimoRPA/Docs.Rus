@@ -1,9 +1,9 @@
 # Установка расширений и плагинов
 
 Расширения возможно установить:
-* [автоматически](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/autoinstall-browser-extension) - только для браузеров;
-* вручную из Студии;
-* из командной строки.
+* [автоматически](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/autoinstall-browser-extension) - только для браузерных расширений;
+* вручную из Студии - для браузерных расширений и плагинов RDP, Java;
+* [из командной строки](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/plugin-install#ustanovka-iz-komandnoi-stroki) - для браузерных расширений и плагинов RDP, Java.
 
 ## Установка из Студии
 
@@ -41,12 +41,22 @@
 ## Расширения браузеров
 
 ```
-LTools.WebBrowser.Native.exe install=[browser] lang=[language] mode=[mode]
+LTools.WebBrowser.Native.exe install=<browser> lang=<language> mode=<mode>
 ```
 Поддерживаемые аргументы:
-* **browser** - тип браузера (CHROME, FIREFOX, EDGE, YANDEX);
-* **language** - язык установки (EN, RU);
-* **mode** - режим установки (store, packed, unpacked, storelocal).
+* **browser** - тип браузера: CHROME, FIREFOX, EDGE, YANDEX;
+* **language** - язык установки: EN, RU;
+* **mode** - режим установки расширения. Значения: packed (упакованное), storelocal (из магазина для текущего  пользователя), unpacked (распакованное).
+
+Пример установки без интернета:
+```
+LTools.WebBrowser.Native.exe install=CHROME lang=RU mode=packed
+```
+
+Пример установки при наличии интернета:
+```
+LTools.WebBrowser.Native.exe install=CHROME lang=RU mode=storelocal
+```
 
 ## Плагины
 
