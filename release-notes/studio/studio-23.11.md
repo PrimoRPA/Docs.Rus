@@ -25,7 +25,7 @@
 
 1. Для [процессов](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process) RPA-проекта добавлено поле **Описание**. Оно доступно в форме создания/редактирования процесса и не является обязательным для заполнения.
 1. В контекстное меню элементов добавлены команды:
-   * **Перенести элемент в try/catch** - позволяет переместить выделенный элемент в контейнер [Try-Catch](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_logic/el_logic_trycatchhttps://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_logic/el_logic_trycatch). Поддерживается множественный перенос элементов.
+   * **Перенести элемент в try/catch** - позволяет переместить выделенный элемент в контейнер [Try-Catch](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_logic/el_logic_trycatch). Поддерживается множественный перенос элементов.
    * **Извлечь элемент из try/catch** - извлекает элемент или элементы из Try-Cath.
 
    ![](<../../.gitbook/assets1/move-element-to-try-catch.png>)
