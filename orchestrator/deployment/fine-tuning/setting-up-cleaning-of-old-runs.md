@@ -16,7 +16,7 @@
     "LogsThreadSleep": 300, // 5 минут
     "MaxBatch": 500,
     "Period": 80640, // 4 недели
-    "EnableLogsTransfer": false
+    "EnableLogsTransfer": true
   },
 ```
 
