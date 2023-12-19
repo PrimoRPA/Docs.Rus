@@ -11,7 +11,7 @@
 
    ![](<../../.gitbook/assets1/set-breakpoint.png>) 
 
-   Выбрать ядро отладчика чистого кода пользователь может в окне настроек Студии. По умолчанию используется версия v1. 
+   Выбрать ядро отладчика чистого кода пользователь может в окне [настроек](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings#otladchik) Студии. По умолчанию используется версия v1. 
 
    ![](<../../.gitbook/assets1/version-of-debagger.png>)
 
