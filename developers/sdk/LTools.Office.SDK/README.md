@@ -14,3 +14,6 @@
 
 Код примеров работы с LTools.Office.SDK доступен по [ссылке](https://github.com/PrimoRPA/SDK.Sample/tree/main/LTools.Office.SDK).
 
+## Начало работы
+
+Ознакомьтесь с разделом [Начало работы](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.office.sdk/getting-started), чтобы приступить к работе с LTools.Office.SDK.
