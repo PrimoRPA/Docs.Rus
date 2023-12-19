@@ -782,6 +782,7 @@
     * [Настройка очереди проектов](orchestrator/deployment/fine-tuning/project-queue.md)
     * [Стратегия очереди проектов для тенанта](orchestrator/deployment/fine-tuning/project-queue-strategies-for-tenant.md)
     * [Кэширование проекта](orchestrator/deployment/fine-tuning/project-caching.md)
+    * [Очистка старых запусков проектов](orchestrator/deployment/fine-tuning/setting-up-old-runs-cleaning.md)
     * [Множественные производственные календари](orchestrator/deployment/fine-tuning/multiple-production-calendars.md)
     * [Настройка папки для дампа секций журналов](orchestrator/deployment/fine-tuning/log-section-dump-folder.md)
     * [Физическое удаление элементов очереди](orchestrator/deployment/fine-tuning/physic-removing-items.md)
