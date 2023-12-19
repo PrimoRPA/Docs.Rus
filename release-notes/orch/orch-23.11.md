@@ -41,7 +41,7 @@
 1. Добавлена возможность [ограничить поток событий от триггеров](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/fine-tuning/limit-thread-of-events-from-triggers). Функция помогает устранить либо снизить риск отказа в обслуживании при обработке потока. Ограничение настраивается в конфигурационном файле WebApi в секции **Assignment**.
 1. Внесены улучшения в структуру хранения данных в базе данных. Таблица **RpaProjectLaunches** разделена на 2 части:
    * В основной БД (ltools) содержится таблица с записями о недавних запусках RPA-проектов.
-   * В БД с логами (ltoolslogs) стала находиться таблица с записями о старых запусках.
+   * В БД с логами (ltoolslogs) стала находиться таблица с записями о старых запусках. Подробнее см. [здесь](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/fine-tuning/setting-up-old-runs-cleaning#parametry-ochistki).
 1. Для PostgreSQL добавлена возможность указать собственную схему вместо public - схемы по умолчанию. Для этого в конфигурационном файле WebApi, в параметре **ConnectionStrings**, необходимо задать значение для атрибута **SearchPath**. По умолчанию в нем установлена схема public.  
    ```
    "ConnectionStrings": {
