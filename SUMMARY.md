@@ -915,18 +915,8 @@
     * [Правила анализа кода](developers/sdk/LTools.SDK/rules.md)
 * [LTools.Office.SDK](developers/sdk/LTools.Office.SDK/README.md)
     * [Начало работы](developers/sdk/LTools.Office.SDK/getting-started.md)
-    * [Синхронный элемент](developers/sdk/LTools.Office.SDK/sync-element.md)
-    * [Элемент с тайм-аутом](developers/sdk/LTools.Office.SDK/element-with-timeout.md)
-    * [Простой контейнер](developers/sdk/LTools.Office.SDK/simple-container.md)
-    * [Специальный контейнер](developers/sdk/LTools.Office.SDK/custom-container.md)
-    * [Расширенные свойства](developers/sdk/LTools.Office.SDK/extended-properties.md)
     * [Дополнительные свойства](developers/sdk/LTools.Office.SDK/additional-properties.md)
-    * [Дополнительные методы](developers/sdk/LTools.Office.SDK/additional-methods.md)
-    * [Кастомные свойства](developers/sdk/LTools.Office.SDK/custom-properties.md)
-    * [Валидация ввода](developers/sdk/LTools.Office.SDK/input-validation.md)
-    * [Привязка данных к UI](developers/sdk/LTools.Office.SDK/ui-binding.md)
-    * [Сборка и отладка](developers/sdk/LTools.Office.SDK/debugging.md)
-    * [Упаковка и публикация](developers/sdk/LTools.Office.SDK/publish.md)
+
 
 
   
