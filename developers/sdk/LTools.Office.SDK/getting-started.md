@@ -52,5 +52,21 @@
 * UI – это имя вашего визуального компонента из шага 5.
 * Вместо `*` нужно выбрать Excel, Word, Outlook либо Exchange, в зависимости от целевого использования. Пример: LTools.Office.SDK.PrimoComponentExcel.
 
+## Дальнейшие шаги
+
 :small_orange_diamond: *Далее все из LTools.SDK относится и к этому SDK, поскольку LTools.Office.SDK его наследует. Если вы уже работали с LTools.SDK и понимаете общий принцип, то рекомендуем сразу обратиться к разделу [Дополнительные свойства](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.office.sdk/additional-properties), которым отличается LTools.Office.SDK от стандартного.*
+
+Если вы работете с SDK впервые, то изучите последовательно все разделы:
+- [Синхронный элемент](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/sync-element);
+- [Элемент с тайм-аутом](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/to-element);
+- [Простой контейнер](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/simple-container);
+- [Специальный контейнер](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/custom-container);
+- [Расширенные свойства](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/extended-properties);
+- [Дополнительные свойства](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.office.sdk/additional-properties) - относятся только к LTools.Office.SDK;
+- [Дополнительные методы](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/additional-methods);
+- [Кастомные свойства](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/custom-properties);
+- [Валидация ввода](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/input-validation);
+- [Привязка данных к UI](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/ui-binding);
+- [Сборка и отладка](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/debugging);
+- [Упаковка и публикация](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/publish).
 
