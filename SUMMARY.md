@@ -790,7 +790,7 @@
     * [Ограничение потока событий от триггеров](orchestrator/deployment/fine-tuning/limit-thread-of-events-from-triggers.md)
     * [Отключение тенанта по умолчанию и блокировка встроенных учетных записей](orchestrator/deployment/fine-tuning/disable-default-tenant.md)
 * [Настройка машин](orchestrator/setting-up-machines/README.md)
-    * [Windows](orchestrator/setting-up-machines/windows/README.md)
+  * [Windows](orchestrator/setting-up-machines/windows/README.md)
     * [Предварительная настройка машины Оркестратора](orchestrator/setting-up-machines/windows/presetting-orch-machine.md)
     * [Установка PowerShell](orchestrator/setting-up-machines/windows/powershell-install.md)
     * [Настройка машины Робота](orchestrator/setting-up-machines/windows/robotmachine/README.md)
