@@ -12,7 +12,7 @@
 
 | Шаг                           | Примечание     |
 | ----------------------------- | -------------- |
-| 1. Предварительная настройка машины Оркестратора | См. разделы: <p>- [Windows 2016 Server - Предварительная настройка машины Оркестратора;](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/windows/presetting-orch-machine)<p>- [CentOS 8 - Предварительная настройка машины Оркестратора.](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/linux/presetting-orch-machine)</p> Либо одноименные руководства в формате \*.docx из комплекта поставки |
+| 1. Предварительная настройка машины Оркестратора | См. разделы: <p>- [Windows 2016 Server - Предварительная настройка машины Оркестратора;](https://docs.primo-rpa.ru/primo-rpa/orchestrator/setting-up-machines/windows/presetting-orch-machine)<p>- [CentOS 8 - Предварительная настройка машины Оркестратора.](https://docs.primo-rpa.ru/primo-rpa/orchestrator/setting-up-machines/linux/presetting-orch-machine)</p> Либо одноименные руководства в формате \*.docx из комплекта поставки |
 | 2. Установка PostgreSQL (+pgbouncer) или MS SQL SERVER |  |
 | 3. Установка RabbitMQ     | Если RabbitMQ был установлен ранее, требуется удалить все очереди. <p> Может быть установлен для соединения по SSL. См. в комплекте поставки «Руководство по настройке работы сервисов оркестратора с RabbitMQ через SSL.docx» </p> |
 | 4. Установка WebApi и MachineInfo\* | Включает шифрование паролей в конфигурационных файлах.  <p>При установке на Linux chmod назначить в соответствии с «Руководством по предварительной настройке машины Оркестратора под CentOS 8.docx» (входит в комплект поставки) </p> |
@@ -49,13 +49,13 @@
 
 | Шаг                                              | Примечание     |
 | ------------------------------------------------ | -------------- |
-| 1. Настройка машины Робота                       | 1. См. [Настройка машины Робота под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/windows/robotmachine) <p>2. См. [Настройка машины Робота под CentOS 8](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/linux/robotmachine) </p> |  
-| 2. Установка Agent на машине Робота              | 1. См. [Установка Агента Оркестратора из инсталлятора под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/windows/agentinstaller) или [Установка Агента без инсталлятора под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/windows/appendix). <p> 2. См. [Установка Агента Оркестратора под CentOS 8](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/linux/agentinstall) </p> |  
+| 1. Настройка машины робота                       | 1. См. [Настройка машины робота под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator/setting-up-machines/windows/robotmachine) <p>2. См. [Настройка машины робота под CentOS 8](https://docs.primo-rpa.ru/primo-rpa/orchestrator/setting-up-machines/linux/robotmachine) </p> |  
+| 2. Установка Agent на машине робота              | 1. См. [Установка Агента Оркестратора из инсталлятора под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator/setting-up-machines/windows/agentinstaller) или [Установка Агента без инсталлятора под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator/setting-up-machines/windows/appendix). <p> 2. См. [Установка Агента Оркестратора под CentOS 8](https://docs.primo-rpa.ru/primo-rpa/orchestrator/setting-up-machines/linux/agentinstall) </p> |  
 
 
 ### Условия для корретной работы
 
-1. **Windows**. Используйте на машине Робота одну учетную запись для службы Агента Оркестратора. Она нужна, чтобы Агент смог проделать предварительную работу по запуску Робота и создать задачу в Windows, которая запустит Робота.
+1. **Windows**. Используйте на машине робота одну учетную запись для службы Агента Оркестратора. Она нужна, чтобы Агент смог проделать предварительную работу по запуску Робота и создать задачу в Windows, которая запустит Робота.
 2. **Linux**. Требуется одна учетная запись для функционирования Агента Оркестратора.
 
 
