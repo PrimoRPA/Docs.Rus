@@ -19,7 +19,7 @@
 ## Начальная подготовка 
 > *Подробнее в «Руководстве по предварительной настройке машины Оркестратора под Windows 2016 Server.docx»*.
 
-1. Переименуем сервер, дав ему простое и понятное название. Например, ORCHESTRATOR.
+1. Переименуем сервер, дав ему простое и понятное название. Например, **ORCHESTRATOR**.
 2. Раскомментируем в файле `C:\Windows\System32\drivers\etc\hosts` следующую строку:
 
 ![](<../.gitbook/assets1/orch-install-nginxserver-1.png>)
@@ -43,7 +43,7 @@
 
 4. Устанавливаем Google Chrome. Обновляем его до последней версии и делаем браузером по умолчанию.
 5. Устанавливаем Notepad++. Все опции оставляем по умолчанию.
-6. Устанавливаем PowerShell. При установке включаем все чекбоксы.
+6. Устанавливаем PowerShell. При установке включаем все чекбоксы:
 
 ![](<../.gitbook/assets1/orch-install-nginxserver-4.png>)
 
@@ -81,7 +81,7 @@
 
 ![](<../.gitbook/assets1/orch-install-nginxserver-11.png>)
 
-   7.10.	Из выпадающего меню (1) выбираем «Русский, Россия» (2) и нажимаем **Далее** (3).
+   7.10.	Из выпадающего меню (1) выбираем **Русский, Россия** (2) и нажимаем **Далее** (3).
 
 ![](<../.gitbook/assets1/orch-install-nginxserver-12.png>)
 
@@ -93,11 +93,38 @@
 
 ![](<../.gitbook/assets1/orch-install-nginxserver-14.png>)
 
+   7.13.	Дожидаемся завершения процесса установки.
+
 ![](<../.gitbook/assets1/orch-install-nginxserver-15.png>)
+
+   7.14.	Stack Builder не понадобится, убираем галочку (1) и нажимаем **Завершить** (2):
 
 ![](<../.gitbook/assets1/orch-install-nginxserver-16.png>)
 
+   7.15.	Заходим в PostgreSQL через pgAdmin (пользователь postgres/postgres). pgAdmin установится вместе с PostgreSQL и доступен через меню **Пуск**\**.
+
+   > \*\**Требуется для определения параметров оборудования. Если для этого используется сервис MachineInfo, то не нужно.*
+
 ![](<../.gitbook/assets1/orch-install-nginxserver-17.png>)
+
+   7.15.1.	Создаем пользователя, под которым будут работать компоненты Оркестратора, и необходимые БД:
+
+   ```
+CREATE ROLE orch_user WITH
+  LOGIN
+  NOSUPERUSER
+  INHERIT
+  NOCREATEDB
+  NOCREATEROLE
+  NOREPLICATION
+  PASSWORD 'postgres';
+GRANT pg_execute_server_program TO orch_user;
+
+CREATE DATABASE ltools WITH OWNER orch_user;
+CREATE DATABASE ltoolslogs WITH OWNER orch_user;
+CREATE DATABASE ltoolsidentity WITH OWNER orch_user;
+CREATE DATABASE ltoolslicense WITH OWNER orch_user;
+```
 
 ![](<../.gitbook/assets1/orch-install-nginxserver-18.png>)
 
