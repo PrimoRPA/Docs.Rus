@@ -114,12 +114,12 @@
 
 ## Шаг 5. Настройка и запуск служб
 
-> *Подробнее см. в документах из поставки:*
-> 1.	«Руководство по установке MachineInfo как службы под Windows 2016 Server.docx».
-> 2.	«Руководство по установке Notifications под Windows 2016 Server.docx».
-> 3.	«Руководство по установке RDP2 под Windows 2016 Server.docx».
-> 4.	«Руководство по установке RobotLogs как службы под Windows 2016 Server.docx».
-> 5.	«Руководство по установке States под Windows 2016 Server.docx».
+> *Подробнее в следующих документах из поставки:*
+> *1.	«Руководство по установке MachineInfo как службы под Windows 2016 Server.docx».*
+> *2.	«Руководство по установке Notifications под Windows 2016 Server.docx».*
+> *3.	«Руководство по установке RDP2 под Windows 2016 Server.docx».*
+> *4.	«Руководство по установке RobotLogs как службы под Windows 2016 Server.docx».*
+> *5.	«Руководство по установке States под Windows 2016 Server.docx».*
 
 Все дальнейшие настройки будут выполняться в PowerShell согласно руководствам по установке служб.
 1)	Настраиваем и запускаем службу MachineInfo используем для этого руководство: Руководство по установке MachineInfo как службы под Windows 2016 Server.docx
@@ -128,24 +128,25 @@
 4)	Настраиваем и запускаем службу RobotLogs используем для этого руководство: Руководство по установке RobotLogs как службы под Windows 2016 Server.docx
 5)	Настраиваем и запускаем службу States используем для этого руководство: Руководство по установке States под Windows 2016 Server.docx
 
-## Шаг 6. Установка RabbitMQ Server (подробнее в Руководство по установке RabbitMQ под Windows 2016 Server.docx)
+## Шаг 6. Установка RabbitMQ Server 
 
-Для установки RabbitMQ воспользуемся инструкцией: Руководство по установке RabbitMQ под Windows 2016 Server.docx
+Для установки RabbitMQ воспользуемся инструкцией из комплекта поставки: «Руководство по установке RabbitMQ под Windows 2016 Server.docx».
 
 
 ## Шаг 7. Настраиваем службу WebApi 
-> *Подробнее в Руководство по установке WebApi как службы под Windows 2016 Server.docx на 1-ой странице*. 
+> *Подробнее в «Руководстве по установке WebApi как службы под Windows 2016 Server.docx» на 1-ой странице*. 
 
-Редактируем конфигурационный файл службы WebApi (C:\Primo\WebApi\appsettings.ProdWin.json)
-Меняем строки ConnectionStrings (Значения HOST, USER ID и PASSWORD)
+Редактируем конфигурационный файл службы WebApi (C:\Primo\WebApi\appsettings.ProdWin.json).
+
+Меняем строки ConnectionStrings (Значения HOST, USER ID и PASSWORD).
 
 РИСУНОК 17
 
-Исправляем секцию RobotDeployment
+Исправляем секцию RobotDeployment.
 
 РИСУНОК 18
 
-Секцию RDP
+Секцию RDP.
 
 РИСУНОК 19
 
