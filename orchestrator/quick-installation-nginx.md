@@ -105,8 +105,6 @@
 
    > \*\**Требуется для определения параметров оборудования. Если для этого используется сервис MachineInfo, то не нужно.*
 
-![](<../.gitbook/assets1/orch-install-nginxserver-17.png>)
-
    7.15.1.	Создаем пользователя, под которым будут работать компоненты Оркестратора, и необходимые БД:
 
    ```
@@ -126,9 +124,51 @@ CREATE DATABASE ltoolsidentity WITH OWNER orch_user;
 CREATE DATABASE ltoolslicense WITH OWNER orch_user;
 ```
 
+   7.15.2.	В БД ltoolslicense выполняем скрипты из папки `C:\Install\ltoolslicense`:
+   * get_cpu_id.sql;
+   * get_hdd_id.sql;
+   * get_host_name.sql.
+
+ВАЖНО!!!
+
+При выполнении скриптов из postgresql-13/ltoolslicense нужно следить, чтобы случайно не внести изменения в текст скрипта. Недопустимо вносить даже не значимые с точки зрения кода скрипта пробелы и пустые строки.
+
+В том числе, если отредактировали скрипт в редакторе, который заменил визуально не наблюдаемые символы конца строки (отличаются для Windows- и Linux-строк).
+
+   7.16.	Настраиваем доступ к БД по сети (по умолчанию она доступна только локально по localhost):
+   * Открываем папку `C:\Primo\PostgreSQL\Data`.
+   * Вносим изменения в файл `postgresql.conf`:
+     ```
+     listen_addresses = '*'
+     ```
+   * Вносим изменения в файл `pg_hba.conf`:
+     ```
+     local    all      all                  	trust
+     host     all      all     0.0.0.0/0  	trust
+     ```
+
+   * Перезапускаем службу PostgreSQL.
+
+
+Проверяем статус работы службы:
+
+![](<../.gitbook/assets1/orch-install-nginxserver-17.png>)
+
+Установка и настройка сервера БД завершена.
+
+Создаем папку **docs** на рабочем столе и копируем туда следующую документацию из комплекта поставки:
+
 ![](<../.gitbook/assets1/orch-install-nginxserver-18.png>)
 
+
+## Шаг 3. Установка RabbitMQ 
+
+> (Руководство по установке RabbitMQ под Windows 2016 Server) (подробнее в Руководство по установке RabbitMQ под Windows 2016 Server.docx)
+
+Разрешаем localhost в файле `C:\Windows\System32\drivers\etc\hosts`. 
+
 ![](<../.gitbook/assets1/orch-install-nginxserver-19.png>)
+
 
 ![](<../.gitbook/assets1/orch-install-nginxserver-20.png>)
 
