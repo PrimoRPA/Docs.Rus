@@ -1,6 +1,6 @@
 # Установка Оркестратора на веб-сервер IIS
 
-Выбранная конфигурация:
+Конфигурация:
 -	Windows Server 2019
 -	Internet Information Services (IIS)
 -	PostgreSQL
