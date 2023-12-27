@@ -193,7 +193,7 @@ CREATE DATABASE ltoolslicense WITH OWNER orch_user;
 
 
 
-## Шаг 4. Установка и запуск служб MachineInfo и Notifications
+## Шаг 4. Установка и запуск служб 
 
 ### MachineInfo 
 
@@ -230,17 +230,18 @@ CREATE DATABASE ltoolslicense WITH OWNER orch_user;
 
 5. Открываем порт **5051** на файерволе.
 
-6. Если используется один сервер с MachineInfo, в конфигурационном файле службы WebApi прописывается ссылка на него:
+6. Если используется один сервер с MachineInfo, в конфигурационном файле службы WebApi прописываем ссылку на него.
+
+   Параметр **Timeout** (по умолчанию 4 сек.) – это время ответа, после которого сервис считается недоступным.
 
 ![](<../.gitbook/assets1/orch-install-nginxserver-23.png>)
-
-Параметр **Timeout** (по умолчанию 4 сек.) – это время ответа, после которого сервис считается недоступным.
 
 7. Если используется кластер MachineInfo, или MachineInfo используется в гео-кластере, в конфигурационном файле службы WebApi прописываются ссылки на все узлы кластера:
 
 ![](<../.gitbook/assets1/orch-install-nginxserver-24.png>)
 
-Порядок узлов имеет значение. В момент генерации запроса на лицензию должны быть доступны все узлы. Узлы нельзя скрывать за лоадбалансером!
+Порядок узлов имеет значение. В момент генерации запроса на лицензию должны быть доступны все узлы. Узлы нельзя скрывать за балансировщиком нагрузки (load balancer)!
+
 
 ### Notifications 
 
@@ -249,7 +250,7 @@ CREATE DATABASE ltoolslicense WITH OWNER orch_user;
 1. Разархивируем `C:\Install\Notifications.zip` в папку `C:\Primo\Notifications`.
 
 2. Редактируем конфиг Notifications - файл `C:\Primo\Notifications\appsettings.ProdWin.json`:
-   * Правим секцию **Email**, отвечающую за SMTP-сервер, с которого будет происходить рассылка:
+   * Правим секцию **Email**, отвечающую за SMTP-сервер, с которого будет происходить рассылка.
 
 ![](<../.gitbook/assets1/orch-install-nginxserver-25.png>)
 
@@ -258,13 +259,13 @@ CREATE DATABASE ltoolslicense WITH OWNER orch_user;
 ```
 > [Environment]::GetEnvironmentVariable('DOTNET_ENVIRONMENT', 'Machine')
 ```
-4. Создаем системную переменную окружения DOTNET_ENVIRONMENT, если она не создана ранее. Для этого в PowerShell выполняем команду:
+4. Если системная переменная окружения DOTNET_ENVIRONMENT не была создана, то создаем ее. Для этого в PowerShell выполняем команду:
 
 ```
 > [System.Environment]::SetEnvironmentVariable('DOTNET_ENVIRONMENT', 'ProdWin', [System.EnvironmentVariableTarget]::Machine)
 ```
 
-5. Регистрируем `Primo.Orchestrator.Notifications.exe` как службу Windows и сразу запускаем её. Служба должна работать как сетевая служба. Для этого в PoweShell последовательно выполняем команды:
+5. Регистрируем `Primo.Orchestrator.Notifications.exe` как службу Windows и сразу запускаем её. Она должна работать как сетевая служба. Для этого в PoweShell последовательно выполняем команды:
 
 ```
 > New-Service -Name Primo.Orchestrator.Notifications -BinaryPathName "C:\Primo\Notifications\Primo.Orchestrator.Notifications.exe" -Description "Primo.Orchestrator.Notifications" -DisplayName "Primo.Orchestrator.Notifications" -StartupType Automatic 
@@ -272,33 +273,48 @@ CREATE DATABASE ltoolslicense WITH OWNER orch_user;
 > $s.Start()
 ```
 
-6. После чего созданная служба Primo.Orchestrator.Notifications будет отображаться в списке всех служб как запущенная.
+6. После чего созданная служба **Primo.Orchestrator.Notifications** будет отображаться в списке всех служб как запущенная.
 
 7. Через интерфейс Оркестратора переходим в раздел **Настройки > Пользователи**. Редактируем для пользователей параметры рассылки - указываем e-mail и типы событий:
 
 ![](<../.gitbook/assets1/orch-install-nginxserver-26.png>)
 
+
 ### RDP2 
 
-> (Руководство по установке RDP2 под Windows 2016 Server) ) (подробнее в Руководство по установке RDP2 под Windows 2016 Server.docx)
+> *Подробнее в «Руководстве по установке RDP2 под Windows 2016 Server.docx»*.
 
-Разархивируем C:\Install\RDP2.zip в C:\Primo\RDP2
-Редактируем конфиг RDP2 (C:\Primo\RDP2\appsettings.ProdWin.json):
-Меняем в секции Orchestrator конфига адрес Оркестратора и учетку пользователя, использовать только системного пользователя rdpservice:
+1. Разархивируем `C:\Install\RDP2.zip` в папку`C:\Primo\RDP2`.
+
+2. Редактируем конфигурацию RDP2 в файле `C:\Primo\RDP2\appsettings.ProdWin.json`:
+   * Меняем в секции Orchestrator адрес Оркестратора и учетку пользователя, использовать только системного пользователя rdpservice:
 
 ![](<../.gitbook/assets1/orch-install-nginxserver-27.png>)
 
 Если поменялся пароль пользователя rdpservice – меняем. Пароль предварительно шифруем программой шифрования паролей.
 При необходимости устанавливаем значение AddressFilter для фильтрации по машине Агента либо оставляем поле пустым (будут использованы все Агенты системы). 
-Настраиваем путь до файла с логом и период ротации файла с логом (по умолчанию - день).
-Проверяем, что значение системной переменной окружения DOTNET_ENVIRONMENT равно ProdWin. Для этого в PoweShell выполняем команду:
-> [Environment]::GetEnvironmentVariable('DOTNET_ENVIRONMENT', 'Machine')
-Создаем системную переменную окружения DOTNET_ENVIRONMENT, если она не создана ранее. Для этого в PowerShell выполняем команду:
-> [System.Environment]::SetEnvironmentVariable('DOTNET_ENVIRONMENT', 'ProdWin', [System.EnvironmentVariableTarget]::Machine)
-Регистрируем Primo.Orchestrator.RDP2.exe как службу Windows и сразу запускаем её. Служба должна работать как локальная служба. Для этого в PowerShell последовательно выполняем команды:
-> New-Service -Name Primo.Orchestrator.RDP2 -BinaryPathName "C:\Primo\RDP2\Primo.Orchestrator.RDP2.exe" -Description "Primo.Orchestrator.RDP2" -DisplayName "Primo.Orchestrator.RDP2" -StartupType Automatic 
-Запускаем службу. Служба должна работать под Local System account:
 
+Настраиваем путь до файла с логом и период ротации файла с логом (по умолчанию - день).
+
+Проверяем, что значение системной переменной окружения DOTNET_ENVIRONMENT равно ProdWin. Для этого в PoweShell выполняем команду:
+
+```
+> [Environment]::GetEnvironmentVariable('DOTNET_ENVIRONMENT', 'Machine')
+```
+
+Создаем системную переменную окружения DOTNET_ENVIRONMENT, если она не создана ранее. Для этого в PowerShell выполняем команду:
+
+```
+> [System.Environment]::SetEnvironmentVariable('DOTNET_ENVIRONMENT', 'ProdWin', [System.EnvironmentVariableTarget]::Machine)
+```
+
+Регистрируем Primo.Orchestrator.RDP2.exe как службу Windows и сразу запускаем её. Служба должна работать как локальная служба. Для этого в PowerShell последовательно выполняем команды:
+
+```
+> New-Service -Name Primo.Orchestrator.RDP2 -BinaryPathName "C:\Primo\RDP2\Primo.Orchestrator.RDP2.exe" -Description "Primo.Orchestrator.RDP2" -DisplayName "Primo.Orchestrator.RDP2" -StartupType Automatic
+```
+
+Запускаем службу. Служба должна работать под Local System account:
 
 ![](<../.gitbook/assets1/orch-install-nginxserver-28.png>)
 
@@ -313,27 +329,30 @@ CREATE DATABASE ltoolslicense WITH OWNER orch_user;
 ![](<../.gitbook/assets1/orch-install-nginxserver-31.png>)
 
 Параметры сессии должны быть установлены:
-Authentication Level = Attemp Authentication
-Negotiate Security Layer = True
+* Authentication Level = Attemp Authentication
+* Negotiate Security Layer = True
 
 ![](<../.gitbook/assets1/orch-install-nginxserver-32.png>)
 
 
 ### RobotLogs 
 
-> *(Руководство по установке RobotLogs как службы 
-под Windows 2016 Server) (подробнее в Руководство по установке RobotLogs как службы под Windows 2016 Server.docx)*.
+> *Подробнее в «Руководстве по установке RobotLogs как службы под Windows 2016 Server.docx»*.
 
 В версии Windows 2016 Server среда исполнения ASP .NET Core предустановлена. Поэтому сразу устанавливаем RobotLogs. 
 Сначала требуется установить RabbitMQ (см. «Руководство по установке RabbitMQ под Windows 2016 Server.docx»). 
 Разархивируем C:\Install\RobotLogs.zip в C:\Primo\RobotLogs. Можно при помощи PowerShell:
 
+```
 > $InstallPath = "C:\Install"
 > Expand-Archive -LiteralPath "$InstallPath\RobotLogs.zip" -DestinationPath "C:\Primo\RobotLogs " -Force
+```
 
 Создаем системную переменную окружения (если не создана ранее). Для этого в PoweShell выполняем команду:
 
+```
 > [System.Environment]::SetEnvironmentVariable('ASPNETCORE_ENVIRONMENT', 'ProdWin', [System.EnvironmentVariableTarget]::Machine)
+```
 
 Настраиваем конфигурационный файл:
 * Настраиваем строки подключения в БД:
@@ -368,12 +387,16 @@ Negotiate Security Layer = True
 
 Регистрируем Primo.Orchestrator.RobotLogs.exe как службу Windows и сразу запускаем её. Служба должна работать как локальная служба. Для этого в PowerShell последовательно выполняем команды:
 
+```
 > New-Service -Name Primo.Orchestrator.RobotLogs -BinaryPathName "C:\Primo\RobotLogs\Primo.Orchestrator.RobotLogs.exe" -Description "Primo.Orchestrator.RobotLogs" -DisplayName "Primo.Orchestrator.RobotLogs" -StartupType Automatic 
 > $s = Get-Service "Primo.Orchestrator.RobotLogs"
 > $s.Start()
+```
 
 После чего созданная служба Primo.Orchestrator.RobotLogs будет отображаться в списке всех служб как запущенная.
+
 Открываем порт 56748 на файерволе (если служба RobotLogs не на одном сервере с nginx для WebApi).
+
 Проверяем, что в конфиге nginx настроено проксирование на RobotLogs\*:
 
 >\**Или аналогично настроено в IIS для узла UI, если используется IIS.*
@@ -393,73 +416,74 @@ Negotiate Security Layer = True
 В настоящее время не поддерживается. Зарезервирован для дальнейшей оптимизации приема логов от роботов.
 
 Тонкая настройка производительности приема логов настраивается в секции InputBufferRobotLogs:
-
-MaxQueueLength – максимальный размер входного буфера приема логов от робота. Чем выше, тем больший размер пачек логов робот без потерь может слать в Оркестратор.
-
-MaxBatchSize – максимальный размер пачки за один раз сбрасываемый сервисом в БД ltoolslogs. Чем выше, тем меньше обращений в БД потребуется, но тем большее количество данных за один раз должно быть передано.
-
-ThreadSleep – время (мсек) опроса входного буфера.
+* **MaxQueueLength** – максимальный размер входного буфера приема логов от робота. Чем выше, тем больший размер пачек логов робот без потерь может слать в Оркестратор.
+* **MaxBatchSize** – максимальный размер пачки за один раз сбрасываемый сервисом в БД ltoolslogs. Чем выше, тем меньше обращений в БД потребуется, но тем большее количество данных за один раз должно быть передано.
+* **ThreadSleep** – время (мс) опроса входного буфера.
 
 
 ### States 
 
-> *Подробнее в Руководстве по установке States под Windows 2016 Server.docx*.
+> *Подробнее в «Руководстве по установке States под Windows 2016 Server.docx»*.
 
-1.Разархивируем C:\Install\States.zip в C:\Primo\States
+1. Разархивируем `C:\Install\States.zip` в папку `C:\Primo\States`.
 
-2. Редактируем конфиг States (C:\Primo\States\appsettings.ProdWin.json):
+2. Редактируем конфиг States - файл `C:\Primo\States\appsettings.ProdWin.json`:
+   * Меняем в секции ConnectionStrings **HOST** для всех строк подключения к БД на реальный IP серверов БД.\
+     Тут:
 
-3. Меняем в секции ConnectionStrings конфига appsettings.ProdWin.json HOST для всех строк подключения к БД на реальный IP серверов БД:
-тут:
+   ![](<../.gitbook/assets1/orch-install-nginxserver-42.png>)
 
-![](<../.gitbook/assets1/orch-install-nginxserver-42.png>)
+   Меняем это:
 
-4. Меняем это:
+   ![](<../.gitbook/assets1/orch-install-nginxserver-43.png>)
 
-![](<../.gitbook/assets1/orch-install-nginxserver-43.png>)
+   Если поменялся пользователь/пароль БД – их тоже меняем.
 
-Если поменялся пользователь/пароль БД – их тоже меняем.
+   Проверяем, что значение системной переменной окружения DOTNET_ENVIRONMENT равно ProdWin. Для этого в PoweShell выполняем команду:
 
-Проверяем, что значение системной переменной окружения DOTNET_ENVIRONMENT равно ProdWin. Для этого в PoweShell выполняем команду:
-
+```
 > [Environment]::GetEnvironmentVariable('DOTNET_ENVIRONMENT', 'Machine')
+```
 
 Создаем системную переменную окружения DOTNET_ENVIRONMENT, если она не создана ранее. Для этого в PowerShell выполняем команду:
 
+```
 > [System.Environment]::SetEnvironmentVariable('DOTNET_ENVIRONMENT', 'ProdWin', [System.EnvironmentVariableTarget]::Machine)
+```
 
-Регистрируем Primo.Orchestrator.States.exe как службу Windows и сразу запускаем её. Служба должна работать как сетевая служба. Для этого в PowerShell последовательно выполняем команды:
+Регистрируем `Primo.Orchestrator.States.exe` как службу Windows и сразу запускаем её. Служба должна работать как сетевая служба. Для этого в PowerShell последовательно выполняем команды:
 
+```
 > New-Service -Name Primo.Orchestrator.States -BinaryPathName "C:\Primo\States\Primo.Orchestrator.States.exe" -Description "Primo.Orchestrator.States" -DisplayName "Primo.Orchestrator.States " -StartupType Automatic 
 > $s = Get-Service "Primo.Orchestrator.States"
 > $s.Start()
+```
 
-После чего созданная служба Primo.Orchestrator.States будет отображаться в списке всех служб как запущенная.
-
+После чего созданная служба **Primo.Orchestrator.States** будет отображаться в списке всех служб как запущенная.
 
 
 ### WebApi 
 
-> *П (Руководство по установке WebApi как службы 
-под Windows 2016 Server) (подробнее в Руководство по установке WebApi как службы под Windows 2016 Server.docx)
+> *Подробнее в «Руководстве по установке WebApi как службы под Windows 2016 Server.docx»*.
 
 В версии Windows 2016 Server среда исполнения ASP .NET Core предустановлена. Поэтому сразу устанавливаем WebApi. 
 
-Разархивируем C:\Install\WebApi.zip в C:\Primo\WebApi. Можно при помощи PowerShell:
+1. Разархивируем `C:\Install\WebApi.zip` в `C:\Primo\WebApi`. Можно при помощи PowerShell:
 
+```
 > Expand-Archive -LiteralPath "$InstallPath\WebApi.zip" -DestinationPath 'C:\Primo\WebApi' -Force
+```
 
-Редактируем конфиг WebApi (C:\Primo\WebApi\appsettings.ProdWin.json):
-
-Меняем на реальный (который у вашего сервера, см. nginx.config «Руководство по установке Nginx под Windows 2016 Server.docx») IP:
+2. Редактируем конфигурацию WebApi в файле `C:\Primo\WebApi\appsettings.ProdWin.json`:
+   * Меняем на реальный IP (который у вашего сервера, см. nginx.config «Руководство по установке Nginx под Windows 2016 Server.docx»):
 
 ![](<../.gitbook/assets1/orch-install-nginxserver-44.png>)
 
-Создаем папку для публикации дистрибутивов Робота, например, C:\tmp, и указываем её в конфиге appsettings.ProdWin.json:
+3. Создаем папку для публикации дистрибутивов робота, например, `C:\tmp`, и указываем её в конфиге `appsettings.ProdWin.json`:
 
 ![](<../.gitbook/assets1/orch-install-nginxserver-45.png>)
 
-Меняем в секции ConnectionStrings конфига appsettings.ProdWin.json HOST для всех строк подключения к БД на реальный IP серверов БД:
+4. Меняем в секции ConnectionStrings конфига appsettings.ProdWin.json **HOST** для всех строк подключения к БД на реальный IP серверов БД:
 
 Тут (для PostgreSQL)
 
@@ -477,55 +501,65 @@ ThreadSleep – время (мсек) опроса входного буфера
 
 ![](<../.gitbook/assets1/orch-install-nginxserver-49.png>)
 
-Если для работы лицензий используется сервис получения параметров оборудования, то настраиваем WebApi на работу с этим сервисом – вводим адрес этого сервиса:
+5. Если для работы лицензий используется сервис получения параметров оборудования, то настраиваем WebApi на работу с этим сервисом – вводим адрес этого сервиса:
 
 ![](<../.gitbook/assets1/orch-install-nginxserver-50.png>)
 
-Если поменялся пользователь/пароль БД – их тоже меняем.
+6. Если поменялся пользователь/пароль БД – их тоже меняем.
 
-Создаем системную переменную окружения. Для этого в PoweShell выполняем команду:
+7. Создаем системную переменную окружения. Для этого в PoweShell выполняем команду:
 
+```
 > [System.Environment]::SetEnvironmentVariable('ASPNETCORE_ENVIRONMENT', 'ProdWin', [System.EnvironmentVariableTarget]::Machine)
+```
 
-Регистрируем Primo.Orchestrator.WebApi.exe как службу Windows и сразу запускаем её. Служба должна работать как локальная служба. Для этого в PowerShell последовательно выполняем команды:
+8. Регистрируем `Primo.Orchestrator.WebApi.exe` как службу Windows и сразу запускаем её. Она должна работать как локальная служба. Для этого в PowerShell последовательно выполняем команды:
 
+```
 > New-Service -Name Primo.Orchestrator.WebApi -BinaryPathName "C:\Primo\WebApi\Primo.Orchestrator.WebApi.exe" -Description "Primo.Orchestrator.WebApi" -DisplayName "Primo.Orchestrator.WebApi" -StartupType Automatic 
 > $s = Get-Service "Primo.Orchestrator.WebApi"
 > $s.Start()
+```
 
-После чего созданная служба Primo.Orchestrator.WebApi будет отображаться в списке всех служб как запущенная:
+9. После чего созданная служба **Primo.Orchestrator.WebApi** будет отображаться в списке всех служб как запущенная:
 
 ![](<../.gitbook/assets1/orch-install-nginxserver-51.png>)
 
-Служба может не запуститься. Наиболее вероятная причина – это не верный коннекшнстринг (пароль) в appsettings.ProdWin.json и/или не развернута/не настроена какая-либо из 4-х БД Оркестратора.
+Служба может не запуститься. Наиболее вероятная причина – это неверный коннекшнстринг (пароль) в `appsettings.ProdWin.json`, или не развернута/не настроена какая-либо из четырех БД Оркестратора.
 
-При обновлении службы WebApi может потребоваться дополнительная настройка для RabbitMQ. Для выполнения настройки необходимо перед стартом службы WebApi запустить скрипт из комплекта поставки: deletequeues.bat – для RabbitMQ, запущенном на ОС Windows и deletequeues.sh – для RabbitMQ, запущеном на ОС Linux. Скрипты необходимо запустить на сервере, на котором запущен RabbitMQ.
+При обновлении службы WebApi может потребоваться дополнительная настройка для RabbitMQ. Для выполнения настройки необходимо перед стартом службы WebApi запустить скрипт из комплекта поставки: 
+* `deletequeues.bat` – для RabbitMQ, запущенном на ОС Windows;
+* `deletequeues.sh` – для RabbitMQ, запущеном на ОС Linux.
 
-После установки всех вышеперечисленных служб, они должны появиться в диспетчере служб Windows:
+Скрипты необходимо запустить на сервере, на котором запущен RabbitMQ.
+
+После установки всех перечисленных служб, они должны появиться в диспетчере служб Windows:
 
 ![](<../.gitbook/assets1/orch-install-nginxserver-52.png>)
 
 
 ### Шаг 5. Установка Nginx как службы Windows
 
-> (Руководство по установке Nginx в качестве службы под Windows 2016 Server) (подробнее в Руководство по установке Nginx в качестве службы под Windows 2016 Server.docx)
+> *Подробнее в «Руководстве по установке Nginx в качестве службы под Windows 2016 Server.docx»*.
 
 Для того чтобы установить Nginx в качестве службы необходимо:  
 
-1.	Разархивировать файл nginx-service.zip, который идет в комплекте поставки в директорию C:\Primo\nginx-1.21.1 (версия nginx может измениться):
+1.	Разархивировать файл `nginx-service.zip`, который идет в комплекте поставки в директорию `C:\Primo\nginx-1.21.1` (версия nginx может измениться).
 
 ![](<../.gitbook/assets1/orch-install-nginxserver-53.png>)
 
-2.	Щелкнуть правой кнопкой мыши по пустому простанству и  открываем PowerShell от имени Администратора:
+2.	Щелкнуть правой кнопкой мыши по пустому простанству и открыть PowerShell от имени Администратора:
 
 ![](<../.gitbook/assets1/orch-install-nginxserver-54.png>)
 
-3. Ввести комманду и щелкнуть Ввод на клавиатуре: 
-.\nginx-service.exe install 
+3. Использовать комманду:
+```
+.\nginx-service.exe install
+```
 
 ![](<../.gitbook/assets1/orch-install-nginxserver-55.png>)
 
-4.	После того как служба успешно установлена, запускать либо останавливать службу можно либо из Управление сервером > Службы.
+4.	После того как служба успешно установлена, запускать либо останавливать службу можно либо из **Управление сервером > Службы**.
 
 ![](<../.gitbook/assets1/orch-install-nginxserver-56.png>)
 
@@ -538,17 +572,19 @@ ThreadSleep – время (мсек) опроса входного буфера
 
 ![](<../.gitbook/assets1/orch-install-nginxserver-57.png>)
 
+
 ### Шаг 6. Установка UI на Nginx 
 
-(Руководство по установке UI на nginx под Windows 2016 Server) (подробнее в Руководство по установке UI на nginx под Windows 2016 Server.docx)
+> *Подробнее в «Руководстве по установке UI на nginx под Windows 2016 Server.docx»*.
 
-Для варианта реализации Front на основе nginx копируем содержимое папки UI из C:\install\UI.zip в C:\Primo\nginx-1.21.1\html
+Для варианта реализации Front на основе nginx копируем содержимое папки UI из `C:\install\UI.zip` в `C:\Primo\nginx-1.21.1\html`.
 
-После этих шагов перезагружаем сервер.
+**После этих шагов перезагружаем сервер.**
+
 
 ### Шаг 7. Проверка работы служб и Оркестратора
 
-Заходим в список служб и проверяем чтобы все, ранее установленные службы были запущены:
+Заходим в список служб и проверяем, чтобы все ранее установленные службы были запущены:
 
 ![](<../.gitbook/assets1/orch-install-nginxserver-58.png>)
 
@@ -565,11 +601,10 @@ ThreadSleep – время (мсек) опроса входного буфера
 
 Если какая-то из служб остановлена, то запускаем ее вручную.
 
-Все службы запущены и работают, переходим по адресу:
+Когда все службы запущены и работают, переходим по адресу: https://localhost:44392/
 
-https://localhost:44392/
-Логин: admin
-Пароль: Qwe123!@#
+Логин: admin\
+Пароль: Qwe123!@#\
 
 На этом установка и базовая настройка завершена.
 
