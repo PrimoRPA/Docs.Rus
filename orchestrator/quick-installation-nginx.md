@@ -249,7 +249,7 @@ CREATE DATABASE ltoolslicense WITH OWNER orch_user;
 
 1. Разархивируем `C:\Install\Notifications.zip` в папку `C:\Primo\Notifications`.
 
-2. Редактируем конфиг Notifications - файл `C:\Primo\Notifications\appsettings.ProdWin.json`:
+2. Редактируем конфигурацию Notifications в файле `C:\Primo\Notifications\appsettings.ProdWin.json`:
    * Правим секцию **Email**, отвечающую за SMTP-сервер, с которого будет происходить рассылка.
 
 ![](<../.gitbook/assets1/orch-install-nginxserver-25.png>)
@@ -287,48 +287,48 @@ CREATE DATABASE ltoolslicense WITH OWNER orch_user;
 1. Разархивируем `C:\Install\RDP2.zip` в папку`C:\Primo\RDP2`.
 
 2. Редактируем конфигурацию RDP2 в файле `C:\Primo\RDP2\appsettings.ProdWin.json`:
-   * Меняем в секции Orchestrator адрес Оркестратора и учетку пользователя, использовать только системного пользователя rdpservice:
+   * Меняем в секции **Orchestrator** адрес Оркестратора и учетку пользователя, можно использовать только системного пользователя rdpservice:
 
-![](<../.gitbook/assets1/orch-install-nginxserver-27.png>)
+   ![](<../.gitbook/assets1/orch-install-nginxserver-27.png>)
 
-Если поменялся пароль пользователя rdpservice – меняем. Пароль предварительно шифруем программой шифрования паролей.
-При необходимости устанавливаем значение AddressFilter для фильтрации по машине Агента либо оставляем поле пустым (будут использованы все Агенты системы). 
+   * Если поменялся пароль пользователя **rdpservice** – меняем. Пароль предварительно шифруем программой шифрования паролей.
+   * При необходимости устанавливаем значение **AddressFilter** для фильтрации по машине Агента либо оставляем поле пустым (будут использованы все Агенты системы).
 
-Настраиваем путь до файла с логом и период ротации файла с логом (по умолчанию - день).
+3. Настраиваем путь до файла с логом и период ротации файла с логом (по умолчанию - день).
 
-Проверяем, что значение системной переменной окружения DOTNET_ENVIRONMENT равно ProdWin. Для этого в PoweShell выполняем команду:
+4. Проверяем, что значение системной переменной окружения DOTNET_ENVIRONMENT равно ProdWin. Для этого в PoweShell выполняем команду:
 
 ```
 > [Environment]::GetEnvironmentVariable('DOTNET_ENVIRONMENT', 'Machine')
 ```
 
-Создаем системную переменную окружения DOTNET_ENVIRONMENT, если она не создана ранее. Для этого в PowerShell выполняем команду:
+5. Создаем системную переменную окружения DOTNET_ENVIRONMENT, если она не создана ранее. Для этого в PowerShell выполняем команду:
 
 ```
 > [System.Environment]::SetEnvironmentVariable('DOTNET_ENVIRONMENT', 'ProdWin', [System.EnvironmentVariableTarget]::Machine)
 ```
 
-Регистрируем Primo.Orchestrator.RDP2.exe как службу Windows и сразу запускаем её. Служба должна работать как локальная служба. Для этого в PowerShell последовательно выполняем команды:
+6. Регистрируем `Primo.Orchestrator.RDP2.exe` как службу Windows и сразу запускаем её. Она должна работать как локальная служба. Для этого в PowerShell последовательно выполняем команды:
 
 ```
 > New-Service -Name Primo.Orchestrator.RDP2 -BinaryPathName "C:\Primo\RDP2\Primo.Orchestrator.RDP2.exe" -Description "Primo.Orchestrator.RDP2" -DisplayName "Primo.Orchestrator.RDP2" -StartupType Automatic
 ```
 
-Запускаем службу. Служба должна работать под Local System account:
+7. Запускаем службу. Служба должна работать под Local System account:
 
 ![](<../.gitbook/assets1/orch-install-nginxserver-28.png>)
 
 ![](<../.gitbook/assets1/orch-install-nginxserver-29.png>)
 
-Переходим на вкладку «Восстановление» (Recovery) и проверяем, что действия при сбое установлены:
+8. Переходим на вкладку **Восстановление** (Recovery) и проверяем, что действия при сбое установлены:
 
 ![](<../.gitbook/assets1/orch-install-nginxserver-30.png>)
 
-Проверяем, что RDP-сессия устанавливается корректно:
+9. Проверяем через интерфейс Оркестратора, что RDP-сессия устанавливается корректно:
 
 ![](<../.gitbook/assets1/orch-install-nginxserver-31.png>)
 
-Параметры сессии должны быть установлены:
+10. Параметры сессии должны быть установлены следующим образом:
 * Authentication Level = Attemp Authentication
 * Negotiate Security Layer = True
 
