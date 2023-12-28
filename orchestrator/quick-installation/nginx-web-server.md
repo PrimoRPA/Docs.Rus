@@ -30,9 +30,9 @@
 
 > *Подробнее в «Руководстве по предварительной настройке машины Оркестратора под Windows 2016 Server.docx».*
 
-1. Создаем папку `distrib` на рабочем столе.
-2. Создаем папку `C:\Primo`.
-3. Копируем в папку `distrib` нужные дистрибутивы:
+1. Создаем папку `C:\Primo`.
+2. Создаем папку `C:\Install`.
+3. Копируем в папку `C:\Install` нужные дистрибутивы:
 
 ![](<../../.gitbook/assets1/orch-install-nginxserver-3.png>)
 
@@ -160,11 +160,11 @@
 
 ![](<../../.gitbook/assets1/orch-install-nginxserver-between18and19.png>)
 
-2. Разархивируем папку `rabbitmq.zip` в туже папку `C:\Install\rabbitmq`.
+2. Разархивируем `rabbitmq.zip` в ту же папку `C:\Install\rabbitmq`.
 
-3. Сначала устанавливаем Erlang (otp_win64_23.2.exe), все параметры по умолчанию.
+3. Сначала устанавливаем Erlang (otp_win64_23.2.exe), все параметры оставляем по умолчанию.
 
-4. Затем устанавливаем сам RabbitMQ (rabbitmq-server-3.8.11.exe), все параметры по умолчанию. 
+4. Затем устанавливаем сам RabbitMQ (rabbitmq-server-3.8.11.exe), все параметры оставляем по умолчанию. 
 
 5. Производим первоначальное конфигурирование RabbitMQ:
 
@@ -198,7 +198,7 @@
 
 В версии Windows 2016 Server среда исполнения ASP .NET Core предустановлена. Поэтому сразу устанавливаем MachineInfo. 
 
-1. Разархивируем `C:\Install\MachineInfo.zip` в папку `C:\Primo\MachineInfo`. Можно при помощи PowerShell:
+1. Разархивируем `C:\Install\MachineInfo.zip` в папку `C:\Primo\MachineInfo`. Можно при помощи команды в PowerShell:
 
 ```
 > $InstallPath = "C:\Install"
