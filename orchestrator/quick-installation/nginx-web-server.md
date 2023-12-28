@@ -51,8 +51,8 @@
 > *Подробнее в «Руководстве по установке PostgreSQL под Windows 2016 Server.docx»*.
 
 Устанавливаем PostgreSQL Server:
-1.	Распаковываем архив `postgresql-13.4-1-windows.zip` в папку `C:\Install`.\
-2.	Кликаем по файлу `C:\Install\postgresql-13.4-1-windows-x64.exe`.\
+1.	Распаковываем архив `postgresql-13.4-1-windows.zip` в папку `C:\Install`.
+2.	Кликаем по файлу `C:\Install\postgresql-13.4-1-windows-x64.exe`.
 3.	Выбираем **Да** в появившемся окне:
 
    ![](<../../.gitbook/assets1/orch-install-nginxserver-5.png>)
