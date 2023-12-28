@@ -2,7 +2,6 @@
 
 * [Primo RPA](README.md)
 * [Лицензии](licenses.md)
-* [Полезные ресурсы](useful-links.md)
 * [Что нового](release-notes/README.md)
   * [Студия](release-notes/studio/README.md)
     * [Студия 23.11](release-notes/studio/studio-23.11.md)
@@ -29,6 +28,7 @@
     * [Оркестратор 2.2.20](release-notes/orch/2.2.20.md)
     * [Оркестратор 2.2.16](release-notes/orch/2.2.16.0.md)
     * [Оркестратор 2.2.15](release-notes/orch/2.2.15.0.md)
+* [Полезные ресурсы](useful-links.md)
 
 ## Primo Studio
 
@@ -762,9 +762,10 @@
 
 * [Описание](orchestrator/intro.md)
 * [Системные требования](orchestrator/systemreq.md)
+* [Компоненты системы](orchestrator/system-components.md)
 * [Развертывание](orchestrator/deployment/README.md)
-  * [Компоненты системы](orchestrator/deployment/system-components.md)
   * [Комплект поставки](orchestrator/deployment/kit.md)
+  * [Рекомендации по развертыванию](orchestrator/deployment/recommendations.md)
   * [Варианты развертывания компонентов](orchestrator/deployment/component-deployment-options.md)
   * [Развертывание сервера приложений](orchestrator/deployment/deploy-options.md)
   * [Порядок установки компонентов](orchestrator/deployment/install-orch.md)
@@ -801,10 +802,10 @@
     * [Предварительная настройка машины Оркестратора](orchestrator/setting-up-machines/linux/presetting-orch-machine.md)
     * [Настройка машины робота на CentOS 8](orchestrator/setting-up-machines/linux/robotmachine/README.md)
     * [Установка Агента Оркестратора](orchestrator/setting-up-machines/linux/robotmachine/agentinstall.md)
-* [Инфраструктура](orchestrator/ports.md)
 * [Варианты установки](orchestrator/quick-installation/README.md)
   * [Установка Оркестратора на веб-сервер IIS](orchestrator/quick-installation/IIS-web-server.md)
   * [Установка Оркестратора на веб-сервер Nginx](orchestrator/quick-installation/nginx-web-server.md)
+* [Инфраструктура](orchestrator/ports.md)
 * [Администраторам](orchestrator/settings/README.md)
   * [Управление лицензиями](orchestrator/settings/licensing/README.md)
     * [Получить лицензию](orchestrator/settings/licensing/new-license.md)
