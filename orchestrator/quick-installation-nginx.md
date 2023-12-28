@@ -340,52 +340,53 @@ CREATE DATABASE ltoolslicense WITH OWNER orch_user;
 > *Подробнее в «Руководстве по установке RobotLogs как службы под Windows 2016 Server.docx»*.
 
 В версии Windows 2016 Server среда исполнения ASP .NET Core предустановлена. Поэтому сразу устанавливаем RobotLogs. 
-Сначала требуется установить RabbitMQ (см. «Руководство по установке RabbitMQ под Windows 2016 Server.docx»). 
-Разархивируем C:\Install\RobotLogs.zip в C:\Primo\RobotLogs. Можно при помощи PowerShell:
+
+1. Сначала требуется установить RabbitMQ (см. «Руководство по установке RabbitMQ под Windows 2016 Server.docx»). 
+2. Разархивируем `C:\Install\RobotLogs.zip` в папку `C:\Primo\RobotLogs`. Можно при помощи команды в PowerShell:
 
 ```
 > $InstallPath = "C:\Install"
 > Expand-Archive -LiteralPath "$InstallPath\RobotLogs.zip" -DestinationPath "C:\Primo\RobotLogs " -Force
 ```
 
-Создаем системную переменную окружения (если не создана ранее). Для этого в PoweShell выполняем команду:
+3. Создаем системную переменную окружения, если не создана ранее. Для этого в PoweShell выполняем команду:
 
 ```
 > [System.Environment]::SetEnvironmentVariable('ASPNETCORE_ENVIRONMENT', 'ProdWin', [System.EnvironmentVariableTarget]::Machine)
 ```
 
-Настраиваем конфигурационный файл:
-* Настраиваем строки подключения в БД:
+4. Настраиваем конфигурационный файл:
+   * Настраиваем строки подключения в БД:
 
-![](<../.gitbook/assets1/orch-install-nginxserver-33.png>)
+   ![](<../.gitbook/assets1/orch-install-nginxserver-33.png>)
 
-Настраиваем UserName и Password сервера RabbitMQ, который используется для обработки логов со скринами рабочего стола:
+   * Настраиваем **UserName** и **Password** сервера RabbitMQ, который используется для обработки логов со скринами рабочего стола:
 
-![](<../.gitbook/assets1/orch-install-nginxserver-34.png>)
+   ![](<../.gitbook/assets1/orch-install-nginxserver-34.png>)
 
-Настраиваем Host, UserName и Password сервера RabbitMQ, который используется для интеграции с Оркестратором:
+   * Настраиваем **Host**, **UserName** и **Password** сервера RabbitMQ, который используется для интеграции с Оркестратором:
 
-![](<../.gitbook/assets1/orch-install-nginxserver-35.png>)
+   ![](<../.gitbook/assets1/orch-install-nginxserver-35.png>)
 
-Открываем порт 5672 на файерволе сервера RabbitMQ, который используется для интеграции с Оркестратором. 
+   * Открываем порт `5672` на файерволе сервера RabbitMQ, который используется для интеграции с Оркестратором. 
 
-Сервер RabbitMQ, который используется для интеграции с Оркестратором, общий для очередей Primo.Orchestrator.RobotLogs и Primo.Orchestrator.WebApi. Поэтому требуется соблюдать соответствие названий очередей и обменников.
+   * Сервер RabbitMQ, который используется для интеграции с Оркестратором, общий для очередей Primo.Orchestrator.RobotLogs и Primo.Orchestrator.WebApi. Поэтому требуется соблюдать соответствие названий очередей и обменников.
 
-Настраиваем URL-оркестратора (при необходимости, можно поменять пароль встроенной системной записи Orchestrator – одновременно через UI Оркестратора и в этой секции конфига):
+   * Настраиваем URL Оркестратора. При необходимости, можно поменять пароль встроенной системной записи Orchestrator – одновременно через UI Оркестратора и в этой секции конфига:
 
-![](<../.gitbook/assets1/orch-install-nginxserver-36.png>)
+   ![](<../.gitbook/assets1/orch-install-nginxserver-36.png>)
 
-Настраиваем ScreenFilePath – путь до файлов со скринами рабочего стола, которые собираются с машины робота:
+   * Настраиваем **ScreenFilePath** – путь до файлов со скринами рабочего стола, которые собираются с машины робота:
 
-![](<../.gitbook/assets1/orch-install-nginxserver-37.png>)
+   ![](<../.gitbook/assets1/orch-install-nginxserver-37.png>)
 
-Папка по этому пути должна быть создана заранее и на неё должны быть настроены права на чтение и запись для всех.
+   Папка по этому пути должна быть создана заранее и на неё должны быть настроены права на чтение и запись для всех.
 
-Настраиваем в соответствии с конфигом WebApi список тенантов:
+   * Настраиваем в соответствии с конфигурационным файлом WebApi список тенантов:
 
-![](<../.gitbook/assets1/orch-install-nginxserver-38.png>)
+   ![](<../.gitbook/assets1/orch-install-nginxserver-38.png>)
 
-Регистрируем Primo.Orchestrator.RobotLogs.exe как службу Windows и сразу запускаем её. Служба должна работать как локальная служба. Для этого в PowerShell последовательно выполняем команды:
+5. Регистрируем `Primo.Orchestrator.RobotLogs.exe` как службу Windows и сразу запускаем её. Она должна работать как локальная служба. Для этого в PowerShell последовательно выполняем команды:
 
 ```
 > New-Service -Name Primo.Orchestrator.RobotLogs -BinaryPathName "C:\Primo\RobotLogs\Primo.Orchestrator.RobotLogs.exe" -Description "Primo.Orchestrator.RobotLogs" -DisplayName "Primo.Orchestrator.RobotLogs" -StartupType Automatic 
@@ -393,11 +394,11 @@ CREATE DATABASE ltoolslicense WITH OWNER orch_user;
 > $s.Start()
 ```
 
-После чего созданная служба Primo.Orchestrator.RobotLogs будет отображаться в списке всех служб как запущенная.
+6. После чего созданная служба **Primo.Orchestrator.RobotLogs** отобразится в списке всех служб как запущенная.
 
-Открываем порт 56748 на файерволе (если служба RobotLogs не на одном сервере с nginx для WebApi).
+7. Открываем порт `56748` на файерволе, если служба RobotLogs не на одном сервере с Nginx для WebApi.
 
-Проверяем, что в конфиге nginx настроено проксирование на RobotLogs\*:
+8. Проверяем, что в конфиге Nginx настроено проксирование на RobotLogs\*:
 
 >\**Или аналогично настроено в IIS для узла UI, если используется IIS.*
 
@@ -405,17 +406,17 @@ CREATE DATABASE ltoolslicense WITH OWNER orch_user;
 
 ![](<../.gitbook/assets1/orch-install-nginxserver-39-2.png>)
 
-В конфиге Primo.Orchestrator.WebApi переключаем прием логов на сервис RobotLogs и перезапускаем Primo.Orchestrator.WebApi:
+9. В конфигурационном файле **Primo.Orchestrator.WebApi** переключаем прием логов на сервис RobotLogs и перезапускаем **Primo.Orchestrator.WebApi**:
 
 ![](<../.gitbook/assets1/orch-install-nginxserver-40.png>)
 
-Если запросы в RobotLogs проксируются через отдельный от WebApi эндпоинт, нужно указать в конфиге Primo.Orchestrator.WebApi этот эндпоинт в RobotLogsBaseUrl:
+10. Если запросы в RobotLogs проксируются через отдельный от WebApi эндпоинт, нужно указать в конфиг-файле **Primo.Orchestrator.WebApi** этот эндпоинт в RobotLogsBaseUrl:
 
 ![](<../.gitbook/assets1/orch-install-nginxserver-41.png>)
 
 В настоящее время не поддерживается. Зарезервирован для дальнейшей оптимизации приема логов от роботов.
 
-Тонкая настройка производительности приема логов настраивается в секции InputBufferRobotLogs:
+Тонкая настройка производительности приема логов настраивается в секции **InputBufferRobotLogs**:
 * **MaxQueueLength** – максимальный размер входного буфера приема логов от робота. Чем выше, тем больший размер пачек логов робот без потерь может слать в Оркестратор.
 * **MaxBatchSize** – максимальный размер пачки за один раз сбрасываемый сервисом в БД ltoolslogs. Чем выше, тем меньше обращений в БД потребуется, но тем большее количество данных за один раз должно быть передано.
 * **ThreadSleep** – время (мс) опроса входного буфера.
