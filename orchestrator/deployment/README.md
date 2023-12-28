@@ -35,9 +35,10 @@
 
 ## Содержание 
 В руководство по развертыванию входят разделы:
-1. [Компоненты системы](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/system-components).
+1. [Компоненты системы](https://docs.primo-rpa.ru/primo-rpa/orchestrator/system-components).
 1. [Комплект поставки](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/kit).
 1. [Системные требования](https://docs.primo-rpa.ru/primo-rpa/orchestrator/systemreq).
+1. [Рекомендации по развертыванию](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/recommendations).
 1. [Установка компонентов](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/install-orch).
 1. [Развертывание сервера приложений на Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/deploy-options).
 1. [Контроль целостности конфигурационных файлов](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/integrity-of-configs).
