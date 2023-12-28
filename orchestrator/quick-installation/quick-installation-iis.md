@@ -25,26 +25,26 @@
 
 1. Заходим в **Диспетчер > Управление > Добавить роли и компоненты**.
 
-![](<../.gitbook/assets1/1-iis.png>)
+![](<../../.gitbook/assets1/1-iis.png>)
 
 2. Нажимаем везде **Далее** (все оставляем по умолчанию).
 3. На странице **Роли сервера** устанавливаем чек-бокс **Веб-сервер (IIS)**.
 4. На странице **Службы ролей** устанавливаем чек-бокс **Проверка подлинности Windows** и **Перенаправление HTTP**.
 5. После установки запускаем IIS.
 
-![](<../.gitbook/assets1/2-iis.png>)
+![](<../../.gitbook/assets1/2-iis.png>)
 
 6. Заходим в **Пулы приложений** и добавляем новый пул:
 
-![](<../.gitbook/assets1/3-iis.png>)
+![](<../../.gitbook/assets1/3-iis.png>)
 
 7. Назначаем владельцем пула Администратора (локальная УЗ Windows). 
 
-![](<../.gitbook/assets1/4-iis.png>)
+![](<../../.gitbook/assets1/4-iis.png>)
 
-![](<../.gitbook/assets1/5-iis.png>)
+![](<../../.gitbook/assets1/5-iis.png>)
 
-![](<../.gitbook/assets1/5-2-iis.png>)
+![](<../../.gitbook/assets1/5-2-iis.png>)
 
 
 ## Шаг 2. Копируем и распаковываем архивы
@@ -71,56 +71,56 @@
 
 1. Добавляем сайт для WebApi. Для этого выбираем пункт контекстного меню узла **Сайты > Добавить веб-сайт**.
 
-![](<../.gitbook/assets1/6-iis.png>)
+![](<../../.gitbook/assets1/6-iis.png>)
 
-![](<../.gitbook/assets1/6-2-iis.png>)
+![](<../../.gitbook/assets1/6-2-iis.png>)
 
 2. Добавляем самоподписанный сертификат. Выбираем **IIS > Сертификаты сервера > Создать самозаверенный сертификат**.
 
-![](<../.gitbook/assets1/7-iis.png>)
+![](<../../.gitbook/assets1/7-iis.png>)
 
-![](<../.gitbook/assets1/8-iis.png>)
+![](<../../.gitbook/assets1/8-iis.png>)
 
 3. Добавляем сайт для UI и назначаем ему этот сертификат.
 
-![](<../.gitbook/assets1/9-iis.png>)
+![](<../../.gitbook/assets1/9-iis.png>)
 
-![](<../.gitbook/assets1/10-iis.png>)
+![](<../../.gitbook/assets1/10-iis.png>)
 
 4. Перезагружаем сервер.
 5. Запускаем IIS.
 6. Выбираем сайт **Primo.UI > Переопределение URL-адресов**.
 
-![](<../.gitbook/assets1/11-iis.png>)
+![](<../../.gitbook/assets1/11-iis.png>)
 
 7. Далее нажимаем **Добавить правило** - **Пустое правило**.
 
-![](<../.gitbook/assets1/12-1-iis.png>)
+![](<../../.gitbook/assets1/12-1-iis.png>)
 
 8. Заполняем:
 * Имя: `Reverse Proxy to API`
 * Шаблон: `^api/(.*)`
 * URL-адрес переопределения: http://localhost:5001/api/{R:1}
 
-![](<../.gitbook/assets1/12-2-iis.png>)
+![](<../../.gitbook/assets1/12-2-iis.png>)
 
 9. Добавлять обратный прокси-сервер не нужно, сначала создаем правило через нажатие кнопки **Обратный прокси-сервер**.
 
-![](<../.gitbook/assets1/13-iis.png>)
+![](<../../.gitbook/assets1/13-iis.png>)
 
 10. В этом окне нажимаем еще раз **ОК**.
 
-![](<../.gitbook/assets1/14-iis.png>)
+![](<../../.gitbook/assets1/14-iis.png>)
 
 11. И в следующем окне нажимаем **Отмена**.
 
-![](<../.gitbook/assets1/15-iis.png>)
+![](<../../.gitbook/assets1/15-iis.png>)
 
 12. Заменяем файл `web.config` в папке `C:\Primo\UI`:
    * берем файл из комплекта поставки `…\Primo Orchestrator 1.23.7.0\Distr\Windows\web.config`;
    * копируем его и вставляем с заменой в папку `C:\Primo\UI`.
 
-![](<../.gitbook/assets1/16-iis.png>)
+![](<../../.gitbook/assets1/16-iis.png>)
 
 ## Шаг 5. Настройка и запуск служб
 
@@ -149,15 +149,15 @@
 * значение USER ID;
 * значение PASSWORD.
 
-![](<../.gitbook/assets1/17-iis.png>)
+![](<../../.gitbook/assets1/17-iis.png>)
 
 Исправляем секцию **RobotDeployment**:
 
-![](<../.gitbook/assets1/18-iis.png>)
+![](<../../.gitbook/assets1/18-iis.png>)
 
 Правим секцию **RDP**:
 
-![](<../.gitbook/assets1/19-iis.png>)
+![](<../../.gitbook/assets1/19-iis.png>)
 
 Создадим папки в корне диска `C: RpaProjects`, `C: OrchNuGet`.
 
@@ -168,13 +168,13 @@
 
 1. Проверяем состояние службы IIS, статусы пулов приложений и статусы работы сайтов:
 
-![](<../.gitbook/assets1/20-iis.png>)
+![](<../../.gitbook/assets1/20-iis.png>)
 
-![](<../.gitbook/assets1/21-iis.png>)
+![](<../../.gitbook/assets1/21-iis.png>)
 
 2. Проверяем статус службы Primo в службах Windows:
 
-![](<../.gitbook/assets1/22-iis.png>)
+![](<../../.gitbook/assets1/22-iis.png>)
 
 3. Проверяем работу сервера Rabbit, переходим по ссылке: http://localhost:15672. 
 
@@ -182,7 +182,7 @@
 
    Пароль: `Qwe123!@#`
 
-![](<../.gitbook/assets1/23-iis.png>)
+![](<../../.gitbook/assets1/23-iis.png>)
 
 4. Проверяем работу Оркестратора, переходим по ссылке: https://localhost:44392/.
 
