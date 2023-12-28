@@ -537,70 +537,70 @@ CREATE DATABASE ltoolslicense WITH OWNER orch_user;
 
 > *Подробнее в «Руководстве по установке Nginx в качестве службы под Windows 2016 Server.docx»*.
 
-Для того чтобы установить Nginx в качестве службы необходимо:  
+Чтобы установить Nginx в качестве службы, необходимо:  
 
-1.	Разархивировать файл `nginx-service.zip`, который идет в комплекте поставки в директорию `C:\Primo\nginx-1.21.1` (версия nginx может измениться).
+1.	Разархивировать файл `nginx-service.zip`, который идет в комплекте поставки, в папку `C:\Primo\nginx-1.21.1` (версия Nginx может измениться).
 
-![](<../.gitbook/assets1/orch-install-nginxserver-54.png>)
+   ![](<../.gitbook/assets1/orch-install-nginxserver-54.png>)
 
-2.	Щелкнуть правой кнопкой мыши по пустому простанству и открыть PowerShell от имени Администратора:
+2.	Щелкнуть правой кнопкой мыши по пустому простанству и открыть PowerShell от имени администратора:
 
-![](<../.gitbook/assets1/orch-install-nginxserver-55.png>)
+   ![](<../.gitbook/assets1/orch-install-nginxserver-55.png>)
 
-3. Использовать комманду:
-```
-.\nginx-service.exe install
-```
+3. Использовать команду установки:
+   ```
+   .\nginx-service.exe install
+   ```
 
-![](<../.gitbook/assets1/orch-install-nginxserver-56.png>)
+   ![](<../.gitbook/assets1/orch-install-nginxserver-56.png>)
 
-4.	После того как служба успешно установлена, запускать либо останавливать службу можно либо из **Управление сервером > Службы**.
+4.	После успешной установки службы запускать либо останавливать ее можно либо из **Управление сервером > Службы**:
 
-![](<../.gitbook/assets1/orch-install-nginxserver-57.png>)
+   ![](<../.gitbook/assets1/orch-install-nginxserver-57.png>)
 
-Либо с использованием окна PowerShell (после установки службы окно PowerShell необходимо перезапустить) командами:
+   Либо из PowerShell (после установки службы окно PowerShell необходимо перезапустить) командами:
 
-```
-> net stop nginx
-> net start nginx
-```
+   ```
+   > net stop nginx
+   > net start nginx
+   ```
 
-![](<../.gitbook/assets1/orch-install-nginxserver-58.png>)
+   ![](<../.gitbook/assets1/orch-install-nginxserver-58.png>)
 
 
-## Шаг 6. Установка UI на Nginx 
+### Установка UI на Nginx 
 
-> *Подробнее в «Руководстве по установке UI на nginx под Windows 2016 Server.docx»*.
+> *Подробнее в «Руководстве по установке UI на Nginx под Windows 2016 Server.docx»*.
 
-Для варианта реализации Front на основе nginx копируем содержимое папки UI из `C:\install\UI.zip` в `C:\Primo\nginx-1.21.1\html`.
+Для варианта реализации Front на основе Nginx копируем содержимое папки UI из `C:\install\UI.zip` в `C:\Primo\nginx-1.21.1\html`.
 
 **После этих шагов перезагружаем сервер.**
 
 
-## Шаг 7. Проверка работы служб и Оркестратора
+## Шаг 6. Проверка работы служб и Оркестратора
 
 Заходим в список служб и проверяем, чтобы все ранее установленные службы были запущены:
 
 ![](<../.gitbook/assets1/orch-install-nginxserver-59.png>)
 
-А именно это службы:
--	nginx
--	postgresql-x64-13
--	Primo.Orchestrator.MachineInfo
--	Primo.Orchestrator.Notifications
--	Primo.Orchestrator.RDP2
--	Primo.Orchestrator.RobotLogs
--	Primo.Orchestrator.States
--	Primo.Orchestrator.WebApi
--	RabbitMQ
+Это службы:
+-	nginx;
+-	postgresql-x64-13;
+-	Primo.Orchestrator.MachineInfo;
+-	Primo.Orchestrator.Notifications;
+-	Primo.Orchestrator.RDP2;
+-	Primo.Orchestrator.RobotLogs;
+-	Primo.Orchestrator.States;
+-	Primo.Orchestrator.WebApi;
+-	RabbitMQ.
 
 Если какая-то из служб остановлена, то запускаем ее вручную.
 
 Когда все службы запущены и работают, переходим по адресу: https://localhost:44392/
 
 Логин: admin\
-Пароль: Qwe123!@#\
+Пароль: Qwe123!@#
 
-На этом установка и базовая настройка завершена.
+На этом установка и базовая настройка завершены.
 
 
