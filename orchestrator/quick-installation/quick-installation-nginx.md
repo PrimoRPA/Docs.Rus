@@ -12,7 +12,7 @@
 
 <a href="https://www.youtube.com/watch?v=mOTH1PWxSCs"><img src="https://raw.githubusercontent.com/PrimoRPA/Docs.Rus/main/.gitbook/assets1/quick-install-nginx.gif" width="850" title="hover text"></a>
 
-[![Watch the video](<../.gitbook/assets1/quick-install-nginx.gif>)](https://www.youtube.com/watch?v=mOTH1PWxSCs)
+[![Watch the video](<../../.gitbook/assets1/quick-install-nginx.gif>)](https://www.youtube.com/watch?v=mOTH1PWxSCs)
 
 
 ## Начальная подготовка 
