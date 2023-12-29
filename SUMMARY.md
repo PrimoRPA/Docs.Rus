@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Primo RPA](README.md)
-* [Лицензии](licenses.md)
 * [Что нового](release-notes/README.md)
   * [Студия](release-notes/studio/README.md)
     * [Студия 23.11](release-notes/studio/studio-23.11.md)
@@ -28,6 +27,7 @@
     * [Оркестратор 2.2.20](release-notes/orch/2.2.20.md)
     * [Оркестратор 2.2.16](release-notes/orch/2.2.16.0.md)
     * [Оркестратор 2.2.15](release-notes/orch/2.2.15.0.md)
+* [Лицензии](licenses.md)
 * [Полезные ресурсы](useful-links.md)
 
 ## Primo Studio
