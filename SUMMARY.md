@@ -762,7 +762,7 @@
 
 * [Описание](orchestrator/intro.md)
 * [Системные требования](orchestrator/systemreq.md)
-* [Компоненты системы](orchestrator/system-components.md)
+* [Компоненты](orchestrator/system-components.md)
 * [Инфраструктура](orchestrator/ports.md)
 * [Развертывание](orchestrator/deployment/README.md)
   * [Рекомендации](orchestrator/deployment/recommendations.md)
