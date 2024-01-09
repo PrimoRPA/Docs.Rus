@@ -846,11 +846,12 @@
   * [Журнал Проекта](orchestrator/monitoring/proj-log.md)
   * [Главная страница](orchestrator/monitoring/dashboard.md)
   * [Grafana](orchestrator/monitoring/grafana.md)
+* [Безопасность](orchestrator/security.md)
 * [Дополнительно](orchestrator/appendix/README.md)
   * [Приложение 1 - Стадии развертывания робота](orchestrator/appendix/appendix1.md)
   * [Приложение 2 - Стадии запуска робота](orchestrator/appendix/appendix2.md)
   * [Приложение 3 - События Оркестратора](orchestrator/appendix/appendix3.md)
-* [Безопасность](orchestrator/security.md)
+
 
 ## Hope UI <a href="#orchestrator-hope-ui" id="orchestrator-hope-ui"></a>
 
