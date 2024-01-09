@@ -767,7 +767,6 @@
 * [Развертывание](orchestrator/deployment/README.md)
   * [Рекомендации](orchestrator/deployment/recommendations.md)
   * [Комплект поставки](orchestrator/deployment/kit.md)
-  * [Порядок установки компонентов](orchestrator/deployment/install-orch.md)
   * [Варианты развертывания компонентов](orchestrator/deployment/component-deployment-options.md)
   * [Развертывание сервера приложений](orchestrator/deployment/deploy-options.md)
   * [Порядок установки компонентов](orchestrator/deployment/install-orch.md)
