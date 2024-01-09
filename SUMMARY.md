@@ -817,7 +817,7 @@
     * [Создать пользователя AD](orchestrator/settings/users/ad-users.md)
     * [Типовые сценарии управления пользователями](orchestrator/settings/users/common-scenarios.md)
   * [Роботы](orchestrator/settings/robots/README.md)
-    * [Загрузка дистрибутивов робота](orchestrator/settings/robots/upload-robot.md)
+    * [Загрузить дистрибутив робота](orchestrator/settings/robots/upload-robot.md)
     * [Регистрация машины робота](orchestrator/settings/robots/register-robot.md)
     * [Регистрация RDP-пользователей на машине робота](orchestrator/settings/robots/register-rdp-users.md)
   * [Журналы](orchestrator/settings/journals.md)
