@@ -24,7 +24,7 @@
 
 :bangbang: ***Чтобы изменить значение ресурса с типом Credentials, используйте элемент [Установить учетные данные](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_assets/el_orch_setcredentials).***
 
-Установку значения можно использовать в сценарии сразу, без предварительного этапа в виде элемента [**Получить значение**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_assets/el_orch_getvalue).
+Установку значения можно использовать в сценарии сразу, без предварительного этапа в виде элемента [Получить значение](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_assets/el_orch_getvalue).
 
 
 ## Свойства
