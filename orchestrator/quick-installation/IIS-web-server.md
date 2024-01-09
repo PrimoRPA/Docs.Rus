@@ -8,7 +8,7 @@
 
 ## Видеоинструкция
 
-С видеоинструкцией по установке Оркестратора можно ознакомиться [здесь](https://www.youtube.com/watch?v=IAIRmChw65k&ab_channel=PrimoRPA).
+С видеоинструкцией по установке Оркестратора на веб-сервер IIS можно ознакомиться [здесь](https://www.youtube.com/watch?v=IAIRmChw65k&ab_channel=PrimoRPA).
 
 <a href="https://www.youtube.com/watch?v=IAIRmChw65k"><img src="https://raw.githubusercontent.com/PrimoRPA/Docs.Rus/main/.gitbook/assets/video_preview/test_gif.gif" width="850" title="hover text"></a>
 
@@ -190,7 +190,7 @@
 
    Пароль: `Qwe123!@#`
 
-:white_check_mark: **На этом установка и базовая настройка Оркестратора завершена.**
+:white_check_mark: **На этом установка и базовая настройка Оркестратора завершены.**
 
 
 
