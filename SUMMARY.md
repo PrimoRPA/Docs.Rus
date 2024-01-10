@@ -882,6 +882,8 @@
   * [Добавить пользователя](orchestrator-hope-ui/start/add_user.md)
   * [Добавить робота](orchestrator-hope-ui/start/add_rdp_users.md)
   * [Добавить проект](orchestrator-hope-ui/start/add_project.md)
+* [Дополнительно](orchestrator-hope-ui/additional/readme.md)
+  * [Возврат к предыдущей версии интерфейса](orchestrator-hope-ui/additional/ui-rollback.md)
 
 
 ## Primo Idea Hub
