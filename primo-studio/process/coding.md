@@ -21,17 +21,16 @@
 
 ![](<../../.gitbook/assets/add-element-to-code-1.png>)
 
-Для создания селекторов в редакторе кода предусмотрены кнопки <img src="../../.gitbook/assets/image (22).png" alt="" data-size="line"> . 
+Для создания селекторов в редакторе кода предусмотрены кнопки <img src="../../.gitbook/assets/image (22).png" alt="" data-size="line"> . Чтобы отредактировать селектор, выделите его в коде и также используйте одну из этих кнопок.
 
 ![](<../../.gitbook/assets/selector-in-code.png>)
 
-Чтобы отредактировать селектор, выделите его в коде и также нажмите одну из кнопок.
+Чтобы вызвать другой процесс, перетащите соответствующий файл процесса из панели проекта в код.
 
-Для вызова другого процесса следует перетащить соответствующий файл процесса из панели проекта в код.
 
 ## Точка останова и Вывод
 
-Чтобы установить [**Точку останова**](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/debug#tochka-ostanova), нажмите в меню редактора кнопку **Добавить точку останова** <img src="../../.gitbook/assets/stop.png" alt="" data-size="line">.
+Чтобы установить [**Точку останова**](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/debug#tochka-ostanova), нажмите в меню редактора кнопку <img src="../../.gitbook/assets/stop.png" alt="" data-size="line">.
 
 ![](<../../.gitbook/assets/breakpoint-in-only-code.png>)
 
