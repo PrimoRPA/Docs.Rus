@@ -832,6 +832,7 @@
   * [Добавить RPA-проект](orchestrator/basics/add-project.md)
   * [Обновить RPA-проект](orchestrator/basics/update-project.md)
   * [Вручную запустить робота с RPA-проектом](orchestrator/basics/robot-manual-start.md)
+  * [Вручную поместить проект в очередь](orchestrator/basics/put-project-in-project-queue.md)
   * [Задания](orchestrator/basics/tasks/README.md)
     * [Аргументы проекта](orchestrator/basics/tasks/orch-args.md)
     * [Расписания](orchestrator/basics/tasks/schedules.md)
