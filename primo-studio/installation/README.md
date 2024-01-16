@@ -4,27 +4,27 @@
 
 Установку приложения Primo RPA Studio осуществляет инсталлятор, запускаемый файлом setup.exe. Для корректной работы Primo RPA Studio необходим Microsoft .NET Framework 4.6.1, установка которого производится вместе с установкой Студии.
 
-![](<../../.gitbook/assets/Untitled (6).png>)
+![](<../../.gitbook/assets1/Install-files1.png>)
 
 После запуска инсталлятора пользователь увидит стандартный экран приветствия:
 
-![](<../../.gitbook/assets/Untitled (2).png>)
+![](<../../.gitbook/assets1/Install-welcome.png>)
 
 После нажатия кнопки **Далее** инсталлятор предложит выбрать папку для установки Primo RPA Studio:
 
-![](<../../.gitbook/assets/Untitled (5).png>)
+![](<../../.gitbook/assets1/Install-destinationfolder.png>)
 
 После нажатия кнопки **Далее** инсталлятор предложит выбрать состав установки и подтвердить начало установки:
 
-![](<../../.gitbook/assets/Untitled (7).png>)
+![](<../../.gitbook/assets1/Install-installtype.png>)
 
-![](<../../.gitbook/assets/Untitled (3).png>)
+![](<../../.gitbook/assets1/Install-ready.png>)
 
-![](<../../.gitbook/assets/Untitled (4).png>)
+![](<../../.gitbook/assets1/Install-process.png>)
 
 Последний экран инсталлятора оповещает об успешном завершении установки дистрибутива:
 
-![](../../.gitbook/assets/Untitled.png)
+![](../../.gitbook/assets1/Install-finish.png)
 
 ## Запуск
 
