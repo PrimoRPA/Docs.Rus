@@ -28,7 +28,7 @@ Try-Catch содержит следующие блоки:
 
 На странице [Learning](https://github.com/PrimoRPA/Learning) доступен RPA-проект, демонстрирующий работу с элементом:
 
-1. Скачайте на Learning архив со всеми обучающими материалами.
+1. [Скачайте](https://github.com/PrimoRPA/Learning/archive/refs/heads/master.zip) архив со всеми обучающими материалами.
 2. Распакуйте архив и откройте в Студии проект **StudioActivities**.
 3. Выберите процесс `StudioActivities/Ru/Управление/Try-Catch Исключение.ltw` для просмотра.
 
