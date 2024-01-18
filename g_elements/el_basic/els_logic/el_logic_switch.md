@@ -30,3 +30,11 @@
 | Свойство  | Тип | Описание            |
 | --------- | --- | ------------------- |
 | Условие\* |     | Проверяемое условие |
+
+## Learning 
+
+На странице [Learning](https://github.com/PrimoRPA/Learning) доступен RPA-проект, демонстрирующий работу элемента.
+
+1. Скачайте архив со всеми обучающими материалами по ссылке: [Скачать архив Learning](https://github.com/PrimoRPA/Learning/archive/refs/heads/master.zip).
+2. Распакуйте архив и откройте в Студии проект **StudioActivities**.
+3. Выберите процесс `StudioActivities/Ru/Управление/Switch.ltw` для просмотра.
