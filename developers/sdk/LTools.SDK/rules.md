@@ -6,7 +6,7 @@
 1.	Запустить Visual Studio.
 2.	Выбрать **Create a new project** с типом Class Library (.NET Framework) либо Class Library (поддерживаются .NET Framework 4.6.1 и .NET Standard 2.0).
 3.	Ввести имя проекта. **Имя проекта и библиотеки dll должны начинаться с префикса Primo.**
-4.	Добавить в Dependencies проекта сборку Primo.ProjectAnalyzer.Dto.dll:
+4.	Добавить в Dependencies проекта сборку Primo.ProjectAnalyzer.Dto.dll. Эту сборку можно найти в папке Primo Studio.
   
   ![](<../../../.gitbook/assets/1.sdk.rules.png>) 
 
