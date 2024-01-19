@@ -11,6 +11,12 @@
 | Путь\*     | String                                                                                                                        | Путь к читаемому файлу/папке. Например, "c:\folder\file.txt"                |
 | Переменная | [LTools.Data.Model.FileInfo](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_files/tipy-dannykh/fileinfo) | Свойство вывода. Переменная, которая будет хранить информацию о файле/папке |
 
+
+## Только код
+
+Пример использования элемента в процессе с типом **Только код** (Pure code):
+
+
 {% tabs %}
 {% tab title="C#" %}
 ```csharp
