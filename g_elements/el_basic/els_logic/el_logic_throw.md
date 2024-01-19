@@ -31,7 +31,6 @@
 5. **Код** *[Int32]*: Код исключения. Код указывается пользователем на свое усмотрение, заданных кодов нет. Пример: `1`.
 
 
-
 ## Learning
 
 На странице [Learning](https://github.com/PrimoRPA/Learning) доступен RPA-проект, демонстрирующий работу элемента в рамках элемента Try-Catch.
@@ -39,3 +38,31 @@
 1. Скачайте архив со всеми обучающими материалами по ссылке: [Скачать архив Learning](https://github.com/PrimoRPA/Learning/archive/refs/heads/master.zip).
 2. Распакуйте архив и откройте в Студии проект **StudioActivities**.
 3. Выберите процесс `StudioActivities/Ru/Управление/Try-Catch Исключение.ltw` для просмотра.
+
+
+## Только код
+
+Пример использования элемента в процессе с типом **Только код** (Pure code):
+
+{% tabs %}
+{% tab title="C#" %}
+```csharp
+throw new Exception("ThrowText");
+//Для изменения типа исключения следует вместо Exception указывать тот класс, который подходит в данной ситуации. Например, ApplicationException.
+throw new ApplicationException("text2");
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```python
+raise Exception("ThrowText")
+```
+{% endtab %}
+
+{% tab title="JavaScript" %}
+```javascript
+throw "ThrowText";
+```
+{% endtab %}
+{% endtabs %}
+
