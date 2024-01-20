@@ -240,6 +240,7 @@
       * [VariablesMapping](g\_elements/el\_basic/els\_data/datatypes/variablesmapping.md)
     * [HTML](g\_elements/el\_basic/els\_data/els\_data\_html/README.md)
       * [HTML к объекту](g\_elements/el\_basic/els\_data/els\_data\_html/el\_data\_html\_toobject.md)
+      * [HTML к DataTable](g\_elements/el\_basic/els\_data/els\_data\_html/el\_data\_html\_todatatable.md)
     * [JSON](g\_elements/el\_basic/els\_data/els\_data\_json/README.md)
       * [JSON к объекту](g\_elements/el\_basic/els\_data/els\_data\_json/el\_data\_json\_toobject.md)
       * [Объект к JSON](g\_elements/el\_basic/els\_data/els\_data\_json/el\_data\_json\_tojson.md)
