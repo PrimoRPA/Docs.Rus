@@ -297,11 +297,17 @@ namespace Primo.ProjectAnalyzer.Dto.Rules
 ```csharp
 Primo.ProjectAnalyzer.Inspector insp = new Primo.ProjectAnalyzer.Inspector();
 
+//Проверка проекта
 var proj = Primo.ProjectAnalyzer.Helper.ProcessHelper.LoadProject(@"C:\Test\project.ltp");
 var ret = insp.InspectRule(proj, testrule1);
 
+//Проверка процесса
 var proc = Primo.ProjectAnalyzer.Helper.ProcessHelper.LoadProcess(@"C:\Test\Main.ltw");
 ret = insp.InspectRule(proc, testrule2);
+
+//Проверка элемента
+var els = proc.GetAllElements();
+ret = insp.InspectRule(els.Where(it => it.Properties.Where(it2 => (it2.Name == "ComponentID") && (it2.Value.ToString() == "20a3444a-70fe-4657-a4fa-390668af67f9")).Count() > 0).First(), testRule);
 ```
 
 В результате сборки нового правила будет получена библиотека Primo.\*.dll. Ее нужно скопировать и добавить в папку Primo Studio. Если библиотека не содержит ошибок, после запуска Студии правило станет доступно в меню **Общие > Анализ**.
