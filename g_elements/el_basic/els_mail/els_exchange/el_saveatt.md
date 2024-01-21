@@ -1,6 +1,8 @@
-# Сохранить вложение
+---
+description: Save attachment
+---
 
-*Eng: Save attachment*
+# Сохранить вложение
 
 Элемент позволяет сохранить вложение письма.
 
@@ -12,7 +14,7 @@
 | Свойство     | Тип                                                                     | Описание                           |
 | ------------ | ----------------------------------------------------------------------- | ---------------------------------- |
 | Путь к файлу | String                                                                  | Путь к файлу (c:\folder\files.ext) |
-| Вложение     | [LTools.Office.Model. OMailAttachment](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_mail/datatypes/omailattachment) | Вложение письма. Например, фото, документ, а с версии 23.11 и другое письмо (в виде файла \*.eml) |
+| Вложение     | [LTools.Office.Model. OMailAttachment](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_mail/datatypes/omailattachment) | Вложение письма. Например, фото, документ, а с версии 23.11 вложением может выступать другое письмо (в виде файла \*.eml) |
 
 ## Только код
 
