@@ -1,6 +1,8 @@
-# Отправить сообщение
+---
+description: Send message
+---
 
-*Send message*
+# Отправить сообщение
 
 ![](<../../../.gitbook/assets/image (73).png>)
 
