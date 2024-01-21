@@ -1,6 +1,8 @@
-# Сервер MS Exchange
+---
+description: MS Exchange
+---
 
-*Eng: MS Exchange*
+# Сервер MS Exchange
 
 ![](<../../../../.gitbook/assets/image (366).png>)
 
@@ -11,22 +13,25 @@
 ![](<../../../../.gitbook/assets1/items-from-groups-ms-exchange.png>)
 
 ## Свойства
-Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
-Символ `*` в названии свойства указывает на обязательность заполнения.
+Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
 
 | Свойство           | Тип                                                  | Описание                                                                     |
 | ------------------ | ---------------------------------------------------- | ---------------------------------------------------------------------------- |
-| ***Exchange*** |  |  |
+| ***Exchange:*** |  |  |
 | Версия             | Microsoft.Exchange.WebServices. Data.ExchangeVersion | Версия сервера MS Exchange. По умолчанию установлена `Exchange2013_SP1`. Чтобы выбрать другую версию, щелкните выпадающий список значений |
 | URL сервера        | String                                               | URL сервера MS Exchange. Пример: `"https://<server>/EWS/Exchange.asmx"`      |
-| E-mail             | String                                               | Укажите email пользователя, чтобы использовать автообнаружение URL для эндпойта веб-служб Exchange (EWS). Пример: `"user1@example.com"`  |
-| Домен              | String                                               | Имя домена                                                                   |
+| E-mail             | String                                               | Email пользователя. Укажите его, чтобы использовать [автообнаружение](https://learn.microsoft.com/ru-ru/exchange/architecture/client-access/autodiscover?view=exchserver-2019&viewFallbackFrom=exchserver-2013) URL для эндпойта веб-служб Exchange (EWS). Пример: `"user1@example.com"`  |
+| Домен              | String                                               | Имя домена. Пример: `"contoso.com"`                                          |
 | Логин              | String                                               | Логин пользователя                                                           |
 | Пароль             | String                                               | Пароль учетной записи Exchange                                               |
 | Защищенный пароль |[SecureString](https://learn.microsoft.com/ru-ru/dotnet/api/system.security.securestring?view=netcore-2.0) | Поле для вставки зашифрованного пароля. В целях безопасности пароль в формате SecureString не хранится в открытом виде. Получить его можно, например, из программы **Диспетчер учетных данных** (Credential Manager) |
 | Российский часовой пояс | Boolean                                         | Настройка предназначена для корректировки времени. Например, в случае, если в русской локализации приложения наблюдается ошибка определения часового пояса. По умолчанию отключено  |
 
 :small_orange_diamond: **Внимание!** Для успешного извлечения вложений из писем необходимо активировать свойство **Российский часовой пояс**.
+
+
+![](<../../../../.gitbook/assets1/WFAttachExchange.png>)
+
 
 ## Learning
 Для обучения работе с элементом **Сервер MS Exchange** скачайте RPA-проект по ссылке: [Скачать архив Learning](https://github.com/PrimoRPA/Learning/archive/refs/heads/master.zip).
