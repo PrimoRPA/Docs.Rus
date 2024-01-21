@@ -4,7 +4,7 @@ description: Send message
 
 # Отправить сообщение
 
-Предназначен для отправки писем через почту MS Exchange. Размещается внутри контейнера [**Сервер MS Exchange**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_mail/els_exchange/el_connect). Перед использованием элемента **Отправить сообщение** убедитесь, что в контейнере правильно указаны все необходимые свойства: email, домен, логин, пароль и др. 
+Предназначен для отправки писем через почту MS Exchange. Размещается внутри контейнера [**Сервер MS Exchange**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_mail/els_exchange/el_connect). Перед использованием элемента **Отправить сообщение** убедитесь, что в контейнере правильно указаны все необходимые свойства: email, логин, пароль и др. 
 
 ![](<../../../../.gitbook/assets1/exchange-send-message.png>)
 
