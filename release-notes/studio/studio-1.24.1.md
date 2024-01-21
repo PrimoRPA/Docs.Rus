@@ -38,9 +38,14 @@
 
   https://learn.microsoft.com/en-us/dotnet/api/system.net.mail.mailaddress.displayname?view=net-8.0&viewFallbackFrom=net-4.6.1
 
-1. 
+1. Добавлен элемент **Получение фигур** (МойОфис). ......... ???
+   Word - элемент, получающий фигуры на документе (Офис). Нужен элемент, возвращающий массив графических примитивов, расположенных на документе. Образец документа во вложении.
+   https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_boards/board/t/Studio%20Team/Stories/?workitem=9179
 
+### UI
 
+1. Стало возможным закомментировать контейнер **Последовательность**, входящий в группы *Диаграмма* и *Управление*, используя пункт контекстного меню. 
+   
 
 
 
