@@ -12,7 +12,7 @@ description: Get shapes
 ## Свойства
 Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
 
-* **Переменная*** *[[List<LTools.Office.Model.Word.DocShape>]]* - название переменной для хранения результатов чтения.
+* **Переменная*** *[List<LTools.Office.Model.Word.DocShape>]* - название переменной для хранения результатов чтения.
 
 
 ## Только код
