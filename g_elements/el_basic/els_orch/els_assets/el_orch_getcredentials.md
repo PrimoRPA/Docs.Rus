@@ -1,6 +1,8 @@
-# Получить учетные данные
+---
+description: Get Credentials
+---
 
-*Eng: Get Credentials*
+# Получить учетные данные
 
 ![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (1) (44).png>)
 
@@ -8,12 +10,12 @@
 
 ## Предварительные условия
 
-:white_check_mark: Установлена связь Студии и Оркестратора. О том, как настроить подключение, см. [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings#orkestrator).\
-:white_check_mark: В Оркестраторе создан ресурс (переменная) с типом Credentials.
+:white_check_mark: [Настройте](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings#orkestrator) подключение Студии к Оркестратору.\
+:white_check_mark: Убедитесь, что в Оркестраторе создан [ресурс](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) (переменная) с типом Credentials. 
 
 ## Назначение
 
-Элемент позволяет получить учетные данные из Оркестратора. Под учетными данными подразумевается [ресурс](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) с типом Credentials, который был создан в Оркестраторе и хранится в его базе данных. 
+Элемент позволяет получить учетные данные из Оркестратора. Под учетными данными подразумевается ресурс с типом Credentials, который был создан в Оркестраторе и хранится в базе данных. 
 
 
 ## Свойства
