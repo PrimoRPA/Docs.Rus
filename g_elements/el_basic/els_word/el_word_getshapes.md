@@ -13,3 +13,39 @@ description:
 Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
 
 * **Переменная*** *[[List<LTools.Office.Model.Word.DocShape>]]* - название переменной для хранения результатов чтения.
+
+
+## Только код
+
+Пример использования элемента в процессе с типом **Только код** (Pure code):
+
+{% tabs %}
+{% tab title="C#" %}
+```csharp
+//Инициализировать документ Word
+LTools.Office.WordApp app = LTools.Office.WordApp.Init(wf, @".\Test.docx", LTools.Office.Model.InteropTypes.DX);
+		
+//Компонент, получающий данные фигур из документа Word. Свойства
+//app - [LTools.Office.WordApp] Приложение Word
+//List<LTools.Office.Model.Word.DocShape> txt = app.GetShapes();
+		
+List<LTools.Office.Model.Word.DocShape> txt = app.GetShapes();
+		
+//Добавить запись в лог
+LTools.Workflow.PrimoApp.AddToLog(wf, "Количество найденных фигур: "+ txt.Count, LTools.Enums.LogMessageType.Info);
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```python
+сюда вставляем пример кода на Python
+```
+{% endtab %}
+
+{% tab title="JavaScript" %}
+```javascript
+сюда вставляем пример кода на JavaScript
+```
+{% endtab %}
+{% endtabs %}
+
