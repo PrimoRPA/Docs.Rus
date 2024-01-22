@@ -7,7 +7,7 @@ description:
 
 Элемент получает данные фигур из документа Word. Путь до документа указывается в контейнере [**Документ Word**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_word/el_word_app), в котором размещается элемент.
 
-![](<../../.gitbook/assets1/>)
+![](<../../.gitbook/assets1/word-get-shapes.png>)
 
 ## Свойства
 Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
