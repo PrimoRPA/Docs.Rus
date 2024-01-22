@@ -890,6 +890,7 @@
 
 ## Primo Idea Hub
 
+* [Описание](idea-hub/description.md)
 * [Установка и обновление](idea-hub/installation/readme-installation.md)
 	* [Системные требования](idea-hub/installation/system-requirements.md)
 	* [Установка на ОС Linux](idea-hub/installation/installation-linux.md)
