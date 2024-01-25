@@ -14,11 +14,11 @@
 
 ![](<../../.gitbook/assets/add-element-to-code-1.png>)
 
-В разделах, посвященных описанию элементов, как правило, можно найти подраздел *Только код* - он содержит примеры использования элементов в чистом коде. См. пример для элемента [Получить значение](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_assets/el_orch_getvalue#tolko-kod). 
+В разделах, посвященных описанию элементов, как правило, можно найти подраздел *Только код* - он содержит примеры использования элементов в чистом коде. См. пример для элемента [Получить значение](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_assets/el_orch_getvalue#tolko-kod): 
 
 ![](<../../.gitbook/assets1/example-code-in-element.png>)
 
-Также перед началом работы рекомендуем изучить демонстрационный RPA-проект, выполненный в чистом коде. Подробнее см. в подразделе [Learning](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/coding#learning).
+Также рекомендуем изучить демонстрационный RPA-проект, выполненный в чистом коде. Подробнее см. в подразделе [Learning](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/coding#learning).
 
 **Как в процессе вызвать другой процесс?**
 
