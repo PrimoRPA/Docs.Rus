@@ -10,7 +10,7 @@
 
 Данный раздел посвящен работе с роботом при помощи программ Primo Robot и Robot Runner. Робот в данном случае выполняет функцию цифрового ассистента пользователя.
 
-## Отличие Primo Robot от Robot Runner
+## Чем Primo Robot отличается от Robot Runner
 
 **Primo Robot** - самостоятельное приложение с минимальным графическим интерфейсом. Запуск задач осуществляется через командную строку. Primo Robot не поддерживает запуск задач по расписанию.
 
@@ -28,7 +28,7 @@
 
 Оба типа лицензий можно использовать для работы с роботом через Primo Robot или Robot Runner.
 
-### Установка и использование
+## Установка и использование
 
 **Запуск и регистрация в автономном режиме:**
 
@@ -47,7 +47,7 @@
 5. Ручной запуск RPA-проекта:
    * [Вручную поместить проект в очередь](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/put-project-in-project-queue) - предпочтительный сценарий.
    * [Вручную запустить робота с RPA-проектом](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/robot-manual-start) - альтернативный сценарий.
-7. Автоматизированный запуск RPA-проектов с помощью [заданий](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/tasks) и [расписаний](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/tasks/schedules).
+6. Автоматизированный запуск RPA-проектов с помощью [заданий](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/tasks) и [расписаний](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/tasks/schedules).
 
 Для более полного понимания работы через Оркестратор рекомендуется ознакомиться с документацией из раздела **Primo Orchestrator**.
 
