@@ -24,7 +24,7 @@ description: Get asset
 * DateTime
 * JObject (для JSON)
 
-:bangbang: ***Чтобы получить ресурс с типом Credentials, используйте элемент [Получить учетные данные](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_assets/el_orch_getcredentials).***
+:small_orange_diamond: ***Чтобы получить ресурс с типом Credentials, используйте элемент [Получить учетные данные](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_assets/el_orch_getcredentials).***
 
 Вернувшийся в ответе ресурс необходимо сохранить в свойстве **Результат** в виде переменной. Переменная должна иметь тип данных System.Object.
 
