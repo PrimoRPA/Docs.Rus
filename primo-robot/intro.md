@@ -40,13 +40,16 @@
 
 **Запуск и регистрация через Оркестратор:**
 
-1. [Установка Primo Robot через Оркестратор](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/upload-robot). 
-2. [Регистрация машины робота](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/register-robot).
-3. [Запрос лицензии в Оркестраторе](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/licensing/new-license).
-4. [Ручной запуск робота с RPA-проектом](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/robot-manual-start).
-5. Автоматизированный запуск RPA-проектов с помощью [заданий](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/tasks) и [Расписаний](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/tasks/schedules).
+1. [Загрузка дистрибутива робота через Оркестратор](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/robots/upload-robot).
+2. [Регистрация машины робота](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/robots/register-robot).
+3. [Регистрация RDP-пользователей на машине робота](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/robots/register-rdp-users).
+4. [Запрос лицензии в Оркестраторе](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/licensing/new-license).
+5. Ручной запуск RPA-проекта:
+   * [Вручную поместить проект в очередь](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/put-project-in-project-queue) - предпочтительный сценарий.
+   * [Вручную запустить робота с RPA-проектом](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/robot-manual-start) - альтернативный сценарий.
+7. Автоматизированный запуск RPA-проектов с помощью [заданий](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/tasks) и [расписаний](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/tasks/schedules).
 
-Для более полного понимания работы с роботом через Оркестратор рекомендуется ознакомиться с документацией из раздела **Оркестратор**.
+Для более полного понимания работы через Оркестратор рекомендуется ознакомиться с документацией из раздела **Оркестратор**.
 
 
 
