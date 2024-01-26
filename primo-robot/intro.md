@@ -49,7 +49,7 @@
    * [Вручную запустить робота с RPA-проектом](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/robot-manual-start) - альтернативный сценарий.
 7. Автоматизированный запуск RPA-проектов с помощью [заданий](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/tasks) и [расписаний](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/tasks/schedules).
 
-Для более полного понимания работы через Оркестратор рекомендуется ознакомиться с документацией из раздела **Оркестратор**.
+Для более полного понимания работы через Оркестратор рекомендуется ознакомиться с документацией из раздела **Primo Orchestrator**.
 
 
 
