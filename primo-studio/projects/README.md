@@ -34,14 +34,13 @@
 
 ![](<../../.gitbook/assets1/activity-buttons-with-project.png>)
 
-* **Создать папку** ![](<../../.gitbook/assets/5 (7).png>)
-* **Добавить файл** ![](<../../.gitbook/assets/File\_Add (1).png>)
-* **Обновить проект** ![](<../../.gitbook/assets1/update-project-button.png>)
-* **Редактировать элемент** ![](<../../.gitbook/assets/4 (1) (1) (2) (1) (1) (1) (2) (1) (7).png>)
-* **Удалить элемент** ![](<../../.gitbook/assets/10 (2) (1) (2) (1) (1) (1) (2) (1) (6).png>)
-* **Создать процесс** ![](<../../.gitbook/assets/Создать процесс.png>)
-* **Раскрыть папки** ![](<../../.gitbook/assets1/expand-folders-1.png>)
-* **Свернуть папки** ![](<../../.gitbook/assets1/collapse-folders-1.png>)
+* **[Создать папку](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects#sozdat-papku)** ![](<../../.gitbook/assets/5 (7).png>)
+* **[Добавить файл](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects#dobavit-fail)** ![](<../../.gitbook/assets/File\_Add (1).png>)
+* **[Обновить проект](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects#obnovit-proekt)** ![](<../../.gitbook/assets1/update-project-button.png>)
+* **[Редактировать элемент](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects#redaktirovat-element)** ![](<../../.gitbook/assets/4 (1) (1) (2) (1) (1) (1) (2) (1) (7).png>)
+* **[Удалить элемент](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects#udalit-element)** ![](<../../.gitbook/assets/10 (2) (1) (2) (1) (1) (1) (2) (1) (6).png>)
+* **[Создать процесс](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects#sozdat-process)** ![](<../../.gitbook/assets/Создать процесс.png>)
+* **[Раскрыть/свернуть папки](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects#svernut-razvernut-papki)** ![](<../../.gitbook/assets1/expand-folders-1.png>) либо ![](<../../.gitbook/assets1/collapse-folders-1.png>)
 
 ### Создать папку
 
