@@ -760,6 +760,7 @@
   * [Настройки](primo-robot/robot-runner/settings.md)
 
 ## Primo Studio Linux
+* [Общая информация](primo-studio-linux/overview.md)
 * [Установка и обновление](primo-studio-linux/installation/installation-astra/readme.md)
   * [Установка Primo RPA Studio Linux на Astra Linux](primo-studio-linux/installation/installation-astra/install-astra-v2.md)
   * [Установка Primo RPA Studio Linux на Astra Linux с использованием группы для пользователей](primo-studio-linux/installation/installation-astra/install-astra-v3.md)
