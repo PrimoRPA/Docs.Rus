@@ -38,13 +38,25 @@ LTools.Workflow.PrimoApp.AddToLog(wf, "Количество найденных �
 
 {% tab title="Python" %}
 ```python
-сюда вставляем пример кода на Python
+#Компонент, производящий подключение к приложению Word
+app = LTools.Office.WordApp.Init(wf, ".\\Test.docx", LTools.Office.Model.InteropTypes.DX)
+	
+#Компонент, получающий данные фигур из документа Word.  Свойства
+#app - [LTools.Office.WordApp] Приложение Word
+#txt = app.GetShapes() #List<LTools.Office.Model.Word.DocShape>
+txt = app.GetShapes() 
 ```
 {% endtab %}
 
 {% tab title="JavaScript" %}
 ```javascript
-сюда вставляем пример кода на JavaScript
+//Компонент, производящий подключение к приложению Word
+let app = _lib.LTools.Office.WordApp.Init(wf, ".\Test.docx", _lib.LTools.Office.Model.InteropTypes.DX);
+
+//Компонент, получающий данные фигур из документа Word.  Свойства
+//app - [LTools.Office.WordApp] Приложение Word
+//let txt = app.GetShapes(); //List<LTools.Office.Model.Word.DocShape>
+let txt = app.GetShapes();
 ```
 {% endtab %}
 {% endtabs %}
