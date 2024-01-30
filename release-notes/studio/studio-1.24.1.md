@@ -29,14 +29,16 @@
 
 ### Элементы
 
-1. У элементов [**Отправить сообщение**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_outlook/el_outlook_sendmail) (Outlook) и [**Отправить сообщение**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_mail/els_exchange/el_send) (Exchange) появилось опциональное свойство **От имени (отображаемое имя)**. Оно позволяет указать отображаемое имя отправителя письма. Пользователь, указывающий имя, должен обладать соответствующими правами. 
+1. У элементов [**Отправить сообщение**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_outlook/el_outlook_sendmail) (Outlook) и [**Отправить сообщение**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_mail/els_exchange/el_send) (Exchange) появилось опциональное свойство **От имени (отображаемое имя)**. Оно позволяет указать отображаемое имя отправителя письма, которое будет использоваться совместно со свойством **От имени (адрес)**.
 
    ![](<../../.gitbook/assets1/outlook-new-parameter.png>)
  
-1. Добавлен элемент **Получение фигур** (Word), который позволяет получать фигуры на документе. Нужен элемент, возвращающий массив графических примитивов, расположенных на документе. Образец документа во вложении.
-   https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_boards/board/t/Studio%20Team/Stories/?workitem=9179
+1. В группу *Приложение Word* добавлен элемент **Получение фигур**. С его помощью можно получить данные фигур из документа Word. 
 
-1. Добавлено свойство **Строгий тайм-аут** для элементов SAP.  (ПЕРЕСЛУШАТЬ ДЕМО - БЫЛО ЛИ ТАМ ПРО ТО, ЧТО ЭТО ДОБАВЛЕНО ЕЩЕ В ВЕРСИИ 23.11.5?)
+   ![](<../../.gitbook/assets1/word-get-shapes.png>)
+
+
+1. Для элементов SAP добавлено свойство **Строгий тайм-аут** .  (ПЕРЕСЛУШАТЬ ДЕМО - БЫЛО ЛИ ТАМ ПРО ТО, ЧТО ЭТО ДОБАВЛЕНО ЕЩЕ В ВЕРСИИ 23.11.5?)
 1. Повышена стабильность работы [**Присутствия элемента**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_uiinteraction/el_exists) с браузером Chrome. ....[**Открыть браузер**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_browser/el_browser_open)
 
 Изменения:
