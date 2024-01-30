@@ -4,7 +4,7 @@ description: Send message
 
 # Отправить сообщение
 
-Элемент выполняет отправку электронного письма через Outlook. Размещается внутри контейнера [**Приложение Outlook**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_outlook).
+Элемент выполняет отправку электронного письма через Outlook. Размещается внутри контейнера [**Приложение Outlook**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_outlook/el_outlook_app).
 
 ![](<../../../.gitbook/assets1/outlook-send-message.png>)
 
