@@ -5,9 +5,12 @@ description: Get shapes
 
 # Получение фигур
 
-Элемент получает данные фигур из документа Word и сохраняет их в переменную. Путь до документа указывается в контейнере [**Документ Word**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_word/el_word_app).
+Элемент получает данные фигур из документа Word и сохраняет их в переменную. Среди значимых данных - название, расположение и цвет заливки фигур. Таким образом, элемент может быть полезен при обработке форм, в которых нужно вычислить выбранные пункты. 
+
+Путь до документа указывается в контейнере [**Документ Word**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_word/el_word_app).
 
 ![](<../../../.gitbook/assets1/word-get-shapes.png>)
+
 
 ## Свойства
 Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
