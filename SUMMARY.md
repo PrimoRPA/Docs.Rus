@@ -15,6 +15,8 @@
     * [Студия 1.1.30](release-notes/studio/1.1.30.md)
     * [Студия 1.1.29](release-notes/studio/1.1.29.md)
     * [Студия 1.1.28](release-notes/studio/1.1.28.md)
+  * [Студия Линукс](release-notes/studio-linux/readme.md)
+    * [Студия Линукс 1.24.1](release-notes/studio-linux/studio-linux-1.24.1.md)
   * [Оркестратор](release-notes/orch/README.md)
     * [Оркестратор 23.11](release-notes/orch/orch-23.11.md)
     * [Оркестратор 23.9](release-notes/orch/orch-23.9.md)
@@ -759,6 +761,11 @@
   * [Расписания](primo-robot/robot-runner/schedules.md)
   * [Настройки](primo-robot/robot-runner/settings.md)
 
+## Primo Studio Linux
+* [Общая информация](primo-studio-linux/overview.md)
+* [Установка и обновление](primo-studio-linux/installation/installation-astra/readme.md)
+  * [Установка Primo RPA Studio Linux на Astra Linux](primo-studio-linux/installation/installation-astra/install-astra-v2.md)
+  * [Установка Primo RPA Studio Linux на Astra Linux с использованием группы для пользователей](primo-studio-linux/installation/installation-astra/install-astra-v3.md)
 
 ## Primo Orchestrator <a href="#orchestrator" id="orchestrator"></a>
 
