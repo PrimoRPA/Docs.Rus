@@ -14,8 +14,8 @@
    * SystemException (UiPath) > General (Primo);
    * BusinessRuleException (UiPath) > Business (Primo);
    * ApplicationException (UiPath) > Application (Primo).
-1. Улучшен импорт элемента [Try-Catch](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_logic/el_logic_trycatch). Если в импортируемом **Try-Catch**, в блоке **Cath**, присутствует разделение на типы исключений, то при миграции в блоке **Cath** появится компонент [Switch](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_logic/el_logic_switch) с разделением на типы исключений. Это позволит обрабатывать каждое исключение отдельно.
-1. У активности **Try-Catch** стала переноситься переменная исключения, если в блоке **Catch** есть ее обработка.
+1. Улучшен импорт элемента [Try-Catch](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_logic/el_logic_trycatch). Если в импортируемом **Try-Catch** присутствует разделение на типы исключений в блоке **Cath**, то при миграции элемента, в блоке **Cath**, появится компонент [Switch](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_logic/el_logic_switch) с разделением на типы исключений. Это позволит обрабатывать каждое исключение отдельно.
+1. У активности **Try-Catch** стала переноситься переменная исключения, если в блоке **Catch** присутствует ее обработка.
 1. При импорте элемента **Присвоение** значения всех строковых переменных теперь берется в двойные кавычки.
 1. Для элементов MS Excel при миграции стал добавляться контейнер **Приложение Excel**. В контейнере заполнены необходимые свойства, такие как путь к файлу, пароль, если имеется. 
 1. В элементах MS Excel **Чтение диапазона** и **Запись диапазона** переменная типа DataTable стала переноситься в свойство **Переменная (таблица)**. Ранее она мигрировала в текстовую переменную. 
