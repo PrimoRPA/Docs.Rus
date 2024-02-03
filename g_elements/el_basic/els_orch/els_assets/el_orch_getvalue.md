@@ -7,26 +7,27 @@ description: Get asset
 
 ![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (1) (19).png>)
 
-![](<../../../../.gitbook/assets/image (269).png>)
-
-## Предварительные условия
-
-:white_check_mark: [Настройте](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings#orkestrator) подключение Студии к Оркестратору.\
-:white_check_mark: Убедитесь, что в Оркестраторе добавлены [ресурсы](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) (переменные).
-
 ## Назначение
 
-Элемент **Получить значение** помогает получить ресурс из Оркестратора, чтобы использовать его в дальнейшей работе. Поддерживаются ресурсы всех типов данных, кроме Credentials, а именно:
-* String
-* Integer
-* Floating
-* Boolean
-* DateTime
-* JObject (для JSON)
+Позволяет получить [ресурс](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) (переменную) из Оркестратора. Поиск ресурса осуществляется по его названию. Вернувшийся в ответе ресурс необходимо сохранить в свойстве **Результат** в виде переменной. Она должна иметь тип данных System.Object.
+
+![](<../../../../.gitbook/assets/image (269).png>)
+
+Робот может получить ресурс следующих типов данных:
+* String;
+* Integer;
+* Floating;
+* Boolean;
+* DateTime;
+* JObject (для JSON).
 
 :small_orange_diamond: ***Чтобы получить ресурс с типом Credentials, используйте элемент [Получить учетные данные](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_assets/el_orch_getcredentials).***
 
-Вернувшийся в ответе ресурс необходимо сохранить в свойстве **Результат** в виде переменной. Переменная должна иметь тип данных System.Object.
+
+## Начальные условия
+
+:small_blue_diamond: Установлено [подключение](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings#orkestrator) Студии к Оркестратору.\
+:small_blue_diamond: В Оркестраторе добавлены ресурсы указанных типов.
 
 
 ## Свойства
