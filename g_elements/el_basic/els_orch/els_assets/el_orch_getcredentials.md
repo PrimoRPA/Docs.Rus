@@ -8,10 +8,10 @@ description: Get Credentials
 
 ![](<../../../../.gitbook/assets/image (386).png>)
 
-## Предварительные условия
+## Начальные условия
 
-:white_check_mark: [Настройте](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings#orkestrator) подключение Студии к Оркестратору.\
-:white_check_mark: Убедитесь, что в Оркестраторе создан [ресурс](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) (переменная) с типом Credentials. 
+:small_blue_diamond: Установлено [подключение](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings#orkestrator) Студии к Оркестратору.\
+:small_blue_diamond: В Оркестраторе создан [ресурс](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) (переменная) с типом Credentials. 
 
 ## Назначение
 
