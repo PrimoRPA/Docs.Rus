@@ -33,7 +33,7 @@
    ![](<../../.gitbook/assets1/word-get-shapes.png>)
 
 
-1. Для элементов SAP [**Эмуляция спецкнопки**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_sap/el_sap_hotkey) и [**Ввод текста**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_sap/el_sap_input) добавлено свойство **Строгий тайм-аут**.
+1. Для элементов SAP [**Эмуляция спецкнопки**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_sap/el_sap_hotkey) и [**Ввод текста**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_sap/el_sap_input) добавлено свойство **Строгий тайм-аут**. Оно позволяет незамедлительно прерывать выполнение элемента по истечении указанного времени в тайм-ауте. 
 1. Повышена стабильность работы [**Присутствия элемента**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_uiinteraction/el_exists) с браузером Chrome. ....[**Открыть браузер**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_browser/el_browser_open)
 
 Изменения:
