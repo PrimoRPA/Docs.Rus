@@ -5,16 +5,16 @@ description: Set Credentials
 
 ![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (1) (13).png>)
 
-![](<../../../../.gitbook/assets/image (342).png>)
-
-## Предварительные условия
-
-:white_check_mark: [Настройте](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings#orkestrator) подключение Студии к Оркестратору.\
-:white_check_mark: Убедитесь, что в Оркестраторе создан [ресурс](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) (переменная) с типом Credentials. 
-
 ## Назначение
 
-Элемент обращается к ресурсу типа Credentials (учетные данные) и позволяет установить ему новое значение. Название ресурса указывается в свойствах элемента.
+Элемент обращается к [ресурсу](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) типа Credentials (учетные данные) и позволяет установить ему новое значение. Название ресурса указывается в свойствах элемента.
+
+![](<../../../../.gitbook/assets/image (342).png>)
+
+## Начальные условия
+
+:small_blue_diamond: Установлено [подключение](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings#orkestrator) Студии к Оркестратору.\
+:small_blue_diamond: В Оркестраторе создан ресурс с типом Credentials. 
 
 
 ## Свойства
