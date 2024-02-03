@@ -6,16 +6,13 @@ description: Set asset
 
 ![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (1) (48).png>)
 
-![](<../../../../.gitbook/assets/image (305).png>)
-
-## Предварительные условия
-
-:white_check_mark: [Настройте](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings#orkestrator) подключение Студии к Оркестратору.\
-:white_check_mark: Убедитесь, что в Оркестраторе создан [ресурс](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) (переменная).
-
 ## Назначение
 
-Элемент позволяет установить новое значение для [ресурса](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) Оркестратора. Для этого в свойствах элемента укажите название существующего ресурса и новое значение. Данный элемент работает со всеми типами данных ресурса, кроме Credentials. А именно:
+Элемент позволяет установить новое значение для [ресурса](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) Оркестратора. Для этого в свойствах элемента укажите название существующего ресурса и его новое значение. 
+
+![](<../../../../.gitbook/assets/image (305).png>)
+
+Элемент работает со всеми типами данных ресурса, кроме Credentials. А именно:
 * String
 * Integer
 * Floating
@@ -26,6 +23,15 @@ description: Set asset
 :small_orange_diamond: ***Чтобы изменить значение ресурса с типом Credentials, используйте элемент [Установить учетные данные](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_assets/el_orch_setcredentials).***
 
 Установку значения можно использовать в сценарии сразу, без предварительного этапа в виде элемента [Получить значение](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_assets/el_orch_getvalue).
+
+
+
+## Начальные условия
+
+:small_blue_diamond: Установлено [подключение](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings#orkestrator) Студии к Оркестратору.\
+:small_blue_diamond: В Оркестраторе создан ресурс (переменная).
+
+
 
 
 ## Свойства
