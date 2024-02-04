@@ -92,9 +92,10 @@
    * В элементе **Удаление колонок** метод `DeleteColumns` удалял строки. C этой версии метод удаляет столбцы.
    * В элементе **Удаление строк** метод `DeleteRows` удалял столбцы. C этой версии метод удаляет строки.
 1. Исправлена ошибка в **Чтении диапазона** (Excel) с драйвером Interop и включенным параметром **Учитывать типы полей ячеек Excel**. Ошибка возникала, если первая ячейка диапазона была пустой.
-///(статус под вопросом) 1. Исправлено некорректное поведение элементов в пакете [Primo.Office.MyOffice](https://www.nuget.org/packages?q=Primo.Office.MyOffice), пакет обновлен до версии 1.0.2. Исправленные ошибки:
-   * [Вставка изображения](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_myoffice/els_text/el_text_insertpic) - не работает.
-   * [Вставить таблицу](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_myoffice/els_text/el_text_createtable) - не работает.
-   * [Запись диапазона](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_myoffice/els_table/el_table_writerange) - записи не происходит, исходный файл остается неизменным вне зависимости от способа записи диапазона (по индексу страницы или по названию).
-   * Добавлена поддержка русского языка для свойств элементов.
+1. ///(статус под вопросом) Исправлено некорректное поведение элементов в пакете [Primo.Office.MyOffice](https://www.nuget.org/packages?q=Primo.Office.MyOffice), версия пакета обновлена до 1.0.2. Список изменений:
+   * Исправлена работа элемента [Вставка изображения](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_myoffice/els_text/el_text_insertpic).
+   * Исправлена работа элемента [Вставить таблицу](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_myoffice/els_text/el_text_createtable)
+   * Исправлена работа элемента [Запись диапазона](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_myoffice/els_table/el_table_writerange).
+   * Исправлено сохранение текстовых и табличных документов - ранее документ не сохранялся, если в соответствующем элементе не был указан путь к файлу.
+   * /// - уточнить/// Добавлена поддержка русского языка для свойств элементов.
 1. 9337	Активность "Read table" (не 1 поколения) не способна считать большие таблицы.
