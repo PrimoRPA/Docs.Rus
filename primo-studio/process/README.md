@@ -6,7 +6,7 @@
 
 ## Как создать процесс
 
-:small_blue_diamond: ***Предусловие**: вы запустили Студию и создали RPA-проект.*
+:small_blue_diamond: ***Предусловие**: вы запустили Студию и [создали RPA-проект](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects#kak-sozdat-proekt).*
 
 На панели «Проект» выберите папку для будущего процесса и нажмите **Создать процесс**![](<../../.gitbook/assets/0 (163).png>). 
 
