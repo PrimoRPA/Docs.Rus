@@ -28,13 +28,16 @@
 
 Код поддерживает [аргументы](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/args) - переменные для обмена данными между процессами. Работа с ними не отличается от других типов процессов. Для работы с аргументами также можно использовать методы GetArgument и SetArgument глобальной переменной [wf](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/workflow).
 
-#### Возможности меню редактора кода
+#### Как создать шаблон поиска?
 
-Для создания [шаблона поиска](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/searchpatterns) в редакторе кода предусмотрены кнопки <img src="../../.gitbook/assets/image (22).png" alt="" data-size="line"> . Чтобы отредактировать шаблон, выделите его в коде и также используйте одну из этих кнопок.
+В меню редактора кода находятся кнопки <img src="../../.gitbook/assets/image (22).png" alt="" data-size="line"> - используйте их, чтобы создать [шаблон поиска](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/searchpatterns) элемента управления. При необходимости отредактировать шаблон, выделите его в коде и также используйте одну из этих кнопок.
 
 ![](<../../.gitbook/assets/selector-in-code.png>)
 
-Чтобы установить [**Точку останова**](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/debug#tochka-ostanova), нажмите в меню кнопку <img src="../../.gitbook/assets/stop.png" alt="" data-size="line">.
+
+#### Как установить точку останова?
+
+Нажмите в меню редактора кнопку <img src="../../.gitbook/assets/stop.png" alt="" data-size="line">.
 
 ![](<../../.gitbook/assets/breakpoint-in-only-code.png>)
 
