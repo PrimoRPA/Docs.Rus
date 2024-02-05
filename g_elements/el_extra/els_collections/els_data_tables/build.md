@@ -1,11 +1,17 @@
 # Построить таблицу
 
-Элемент создает таблицу на основе мастера. 
+Элемент создает таблицу на основе данных, указанных в Мастере. 
 
-![](<../../../../.gitbook/assets1/WFDataTableBuild.png>)
+![](<../../../../.gitbook/assets1/WFDataTableBuild-2.png>)
+
+По нажатию кнопки **Добавить колонку** откроется форма создания столбца, где можно указать его название, тип данных и другие необходимые параметры. Эти данные в дальнейшем можно отредактировать.
+
+![](<../../../../.gitbook/assets1/WFDataTableBuild-3.png.png>)
+
+Строки таблицы добавляются по нажатию клавиши `Enter`.
 
 
 ## Свойства
 Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
 
-* **Таблица\*** *[[DataTable](https://learn.microsoft.com/ru-ru/dotnet/api/system.data.datatable?view=net-8.0&viewFallbackFrom=net-4.6.1)]* - результирующая таблица. Обязательное свойство.
+* **Таблица\*** *[[DataTable](https://learn.microsoft.com/ru-ru/dotnet/api/system.data.datatable?view=net-8.0&viewFallbackFrom=net-4.6.1)]* - название переменной, в которой будет храниться созданная таблица. Обязательное свойство.
