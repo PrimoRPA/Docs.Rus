@@ -1,5 +1,5 @@
 # Соединить таблицы
 
 
-![](<../../../../.gitbook/assets1/>)
+![](<../../../../.gitbook/assets1/DataTables.WFDataTableJoin.png>)
 
