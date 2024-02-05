@@ -1,4 +1,4 @@
 # Построить таблицу
 
 
-![](<../../../../.gitbook/assets1/>)
+![](<../../../../.gitbook/assets1/WFDataTableBuild.png>)
