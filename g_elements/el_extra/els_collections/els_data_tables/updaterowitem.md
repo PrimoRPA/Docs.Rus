@@ -1,4 +1,4 @@
 # Изменить значение
 
 
-![](<../../../../.gitbook/assets1/>)
+![](<../../../../.gitbook/assets1/WFDataTableUpdateRowItem.png>)
