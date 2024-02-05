@@ -15,7 +15,7 @@
     * [Студия 1.1.30](release-notes/studio/1.1.30.md)
     * [Студия 1.1.29](release-notes/studio/1.1.29.md)
     * [Студия 1.1.28](release-notes/studio/1.1.28.md)
-   * [Оркестратор](release-notes/orch/README.md)
+  * [Оркестратор](release-notes/orch/README.md)
     * [Оркестратор 23.11](release-notes/orch/orch-23.11.md)
     * [Оркестратор 23.9](release-notes/orch/orch-23.9.md)
     * [Оркестратор 23.8](release-notes/orch/orch-23.8.md)
