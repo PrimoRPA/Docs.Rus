@@ -11,8 +11,8 @@
 
 **Обработка**:
 
-1. **Строка\*** *[System.Data.DataRow]* - строка таблицы.
-1. **Столбец** *[System.Data.DataColumn]* - столбец таблицы.
+1. **Строка\*** *[[System.Data.DataRow](https://learn.microsoft.com/ru-ru/dotnet/api/system.data.datarow?view=net-8.0&viewFallbackFrom=net-4.6.1)]* - строка таблицы.
+1. **Столбец** *[[System.Data.DataColumn](https://learn.microsoft.com/ru-ru/dotnet/api/system.data.datacolumn?view=net-8.0&viewFallbackFrom=net-4.6.1)]* - столбец таблицы.
 1. **Имя** *[String]* - название столбца.
 1. **Индекс** *[Int32]* - номер столбца.
 
