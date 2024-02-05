@@ -38,7 +38,7 @@
 
 1. Реализована библиотека **Primo.Collections**, которая добавляет 4 новых элемента в группу **Данные > Таблицы**:
    * [**Построить таблицу**](https://docs.primo-rpa.ru/g_elements/el_extra/els_collections/els_data_tables/build) - создает таблицу на основе данных, указанных в Мастере. Результат сохраняется в переменную типа DataTable.
-   * [**Соединить таблицы**](https://docs.primo-rpa.ru/g_elements/el_extra/els_collections/els_data_tables/join) - fроизводит объединение двух таблиц по указанным столбцам.
+   * [**Соединить таблицы**](https://docs.primo-rpa.ru/g_elements/el_extra/els_collections/els_data_tables/join) - производит объединение двух таблиц по указанным столбцам.
    * [**Изменить значение**](https://docs.primo-rpa.ru/g_elements/el_extra/els_collections/els_data_tables/updaterowitem) - обновляет значение строки в таблице DataTable в соответствии с указанным столбцом. 
    * [**Получить значение**](https://docs.primo-rpa.ru/g_elements/el_extra/els_collections/els_data_tables/getrowitem) - извлекает значение строки из таблицы DataTable в соответствии с указанным столбцом.
    
