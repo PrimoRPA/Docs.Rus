@@ -2,10 +2,10 @@
 
 Расширения возможно установить:
 * [автоматически](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/autoinstall-browser-extension) - только для браузерных расширений;
-* вручную из Студии - для браузерных расширений и плагинов RDP, Java;
+* [вручную из Студии]() - для браузерных расширений и плагинов RDP, Java;
 * [из командной строки](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/plugin-install#ustanovka-iz-komandnoi-stroki) - для браузерных расширений и плагинов RDP, Java.
 
-## Установка из Студии
+## Ручная установка из Студии
 
 Инструкции см. в разделах:
 
@@ -38,7 +38,7 @@
 
 Ниже приводятся способы установки расширений и плагинов из командной строки.
 
-## Расширения браузеров
+### Расширения браузеров
 
 ```
 LTools.WebBrowser.Native.exe install=<browser> lang=<language> mode=<mode>
@@ -58,20 +58,22 @@ LTools.WebBrowser.Native.exe install=CHROME lang=RU mode=packed
 LTools.WebBrowser.Native.exe install=CHROME lang=RU mode=storelocal
 ```
 
-## Плагины
+### Плагины
 
-### RDP
+#### RDP
 
 ```
 Primo.RemoteAgent.exe InstallClient
 ```
 
-### Java
+#### Java
 
 ```
 Extensions\JavaBridge.ps1
 ```
 
 
+## Автоматическая установка браузерных расширений
 
+Подробнее см. [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/autoinstall-browser-extension).
 
