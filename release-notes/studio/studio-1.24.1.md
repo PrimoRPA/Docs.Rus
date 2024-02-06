@@ -30,7 +30,7 @@
      * [**Создать чат**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_yandexgpt/el_chat) - создает чат с YandexGPT.
      * [**Вопрос в чат**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_yandexgpt/el_chatmessage) - отправляет вопрос в чат с YandexGPT.
      * [**Задать вопрос**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_yandexgpt/el_instruct) - задает вопрос YandexGPT.
-1. Опубликована библиотека **Primo.Collections**, которая добавляет в группу **Данные > Таблицы** следующие элементы:
+1. Опубликована библиотека **Primo.Collections** для автоматизации действий с таблицами. Библиотека добавляет в группу **Данные > Таблицы** следующие элементы:
    * [**Построить таблицу**](https://docs.primo-rpa.ru/g_elements/el_extra/els_collections/els_data_tables/build) - создает таблицу на основе данных, указанных в Мастере. Результат сохраняется в переменную типа DataTable.
    * [**Соединить таблицы**](https://docs.primo-rpa.ru/g_elements/el_extra/els_collections/els_data_tables/join) - производит объединение двух таблиц по указанным столбцам.
    * [**Изменить значение**](https://docs.primo-rpa.ru/g_elements/el_extra/els_collections/els_data_tables/updaterowitem) - обновляет значение строки в таблице DataTable в соответствии с указанным столбцом. 
