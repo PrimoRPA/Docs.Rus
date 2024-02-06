@@ -22,28 +22,28 @@
 7.	[Перейдите](https://console.cloud.yandex.ru/cloud) в консоль управления Яндекс Cloud. 
 8.	Обязательно скопируйте идентификатор папки - он понадобится для работы с GPT. 
 
-    ![](<../../.gitbook/assets1/>)
+    ![](<../../.gitbook/assets1/get-token-yandex-1.png>)
     
 9.	Слева, в дереве навигации, перейдите на уровень организации и затем – в раздел «Права доступа». 
 
-    ![](<../../.gitbook/assets1/>)
+    ![](<../../.gitbook/assets1/get-token-yandex-2.png>)
 
 10.	Выберите функцию **Изменить роли** у нужного пользователя.
  
-    ![](<../../.gitbook/assets1/>)
+    ![](<../../.gitbook/assets1/get-token-yandex-3.png>)
 
 11.	Нажмите кнопку **Добавить роль**.
  
-    ![](<../../.gitbook/assets1/>)
+    ![](<../../.gitbook/assets1/get-token-yandex-4.png>)
 
 12.	Выберите `ai.languageModels.user`.
  
-    ![](<../../.gitbook/assets1/>)
+    ![](<../../.gitbook/assets1/get-token-yandex-5.png>)
 
 13.	Нажмите **Сохранить**.
 14.	Перейдите в каталог `default` (либо нужный) и нажмите **YandexGPT**.
  
-    ![](<../../.gitbook/assets1/>)
+    ![](<../../.gitbook/assets1/get-token-yandex-6.png>)
 
 15.	Заполните форму и отправьте заявку. Доступ должен появиться через несколько дней.
 16.	В элементах ЯндексGPT Primo используйте токен (см. шаг 6) и ID папки (см. шаг 8).
