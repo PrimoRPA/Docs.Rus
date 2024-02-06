@@ -22,7 +22,7 @@
 
    ![](<../../.gitbook/assets1/buttonAIchat (1).png>)
 
-1. Реализована библиотека **Primo.AI**, позволяющая автоматизировать работу с нейросетями. Библиотека содержит следующие элементы:
+1. Опубликована библиотека **Primo.AI**, позволяющая автоматизировать работу с нейросетями. Библиотека содержит следующие элементы:
    * GigaChat
      * [**Получить токен**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_gigachat/el_gettoken) - получает токен GigaChat.
      * [**Вопрос в чат**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_gigachat/el_chatmessage) - отправляет вопрос в GigaChat. 
