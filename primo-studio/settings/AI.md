@@ -4,7 +4,7 @@
 
 Для интеграции Primo с YandexGPT:
 1.	[Создайте](https://passport.yandex.ru/registration) аккаунт в сервисе Яндекс ID, если его еще нет.
-2.	Установите Яндекс Cloud согласно официальной [документации](https://cloud.yandex.ru/ru/docs/cli/quickstart#install). 
+2.	Установите интерфейс командной строки Yandex Cloud (CLI) согласно официальной [документации](https://cloud.yandex.ru/ru/docs/cli/quickstart#install). 
 3.	Получите OAuth-токен в Яндексе ID, перейдя по следующей [ссылке](https://oauth.yandex.ru/authorize?response_type=token&client_id=1a6990aa636648e9b2ef855fa7bec2fb). Если приложение запрашивает доступ к данным, разрешите. Это нужно для получения токена.
 4.	Скопируйте токен в буфер обмена или сохраните его.
 5.	Выполните действия из раздела [Создание профиля](https://cloud.yandex.ru/docs/cli/quickstart?#initialize). Результат должен иметь вид:
