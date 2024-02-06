@@ -15,7 +15,7 @@
     compute-default-zone: ru-central1-b
     ```
 
-6.	Получите токен для работы с GPT, выполнив команду:
+6.	Получите IAM-токен для работы с GPT, выполнив команду:
     ```
     yc iam create-token 
     ```
