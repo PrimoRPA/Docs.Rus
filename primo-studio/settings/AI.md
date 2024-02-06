@@ -6,11 +6,14 @@
 1.	[Создайте](https://passport.yandex.ru/registration) аккаунт на Яндекс (Яндекс ID), если его еще нет.
 2.	Установите Яндекс Cloud согласно официальной [документации](https://cloud.yandex.ru/ru/docs/cli/quickstart#install). 
 3.	Получите OAuth-токен в Яндекс ID по следующей [ссылке](https://oauth.yandex.ru/authorize?response_type=token&client_id=1a6990aa636648e9b2ef855fa7bec2fb):   
-4.	Выполните действия из раздела «Создание профиля». Результат должен иметь вид:
-token: y0_AgA...wvs7N4
-cloud-id: b1g159pa15cd********
-folder-id: b1g8o9jbt58********
-compute-default-zone: ru-central1-b
+4.	Выполните действия из раздела «[Создание профиля](https://cloud.yandex.ru/docs/cli/quickstart?#initialize)». Результат должен иметь вид:
+    ```
+    token: y0_AgA...wvs7N4
+    cloud-id: b1g159pa15cd********
+    folder-id: b1g8o9jbt58********
+    compute-default-zone: ru-central1-b
+    ```
+
 5.	Получите токен для работы с GPT, выполнив команду:
 
 yc iam create-token 
