@@ -24,25 +24,25 @@
 
 1. Реализована библиотека **Primo.AI**, позволяющая автоматизировать работу с нейросетями. Библиотека содержит следующие элементы:
    * GigaChat
-     * [**Получить токен**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_gigachat/el_gettoken) - .
-     * [**Вопрос в чат**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_gigachat/el_chatmessage) - . 
+     * [**Получить токен**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_gigachat/el_gettoken) - получает токен GigaChat.
+     * [**Вопрос в чат**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_gigachat/el_chatmessage) - отправляет вопрос в GigaChat. 
    * YandexGPT
-     * [**Создать чат**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_yandexgpt/el_chat) - .
-     * [**Вопрос в чат**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_yandexgpt/el_chatmessage) - .
-     * [**Задать вопрос**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_yandexgpt/el_instruct) - .
+     * [**Создать чат**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_yandexgpt/el_chat) - создает чат с YandexGPT.
+     * [**Вопрос в чат**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_yandexgpt/el_chatmessage) - отправляет вопрос в чат с YandexGPT.
+     * [**Задать вопрос**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_yandexgpt/el_instruct) - задает вопрос YandexGPT.
 1. Опубликована библиотека **Primo.Collections**, которая добавляет в группу **Данные > Таблицы** следующие элементы:
    * [**Построить таблицу**](https://docs.primo-rpa.ru/g_elements/el_extra/els_collections/els_data_tables/build) - создает таблицу на основе данных, указанных в Мастере. Результат сохраняется в переменную типа DataTable.
    * [**Соединить таблицы**](https://docs.primo-rpa.ru/g_elements/el_extra/els_collections/els_data_tables/join) - производит объединение двух таблиц по указанным столбцам.
    * [**Изменить значение**](https://docs.primo-rpa.ru/g_elements/el_extra/els_collections/els_data_tables/updaterowitem) - обновляет значение строки в таблице DataTable в соответствии с указанным столбцом. 
    * [**Получить значение**](https://docs.primo-rpa.ru/g_elements/el_extra/els_collections/els_data_tables/getrowitem) - извлекает значение строки из таблицы DataTable в соответствии с указанным столбцом.
    
-1. В группу элементов **Приложение Word** добавлен компонент **Получение фигур**. С его помощью можно узнать название, расположение и цвет заливки фигур в документе. Данные могут пригодиться при автоматизации обработки пользовательских форм.
+1. В группу элементов **Приложение Word** добавлен компонент **Получение фигур**. С его помощью можно узнать название, расположение и цвет заливки фигур в документе. Данные могут пригодиться для автоматизации обработки пользовательских форм.
 
    ![](<../../.gitbook/assets1/word-get-shapes.png>)
 
 1. У элемента [**Открыть браузер**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_browser/el_browser_open) появилось свойство **Состояние загрузки**, определяющее ожидаемый статус загрузки веб-страницы. Теперь переход к первому элементу в контейнере будет осуществляться только при указанном состоянии загрузки. Если страница не загрузится в установленный таймаут, выполнение проекта завершится ошибкой. Доступные значения:
-   * *None* - не ждать загрузки страницы. Используется для обратной совместимости и установлено по умолчанию. 
-   * *Interactive* - система будет ждать загрузки страницы и построения DOM-дерева, но дополнительные ресурсы могут продолжать загружаться. Например: изображения, `<iframe>`.
+   * *None* - не ждать загрузки страницы. Используется для обратной совместимости, установлено по умолчанию. 
+   * *Interactive* - система будет ждать загрузки страницы и построения DOM-дерева, но дополнительные ресурсы могут продолжать загружаться. Например, изображения, `<iframe>`.
    * *Complete* - ждать полной загрузки веб-страницы, указанной в контейнере.
 1. Улучшена производительность элемента **Прочитать таблицу** (Браузер) при работе с таблицами в несколько тысяч строк. Изменение не затрагивает работу одноименного браузерного элемента из Поколения 1.
 1. Для элементов SAP [**Эмуляция спецкнопки**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_sap/el_sap_hotkey) и [**Ввод текста**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_sap/el_sap_input) добавлено свойство **Строгий тайм-аут**. Настройка позволяет незамедлительно прерывать выполнение элемента по истечении таймаута.
