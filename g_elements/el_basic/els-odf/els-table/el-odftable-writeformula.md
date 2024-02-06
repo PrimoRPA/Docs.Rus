@@ -6,8 +6,7 @@
 
 **Примечания**:
 
-1. Путь до файла, тип драйвера и другие параметры предварительно настраиваются в контейнере [Таблица ODF](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els-odf/els-table/el-odftable-table).
-2. Если в файле требуется сохранить изменения, то после ввода формулы используйте элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els-odf/els-table/el-odftable-save).
+Если в файле требуется сохранить изменения, то после ввода формулы используйте элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els-odf/els-table/el-odftable-save).
 
 ## Свойства
 
