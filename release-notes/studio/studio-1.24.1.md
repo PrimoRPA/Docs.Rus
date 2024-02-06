@@ -25,7 +25,7 @@
 1. Опубликована библиотека **Primo.AI**, позволяющая автоматизировать работу с нейросетями. Библиотека содержит следующие элементы:
    * GigaChat
      * [**Получить токен**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_gigachat/el_gettoken) - получает токен GigaChat.
-     * [**Вопрос в чат**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_gigachat/el_chatmessage) - отправляет вопрос в GigaChat. 
+     * [**Вопрос в чат**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_gigachat/el_chatmessage) - отправляет указанный вопрос в GigaChat. 
    * YandexGPT
      * [**Создать чат**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_yandexgpt/el_chat) - создает чат с YandexGPT.
      * [**Вопрос в чат**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_yandexgpt/el_chatmessage) - отправляет вопрос в чат с YandexGPT.
