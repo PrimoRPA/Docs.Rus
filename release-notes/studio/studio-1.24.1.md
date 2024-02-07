@@ -18,8 +18,8 @@
      * [**Вопрос в чат**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_gigachat/el_chatmessage) - отправляет указанный вопрос в GigaChat. 
    * YandexGPT
      * [**Создать чат**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_yandexgpt/el_chat) - создает чат с YandexGPT.
-     * [**Вопрос в чат**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_yandexgpt/el_chatmessage) - отправляет вопрос в чат с YandexGPT.
-     * [**Задать вопрос**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_yandexgpt/el_instruct) - задает вопрос YandexGPT.
+     * [**Вопрос в чат**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_yandexgpt/el_chatmessage) - отправляет вопрос в чат с YandexGPT. Используйте этот элемент, если вам необходимо поддерживать диалог чат-бота и отправлять запросы в синхронном режиме.
+     * [**Задать вопрос**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_yandexgpt/el_instruct) - задает вопрос YandexGPT. Используйте этот элемент, если ваш вопрос не требует срочного ответа и, следовательно, можно отправить запрос в асинхронном режиме. В асинхронном режиме генерация текста займет больше времени, но ответ будет качественнее и дешевле.
 
 #### Библиотека Primo.Collections
 
