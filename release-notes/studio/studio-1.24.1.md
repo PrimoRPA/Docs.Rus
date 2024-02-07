@@ -12,7 +12,7 @@
 
    ![](<../../.gitbook/assets1/buttonAIchat (1).png>)
 
-1. Опубликована библиотека **Primo.AI**, позволяющая автоматизировать работу с языковыми моделями. В первом релизе появилась возможность работы с Sber GigaChat и Yandex YandexGPT. По запросу могут быть добавлены дополнительные модели. Библиотека содержит элементы:
+1. Опубликована библиотека **Primo.AI**, позволяющая автоматизировать работу с языковыми моделями. В первом релизе поддерживается работа с Sber GigaChat и Yandex YandexGPT. По запросу могут быть добавлены дополнительные модели. Библиотека содержит элементы:
    * GigaChat
      * [**Получить токен**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_gigachat/el_gettoken) - получает токен GigaChat.
      * [**Вопрос в чат**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_gigachat/el_chatmessage) - отправляет указанный вопрос в GigaChat. 
@@ -23,7 +23,7 @@
 
 #### Библиотека Primo.Collections
 
-1. Опубликована библиотека **Primo.Collections** для автоматизации действий с таблицами. Библиотека добавляет в группу **Данные > Таблицы** следующие элементы:
+1. Опубликована библиотека **Primo.Collections** для автоматизации действий с таблицами. Библиотека добавляет набор элементов в группу **Данные > Таблицы**, а именно:
    * [**Построить таблицу**](https://docs.primo-rpa.ru/g_elements/el_extra/els_collections/els_data_tables/build) - создает таблицу на основе данных, указанных в Мастере. Результат сохраняется в переменную типа DataTable.
    * [**Соединить таблицы**](https://docs.primo-rpa.ru/g_elements/el_extra/els_collections/els_data_tables/join) - производит объединение двух таблиц по указанным столбцам.
    * [**Изменить значение**](https://docs.primo-rpa.ru/g_elements/el_extra/els_collections/els_data_tables/updaterowitem) - обновляет значение строки в таблице DataTable в соответствии с указанным столбцом. 
