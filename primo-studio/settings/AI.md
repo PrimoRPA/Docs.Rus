@@ -61,11 +61,12 @@
 
     ![](<../../.gitbook/assets1/add-project-gigachat.png>)
 
-3. Перейдите в проект GigaChat и нажмите кнопку **Сгенерировать ClientSecret**. Сохраните ваш ClientSecret и авторизационные данные.
+3. Перейдите в проект GigaChat и нажмите кнопку **Сгенерировать ClientSecret**.
+4. Сохраните ваш ClientSecret и авторизационные данные.
 
    ![](<../../.gitbook/assets1/auth-data-sber.png>)
 
-4. Получите токен. 
+6. Получите токен. 
 
    :small_blue_diamond: ***Токен действует в течение 30 минут с момента выпуска.***.
   
