@@ -51,7 +51,7 @@
 15.	Заполните форму создания платежного аккаунта.
 16.	Используйте токен (см. шаг 6) и ID папки (см. шаг 8) в следующих случаях:
     * в элементах YandexGPT из библиотеки **Primo.AI**;
-    * для настройки интеграции Студии с YandexGPT после установки плагина `Primo.AI.Plugin.dll`.
+    * для настройки [интеграции](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings#integraciya) Студии с YandexGPT после установки плагина `Primo.AI.Plugin.dll`.
 
 ## GigaChat
 
@@ -61,6 +61,18 @@
 
     ![](<../../.gitbook/assets1/add-project-gigachat.png>)
 
-3.	Перейдите в проект GigaChat и нажмите кнопку **Сгенерировать ClientSecret**.
-4.	Запомните ClientSecret и используйте его в элементе **Создать токен** из библиотеки **Primo.AI**.
+3. Перейдите в проект GigaChat и нажмите кнопку **Сгенерировать ClientSecret**. Сохраните ваш ClientSecret.
+4. Получите токен. 
+
+   :small_blue_diamond: ***Токен действует в течение 30 минут с момента выпуска.***.
+  
+   **Способ 1**
+   
+   * Скачайте библиотеку **Primo.AI** через менеджер зависимостей Студии.
+   * В элементе **GigaChat > Создать токен** укажите ваш ClientSecret. В ответе робот вернет токен.
+   * После получения токена можно отправлять вопросы в чат через элемент **GigaChat > Вопрос в чат**. 
+  
+    **Способ 2**
+
+   Если токен нужен не для использования в библиотеке, а для настройки [интеграции](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings#integraciya) Студии со Sber AI, можно [получить токен через Postman](https://developers.sber.ru/docs/ru/gigachat/api/authorization#shag-2-poluchenie-tokena-dostupa-v-obmen-na-avtorizatsionnye-dannye). Далее укажите его в разделе **Файл > Настройки > Интеграция > AI** в полях **Token** и **Key**. 
 
