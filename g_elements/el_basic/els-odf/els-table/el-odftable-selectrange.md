@@ -1,6 +1,6 @@
 # Выделение диапазона
 
-![](<../../../../.gitbook/assets/image (346).png>)
+![](<../../../../.gitbook/assets1/Cropped-SelectRange.png>)
 
 Компонент, выделяющий диапазон ячеек Excel.
 
