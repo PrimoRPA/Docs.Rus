@@ -80,5 +80,5 @@
 
    Если токен нужен для настройки [интеграции](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings#integraciya) Студии со Sber AI, его также можно [получить через Postman](https://developers.sber.ru/docs/ru/gigachat/api/authorization#shag-2-poluchenie-tokena-dostupa-v-obmen-na-avtorizatsionnye-dannye). Для этого вам понадобятся авторизационные данные, которые вы сохранили в шаге 4.
 
-   Полученный токен укажите в разделе **Файл > Настройки > Интеграция > AI** в полях **Token** и **Key**. 
+   Полученный токен укажите в разделе **Файл > Настройки > Интеграция > AI** в полях **Token** и **Key** для языковой модели Sber AI. 
 
