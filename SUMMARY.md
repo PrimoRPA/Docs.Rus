@@ -841,7 +841,7 @@
   * [Ресурсы](orchestrator/basics/assets.md)
   * [Очереди обмена данными](orchestrator/basics/queues/data-queues.md)
     * [Элементы очереди](orchestrator/basics/queues/items.md)
-  * [Добавить роботов в группу](orchestrator/basics/assign-task.md)
+  * [Привязать роботов к проекту](orchestrator/basics/assign-task.md)
   * [Привязать RDP-пользователя к роботу](orchestrator/basics/assign-rdp.md)
 * [Мониторинг](orchestrator/monitoring/README.md)
   * [Журнал Оркестратора](orchestrator/monitoring/orch-log.md)
@@ -906,7 +906,6 @@
 * [Настройка формул](idea-hub/formulas.md)
 * [Создание индикаторов](idea-hub/indicators.md)
 * [Интеграция с LDAP](idea-hub/integration-ldap.md)
-
 
 
 
