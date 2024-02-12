@@ -1,6 +1,6 @@
 # Вставить таблицу
 
-![](<../../../../../.gitbook/assets1/Cropped-InsertTable.png>)
+![](<../../../../.gitbook/assets1/Cropped-InsertTable.png>)
 
 Элемент, читающий таблицу из документа. Элемент работает корректно только внутри контейнера Word
 
