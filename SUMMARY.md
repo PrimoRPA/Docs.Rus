@@ -94,6 +94,11 @@
   * [Редактор диалогов](primo-studio/tools/dialogs-editor.md)
 * [Горячие клавиши](primo-studio/hotkeys.md)
 
+## Primo Studio Linux
+* [Общая информация](primo-studio-linux/overview.md)
+* [Системные требования](primo-studio-linux/studio-linux-sysreq.md)
+* [Развертывание Astra Linux на виртуальной машине](primo-studio-linux/astra-linux-setup.md)
+
 ## Элементы в Studio <a href="#g_elements" id="g_elements"></a>
 
 * [Основные](g\_elements/el\_basic/README.md)
