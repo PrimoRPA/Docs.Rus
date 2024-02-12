@@ -1,4 +1,4 @@
-# ODF Документ
+# Документ ODF
 
 ![](<../../../../.gitbook/assets1/Cropped-DocumentODF.png>)
 
