@@ -16,3 +16,30 @@
 3. **Как текст** *[Boolean]*: Определите, нужно ли вставлять значение, как текст.
 4. **Данные\*** *[String]*: Данные, вводимые в ячейку. Может быть использована строковая переменная.
 5. **Ячейка\*** *[String]*: Идентификатор ячейки. Пример: `"A4"`. 
+
+## Только код
+
+Пример использования элемента в процессе с типом **Только код (Pure code)**:
+
+{% tabs %}
+{% tab title="C#" %}
+```csharp
+Primo.Office.OdfOxml.ExcelApp app = Primo.Office.OdfOxml.ExcelApp.Init(wf, "file");
+app.WriteCell("A1", "text", "Лист1", 0);
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```python
+app = Primo.Office.OdfOxml.ExcelApp.Init(wf, "file")
+app.WriteCell("A1", "text", "Лист1", 0)
+```
+{% endtab %}
+
+{% tab title="JavaScript" %}
+```javascript
+var app = _lib.Primo.Office.OdfOxml.ExcelApp.Init(wf, "file");
+app.WriteCell("A1", "text", "Лист1", 0);
+```
+{% endtab %}
+{% endtabs %}

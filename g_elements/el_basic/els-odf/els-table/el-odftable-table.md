@@ -15,3 +15,30 @@
 3. **Пароль** *[String]*: Пароль от файла Excel.
 4. **Пароль (зашифрованный)** *[[SecureString](https://learn.microsoft.com/ru-ru/dotnet/api/system.security.securestring?view=net-8.0)]*: Зашифрованный пароль от файла Excel. 
 5. **Массив байтов** *[byte\[]]*: Массив байтов документа.
+
+## Только код
+
+Пример использования элемента в процессе с типом **Только код (Pure code)**:
+
+{% tabs %}
+{% tab title="C#" %}
+```csharp
+Primo.Office.OdfOxml.ExcelApp app = Primo.Office.OdfOxml.ExcelApp.Init(wf, "file");
+Primo.Office.OdfOxml.ExcelApp app = Primo.Office.OdfOxml.ExcelApp.Init(wf, System.IO.File.ReadAllBytes("file"));
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```python
+app = Primo.Office.OdfOxml.ExcelApp.Init(wf, "file")
+app = Primo.Office.OdfOxml.ExcelApp.Init(wf, System.IO.File.ReadAllBytes("file"))
+```
+{% endtab %}
+
+{% tab title="JavaScript" %}
+```javascript
+var app = _lib.Primo.Office.OdfOxml.ExcelApp.Init(wf, "file");
+var app = _lib.Primo.Office.OdfOxml.ExcelApp.Init(wf, _lib.System.IO.File.ReadAllBytes("file"));
+```
+{% endtab %}
+{% endtabs %}
