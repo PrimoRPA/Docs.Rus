@@ -1,1 +1,1 @@
-# AI
+# Primo.AI
