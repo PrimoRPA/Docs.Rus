@@ -11,3 +11,10 @@
 2. **Страница** *[String]*: Наименование страницы.
 3. **Индекс страницы** *[Int32]*: Индекс страницы.
 4. **Направление\***: Направление сортировки.                                   
+
+## Только код
+Пример использования элемента в процессе с типом Только код (Pure code):  
+
+**C#**  
+`Primo.Office.OdfOxml.ExcelApp app = Primo.Office.OdfOxml.ExcelApp.Init(wf, [file]);`  
+`app.SortRange(range, [dir], [sheet], [sheetIdx]);`
