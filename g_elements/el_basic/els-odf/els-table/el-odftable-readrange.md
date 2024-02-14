@@ -17,3 +17,12 @@
 7. **Переменная (информация)** *[List\<List \<[LTools.Office.Model.ExcelCellInfo](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/prilozhenie-excel/datatypes/excelcellinfo)>>]*: Переменная для хранения результатов о чтении дополнительной информации о ячейках: например, о цвете шрифта.
 8. **Переменная (таблица)** *[[System.Data.DataTable](https://learn.microsoft.com/ru-ru/dotnet/api/system.data.datatable?view=net-6.0)]*: Переменная для хранения результатов чтения в табличном виде.
 9. **Учитывать типы полей ячеек Excel** *[Boolean]*: Нужно ли учитывать типы ячеек в таблице Excel.
+
+## Только код
+Пример использования элемента в процессе с типом Только код (Pure code):  
+
+**C#**  
+`Primo.Office.OdfOxml.ExcelApp app = Primo.Office.OdfOxml.ExcelApp.Init(wf, [file]);`  
+`List<List<string>> data = app.ReadRange(range, [sheet], [sheetIdx]);`  
+`List<List<LTools.Office.Model.ExcelCellInfo>> data = app.ReadRangeInfo(range, [sheet], [sheetIdx]);`  
+`System.Data.DataTable data = app.ReadRangeTable(range, [sheet], [sheetIdx]);`
