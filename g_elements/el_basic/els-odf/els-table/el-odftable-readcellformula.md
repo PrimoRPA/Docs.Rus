@@ -12,3 +12,10 @@
 2. **Страница** *[String]*: Название страницы с указанной ячейкой.
 3. **Индекс страницы** *[Int32]*: Порядковый номер страницы, отсчет с 0.
 4. **Формула\*** *[String]*: Формула, полученная из ячейки.
+
+## Только код
+Пример использования элемента в процессе с типом Только код (Pure code):  
+
+**C#**  
+`Primo.Office.OdfOxml.ExcelApp app = Primo.Office.OdfOxml.ExcelApp.Init(wf, [file]);`  
+`String data = app.ReadCellFormula(cell, [sheet], [sheetIdx]);`
