@@ -37,14 +37,21 @@
 
 ![](<../../../../.gitbook/assets1/сбер свойства вопрос.png>)
 
-Пример отладки процесса:
+## Просмотр ответа
 
-![](<../../../../.gitbook/assets1/сбер отладка.png>)
-
-Пример просмотра ответа в переменной:
+Чтобы просмотреть ответ GigaChat, установите [точку останова](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/debug#tochka-ostanova), запустите [отладку](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/debug) процесса и на панели [**Вывод**](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/debug#panel-vyvod) откройте текущее значение переменной:
 
 ![](<../../../../.gitbook/assets1/сбер переменная ответа.png>)
 
+Пример отладки процесса с записью ответа в консоль:
+
+![](<../../../../.gitbook/assets1/сбер отладка.png>)
+
+## Полезные материалы
+
+* [Как формулировать запросы к GigaChat](https://developers.sber.ru/help/gigachat/prompt-guide);
+* [Примеры удачных запросов](https://developers.sber.ru/help/gigachat/prompt-examples);
+* [Ответы на общие вопросы о GigaChat](https://developers.sber.ru/help/gigachat/faq).
 
 
 
