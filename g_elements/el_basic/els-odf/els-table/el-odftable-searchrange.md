@@ -12,3 +12,10 @@
 3. **Страница** *[String]*: Наименование страницы.
 4. **Индекс страницы** *[Int32]*: Индекс страницы.
 5. **Переменная** *[String]*: Переменная для хранения результатов поиска.
+
+## Только код
+Пример использования элемента в процессе с типом Только код (Pure code):  
+
+**C#**  
+`Primo.Office.OdfOxml.ExcelApp app = Primo.Office.OdfOxml.ExcelApp.Init(wf, [file]);`  
+`string data = app.LookUpRange(range, text, [sheet], [sheetIdx]);`
