@@ -1,6 +1,6 @@
 # Изменение шрифта
 
-![]    (<../../../.gitbook/assets1/Cropped-WriteFormula.png>)
+![](<../../../.gitbook/assets1/Cropped-WriteFormula.png>)
 
 Компонент, изменяющий шрифт диапазона ячеек в Excel.
 
@@ -17,3 +17,10 @@
 6. **Полужирный**: Полужирный.
 7. **Наклонный**: Наклонный.
 8. **Подчеркнутый**: Подчеркнутый.
+
+## Только код
+Пример использования элемента в процессе с типом Только код (Pure code):  
+
+**C#**  
+`Primo.Office.OdfOxml.ExcelApp app = Primo.Office.OdfOxml.ExcelApp.Init(wf, [file]);`    
+`app.SetFont(data, range, color, size, bold, italic, underline, [sheet], [sheetIdx]);`
