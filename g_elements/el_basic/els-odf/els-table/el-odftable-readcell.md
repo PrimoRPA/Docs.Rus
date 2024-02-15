@@ -13,3 +13,9 @@
 3. **Индекс страницы** *[Int32]*: Порядковый номер страницы, отсчет начинается с 0. Пример: `0`.
 4. **Данные\*** *[Object]*: Переменная, в которой будут храниться данные, полученные из ячейки.
 
+## Только код
+Пример использования элемента в процессе с типом Только код (Pure code):  
+
+**C#**  
+`Primo.Office.OdfOxml.ExcelApp app = Primo.Office.OdfOxml.ExcelApp.Init(wf, [file]);`  
+`object data = app.ReadCell(cell, [sheet], [sheetIdx]);`

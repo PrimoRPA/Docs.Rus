@@ -10,3 +10,11 @@
 1. **Закладка** *[String]*: Имя закладки, определяющей начало записи. Если не указано, запись производится в конец текста 
 2. **Начало** *[Int32]*: Индекс начала вставки                                                                         
 3. **Текст\*** *[String]* Данные, вводимые в документ                                                                   
+
+## Только код
+Пример использования элемента в процессе с типом Только код (Pure code):
+
+C#:  
+`Primo.Office.OdfOxml.WordApp app = Primo.Office.OdfOxml.WordApp.Init(wf, "fileName");`  
+`app.AppendText(text, [selStart]);`  
+`app.AppendText(text, bookmark);`
