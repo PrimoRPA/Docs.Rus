@@ -4,6 +4,10 @@
 
 Компанией Primo RPA разрабатываются версии продукта Primo Studio, предназначенные для работы с операционными системами Windows и Linux. Информацию о версии Primo Studio для Windows можно найти [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-studio/editions).
 
+Primo Studio для Линукс аккредитован для использования и внесен в список совместимого программного обеспечения для следующих операционных систем:
+* [РЕД ОС](https://redos.red-soft.ru/compatible/?SECTION=&q=Primo) (результаты испытаний подтвержены [сертификатами совместимости](https://primo-rpa.ru/tpost/y627gjkdj1-platforma-primo-rpa-poluchila-akkreditat))
+* [Astra Linux](https://astralinux.ru/ready-for-astra/compatible-software/28792/)
+
 Версия продукта Primo Studio для Линукс в данный момент отличается по своим функциональным возможностям от версии для Windows и не является ее полноценным аналогом; часть функциональности находится в процессе разработки.
 
 **Возможности Primo RPA Studio Linux:**
