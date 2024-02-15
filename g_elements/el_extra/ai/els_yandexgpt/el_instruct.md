@@ -35,7 +35,7 @@
 
 Пример заполнения свойств:
 
-![](<../../../../.gitbook/assets1/свойства задать вопрос.png>)
+![](<../../../../.gitbook/assets1/parameters-WFInstruct.png>)
 
 
 
