@@ -25,7 +25,7 @@
 
 ## Установка браузера Chrome
 
-Для регистрации репозиториев в качестве источников пакетов указанные ниже строки должны быть добавлены в файл /etc/apt/sources.list     
+Для регистрации репозиториев в качестве источников пакетов добавьте указанные ниже строки в файл `/etc/apt/sources.list`.     
 `deb [trusted=yes] https://deb.debian.org/debian/ buster main contrib non-free`    
 `deb https://security.debian.org/debian-security/ buster/updates main contrib non-free`
 
