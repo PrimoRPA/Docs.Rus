@@ -26,6 +26,7 @@
    ![](<../../../.gitbook/assets1/depend-nuget-primo-ai.png>)
 
 3. Установите пакет:
+   
    *Нажмите кнопку **Установить**.
 
    ![](<../../../.gitbook/assets1/1-install-primo-ai.png>)
