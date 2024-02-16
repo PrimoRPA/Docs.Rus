@@ -50,8 +50,8 @@
 
 15.	Заполните форму создания платежного аккаунта.
 16.	Используйте токен (см. шаг 6) и ID папки (см. шаг 8) в следующих случаях:
-    * в элементах YandexGPT из библиотеки **Primo.AI**;
-    * для настройки [интеграции](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings#integraciya) Студии с YandexGPT после установки плагина `Primo.AI.Plugin.dll`.
+    * в элементах [YandexGPT](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai/yandexgpt) из библиотеки [**Primo.AI**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai);
+    * для настройки интеграции Студии с YandexGPT после установки плагина `Primo.AI.Plugin.dll`. Функция будет доступна с версии 1.24.1.
 
 ## GigaChat
 
@@ -73,12 +73,12 @@
    **Способ 1**
    
    * Скачайте библиотеку **Primo.AI** через менеджер зависимостей Студии.
-   * В элементе **GigaChat > Создать токен** укажите ваши авторизационные данные. В ответе робот вернет токен.
-   * После получения токена можно отправлять вопросы в чат через элемент **GigaChat > Вопрос в чат**. 
+   * В элементе **GigaChat > [Получить токен](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai/gigachat/el_gettoken)** укажите ваши авторизационные данные. В ответе робот вернет токен.
+   * После получения токена можно отправлять вопросы в чат через элемент **GigaChat > [Вопрос в чат](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai/gigachat/el_chatmessage)**. 
   
     **Способ 2**
 
-   Если токен нужен для настройки [интеграции](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings#integraciya) Студии со Sber AI, его также можно [получить через Postman](https://developers.sber.ru/docs/ru/gigachat/api/authorization#shag-2-poluchenie-tokena-dostupa-v-obmen-na-avtorizatsionnye-dannye). Для этого вам понадобятся авторизационные данные, которые вы сохранили в шаге 4.
+   Если токен нужен для настройки интеграции Студии со Sber AI, его также можно [получить через Postman](https://developers.sber.ru/docs/ru/gigachat/api/authorization#shag-2-poluchenie-tokena-dostupa-v-obmen-na-avtorizatsionnye-dannye). Для этого вам понадобятся авторизационные данные, которые вы сохранили в шаге 4.
 
-   Полученный токен укажите в разделе **Файл > Настройки > Интеграция > AI** в полях **Token** и **Key** для языковой модели Sber AI. 
+   Полученный токен укажите в разделе **Файл > Настройки > Интеграция > AI** в полях **Token** и **Key** для языковой модели Sber AI. Данные настройки будут доступными с версии 1.24.1.
 
