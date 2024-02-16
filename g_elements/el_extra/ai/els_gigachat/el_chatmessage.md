@@ -13,7 +13,7 @@
 
 ## Предварительные условия
 
-Для успешной отправки вопроса сначала следует [получить токен](https://github.com/PrimoRPA/Docs.Rus/blob/1134-%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C-%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D0%B0%D0%BA%D0%B5%D1%82%D0%B0-ai/g_elements/el_extra/ai/els_gigachat/el_gettoken.md). Токен действует в течение 30-ти минут, после чего его потребуется обновить.
+Для успешной отправки вопроса сначала следует [получить токен](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai/gigachat/el_gettoken). Токен действует в течение 30-ти минут, после чего его потребуется обновить.
 
 
 ## Свойства
@@ -39,7 +39,7 @@
 
 ## Просмотр ответа
 
-Чтобы просмотреть ответ GigaChat, установите [точку останова](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/debug#tochka-ostanova), запустите [отладку](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/debug) процесса и на панели [**Вывод**](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/debug#panel-vyvod) откройте текущее значение переменной:
+Чтобы просмотреть ответ GigaChat, установите [точку останова](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/debug#tochka-ostanova) и запустите [отладку](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/debug) процесса. На панели [**Вывод**](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/debug#panel-vyvod) откройте текущее значение переменной:
 
 ![](<../../../../.gitbook/assets1/сбер переменная ответа.png>)
 
