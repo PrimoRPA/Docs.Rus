@@ -13,7 +13,7 @@
 
 ## Предварительные условия
 
-Должен быть создан и настроен чат с YandexGPT.
+Должен быть [создан и настроен чат](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai/yandexgpt/el_chat) с YandexGPT.
 
 
 ## Свойства
