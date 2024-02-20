@@ -8,7 +8,7 @@
 ## Свойства
 Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
 
-**«Входные данные»**:
+#### Входные данные
 
 1. **Путь к модели\*** *[String]* — путь сохранения файла модели.
 2. **Имя файла\*** *[String]* — путь к файлу CSV, содержащему данные для обучения.
@@ -20,7 +20,7 @@
 6. **Номер колонок данных\*** *[String]* —  номера колонок, содержащих данные (1, 4-5). Значение по умолчанию: `"1-4"`.
 7. **Разделитель\*** *[String]* — разделитель колонок CSV. Значение по умолчанию: `";"`.
 
-**«Вывод»**:
+#### Вывод
 
 * **Результат** *[Aura.MachineLearning.Model.[ClassificationTrainingResult](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_machine_learning/datatypes/classificationtrainingresult)]* — результат обучения модели.
 
