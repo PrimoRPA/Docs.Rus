@@ -18,4 +18,4 @@ description: Classification
 
 #### Вывод
 
-* **Результат** *[List<Aura.MachineLearning.Model.MLNet.[PredictionResultStr](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_machine_learning/datatypes/predictionresultstr)>]* — результат классификации.
+* **Результат** *[List<[Aura.MachineLearning.Model.MLNet.PredictionResultStr](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_machine_learning/datatypes/predictionresultstr)>]* — результат классификации.
