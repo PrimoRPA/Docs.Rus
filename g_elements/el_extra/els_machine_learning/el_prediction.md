@@ -1,8 +1,13 @@
+---
+description: Prediction
+---
+
+
 # Предсказание
 
-![](<../../../.gitbook/assets/image (232).png>)
+Элемент осуществляет предсказание на основе обученной модели. Модель предварительно обучают с помощью элемента [**Обучение модели предсказания**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_machine_learning/el_prediction_study).
 
-Элемент осуществляет предсказание на основе обученной модели.
+![](<../../../.gitbook/assets/image (232).png>)
 
 
 ## Свойства
@@ -10,10 +15,10 @@
 
 #### Входные данные
 
-1. **Путь к модели\*** *[String]* — путь к файлу модели.
-2. **Данные\*** *[System.Data.DataTable]* — данные для предсказания.
+1. **Путь к модели\*** *[String]* — путь к файлу модели. Пример: `System.IO.Path.Combine(_Workflow.ProjectPath, "Models\\model.ml")`.
+2. **Данные\*** *[System.Data.DataTable]* — входные данные для предсказания.
 
 
 #### Вывод
 
-* **Результат** *[List<Aura.MachineLearning.Model.MLNet.[PredictionResultFloat](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_machine_learning/datatypes/predictionresultfloat)>]* — результат предсказания.
+* **Результат** *[List<[Aura.MachineLearning.Model.MLNet.PredictionResultFloat](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_machine_learning/datatypes/predictionresultfloat)>]* — результат предсказания.

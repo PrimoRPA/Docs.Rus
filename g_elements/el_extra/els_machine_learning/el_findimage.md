@@ -1,3 +1,8 @@
+---
+description: Image search
+---
+
+
 # Поиск изображений
 
 Элемент осуществляет поиск и классификацию знакомых изображений внутри изображения.
@@ -15,7 +20,7 @@
 
 #### Вывод
 
-* **Результат** *[List<Aura.MachineLearning.Model.[ImageObjectResult](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_machine_learning/datatypes/imageobjectresult)>]* — массив найденных объектов.
+* **Результат** *[List<[Aura.MachineLearning.Model.ImageObjectResult](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_machine_learning/datatypes/imageobjectresult)>]* — массив найденных объектов.
 
 
 
