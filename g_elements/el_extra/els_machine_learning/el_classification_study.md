@@ -27,7 +27,7 @@ description: Classification model training
 
 #### Вывод
 
-* **Результат** *[Aura.MachineLearning.Model.[ClassificationTrainingResult](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_machine_learning/datatypes/classificationtrainingresult)]* — результат обучения модели.
+* **Результат** *[[Aura.MachineLearning.Model.ClassificationTrainingResult](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_machine_learning/datatypes/classificationtrainingresult)]* — результат обучения модели.
 
 ## Использование модели
 
