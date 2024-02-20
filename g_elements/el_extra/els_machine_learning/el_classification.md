@@ -1,6 +1,10 @@
+---
+description: Classification
+---
+
 # Классификация
 
-Элемент осуществляет классификацию на основе обученной модели.
+Элемент осуществляет классификацию входных данных на основе обученной модели. Модель, которую вы будете использовать, предварительно обучают с помощью элемента [Обучение модели классификации](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_machine_learning/el_classification_study).
 
 ![](<../../../.gitbook/assets/image (216).png>)
 
@@ -9,8 +13,8 @@
 
 #### Входные данные
 
-* **Путь к модели\*** *[String]* — путь к файлу модели. 
-* **Данные\*** *[System.Data.DataTable]* — данные для классификации. 
+* **Путь к модели\*** *[String]* — путь к файлу модели. Пример: `System.IO.Path.Combine(_Workflow.ProjectPath, "Models\\model.ml")`.
+* **Данные\*** *[[System.Data.DataTable](https://learn.microsoft.com/ru-ru/dotnet/api/system.data.datatable?view=net-8.0&viewFallbackFrom=net-4.6.1)]* — входные данные для классификации.
 
 #### Вывод
 
