@@ -15,7 +15,7 @@
 * [**Классификация**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_machine_learning/el_classification) — элемент осуществляет классификацию на основе обученной модели.
 * [**Обучение модели предсказания**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_machine_learning/el_prediction_study) — элемент производит обучение модели предсказания данных.
 * [**Предсказание**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_machine_learning/el_prediction) — элемент осуществляет предсказание на основе обученной модели.
-* [**Поиск изображений**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_machine_learning/el_findimage) — элемент осуществляет поиск и классификацию знакомых изображений внутри изображения.
+* **Поиск изображений** — *в настоящее время не используется.*
 
 
 ## Установка библиотеки 
