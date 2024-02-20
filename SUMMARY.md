@@ -725,7 +725,6 @@
     * [Классификация](g\_elements/el\_extra/els\_machine\_learning/el\_classification.md) 
     * [Обучение модели предсказания](g\_elements/el\_extra/els\_machine\_learning/el\_prediction\_study.md)
     * [Предсказание](g\_elements/el\_extra/els\_machine\_learning/el\_prediction.md)
-    * [Поиск изображений](g\_elements/el\_extra/els\_machine\_learning/el\_findimage.md)
   * [Мессенджеры](g\_elements/el\_extra/els\_messengers/README.md)
     * [AutoFAQ](g\_elements/el\_extra/els\_messengers/autofaq/README.md)
       * [Отправить текст](g\_elements/el\_extra/els\_messengers/autofaq/el\_send.md)
