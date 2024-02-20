@@ -24,7 +24,7 @@
 
 #### Вывод
 
-* **Результат** *[Aura.MachineLearning.Model.[PredictionTrainingResult](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_machine_learning/datatypes/predictiontrainingresult)]* — результат обучения модели.
+* **Результат** *[[Aura.MachineLearning.Model.PredictionTrainingResult](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_machine_learning/datatypes/predictiontrainingresult)]* — результат обучения модели.
 
 
 ## Использование модели
