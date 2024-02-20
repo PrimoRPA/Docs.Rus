@@ -98,6 +98,13 @@
 * [Общая информация](primo-studio-linux/overview.md)
 * [Системные требования](primo-studio-linux/studio-linux-sysreq.md)
 * [Развертывание Astra Linux на виртуальной машине](primo-studio-linux/astra-linux-setup.md)
+* [Установка](primo-studio-linux/installation/readme.md)
+  * [Astra Linux](primo-studio-linux/installation/installation-astra/readme.md)
+    * [Настройка машины робота - Astra Linux](primo-studio-linux/installation/installation-astra/install-robot-astra.md)
+  * [РЕД ОС](primo-studio-linux/installation/installation-redos/readme.md)
+    * [Настройка машины робота - РЕД ОС](primo-studio-linux/installation/installation-redos/install-robot-redos.md)
+  * [CentOS](primo-studio-linux/installation/installation-centos/readme.md)
+    * [Настройка машины робота - CentOS](primo-studio-linux/installation/installation-centos/install-robot-centos.md)
 
 ## Элементы в Studio <a href="#g_elements" id="g_elements"></a>
 
@@ -753,8 +760,8 @@
     * [Сохранить документ](g\_elements/el\_extra/els\_powerpoint/el\_powerpoint\_save.md)
     * [Удалить слайд](g\_elements/el\_extra/els\_powerpoint/el\_powerpoint\_deleteslide.md)
 * [Линукс](g_elements/el_linux/readme.md)
-    * [ODF - Документы](g_elements/el_basic/els-odf/els-document/readme.md)
- 	* [Ввод текста](g_elements/el_basic/els-odf/els-document/el-odfdoc-inputtext.md)
+  * [ODF - Документы](g_elements/el_basic/els-odf/els-document/readme.md)
+  	* [Ввод текста](g_elements/el_basic/els-odf/els-document/el-odfdoc-inputtext.md)
 	* [Вставить таблицу](g_elements/el_basic/els-odf/els-document/el-odfdoc-inserttable.md)
 	* [Вставка изображения](g_elements/el_basic/els-odf/els-document/el-odfdoc-insertpic.md)
 	* [ODF Документ](g_elements/el_basic/els-odf/els-document/el-odfdoc-documentodf.md)
@@ -764,7 +771,7 @@
 	* [Сохранить документ](g_elements/el_basic/els-odf/els-document/el-odfdoc-savedoc.md)
 	* [Чтение текста](g_elements/el_basic/els-odf/els-document/el-odfdoc-readtext.md)
 	* [Экспортировать документ](g_elements/el_basic/els-odf/els-document/el-odfdoc-exportdoc.md)
-    * [ODF - Таблицы](g_elements/el_basic/els-odf/els-table/readme.md)
+  * [ODF - Таблицы](g_elements/el_basic/els-odf/els-table/readme.md)
 	* [Ввод в ячейку](g_elements/el_basic/els-odf/els-table/el-odftable-inputcell.md)
 	* [Ввод формулы в ячейку](g_elements/el_basic/els-odf/els-table/el-odftable-writeformula.md)
 	* [Вставка колонок](g_elements/el_basic/els-odf/els-table/el-odftable-insertcolumn.md)
@@ -788,7 +795,6 @@
   	* [Чтение колонки](g_elements/el_basic/els-odf/els-table/el-odftable-readcolumn.md)
   	* [Чтение из ячейки](g_elements/el_basic/els-odf/els-table/el-odftable-readcell.md)
   	* [Чтение формулы из ячейки](g_elements/el_basic/els-odf/els-table/el-odftable-readcellformula.md)
-  	* 
 
 ## Primo Robot
 
