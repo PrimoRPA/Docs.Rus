@@ -29,3 +29,4 @@
 
 ## Использование модели
 
+Чтобы применить обученную модель для предсказания данных, воспользуйтесь элементом [**Предсказание**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_machine_learning/el_prediction).
