@@ -33,6 +33,14 @@ description: Prediction model training
 * **Результат** *[[Aura.MachineLearning.Model.PredictionTrainingResult](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_machine_learning/datatypes/predictiontrainingresult)]* — результат обучения модели.
 
 
-## Использование модели
+## Как использовать модель
 
 Чтобы применить обученную модель для предсказания данных, воспользуйтесь элементом [**Предсказание**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_machine_learning/el_prediction).
+
+## Пример использования
+
+На странице [Learning](https://github.com/PrimoRPA/Learning) доступен RPA-проект, демонстрирующий работу элемента.
+
+1. Скачайте архив со всеми обучающими материалами по ссылке: [Скачать архив Learning](https://github.com/PrimoRPA/Learning/archive/refs/heads/master.zip).
+2. Распакуйте архив, запустите Primo Studio и откройте проект **MachineLearning**.
+3. Выберите процесс `Prediction.ltw` для просмотра.
