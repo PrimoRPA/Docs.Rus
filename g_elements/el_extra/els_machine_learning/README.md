@@ -12,6 +12,8 @@
 
 ## Primo.MachineLearning
 
+:small_orange_diamond: ***Библиотеку возможно использовать только с архитектурой робота x64***.
+
 [**Primo.MachineLearning**](https://www.nuget.org/packages/Primo.MachineLearning/) — это библиотека с набором элементов для машинного обучения. После того как вы установите библиотеку в Студии, на панели элементов появится группа **Машинное обучение**:
 
 ![](<../../../.gitbook/assets1/items-Primo.MachineLearning.png>)
