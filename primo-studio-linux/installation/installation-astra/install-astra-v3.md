@@ -1,4 +1,4 @@
-# Установка Primo RPA Studio Linux на Astra Linux v3
+# Установка Primo Studio Linux на Astra Linux v3
 
 На экране **Настройка учётных записей пользователей и паролей** создайте пользователя-администратора (далее – primo-admin) машины Студии.
 
