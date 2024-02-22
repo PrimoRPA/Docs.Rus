@@ -100,11 +100,12 @@
 * [Развертывание Astra Linux на виртуальной машине](primo-studio-linux/astra-linux-setup.md)
 * [Установка](primo-studio-linux/installation/readme.md)
   * [Astra Linux](primo-studio-linux/installation/installation-astra/readme.md)
-    * [Настройка машины робота - Astra Linux](primo-studio-linux/installation/installation-astra/install-robot-astra.md)
+    * [Установка Studio Linux на Astra Linux](primo-studio-linux/installation/installation-astra/install-astra-v3.md)
+    * [Настройка машины робота на Astra Linux](primo-studio-linux/installation/installation-astra/install-robot-astra.md)
   * [РЕД ОС](primo-studio-linux/installation/installation-redos/readme.md)
-    * [Настройка машины робота - РЕД ОС](primo-studio-linux/installation/installation-redos/install-robot-redos.md)
+    * [Настройка машины робота на РЕД ОС](primo-studio-linux/installation/installation-redos/install-robot-redos.md)
   * [CentOS](primo-studio-linux/installation/installation-centos/readme.md)
-    * [Настройка машины робота - CentOS](primo-studio-linux/installation/installation-centos/install-robot-centos.md)
+    * [Настройка машины робота на CentOS](primo-studio-linux/installation/installation-centos/install-robot-centos.md)
 
 ## Элементы в Studio <a href="#g_elements" id="g_elements"></a>
 
