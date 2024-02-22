@@ -1,6 +1,6 @@
 # Установка Primo RPA Studio Linux на Astra Linux v3
 
-На экране Настройка учётных записей и паролей создайте пользователя-администратора (далее – primo-admin) машины Студии.
+На экране **Настройка учётных записей пользователей и паролей** создайте пользователя-администратора (далее – primo-admin) машины Студии.
 
 ![](<../../../.gitbook/assets1/Astra-Linux.png>)
 
@@ -32,8 +32,8 @@
 Скачайте дистрибутив браузера, для этого выполните из домашней папки  
 `[primo-admin@astra-studio ~]$ sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb` 
 
-Откройте домашнюю папку в проводнике и двойным щелчком на файле google-chrome-stable_current_amd64.deb выполните установку браузера. 
-После установки файл google-chrome-stable_current_amd64.deb можно удалить.
+Откройте домашнюю папку в проводнике и двойным щелчком на файле *google-chrome-stable_current_amd64.deb* выполните установку браузера. 
+После установки файл *google-chrome-stable_current_amd64.deb* можно удалить.
 
 Проверка: выполните указанную ниже команду; если браузер запустится, установка прошла успешно  
 `[primo-admin@astra-studio ~]$ google-chrome`
