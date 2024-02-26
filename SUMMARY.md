@@ -909,6 +909,7 @@
 	* [Создание процесса](idea-hub/processes/create-process.md)
 	* [Редактирование процесса](idea-hub/processes/edit-process.md)
 	* [Файл process.xlsx](idea-hub/file-process.md)
+        * [Файл areas.xlsx](idea-hub/file-areas.md)
 * [Импорт из Оркестратора](idea-hub/import-from-orchestrator.md)
 * [Настройка cron](idea-hub/cron.md)
 * [Настройка формул](idea-hub/formulas.md)
