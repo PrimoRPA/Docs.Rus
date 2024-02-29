@@ -4,7 +4,7 @@
 
 ## Обновления
 
-1. Добавлены [общие папки](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/shared-folders) — функциональность облегчает организацию доступа к объектам Оркестратора и упрощает контроль за действиями роботов. По умолчанию функция отключена, [разрешить ее использование](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/fine-tuning/shared-folders) можно в конфигурационном файле.\
+1. Добавлены [общие папки](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/shared-folders) — функциональность облегчает организацию доступа к объектам Оркестратора и упрощает контроль за действиями роботов. По умолчанию функция отключена, [разрешить ее использование](https://docs.primo-rpa.ru/primo-rpa/orchestrator/fine-tuning/shared-folders) можно в конфигурационном файле.\
    \
    На текущий момент папки не работают с такими объектами, как ресурсы и очереди обмена данными. Реализовать возможность их использования планируется в следующих релизах.
 1. Робот Оркестратора ([unattended-робот](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/licensing#tipy-licenzii-v-orkestratore)) теперь может использовать учетную запись, созданную администратором. Такой записи обязательно должна быть назначена встроенная роль Robot и, опционально, роль с гибкими правами. Ранее робот мог использовать для работы только встроенную учетную запись **robot**. 
@@ -116,7 +116,7 @@
 
 ## Где найти
 [Скачать комплект поставки Оркестратора:](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease%2FOrchestrator)
-* **Primo RPA Orchestrator 1.24.1 FULL.zip** - полный комплект поставки, в который входят дистрибутивы Оркестратора и внешних компонентов: например, базы данных PostgreSQL Server, брокера сообщений RabbitMQ и др. 
-* **Primo RPA Orchestrator 1.24.1.zip** - облегченный вариант поставки.
+* **Primo RPA Orchestrator 1.24.2 FULL.zip** - полный комплект поставки, в который входят дистрибутивы Оркестратора и внешних компонентов: например, базы данных PostgreSQL Server, брокера сообщений RabbitMQ и др. 
+* **Primo RPA Orchestrator 1.24.2.zip** - облегченный вариант поставки.
 
-[Скачать дистрибутив Robot Enterprise](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease%2FRobot). Архив должен иметь название **Primo RPA Robot Orchestrator <архитектура> 1.24.1.zip**. Дистрибутив этого робота загружается непосредственно в Оркестратор.
+[Скачать дистрибутив Robot Enterprise](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease%2FRobot). Архив должен иметь название **Primo RPA Robot Orchestrator <архитектура> 1.24.2.zip**. Дистрибутив этого робота загружается непосредственно в Оркестратор.
