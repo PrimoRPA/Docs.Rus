@@ -14,20 +14,20 @@
 
 1. Опубликована библиотека **Primo.AI**, позволяющая автоматизировать работу с языковыми моделями. Первый релиз поддерживает работу с Sber GigaChat и Yandex YandexGPT. По запросу могут быть добавлены дополнительные модели. Библиотека содержит элементы:
    * GigaChat
-     * [**Получить токен**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_gigachat/el_gettoken) - получает токен GigaChat.
-     * [**Вопрос в чат**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_gigachat/el_chatmessage) - отправляет указанный вопрос в GigaChat. 
+     * [**Получить токен**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_gigachat/el_gettoken) — получает токен GigaChat.
+     * [**Вопрос в чат**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_gigachat/el_chatmessage) — отправляет указанный вопрос в GigaChat. 
    * YandexGPT
-     * [**Создать чат**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_yandexgpt/el_chat) - создает чат с YandexGPT.
-     * [**Вопрос в чат**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_yandexgpt/el_chatmessage) - отправляет вопрос в чат с YandexGPT. Используйте этот элемент, если вам необходимо поддерживать диалог чат-бота и отправлять запросы в синхронном режиме.
-     * [**Задать вопрос**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_yandexgpt/el_instruct) - задает вопрос YandexGPT. Используйте этот элемент, если ваш вопрос не требует срочного ответа и, следовательно, можно отправить запрос в асинхронном режиме. В асинхронном режиме генерация текста займет больше времени, но ответ будет качественнее и дешевле.
+     * [**Создать чат**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_yandexgpt/el_chat) — создает чат с YandexGPT.
+     * [**Вопрос в чат**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_yandexgpt/el_chatmessage) — отправляет вопрос в чат с YandexGPT. Используйте этот элемент, если вам необходимо поддерживать диалог чат-бота и отправлять запросы в синхронном режиме.
+     * [**Задать вопрос**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_yandexgpt/el_instruct) — задает вопрос YandexGPT. Используйте этот элемент, если ваш вопрос не требует срочного ответа и, следовательно, можно отправить запрос в асинхронном режиме. В асинхронном режиме генерация текста займет больше времени, но ответ будет качественнее и дешевле.
 
 #### Библиотека Primo.Collections
 
 1. Опубликована библиотека **Primo.Collections** для автоматизации действий с таблицами. Библиотека добавляет набор элементов в группу **Данные > Таблицы**, а именно:
-   * [**Построить таблицу**](https://docs.primo-rpa.ru/g_elements/el_extra/els_collections/els_data_tables/build) - создает таблицу на основе данных, указанных в Мастере. Результат сохраняется в переменную типа DataTable.
-   * [**Соединить таблицы**](https://docs.primo-rpa.ru/g_elements/el_extra/els_collections/els_data_tables/join) - производит объединение двух таблиц по указанным столбцам.
-   * [**Изменить значение**](https://docs.primo-rpa.ru/g_elements/el_extra/els_collections/els_data_tables/updaterowitem) - обновляет значение строки в таблице DataTable в соответствии с указанным столбцом. 
-   * [**Получить значение**](https://docs.primo-rpa.ru/g_elements/el_extra/els_collections/els_data_tables/getrowitem) - извлекает значение строки из таблицы DataTable в соответствии с указанным столбцом.
+   * [**Построить таблицу**](https://docs.primo-rpa.ru/g_elements/el_extra/els_collections/els_data_tables/build) — создает таблицу на основе данных, указанных в Мастере. Результат сохраняется в переменную типа DataTable.
+   * [**Соединить таблицы**](https://docs.primo-rpa.ru/g_elements/el_extra/els_collections/els_data_tables/join) — производит объединение двух таблиц по указанным столбцам.
+   * [**Изменить значение**](https://docs.primo-rpa.ru/g_elements/el_extra/els_collections/els_data_tables/updaterowitem) — обновляет значение строки в таблице DataTable в соответствии с указанным столбцом. 
+   * [**Получить значение**](https://docs.primo-rpa.ru/g_elements/el_extra/els_collections/els_data_tables/getrowitem) — извлекает значение строки из таблицы DataTable в соответствии с указанным столбцом.
    
 
 #### Элементы
@@ -37,9 +37,9 @@
    ![](<../../.gitbook/assets1/word-get-shapes.png>)
 
 1. У элемента [**Открыть браузер**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_browser/el_browser_open) появилось свойство **Состояние загрузки**. Теперь возможно определить ожидаемый статус загрузки веб-страницы - переход к первому элементу в контейнере будет осуществлен только при указанном статусе. Если страница не загрузится в установленный таймаут, возникнет ошибка. Доступные значения:
-   * *None* - не ждать загрузки страницы. Используется для обратной совместимости, установлено по умолчанию. 
-   * *Interactive* - система будет ждать загрузки страницы и построения DOM-дерева, но дополнительные ресурсы могут продолжать загружаться. Например, изображения, `<iframe>`.
-   * *Complete* - ждать полной загрузки веб-страницы, указанной в контейнере.
+   * *None* — не ждать загрузки страницы. Используется для обратной совместимости, установлено по умолчанию. 
+   * *Interactive* — система будет ждать загрузки страницы и построения DOM-дерева, но дополнительные ресурсы могут продолжать загружаться. Например, изображения, `<iframe>`.
+   * *Complete* — ждать полной загрузки веб-страницы, указанной в контейнере.
 1. Улучшена производительность элемента **Прочитать таблицу** (Браузер) при работе с таблицами в несколько тысяч строк. Изменение не затрагивает работу одноименного браузерного элемента из Поколения 1.
 1. Для элементов SAP [**Эмуляция спецкнопки**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_sap/el_sap_hotkey) и [**Ввод текста**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_sap/el_sap_input) добавлено свойство **Строгий тайм-аут**. Настройка позволяет незамедлительно прерывать выполнение элемента по истечении таймаута.
 
@@ -150,5 +150,5 @@
 [Скачать дистрибутив Primo RPA Studio Enterprise](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease%2FStudio).
 
 [Скачать дистрибутив Primo RPA Robot](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease%2FRobot):
-* **Primo RPA Robot 1.24.2** - предназначен для установки на локальной рабочей станции. Выступает в роли цифрового ассистента пользователя. Дистрибутив поставляется в разрядности x64 и x86.
-* **Primo RPA Robot Orchestrator 1.24.2** - предназначен для автоматической установки Оркестратором. Дистрибутив поставляется в разрядности x64 и x86.
+* **Primo RPA Robot 1.24.2** — предназначен для установки на локальной рабочей станции. Выступает в роли цифрового ассистента пользователя. Дистрибутив поставляется в разрядности x64 и x86.
+* **Primo RPA Robot Orchestrator 1.24.2** — предназначен для автоматической установки Оркестратором. Дистрибутив поставляется в разрядности x64 и x86.
