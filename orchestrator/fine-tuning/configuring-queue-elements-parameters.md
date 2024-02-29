@@ -29,7 +29,7 @@
 
 Иллюстрация работы PrefetchBuffer:
 
-![](<../../../.gitbook/assets/prefetch-buffer.png>)
+![](<../../.gitbook/assets/prefetch-buffer.png>)
 
 В момент запроса t1 очередь еще работает в обычном режиме, запрос обслуживается напрямую в БД. 
 
