@@ -4,6 +4,6 @@
 
 Время таймаута указывается в секундах.
 
-![](<../../../.gitbook/assets/timeout-robot-status-sec.png>)
+![](<../../.gitbook/assets/timeout-robot-status-sec.png>)
 
 :bangbang: ***Остальные параметры в этой секции запрещено менять без согласования с вендором.***
