@@ -803,7 +803,7 @@
 * [Варианты установки Оркестратора](orchestrator/quick-installation/README.md)
   * [Установка Оркестратора на веб-сервер IIS](orchestrator/quick-installation/IIS-web-server.md)
   * [Установка Оркестратора на веб-сервер Nginx](orchestrator/quick-installation/nginx-web-server.md)
-* [Тонкая настройка Оркестратора](orchestrator/fine-tuning/README.md)
+* [Тонкая настройка](orchestrator/fine-tuning/README.md)
   * [Внешняя поддержка RDP-сессии](orchestrator/fine-tuning/rdp-sessions.md)
   * [Настройка RDP-сессии](orchestrator/fine-tuning/disabling-rdp-sessions.md)
   * [Трансляция RDP-сессии](orchestrator/fine-tuning/broadcast-rdp-session.md)
