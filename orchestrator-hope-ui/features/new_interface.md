@@ -22,10 +22,10 @@ UI 3.0 – это новый интерфейс Primo RPA Orchestrator, резу
 Видеообзор нового интерфейса доступен по [ссылке](https://www.youtube.com/watch?v=SlxgjXDrvsM).
 
 
-<a href="https://www.youtube.com/watch?v=SlxgjXDrvsM"><img src="../.gitbook/assets1/youtube-hope-ui-part1.gif" width="850" title="hover text"></a>
+<a href="https://www.youtube.com/watch?v=SlxgjXDrvsM"><img src="../../.gitbook/assets1/youtube-hope-ui-part1.gif" width="850" title="hover text"></a>
 
 
-## Начало работы с Hope UI
+## Начало работы с UI 3
 
 **Основное меню**: На левой стороне экрана располагается основное меню для быстрой навигации между разделами.
 
