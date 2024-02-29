@@ -868,7 +868,7 @@
   * [Приложение 3 - События Оркестратора](orchestrator/appendix/appendix3.md)
 
 
-## Hope UI <a href="#orchestrator-hope-ui" id="orchestrator-hope-ui"></a>
+## UI 3 <a href="#orchestrator-hope-ui" id="orchestrator-hope-ui"></a>
 
 * [Особенности](orchestrator-hope-ui/features/features.md)
   * [Новый интерфейс Оркестратора](orchestrator-hope-ui/features/new_interface.md)
