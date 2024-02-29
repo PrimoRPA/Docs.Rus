@@ -2,7 +2,7 @@
 
 Параметры трансляции RDP-сессий находятся в секции `RDP` в конфиг-файле WebApi:
 
-![](<../../../.gitbook/assets/broadcast-rdp-session.png>)
+![](<../../.gitbook/assets/broadcast-rdp-session.png>)
 
 | Параметр            | Назначение           | Примечание         | 
 | ------------------- | -------------------- | ------------------ |
@@ -16,11 +16,11 @@
 
   На рисунке ниже приведен пример конфигурации Nginx для одного экземпляра RDP2:
 
-  ![](<../../../.gitbook/assets/config-nginx-for-1-instance-rdp2.png>)
+  ![](<../../.gitbook/assets/config-nginx-for-1-instance-rdp2.png>)
 
   Если используется IIS, настройка осуществляется аналогично в `Web.config` узла Primo.UI\*. На рисунке ниже приведен пример конфигурации IIS для одного экземпляра RDP2:
 
-  ![](<../../../.gitbook/assets/config-iis-for-1-instance-rdp2.png>)
+  ![](<../../.gitbook/assets/config-iis-for-1-instance-rdp2.png>)
 
   В конфигурационном файле WebApi используется только параметр `RdpBaseUrl`, параметр `RdpBaseUrls` не используется.
 
@@ -34,7 +34,7 @@
 
   Множество машин роботов поделено (без пересечения) между экземплярами за счет параметра `AddressFilter`:
 
-  ![](<../../../.gitbook/assets/config-for-some-instance-rdp2.png>)
+  ![](<../../.gitbook/assets/config-for-some-instance-rdp2.png>)
 
   В конфиге WebApi используется только параметр `RdpBaseUrls`. Параметр `RdpBaseUrl` не используется. 
 
@@ -47,6 +47,6 @@
  
   :bangbang: ***В секции `EnabledOrigins` конфигурационного файла каждого экземпляра службы RDP2 должен быть прописан внешний URL Оркестратора***:
 
-  ![](<../../../.gitbook/assets/enabledorigins-in-config-rdp2.png>)
+  ![](<../../.gitbook/assets/enabledorigins-in-config-rdp2.png>)
 
 
