@@ -1,9 +1,9 @@
 # Тонкая настройка
 Тонкая настройка Оркестратора осуществляется в конфигурационном файле WebApi:
-* appsettings.ProdWin.json - для WebApi под Windows (папка `Distr` > `Windows`);
-* appsettings.ProdLinux.json - для WebApi под Linux (папка `Distr` > `Linux`).
+* appsettings.ProdWin.json - для WebApi под Windows (папка `Distr` > `Windows` в комплекте поставки);
+* appsettings.ProdLinux.json - для WebApi под Linux (папка `Distr` > `Linux` в комплекте поставки).
 
-В тонкую настройку входят возможности:
+В тонкую настройку входят следующие возможности:
 1. [Внешняя поддержка RDP-сессии](https://docs.primo-rpa.ru/primo-rpa/orchestrator/fine-tuning/rdp-sessions).
 1. [Отключение/разлогинивание RDP-сессий](https://docs.primo-rpa.ru/primo-rpa/orchestrator/fine-tuning/disabling-rdp-sessions).
 1. [Трансляция RDP-сессии](https://docs.primo-rpa.ru/primo-rpa/orchestrator/fine-tuning/broadcast-rdp-session).
