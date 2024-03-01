@@ -53,4 +53,4 @@
 
 ##  Дополнительно
 
-См. как [создать AD-пользователя]().
+См. как [создать AD-пользователя](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/users/ad-users).
