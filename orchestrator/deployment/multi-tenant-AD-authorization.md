@@ -4,8 +4,9 @@
 
 ```
 "ActiveDirectory": {
-   "Type": 5,
-    "MultyForest": ,
+    "KerberosKeytabPath: "/opt/Primo/krb5.keytab",
+    "Type": 5,
+    "MultyForest":  ,
     "MultyTenantsGroup": true
  },
 ```
