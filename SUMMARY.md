@@ -786,6 +786,7 @@
   * [Контроль целостности конфигурационных файлов](orchestrator/deployment/integrity-of-configs.md)
   * [Интеграция с Active Directory](orchestrator/deployment/AD-integration.md)
   * [Мультитенантность](orchestrator/deployment/tenants.md)
+  * [Мультитенантная AD-авторизация](orchestrator/deployment/multi-tenant-AD-authorization.md) 
   * [Интеграция с внешними системами через Webhooks](orchestrator/deployment/integration.md)
   * [Первоначальная настройка Оркестратора](orchestrator/deployment/initial-setup.md)
   * [Устранение неполадок](orchestrator/deployment/troubleshooting.md)
