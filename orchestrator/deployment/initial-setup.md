@@ -5,6 +5,7 @@
 2. [Опубликовать в Оркестраторе дистрибутивы роботов](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/upload-robot). 
 3. [Настроить и зарегистрировать](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/register-robot) машины роботов.
 4. [Развернуть роботов](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/deploy-robot) на настроенных машинах. Это действие также может выполнить обычный пользователь при наличии соответствующих прав.
+5. [Устранить неполадки](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/troubleshooting), если они возникли при развертывании роботов.
 
 Все указанные настройки выполняются администратором в UI Оркестратора. После этого Оркестратор будет готов к работе. 
 
