@@ -35,9 +35,11 @@
 * Улучшен шаблон ReFramework. В шаблоне были исправлены найденные ошибки и учтен опыт RPA-разработчиков.
 * Добавлен линейный шаблон проекта на двух языках (ru/eng). Шаблон включает в себя последовательный вызов сценариев для завершения процессов Windows, инициализацию настроек в конфигурационном файле, обработку возможных ошибок в бизнес-процессе и др.
 
+[Шаблон проектов](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects/project_template) доступен в разделе меню **Файл ➝ Проект**:
+
 ![](<../../.gitbook/assets1/шаблон проекта.png>)
 
-Демонстрационный проект с ипользованием шаблонов доступен на [Learning](https://github.com/PrimoRPA/Learning/tree/master) — см. папку **StudioTemplatesProjectExample**.
+Демонстрационный проект с ипользованием шаблонов добавлен на [Learning](https://github.com/PrimoRPA/Learning/tree/master) — см. папку **StudioTemplatesProjectExample**.
 
 
 #### Элементы
