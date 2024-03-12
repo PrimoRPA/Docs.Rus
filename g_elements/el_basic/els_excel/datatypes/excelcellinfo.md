@@ -1,6 +1,8 @@
 # ExcelCellInfo
 
-LTools.Office.Model.ExcelCellInfo
+LTools.Office.Model.ExcelCellInfo — информация о ячейке Excel. 
+
+:small_blue_diamond: *Символ `?` в типе данных указывает на то, что значение может быть null.*
 
 | Свойство         | Тип                                           | Описание                                          |
 | ---------------- | --------------------------------------------- | ------------------------------------------------- |
@@ -12,5 +14,5 @@ LTools.Office.Model.ExcelCellInfo
 | CustomBorderType | LTools.Office.Model.ExcelCustomBorderTypes\[] | Бордюры при использовании ExcelBorderTypes.Custom |
 | Height           | [double](https://learn.microsoft.com/ru-ru/dotnet/api/system.double?view=net-5.0&viewFallbackFrom=windowsdesktop-3.0)? | Высота строки (определяется первой ячейкой)       |
 
-Символ ? в типе данных указывает на то, что значение может быть null.
+
 
