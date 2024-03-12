@@ -39,8 +39,7 @@
 
 ![](<../../.gitbook/assets1/шаблон проекта.png>)
 
-Демонстрационный проект с ипользованием шаблонов добавлен на [Learning](https://github.com/PrimoRPA/Learning/tree/master) — см. папку **StudioTemplatesProjectExample**.
-
+Демонстрационный проект с ипользованием шаблонов можно найти в нашем публичном репозитории [Learning](https://github.com/PrimoRPA/Learning/tree/master). См. каталог **StudioTemplatesProjectExample**.
 
 #### Элементы
 
