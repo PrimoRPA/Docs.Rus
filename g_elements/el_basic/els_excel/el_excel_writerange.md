@@ -4,14 +4,16 @@ description: Append range
 
 # Запись диапазона
 
-Элемент записывает данные в диапазон ячеек. Данные указываются в свойствах элемента в виде переменной. Переменная может содержать данные в виде текста, таблицы либо информации о ячейках.
+Элемент записывает данные в диапазон ячеек. 
 
-![](<../../../.gitbook/assets/image (317).png>)
+Общие сведения:
+* Данные указываются в свойствах элемента в виде переменной. Переменная может содержать данные в виде текста, таблицы либо информации о ячейках.
+* Путь до файла и настройки подключения к Excel настраиваются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app).
 
-Путь до файла и настройки подключения к Excel настраиваются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app).
+:small_blue_diamond: ***Совет***. *Чтобы в файле сохранились изменения, используйте элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_save).*
 
-:small_blue_diamond: ***Совет***. *Чтобы в файле сохранились изменения, используйте также элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_save).*
 
+![](<../../../.gitbook/assets1/append-range-with-save.png>)
 
 ## Свойства
 
