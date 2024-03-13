@@ -7,7 +7,7 @@ description: Run macro
 
 Элемент выполняет макрос Excel. Поддерживает работу только с драйвером Interop. Драйвер указывается в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app). 
 
-Макросы — это команды, записанные на языке VBA (Visual Basic for Applications). Они используются для автоматизации часто повторяющихся действий в Excel. 
+Макросы — команды, записанные на языке VBA (Visual Basic for Applications). Они используются для автоматизации часто повторяющихся действий в Excel. 
 
 Перед выполнением элемента убедитесь, что в Excel [включены макросы](https://support.microsoft.com/ru-ru/office/%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D0%B0%D1%80%D0%B0%D0%BC%D0%B5%D1%82%D1%80%D0%BE%D0%B2-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D0%BC%D0%B0%D0%BA%D1%80%D0%BE%D1%81%D0%BE%D0%B2-%D0%B2-excel-a97c09d2-c082-46b8-b19f-e8621e8fe373). В конце работы рекомендуем использовать элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/prilozhenie-excel/el_excel_save), чтобы все изменения применились.
 
