@@ -8,7 +8,7 @@ description: Run macro
 
 Элемент выполняет макрос Excel. Элемент поддерживает работу только с драйвером Interop. Драйвер указывается в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app).
 
-В конце работы с файлом используйте элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/prilozhenie-excel/el_excel_save), если вы хотите, чтобы изменения применились.
+В конце работы с файлом используйте элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/prilozhenie-excel/el_excel_save), чтобы изменения применились.
 
 
 
