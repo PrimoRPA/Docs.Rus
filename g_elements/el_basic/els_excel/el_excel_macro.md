@@ -4,13 +4,14 @@ description: Run macro
 
 # Запустить макрос
 
-Элемент выполняет макрос Excel. Поддерживает работу только с драйвером Interop. Драйвер заранее указывается в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app). 
 
-Перед выполнением элемента убедитесь, что в Excel [включены макросы](https://support.microsoft.com/ru-ru/office/%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D0%B0%D1%80%D0%B0%D0%BC%D0%B5%D1%82%D1%80%D0%BE%D0%B2-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D0%BC%D0%B0%D0%BA%D1%80%D0%BE%D1%81%D0%BE%D0%B2-%D0%B2-excel-a97c09d2-c082-46b8-b19f-e8621e8fe373).
+Элемент выполняет макрос Excel. Поддерживает работу только с драйвером Interop. Драйвер указывается в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app). 
 
-В конце работы рекомендуем использовать элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/prilozhenie-excel/el_excel_save), чтобы все изменения применились.
+Макросы — это команды, написанные на языке VBA (Visual Basic for Applications). Они используются для автоматизации повторяющихся действий в Excel. 
 
-![](<../../../.gitbook/assets1/WFRunMacro.png>)
+Перед выполнением элемента убедитесь, что в Excel [включены макросы](https://support.microsoft.com/ru-ru/office/%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D0%B0%D1%80%D0%B0%D0%BC%D0%B5%D1%82%D1%80%D0%BE%D0%B2-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D0%BC%D0%B0%D0%BA%D1%80%D0%BE%D1%81%D0%BE%D0%B2-%D0%B2-excel-a97c09d2-c082-46b8-b19f-e8621e8fe373). В конце работы рекомендуем использовать элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/prilozhenie-excel/el_excel_save), чтобы все изменения применились.
+
+![](<../../../.gitbook/assets1/WFRunMacro-right.png>)
 
 
 
@@ -20,8 +21,8 @@ description: Run macro
 | Свойство       | Тип           | Описание             |
 | -------------- | ------------- | -------------------- |
 | ***Excel***    |               |                      |
-| Наименование\* | String        | Название макроса. Указывается без названия файла, в котором он находится     |
-| Аргументы\*    | List\<object> | Аргументы макроса. Можно передавать до 10 аргументов |
+| Наименование\* | String        | Имя макроса. Указывается без названия файла, в котором он находится     |
+| Аргументы\*    | List\<object> | Входные аргументы макроса. Можно передавать до 10 аргументов |
 | Видимость\*    | Boolean       | Видимость Excel. По умолчанию чекбокс отключен — приложение Excel не отображается на экране |
 | Асинхронный    | Boolean       | Признак асинхронного выполнения. По умолчанию чекбокс отключен — макрос выполняется синхронно |
 | Тайм-аут       | int           | Предельное время выполнения макроса (мс). По умолчанию тайм-аут не задан |
