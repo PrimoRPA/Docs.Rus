@@ -31,7 +31,7 @@ description: Run macro
 
 Пример заполненных свойств:
 
-![](<../../../.gitbook/assets1/WFRunMacro-parameters.png>)
+![](<../../../.gitbook/assets1/WFRunMacro-parameters-2.png>)
 
 
 ## Пример использования
