@@ -68,7 +68,17 @@ app.SaveAs(".\\columns-rows.xlsx")
 
 {% tab title="JavaScript" %}
 ```javascript
-сюда вставляем пример кода на JavaScript
+//Свойства элемента:
+//app - [LTools.Office.ExcelApp] Приложение Excel
+//range - Кол-во: [Int32] Кол-во удаляемых строк
+//index - Индекс: [Int32] Индекс строки, которую необходимо удалить
+//sheet - Страница: [String] Наименование страницы
+//sheetIdx - Индекс страницы: [Int32] Индекс страницы
+//app.DeleteRows(index, range, [sheet], [sheetIdx]); 
+		
+let app = _lib.LTools.Office.ExcelApp.Init(wf, ".\\columns-rows.xlsx", ";", _lib.LTools.Office.Model.InteropTypes.DX);
+app.DeleteRows(2, 1, "Лист2", 1);
+app.SaveAs(".\\columns-rows.xlsx");
 ```
 {% endtab %}
 {% endtabs %}
