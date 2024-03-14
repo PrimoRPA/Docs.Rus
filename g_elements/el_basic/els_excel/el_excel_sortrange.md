@@ -6,7 +6,7 @@ description: Sort range
 
 Элемент сортирует данные в указанном диапазоне ячеек Excel.
 
-![](<../../../.gitbook/assets/image (336).png>)
+![](<../../../.gitbook/assets1/WFSortRange.png>)
 
 **Примечания**:
 

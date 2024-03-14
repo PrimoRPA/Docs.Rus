@@ -37,15 +37,52 @@ description: Set cell formula
 //Свойства элемента:
 //app - [LTools.Office.ExcelApp] Приложение Excel
 //cell - Ячейка: [String] Идентификатор ячейки (A4)
-//data - Формула: [String] Формула для записи в ячейку
+//text - Формула: [String] Формула, вводимая в ячейку
 //sheet - Страница: [String] Наименование страницы
 //sheetIdx - Индекс страницы: [Int32] Индекс страницы
-//String data = app.WriteCellFormula(cell, [data], [sheet], [sheetIdx]);
+//app.WriteCellFormula(cell, text, [sheet], [sheetIdx], [numFormat]);
 		
 LTools.Office.ExcelApp app = LTools.Office.ExcelApp.Init(wf, ".\\formula.xlsx", ";", LTools.Office.Model.InteropTypes.DX);
-String data="=SUM(C1:C10)";
-app.WriteCellFormula("C11",data,"Лист2", 1);
+String text="=SUM(C1:C11)";
+app.WriteCellFormula("C12",text,"Лист2", 1);
 app.Calculate();
 app.SaveAs(".\\formula.xlsx");
 ```
 {% endtab %}
+
+{% tab title="Python" %}
+```python
+#Свойства элемента:
+#app - [LTools.Office.ExcelApp] Приложение Excel
+#cell - Ячейка: [String] Идентификатор ячейки (A4)
+#text - Формула: [String] Формула, вводимая в ячейку
+#sheet - Страница: [String] Наименование страницы
+#sheetIdx - Индекс страницы: [Int32] Индекс страницы
+#app.WriteCellFormula(cell, text, [sheet], [sheetIdx], [numFormat])
+		
+app = LTools.Office.ExcelApp.Init(wf, ".\\formula.xlsx",";", LTools.Office.Model.InteropTypes.DX)
+text = "=SUM(C1:C10)"
+app.WriteCellFormula("C11", text, "Лист2", 1)
+app.Calculate();
+app.SaveAs(".\\formula.xlsx");
+```
+{% endtab %}
+
+{% tab title="JavaScript" %}
+```javascript
+//Свойства элемента:
+//app - [LTools.Office.ExcelApp] Приложение Excel
+//cell - Ячейка: [String] Идентификатор ячейки (A4)
+//text - Формула: [String] Формула, вводимая в ячейку
+//sheet - Страница: [String] Наименование страницы
+//sheetIdx - Индекс страницы: [Int32] Индекс страницы
+//app.WriteCellFormula(cell, text, [sheet], [sheetIdx], [numFormat]);
+		
+let app = _lib.LTools.Office.ExcelApp.Init(wf, ".\\formula.xlsx", ";", _lib.LTools.Office.Model.InteropTypes.DX);
+var text = "=SUM(C1:C10)";
+app.WriteCellFormula("C11", text, "Лист2", 1);
+app.Calculate();
+app.SaveAs(".\\formula.xlsx");
+```
+{% endtab %}
+{% endtabs %}
