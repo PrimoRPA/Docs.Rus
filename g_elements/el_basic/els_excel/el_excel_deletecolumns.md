@@ -1,3 +1,7 @@
+---
+description: Delete columns
+---
+
 # Удаление колонок
 
 ![](<../../../.gitbook/assets/image (473).png>)
@@ -11,7 +15,7 @@
 
 ## Свойства
 
-Описание общих свойств элемента см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
+Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
 Символ `*` в названии свойства указывает на обязательность заполнения.
 
 | Свойство        | Тип    | Описание                                                     |
