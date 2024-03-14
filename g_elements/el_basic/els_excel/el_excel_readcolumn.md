@@ -9,7 +9,7 @@ description: Read column
 
 Путь до файла, тип драйвера и другие параметры подключения к приложению настраиваются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app).
 
-![](<../../../.gitbook/assets/excel-read-column.png>)
+![](<../../../.gitbook/assets1/WFReadColumn.png>)
 
 
 
@@ -34,7 +34,9 @@ description: Read column
 RPA-проект, демонстрирующий работу элемента, можно найти в нашем публичном репозитории [Learning](https://github.com/PrimoRPA/Learning).
 
 1. Скачайте архив со всеми обучающими материалами по ссылке: [Скачать архив Learning](https://github.com/PrimoRPA/Learning/archive/refs/heads/master.zip).
-2. Распакуйте архив и откройте в Студии проект **WorkWithExcelExamples**.
+2. Распакуйте архив и откройте в Студии проект **WorkWithExcelExamples**. Проект состоит из процессов-последовательностей.
+
+
 
 
 ## Только код
