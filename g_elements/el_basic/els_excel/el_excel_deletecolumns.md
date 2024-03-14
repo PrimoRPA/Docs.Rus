@@ -20,7 +20,7 @@ description: Delete columns
 | Свойство        | Тип    | Описание                                                     | Пример         |
 | --------------- | ------ | ------------------------------------------------------------ | -------------- |
 | Кол-во\*        | Int32  | Количество удаляемых колонок                                 | `1`            |
-| Индекс\*        | Int32  | Порядковый номер колонки, которую необходимо удалить. Отсчет с 1|  `1`        |
+| Индекс\*        | Int32  | Порядковый номер колонки, которую необходимо удалить. Отсчет с 1 |  `1`        |
 | Страница        | String | Наименование страницы Excel, на которой находится колонка    | `"Лист 1"`     |
 | Индекс страницы | Int32  | Порядковый номер страницы с колонкой. Отсчет с 0             | `0`            |
 
@@ -28,16 +28,39 @@ description: Delete columns
 
 Пример использования элемента в процессе с типом **Только код** (Pure code):
 
+:small_orange_diamond: **Внимание**. До версии 1.24.2 метод `DeleteColumns` удалял строки вместо столбцов. В версии 1.24.2 ошибка была исправлена, метод удаляет столбцы.
+
 {% tabs %}
 {% tab title="C#" %}
 ```csharp
-сюда вставляем пример кода на C#
+//Свойства элемента:
+//app - [LTools.Office.ExcelApp] Приложение Excel
+//columnIdx - Индекс колонки: [Int32] Индекс колонки
+//count - Количество: [Int32] Количество колонок для удаления
+//sheet - Страница: [String] Наименование страницы
+//sheetIdx - Индекс страницы: [Int32] Индекс страницы
+		
+LTools.Office.ExcelApp app = LTools.Office.ExcelApp.Init(wf, ".\\columns-rows.xlsx", ";", LTools.Office.Model.InteropTypes.DX);
+Int32 columnIdx=3;
+Int32 count = 2;
+app.DeleteColumns(columnIdx,count,"Лист1",0); //Удаляет строки вместо столбцов
+app.Save();
 ```
 {% endtab %}
 
 {% tab title="Python" %}
 ```python
-сюда вставляем пример кода на Python
+#Свойства элемента: 
+#app - [LTools.Office.ExcelApp] Приложение Excel
+#range - Кол-во: [Int32] Кол-во удаляемых колонок
+#index - Индекс: [Int32] Индекс колонки, которую необходимо удалить
+#sheet - Страница: [String] Наименование страницы
+#sheetIdx - Индекс страницы: [Int32] Индекс страницы
+#app.DeleteColumns(index, range, [sheet], [sheetIdx])
+
+app = LTools.Office.ExcelApp.Init(wf, ".\\columns-rows.xlsx",";", LTools.Office.Model.InteropTypes.DX)
+app.DeleteColumns(2, 1, "Лист2", 1)
+app.SaveAs(".\\columns-rows.xlsx")
 ```
 {% endtab %}
 
