@@ -63,3 +63,16 @@ foreach (object value in data)
 }
 ```
 {% endtab %}
+
+{% tab title="Python" %}
+```python
+сюда вставляем пример кода на Python
+```
+{% endtab %}
+
+{% tab title="JavaScript" %}
+```javascript
+сюда вставляем пример кода на JavaScript
+```
+{% endtab %}
+{% endtabs %}
