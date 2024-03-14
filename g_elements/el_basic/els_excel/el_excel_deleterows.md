@@ -1,3 +1,8 @@
+---
+description: Delete rows
+---
+
+
 # Удаление строк
 
 ![](<../../../.gitbook/assets/image (536).png>)
