@@ -5,9 +5,14 @@ description: Read column
 
 # Чтение колонки
 
+Элемент считывает данные из указанного столбца. 
+
 ![](<../../../.gitbook/assets/excel-read-column.png>)
 
-Элемент считывает данные из колонки Excel. Путь до файла, тип драйвера и прочие параметры предварительно настраиваются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app). Элемент **Чтение колонки** размещается внутри этого контейнера.
+**Примечания**:
+
+1. Путь до файла, тип драйвера и другие параметры настраиваются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app). Элемент **Чтение колонки** размещается внутри контейнера.
+2. Если в файле требуется сохранить изменения, то после ввода формулы используйте элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_save).
 
 ## Свойства
 Описание общих свойств элемента см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
@@ -27,7 +32,11 @@ description: Read column
 ![](<../../../.gitbook/assets/excel-read-column2.png>)
 
 ## Пример использования
-Проект, в котором считываются данные из колонки, можно найти [здесь](https://github.com/PrimoRPA/Learning/tree/master/WorkWithExcelExample). Проект имеет название WorkWithExcelExample, в качестве типа процесса выбрана **Последовательность**. Чтобы просмотреть процессы проекта, загрузите его в Студию.
+RPA-проект, демонстрирующий работу элемента, можно найти в нашем публичном репозитории [Learning](https://github.com/PrimoRPA/Learning).
+
+1. Скачайте архив со всеми обучающими материалами по ссылке: [Скачать архив Learning](https://github.com/PrimoRPA/Learning/archive/refs/heads/master.zip).
+2. Распакуйте архив и откройте в Студии проект **WorkWithExcelExamples**.
+
 
 ## Только код
 
