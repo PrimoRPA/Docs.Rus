@@ -6,7 +6,7 @@ description: Excel workbook
 
 Элемент производит подключение к приложению Microsoft Excel. Параметры подключения указываются в свойствах элемента. 
 
-В сценарии автоматизации **Приложение Excel** выступает контейнером для других элементов Excel. В конце работы с файлом рекомендуется использовать элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g\_elements/osnovnye-elementy/prilozhenie-excel/el\_excel\_save), чтобы применить все изменения.
+В сценарии автоматизации **Приложение Excel** выступает контейнером для других элементов Excel. В конце работы с файлом рекомендуется использовать элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g\_elements/osnovnye-elementy/prilozhenie-excel/el\_excel\_save), чтобы все изменения применились.
 
 ![](<../../../.gitbook/assets1/excel-workbook-1.png>)
 
