@@ -6,7 +6,7 @@ description: Read cell
 
 Элемент считывает данные из ячейки Excel и сохраняет их в переменную. 
 
-Путь до файла, тип драйвера и прочие параметры предварительно настраиваются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app).
+Путь до файла, тип драйвера и прочие параметры подключения настраиваются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app).
 
 ![](<../../../.gitbook/assets1/WFReadCell.png>)
 
