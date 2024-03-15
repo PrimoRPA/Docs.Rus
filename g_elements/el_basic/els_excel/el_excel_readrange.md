@@ -1,15 +1,17 @@
+---
+description: Read range
+---
+
 # Чтение диапазона
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (10) (175).png>)
+Элемент считывает данные из диапазона ячеек Excel.
+
+Путь до файла, тип драйвера и прочие параметры работы с приложением настраиваются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app).
 
 ![](<../../../.gitbook/assets/image (75).png>)
 
-**Чтение диапазона (Read range)** - считывает данные из диапазона ячеек Excel.
-
-Путь до файла, тип драйвера и прочие параметры предварительно настраиваются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app).
-
 ## Свойства
-Описание общих свойств элемента см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
+Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
 Символ `*` в названии свойства указывает на обязательность заполнения.
 
 | Свойство                | Тип                                              | Описание                                                          |
@@ -31,11 +33,12 @@
 О том, как просмотреть при отладке процесса значение табличной переменной, можно узнать [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/debug#panel-vyvod). 
 
 
-## Обучающий пример
 
-На портале [Learning](https://github.com/PrimoRPA/Learning) представлен обучающий RPA-проект [WorkWithExcelExample](https://github.com/PrimoRPA/Learning/tree/master/WorkWithExcelExample), в котором используются различные элементы Excel, в том числе **Чтение диапазона**. 
+## Пример использования
+RPA-проект, демонстрирующий работу элемента, можно найти в нашем публичном репозитории [Learning](https://github.com/PrimoRPA/Learning).
 
-Вы можете скачать и запустить обучающий проект в Primo Studio, чтобы посмотреть результат чтения в переменной с типом DataTable, а также пример обработки этого результата.
+1. Скачайте архив со всеми обучающими материалами по ссылке: [Скачать архив Learning](https://github.com/PrimoRPA/Learning/archive/refs/heads/master.zip).
+2. Распакуйте архив и откройте в Студии проект **WorkWithExcelExamples**. Проект состоит из процессов-последовательностей.
 
 
 ## Только код
