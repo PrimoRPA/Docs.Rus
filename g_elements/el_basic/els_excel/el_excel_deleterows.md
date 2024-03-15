@@ -42,9 +42,9 @@ description: Delete rows
 //sheet - Страница: [String] Наименование страницы
 //sheetIdx - Индекс страницы: [Int32] Индекс страницы
 		
-LTools.Office.ExcelApp app = LTools.Office.ExcelApp.Init(wf, ".\\columns-rows.xlsx", ";", LTools.Office.Model.InteropTypes.DX);
+LTools.Office.ExcelApp app = LTools.Office.ExcelApp.Init(wf, ".\\rows.xlsx", ";", LTools.Office.Model.InteropTypes.DX);
 Int32 rowIdx=3;
-Int32 count = 2;
+Int32 count = 1;
 app.DeleteRows(rowIdx,count,"Лист2",1);
 app.Save();
 ```
@@ -60,9 +60,9 @@ app.Save();
 #sheetIdx - Индекс страницы: [Int32] Индекс страницы
 #app.DeleteRows(index, range, [sheet], [sheetIdx])
 
-app = LTools.Office.ExcelApp.Init(wf, ".\\columns-rows.xlsx",";", LTools.Office.Model.InteropTypes.DX)
+app = LTools.Office.ExcelApp.Init(wf, ".\\rows.xlsx",";", LTools.Office.Model.InteropTypes.DX)
 app.DeleteRows(3, 1, "Лист2", 1)
-app.SaveAs(".\\columns-rows.xlsx")
+app.SaveAs(".\\rows.xlsx")
 ```
 {% endtab %}
 
@@ -76,9 +76,9 @@ app.SaveAs(".\\columns-rows.xlsx")
 //sheetIdx - Индекс страницы: [Int32] Индекс страницы
 //app.DeleteRows(index, range, [sheet], [sheetIdx]); 
 		
-let app = _lib.LTools.Office.ExcelApp.Init(wf, ".\\columns-rows.xlsx", ";", _lib.LTools.Office.Model.InteropTypes.DX);
-app.DeleteRows(2, 1, "Лист2", 1);
-app.SaveAs(".\\columns-rows.xlsx");
+var app = _lib.LTools.Office.ExcelApp.Init(wf, ".\\rows.xlsx", ";", _lib.LTools.Office.Model.InteropTypes.DX);
+app.DeleteRows(3, 1, "Лист2", 1);
+app.SaveAs(".\\rows.xlsx");
 ```
 {% endtab %}
 {% endtabs %}
