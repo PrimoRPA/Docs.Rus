@@ -40,10 +40,10 @@ description: Delete columns
 //sheet - Страница: [String] Наименование страницы
 //sheetIdx - Индекс страницы: [Int32] Индекс страницы
 		
-LTools.Office.ExcelApp app = LTools.Office.ExcelApp.Init(wf, ".\\columns-rows.xlsx", ";", LTools.Office.Model.InteropTypes.DX);
-Int32 columnIdx=3;
-Int32 count = 2;
-app.DeleteColumns(columnIdx,count,"Лист1",0); //Удаляет строки вместо столбцов
+LTools.Office.ExcelApp app = LTools.Office.ExcelApp.Init(wf, ".\\columns.xlsx", ";", LTools.Office.Model.InteropTypes.DX);
+Int32 columnIdx=2;
+Int32 count = 1;
+app.DeleteColumns(columnIdx,count,"Лист2",1); 
 app.Save();
 ```
 {% endtab %}
@@ -58,9 +58,9 @@ app.Save();
 #sheetIdx - Индекс страницы: [Int32] Индекс страницы
 #app.DeleteColumns(index, range, [sheet], [sheetIdx])
 
-app = LTools.Office.ExcelApp.Init(wf, ".\\columns-rows.xlsx",";", LTools.Office.Model.InteropTypes.DX)
+app = LTools.Office.ExcelApp.Init(wf, ".\\columns.xlsx",";", LTools.Office.Model.InteropTypes.DX)
 app.DeleteColumns(2, 1, "Лист2", 1)
-app.SaveAs(".\\columns-rows.xlsx")
+app.SaveAs(".\\columns.xlsx")
 ```
 {% endtab %}
 
@@ -74,9 +74,9 @@ app.SaveAs(".\\columns-rows.xlsx")
 //sheetIdx - Индекс страницы: [Int32] Индекс страницы
 //app.DeleteColumns(index, range, [sheet], [sheetIdx]);
 		
-let app = _lib.LTools.Office.ExcelApp.Init(wf, ".\\columns-rows.xlsx", ";", _lib.LTools.Office.Model.InteropTypes.DX);
+var app = _lib.LTools.Office.ExcelApp.Init(wf, ".\\columns.xlsx", ";", _lib.LTools.Office.Model.InteropTypes.DX);
 app.DeleteColumns(2, 1, "Лист2", 1);
-app.SaveAs(".\\columns-rows.xlsx");
+app.SaveAs(".\\columns.xlsx");
 ```
 {% endtab %}
 {% endtabs %}
