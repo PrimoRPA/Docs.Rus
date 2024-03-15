@@ -37,11 +37,8 @@ RPA-проект, демонстрирующий работу элемента, 
 2. Распакуйте архив и откройте в Студии проект **WorkWithExcelExamples**. Проект состоит из процессов-последовательностей.
 
 
-
-
 ## Только код
-
-Пример использования элемента в процессе с типом **Только код (Pure code)**:
+Ниже приведен пример использования элемента в процессе с типом **Только код (Pure code)**:
 
 {% tabs %}
 {% tab title="C#" %}
@@ -53,7 +50,7 @@ RPA-проект, демонстрирующий работу элемента, 
 //sheet - Страница: [String] Наименование страницы
 //sheetIdx - Индекс страницы: [Int32] Индекс страницы
 		
-LTools.Office.ExcelApp app = LTools.Office.ExcelApp.Init(wf, ".\\columns-rows.xlsx", ";", LTools.Office.Model.InteropTypes.DX);
+LTools.Office.ExcelApp app = LTools.Office.ExcelApp.Init(wf, "file", ";", LTools.Office.Model.InteropTypes.DX);
 String cell="A2";
 List<Object> data = app.ReadColumn(cell,"Лист1",0);
 		
@@ -66,7 +63,19 @@ foreach (object value in data)
 
 {% tab title="Python" %}
 ```python
-сюда вставляем пример кода на Python
+#Свойства элемента:
+#app - [LTools.Office.ExcelApp] Приложение Excel
+#cell - Ячейка: [String] Идентификатор начальной ячейки (A4)
+#data - Данные: [List<Object>] Данные, полученные из колонки
+#sheet - Страница: [String] Наименование страницы
+#sheetIdx - Индекс страницы: [Int32] Индекс страницы
+#data = app.ReadColumn(cell, [sheet], [sheetIdx]) #List<Object>
+		
+app = LTools.Office.ExcelApp.Init(wf, "file", ";", LTools.Office.Model.InteropTypes.DX)
+data = app.ReadColumn("A1", "Лист2", 1) #List<Object>
+		
+#Вывод в лог
+LTools.Workflow.PrimoApp.AddToLog(wf, str(data), LTools.Enums.LogMessageType.Info)
 ```
 {% endtab %}
 
