@@ -1,7 +1,5 @@
 # Чтение формулы из ячейки
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (10) (177).png>)
-
 ![](<../../../.gitbook/assets/excel-read-cell-formula.png>)
 
 Элемент считывает формулу из указанной ячейки Excel. Путь до файла, тип драйвера и прочие параметры предварительно настраиваются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app).
@@ -70,7 +68,7 @@ var host = new _lib.Microsoft.ClearScript.HostFunctions();
 var lst = host.newObj(_lib.System.Collections.Generic.List(_lib.System.Collections.Generic.List(_lib.System.String)));
 var lst2 = host.newObj(_lib.System.Collections.Generic.List(_lib.System.Collections.Generic.List(_lib.LTools.Office.Model.ExcelCellInfo)));
 var lst3 = host.newObj(_lib.System.Data.DataTable);
-var app = _lib.LTools.Office.ExcelApp.Init(wf, "c://Users//Alex//Documents//Primo//LearningPureCode//formula.xlsx", ";", _lib.LTools.Office.Model.InteropTypes.DX);	
+var app = _lib.LTools.Office.ExcelApp.Init(wf, ".\\formula.xlsx", ";", _lib.LTools.Office.Model.InteropTypes.DX);	
 var data = app.ReadCellFormula("B2", "Лист1", 0); //String
 		
 //Вывод в лог
