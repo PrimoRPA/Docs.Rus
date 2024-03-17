@@ -1,34 +1,44 @@
+---
+description: Read column
+---
+
+
 # Чтение колонки
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (10) (177).png>)
+Элемент считывает данные из указанного столбца. Полученный результат сохраняется в переменную.
 
-![](<../../../.gitbook/assets/excel-read-column.png>)
+Путь до файла, тип драйвера и другие базовые настройки указываются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app).
 
-Элемент считывает данные из колонки Excel. Путь до файла, тип драйвера и прочие параметры предварительно настраиваются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app). Элемент **Чтение колонки** размещается внутри этого контейнера.
+![](<../../../.gitbook/assets1/WFReadColumn.png>)
+
+
 
 ## Свойства
-Описание общих свойств элемента см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
+Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
 Символ `*` в названии свойства указывает на обязательность его заполнения.
 
-| Свойство             | Тип                   | Описание                         |
-| -------------------- | --------------------- | -------------------------------- |
-| ***Excel:***  | |  |
-| Ячейка\*             | String   | Идентификатор начальной ячейки. Пример: `"A4"`  |
-| Страница             | String   | Название страницы, где находится колонка с данными. Пример: `"Лист 1"` |
-| Индекс страницы      | Int32    | Порядковый номер страницы с колонкой. Отсчет ведется с 0. Пример: `0` |
-| ***Вывод:***  | |  |
-| Данные\*             | List\<Object\> | Переменная, в которой будут храниться данные, полученные из колонки |
+| Свойство             | Тип                   | Описание                         | Пример       |
+| -------------------- | --------------------- | -------------------------------- | ------------ |
+| **Excel:**  | | |
+| Ячейка\*             | String   | Идентификатор начальной ячейки                | `"A4"`       |
+| Страница             | String   | Название страницы, где находится столбец      | `"Лист1"`    |
+| Индекс страницы      | Int32    | Порядковый номер страницы, отсчет с 0         | `0`          |
+| **Вывод:**  | | |
+| Данные\*             | List\<Object\> | Название переменной для записи данных из колонки |     |
 
-**Пример заполнения свойств**:
+**Пример заполненных свойств**:
 
 ![](<../../../.gitbook/assets/excel-read-column2.png>)
 
-## Обучающий пример 
-Проект, в котором считываются данные из колонки, можно найти [здесь](https://github.com/PrimoRPA/Learning/tree/master/WorkWithExcelExample). Проект имеет название WorkWithExcelExample, в качестве типа процесса выбрана **Последовательность**. Чтобы просмотреть процессы проекта, загрузите его в Студию.
+## Пример использования
+RPA-проект, демонстрирующий работу элемента, можно найти в нашем публичном репозитории [Learning](https://github.com/PrimoRPA/Learning).
+
+1. Скачайте архив со всеми обучающими материалами по ссылке: [Скачать архив Learning](https://github.com/PrimoRPA/Learning/archive/refs/heads/master.zip).
+2. Распакуйте архив и откройте в Студии проект **WorkWithExcelExamples**. Проект состоит из процессов-последовательностей.
+
 
 ## Только код
-
-Пример использования элемента в процессе с типом **Только код (Pure code)**:
+Ниже приведен пример использования элемента в процессе с типом **Только код (Pure code)**:
 
 {% tabs %}
 {% tab title="C#" %}
@@ -40,7 +50,7 @@
 //sheet - Страница: [String] Наименование страницы
 //sheetIdx - Индекс страницы: [Int32] Индекс страницы
 		
-LTools.Office.ExcelApp app = LTools.Office.ExcelApp.Init(wf, ".\\columns-rows.xlsx", ";", LTools.Office.Model.InteropTypes.DX);
+LTools.Office.ExcelApp app = LTools.Office.ExcelApp.Init(wf, "file", ";", LTools.Office.Model.InteropTypes.DX);
 String cell="A2";
 List<Object> data = app.ReadColumn(cell,"Лист1",0);
 		
@@ -50,3 +60,34 @@ foreach (object value in data)
 }
 ```
 {% endtab %}
+
+{% tab title="Python" %}
+```python
+#Свойства элемента:
+#app - [LTools.Office.ExcelApp] Приложение Excel
+#cell - Ячейка: [String] Идентификатор начальной ячейки (A4)
+#data - Данные: [List<Object>] Данные, полученные из колонки
+#sheet - Страница: [String] Наименование страницы
+#sheetIdx - Индекс страницы: [Int32] Индекс страницы
+#data = app.ReadColumn(cell, [sheet], [sheetIdx]) #List<Object>
+		
+app = LTools.Office.ExcelApp.Init(wf, "file", ";", LTools.Office.Model.InteropTypes.DX)
+data = app.ReadColumn("A1", "Лист2", 1) #List<Object>
+```
+{% endtab %}
+
+{% tab title="JavaScript" %}
+```javascript
+//Свойства элемента:
+//app - [LTools.Office.ExcelApp] Приложение Excel
+//cell - Ячейка: [String] Идентификатор начальной ячейки (A4)
+//data - Данные: [List<Object>] Данные, полученные из колонки
+//sheet - Страница: [String] Наименование страницы
+//sheetIdx - Индекс страницы: [Int32] Индекс страницы
+//var data = app.ReadColumn(cell, [sheet], [sheetIdx]); //List<Object>
+
+let app = _lib.LTools.Office.ExcelApp.Init(wf, ".\\columns-rows.xlsx", ";", _lib.LTools.Office.Model.InteropTypes.DX);	
+var data = app.ReadColumn("A1", "Лист1", 0); //List<Object>
+```
+{% endtab %}
+{% endtabs %}
