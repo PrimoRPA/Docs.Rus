@@ -1,26 +1,30 @@
+---
+description: Read cell formula
+---
+
 # Чтение формулы из ячейки
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (10) (177).png>)
+Элемент считывает формулу из указанной ячейки Excel и сохраняет ее в переменную. 
 
-![](<../../../.gitbook/assets/excel-read-cell-formula.png>)
+Путь до файла, тип драйвера и другие базовые настройки указываются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app).
 
-Элемент считывает формулу из указанной ячейки Excel. Путь до файла, тип драйвера и прочие параметры предварительно настраиваются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app).
+![](<../../../.gitbook/assets1/WFReadCellFormula.png>)
 
 ## Свойства
-Описание общих свойств элемента см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
+Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
 Символ `*` в названии свойства указывает на обязательность его заполнения.
 
-| Свойство             | Тип                   | Описание                         |
-| -------------------- | --------------------- | -------------------------------- |
-| ***Excel***  | |  |
-| Ячейка\*             | String   | Ячейка, из которой нужно извлечь формулу. Пример: `"A4"`  |
-| Страница             | String   | Название страницы с указанной ячейкой |
-| Индекс страницы      | Int32    | Порядковый номер страницы, отсчет с 0 |
-| ***Вывод***  | |  |
-| Формула\*            | String   | Переменная, в которой будет храниться формула, полученная из ячейки |
+| Свойство             | Тип                   | Описание                         | Пример  |
+| -------------------- | --------------------- | -------------------------------- | ------- |
+| **Excel:**  | |  |
+| Ячейка\*             | String   | Ячейка, из которой нужно извлечь формулу      | `"A4"` |
+| Страница             | String   | Название страницы с указанной ячейкой         | `"Лист1"` |
+| Индекс страницы      | Int32    | Порядковый номер страницы в книге Excel       | `0` |
+| **Вывод:**  | |  |
+| Формула\*            | String   | Название переменной, в которую будет записана прочитанная формула | |
 
 ## Только код
-Пример использования элемента в процессе с типом **Только код** (Pure code):
+Ниже приведен пример использования элемента в процессе с типом **Только код** (Pure code):
   
 {% tabs %}
 {% tab title="C#" %}
@@ -66,13 +70,9 @@ LTools.Workflow.PrimoApp.AddToLog(wf, str(data), LTools.Enums.LogMessageType.Inf
 //sheetIdx - Индекс страницы: [Int32] Индекс страницы
 //var data = app.ReadCellFormula(cell, [sheet], [sheetIdx]); //String
 		
-var host = new _lib.Microsoft.ClearScript.HostFunctions();
-var lst = host.newObj(_lib.System.Collections.Generic.List(_lib.System.Collections.Generic.List(_lib.System.String)));
-var lst2 = host.newObj(_lib.System.Collections.Generic.List(_lib.System.Collections.Generic.List(_lib.LTools.Office.Model.ExcelCellInfo)));
-var lst3 = host.newObj(_lib.System.Data.DataTable);
-var app = _lib.LTools.Office.ExcelApp.Init(wf, "c://Users//Alex//Documents//Primo//LearningPureCode//formula.xlsx", ";", _lib.LTools.Office.Model.InteropTypes.DX);	
-var data = app.ReadCellFormula("B2", "Лист1", 0); //String
-		
+let app = _lib.LTools.Office.ExcelApp.Init(wf, ".\\formula.xlsx", ";", _lib.LTools.Office.Model.InteropTypes.DX);	
+var data = app.ReadCellFormula("G4", "Лист2", 1); //String
+				
 //Вывод в лог
 _lib.LTools.Workflow.PrimoApp.AddToLog(wf, data, _lib.LTools.Enums.LogMessageType.Info);
 ```
