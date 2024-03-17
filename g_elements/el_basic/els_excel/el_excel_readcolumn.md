@@ -73,15 +73,21 @@ foreach (object value in data)
 		
 app = LTools.Office.ExcelApp.Init(wf, "file", ";", LTools.Office.Model.InteropTypes.DX)
 data = app.ReadColumn("A1", "Лист2", 1) #List<Object>
-		
-#Вывод в лог
-LTools.Workflow.PrimoApp.AddToLog(wf, str(data), LTools.Enums.LogMessageType.Info)
 ```
 {% endtab %}
 
 {% tab title="JavaScript" %}
 ```javascript
-сюда вставляем пример кода на JavaScript
+//Свойства элемента:
+//app - [LTools.Office.ExcelApp] Приложение Excel
+//cell - Ячейка: [String] Идентификатор начальной ячейки (A4)
+//data - Данные: [List<Object>] Данные, полученные из колонки
+//sheet - Страница: [String] Наименование страницы
+//sheetIdx - Индекс страницы: [Int32] Индекс страницы
+//var data = app.ReadColumn(cell, [sheet], [sheetIdx]); //List<Object>
+
+let app = _lib.LTools.Office.ExcelApp.Init(wf, ".\\columns-rows.xlsx", ";", _lib.LTools.Office.Model.InteropTypes.DX);	
+var data = app.ReadColumn("A1", "Лист1", 0); //List<Object>
 ```
 {% endtab %}
 {% endtabs %}
