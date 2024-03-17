@@ -7,7 +7,7 @@ description: Read column
 
 Элемент считывает данные из указанного столбца. Полученный результат сохраняется в переменную.
 
-Путь до файла, тип драйвера и другие параметры подключения к приложению настраиваются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app).
+Путь до файла, тип драйвера и другие базовые настройки указываются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app).
 
 ![](<../../../.gitbook/assets1/WFReadColumn.png>)
 
