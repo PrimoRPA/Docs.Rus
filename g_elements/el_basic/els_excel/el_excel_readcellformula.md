@@ -11,8 +11,7 @@ description: Read cell formula
 ![](<../../../.gitbook/assets1/WFReadCellFormula.png>)
 
 ## Свойства
-Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
-Символ `*` в названии свойства указывает на обязательность его заполнения.
+Символ `*` в названии свойства указывает на обязательность его заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
 
 | Свойство             | Тип                   | Описание                         | Пример  |
 | -------------------- | --------------------- | -------------------------------- | ------- |
