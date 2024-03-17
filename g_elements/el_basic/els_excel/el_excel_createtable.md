@@ -1,7 +1,5 @@
 # Создать таблицу
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (1) (42).png>)
-
 ![](../../../.gitbook/assets/excel-create-table.png)
 
 Компонент создает таблицу на заданном листе Excel.
@@ -36,9 +34,9 @@
 //sheetIdx - Индекс страницы: [Int32] Индекс страницы
 //app.CreateTable(range, name, [sheet], [sheetIdx]);
 		
-LTools.Office.ExcelApp app = LTools.Office.ExcelApp.Init(wf, ".\\book.xlsx", ";", LTools.Office.Model.InteropTypes.DX);
+LTools.Office.ExcelApp app = LTools.Office.ExcelApp.Init(wf, @"c:\file.xlsx", ";", LTools.Office.Model.InteropTypes.DX);
 app.CreateTable("*", "TableName", "Лист1", 0);
-app.SaveAs(".\\booktable.xlsx");
+app.SaveAs(@"c:\file.xlsx");
 ```
 {% endtab %}
 
@@ -51,9 +49,9 @@ app.SaveAs(".\\booktable.xlsx");
 #sheetIdx - Индекс страницы: [Int32] Индекс страницы
 #app.CreateTable(range, name, [sheet], [sheetIdx])
 		
-app = LTools.Office.ExcelApp.Init(wf, ".\\book.xlsx", ";", LTools.Office.Model.InteropTypes.DX)
+app = LTools.Office.ExcelApp.Init(wf, @"c:\file.xlsx", ";", LTools.Office.Model.InteropTypes.DX)
 app.CreateTable("*", "Tab", "Лист1", 0)
-app.SaveAs(".\\booktable.xlsx")
+app.SaveAs(@"c:\file.xlsx")
 ```
 {% endtab %}
 
@@ -63,9 +61,9 @@ var host = new _lib.Microsoft.ClearScript.HostFunctions();
 var lst = host.newObj(_lib.System.Collections.Generic.List(_lib.System.Collections.Generic.List(_lib.System.String)));
 var lst2 = host.newObj(_lib.System.Collections.Generic.List(_lib.System.Collections.Generic.List(_lib.LTools.Office.Model.ExcelCellInfo)));
 var lst3 = host.newObj(_lib.System.Data.DataTable);
-var app = _lib.LTools.Office.ExcelApp.Init(wf, "c://Users//Alex//Documents//Primo//LearningPureCode//book.xlsx", ";", _lib.LTools.Office.Model.InteropTypes.DX);	
+var app = _lib.LTools.Office.ExcelApp.Init(wf, @"c:\file.xlsx", ";", _lib.LTools.Office.Model.InteropTypes.DX);	
 app.CreateTable("*", "Tab", "Лист1", 0);
-app.SaveAs("c://Users//Alex//Documents//Primo//LearningPureCode//booktable.xlsx");
+app.SaveAs(@"c:\file.xlsx");
 ```
 {% endtab %}
 {% endtabs %}
