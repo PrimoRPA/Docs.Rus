@@ -50,7 +50,7 @@ RPA-проект, демонстрирующий работу элемента, 
 //sheetIdx - Индекс страницы: [Int32] Индекс страницы
 //object data = app.ReadCell(cell, [sheet], [sheetIdx]);
 
-LTools.Office.ExcelApp app = LTools.Office.ExcelApp.Init(wf, ".\\book.xlsx", ";", LTools.Office.Model.InteropTypes.DX);
+LTools.Office.ExcelApp app = LTools.Office.ExcelApp.Init(wf, ".\\file.xlsx", ";", LTools.Office.Model.InteropTypes.DX);
 object data = app.ReadCell("C5", "Лист1", 0);
 		
 //Вывод в лог
@@ -67,7 +67,7 @@ LTools.Workflow.PrimoApp.AddToLog(wf, data.ToString(), LTools.Enums.LogMessageTy
 #sheetIdx - Индекс страницы: [Int32] Индекс страницы
 #data = app.ReadCell(cell, [sheet], [sheetIdx]) #Object
 
-app = LTools.Office.ExcelApp.Init(wf, ".\\book.xlsx", ";", LTools.Office.Model.InteropTypes.DX)
+app = LTools.Office.ExcelApp.Init(wf, ".\\file.xlsx", ";", LTools.Office.Model.InteropTypes.DX)
 data = app.ReadCell("F4", "Лист1", 0) #Object
 		
 #Вывод в лог
@@ -84,11 +84,7 @@ LTools.Workflow.PrimoApp.AddToLog(wf, str(data), LTools.Enums.LogMessageType.Inf
 //sheetIdx - Индекс страницы: [Int32] Индекс страницы
 //var data = app.ReadCell(cell, [sheet], [sheetIdx]); //Object
 
-var host = new _lib.Microsoft.ClearScript.HostFunctions();
-var lst = host.newObj(_lib.System.Collections.Generic.List(_lib.System.Collections.Generic.List(_lib.System.String)));
-var lst2 = host.newObj(_lib.System.Collections.Generic.List(_lib.System.Collections.Generic.List(_lib.LTools.Office.Model.ExcelCellInfo)));
-var lst3 = host.newObj(_lib.System.Data.DataTable);
-var app = _lib.LTools.Office.ExcelApp.Init(wf, ".\\book.xlsx", ";", _lib.LTools.Office.Model.InteropTypes.DX);	
+let app = _lib.LTools.Office.ExcelApp.Init(wf, ".\\file.xlsx", ";", _lib.LTools.Office.Model.InteropTypes.DX);	
 var data = app.ReadCell("D5", "Лист1", 0); //Object
 		
 //Вывод в лог
