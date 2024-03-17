@@ -10,8 +10,10 @@ description: Read cell
 
 ![](<../../../.gitbook/assets1/WFReadCell.png>)
 
+:small_blue_diamond: **Совет**. Если вам нужно прочитать формулу, воспользуйтесь элементом [Чтение формулы из ячейки](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_readcellformula).
+
 ## Свойства
-Описание общих свойств элемента см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
+Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
 Символ `*` в названии свойства указывает на обязательность его заполнения.
 
 | Свойство             | Тип                   | Описание                         | Пример       |
@@ -33,7 +35,7 @@ description: Read cell
 RPA-проект, демонстрирующий работу элемента, можно найти в нашем публичном репозитории [Learning](https://github.com/PrimoRPA/Learning).
 
 1. Скачайте архив со всеми обучающими материалами по ссылке: [Скачать архив Learning](https://github.com/PrimoRPA/Learning/archive/refs/heads/master.zip).
-2. Распакуйте архив и откройте в Студии проект **WorkWithExcelExample**. Для процессов этого проекта выбран тип **Последовательность**. 
+2. Распакуйте архив и откройте в Студии проект **WorkWithExcelExample**. Для процессов выбран тип **Последовательность**. 
 
 ## Только код
 Ниже приведен пример использования элемента в процессе с типом **Только код** (Pure code):
@@ -86,7 +88,7 @@ var host = new _lib.Microsoft.ClearScript.HostFunctions();
 var lst = host.newObj(_lib.System.Collections.Generic.List(_lib.System.Collections.Generic.List(_lib.System.String)));
 var lst2 = host.newObj(_lib.System.Collections.Generic.List(_lib.System.Collections.Generic.List(_lib.LTools.Office.Model.ExcelCellInfo)));
 var lst3 = host.newObj(_lib.System.Data.DataTable);
-var app = _lib.LTools.Office.ExcelApp.Init(wf, "c://Users//Alex//Documents//Primo//LearningPureCode//book.xlsx", ";", _lib.LTools.Office.Model.InteropTypes.DX);	
+var app = _lib.LTools.Office.ExcelApp.Init(wf, ".\\book.xlsx", ";", _lib.LTools.Office.Model.InteropTypes.DX);	
 var data = app.ReadCell("D5", "Лист1", 0); //Object
 		
 //Вывод в лог
