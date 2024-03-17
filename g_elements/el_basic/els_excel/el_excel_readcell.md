@@ -8,9 +8,11 @@ description: Read cell
 
 Путь до файла, тип драйвера и  другие базовые настройки указываются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app).
 
+:small_blue_diamond: **Совет**. Если вам нужно прочитать формулу, воспользуйтесь элементом [Чтение формулы из ячейки](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_readcellformula).
+
 ![](<../../../.gitbook/assets1/WFReadCell.png>)
 
-:small_blue_diamond: **Совет**. Если вам нужно прочитать формулу, воспользуйтесь элементом [Чтение формулы из ячейки](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_readcellformula).
+
 
 ## Свойства
 Символ `*` в названии свойства указывает на обязательность его заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
