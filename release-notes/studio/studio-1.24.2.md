@@ -37,7 +37,7 @@
 
 Новые [шаблоны проекта](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects/project_template) доступны в разделе меню **Файл ➝ Проект**:
 
-![](<../../.gitbook/assets1/шаблон проекта.png>)
+![](<../../.gitbook/assets1/project-templates-list.png>)
 
 Демонстрационный проект с ипользованием шаблонов можно найти в нашем публичном репозитории [Learning](https://github.com/PrimoRPA/Learning/tree/master). См. каталог **StudioTemplatesProjectExample**.
 
