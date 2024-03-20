@@ -1,6 +1,6 @@
 # Варианты развертывания сервера приложений 
 
-## Windows 2016 Server
+## Windows Server
 
 Имеется 2 варианта развертывания WebApi и Front для ОС Windows 2016 Server:
 
@@ -28,9 +28,20 @@
 },
 "UseIISIntegration": true,
 ```
+
+### Пошаговая инструкция для IIS
+
+См. раздел [Установка Оркестратора на веб-сервер IIS](https://docs.primo-rpa.ru/primo-rpa/orchestrator/quick-installation/iis-web-server).
+
+
 ### Вариант 2. WebApi – служба Windows, Front – Nginx
 
 При этом варианте развертывания в параметре `UseIISIntegration` должно быть установлено значение `false`.
+
+### Пошаговая инструкция для Nginx
+
+См. раздел [Установка Оркестратора на веб-сервер Nginx](https://docs.primo-rpa.ru/primo-rpa/orchestrator/quick-installation/nginx-web-server).
+
 
 ## Linux
 

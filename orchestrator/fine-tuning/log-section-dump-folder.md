@@ -10,7 +10,7 @@
 
 Папка назначается в конфигурационном файле WebApi в параметре `LogsDump` > `Path`:
 
-![](<../../../.gitbook/assets/log-section-dump-1.png>)
+![](<../../.gitbook/assets/log-section-dump-1.png>)
 
 Папка для сохранения дампов должна находиться на сервере БД. 
 

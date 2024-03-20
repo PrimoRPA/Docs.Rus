@@ -54,7 +54,6 @@
 ![](<../../../.gitbook/assets1/схемы-алгоритмов-для-обработки-очереди.png>)
 
 
-
 ## Элементы очереди
 О том, как наполнить очередь элементами, см. раздел [Элементы очереди](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/data-queues/items).
 
