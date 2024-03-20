@@ -11,12 +11,12 @@
 
 **Обработка**:
 
-1. **Строка\*** *[[System.Data.DataRow](https://learn.microsoft.com/ru-ru/dotnet/api/system.data.datarow?view=net-8.0&viewFallbackFrom=net-4.6.1)]* - строка таблицы DataTable.
-1. **Столбец** *[[System.Data.DataColumn](https://learn.microsoft.com/ru-ru/dotnet/api/system.data.datacolumn?view=net-8.0&viewFallbackFrom=net-4.6.1)]* - столбец таблицы DataTable. Если значение заполнено, то свойства **Имя** и **Индекс** игнорируются.
-1. **Имя** *[String]* - название столбца.
-1. **Индекс** *[Int32]* - номер столбца.
+1. **Строка\*** *[[System.Data.DataRow](https://learn.microsoft.com/ru-ru/dotnet/api/system.data.datarow?view=net-8.0&viewFallbackFrom=net-4.6.1)]* — строка таблицы DataTable.
+1. **Столбец** *[[System.Data.DataColumn](https://learn.microsoft.com/ru-ru/dotnet/api/system.data.datacolumn?view=net-8.0&viewFallbackFrom=net-4.6.1)]* — столбец таблицы DataTable. Если значение заполнено, то свойства **Имя** и **Индекс** игнорируются.
+1. **Имя** *[String]* — название столбца.
+1. **Индекс** *[Int32]* — номер столбца.
 
 **Вывод**:
 
-1. **Значение\*** *[T]* - значение, полученное из таблицы.
+1. **Значение\*** *[T]* — значение, полученное из таблицы.
 
