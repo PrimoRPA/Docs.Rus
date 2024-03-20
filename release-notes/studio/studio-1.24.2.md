@@ -12,7 +12,7 @@
 
    ![](<../../.gitbook/assets1/buttonAIchat (1).png>)
 
-1. Опубликована библиотека **Primo.AI**, позволяющая автоматизировать работу с языковыми моделями. Первый релиз поддерживает работу с Sber GigaChat и Yandex YandexGPT. По запросу могут быть добавлены дополнительные модели. Библиотека содержит элементы:
+1. Опубликована библиотека [**Primo.AI**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai), позволяющая автоматизировать работу с языковыми моделями. Первый релиз поддерживает работу с Sber GigaChat и Yandex YandexGPT. По запросу могут быть добавлены дополнительные модели. Библиотека содержит элементы:
    * GigaChat
      * [**Получить токен**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_gigachat/el_gettoken) — получает токен GigaChat.
      * [**Вопрос в чат**](https://docs.primo-rpa.ru/g_elements/el_extra/ai/els_gigachat/el_chatmessage) — отправляет указанный вопрос в GigaChat. 
