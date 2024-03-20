@@ -150,7 +150,7 @@
 ### AI
 
 Для настройки интеграции с AI:
-1. [Скачайте](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease%2FStudio%2Fwindows) плагин `Primo.AI.Plugin.dll` и добавьте его в папку Студии. Пример:
+1. [Скачайте](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease%2FStudio%2FWindows) плагин `Primo.AI.Plugin.dll` и добавьте его в папку Студии. Пример:
    
    ![](<../../.gitbook/assets1/add-ai-plugin-in-folder.png>)
 
