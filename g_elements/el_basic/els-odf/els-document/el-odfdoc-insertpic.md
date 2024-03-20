@@ -1,6 +1,6 @@
 # Вставка изображения
 
-![](<../../../.gitbook/assets/image (204).png>)
+![](<../../../../.gitbook/assets1/Cropped-InsertPic.png>)
 
 Элемент производит вставку изображения в документ Word. Путь до документа указывается в контейнере Документ ODF.
 
@@ -14,3 +14,10 @@
 2. **Закладка** *[String]*: Имя [закладки](https://support.microsoft.com/ru-ru/office/%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B8-%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B7%D0%B0%D0%BA%D0%BB%D0%B0%D0%B4%D0%BE%D0%BA-%D0%B2-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B5-word-%D0%B8%D0%BB%D0%B8-%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D0%B8-outlook-f68d781f-0150-4583-a90e-a4009d99c2a0), определяющей начало записи. Если закладка не указана, вставка производится в конец текста.
 3. **Изображение\*** *[[byte[]]*: Название переменной, которая содержит изображение для вставки. 
 
+## Только код
+Пример использования элемента в процессе с типом Только код (Pure code):
+
+C#:  
+`Primo.Office.OdfOxml.WordApp app = Primo.Office.OdfOxml.WordApp.Init(wf, "fileName");`  
+`app.InsertPicture(pic, bookmark);`  
+`app.InsertPicture(pic, pos);`

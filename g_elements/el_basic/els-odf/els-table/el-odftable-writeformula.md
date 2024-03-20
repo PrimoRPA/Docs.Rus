@@ -17,3 +17,10 @@
 2. **Индекс страницы** *[Int32]*: Порядковый номер страницы. Отсчет начинается с 0. Пример: `0`.
 3. **Формула\*** *[String]*: Формула, вводимая в ячейку. 
 4. **Ячейка\*** *[String]*: Идентификатор ячейки. Пример: `"A1"`.
+
+## Только код
+Пример использования элемента в процессе с типом Только код (Pure code):  
+
+**C#**  
+`Primo.Office.OdfOxml.ExcelApp app = Primo.Office.OdfOxml.ExcelApp.Init(wf, [file]);`  
+`app.WriteCellFormula(cell, text, [sheet], [sheetIdx], [numFormat]);`

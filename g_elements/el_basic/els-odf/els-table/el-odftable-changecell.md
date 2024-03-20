@@ -1,6 +1,6 @@
 # Изменение ячейки
 
-![]   (<../../../../.gitbook/assets1/Cropped-WriteFormula.png>)
+![](<../../../../.gitbook/assets1/Cropped-WriteFormula.png>)
 
 Компонент, изменяющий формат ячеек в Excel.
 
@@ -16,3 +16,10 @@
 5. **Цвет бордюра** *[Sуstem.Drawing.Color?]*: Цвет бордюра ячеек диапазона. Пример: `System.Drawing.Color.Black`.
 6. **Тип бордюра** *[LTools.Office.Model.CellBorderTypes]*: Тип бордюра ячеек.
 7. **Толщина бордюра** *[LTools.Office.Model.CellBorderThickness]*: Толщина бордюра ячеек.
+
+## Только код
+Пример использования элемента в процессе с типом Только код (Pure code):  
+
+**C#**  
+`Primo.Office.OdfOxml.ExcelApp app = Primo.Office.OdfOxml.ExcelApp.Init(wf, [file]);`  
+`app.SetCells(data, range, color, bcolor, thick, type, [sheet], [sheetIdx]);`

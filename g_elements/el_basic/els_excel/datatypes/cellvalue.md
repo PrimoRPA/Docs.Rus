@@ -1,6 +1,8 @@
 # CellValue
 
-LTools.Office.Model.CellValue
+LTools.Office.Model.CellValue — модель значения ячейки Excel.
+
+:small_blue_diamond: *Символ `?` в типе данных указывает на то, что значение может быть null.*
 
 | Свойство      | Тип       | Описание                 |
 | ------------- | --------- | ------------------------ |
@@ -15,4 +17,4 @@ LTools.Office.Model.CellValue
 | IsError       | bool      | Признак ошибки           |
 | IsDateTime    | bool      | Признак даты-времени     |
 
-Символ ? в типе данных указывает на то, что значение может быть null.
+

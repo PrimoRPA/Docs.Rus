@@ -1,7 +1,5 @@
 # Сохранить как PDF
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (105).png>)
-
 ![](<../../../.gitbook/assets/Сохранить как PDF.png>)
 
 Элемент работает внутри контейнера [**Приложение Excel**](https://docs.primo-rpa.ru/primo-rpa/g\_elements/el\_basic/els\_excel/el\_excel\_app) и позволяет экспортировать файл, указанный в элементе приложения, в формат PDF.

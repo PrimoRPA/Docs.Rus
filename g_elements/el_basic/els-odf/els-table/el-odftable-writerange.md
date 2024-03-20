@@ -28,4 +28,12 @@
 13. **Переменная (информация)** *[List\<List<[LTools.Office.Model.ExcelCellInfo](datatypes/excelcellinfo.md)>>]*: Переменная для хранения данных, содержащих информацию о ячейках.
 14. **Переменная (таблица)** *[[System.Data.DataTable](https://learn.microsoft.com/ru-ru/dotnet/api/system.data.datatable?view=net-7.0)]*: Переменная для хранения данных текстовых значений.
 
-  
+ ## Только код
+Пример использования элемента в процессе с типом Только код (Pure code):  
+
+**C#**  
+`Primo.Office.OdfOxml.ExcelApp app = Primo.Office.OdfOxml.ExcelApp.Init(wf, [file]);`  
+`app.AppendRange(data, range, [overwrite], [sheet], [sheetIdx], [numFormat], [entireRow]);`  
+`app.AppendRange(data_info, range, [overwrite], [sheet], [sheetIdx], [numFormat], [entireRow]);`    
+`app.AppendRange(dataTable, range, [overwrite], [sheet], [sheetIdx], [numFormat], [entireRow]);`  
+
