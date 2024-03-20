@@ -95,27 +95,16 @@ passwd: пароль успешно обновлён
 **ПКМ на рабочем столе -> Свойства -> Обои, удалить обои и логотип**.
 
 ## Установка расширения для браузера Chrome для текущего пользователя
+Откройте браузер Chrome, выберите пункт меню **Настройки и управление Google Chrome > Расширения > Управление расширениями**, далее на странице **Расширения** установите настройку **Режим разработчика**:  
+![](<../../../.gitbook/assets1/DeveloperMode.png>)  
+Выполните перетаскивание файла `/opt/Primo/Studio/Extensions/Chrome/chrome.crx` в браузер Хром на страницу **Расширения**. В результате на странице должно появится расширение Primo RPA Extension:  
+![](<../../../.gitbook/assets1/ChromeExtension.png>)
 
-Для регистрации репозиториев в качестве источников пакетов добавьте указанные ниже строки в файл `/etc/apt/sources.list`.     
-`deb [trusted=yes] https://deb.debian.org/debian/ buster main contrib non-free`    
-`deb https://security.debian.org/debian-security/ buster/updates main contrib non-free`
-
-Скачайте дистрибутив браузера, для этого выполните из домашней папки  
-`[primo-admin@astra-studio ~]$ sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb` 
-
-Откройте домашнюю папку в проводнике и двойным щелчком на файле *google-chrome-stable_current_amd64.deb* выполните установку браузера. 
-После установки файл *google-chrome-stable_current_amd64.deb* можно удалить.
-
-Проверка: выполните указанную ниже команду; если браузер запустится, установка прошла успешно  
-`[primo-admin@astra-studio ~]$ google-chrome`
-
-## Установка расширения для браузера Яндекс для текущего пользователя
-Откройте браузер Яндекс, в строке адреса укажите browser://extensions/, нажмите Enter, далее на странице **Расширения** установите настройку **Режим разработчика**:
-
-![](<../../../.gitbook/assets1/DeveloperMode.png>)
+## Установка расширения для браузера Яндекс
+Откройте браузер Яндекс, в строке адреса укажите browser://extensions/, нажмите Enter, далее на странице **Расширения** установите настройку **Режим разработчика**:  
+![](<../../../.gitbook/assets1/DeveloperMode.png>)  
 
 Выполните перетаскивание файла `/opt/Primo/Studio/Extensions/Chrome/chrome.crx` в браузер Яндекс на страницу **Расширения**. В результате на странице должно появиться расширение Primo RPA Extension:  
-
 ![](<../../../.gitbook/assets1/YandexExtension.png>)
 
 
