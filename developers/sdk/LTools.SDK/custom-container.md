@@ -1,6 +1,8 @@
 # Специальный контейнер
 
-Специальный контейнер - это контейнер с расширенным графическим оформлением. Графическое оформление выполняется по определенным правилам:
+Специальный контейнер — это контейнер с расширенным графическим оформлением. 
+
+Графическое оформление выполняется по определенным правилам:
 
 ```xml
 <UserControl x:Class="Primo.SDKSample.PrimoCustomContainerV"
@@ -39,11 +41,33 @@
 </UserControl>
 ```
 
-WFItems:WFContainerBase - обязательный элемент оформления и представляет собой, собственно, контейнер элементов
+Где:
+* **WFItems:WFContainerBase** — это обязательный элемент оформления и представляет собой, собственно, контейнер элементов.
+* **ui:WFElementBase.ContainerPadding** — отвечает за настраиваемый Студией отступ от краев.
 
-ui:WFElementBase.ContainerPadding - отвечает за настраиваемый Студией отступ от краев
 
-Код специального контейнера в общем виде:
+Ниже приводится пример кода для создания специального контейнера:
+
+1. **PrimoCustomContainerV** — класс контролла WPF, отвечающего за отображение специального контейнера. 
+
+```
+public partial class PrimoCustomContainerV : UserControl
+    {
+        public PrimoCustomContainerV()
+        {
+            if (LTools.Common.Helpers.WFHelper.DoRender)
+                InitializeComponent();
+            else
+            {
+                this.cntThen = new LTools.Common.WFItems.WFContainerBase();
+                this.Content = this.cntThen;
+            }
+        }
+    }
+```
+
+
+2. **PrimoCustomContainerBack** — класс специального контейнера:
 
 ```csharp
     /// <summary>
@@ -82,6 +106,4 @@ ui:WFElementBase.ContainerPadding - отвечает за настраиваем
     }
 ```
 
-Где PrimoCustomContainerV - имя контролла WPF, отвечающего за отображение
-
-Для доступа к контроллу WPF можно использовать свойство this.UIControl
+Для доступа к контроллу WPF можно использовать свойство **this.UIControl**.

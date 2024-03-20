@@ -1,16 +1,17 @@
 # Правила анализа кода
-> *Подробнее о назначении механизма см. в разделе [Анализ проекта](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects/analyzer)*.
+
+Подробнее о назначении механизма см. в разделе [Анализ проекта](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects/analyzer).
 
 ## Начало работы
 
-1.	Запустить Visual Studio.
-2.	Выбрать **Create a new project** с типом Class Library (.NET Framework) либо Class Library (поддерживаются .NET Framework 4.6.1 и .NET Standard 2.0).
-3.	Ввести имя проекта. **Имя проекта и библиотеки dll должны начинаться с префикса Primo.**
-4.	Добавить в Dependencies проекта сборку Primo.ProjectAnalyzer.Dto.dll:
+1.	Запустите Visual Studio.
+2.	Выберите **Create a new project** с типом Class Library (.NET Framework) либо Class Library (поддерживаются .NET Framework 4.6.1 и .NET Standard 2.0).
+3.	Введите имя проекта. **Имя проекта и библиотеки dll должны начинаться с префикса Primo.**
+4.	Найдите в папке Primo Studio сборку `Primo.ProjectAnalyzer.Dto.dll` и добавьте ее в Dependencies проекта:
   
   ![](<../../../.gitbook/assets/1.sdk.rules.png>) 
 
-5\. Создать класс (Add ➝ Class...), который будет содержать правило. Для этого надо унаследовать интерфейс Primo.ProjectAnalyzer.IAnalysisRule.
+5\. Создайте класс (Add ➝ Class...), который будет содержать правило. Для этого надо унаследовать интерфейс Primo.ProjectAnalyzer.IAnalysisRule.
 
 ## Создание правила
 
@@ -296,12 +297,23 @@ namespace Primo.ProjectAnalyzer.Dto.Rules
 ```csharp
 Primo.ProjectAnalyzer.Inspector insp = new Primo.ProjectAnalyzer.Inspector();
 
+//Проверка проекта
 var proj = Primo.ProjectAnalyzer.Helper.ProcessHelper.LoadProject(@"C:\Test\project.ltp");
 var ret = insp.InspectRule(proj, testrule1);
 
+//Проверка процесса
 var proc = Primo.ProjectAnalyzer.Helper.ProcessHelper.LoadProcess(@"C:\Test\Main.ltw");
 ret = insp.InspectRule(proc, testrule2);
+
+//Проверка элемента
+var els = proc.GetAllElements();
+ret = insp.InspectRule(els.Where(it => it.Properties.Where(it2 => (it2.Name == "ComponentID") && (it2.Value.ToString() == "20a3444a-70fe-4657-a4fa-390668af67f9")).Count() > 0).First(), testRule);
 ```
+
+В результате сборки нового правила будет получена библиотека Primo.\*.dll. Ее нужно скопировать и добавить в папку Primo Studio. Если библиотека не содержит ошибок, после запуска Студии правило станет доступно в меню **Общие > Анализ**.
+
+
+
 
 
 

@@ -21,9 +21,9 @@
 Предоставляют возможность выбрать клавиши для эмулирования:
 
 1. **Новое ядро**: Boolean. Признак использования нового ядра для взаимодействия с операционной системой. Установите галочку, если новое ядро нужно использовать. По умолчанию галочка снята.
-1. **Основная кнопка**: LTools.Common.Model.VirtualKey. Клавиша, которая будет эмулирована. По умолчанию `NONE` - не задана. Щелкните выпадающий список, чтобы выбрать клавишу. Пример: `VK_A` - клавиша А. С полным списком значений можно ознакомиться [здесь](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_desktop/emulspbutton-application).
-1. **Модификатор**: LTools.Common.Model.VirtualKey. Кнопка-модификатор, которая позволяет добавить к основной клавише дополнительные функции (например, Ctrl, Shift, Alt). По умолчанию `NONE` - не задана. Щелкните выпадающий список, чтобы выбрать модификатор. Пример: `CONTROL`. С полным списком значений можно ознакомиться [здесь](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_desktop/emulspbutton-application).
-1. **Дополнительная кнопка**: LTools.Common.Model.VirtualKey. Позволяет указать вторую клавишу в комбинации, если она требуется. По умолчанию `NONE` - не задана. Щелкните выпадающий список, чтобы выбрать кнопку. Пример: `ESCAPE`. С полным списком значений можно ознакомиться [здесь](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_desktop/emulspbutton-application).
+1. **Основная кнопка**: LTools.Common.Model.VirtualKey. Клавиша, которая будет эмулирована. По умолчанию `NONE` - не задана. Щелкните выпадающий список, чтобы выбрать клавишу. Пример: `VK_A` - клавиша А. [См. полное описание значений](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_desktop/emulspbutton-application).
+1. **Модификатор**: LTools.Common.Model.VirtualKey. Кнопка-модификатор, которая позволяет добавить к основной клавише дополнительные функции (например, Ctrl, Shift, Alt). По умолчанию `NONE` - не задана. Щелкните выпадающий список, чтобы выбрать модификатор. Пример: `CONTROL`. [См. полное описание значений](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_desktop/emulspbutton-application).
+1. **Дополнительная кнопка**: LTools.Common.Model.VirtualKey. Позволяет указать вторую клавишу в комбинации, если она требуется. По умолчанию `NONE` - не задана. Щелкните выпадающий список, чтобы выбрать кнопку. Пример: `ESCAPE`. [См. полное описание значений](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_desktop/emulspbutton-application).
 
 #### Группа «Процесс»
 
@@ -98,3 +98,8 @@ _lib.LTools.Desktop.DesktopApp.HotKeySimulate(wf, "{ENTER}");
 ```
 {% endtab %}
 {% endtabs %}
+
+## Полезные материалы
+
+1. [Приложение 1. Кнопки для эмулирования](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_desktop/emulspbutton-application) - описание значений для свойств **Основная кнопка**, **Модификатор** и **Дополнительная кнопка**.
+2. [Описание значений для свойства Спецкнопки](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.sendkeys.send).

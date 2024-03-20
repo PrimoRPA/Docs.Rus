@@ -1,20 +1,21 @@
-# Получить учетные данные
+---
+description: Get Credentials
+---
 
-*Eng: Get Credentials*
+# Получить учетные данные
 
 ![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (1) (44).png>)
 
-![](<../../../../.gitbook/assets/image (386).png>)
-
-## Предварительные условия
-
-:white_check_mark: Установлена связь Студии и Оркестратора. О том, как настроить подключение, см. [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings#orkestrator).\
-:white_check_mark: В Оркестраторе создан ресурс (переменная) с типом Credentials.
-
 ## Назначение
 
-Элемент позволяет получить учетные данные из Оркестратора. Под учетными данными подразумевается [ресурс](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) с типом Credentials, который был создан в Оркестраторе и хранится в его базе данных. 
+Элемент позволяет получить учетные данные из Оркестратора. Под учетными данными подразумевается [ресурс](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) с типом Credentials, который был создан в Оркестраторе и хранится в базе данных. 
 
+![](<../../../../.gitbook/assets/image (386).png>)
+
+## Начальные условия
+
+:small_blue_diamond: Установлено [подключение](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings#orkestrator) Студии к Оркестратору.\
+:small_blue_diamond: В Оркестраторе создан ресурс (переменная) с типом Credentials. 
 
 ## Свойства
 Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
