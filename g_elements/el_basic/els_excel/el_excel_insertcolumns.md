@@ -6,7 +6,7 @@
 
 **Общие сведения**:
 
-1. Путь до файла, тип драйвера и прочие параметры предварительно настраиваются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app).
+1. Путь до файла, тип драйвера и другие базовые параметры настраиваются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app).
 2. Если в файле требуется сохранить изменения, то после вставки колонок используйте элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_save).
 
 ## Свойства
@@ -14,17 +14,17 @@
 Описание общих свойств элемента см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
 Символ `*` в названии свойства указывает на обязательность заполнения.
 
-| Свойство        | Тип    | Описание                                                                                                             |
-| --------------- | ------ | -------------------------------------------------------------------------------------------------------------------- |
-| ***Excel:***    |        |                                                                                                                      |
-| Кол-во\*        | Int32  | Количество ставляемых колонок. По умолчанию `1`                                                                      |
-| Индекс          | Int32  | Порядковый номер колонки, **слева** от которой добавится новая. Отсчет с нуля. Если не указано, то вставка выполнится в конце листа |
-| Страница        | String | Наименование страницы. Пример: `"Лист 1"`                                                                            |
-| Индекс страницы | Int32  | Порядковый номер страницы Excel, отсчет с нуля. Пример: `0`                                                          |
+| Свойство        | Тип    | Описание                                                                                                             | Пример     |
+| --------------- | ------ | -------------------------------------------------------------------------------------------------------------------- | ---------- |
+| **Excel:**      |        |                                                                                                                      |            |     
+| Кол-во\*        | Int32  | Количество ставляемых колонок                                                                                        | `1`        |
+| Индекс          | Int32  | Порядковый номер колонки, **слева** от которой добавится новая. Если номер не указан, то вставка выполнится в конце листа | `0`   |
+| Страница        | String | Наименование страницы                                                                                                | "Лист1"    |
+| Индекс страницы | Int32  | Порядковый номер страницы Excel                                                                                      | `0`        |
 
 ## Только код
 
-Пример использования элемента в процессе с типом **Только код (Pure code)**:
+Ниже приведен пример использования элемента в процессе с типом **Только код (Pure code)**:
 
 {% tabs %}
 {% tab title="C#" %}
@@ -36,11 +36,47 @@
 //sheet - Страница: [String] Наименование страницы
 //sheetIdx - Индекс страницы: [Int32] Индекс страницы
 		
-LTools.Office.ExcelApp app = LTools.Office.ExcelApp.Init(wf, ".\\columns-rows.xlsx", ";", LTools.Office.Model.InteropTypes.DX);
+LTools.Office.ExcelApp app = LTools.Office.ExcelApp.Init(wf, ".\\columns.xlsx", ";", LTools.Office.Model.InteropTypes.DX);
 Int32 columnIdx=3;
 Int32 count = 2;
 app.InsertColumns(columnIdx,count,"Лист1",0);
 app.Save();
 ```
 {% endtab %}
+
+{% tab title="Python" %}
+```python
+#Свойства элемента:
+#app - [LTools.Office.ExcelApp] Приложение Excel
+#range - Кол-во: [Int32] Кол-во ставляемых колонок
+#index - Индекс: [Int32] Индекс колонки, слева от которой будет производиться вставка. Если не указан, то вставка производится в конце листа
+#sheet - Страница: [String] Наименование страницы
+#sheetIdx - Индекс страницы: [Int32] Индекс страницы
+		
+app = LTools.Office.ExcelApp.Init(wf, ".\\columns.xlsx",";", LTools.Office.Model.InteropTypes.DX)
+columnIdx = 3;
+count = 2;
+app.InsertColumns(columnIdx,count,"Лист1",0)
+app.Save();
+```
+{% endtab %}
+
+{% tab title="JavaScript" %}
+```javascript
+//Свойства элемента:
+//app - [LTools.Office.ExcelApp] Приложение Excel
+//range - Кол-во: [Int32] Кол-во ставляемых колонок
+//index - Индекс: [Int32] Индекс колонки, слева от которой будет производиться вставка. Если не указан, то вставка производится в конце листа
+//sheet - Страница: [String] Наименование страницы
+//sheetIdx - Индекс страницы: [Int32] Индекс страницы
+		
+let app = _lib.LTools.Office.ExcelApp.Init(wf, ".\\columns.xlsx", ";", _lib.LTools.Office.Model.InteropTypes.DX);
+var columnIdx = 3;
+var count = 2;
+app.InsertColumns(columnIdx, count, "Лист1",0);
+app.Save();
+```
+{% endtab %}
+{% endtabs %}
+
 
