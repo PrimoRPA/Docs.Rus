@@ -20,12 +20,12 @@ description: Get Credentials
 ## Свойства
 Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
 
-| Свойство       | Тип                                              | Описание                                                                                                |
-| -------------- | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------- |
-| _**Процесс:**_  |    |  |
-| Наименование\* | String                                           | Имя ресурса с учетными данными, значение которого хотите получить. Должно совпадать с названием ресурса в Оркестраторе. Пример: `"Key"` |
-| Таймаут        | Int32                                            | Лимит времени операции, задается в миллисекундах. По умолчанию `5000`. Если по истечении лимита операция не выполнена, робот закончит работу с ошибкой |
-| _**Вывод:**_   |   |   |
+| Свойство       | Тип                                              | Описание                                                                                                | Пример              |
+| -------------- | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------- | ------------------- |
+| **Процесс:**  |    |  |
+| Наименование\* | String                                           | Имя ресурса с учетными данными, значение которого хотите получить. Должно совпадать с названием ресурса в Оркестраторе. При вводе соблюдайте регистр | `"MyCred"` |
+| Таймаут        | Int32                                            | Лимит времени операции, задается в миллисекундах. По умолчанию `5000`. Если по истечении лимита операция не выполнена, робот закончит работу с ошибкой | `5000`   |
+| **Вывод:**   |   |   |
 | Логин          | String                                           | Название строковой переменной, в которой будет храниться логин из полученных учетных данных   |
 | Пароль         | [System.Security.SecureString](https://learn.microsoft.com/ru-Ru/dotnet/api/system.security.securestring?view=net-6.0) | Название переменной для хранения полученного пароля. Пароль будет сохранен в зашифрованном виде. Впоследствии его можно использовать в других элементах Студии, обладающих свойством **Защищенный пароль**  |
 
@@ -43,19 +43,19 @@ description: Get Credentials
 {% tabs %}
 {% tab title="C#" %}
 ```csharp
-LTools.Enterprise.Model.CredentialResult ret = LTools.Enterprise.OrchestratorApp.CredentialsGet(wf, "Key");
+LTools.Enterprise.Model.CredentialResult ret = LTools.Enterprise.OrchestratorApp.CredentialsGet(wf, "MyCred");
 ```
 {% endtab %}
 
 {% tab title="Python" %}
 ```python
-ret = LTools.Enterprise.OrchestratorApp.CredentialsGet(wf, "Key")
+ret = LTools.Enterprise.OrchestratorApp.CredentialsGet(wf, "MyCred")
 ```
 {% endtab %}
 
 {% tab title="JavaScript" %}
 ```javascript
-var ret = _lib.LTools.Enterprise.OrchestratorApp.CredentialsGet(wf, "Key");
+var ret = _lib.LTools.Enterprise.OrchestratorApp.CredentialsGet(wf, "MyCred");
 ```
 {% endtab %}
 {% endtabs %}
