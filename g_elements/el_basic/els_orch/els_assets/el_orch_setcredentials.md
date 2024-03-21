@@ -7,7 +7,7 @@ description: Set Credentials
 
 ## Назначение
 
-Элемент обращается к [ресурсу](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) типа Credentials (учетные данные) и позволяет установить ему новое значение. Название ресурса указывается в свойствах элемента.
+Элемент позволяет обратиться в Оркестратор, чтобы установить новое значение [ресурсу](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) с типом Credentials (учетные данные). Название ресурса указывается в свойствах элемента.
 
 ![](<../../../../.gitbook/assets/image (342).png>)
 
