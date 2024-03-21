@@ -1,3 +1,7 @@
+---
+description: Insert columns
+---
+
 # Вставка колонок
 
 ![](<../../../.gitbook/assets/image (556).png>)
