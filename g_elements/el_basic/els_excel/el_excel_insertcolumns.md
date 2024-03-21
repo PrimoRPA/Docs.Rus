@@ -6,10 +6,7 @@ description: Insert columns
 
 Элемент вставляет колонки в лист Excel.
 
-Общие сведения:
-
-1. Путь до файла, тип драйвера и другие базовые параметры настраиваются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app).
-2. Если в файле требуется сохранить изменения, то после вставки колонок используйте элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_save).
+Путь до файла, тип драйвера и другие базовые параметры настраиваются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app). Если в файле требуется сохранить изменения, то после вставки колонок используйте элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_save).
 
 ![](<../../../.gitbook/assets1/WFInsertColumns.png>)
 
@@ -27,7 +24,7 @@ description: Insert columns
 
 ## Только код
 
-Ниже приведен пример использования элемента в процессе с типом **Только код (Pure code)**:
+Пример использования элемента в процессе с типом **Только код (Pure code)**:
 
 {% tabs %}
 {% tab title="C#" %}
