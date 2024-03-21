@@ -70,3 +70,7 @@ var ret = _lib.LTools.Enterprise.OrchestratorApp.PeekQueueByFilter(wf, "queue", 
 {% endtab %}
 {% endtabs %}
 
+## Дополнительно
+* [Изменить статус в очереди](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_queues/changequeueitemstate) — присваивает элементу финальный статус обработки. 
+* [Удалить из очереди](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_queues/deletefromqueue) — удаляет элемент из очереди.
+
