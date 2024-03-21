@@ -1,31 +1,29 @@
+---
+description: Invoke VBA
+---
+
 # Запустить VBA
+
+Элемент выполняет скрипт VBA в файле Excel. Работает только с драйвером **Interop**. 
+
+Драйвер и другие базовые настройки указываются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app). Если в файле Excel потребуется сохранить изменения, используйте элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_save).
 
 ![](<../../../.gitbook/assets/image (577).png>)
 
-Элемент выполняет указанный скрипт VBA в файле Excel. 
-
-:bangbang: ***Работает только с драйвером Interop.***
-
-Примечания:
-
-1. Путь до файла Excel, тип драйвера и прочие параметры настраиваются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app). Внутрь этого контейнера помещается элемент **Запустить VBA**.
-2. Если в документе Excel требуется сохранить изменения, то после всех действий с файлом используйте элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_save).
-
 ## Свойства
 
-Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
-Символ `*` в названии свойства указывает на обязательность заполнения.
+Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
 
 | Свойство    | Тип           | Описание                     |
 | ----------- | ------------- | ---------------------------- |
-| ***Excel:*** |              |                              |
+| **Excel:** |              |                              |
 | Файл\*      | String        | Путь к файлу скрипта         |
 | Функция\*   | String        | Имя функции VBA              |
 | Аргументы\* | List\<object> | Аргументы скрипта. Максимальное количество - 20 аргументов |
 | Видимость\* | Boolean       | Видимость Excel              |
 | Асинхронный | Boolean       | Признак асинхронного выполнения |
 | Тайм-аут    | int           | Тайм-аут исполнения макроса (мс) |
-| ***Вывод:*** |              |                              |
+| **Вывод:** |              |                              |
 | Переменная  | Object        | Переменная, которая будет хранить результат выполнения скрипта |
 
 ## Только код
@@ -43,7 +41,7 @@
 //sheet - Страница: [String] Наименование страницы
 //sheetIdx - Индекс страницы: [Int32] Индекс страницы
 		
-LTools.Office.ExcelApp app = LTools.Office.ExcelApp.Init(wf, System.IO.Path.GetFullPath(".\\searching.xlsx"), ";", LTools.Office.Model.InteropTypes.Interop);
+LTools.Office.ExcelApp app = LTools.Office.ExcelApp.Init(wf, System.IO.Path.GetFullPath(".\\TestData.xlsx"), ";", LTools.Office.Model.InteropTypes.Interop);
 String vbaFile = System.IO.Path.GetFullPath(".\\vba.bas");
 String vbaFunction = "WriteToCell";
 List<Object> vbaArguments = new List<Object>(){"A11","Лист1","Text from Primo"};
@@ -52,3 +50,47 @@ app.Save();
 app.App.Dispose();
 ```
 {% endtab %}
+
+{% tab title="Python" %}
+```python
+#Свойства элемента:
+#app - [LTools.Office.ExcelApp] Приложение Excel
+#name - Файл: [String] Путь к файлу скрипта
+#func - Функция: [String] Имя функции VBA
+#args - Аргументы: [List<object>] Аргументы скрипта
+#visible - Видимость: Видимость Excel
+
+app = LTools.Office.ExcelApp.Init(wf, System.IO.Path.GetFullPath(".\\TestData.xlsx"),";", LTools.Office.Model.InteropTypes.Interop)
+	
+vbaFile = System.IO.Path.GetFullPath(".\\addTextToCell.bas")
+vbaFunction = "AddTextToCells"
+vbaArguments = None
+
+data = app.RunVBA(vbaFile, vbaFunction, vbaArguments, True) #Object
+app.Save()
+app.App.Dispose()
+```
+{% endtab %}
+
+{% tab title="JavaScript" %}
+```javascript
+//Свойства элемента:
+//app - [LTools.Office.ExcelApp] Приложение Excel
+//name - Файл: [String] Путь к файлу скрипта
+//func - Функция: [String] Имя функции VBA
+//args - Аргументы: [List<object>] Аргументы скрипта
+//visible - Видимость: Видимость Excel
+
+//Необходимо указывать абсолютный путь до файла Excel и до VBA скрипта
+let app = _lib.LTools.Office.ExcelApp.Init(wf, ".\\TestData.xlsx", ";", _lib.LTools.Office.Model.InteropTypes.Interop);
+
+var vbaFile = ".\\addTextToCell.bas";
+var vbaFunction = "AddTextToCells";
+var vbaArguments = null;
+
+var data = app.RunVBA(vbaFile, vbaFunction, vbaArguments ,  true); //Object
+app.Save();
+app.App.Dispose();
+```
+{% endtab %}
+{% endtabs %}
