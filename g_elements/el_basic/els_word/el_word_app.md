@@ -6,6 +6,8 @@
 
 Компонент производит подключение к приложению Word. В случае отсутствия указанного файла будет создан новый.
 
+В режиме Interop не поддерживается работа с Microsoft Office 2010. Необходима более новая версия Microsoft Office.
+
 ## Свойства
 
 Описание общих свойств элемента см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
