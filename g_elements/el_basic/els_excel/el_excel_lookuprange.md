@@ -68,7 +68,7 @@ data = app.LookUpRange(range, text, "Лист1", 0) #string
 //sheet - Страница: [String] Наименование страницы
 //sheetIdx - Индекс страницы: [Int32] Индекс страницы
 
-    let app = _lib.LTools.Office.ExcelApp.Init(wf, ".\\TestData.xlsx", ";", _lib.LTools.Office.Model.InteropTypes.DX);
+let app = _lib.LTools.Office.ExcelApp.Init(wf, ".\\TestData.xlsx", ";", _lib.LTools.Office.Model.InteropTypes.DX);
 let range = "A5:F8";
 let text = "PrimoRPA";
 let data = app.LookUpRange(range, text, "Лист1", 0); //string
