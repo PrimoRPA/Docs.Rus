@@ -6,7 +6,7 @@ description: Invoke VBA
 
 Элемент выполняет скрипт VBA в файле Excel. Работает только с драйвером **Interop**. 
 
-Драйвер и другие базовые настройки указываются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app). Если в файле Excel потребуется сохранить изменения, используйте элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_save).
+Драйвер и другие базовые настройки указываются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app). Если в файле Excel требуется сохранить изменения, используйте элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_save).
 
 ![](<../../../.gitbook/assets/image (577).png>)
 
