@@ -1,36 +1,72 @@
+---
+description: Delete range
+---
+
 # Удаление диапазона
 
+Элемент удаляет диапазон ячеек в Excel. Это действие может нежелательным образом изменить структуру ваших табличных данных в результате сдвига ячеек. Рекомендуется предусмотреть последствия заранее.
 
-![](<../../../.gitbook/assets/image (97).png>)
 
-Компонент, удаляющий диапазон ячеек в Excel.
+Путь до файла, тип драйвера и другие базовые параметры настраиваются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app). Чтобы сохранить изменения, используйте также элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_save). 
 
-| Свойство        | Тип     | Описание                                                                                  |
-| --------------- | ------- | ----------------------------------------------------------------------------------------- |
-| Диапазон\*      | String  | Диапазон удаления ячеек (A1:D12)                                                          |
-| Страница        | String  | Наименование страницы                                                                     |
-| Индекс страницы | Int32   | Индекс страницы                                                                           |
-| Только ячейки   | Boolean | Признак того, что будут уничтожены только ячейки диапазона, а не колонки и строки целиком |
+![](<../../../.gitbook/assets1/WFRemoveRange.png>)
+
+
+## Свойства
+Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
+
+
+| Свойство        | Тип     | Описание                                                                                  | Пример     | 
+| --------------- | ------- | ----------------------------------------------------------------------------------------- | ---------- |
+| Диапазон\*      | String  | Диапазон ячеек, который вы хотите удалить                                                 | `"A1:D12"` |
+| Страница        | String  | Название страницы c указанным диапазоном                                                  | `"Лист1"`  |
+| Индекс страницы | Int32   | Номер страницы c указанным диапазоном. Нумерация начинается с нуля                        | `0`        |
+| Только ячейки   | Boolean | Признак того, что будут уничтожены только ячейки диапазона, а не колонки и строки целиком |  |
+
+## Только код
+
+Пример использования элемента в процессе с типом **Только код** (Pure code):
 
 {% tabs %}
 {% tab title="C#" %}
 ```csharp
-LTools.Office.ExcelApp app = LTools.Office.ExcelApp.Init(wf, "file", ";", LTools.Office.Model.InteropTypes.DX);
-app.RemoveRange("A1:C12", true, "Лист1");
+//Свойства элемента:
+//app - [LTools.Office.ExcelApp] Приложение Excel
+//range - Диапазон: [String] Диапазон считывания ячеек. Если не указан, будет удален выделенный диапазон
+//cellsOnly - Только ячейки: [Boolean] Признак того, что будут уничтожены только ячейки диапазона, а не колонки и строки целиком
+//sheet - Страница: [String] Наименование страницы
+//sheetIdx - Индекс страницы: [Int32] Индекс страницы
+
+LTools.Office.ExcelApp app = LTools.Office.ExcelApp.Init(wf, ".\\file.xlsx", ";", LTools.Office.Model.InteropTypes.DX);
+app.RemoveRange("A1:C12", true, "Лист1", 0);
 ```
 {% endtab %}
 
 {% tab title="Python" %}
 ```python
-app = LTools.Office.ExcelApp.Init(wf, "file", ";", LTools.Office.Model.InteropTypes.DX)
-app.RemoveRange("A1:C12", True, "Лист1")
+#Свойства элемента:
+#app - [LTools.Office.ExcelApp] Приложение Excel
+#range - Диапазон: [String] Диапазон считывания ячеек. Если не указан, будет удален выделенный диапазон
+#cellsOnly - Только ячейки: [Boolean] Признак того, что будут уничтожены только ячейки диапазона, а не колонки и строки целиком
+#sheet - Страница: [String] Наименование страницы
+#sheetIdx - Индекс страницы: [Int32] Индекс страницы
+
+app = LTools.Office.ExcelApp.Init(wf, ".\\file.xlsx", ";", LTools.Office.Model.InteropTypes.DX)
+app.RemoveRange("A1:C12", True, "Лист1", 0)
 ```
 {% endtab %}
 
 {% tab title="JavaScript" %}
 ```javascript
-var app = _lib.LTools.Office.ExcelApp.Init(wf, "file", ";", _lib.LTools.Office.Model.InteropTypes.DX);
-app.RemoveRange("A1:C12", true, "Лист1");
+//Свойства элемента:
+//app - [LTools.Office.ExcelApp] Приложение Excel
+//range - Диапазон: [String] Диапазон считывания ячеек. Если не указан, будет удален выделенный диапазон
+//cellsOnly - Только ячейки: [Boolean] Признак того, что будут уничтожены только ячейки диапазона, а не колонки и строки целиком
+//sheet - Страница: [String] Наименование страницы
+//sheetIdx - Индекс страницы: [Int32] Индекс страницы
+
+var app = _lib.LTools.Office.ExcelApp.Init(wf, ".\\file.xlsx", ";", _lib.LTools.Office.Model.InteropTypes.DX);
+app.RemoveRange("A1:C12", true, "Лист1", 0);
 ```
 {% endtab %}
 {% endtabs %}
