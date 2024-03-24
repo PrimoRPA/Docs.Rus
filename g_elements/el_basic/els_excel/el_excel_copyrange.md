@@ -1,6 +1,3 @@
----
-description: Copy range
----
 
 # Копирование диапазона
 
