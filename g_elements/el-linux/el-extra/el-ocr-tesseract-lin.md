@@ -2,7 +2,7 @@
 
 ![](<../../../.gitbook/assets1/Tesseract-cropped.png>)
 
-Элемент осуществляет подключение к ядру OCR программы Tesseract. Поддерживается только Tesseract 5-й версии. 
+Элемент осуществляет подключение к ядру OCR Tesseract. Поддерживается только Tesseract 5-й версии. 
 
 Является контейнером для таких OCR-элементов, как [Клик текста мышью](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/t1/els_ocr/el_ocr_textclick) и [Распознать текст](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/t1/els_ocr/el_ocr_recog).
 
@@ -13,7 +13,7 @@
 | Свойство             | Тип                   | Описание                                      |
 | -------------------- | --------------------- | --------------------------------------------- |
 | ***OCR:*** | |  |
-| Язык | String | Язык данных нейросети. По умолчанию `"eng"` (коды можно просмотреть [здесь](https://github.com/tesseract-ocr/tesseract/blob/main/doc/tesseract.1.asc#languages)). Папку с языковыми данными нейросети можно [скачать](https://tesseract-ocr.github.io/tessdoc/Data-Files). |
+| Язык | String | Язык для извлечения текста из изображения или элемента UI. Указать можно только 1 язык. По умолчанию `"eng"` (коды можно просмотреть [здесь](https://github.com/tesseract-ocr/tesseract/blob/main/doc/tesseract.1.asc#languages)). Папку с языковыми данными нейросети можно [скачать](https://tesseract-ocr.github.io/tessdoc/Data-Files). |
 | Масштаб | Double | Коэффициент масштабирования изображения. Рекомендуется использовать для небольших изображений. Значение `1.00` соответствует оригинальному размеру. Чем выше число, тем больше масштаб |
 | Путь к данным |  | Путь к хранилищу данных нейросети, расположенному по [ссылке](https://tesseract-ocr.github.io/tessdoc/Data-Files) (совместим с версией 5.0) |
 | ***Вывод:***  |  |  |
