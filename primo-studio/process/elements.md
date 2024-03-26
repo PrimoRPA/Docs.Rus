@@ -101,8 +101,7 @@
 
 ![](<../../.gitbook/assets/comment-out-element-black.png>)
 
-С версии 1.23.11 доступны команды контекстного меню:
+С версии 1.23.11 доступна команда контекстного меню:
 * **Перенести элемент в try/catch** — помещает выделенный элемент или элементы в контейнер [**Try-Catch**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_logic/el_logic_trycatch).
-* **Извлечь элемент из try/catch** — убирает выделенный элемент или элементы из контейнера **Try-Catch**.
 
 
