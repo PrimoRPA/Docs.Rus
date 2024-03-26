@@ -40,7 +40,7 @@ Finally — контейнер для одного или нескольких �
 | Исключение          | [LTools.Common.Model.ExecutionExceptionInfo](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_logic/datatypes/executionexceptioninfo) | Переменная для сохранения данных об исключении |
 
 
-## Learning 
+## Пример использования
 
 На странице [Learning](https://github.com/PrimoRPA/Learning) доступен RPA-проект, демонстрирующий работу с элементом:
 
