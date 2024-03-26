@@ -18,7 +18,7 @@
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/8515
 
-1. Исправлена ошибка, из-за которой при попытке открыть большие ltw-файлы Студия аварийно завершала работу.
+1. Устранена причина, по которой при попытке открыть большие ltw-файлы Студия аварийно завершала работу.
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/11248
 
