@@ -814,6 +814,7 @@
   	* [Чтение колонки](g_elements/el_basic/els-odf/els-table/el-odftable-readcolumn.md)
   	* [Чтение из ячейки](g_elements/el_basic/els-odf/els-table/el-odftable-readcell.md)
   	* [Чтение формулы из ячейки](g_elements/el_basic/els-odf/els-table/el-odftable-readcellformula.md)
+   * [Tesseract OCR](g_elements/el-linux/el-extra/el-ocr-tesseract-lin.md)
 
 ## Primo Robot
 
