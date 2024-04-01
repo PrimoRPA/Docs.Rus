@@ -31,6 +31,12 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/15554
    
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/4067
 
+5. Внесены изменения в работе элемента **Mouse text click** Проблема с превышением времени ожидания из-за неисправности метода DesktopInst.GetText() была устранена путем внедрения проверки strict time-out и исправления указанного метода.
+   
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/7442
+
+
+
 ## Режим Citizen
 
 1. 
