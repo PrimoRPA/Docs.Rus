@@ -35,6 +35,10 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/4067
    
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/7442
 
+6. Исправлена ошибка в браузерном селекторе, ранее приводившая к выбору неверного уровня элемента. (Например, вместо тэга "**th**" выбирался тэг "**TABLE**", препятствуя успешному клику по элементам таблицы). Теперь селектор точно определяет целевые элементы, обеспечивая корректное взаимодействие.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/1085
+
 
 
 ## Режим Citizen
