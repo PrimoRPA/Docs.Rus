@@ -53,7 +53,9 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/13691
 
 ## Режим Citizen
 
-1. 
+1. Исправлена ошибка в активности "**Фильтр таблицы**" (LTools.Data.Elements.DataTables.Citizen.WFCFilterDataTable) в Studio **Citizen**, возникавшая при смене условий фильтрации с "И" на "ИЛИ". Теперь активность функционирует корректно, без прерывания работы из-за ошибок.
+   
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/11256
 
 
 
