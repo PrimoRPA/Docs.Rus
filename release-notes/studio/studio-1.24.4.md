@@ -50,10 +50,15 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/7696
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/13691
 
+9. Внедрены изменения в систему **undo-redo**, улучшающие обработку действий и целостность элементов в диаграммах. Ранее в диаграммах наблюдались проблемы с некорректной отменой действий и разрывами связей между элементами.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/13780
+
+10. Оптимизирована работа элемента **Прочитать таблицу**, обеспечивающая точное считывание сложных HTML-таблиц и корректное считывание данных при работе с мастером.
 
 ## Режим Citizen
 
-1. Исправлена ошибка в активности "**Фильтр таблицы**" (LTools.Data.Elements.DataTables.Citizen.WFCFilterDataTable) в Studio **Citizen**, возникавшая при смене условий фильтрации с "И" на "ИЛИ". Теперь активность функционирует корректно, без прерывания работы из-за ошибок.
+1. Исправлена ошибка в активности **Фильтр таблицы** (LTools.Data.Elements.DataTables.Citizen.WFCFilterDataTable) в Studio **Citizen**, возникавшая при смене условий фильтрации с **И**" на **ИЛИ**. Теперь активность функционирует корректно, без прерывания работы из-за ошибок.
    
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/11256
 
