@@ -56,11 +56,15 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/13780
 
 10. Оптимизирована работа элемента **Прочитать таблицу**, обеспечивающая точное считывание сложных HTML-таблиц и корректное считывание данных при работе с мастером.
 
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/7409
+
 ## Режим Citizen
 
 1. Исправлена ошибка в активности **Фильтр таблицы** (LTools.Data.Elements.DataTables.Citizen.WFCFilterDataTable) в Studio **Citizen**, возникавшая при смене условий фильтрации с **И**" на **ИЛИ**. Теперь активность функционирует корректно, без прерывания работы из-за ошибок.
    
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/11256
+
+2. 
 
 
 
