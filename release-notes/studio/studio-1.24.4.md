@@ -12,6 +12,10 @@
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/7635
 
+3. Добавлена функциональность в **Pick branch** , позволяющая задать действие по умолчанию для ситуаций, когда не срабатывает ни один из условных ветвей Pick branch.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/3706
+
 ## Исправленные ошибки (режим Pro)
 
 1. Исправлены ошибки в работе контекстного меню элементов:
