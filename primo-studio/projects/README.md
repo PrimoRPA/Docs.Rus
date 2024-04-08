@@ -133,5 +133,11 @@ RPA-проект — один или несколько [сценариев](htt
 Кнопки **Свернуть/Развернуть папки** помогают показать либо скрыть содержимое папок на панели «Проект».
 
 
+## Дополнительно
 
+* [Работа с процессами](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process);
+* [Работа с элементами](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements);
+* [Описание элементов](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic);
+* [Запуск и отладка процесса](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/debug);
+* [Анализ кода проекта](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects/analyzer).
 
