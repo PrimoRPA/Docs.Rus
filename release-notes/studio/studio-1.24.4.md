@@ -20,6 +20,10 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/3706
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/10375
 
+5. Добавлена функция подсветки для элементов "Ссылка на процесс" при добавлении аргументов. Теперь, когда пользователь вносит изменения в аргументы подпроцесса на таких элементах, активируется подсветка, указывающая на изменения. Эта подсветка исчезает после того, как произведено редактирование и назначение переменных.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/130
+
 ## Исправленные ошибки (режим Pro)
 
 1. Исправлены ошибки в работе контекстного меню элементов:
@@ -72,6 +76,7 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/7409
 12. Устранена ошибка при работе с функцией "Ввод текста", ранее  когда элемент определялся по индексу, опция очистки поля после ввода текста не функционировала должным образом.
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/9285
+
 
 ## Режим Citizen
 
