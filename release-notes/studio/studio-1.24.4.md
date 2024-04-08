@@ -77,6 +77,10 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/7409
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/9285
 
+13. Исправлена ошибка поиска выбранного элемента при некорректном значении индекса. Ранее при использовании некорректного индекса для выбора элемента система ошибочно выполняла его поиск и валидацию, что могло привести к его неверному выбору и нарушению работы.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/8540
+
 
 ## Режим Citizen
 
