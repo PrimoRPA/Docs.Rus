@@ -22,13 +22,13 @@
 | XPath        | String                                                      | Строка с выражением XPath для поиска в HTML-документе. Дополнительная информация об XPath доступна на [Wikipedia](https://ru.wikipedia.org/wiki/XPath). |
 
 
-##  Learning
+## Пример использования
 
-Для изучения работы с элементом **HTML к объекту**, вы можете скачать обучающий RPA-проект по следующей ссылке: [Скачать архив Learning](https://github.com/PrimoRPA/Learning/archive/refs/heads/master.zip)
+Вы можете скачать обучающий RPA-проект, в котором используется элемент **HTML к объекту**, в нашем публичном репозитории на [GitHub](https://github.com/PrimoRPA/Learning). 
 
-1. Скачайте архив с обучающими материалами с указанной страницы.
+1. Скачайте архив с обучающими материалами по следующей ссылке: [Скачать архив Learning](https://github.com/PrimoRPA/Learning/archive/refs/heads/master.zip).
 2. Распакуйте архив и откройте проект `StudioActivities` в вашей среде разработки.
-3. Найдите процесс `StudioActivities/Ru/Данные/HTML/HTML к объекту.ltw` для изучения работы элемента.
+3. Найдите процесс `StudioActivities/Ru/Данные/HTML/HTML к объекту.ltw` и откройте его для изучения.
 
 ## Только код
 
