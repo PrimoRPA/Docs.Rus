@@ -38,11 +38,11 @@
 
 ### Где скачать
 
-Скачать комплект поставки Оркестратора 23.8 можно по [этой ссылке](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease%2FOrchestrator). Он содержит 2 архива:
+Скачать комплект поставки Оркестратора 23.8 можно по [этой ссылке](http://disk3.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FArchive%2FOrchestrator). Он содержит 2 архива:
 * **Primo RPA Orchestrator 23.8.0 FULL.zip** - полный комплект поставки, в который входят дистрибутивы Оркестратора и внешних компонентов: например, базы данных PostgreSQL Server, брокера сообщений RabbitMQ и др. Вес дистрибутива ~ 3,5 Гб.
 * **Primo RPA Orchestrator 23.8.0.zip** - облегченный вариант поставки, который весит около ~ 1,1 Гб.
 
-Робот Enterprise, дистрибутив которого загружается в Оркестратор, скачивается отдельно от комплекта поставки. Архив имеет название **Primo RPA Robot Orchestrator <архитектура> 23.8.0.zip** и находится [здесь](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease%2FRobot).
+Робот Enterprise, дистрибутив которого загружается в Оркестратор, скачивается отдельно от комплекта поставки. Архив имеет название **Primo RPA Robot Orchestrator <архитектура> 23.8.0.zip** и находится [здесь](http://disk3.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FArchive%2FRobot).
 
 
 

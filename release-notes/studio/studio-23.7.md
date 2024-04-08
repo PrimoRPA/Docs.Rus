@@ -30,4 +30,4 @@
 1. Улучшено отображение иконок в дереве проекта. 
 
 ### Где скачать 
-Скачать Студию 23.7 можно по этой [ссылке](https://disk.primo-rpa.ru/index.php/s/primo). 
+Скачать Студию 23.7 можно по этой [ссылке](http://disk3.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FArchive%2FStudio%2FWindows). 

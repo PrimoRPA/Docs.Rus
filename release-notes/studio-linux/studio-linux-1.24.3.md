@@ -68,7 +68,7 @@
 
 ### Где найти 
 
-[Скачать дистрибутив Primo Studio Linux](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease%2FStudio).
+[Скачать дистрибутив Primo Studio Linux](http://disk3.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FRelease%2FStudio).
 
-[Скачать дистрибутив Primo RPA Robot](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease%2FRobot).
+[Скачать дистрибутив Primo RPA Robot](http://disk3.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FRelease%2FRobot).
 

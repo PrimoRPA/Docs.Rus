@@ -26,9 +26,9 @@
 1. Устранена причина ошибки, из-за которой в подпроцессе после добавления нового элемента исчезали индикаторы предупреждения об ошибке (⚠️) на других компонентах.
 
 ### Где скачать 
-Скачать Primo Studio Enterprise 23.8 можно по этой [ссылке](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease%2FStudio).
+Скачать Primo Studio Enterprise 23.8 можно по этой [ссылке](http://disk3.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FRelease%2FStudio).
 
-Дистрибутив Primo Robot, работающий на компьютере пользователя, находится [здесь](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease%2FRobot). Обратите внимание, что он не должен содержать слова Orchestrator в своем названии - эти дистрибутивы предназначены для Роботов Оркестратора.
+Дистрибутив Primo Robot, работающий на компьютере пользователя, находится [здесь](http://disk3.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FRelease%2FRobot). Обратите внимание, что он не должен содержать слова Orchestrator в своем названии - эти дистрибутивы предназначены для Роботов Оркестратора.
 
 
 
