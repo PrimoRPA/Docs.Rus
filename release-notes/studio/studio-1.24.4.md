@@ -24,6 +24,10 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/10375
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/130
 
+6. Улучшена работа с определением селекторов на кнопках десктоп-приложений TWR ITC. Инструмент теперь осуществляет надежный поиск элементов в иерархии, также улучшено восстановление исходного форматирования текста
+  
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/3437
+
 ## Исправленные ошибки (режим Pro)
 
 1. Исправлены ошибки в работе контекстного меню элементов:
@@ -80,6 +84,8 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/9285
 13. Исправлена ошибка поиска выбранного элемента при некорректном значении индекса. Ранее при использовании некорректного индекса для выбора элемента система ошибочно выполняла его поиск и валидацию, что могло привести к его неверному выбору и нарушению работы.
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/8540
+
+
 
 
 ## Режим Citizen
