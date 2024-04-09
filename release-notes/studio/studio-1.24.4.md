@@ -85,6 +85,9 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/9285
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/8540
 
+14. Исправлена ошибка в функции **Keep last opened tabs**. Теперь вкладки процессов после перезапуска Студии восстанавливаются точно в том порядке, в котором они были открыты до закрытия/перезапуска.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/46
 
 
 
