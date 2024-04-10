@@ -24,7 +24,7 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/10375
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/130
 
-6. Улучшена функция поиска, которая позволяет по сочетанию клавиш Ctrl+F указывать не только наименование активности на русском языке, но и техническое название, например, `WFWriteCell`. Теперь поиск по таким запросам отображает соответствующие элементы.  
+6. Улучшена функция поиска, которая позволяет по сочетанию клавиш Ctrl+F указывать не только наименование активности на русском языке, но и техническое название.
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/165
 
