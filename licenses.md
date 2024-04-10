@@ -1,9 +1,9 @@
  # Лицензии
 
 Лицензируются следующие продукты Primo RPA:
-* Primo RPA Orchestrator (также Primo Orchestrator, Оркестратор);
-* Primo RPA Studio (также Primo Studio, Студия);
-* Primo RPA Robot (также Primo Robot, Робот);
+* Primo RPA Orchestrator (также Orchestrator, Оркестратор);
+* Primo RPA Studio (также Studio, Студия);
+* Primo RPA Robot (также Robot, Робот);
 * Primo RPA Idea Hub (также Idea Hub).
 
 В файле лицензии наименование продукта указано в теге `<product>`. Далее в статье оно обозначается как «мнемоника».
