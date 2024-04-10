@@ -99,11 +99,13 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/46
 
 ## Режим Citizen
 
-1. Исправлена ошибка в активности **Фильтр таблицы** (LTools.Data.Elements.DataTables.Citizen.WFCFilterDataTable) в Studio **Citizen**, возникавшая при смене условий фильтрации с **И**" на **ИЛИ**. Теперь активность функционирует корректно, без прерывания работы из-за ошибок.
+1. Исправлена ошибка в работе элемента **Фильтр таблицы** (LTools.Data.Elements.DataTables.Citizen.WFCFilterDataTable) в Studio **Citizen**, возникавшая при смене условий фильтрации с **И**" на **ИЛИ**. Теперь активность функционирует корректно, без прерывания работы из-за ошибок.
    
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/11256
 
-2. 
+2. Исправлена ошибка перетаскивания элемента. Теперь элементы последовательности при перетаскивании перемещаются по рабочему пространству синхронно с курсором мыши.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/7670
 
 
 
