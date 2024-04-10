@@ -15,9 +15,9 @@ description: Руководство пользователя
 
 ## Состав системы
 В состав системы входят следующие программы: 
-* Primo RPA Studio (также Primo Studio, Студия);
-* Primo RPA Robot (также Primo Robot, Робот);
-* Primo RPA Orchestrator (также Primo Orchestrator, Оркестратор);
+* Primo RPA Studio (также Studio, Студия);
+* Primo RPA Robot (также Robot, Робот);
+* Primo RPA Orchestrator (также Orchestrator, Оркестратор);
 * Primo RPA Idea Hub (также Idea Hub).
 
 ## Функциональные возможности
