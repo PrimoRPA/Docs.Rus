@@ -6,12 +6,13 @@
 
 1. Робот, при запуске процесса, стал записывать свою версию в лог.
 1. переписать - Студия стала валидировать значение по умолчанию для переменных, если в значении указан массив. При некорректном вводе система подсветит ошибку. Требуется добавить валидацию в поле 'Значение по умолчанию' при создании переменной
-1.
+1. Улучшение UI\UX. При попытке закрыть Студию во время выполнения/отладки процесса стало отображаться окно с предупреждением. 
 
 
 Ссылки на фичи:
 1. На старте процесса робот должен писать свою версию в лог https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_boards/board/t/Studio%20Team/Stories/?workitem=9346
 1. Требуется добавить валидацию в поле 'Значение по умолчанию' при создании переменной https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/208
+1. Закрытие студии во время выполнения - https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/7640
 
 
 
@@ -34,6 +35,8 @@
 1. Устранены причины ошибки "Index was out of range", возникавшей во время работы с процессом или при сохранении проекта/процесса.
 
 
+1. 
+
 
 Ссылки:
 1. 17563-Память не освобождается при закрытии вкладок процессов https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_boards/board/t/Studio%20Team/Stories
@@ -46,7 +49,6 @@
 1. Перенос или копирование селекторных активностей в контейнер автоматически сбрасывает их настройки без возможности возврата https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/13675
 1. При отладке в OnlyCode V2 не работает смена брейкпоинтов https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/8516
 1. Проблема с сохранением процесса https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/17379
-1. 
 
 
 
