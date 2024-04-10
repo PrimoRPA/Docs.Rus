@@ -2,7 +2,7 @@
 
 ## YandexGPT
 
-Для интеграции Primo с YandexGPT:
+Для интеграции Primo RPA с YandexGPT:
 1.	[Создайте](https://passport.yandex.ru/registration) аккаунт в сервисе Яндекс ID, если его еще нет.
 2.	Установите интерфейс командной строки Yandex Cloud (CLI) согласно официальной [документации](https://cloud.yandex.ru/ru/docs/cli/quickstart#install). 
 3.	Получите OAuth-токен в Яндексе ID, перейдя по следующей [ссылке](https://oauth.yandex.ru/authorize?response_type=token&client_id=1a6990aa636648e9b2ef855fa7bec2fb). Если приложение запрашивает доступ к данным, разрешите. Это нужно для получения токена.
@@ -51,7 +51,7 @@
 15.	Заполните форму создания платежного аккаунта.
 16.	Используйте токен (см. шаг 6) и ID папки (см. шаг 8) в следующих случаях:
     * в элементах [YandexGPT](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai/yandexgpt) из библиотеки [**Primo.AI**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai);
-    * для настройки интеграции Студии с YandexGPT после установки плагина `Primo.AI.Plugin.dll`. Функция будет доступна с версии 1.24.1.
+    * для настройки интеграции Студии с YandexGPT после [установки плагина `Primo.AI.Plugin.dll`](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings#ai). 
 
 ## GigaChat
 
@@ -82,5 +82,5 @@
    \
    Если токен нужен для настройки интеграции Студии со Sber AI, его также можно [получить через Postman](https://developers.sber.ru/docs/ru/gigachat/api/authorization#shag-2-poluchenie-tokena-dostupa-v-obmen-na-avtorizatsionnye-dannye). Для этого вам понадобятся авторизационные данные, которые вы сохранили в шаге 4.
 
-   Полученный токен укажите в разделе **Файл > Настройки > Интеграция > AI** в полях **Token** и **Key** для языковой модели Sber AI. Данные настройки будут доступны с версии 1.24.1.
+   Полученный токен укажите в разделе **Файл > Настройки > Интеграция > AI** в полях **Token** и **Key** для языковой модели Sber AI. Подробнее см. [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings#ai).
 
