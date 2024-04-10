@@ -24,7 +24,7 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/10375
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/130
 
-6. Улучшена функция поиска, которая позволяет по сочетанию клавиш Ctrl+F указывать не только наименование активности на русском языке, но и техническое название.
+6. Улучшена функция поиска Ctrl+F, теперь результаты поиска включают как русскоязычные наименования активностей, так и их технические обозначения.
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/165
 
