@@ -4,6 +4,10 @@
 
 ## Обновления и улучшения (режим Pro)
 
+1. Расширены возможности возможности работы с **JSON**. Теперь поддерживается автоматическая десериализация не только в **Dictionary**, но и в различные типы коллекций, включая **List<string>**.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/7413 (Уточнить у разработки)
+
 1. Улучшена работа с множеством окон в SAP: обеспечена возможность выбора элементов и взаимодействия в нескольких окнах одновременно, упрощая параллельную работу с разными транзакциями.
    
  https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/13293
@@ -97,9 +101,9 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/8540
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/46
 
-15. 
+15. Исправлена ошибка долгой валидации после выбора десктопного элемента. Теперь дерево контролов строится только по запросу, ускоряя выбор элементов. Также устранено подвисание малой формы при переключении на вкладку **Структура**.
 
-
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/17303
 
 ## Режим Citizen
 
