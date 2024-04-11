@@ -28,11 +28,13 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/130
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/165
 
-7. Улучшена работа с определением селекторов на кнопках десктоп-приложений TWR ITC. Инструмент теперь осуществляет надежный поиск элементов в иерархии, также улучшено восстановление исходного форматирования текста
+7. Улучшена работа с определением селекторов на кнопках десктоп-приложений **TWR ITC**. Инструмент теперь осуществляет надежный поиск элементов в иерархии, также улучшено восстановление исходного форматирования текста
   
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/3437
 
-8.
+8. Улучшена работа элементов типа **Событие** (OCR, Рабочий стол, Файлы). Внесенные изменения позволяют корректно выполнять автоматизацию.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/7797
 
 ## Исправленные ошибки (режим Pro)
 
@@ -95,11 +97,13 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/8540
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/46
 
+15. 
+
 
 
 ## Режим Citizen
 
-1. Исправлена ошибка в работе элемента **Фильтр таблицы** (LTools.Data.Elements.DataTables.Citizen.WFCFilterDataTable) в Studio **Citizen**, возникавшая при смене условий фильтрации с **И**" на **ИЛИ**. Теперь активность функционирует корректно, без прерывания работы из-за ошибок.
+1. Исправлена ошибка в работе элемента **Фильтр таблицы** (LTools.Data.Elements.DataTables.Citizen.WFCFilterDataTable) в Studio **Citizen**, возникавшая при смене условий фильтрации с **И** на **ИЛИ**. Теперь активность функционирует корректно, без прерывания работы из-за ошибок.
    
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/11256
 
