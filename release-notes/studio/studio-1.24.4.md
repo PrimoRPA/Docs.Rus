@@ -40,6 +40,10 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/3437
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/7797
 
+9. Добавлена функциональность сниппетов **Snippets**  (короткие, часто используемые фрагменты кода), позволяющая удобно интегрировать их в существующие проекты без создания новых процессов. Сниппеты переносятся в рабочую область как активности, упрощая процесс разработки.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/406
+
 ## Исправленные ошибки (режим Pro)
 
 1. Исправлены ошибки в работе контекстного меню элементов:
