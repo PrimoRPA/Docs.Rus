@@ -44,6 +44,10 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/7797
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/406
 
+10. Добавлена функция **Удаление писем**. Элемент используется для удаления почтовых сообщений по протоколу **IMAP**
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/968
+
 ## Исправленные ошибки (режим Pro)
 
 1. Исправлены ошибки в работе контекстного меню элементов:
