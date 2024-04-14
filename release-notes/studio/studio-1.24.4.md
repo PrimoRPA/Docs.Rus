@@ -48,6 +48,10 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/406
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/968
 
+11. Добавлена функция, позволяющая пользователям просматривать структуру проекта. Обновление структуры теперь можно включать или выключать из меню Настройки
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/17423
+
 ## Исправленные ошибки (режим Pro)
 
 1. Исправлены ошибки в работе контекстного меню элементов:
