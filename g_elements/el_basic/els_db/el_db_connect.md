@@ -22,7 +22,7 @@ description: Connect
 | Строка соединения\* | String                     | Строка соединения с БД. Строку можно сформировать автоматически по кнопке <img src="../../../.gitbook/assets/connection_editor_button.png" alt="" data-size="line"> — в этом случае откроется окно мастера (Wizard) | <p>Ole DB:</p> <p>`"Provider=SQLOLEDB;Data Source=<servername>;Initial Catalog=<dbname>;Integrated Security=SSPI"`</p> <p>PostgreSQL:</p> <p> `"Host=<host>;Port=5432;Password=<password>;Username=<username>;Database=<dbname>"`</p> <p>ODBC:</p> <p>`"DRIVER=<ODBC Driver>; SERVER=<host>; PORT=<port number>;DATABASE=<dbname>; USER=<username>; PASSWORD=<password>"`</p> |
 | Тип БД\*            | LTools.Database.Model.DatabaseTypes | Выберите тип подсоединяемой базы данных. Доступные значения: <p>1. Ole DB — по умолчанию;</p> <p>2. Postgre Sql;</p> <p>3. ODBC</p> | `Ole DB` |
 | **Вывод:**          | | | |
-| Соединение с БД     | LTools.Database.DatabaseInst        | Инстанс соединения с БД. Позволяет сохранить активное соединение в переменную, чтобы использовать в других местах сценария для более быстрого подключения |  | 
+| Соединение с БД     | LTools.Database.DatabaseInst        | Инстанс соединения с БД. Позволяет сохранить активное соединение в переменную, чтобы использовать в других местах сценария для более быстрого подключения или отключения от БД |  | 
 
 
 
