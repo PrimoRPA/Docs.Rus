@@ -30,7 +30,7 @@ description: Execute query
 | Тип БД                  | - | Тип базы данных. Нажмите на выпадающий список значений, чтобы выбрать доступный тип: <p>* Ole DB — по умолчанию;</p> <p>* Postgre Sql;</p> <p>* ODBC</p>  | `Postgre Sql` |
 | **Данные запроса:**     | | | |
 | Текст запроса\*         | String                                                                                                       | Текст запроса SQL | Postgre: <p>`"SELECT * FROM table1 WHERE column1 = @par1"`</p> |
-| Аргументы (конструктор) | String                                                                                                       | <p>Аргументы запроса в строковом формате. Строку можно сформировать в окне мастера по кнопке <img src="../../../.gitbook/assets/args-constructor.png" alt="">.<br><br>Пример результата: <code>"{"Args":[{"Position":0,"Name":"@par1","Script":"\"test\""}]}"</code><br><br>Где <strong>Args</strong> — это массив аргументов. Описание аргументов массива см. в подразделе [ниже](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_db/el_db_exec#argument-zaprosa)</p> |
+| Аргументы (конструктор) | String                                                                                                       | Аргументы запроса в строковом формате. Строку можно сформировать в окне мастера по кнопке <img src="../../../.gitbook/assets/args-constructor.png" alt=""> | Результат из мастера: <p> `"{\"Args\":[{\"Position\":0,\"Name\":\"@par1\",\"Script\":\"\\\"test\\\"\"}]}"`</p> Где <strong>Args</strong> — это массив аргументов, а **@par1** — имя первого аргумента массива (для запроса в Postgre). Описание аргументов массива см. в подразделе [ниже](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_db/el_db_exec#argument-zaprosa)</p>  |
 | Аргументы (массив)      | LTools.Database.Model.ArgumentsModel                                                                         | Аргументы запроса в виде массива. Описание аргументов см. в подразделе [ниже](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_db/el_db_exec#argument-zaprosa)   |
 | Наличие результатов     | Boolean                                                                                                      | Признак ожидания результатов запроса. Поставьте галочку, если запрос должен вернуть в ответ какие-то данные. Например, вы отправили `"SELECT * FROM table` и в ответе ожидаете данные из таблицы. Если же это запрос типа `INSERT TO...` или `DELETE FROM...`, который не возвращает данные, то галочку ставить не нужно  |
 | Таймаут                 | Int32                                                                                                        | Таймаут запроса в миллисекундах. Верхнее значение ограничено типом данных | `10000` |
@@ -38,6 +38,7 @@ description: Execute query
 | Кол-во                  | Int32                                                                                                        | Количество обработанных строк   |
 | Переменная (массив)     | List\<List\<string>>                                                                                         | Переменная для сохранения результатов запроса в массиве   |
 | Переменная (таблица)    | [System.Data.DataTable](https://learn.microsoft.com/ru-ru/dotnet/api/system.data.datatable?view=netcore-2.1) | Переменная для сохранения результатов запроса в Datatable |
+
 
 
 
@@ -86,6 +87,16 @@ description: Execute query
 
 Во время выполнения команды имя аргумента будет заменено на его значение.
 
+## Пример использования
+
+RPA-проект, демонстрирующий работу элемента, можно найти в нашем публичном репозитории [Learning](https://github.com/PrimoRPA/Learning).
+
+1. Скачайте архив со всеми обучающими материалами по ссылке: [Скачать архив Learning](https://github.com/PrimoRPA/Learning/archive/refs/heads/master.zip).
+2. Распакуйте архив и откройте в Студии проект **StudioActivities**.
+3. Выберите процесс `StudioActivities/Ru/База данных/Postgre.ltw` для просмотра. Тип процесса — **Последовательность**.
+
+
+
 ## Только код
 
 Пример использования элемента в процессе с типом **Только код** (Pure code):
@@ -116,6 +127,4 @@ var tbl = app.ExecuteQueryTbl("SELECT * FROM Table1");
 {% endtab %}
 {% endtabs %}
 
-## Пример использования
 
-Учебный пример процесса с элементом **Выполнить запрос** можно найти [здесь](https://github.com/PrimoRPA/Learning/tree/master/StudioActivities/Ru/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85). Процесс имеет название `Postgre.ltw`, тип процесса - **Последовательность**.
