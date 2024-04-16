@@ -577,7 +577,7 @@
     * [Список процессов](g\_elements/el\_basic/els\_desktop/el\_desktop\_getprocesses.md)
     * [Уничтожить процесс](g\_elements/el\_basic/els\_desktop/el\_desktop\_kill.md)
     * [Чтение таблицы](g\_elements/el\_basic/els\_desktop/el\_desktop\_gettable.md)
-    * [Прочитать консоль](g\_elements/el\_basic/els\_desktop/el\_desktop\_readconsole.md
+    * [Прочитать консоль](g\_elements/el\_basic/els\_desktop/el\_desktop\_readconsole.md)
     * [Эмуляция ввода текста](g\_elements/el\_basic/els\_desktop/el\_desktop\_emulinput.md)
     * [Эмуляция спецкнопки](g\_elements/el\_basic/els\_desktop/el\_desktop\_emulspbutton.md)
     * [Приложение 1. Кнопки для эмулирования](g_elements/el_basic/els_desktop/emulspbutton-application.md)
