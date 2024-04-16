@@ -52,6 +52,10 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/968
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/17423
 
+12. Оптимизирована работа с диаграммами. В блоке Decision добавлена функциональность, которая требует наличия условий хотя бы в двух или более ветках диаграммы. Если условия отсутствуют, система выведет сообщение, напоминая о необходимости их задать.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/7423
+
 ## Исправленные ошибки (режим Pro)
 
 1. Исправлены ошибки в работе контекстного меню элементов:
