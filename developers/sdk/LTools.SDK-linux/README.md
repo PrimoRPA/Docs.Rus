@@ -46,16 +46,6 @@
 
 ## Как что-то создать
 
-
-**Как загрузить в проект изображения:**
-
-Правой кнопкой мыши кликните по папке Images:
-1. Выберите Add
-2. Existing Item...
-3. File Choice change to "All Files"
-4. Сhoose downloaded images
-Every file -> Click -> Properties Window: in Advanced Category choose "Resource" in Buld Action
-
 **Как добавить в проект визуальную составляющую элемента:**
 
 Добавьте в проект компонент типа **User Control (WPF)** (Add ➝ New Item…). Данный элемент будет являться визуальной составляющей нашего элемента Primo. Данные будущего элемента автоматически будут смаплены на DataContext данного контролла (пример будет приведен далее).
@@ -64,14 +54,70 @@ Every file -> Click -> Properties Window: in Advanced Category choose "Resource"
 
 Создайте класс (Add ➝ Class…). Данный класс будет являться code-behind нашего элемента.
 
-
-......9. Для создания элемента:
-   * с синхронным поведением необходимо унаследовать класс LTools.SDK.PrimoComponentSimple<UI>.
-   * с тайм-аутом необходим класс LTools.SDK.PrimoComponentTO<UI>.
+Для создания элемента:
+* с синхронным поведением необходимо унаследовать класс LTools.SDK.PrimoComponentSimple<UI>.
+* с тайм-аутом необходим класс LTools.SDK.PrimoComponentTO<UI>.
 
 Где UI – это имя вашего визуального компонента из шага 5.
 
 
+**Как загрузить в проект изображения:**
+
+Правой кнопкой мыши кликните по папке Images, выберите Add > Existing Item... и загрузите нужные изображения. 
+
+Затем кликните правой кнопкой мыши каждое изображение и откройте Properties. В группе свойств Advanced выберите для Buld Action значение Resource. (зачем это делать? это всегда и для всех картинок нужно делать?)
+
+
+**Как настроить название проекта (или правильнее - пакета?)**   ///и зачем это делать
+
+В окне Solution Explorer разверните Properties проекта и дважды щелкните файл `AssemblyInfo.cs`. Затем заполните поля, как на рисунке ниже:
+
+(Рисунок Алексея)
+
+
+## Создание элемента
+
+Правой кнопкой мыши кликните по папке Elements и выберите Add -> New Item... -> Choose C# Class. Укажите имя элемента, например, `MyFirstActivity.cs` и нажмите Add.
+
+Далее правой кнопкой мыши кликните по папке Views и выберите Add -> New Item... -> Choose User Control (WPF) -> Name: MyFirstActivity_Form.xaml -> Add.
+
+<здесь у Алексея рисунки от руки с дизайном элемента>
+
+Дважды кликните по файлу `MyFirstActivity_Form.xaml` и создайте колонки и строки (для чего?). В нашем примере мы создадим 2 колонки и 2 строки (но может быть и больше?). После чего отобразите получившуюся (сетку) - откройте Grid property -> ShowGridLines="True"
+
+Просто замените новый Grid на этот код:
+
+```
+  <Grid x:Name="MyFirstActivity_Form_grd" 
+            VerticalAlignment="Center" 
+            HorizontalAlignment="Center" 
+            ShowGridLines="True"
+            Background="White"
+            
+  >
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition></ColumnDefinition>
+        <ColumnDefinition></ColumnDefinition>
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+        <RowDefinition></RowDefinition>
+        <RowDefinition></RowDefinition>
+    </Grid.RowDefinitions>
+  </Grid>
+```
+
+Итак, у нас определены столбцы и строки. Затем под `</Grid.RowDefinitions>` добавьте изображение: 
+
+```
+<Grid Grid.Row="0" Grid.Column="0">
+  <Image HorizontalAlignment="Left" 
+         Source="pack://application:,,/User.My.Activity;component/Images/eye_logo.png"
+         Height="40"
+         Width="40"
+         Margin="5,5,5,5"
+  />
+</Grid>
+```
 
 
 
