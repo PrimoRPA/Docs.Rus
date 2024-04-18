@@ -9,11 +9,19 @@
 
 
 Добавлены новые статусы выполнения роботов. Теперь в интерфейсе Оркестратора доступны статусы **Стартует-Ожидает** и **Завершается работа**.
+
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/13087
 
 
 
 ### Улучшения UX/UI
+
+
+1. На странице **Роботы > Переразвернуть робота** добавлена функциональная кнопка очистки поля **Шаблон развертывания**.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/15531
+
+
 
 ## Улучшения в UI 3
 
@@ -24,7 +32,7 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17
 ## Исправленные ошибки 
 
 1. Изменен статус ошибки **Нехватка лицензий** на более понятный **Достигнуто максимальное количество работающих роботов на машине**
-2. Исправлена ошибка в функции **Изменить статус в очереди**, вызывавшая нарушение ограничения внешнего ключа в таблице `ExchangeQueueValueEvents`и нарушение ограничения **NOT NULL** в столбце `LaunchChainKey` таблицы `RpaProjectQueue`  
+2. Исправлена ошибка в функции **Изменить статус в очереди**, которая нарушала ряд ограничений в таблицах `ExchangeQueueValueEvents` и `RpaProjectQueue`.
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/11502   
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/11501
