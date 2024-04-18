@@ -39,6 +39,10 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/11502   
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/11501
 
+3. Исправлена ошибка периодической блокировки учетной записи **RdpService**.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/11238
+
 ## Где найти
 [Скачать дистрибутив Primo RPA Orchestrator](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease).
 
