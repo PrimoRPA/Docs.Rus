@@ -8,9 +8,7 @@
 
 
 
-Добавлены новые статусы выполнения роботов. Теперь в интерфейсе Оркестратора доступны статусы **Стартует-Ожидает** и **Завершается работа**.
 
-https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/13087
 
 
 
@@ -20,6 +18,10 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/13
 1. На странице **Роботы > Переразвернуть робота** добавлена функциональная кнопка очистки поля **Шаблон развертывания**.
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/15531
+
+2. Добавлены новые статусы выполнения роботов. Теперь в веб-интерфейсе Оркестратора доступны статусы **Стартует-Ожидает** и **Завершается работа**.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/13087
 
 
 
