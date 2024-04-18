@@ -12,6 +12,15 @@
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/13087
 
 
+
+### Улучшения UX/UI
+
+## Улучшения в UI 3
+
+1. Исправлены ошибки с отображением статусов транзакций в элементах очереди. Теперь все статусы корректно отображаются в столбце **Статус**, что позволяет правильно применять фильтр по статусам.
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17625
+
+
 ## Исправленные ошибки 
 
 1. Изменен статус ошибки **Нехватка лицензий** на более понятный **Достигнуто максимальное количество работающих роботов на машине**
@@ -19,11 +28,6 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/13
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/11502   
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/11501
-
-## UI 3
-
-1. Исправлены ошибки с отображением статусов транзакций в элементах очереди. Теперь все статусы корректно отображаются в столбце **Статус**, что позволяет правильно применять фильтр по статусам.
-https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17625
 
 ## Где найти
 [Скачать дистрибутив Primo RPA Orchestrator](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease).
