@@ -23,6 +23,10 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/15
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/13087
 
+3. На странице **RPA-проекты**  во вкладке **Запуски** изменены расположения чекбоксов **Ошибка** и **Архив**
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/10109
+
 
 
 ## Улучшения в UI 3
