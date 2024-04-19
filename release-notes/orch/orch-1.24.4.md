@@ -39,6 +39,10 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/10190
 
+3. Добавлена функция управления приоритетами проектов, также добавлены всплывающие подсказки для параметра **Приоритет**
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/7955
+
 ## Исправленные ошибки 
 
 1. Изменен статус ошибки **Нехватка лицензий** на более понятный **Достигнуто максимальное количество работающих роботов на машине**
