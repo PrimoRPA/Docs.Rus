@@ -32,8 +32,12 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/10
 ## Улучшения в UI 3
 
 1. Исправлены ошибки с отображением статусов транзакций в элементах очереди. Теперь все статусы корректно отображаются в столбце **Статус**, что позволяет правильно применять фильтр по статусам.
+
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17625
 
+2.Добавлены кнопки **Остановить все** и **Запустить все остановленные**. При нажатии **Остановить все** прекращается выполнение всех активных задач, а **Запустить все остановленные** инициирует возобновление работы всех приостановленных заданий.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/10190
 
 ## Исправленные ошибки 
 
@@ -46,6 +50,10 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/11
 3. Исправлена ошибка периодической блокировки учетной записи **RdpService**.
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/11238
+
+4. Исправлена ошибка взаимодействия агента с Оркестратором после обновления. Ранее ошибка в bat-файле при обработке аргумента (robotName) приводила к отправке запросов с пустым именем робота.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/11328
 
 ## Где найти
 [Скачать дистрибутив Primo RPA Orchestrator](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease).
