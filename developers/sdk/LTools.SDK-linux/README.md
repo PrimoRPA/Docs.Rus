@@ -22,17 +22,17 @@
    * LTools.Enums.dll
    * LTools.Scripting.dll
    * LTools.SDK.dll
-7. Также добавьте в ваш проект стандартные сборки: ////- их откуда брать? нужны ли они для Линукса? У Алексея в инструкции они не указаны.
-   * PresentationCore
-   * PresentationFramework
-   * System.Xaml
-   * WindowsBase
+7. Также добавьте в ваш проект стандартные сборки: ////- нужны ли они для Линукса? У Алексея в инструкции они не указаны.
+   * PresentationCore;
+   * PresentationFramework;
+   * System.Xaml;
+   * WindowsBase.
 
 
 :small_blue_diamond: **Вопрос**: у Алексея в инструкции написано: "File Class1.cs needs to be deleted!".  Что это за файл, откуда берется и зачем удалять.
 
 
-## Установка расширений 
+## Установка Avalonia
 
 1. Выберите в Visual Studio пункт меню **Extentions > Manage Extentions** (Расширения > Управление расширениями).
 3. Введите в поисковой строке `Avalonia`, чтобы найти расширения, которые понадобятся для проекта.
