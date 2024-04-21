@@ -15,7 +15,7 @@
 2. Выберите **Create a new project** (Создание проекта) с шаблоном проекта **Class Library (.NET Framework)** - \\\\для линукса нужен такой же шаблон?
 3. Укажите имя проекта. Оно должно начинаться с префикса **Primo.** Например: `Primo.My.Activity`. - \\\\нужна ли галка "Поместить проект и решение в одном каталоге" при создании проекта? 
 4. Выберите фреймворк **.NET Framework 4.6.1**. - /// актуально для линукс?
-5. Откройте окно инструментов **Solution Explorer** (Обозреватель решений). Добавьте в References вашего проекта следующие файлы из каталога установки Primo RPA Studio (Linux):
+5. Откройте окно инструментов **Solution Explorer** (Обозреватель решений). Добавьте в **References** (Ссылки) вашего проекта следующие файлы из каталога установки Primo RPA Studio (Linux):
    * LTools.Common.dll
    * LTools.Dto.dll - нужно или нет для линукс?
    * LTools.Enums.dll
@@ -33,13 +33,12 @@
 
 ## Установка расширений 
 
-1. Выбираем пункт меню Extentions.
-2. Нажимаем Manage Extentions.
-3. Пишем в поисковой строке Avalonia.
-4. Устанавливаем все 3 (пакета?), они понадобятся нам для проекта:
-   * Avalonia for Visual Studio 2022
-   * Avalonia Toolkit
-   * Avalonia Templates Studio
+1. Выбираем пункт меню Extentions > Manage Extentions (Расширения > Управление расширениями).
+3. Введите в поисковой строке Avalonia, чтобы найти расширения, которые понадобятся для проекта.
+4. Устанавите следующие расширения:
+   * Avalonia for Visual Studio 2022;
+   * Avalonia Toolkit;
+   * Avalonia Templates Studio.
 5. В окне инструментов Solution Explorer выбираем Manage Nuget Package.... короче там в Dependencies нужно установить библиотеки:
    * Avalonia by Avalonia
    * Avalonia Desktop
