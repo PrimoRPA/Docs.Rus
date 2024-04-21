@@ -31,7 +31,7 @@
 :small_blue_diamond: **Вопрос**: у Алексея в инструкции написано: "File Class1.cs needs to be deleted!".  Что это за файл, откуда берется и зачем удалять.
 
 
-## Установка расширений в Visual Studio
+## Установка расширений 
 
 1. Выбираем пункт меню Extentions.
 2. Нажимаем Manage Extentions.
