@@ -32,7 +32,7 @@
 4. Настройка роботов через веб-интерфейс.
 5. Настройка пользователей через веб-интерфейс.
 
-Подробнее см. в разделе [Настройки](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings).
+Подробнее см. в разделе [Администраторам](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings).
 
 ## Пользователь
 
