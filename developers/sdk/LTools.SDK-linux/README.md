@@ -39,7 +39,7 @@
    * Avalonia for Visual Studio 2022;
    * Avalonia Toolkit;
    * Avalonia Templates Studio.
-5. В окне инструментов Solution Explorer выбираем Manage Nuget Package.... короче там в Dependencies нужно установить библиотеки:
+5. В окне инструментов Solution Explorer выбираем Manage Nuget Package (Управление пакетами NuGet). короче там в Dependencies нужно установить библиотеки:  - \\\Dependencies руками создаем? или можно установить в References? туда автоматом устанавливает
    * Avalonia by Avalonia
    * Avalonia Desktop
    * Avalonia Diagnostics
