@@ -211,10 +211,13 @@ And Result:
 
 
 
-## Шаг 4 — Билд и упаковка в нугет-пакет
+## Шаг 4 — Сборка и отладка 
 
-Click Bulding
-If Building is success, then go to Folder of Project
+В панели **Solution Explorer** (Обозреватель решений) вызовите контекстное меню решения и выберите **Собрать решение**. В результате сборки будет получена библиотека `Primo.*.dll`.
+
+Данную библиотеку можно скопировать в каталог установки Primo Studio. Если библиотека не содержит ошибок, то после запуска Студии элементы из вашей библиотеки появятся на панели «Элементы». 
+
+
 Open Primo.My.Activity\bin\Debug
 Looking for a file Primo.My.Activity.dll and copy to Desktop
 Open Nuget Package Explorer
@@ -224,10 +227,6 @@ Fill in the fields
 Save Nuget
 Upload To Studio
 And Use
-
-
-
-You are welcome! :-)
 
 
 
