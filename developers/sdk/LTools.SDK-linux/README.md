@@ -165,7 +165,7 @@ uiElements:PrimoUserControl xmlns="https://github.com/avaloniaui"
 
 Пример созданной панели элемента Primo:
 
-![](<../../../.gitbook/assets1/sdk-панелька.png>)
+![Так будет выглядеть наш элемент «Запись в консоль»](<../../../.gitbook/assets1/sdk-панелька.png>)
 
 
 
