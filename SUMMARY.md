@@ -1006,6 +1006,7 @@
 * [LTools.Office.SDK](developers/sdk/LTools.Office.SDK/README.md)
     * [Начало работы](developers/sdk/LTools.Office.SDK/getting-started.md)
     * [Дополнительные свойства](developers/sdk/LTools.Office.SDK/additional-properties.md)
+* [LTools.SDK для Linux](developers/sdk/LTools.SDK-linux/README.md)
 
 
 
