@@ -218,8 +218,22 @@ And Result:
 
 ## Шаг 3 — Связываем две части элемента 
 
+Для изменения значения свойства Prop1 в визуальной части элемента, нужно использовать Binding.
+Пример:
+```
+<ui:PrimoUserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:ui="clr-namespace:LTools.Common.UIElements;assembly=LTools.Common"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="Primo.SDK.Sample.Views.TestComponentSimpleBase">
+ <Grid>
+   <TextBox Content="Test" Text="{Binding Prop1}"/>
+ </Grid>
 
-
+</ui:PrimoUserControl>
+```
 
 ## Шаг 4 — Собираем проект 
 
