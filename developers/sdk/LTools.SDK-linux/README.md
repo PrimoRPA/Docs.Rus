@@ -167,7 +167,7 @@ namespace Primo.TestNuget.Views
 
 ### Шаг 2. Создаем программную часть элемента Primo
 
-Вызовите контекстное меню папки Elements, выберите **Добавить > Создать элемент > Класс C#**.  Укажите имя класса, например, `MyFirstActivity.cs`. Данный класс будет содержать программную часть (code-behind) элемента Primo, описывать его логику.
+Вызовите контекстное меню папки Elements, выберите **Добавить > Создать элемент > Класс C#**.  Укажите имя класса, например, `WriteInConsole.cs`. Данный класс будет содержать программную часть (code-behind) элемента Primo, описывать его логику.
 
 Для создания элемента:
 * с синхронным поведением необходимо унаследовать класс `LTools.SDK.PrimoComponentSimple<UI>`.
@@ -184,6 +184,151 @@ namespace Primo.TestNuget.Views
 * [Дополнительные методы](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/additional-methods).
 * [Кастомные свойства](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/custom-properties).
 * [Валидация ввода](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/input-validation).
+
+Например, мы создаем синхронный элемент Primo:
+
+```
+using System.ComponentModel;
+using Avalonia.Controls;
+using LTools.Common.Helpers;
+using LTools.Common.Model;
+using LTools.Common.UIElements;
+using LTools.SDK;
+using Primo.TestNuget.Views;
+using Primo.UIControls;
+
+using WriteInConsoleStrings = Primo.TestNuget.Properties.WriteInConsole;
+
+namespace Primo.TestNuget.Elements;
+
+/// <summary>
+/// Element "WriteInConsole" model class.
+/// </summary>
+public class WriteInConsole : PrimoComponentSimple<WriteInConsoleBase>
+{
+    #region BackingFields
+
+    /// <summary>
+    /// Text for console writing field.
+    /// </summary>
+    private string _text = string.Empty;
+
+    /// <summary>
+    /// Button content field.
+    /// </summary>
+    private string _buttonContent = WriteInConsoleStrings.BUTTON_CONTENT;
+
+    /// <summary>
+    /// Element group name field.
+    /// </summary>
+    private string _groupName = WriteInConsoleStrings.GROUP_NAME;
+
+    /// <summary>
+    /// Properties panel field.
+    /// </summary>
+    private static PrimoPropertyGrid _properties;
+
+    #endregion
+
+    #region Properties
+
+    /// <summary>
+    /// Properties panel property.
+    /// </summary>
+    public override Control Properties
+    {
+        get
+        {
+            _properties = WFHelper.ProduceProperties(_properties, this);
+
+            _properties.PropertyDefinitions.Add(WFHelper.ProduceScriptEditorProperty("Text", _properties, WriteInConsoleStrings.PROPERTY_TEXT_TOOLTIP));
+
+            return _properties;
+        }
+    }
+
+    /// <summary>
+    /// Text for console writing property.
+    /// </summary>
+    [LTools.Common.Model.Serialization.StoringProperty]
+    [LTools.Common.Model.Studio.ValidateReturnScript(DataType = typeof(string))]
+    [LocalizedCategory("PROPERTY_GROUP", typeof(WriteInConsoleStrings)), LocalizedDisplayName("PROPERTY_TEXT_NAME", typeof(WriteInConsoleStrings)), DefaultValue(0)]
+    public string Text
+    {
+        get => this._text;
+
+        set
+        {
+            this._text = value;
+
+            this.InvokePropertyChanged(this, "Text");
+        }
+    }
+
+    /// <summary>
+    /// Button content property.
+    /// </summary>
+    public string ButtonContent
+    {
+        get => this._buttonContent;
+        set => this._buttonContent = value;
+    }
+
+    /// <summary>
+    /// Element group name property.
+    /// </summary>
+    public override string GroupName
+    {
+        get => this._groupName;
+        protected set => _groupName = value;
+    }
+
+    #endregion
+
+    /// <summary>
+    /// Constructor.
+    /// </summary>
+    /// <param name="container">Base element container value.</param>
+    public WriteInConsole(IWFContainer container) : base(container)
+    {
+        sdkComponentIcon = "avares://Primo.TestNuget/Images/WriteInConsoleIcon.png";
+        sdkComponentName = WriteInConsoleStrings.DEFAULT_NAME;
+        sdkComponentHelp = WriteInConsoleStrings.HELP_TEXT + "\n" + WriteInConsoleStrings.PROPERTY_TEXT_NAME + ": " + WriteInConsoleStrings.PROPERTY_TEXT_TOOLTIP;
+
+        this.InitClass(container);
+    }
+
+    /// <summary>
+    /// Execution element method.
+    /// </summary>
+    /// <param name="sd">Scripting data value.</param>
+    /// <returns>Element execution result value.</returns>
+    public override ExecutionResult SimpleAction(ScriptingData sd)
+    {
+        try
+        {
+            var messsage = $"Привет {Text}.{Environment.NewLine}Вы создали свой первый элемент в Primo SDK!";
+
+            Console.WriteLine(messsage);
+
+            return new ExecutionResult
+            {
+                SuccessMessage = string.Format(WriteInConsoleStrings.MSG_INFO_SUCCESS, messsage),
+                IsSuccess = true
+            };
+        }
+        catch (Exception exception)
+        {
+            return new ExecutionResult
+            {
+                ErrorMessage = exception.Message,
+                IsSuccess = false
+            };
+
+        }
+    }
+}
+```
 
 
 ### Шаг 3. Связываем две части элемента Primo
