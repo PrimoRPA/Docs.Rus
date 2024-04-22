@@ -50,8 +50,8 @@
 
 ## Проектирование элемента
 Для создания элемента Primo вам понадобится:
-1. Создать визуальную часть элемента.
-2. Создать программную часть элемента. 
+1. Создать визуальную часть элемента — файл \*.axaml. 
+2. Создать программную часть элемента — файл \*.cs.
 3. Связать две части элемента.
 4. Собрать проект в библиотеку `Primo.*.dll`.
 5. Упаковать библиотеку в NuGet-пакет и опубликовать на портале [NuGet](www.nuget.org). 
@@ -62,7 +62,7 @@
 
 > фактически то же самое, что и в винде
 
-1. Вызовите контекстное меню папки Elements, выберите **Добавить > Создать элемент > Класс C# Class**.  Укажите имя класса, например, `MyFirstActivity.cs`.
+1. Вызовите контекстное меню папки Elements, выберите **Добавить > Создать элемент > Класс C# Class**.  Укажите имя класса, например, `MyFirstActivity.cs`. Данный класс будет содержать программную часть (code-behind) элемента Primo.
 2. Вызовите контекстное меню папки Views, выберите **Добавить > Создать элемент > User Control (Avalonia)**. Укажите его имя, например, `MyFirstActivity_Form.axaml`. Данный элемент будет являться визуальной составляющей элемента Primo. Данные
 будущего элемента автоматически будут смаплены на DataContext данного контролла.
 3. Смените класс с UserControl на PrimoUserControl из clrnamespace:LTools.Common.UIElements;assembly=LTools.Common:
@@ -71,7 +71,8 @@
  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
- xmlns:ui="clr-namespace:LTools.Common.UIElements;assembly=LTools.Common"
+ xmlns:ui="clr-namespace:LTools.Common.UIElements;assembly=LTools.Common">
+</ui:PrimoUserControl>
 ```
 4. Откройте в рабочей области файл `MyFirstActivity_Form.axaml`. Давайте отобразим сетку. Создайте 2 колонки и 3 строки.  
 
