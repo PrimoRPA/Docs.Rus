@@ -122,12 +122,16 @@ namespace Primo.TestNuget.Views
 Например, мы открыли файл `WriteInConsoleBase.axaml` и изменили в нем класс:
 
 ```
-<ui:PrimoUserControl xmlns="https://github.com/avaloniaui"
- xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
- xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
- xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
- xmlns:ui="clr-namespace:LTools.Common.UIElements;assembly=LTools.Common">
+uiElements:PrimoUserControl xmlns="https://github.com/avaloniaui"
+                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                     xmlns:uiElements="clr-namespace:LTools.Common.UIElements;assembly=LTools.Common"
+                     xmlns:uiControls="clr-namespace:Primo.UIControls;assembly=Primo.UIControls"
+                     mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+                     x:Class="Primo.TestNuget.Views.WriteInConsoleBase">
 
+...
 
 </ui:PrimoUserControl>
 ```
