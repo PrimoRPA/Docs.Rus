@@ -54,7 +54,7 @@
 > \*Вы можете использовать другие папки и названия в своем проекте.
 
 
-## Общий алгоритм создания элемента
+## Создание элемента
 Для создания элемента Primo вам понадобится:
 1. Создать визуальную часть элемента — файл \*.axaml. 
 2. Создать программную часть элемента — файл \*.cs.
@@ -64,7 +64,7 @@
 
 
 
-## Шаг 1. Создаем визуальную часть элемента Primo
+### Шаг 1. Создаем визуальную часть элемента Primo
 
 1. Вызовите контекстное меню папки Views, выберите **Добавить > Создать элемент > User Control (Avalonia)**.
 2. В поле **Имя** укажите его название, например, `MyFirstActivity_Form.axaml`.
@@ -74,7 +74,7 @@
 
 При создании файла \*.axaml также автоматически добавится файл *.axaml.cs.
 
-## *.axaml.cs
+#### *.axaml.cs
 
 Откройте в рабочей области файл `MyFirstActivity_Form.axaml.cs`. Смените в нем класс с **UserControl** на **PrimoUserControl** из `clrnamespace:LTools.Common.UIElements;assembly=LTools.Common`.
 
@@ -97,7 +97,7 @@ namespace Primo.SDK.Sample.Views
 }
 ```
 
-## *.axaml
+#### *.axaml
 
 Откройте в рабочей области файл `MyFirstActivity_Form.axaml`. Смените в нем класс с **UserControl** на **PrimoUserControl** из `clrnamespace:LTools.Common.UIElements;assembly=LTools.Common`. Пример:
 
