@@ -72,8 +72,8 @@
 1. Создать визуальную форму элемента:
    * Спроектировать визуальную форму.
    * Написать код для визуальной формы.
-2. Опишите логику работы вашего элемента. 
-3. Привязать визуальный облик (форму) к коду логики.
+2. Описать логику работы вашего элемента. 
+3. Привязать визуальную форму к коду логики элемента.
 4. Билд и публикация.
 
 
@@ -81,10 +81,12 @@
 
 ## Шаг 1 — Создаем визуальную форму элемента
 
+> фактически то же самое, что и в винде
+
 1. Вызовите контекстное меню папки Elements, выберите **Добавить > Создать элемент > Класс C# Class**.  Укажите имя класса, например, `MyFirstActivity.cs`.
 2. Вызовите контекстное меню папки Views, выберите **Добавить > Создать элемент > User Control (Avalonia)**. Укажите его имя, например, `MyFirstActivity_Form.axaml`.
 
-Откройте в рабочей области файл MyFirstActivity_Form.axaml. Создайте 2 колонки и 3 строки.  Let's display the grid -> Grid property -> ShowGridLines="True"
+Откройте в рабочей области файл `MyFirstActivity_Form.axaml`. Создайте 2 колонки и 3 строки.  Let's display the grid -> Grid property -> ShowGridLines="True"
 
 Just replace new Grid this code:
 
@@ -111,24 +113,132 @@ Okay, Column Definitions and Row Definitions Exists, then under </Grid.RowDefini
 
 ```
 <Grid Grid.Row="0" Grid.Column="0">
+<!--Мы создали сетку для for the first column of the first row (для первой строки первого столбца? или наоборот?) и хотим вставить сюда изображение.-->
   <Image HorizontalAlignment="Left" 
-         Source="pack://application:,,/User.My.Activity;component/Images/eye_logo.png"
+         Source="pack://application:,,/Primo.My.Activity;component/Images/logo.png"
+         <!--Путь к изображению. Состоит из названия библиотеки (Primo.My.Activity) и пути внутри библиотеки (Images/logo.png")-->
          Height="40"
          Width="40"
+         <!--Размер изображения-->
          Margin="5,5,5,5"
+         <!--Отступ от границ сетки: слева, сверху, справа, снизу.-->
   />
 </Grid>
 ```
 
 
+Далее второй столбец первой строки, где будет название нашей деятельности:
+Next the second column of the first row, where we will have the name of our activity:
+
+```
+<Grid rid.Row="0" Grid.Column="1">
+    <!-- Activity Name -->
+    <Label Content="My First Activity"/>
+</Grid>
+```
+
+
+Next First Column and Second Row. Grid is Empty
+
+```
+<Grid Grid.Row="1" Grid.Column="0">
+  <!-- Row 1 -->
+</Grid>
+```
+
+And at the end, in the second column of the second row, we will add a grid and a button to it:
+```
+<Grid  Grid.Row="1" Grid.Column="1">
+  <Button x:Name="Form_btn" Content="Open" />
+</Grid>
+```
+
+
+И полная сетка:
+```
+<Grid x:Name="MyFirstActivity_Form_grd" 
+      VerticalAlignment="Center" 
+      HorizontalAlignment="Center" 
+      ShowGridLines="True"
+      Background="White"
+>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition></ColumnDefinition>
+        <ColumnDefinition></ColumnDefinition>
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+        <RowDefinition></RowDefinition>
+        <RowDefinition></RowDefinition>
+    </Grid.RowDefinitions>
+    <Grid Grid.Row="0" Grid.Column="0">
+        <Image HorizontalAlignment="Left" 
+             Source="pack://application:,,/Primo.My.Activity;component/Images/eye_logo.png"
+             Height="40"
+             Width="40"
+             Margin="5,5,5,5"
+        />
+    </Grid>
+    <Grid Grid.Row="0" Grid.Column="1">
+        <!-- Activity Name -->
+        <Label Content="My First Activity"/>
+    </Grid>
+    <Grid Grid.Row="1" Grid.Column="0">
+        <!-- Row 1 -->
+    </Grid>
+    <Grid  Grid.Row="1" Grid.Column="1">
+        <Button x:Name="Form_btn" Content="Open" />
+    </Grid>
+</Grid>
+```
+
+Отрисовка в Visual Studio:
+
+НЕТУ
+
+And First Build! -> Solution Explorer -> Right Click "Solution 'Primo.My.Activity'" -> Clean Solution -> Build Solution.
+
+
+Check in output 1 Successed!
+
+
+And Result:
+
+ПИКЧА С ГОТОВОЙ ФОРМОЙ (В АВАЛОНИИ ПОХОДУ НЕ СДЕЛАЕМ)
+
+
+
+
+## Шаг 2 — Описываем логику работы элемента 
 
 
 
 
 
 
-## Шаг 2 — Пишем код визуальной формы
 
+
+## Шаг 3 — Привязываем форму к логике работы элемента 
+
+
+
+
+## Шаг 4 — Билд и упаковка в нугет-пакет
+
+Click Bulding
+If Building is success, then go to Folder of Project
+Open Primo.My.Activity\bin\Debug
+Looking for a file Primo.My.Activity.dll and copy to Desktop
+Open Nuget Package Explorer
+Add lib Folder
+Add to lib file Primo.My.Activity.dll and eye_nuget.png(from Images)
+Fill in the fields
+Save Nuget
+Upload To Studio
+And Use
+
+
+
+You are welcome! :-)
 
 
 
@@ -215,39 +325,3 @@ Okay, Column Definitions and Row Definitions Exists, then under </Grid.RowDefini
 
 Итак, у нас определены столбцы и строки. Затем под строкой `</Grid.RowDefinitions>` добавьте изображение: 
 
-```
-<Grid Grid.Row="0" Grid.Column="0">
-  <Image HorizontalAlignment="Left" 
-         Source="pack://application:,,/User.My.Activity;component/Images/eye_logo.png"
-         Height="40"
-         Width="40"
-         Margin="5,5,5,5"
-  />
-</Grid>
-```
-
-
-
-## 
-
-
-
-
-
-
-##
-
-
-
-
-
-
-
-
-
-
-##
-
-
-
-##
