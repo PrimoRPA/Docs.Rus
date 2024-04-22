@@ -40,7 +40,7 @@
 
    ![](<../../../.gitbook/assets1/add-nugets.png>)
 
-7. Установите расширение Avalonia for Visual Studio 2022. Для этого выберите раздел меню **Расширения > Управление расширениями** и введите в поисковой строке `Avalonia` для выдачи нужных результатов.
+7. Установите расширение Avalonia for Visual Studio. Для этого выберите раздел меню **Расширения > Управление расширениями** и введите в поисковой строке `Avalonia` для выдачи нужных результатов.
 
 
 ## Структура проекта 
@@ -73,7 +73,6 @@
 Готово — вы создали компонент, который является визуальной составляющей элемента Primo. Данные будущего элемента автоматически будут смаплены на DataContext данного контролла.
 
 
-
 #### Работа с файлом *.axaml.cs
 
 При создании файла \*.axaml также автоматически добавится файл *.axaml.cs. Откройте в рабочей области файл `*.axaml.cs`, измените в нем класс с **UserControl** на **PrimoUserControl** из `clrnamespace:LTools.Common.UIElements;assembly=LTools.Common`. Пример:
@@ -97,7 +96,9 @@ namespace Primo.SDK.Sample.Views
 
 #### Работа с файлом *.axaml
 
-Откройте в рабочей области ваш файл `*.axaml`. Смените в нем класс с **UserControl** на **PrimoUserControl** из `clrnamespace:LTools.Common.UIElements;assembly=LTools.Common`. Пример:
+Откройте в рабочей области ваш файл `*.axaml`. Смените в нем класс с **UserControl** на **PrimoUserControl** из `clrnamespace:LTools.Common.UIElements;assembly=LTools.Common`. 
+
+Пример:
 
 ```
 <ui:PrimoUserControl xmlns="https://github.com/avaloniaui"
@@ -133,13 +134,7 @@ namespace Primo.SDK.Sample.Views
 </ui:PrimoUserControl>
 ```
 
-Отрисовка в Visual Studio:
-
-НЕТУ Написать, что форма визуально не отрисовывается в вижуал студии и ошибка No Executable - это нормально. 
-
-
-Соберите решение – в панели **Обозреватель решений** вызовите контекстное меню решения и выберите **Собрать решение**. 
-And First Build! -> Solution Explorer -> Right Click "Solution 'Primo.My.Activity'" -> Clean Solution -> Build Solution.
+Форма в Visual Studio может не отображаться из-за ошибки "No Executable" - данная ошибка связана с Avalonia. 
 
 
 
@@ -167,6 +162,7 @@ And First Build! -> Solution Explorer -> Right Click "Solution 'Primo.My.Activit
 ### Шаг 3. Связываем две части элемента Primo
 
 Для изменения значения свойства Prop1 в визуальной части элемента, нужно использовать Binding.
+
 Пример:
 ```
 <ui:PrimoUserControl xmlns="https://github.com/avaloniaui"
@@ -198,7 +194,9 @@ And First Build! -> Solution Explorer -> Right Click "Solution 'Primo.My.Activit
 
 
 
+## Дополнительно
 
+В нашем публичном репозитории на [GitHub](https://github.com/PrimoRPA/SDK.Sample) вы можете найти каталог **LTools.SDK-for-Linux**, в котором представлен демонстрационный проект **Primo.SDK.Avalonia.Sample**. Вы можете скачать его и открыть в своей Visual Studio.
 
 
 
