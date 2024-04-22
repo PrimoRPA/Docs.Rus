@@ -104,8 +104,6 @@ namespace Primo.SDK.Sample.Views
 </ui:PrimoUserControl>
 ```
 
-Отобразите сетку справа.  Let's display the grid -> Grid property -> ShowGridLines="True"
-
 Теперь вам необходимо спроектировать визуальный облик элемента Primo. В нашем примере мы создадим панель элемента, где будет.........
 
 
