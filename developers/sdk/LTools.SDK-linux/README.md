@@ -49,7 +49,11 @@
 1. Elements — файлы с описанием логики элементов.
 2. Views — визуальные формы элементов.
 3. Images — иконки элементов. Формат png, размер 24x24.
-4. Localization — файлы локализации при необходимости.
+4. Localization — файлы ресурсов при необходимости.
+
+Пример:
+
+![](<../../../.gitbook/assets1/sdk-project-folders.png>)
 
 > \*Вы можете использовать другие папки и названия в своем проекте.
 
@@ -134,7 +138,11 @@ namespace Primo.SDK.Sample.Views
 </ui:PrimoUserControl>
 ```
 
-Форма в Visual Studio может не отображаться из-за ошибки "No Executable" - данная ошибка связана с Avalonia. 
+:small_blue_diamond: *Форма в Visual Studio может не отображаться из-за ошибки "No Executable" - данная ошибка связана с Avalonia.*
+
+Пример созданной панели элемента Primo:
+
+![](<../../../.gitbook/assets1/sdk-панелька.png>)
 
 
 
