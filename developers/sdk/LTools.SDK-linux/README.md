@@ -362,6 +362,14 @@ public class WriteInConsole : PrimoComponentSimple<WriteInConsoleBase>
 
 Данную библиотеку можно скопировать в каталог установки Primo Studio. Если библиотека не содержит ошибок, то после запуска Студии элементы из вашей библиотеки появятся на панели «Элементы». 
 
+Например, наш элемент отобразился так:
+
+![](<../../../.gitbook/assets1/sdk-элементы.png>)
+
+Он обладает следующими свойствами:
+
+![](<../../../.gitbook/assets1/sdk-свойства.png>)
+
 О том, как отладить элемент библиотеки, вы можете узнать [здесь](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/debugging).
 
 
