@@ -73,6 +73,27 @@
 Откройте в рабочей области файл `MyFirstActivity_Form.axaml.cs`. Смените в нем класс с **UserControl** на **PrimoUserControl** из `clrnamespace:LTools.Common.UIElements;assembly=LTools.Common`:
 
 ```
+using Avalonia.Controls;
+using LTools.Common.UIElements;
+
+namespace Primo.SDK.Sample.Views
+{
+    public partial class MyFirstActivity_Form : PrimoUserControl
+    {
+        public MyFirstActivity_Form()
+        {
+            if (LTools.Common.Helpers.WFHelper.DoRender)
+                InitializeComponent();
+        }
+    }
+}
+```
+
+
+
+
+
+```
 <ui:PrimoUserControl xmlns="https://github.com/avaloniaui"
  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
