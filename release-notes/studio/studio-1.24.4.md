@@ -121,6 +121,9 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/46
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/17303
 
+16. Исправлена ошибка сохранения проекта при использовании ссылок на процессы. Ранее в проектах, содержащих два или более процесса с активностями **Ссылка на процесс**, кнопка **Сохранить проект** работала некорректно.
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/18051
+
 ## Режим Citizen
 
 1. Исправлена ошибка в работе элемента **Фильтр таблицы** (LTools.Data.Elements.DataTables.Citizen.WFCFilterDataTable) в Studio **Citizen**, возникавшая при смене условий фильтрации с **И** на **ИЛИ**. Теперь активность функционирует корректно, без прерывания работы из-за ошибок.
