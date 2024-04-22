@@ -7,8 +7,6 @@
 
 ## Начало работы
 
-> В нашем примере мы использовали Visual Studio Community 2022.
-
 Создайте проект в Visual Studio:
 
 1. Запустите Visual Studio и выберите **Create a new project** (Создание проекта).
