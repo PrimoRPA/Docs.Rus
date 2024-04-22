@@ -58,15 +58,22 @@
 
 
 
-
 ## Шаг 1 — Создаем визуальную часть элемента
 
 > фактически то же самое, что и в винде
 
 1. Вызовите контекстное меню папки Elements, выберите **Добавить > Создать элемент > Класс C# Class**.  Укажите имя класса, например, `MyFirstActivity.cs`.
-2. Вызовите контекстное меню папки Views, выберите **Добавить > Создать элемент > User Control (Avalonia)**. Укажите его имя, например, `MyFirstActivity_Form.axaml`.
-
-Откройте в рабочей области файл `MyFirstActivity_Form.axaml`. Давайте отобразим сетку. Создайте 2 колонки и 3 строки.  
+2. Вызовите контекстное меню папки Views, выберите **Добавить > Создать элемент > User Control (Avalonia)**. Укажите его имя, например, `MyFirstActivity_Form.axaml`. Данный элемент будет являться визуальной составляющей элемента Primo. Данные
+будущего элемента автоматически будут смаплены на DataContext данного контролла.
+3. Смените класс с UserControl на PrimoUserControl из clrnamespace:LTools.Common.UIElements;assembly=LTools.Common:
+```
+<ui:PrimoUserControl xmlns="https://github.com/avaloniaui"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+ xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ xmlns:ui="clr-namespace:LTools.Common.UIElements;assembly=LTools.Common"
+```
+4. Откройте в рабочей области файл `MyFirstActivity_Form.axaml`. Давайте отобразим сетку. Создайте 2 колонки и 3 строки.  
 
 Let's display the grid -> Grid property -> ShowGridLines="True"
 
