@@ -120,25 +120,27 @@ namespace Primo.SDK.Sample.Views
 ![](<../../../.gitbook/assets1/RenderActivity.png>)
 
 
-В соответствии с вашим дизайном создайте сетку (Grid). Пример:
+В соответствии с вашим дизайном создайте сетку (Grid). Например, мы создаем элемент с полем для ввода данных и кнопкой «Установить шаблон»:
 
 ```
-<ui:PrimoUserControl xmlns="https://github.com/avaloniaui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:ui="clr-namespace:LTools.Common.UIElements;assembly=LTools.Common"
-             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-             x:Class="Primo.SDK.Sample.Views.TestComponentSimpleBase">
-
-  <Grid>
-    <Label Content="Test"/>
-  </Grid>
-
-</ui:PrimoUserControl>
+<uiElements:PrimoUserControl xmlns="https://github.com/avaloniaui"
+                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                     xmlns:uiElements="clr-namespace:LTools.Common.UIElements;assembly=LTools.Common"
+                     xmlns:uiControls="clr-namespace:Primo.UIControls;assembly=Primo.UIControls"
+                     mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+                     x:Class="Primo.TestNuget.Views.WriteInConsoleBase">
+    <Grid RowDefinitions="*,*" ColumnDefinitions="*">
+        <uiControls:PrimoTextBox x:Name="Form_txt"  Grid.Row="0" Text="{Binding Text}" />
+        <Button x:Name="Form_btn" Grid.Row="1" Content="{Binding ButtonContent}" Click="Form_btn_OnClick"/>
+    </Grid>
+</uiElements:PrimoUserControl>
 ```
 
 :small_blue_diamond: *Форма в Visual Studio может не отображаться из-за ошибки "No Executable" - данная ошибка связана с Avalonia.*
+
+![](<../../../.gitbook/assets1/No Executable1.png>)
 
 Пример созданной панели элемента Primo:
 
