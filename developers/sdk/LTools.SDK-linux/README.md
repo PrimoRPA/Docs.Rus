@@ -61,11 +61,12 @@
 ## Шаг 1 — Создаем визуальную часть элемента Primo
 
 1. Вызовите контекстное меню папки Views, выберите **Добавить > Создать элемент > User Control (Avalonia)**.
-2. Укажите его имя, например, `MyFirstActivity_Form.axaml`.
+2. В поле **Имя** укажите его название, например, `MyFirstActivity_Form.axaml`.
+3. Нажмите кнопку **Добавить**.
 
-Этот элемент будет являться визуальной составляющей элемента Primo. Данные будущего элемента автоматически будут смаплены на DataContext данного контролла.
+Готово — вы создали компонент, который будет являться визуальной составляющей элемента Primo. Данные будущего элемента автоматически будут смаплены на DataContext данного контролла.
 
-Смените класс с **UserControl** на **PrimoUserControl** из `clrnamespace:LTools.Common.UIElements;assembly=LTools.Common`:
+Откройте в рабочей области файл `MyFirstActivity_Form.axaml.cs`, созданный автоматически. Смените класс с **UserControl** на **PrimoUserControl** из `clrnamespace:LTools.Common.UIElements;assembly=LTools.Common`:
 
 ```
 <ui:PrimoUserControl xmlns="https://github.com/avaloniaui"
