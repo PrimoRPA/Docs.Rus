@@ -333,7 +333,7 @@ public class WriteInConsole : PrimoComponentSimple<WriteInConsoleBase>
 
 ### Шаг 3. Связываем две части элемента Primo
 
-Для изменения значения свойства Prop1 в визуальной части элемента, нужно использовать Binding.
+Для изменения значения вашего свойства в визуальной части элемента, нужно использовать Binding.
 
 Пример:
 ```
@@ -350,6 +350,14 @@ public class WriteInConsole : PrimoComponentSimple<WriteInConsoleBase>
 
 </ui:PrimoUserControl>
 ```
+
+Пример для нашего элемента:
+
+```
+ <uiControls:PrimoTextBox x:Name="Form_txt"  Grid.Row="0" Text="{Binding Text}" />
+        <Button x:Name="Form_btn" Grid.Row="1" Content="{Binding ButtonContent}" Click="Form_btn_OnClick"/>
+```
+
 
 ### Шаг 4. Собираем проект 
 
