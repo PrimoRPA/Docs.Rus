@@ -143,9 +143,9 @@ And First Build! -> Solution Explorer -> Right Click "Solution 'Primo.My.Activit
 
 
 
-## Шаг 2. Создаем программную часть элемента Primo
+### Шаг 2. Создаем программную часть элемента Primo
 
-Вызовите контекстное меню папки Elements, выберите **Добавить > Создать элемент > Класс C#**.  Укажите имя класса, например, `MyFirstActivity.cs`. Данный класс будет содержать программную часть (code-behind) элемента Primo — описывать его логику.
+Вызовите контекстное меню папки Elements, выберите **Добавить > Создать элемент > Класс C#**.  Укажите имя класса, например, `MyFirstActivity.cs`. Данный класс будет содержать программную часть (code-behind) элемента Primo, описывать его логику.
 
 Для создания элемента:
 * с синхронным поведением необходимо унаследовать класс `LTools.SDK.PrimoComponentSimple<UI>`.
@@ -153,12 +153,18 @@ And First Build! -> Solution Explorer -> Right Click "Solution 'Primo.My.Activit
 
 Где `<UI>` – это имя визуальной части элемента Primo.
 
-Подробнее о том, как создать синхронный элемент, см. [здесь](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/sync-element).
+Дополнительно:
+* Подробнее о том, как создать синхронный элемент, см. [здесь](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/sync-element).
+* Подробнее о том, как создать элемент с тайм-аутом, см. [здесь](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/to-element).
+* Подробнее о том, как создать простой контейнер, см. [здесь](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/simple-container).
+* Подробнее о том, как создать специальный контейнер, см. [здесь](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/custom-container).
+* [Расширенные свойства элемента](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/extended-properties).
+* [Дополнительные методы](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/additional-methods).
+* [Кастомные свойства](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/custom-properties).
+* [Валидация ввода](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/input-validation).
 
-Подробнее о том, как создать элемент с тайм-аутом, см. [здесь](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/to-element).
 
-
-## Шаг 3. Связываем две части элемента Primo
+### Шаг 3. Связываем две части элемента Primo
 
 Для изменения значения свойства Prop1 в визуальной части элемента, нужно использовать Binding.
 Пример:
@@ -177,7 +183,7 @@ And First Build! -> Solution Explorer -> Right Click "Solution 'Primo.My.Activit
 </ui:PrimoUserControl>
 ```
 
-## Шаг 4. Собираем проект 
+### Шаг 4. Собираем проект 
 
 В панели **Solution Explorer** (Обозреватель решений) вызовите контекстное меню решения и выберите **Собрать решение**. В результате сборки будет получена библиотека `Primo.*.dll`.
 
@@ -186,7 +192,7 @@ And First Build! -> Solution Explorer -> Right Click "Solution 'Primo.My.Activit
 О том, как отладить элемент библиотеки, вы можете узнать [здесь](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/debugging).
 
 
-## Шаг 4. Упаковываем библиотеку в NuGet-пакет и публикуем
+### Шаг 5. Упаковываем библиотеку в NuGet-пакет и публикуем
 
 Аналогично инструкции для SDK под Windows. Подробнее см. [здесь](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/publish).
 
