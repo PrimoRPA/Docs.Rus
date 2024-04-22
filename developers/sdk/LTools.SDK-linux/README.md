@@ -70,7 +70,9 @@
 
 ## *.axaml.cs
 
-Откройте в рабочей области файл `MyFirstActivity_Form.axaml.cs`. Смените в нем класс с **UserControl** на **PrimoUserControl** из `clrnamespace:LTools.Common.UIElements;assembly=LTools.Common`:
+Откройте в рабочей области файл `MyFirstActivity_Form.axaml.cs`. Смените в нем класс с **UserControl** на **PrimoUserControl** из `clrnamespace:LTools.Common.UIElements;assembly=LTools.Common`.
+
+Пример:
 
 ```
 using Avalonia.Controls;
@@ -103,6 +105,9 @@ namespace Primo.SDK.Sample.Views
 ```
 
 Отобразите сетку справа.  Let's display the grid -> Grid property -> ShowGridLines="True"
+
+Теперь вам необходимо спроектировать визуальный облик элемента Primo. В нашем примере мы создадим панель элемента, где будет.........
+
 
 Создайте 2 колонки и 2 строки. Просто замените новый Grid на этот код:
 
