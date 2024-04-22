@@ -12,42 +12,27 @@
 Создайте проект в Visual Studio:
 
 1. Запустите Visual Studio и выберите **Create a new project** (Создание проекта).
-2. Выберите шаблон проекта **Class Library (.NET Framework)** - \\\\для линукса нужен такой же шаблон?
+2. Выберите шаблон проекта **Class Library** (Библиотека классов).
 3. В открывшейся форме:
-   * Укажите имя проекта. Оно должно начинаться с префикса **Primo.** Пример: `Primo.My.Activity`. - \\\\нужна ли галка "Поместить проект и решение в одном каталоге" при создании проекта?
-   * Выберите фреймворк **.NET Framework 4.6.1**. - /// актуально для линукс?
-6. Откройте окно инструментов **Solution Explorer** (Обозреватель решений). Добавьте в **References** (Ссылки) вашего проекта следующие файлы из каталога установки Primo RPA Studio (Linux):
+   * Обязательно укажите в названии проекта префикс **Primo.** Пример: `Primo.My.Activity`.
+   * Выберите фреймворк **.NET 6.0.**.
+4. Выберите раздел меню **Проект > Добавить ссылку на проект...**. В открывшемся окне нажмите кнопку **Обзор...** и откройте каталог установки Primo RPA Studio (Linux). Вам нужно добавить из него в свой проект следующие файлы:
    * LTools.Common.dll
-   * LTools.Dto.dll - нужно или нет для линукс?
+   * LTools.Dto.dll
    * LTools.Enums.dll
    * LTools.Scripting.dll
    * LTools.SDK.dll
-7. Также добавьте в ваш проект стандартные сборки: ////- нужны ли они для Линукса? У Алексея в инструкции они не указаны.
-   * PresentationCore;
-   * PresentationFramework;
-   * System.Xaml;
-   * WindowsBase.
+   * Primo.UIControls.dll
+   * Primo.UIControls.dll
+5. Установите для проекта Nuget-пакеты. Для этого перейдите в панель инструментов **Solution Explorer** (Обозреватель решений), вызовите контекстное меню проекта и выберите **Управление пакетами NuGet**. Установите следующие сборки:
+   * Avalonia 0.10.18
+   * Avalonia.Desktop 0.10.18
+   * Avalonia.Diagnostics 0.10.18
+   * Avalonia.Xaml.Behaviors 0.10.18
+   * MessageBox.Avalonia 2.1.0
+   * XamlNameReferenceGenerator 1.5.1
+6. Установите расширение Avalonia for Visual Studio 2022. Для этого выберите раздел меню **Extentions > Manage Extentions** (Расширения > Управление расширениями) и введите в поисковой строке `Avalonia`, чтобы найти расширение.
 
-
-:small_blue_diamond: **Вопрос**: у Алексея в инструкции написано: "File Class1.cs needs to be deleted!".  Что это за файл, откуда берется и зачем удалять.
-
-
-### Установка Avalonia
-
-1. Выберите в Visual Studio пункт меню **Extentions > Manage Extentions** (Расширения > Управление расширениями).
-3. Введите в поисковой строке `Avalonia`, чтобы найти расширения, которые понадобятся для проекта.
-4. Установите следующие расширения (чтобы они установились, понадобится потом закрыть все окна Visual Studio):
-   * Avalonia for Visual Studio 2022;
-   * Avalonia Toolkit;
-   * Avalonia Templates Studio.
-5. В окне инструментов Solution Explorer вызовите контекстное меню проекта и выберите Manage Nuget Package (Управление пакетами NuGet). Установите следующие библиотеки: - \\\"короче там в Dependencies нужно установить библиотеки". Dependencies руками создаем? или можно установить в References? туда автоматом устанавливает
-   * Avalonia by Avalonia;
-   * Avalonia Desktop;
-   * Avalonia Diagnostics;
-   * Avalonia ReactiveUI;
-   * XamlNameReferenceGenerator.
-
-Они понадобятся при написании кода.
 
 ## Структура проекта 
 
@@ -86,9 +71,11 @@
 1. Вызовите контекстное меню папки Elements, выберите **Добавить > Создать элемент > Класс C# Class**.  Укажите имя класса, например, `MyFirstActivity.cs`.
 2. Вызовите контекстное меню папки Views, выберите **Добавить > Создать элемент > User Control (Avalonia)**. Укажите его имя, например, `MyFirstActivity_Form.axaml`.
 
-Откройте в рабочей области файл `MyFirstActivity_Form.axaml`. Создайте 2 колонки и 3 строки.  Let's display the grid -> Grid property -> ShowGridLines="True"
+Откройте в рабочей области файл `MyFirstActivity_Form.axaml`. Давайте отобразим сетку. Создайте 2 колонки и 3 строки.  
 
-Just replace new Grid this code:
+Let's display the grid -> Grid property -> ShowGridLines="True"
+
+Just replace new Grid this code:  (Просто замените новый Grid на этот код:)
 
 ```
 <Grid x:Name="MyFirstActivity_Form_grd" 
@@ -109,6 +96,7 @@ Just replace new Grid this code:
   </Grid>
 ```
 
+Итак, у нас определены столбцы и строки. Под строкой `</Grid.RowDefinitions>` добавьте изображение: 
 Okay, Column Definitions and Row Definitions Exists, then under </Grid.RowDefinitions> add a picture:
 
 ```
@@ -126,8 +114,7 @@ Okay, Column Definitions and Row Definitions Exists, then under </Grid.RowDefini
 </Grid>
 ```
 
-
-Далее второй столбец первой строки, где будет название нашей деятельности:
+Далее второй столбец первой строки, где будет название нашего элемента:
 Next the second column of the first row, where we will have the name of our activity:
 
 ```
@@ -137,7 +124,7 @@ Next the second column of the first row, where we will have the name of our acti
 </Grid>
 ```
 
-
+Далее перейдем ко второй строке первого столбца. Сетка пустая.
 Next First Column and Second Row. Grid is Empty
 
 ```
@@ -146,7 +133,9 @@ Next First Column and Second Row. Grid is Empty
 </Grid>
 ```
 
+И наконец, во втором столбце второй строки добавим сетку и кнопку к ней.
 And at the end, in the second column of the second row, we will add a grid and a button to it:
+
 ```
 <Grid  Grid.Row="1" Grid.Column="1">
   <Button x:Name="Form_btn" Content="Open" />
@@ -287,41 +276,4 @@ You are welcome! :-)
 (Рисунок Алексея)
 
 
-## Создание элемента
-
-Правой кнопкой мыши кликните по папке Elements и выберите Add -> New Item... -> Choose C# Class. Укажите имя элемента, например, `MyFirstActivity.cs` и нажмите Add.
-
-
-### Визуальный облик элемента
-
-(фактически то же самое, что и в винде. Леша копипастил)
-
-Далее правой кнопкой мыши кликните по папке Views и выберите Add -> New Item... -> выберите User Control (WPF) -> Name: MyFirstActivity_Form.xaml -> Add.
-
-<здесь у Алексея рисунки от руки с дизайном элемента>
-
-Дважды кликните по файлу `MyFirstActivity_Form.xaml` и создайте колонки и строки (для чего?). В нашем примере мы создадим 2 колонки и 2 строки (но может быть и больше?). После чего отобразите получившуюся (сетку) - откройте Grid property -> ShowGridLines="True"
-
-Просто замените новый Grid на этот код:
-
-```
-  <Grid x:Name="MyFirstActivity_Form_grd" 
-            VerticalAlignment="Center" 
-            HorizontalAlignment="Center" 
-            ShowGridLines="True"
-            Background="White"
-            
-  >
-    <Grid.ColumnDefinitions>
-        <ColumnDefinition></ColumnDefinition>
-        <ColumnDefinition></ColumnDefinition>
-    </Grid.ColumnDefinitions>
-    <Grid.RowDefinitions>
-        <RowDefinition></RowDefinition>
-        <RowDefinition></RowDefinition>
-    </Grid.RowDefinitions>
-  </Grid>
-```
-
-Итак, у нас определены столбцы и строки. Затем под строкой `</Grid.RowDefinitions>` добавьте изображение: 
 
