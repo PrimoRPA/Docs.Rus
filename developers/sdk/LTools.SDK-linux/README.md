@@ -31,7 +31,7 @@
    * Avalonia.Xaml.Behaviors 0.10.18
    * MessageBox.Avalonia 2.1.0
    * XamlNameReferenceGenerator 1.5.1
-6. Установите расширение Avalonia for Visual Studio 2022. Для этого выберите раздел меню **Extentions > Manage Extentions** (Расширения > Управление расширениями) и введите в поисковой строке `Avalonia`.
+6. Установите расширение Avalonia for Visual Studio 2022. Для этого выберите раздел меню **Extentions > Manage Extentions** (Расширения > Управление расширениями) и введите в поисковой строке `Avalonia` для выдачи нужных результатов.
 
 
 ## Структура проекта 
