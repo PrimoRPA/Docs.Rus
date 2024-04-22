@@ -40,12 +40,12 @@
    * Avalonia for Visual Studio 2022;
    * Avalonia Toolkit;
    * Avalonia Templates Studio.
-5. В окне инструментов Solution Explorer выбираем Manage Nuget Package (Управление пакетами NuGet). короче там в Dependencies нужно установить библиотеки:  - \\\Dependencies руками создаем? или можно установить в References? туда автоматом устанавливает
-   * Avalonia by Avalonia
-   * Avalonia Desktop
-   * Avalonia Diagnostics
-   * Avalonia ReactiveUI
-   * XamlNameReferenceGenerator
+5. В окне инструментов Solution Explorer вызовите контекстное меню проекта и выберите Manage Nuget Package (Управление пакетами NuGet). Установите следующие библиотеки: - \\\"короче там в Dependencies нужно установить библиотеки". Dependencies руками создаем? или можно установить в References? туда автоматом устанавливает
+   * Avalonia by Avalonia;
+   * Avalonia Desktop;
+   * Avalonia Diagnostics;
+   * Avalonia ReactiveUI;
+   * XamlNameReferenceGenerator.
 
 Они понадобятся при написании кода.
 
@@ -69,13 +69,69 @@
 
 ## Проектирование элемента
 Для создания элемента вам понадобится:
-1. Создать визуальный облик элемента:
-   * Спроектировать визуальный облик.
-   * Создать облик с помощью кода.
-2. Определить назначение элемента и его методы:
-   * Создать класс и методы.
+1. Создать визуальную форму элемента:
+   * Спроектировать визуальную форму.
+   * Написать код для визуальной формы.
+2. Опишите логику работы вашего элемента. 
 3. Привязать визуальный облик (форму) к коду логики.
 4. Билд и публикация.
+
+
+
+
+## Шаг 1 — Создаем визуальную форму элемента
+
+1. Вызовите контекстное меню папки Elements, выберите **Добавить > Создать элемент > Класс C# Class**.  Укажите имя класса, например, `MyFirstActivity.cs`.
+2. Вызовите контекстное меню папки Views, выберите **Добавить > Создать элемент > User Control (Avalonia)**. Укажите его имя, например, `MyFirstActivity_Form.axaml`.
+
+Откройте в рабочей области файл MyFirstActivity_Form.axaml. Создайте 2 колонки и 3 строки.  Let's display the grid -> Grid property -> ShowGridLines="True"
+
+Just replace new Grid this code:
+
+```
+<Grid x:Name="MyFirstActivity_Form_grd" 
+            VerticalAlignment="Center" 
+            HorizontalAlignment="Center" 
+            ShowGridLines="True"
+            Background="White"
+            
+  >
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition></ColumnDefinition>
+        <ColumnDefinition></ColumnDefinition>
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+        <RowDefinition></RowDefinition>
+        <RowDefinition></RowDefinition>
+    </Grid.RowDefinitions>
+  </Grid>
+```
+
+Okay, Column Definitions and Row Definitions Exists, then under </Grid.RowDefinitions> add a picture:
+
+```
+<Grid Grid.Row="0" Grid.Column="0">
+  <Image HorizontalAlignment="Left" 
+         Source="pack://application:,,/User.My.Activity;component/Images/eye_logo.png"
+         Height="40"
+         Width="40"
+         Margin="5,5,5,5"
+  />
+</Grid>
+```
+
+
+
+
+
+
+
+
+## Шаг 2 — Пишем код визуальной формы
+
+
+
+
 
 
 
