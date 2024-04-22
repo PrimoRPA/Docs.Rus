@@ -148,11 +148,11 @@ namespace Primo.SDK.Sample.Views
 
 Где `<UI>` – это имя визуальной части элемента Primo.
 
-Дополнительно:
-* Как создать [синхронный элемент](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/sync-element).
-* Как создать [элемент с тайм-аутом](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/to-element).
-* Как создать [простой контейнер](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/simple-container).
-* Как создать [специальный контейнер](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/custom-container).
+Дополнительно о том, как создать:
+* [Синхронный элемент](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/sync-element).
+* [Элемент с тайм-аутом](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/to-element).
+* [Простой контейнер](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/simple-container).
+* [Специальный контейнер](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/custom-container).
 * [Расширенные свойства элемента](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/extended-properties).
 * [Дополнительные методы](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/additional-methods).
 * [Кастомные свойства](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/custom-properties).
