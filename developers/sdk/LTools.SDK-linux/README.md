@@ -215,6 +215,10 @@ And Result:
 Где \<UI> – это имя визуальной части элемента Primo.
 
 
+Подробнее о том, как создать синхронный элемент, см. [здесь](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/sync-element).
+
+Подробнее о том, как создать элемент с тайм-аутом, см. [здесь](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/to-element).
+
 
 ## Шаг 3 — Связываем две части элемента 
 
