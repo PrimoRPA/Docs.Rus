@@ -149,10 +149,10 @@ namespace Primo.SDK.Sample.Views
 Где `<UI>` – это имя визуальной части элемента Primo.
 
 Дополнительно:
-* Подробнее о том, как создать синхронный элемент, см. [здесь](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/sync-element).
-* Подробнее о том, как создать элемент с тайм-аутом, см. [здесь](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/to-element).
-* Подробнее о том, как создать простой контейнер, см. [здесь](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/simple-container).
-* Подробнее о том, как создать специальный контейнер, см. [здесь](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/custom-container).
+* Как создать [синхронный элемент](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/sync-element).
+* Как создать [элемент с тайм-аутом](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/to-element).
+* Как создать [простой контейнер](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/simple-container).
+* Как создать [специальный контейнер](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/custom-container).
 * [Расширенные свойства элемента](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/extended-properties).
 * [Дополнительные методы](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/additional-methods).
 * [Кастомные свойства](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk/custom-properties).
@@ -196,7 +196,7 @@ namespace Primo.SDK.Sample.Views
 
 ## Дополнительно
 
-В нашем публичном репозитории на [GitHub](https://github.com/PrimoRPA/SDK.Sample) вы можете найти каталог **LTools.SDK-for-Linux**, в котором представлен демонстрационный проект **Primo.SDK.Avalonia.Sample**. Вы можете скачать его и открыть в своей Visual Studio.
+В нашем публичном репозитории на [GitHub](https://github.com/PrimoRPA/SDK.Sample) вы можете найти каталог **LTools.SDK-for-Linux**, в котором представлен демонстрационный проект **Primo.SDK.Avalonia.Sample**. Вы можете скачать его и открыть в своей Visual Studio для просмотра.
 
 
 
