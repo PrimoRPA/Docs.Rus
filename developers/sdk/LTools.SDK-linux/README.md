@@ -82,17 +82,32 @@
 При создании файла \*.axaml также автоматически добавится файл *.axaml.cs. Откройте в рабочей области файл `*.axaml.cs`, измените в нем класс с **UserControl** на **PrimoUserControl** из `clrnamespace:LTools.Common.UIElements;assembly=LTools.Common`. Пример:
 
 ```
-using Avalonia.Controls;
+using Avalonia.Interactivity;
 using LTools.Common.UIElements;
 
-namespace Primo.SDK.Sample.Views
+namespace Primo.TestNuget.Views
 {
-    public partial class MyFirstActivity_Form : PrimoUserControl
+    public partial class WriteInConsoleBase : PrimoUserControl
     {
-        public MyFirstActivity_Form()
+        /// <summary>
+        /// Constructor.
+        /// </summary>
+        public WriteInConsoleBase()
         {
             if (LTools.Common.Helpers.WFHelper.DoRender)
+            {
                 InitializeComponent();
+            }
+        }
+
+        /// <summary>
+        /// Event "OnClick" on element "Form_btn" handling method.
+        /// </summary>
+        /// <param name="sender">Sender value.</param>
+        /// <param name="eventArguments">Event arguments value.</param>
+        private void Form_btn_OnClick(object? sender, RoutedEventArgs eventArguments)
+        {
+            this.Form_txt.Text = @"""'Ваше имя', 'Ваша фамилия'""";
         }
     }
 }
