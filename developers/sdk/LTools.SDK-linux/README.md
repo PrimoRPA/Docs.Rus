@@ -66,7 +66,11 @@
 
 Готово — вы создали компонент, который будет являться визуальной составляющей элемента Primo. Данные будущего элемента автоматически будут смаплены на DataContext данного контролла.
 
-Откройте в рабочей области файл `MyFirstActivity_Form.axaml.cs`, созданный автоматически. Смените класс с **UserControl** на **PrimoUserControl** из `clrnamespace:LTools.Common.UIElements;assembly=LTools.Common`:
+При создании файла \*.axaml автоматически будет создан файл *.axaml.cs.
+
+## *.axaml.cs
+
+Откройте в рабочей области файл `MyFirstActivity_Form.axaml.cs`. Смените в нем класс с **UserControl** на **PrimoUserControl** из `clrnamespace:LTools.Common.UIElements;assembly=LTools.Common`:
 
 ```
 <ui:PrimoUserControl xmlns="https://github.com/avaloniaui"
@@ -76,11 +80,12 @@
  xmlns:ui="clr-namespace:LTools.Common.UIElements;assembly=LTools.Common">
 </ui:PrimoUserControl>
 ```
-Откройте в рабочей области файл `MyFirstActivity_Form.axaml`. Давайте отобразим сетку. Создайте 2 колонки и 3 строки.  
 
-Let's display the grid -> Grid property -> ShowGridLines="True"
+## *.axaml
 
-Just replace new Grid this code:  (Просто замените новый Grid на этот код:)
+Откройте в рабочей области файл `MyFirstActivity_Form.axaml`. Отобразите сетку справа.  Let's display the grid -> Grid property -> ShowGridLines="True"
+
+Создайте 2 колонки и 2 строки. Просто замените новый Grid на этот код:
 
 ```
 <Grid x:Name="MyFirstActivity_Form_grd" 
