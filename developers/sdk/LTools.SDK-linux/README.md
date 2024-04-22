@@ -72,13 +72,11 @@
 
 Готово — вы создали компонент, который является визуальной составляющей элемента Primo. Данные будущего элемента автоматически будут смаплены на DataContext данного контролла.
 
-При создании файла \*.axaml также автоматически добавится файл *.axaml.cs.
 
-#### Файл *.axaml.cs
 
-Откройте в рабочей области файл `MyFirstActivity_Form.axaml.cs`. Смените в нем класс с **UserControl** на **PrimoUserControl** из `clrnamespace:LTools.Common.UIElements;assembly=LTools.Common`.
+#### Работа с файлом *.axaml.cs
 
-Пример:
+При создании файла \*.axaml также автоматически добавится файл *.axaml.cs. Откройте в рабочей области файл `*.axaml.cs`, измените в нем класс с **UserControl** на **PrimoUserControl** из `clrnamespace:LTools.Common.UIElements;assembly=LTools.Common`. Пример:
 
 ```
 using Avalonia.Controls;
@@ -97,9 +95,9 @@ namespace Primo.SDK.Sample.Views
 }
 ```
 
-#### Файл *.axaml
+#### Работа с файлом *.axaml
 
-Откройте в рабочей области файл `MyFirstActivity_Form.axaml`. Смените в нем класс с **UserControl** на **PrimoUserControl** из `clrnamespace:LTools.Common.UIElements;assembly=LTools.Common`. Пример:
+Откройте в рабочей области ваш файл `*.axaml`. Смените в нем класс с **UserControl** на **PrimoUserControl** из `clrnamespace:LTools.Common.UIElements;assembly=LTools.Common`. Пример:
 
 ```
 <ui:PrimoUserControl xmlns="https://github.com/avaloniaui"
@@ -107,6 +105,8 @@ namespace Primo.SDK.Sample.Views
  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
  xmlns:ui="clr-namespace:LTools.Common.UIElements;assembly=LTools.Common">
+
+
 </ui:PrimoUserControl>
 ```
 
@@ -118,132 +118,34 @@ namespace Primo.SDK.Sample.Views
 В соответствии с вашим дизайном создайте сетку (Grid). Пример:
 
 ```
-<Grid>
+<ui:PrimoUserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:ui="clr-namespace:LTools.Common.UIElements;assembly=LTools.Common"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="Primo.SDK.Sample.Views.TestComponentSimpleBase">
+
+  <Grid>
     <Label Content="Test"/>
   </Grid>
-```
 
-
-```
-<Grid x:Name="MyFirstActivity_Form_grd" 
-            VerticalAlignment="Center" 
-            HorizontalAlignment="Center" 
-            ShowGridLines="True"
-            Background="White"
-            
-  >
-    <Grid.ColumnDefinitions>
-        <ColumnDefinition></ColumnDefinition>
-        <ColumnDefinition></ColumnDefinition>
-    </Grid.ColumnDefinitions>
-    <Grid.RowDefinitions>
-        <RowDefinition></RowDefinition>
-        <RowDefinition></RowDefinition>
-    </Grid.RowDefinitions>
-  </Grid>
-```
-
-Итак, у нас определены столбцы и строки. Под строкой `</Grid.RowDefinitions>` добавьте изображение: 
-
-```
-<Grid Grid.Row="0" Grid.Column="0">
-<!--Мы создали сетку для for the first column of the first row (для первой строки первого столбца? или наоборот?) и хотим вставить сюда изображение.-->
-  <Image HorizontalAlignment="Left" 
-         Source="pack://application:,,/Primo.My.Activity;component/Images/logo.png"
-         <!--Путь к изображению. Состоит из названия библиотеки (Primo.My.Activity) и пути внутри библиотеки (Images/logo.png")-->
-         Height="40"
-         Width="40"
-         <!--Размер изображения-->
-         Margin="5,5,5,5"
-         <!--Отступ от границ сетки: слева, сверху, справа, снизу.-->
-  />
-</Grid>
-```
-
-Далее второй столбец первой строки, где будет название нашего элемента:
-Next the second column of the first row, where we will have the name of our activity:
-
-```
-<Grid rid.Row="0" Grid.Column="1">
-    <!-- Activity Name -->
-    <Label Content="My First Activity"/>
-</Grid>
-```
-
-Далее перейдем ко второй строке первого столбца. Сетка пустая.
-Next First Column and Second Row. Grid is Empty
-
-```
-<Grid Grid.Row="1" Grid.Column="0">
-  <!-- Row 1 -->
-</Grid>
-```
-
-И наконец, во втором столбце второй строки добавим сетку и кнопку к ней.
-And at the end, in the second column of the second row, we will add a grid and a button to it:
-
-```
-<Grid  Grid.Row="1" Grid.Column="1">
-  <Button x:Name="Form_btn" Content="Open" />
-</Grid>
-```
-
-
-И полная сетка:
-```
-<Grid x:Name="MyFirstActivity_Form_grd" 
-      VerticalAlignment="Center" 
-      HorizontalAlignment="Center" 
-      ShowGridLines="True"
-      Background="White"
->
-    <Grid.ColumnDefinitions>
-        <ColumnDefinition></ColumnDefinition>
-        <ColumnDefinition></ColumnDefinition>
-    </Grid.ColumnDefinitions>
-    <Grid.RowDefinitions>
-        <RowDefinition></RowDefinition>
-        <RowDefinition></RowDefinition>
-    </Grid.RowDefinitions>
-    <Grid Grid.Row="0" Grid.Column="0">
-        <Image HorizontalAlignment="Left" 
-             Source="pack://application:,,/Primo.My.Activity;component/Images/eye_logo.png"
-             Height="40"
-             Width="40"
-             Margin="5,5,5,5"
-        />
-    </Grid>
-    <Grid Grid.Row="0" Grid.Column="1">
-        <!-- Activity Name -->
-        <Label Content="My First Activity"/>
-    </Grid>
-    <Grid Grid.Row="1" Grid.Column="0">
-        <!-- Row 1 -->
-    </Grid>
-    <Grid  Grid.Row="1" Grid.Column="1">
-        <Button x:Name="Form_btn" Content="Open" />
-    </Grid>
-</Grid>
+</ui:PrimoUserControl>
 ```
 
 Отрисовка в Visual Studio:
 
-НЕТУ Написать, что форма визуально не отрисовывается в вижуал студии и ошибка No Executable - это нормально. Уточнить у Адреянова, мож, как-то можно настроить.
-
-Соберите решение. Для этого в панели **Обозреватель решений** вызовите контекстное меню решения и выберите **Собрать решение**. And First Build! -> Solution Explorer -> Right Click "Solution 'Primo.My.Activity'" -> Clean Solution -> Build Solution.
+НЕТУ Написать, что форма визуально не отрисовывается в вижуал студии и ошибка No Executable - это нормально. 
 
 
+Соберите решение – в панели **Обозреватель решений** вызовите контекстное меню решения и выберите **Собрать решение**. 
+And First Build! -> Solution Explorer -> Right Click "Solution 'Primo.My.Activity'" -> Clean Solution -> Build Solution.
 
-**Как загрузить в проект изображения:**
-
-Правой кнопкой мыши кликните по папке Images, выберите Add > Existing Item... и загрузите нужные изображения. 
-
-Затем кликните правой кнопкой мыши каждое изображение и откройте Properties. В группе свойств Advanced выберите для Buld Action значение Resource. (зачем это делать? это всегда и для всех картинок нужно делать? или только для иконок элемента?)
 
 
 ## Шаг 2. Создаем программную часть элемента Primo
 
-Вызовите контекстное меню папки Elements, выберите **Добавить > Создать элемент > Класс C# Class**.  Укажите имя класса, например, `MyFirstActivity.cs`. Данный класс будет содержать программную часть (code-behind) элемента Primo — описывать его логику.
+Вызовите контекстное меню папки Elements, выберите **Добавить > Создать элемент > Класс C#**.  Укажите имя класса, например, `MyFirstActivity.cs`. Данный класс будет содержать программную часть (code-behind) элемента Primo — описывать его логику.
 
 Для создания элемента:
 * с синхронным поведением необходимо унаследовать класс `LTools.SDK.PrimoComponentSimple<UI>`.
