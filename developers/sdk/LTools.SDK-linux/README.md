@@ -74,7 +74,7 @@
 
 При создании файла \*.axaml также автоматически добавится файл *.axaml.cs.
 
-#### *.axaml.cs
+#### Файл *.axaml.cs
 
 Откройте в рабочей области файл `MyFirstActivity_Form.axaml.cs`. Смените в нем класс с **UserControl** на **PrimoUserControl** из `clrnamespace:LTools.Common.UIElements;assembly=LTools.Common`.
 
@@ -97,7 +97,7 @@ namespace Primo.SDK.Sample.Views
 }
 ```
 
-#### *.axaml
+#### Файл *.axaml
 
 Откройте в рабочей области файл `MyFirstActivity_Form.axaml`. Смените в нем класс с **UserControl** на **PrimoUserControl** из `clrnamespace:LTools.Common.UIElements;assembly=LTools.Common`. Пример:
 
@@ -110,7 +110,19 @@ namespace Primo.SDK.Sample.Views
 </ui:PrimoUserControl>
 ```
 
-Теперь спроектируйте визуальный облик элемента Primo. В соответствии с ним опишите Grid:
+Теперь спроектируйте визуальный облик элемента Primo. Подумайте, какие вы хотите увидеть на панели элемента поля, кнопки и т.д. 
+
+![](<../../../.gitbook/assets1/RenderActivity.png>)
+
+
+В соответствии с вашим дизайном создайте сетку (Grid). Пример:
+
+```
+<Grid>
+    <Label Content="Test"/>
+  </Grid>
+```
+
 
 ```
 <Grid x:Name="MyFirstActivity_Form_grd" 
@@ -132,7 +144,6 @@ namespace Primo.SDK.Sample.Views
 ```
 
 Итак, у нас определены столбцы и строки. Под строкой `</Grid.RowDefinitions>` добавьте изображение: 
-Okay, Column Definitions and Row Definitions Exists, then under </Grid.RowDefinitions> add a picture:
 
 ```
 <Grid Grid.Row="0" Grid.Column="0">
@@ -219,15 +230,7 @@ And at the end, in the second column of the second row, we will add a grid and a
 
 НЕТУ Написать, что форма визуально не отрисовывается в вижуал студии и ошибка No Executable - это нормально. Уточнить у Адреянова, мож, как-то можно настроить.
 
-And First Build! -> Solution Explorer -> Right Click "Solution 'Primo.My.Activity'" -> Clean Solution -> Build Solution.
-
-
-Check in output 1 Successed!
-
-
-And Result:
-
-ПИКЧА С ГОТОВОЙ ФОРМОЙ (В АВАЛОНИИ ПОХОДУ НЕ СДЕЛАЕМ)
+Соберите решение. Для этого в панели **Обозреватель решений** вызовите контекстное меню решения и выберите **Собрать решение**. And First Build! -> Solution Explorer -> Right Click "Solution 'Primo.My.Activity'" -> Clean Solution -> Build Solution.
 
 
 
