@@ -14,7 +14,7 @@
 
    ![](<../../../.gitbook/assets1/template's-project.png>)
    
-3. В названии проекта обязательно укажите префикс **Primo.**. Пример: `Primo.My.Elements`.
+3. В названии проекта обязательно укажите префикс **Primo.**. Пример: `Primo.Test`.
 4. Далее выберите фреймворк **.NET 6.0** и нажмите **Создать**.
 
    ![](<../../../.gitbook/assets1/framework.png>)
@@ -71,7 +71,7 @@
 ### Шаг 1. Создаем визуальную часть элемента Primo
 
 1. Вызовите контекстное меню папки Views, выберите **Добавить > Создать элемент > User Control (Avalonia)**.
-2. В поле **Имя** укажите его название, например, `MyFirstActivity_Form.axaml`.
+2. В поле **Имя** укажите его название. Пример: `WriteInConsoleBase.axaml`.
 3. Нажмите кнопку **Добавить**.
 
 Готово — вы создали компонент, который является визуальной составляющей элемента Primo. Данные будущего элемента автоматически будут смаплены на DataContext данного контролла.
@@ -79,7 +79,9 @@
 
 #### Работа с файлом *.axaml.cs
 
-При создании файла \*.axaml также автоматически добавится файл *.axaml.cs. Откройте в рабочей области файл `*.axaml.cs`, измените в нем класс с **UserControl** на **PrimoUserControl** из `clrnamespace:LTools.Common.UIElements;assembly=LTools.Common`. Пример:
+При создании файла \*.axaml также автоматически добавится файл *.axaml.cs. Откройте в рабочей области файл `*.axaml.cs`, измените в нем класс с **UserControl** на **PrimoUserControl** из `clrnamespace:LTools.Common.UIElements;assembly=LTools.Common`. 
+
+Например, мы открыли файл `WriteInConsoleBase.axaml.cs` и изменили в нем класс:
 
 ```
 using Avalonia.Interactivity;
@@ -117,7 +119,7 @@ namespace Primo.TestNuget.Views
 
 Откройте в рабочей области ваш файл `*.axaml`. Смените в нем класс с **UserControl** на **PrimoUserControl** из `clrnamespace:LTools.Common.UIElements;assembly=LTools.Common`. 
 
-Пример:
+Например, мы открыли файл `WriteInConsoleBase.axaml` и изменили в нем класс:
 
 ```
 <ui:PrimoUserControl xmlns="https://github.com/avaloniaui"
