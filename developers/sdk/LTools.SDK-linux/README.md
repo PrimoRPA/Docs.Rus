@@ -59,11 +59,11 @@
 
 ## Создание элемента
 Для создания элемента Primo вам понадобится:
-1. Создать визуальную часть элемента — файл \*.axaml. 
-2. Создать программную часть элемента — файл \*.cs.
-3. Связать две части элемента.
-4. Собрать проект в библиотеку `Primo.*.dll`.
-5. Упаковать библиотеку в NuGet-пакет и опубликовать на портале [NuGet](www.nuget.org). 
+1. [Создать визуальную часть элемента](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk-linux#shag-1.-sozdaem-vizualnuyu-chast-elementa-primo) — файл \*.axaml. 
+2. [Создать программную часть элемента](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk-linux#shag-2.-sozdaem-programmnuyu-chast-elementa-primo) — файл \*.cs.
+3. [Связать две части элемента](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk-linux#shag-3.-svyazyvaem-dve-chasti-elementa-primo).
+4. [Собрать проект в библиотеку `Primo.*.dll`](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk-linux#shag-4.-sobiraem-proekt).
+5. [Упаковать библиотеку в NuGet-пакет](https://docs.primo-rpa.ru/primo-rpa/developers/ltools.sdk-linux#shag-5.-upakovyvaem-biblioteku-v-nuget-paket-i-publikuem) и опубликовать на портале [NuGet](www.nuget.org). 
 
 Впоследствии вы можете установить ваш NuGet-пакет в Primo RPA Studio на Linux, чтобы добавить элемент в среду RPA-разработки.
 
