@@ -26,7 +26,6 @@
    * LTools.Scripting.dll
    * LTools.SDK.dll
    * Primo.UIControls.dll
-   * Primo.UIControls.dll
 
    ![](<../../../.gitbook/assets1/add-refs-2.png>)
 
