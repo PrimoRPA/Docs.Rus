@@ -5,13 +5,9 @@ description: Get asset
 
 # Получить значение
 
-![](<../../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (1) (19).png>)
+Элемент позволяет получить [ресурс](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) из Оркестратора. Поиск ресурса осуществляется по его названию. Полученный ресурс необходимо сохранить в свойстве **Результат** в виде переменной. Она должна иметь тип данных System.Object.
 
-## Назначение
-
-Позволяет получить [ресурс](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) (переменную) из Оркестратора. Поиск ресурса осуществляется по его названию. Полученный ресурс необходимо сохранить в свойстве **Результат** в виде переменной. Она должна иметь тип данных System.Object.
-
-![](<../../../../.gitbook/assets/image (269).png>)
+![Элемент «Получить значение»](<../../../../.gitbook/assets/image (269).png>)
 
 Робот может запросить ресурс следующих типов данных:
 * String;
@@ -48,9 +44,13 @@ description: Get asset
 
 
 
-## Learning
+## Пример использования
 
-Чтобы ознакомиться с работой элемента, скачайте обучающий сценарий [Значения.ltw](https://github.com/PrimoRPA/Learning/blob/master/StudioActivities/Ru/%D0%9E%D1%80%D0%BA%D0%B5%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80/%D0%97%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F/%D0%97%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F.ltw) (либо [Assets.ltw](https://github.com/PrimoRPA/Learning/blob/master/StudioActivities/En/Orchestrator/Assets/Assets.ltw) - на англ.) и добавьте его в свой RPA-проект в Студии для просмотра.
+RPA-проект, демонстрирующий работу элемента, можно найти в нашем публичном репозитории [Learning](https://github.com/PrimoRPA/Learning).
+
+1. Скачайте архив со всеми обучающими материалами по ссылке: [Скачать архив Learning](https://github.com/PrimoRPA/Learning/archive/refs/heads/master.zip).
+2. Распакуйте архив и откройте в Студии проект **StudioActivities**.
+3. Выберите процесс `StudioActivities/Ru/Оркестратор/Значения/Значения.ltw` для просмотра.
 
 
 ## Только код
