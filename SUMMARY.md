@@ -873,7 +873,7 @@
   * [Трансляция RDP-сессии](orchestrator/fine-tuning/broadcast-rdp-session.md)
   * [Таймаут, после которого робот «Не доступен»](orchestrator/fine-tuning/robot-state.md)
   * [Блокировка робота агентом](orchestrator/fine-tuning/blocking-robot-by-agent.md)
-  * [Очереди проектов](orchestrator/fine-tuning/project-queue.md)
+  * [Настройка очереди проектов](orchestrator/fine-tuning/project-queue.md)
   * [Стратегия очереди проектов для тенанта](orchestrator/fine-tuning/project-queue-strategies-for-tenant.md)
   * [Кэширование проекта](orchestrator/fine-tuning/project-caching.md)
   * [Очистка старых запусков проектов](orchestrator/fine-tuning/setting-up-old-runs-cleaning.md)
