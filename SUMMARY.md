@@ -884,6 +884,7 @@
   * [Отключение тенанта по умолчанию и блокировка встроенных учетных записей](orchestrator/fine-tuning/disable-default-tenant.md)
   * [Параметры оповещений](orchestrator/fine-tuning/notification-settings.md)
   * [Общие папки](orchestrator/fine-tuning/shared-folders.md)
+  * [Проблемы с кодировкой при использовании кириллицы](orchestrator/fine-tuning/encoding.md)
 * [Администраторам](orchestrator/settings/README.md)
   * [Лицензии](orchestrator/settings/licensing/README.md)
     * [Получить лицензию](orchestrator/settings/licensing/new-license.md)
