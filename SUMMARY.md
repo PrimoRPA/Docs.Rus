@@ -433,6 +433,7 @@
       * [Чтение почты](g\_elements/el\_basic/els\_mail/els\_exchange/el\_read.md)
     * [Отправить письмо (SMTP)](g\_elements/el\_basic/els\_mail/el\_mail\_smtp.md)
     * [Переместить в папку (IMAP)](g\_elements/el\_basic/els\_mail/imap\_movetofolder.md)
+    * [Удалить письма](g\_elements/el\_basic/els\_mail/imap\_deletemail.md)
     * [Получить письма (IMAP)](g\_elements/el\_basic/els\_mail/imap\_getmail.md)
     * [Получить письма (POP3)](g\_elements/el\_basic/els\_mail/pop3\_getmail.md)
   * [Приложение 1С](g\_elements/el\_basic/els\_1c/README.md)
