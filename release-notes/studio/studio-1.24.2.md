@@ -162,8 +162,8 @@
 
 
 ## Где найти
-[Скачать дистрибутив Primo RPA Studio Enterprise](http://disk3.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FRelease%2FStudio%2FWindows).
+[Скачать дистрибутив Primo RPA Studio Enterprise](http://disk3.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FArchive%2FStudio%2FWindows%2F1.24.2.5).
 
-[Скачать дистрибутив Primo RPA Robot](http://disk3.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FRelease%2FRobot%2FWindows):
+[Скачать дистрибутив Primo RPA Robot](http://disk3.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FArchive%2FRobot%2FWindows%2F1.24.2.5):
 * **Primo RPA Robot 1.24.2** — предназначен для установки на локальной рабочей станции. Выступает в роли цифрового ассистента пользователя. Дистрибутив поставляется в разрядности x64 и x86.
 * **Primo RPA Robot Orchestrator 1.24.2** — предназначен для автоматической установки Оркестратором. Дистрибутив поставляется в разрядности x64 и x86.
