@@ -76,6 +76,7 @@
   * [Переменные](primo-studio/process/variables.md)
   * [Глобальная переменная](primo-studio/process/workflow.md)
   * [Аргументы](primo-studio/process/args.md)
+  * [Сниппеты](primo-studio/process/snippets.md)
   * [Шаблон поиска](primo-studio/process/searchpatterns/README.md)
     * [Категории приложений](primo-studio/process/searchpatterns/apps-categories.md)
     * [Новый редактор шаблона поиска](primo-studio/process/searchpatterns/new-pattern-editor.md)
