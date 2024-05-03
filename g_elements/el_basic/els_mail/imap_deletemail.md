@@ -2,7 +2,7 @@
 
 *Eng: Delete mail (IMAP)*
 
-![](<../../../.gitbook/assets1/delete_mail.png>)
+![](<../../../.gitbook/assets1/delete-mail.png>)
 
 Элемент используется для удаления почтовых сообщений по протоколу IMAP. Ниже представлены свойства элемента.
 
