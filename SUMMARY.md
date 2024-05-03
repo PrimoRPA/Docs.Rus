@@ -3,6 +3,7 @@
 * [Primo RPA](README.md)
 * [Что нового](release-notes/README.md)
   * [Студия](release-notes/studio/README.md)
+    * [Студия 1.24.4](release-notes/studio/studio-1.24.4.md)
     * [Студия 1.24.2](release-notes/studio/studio-1.24.2.md)
     * [Студия 23.11](release-notes/studio/studio-23.11.md)
     * [Студия 23.9](release-notes/studio/studio-23.9.md)
