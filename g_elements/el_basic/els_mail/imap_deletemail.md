@@ -1,4 +1,4 @@
-# Удалить письма IMAP
+# Удалить письма (IMAP)
 
 *Eng: Delete mail (IMAP)*
 
