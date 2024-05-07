@@ -815,6 +815,7 @@
 	* [Удаление диапазона](g_elements/el_basic/els-odf/els-table/el-odftable-deleterange.md)
  	* [Удаление колонок](g_elements/el_basic/els-odf/els-table/el-odftable-deletecolumns.md)
   	* [Удаление строк](g_elements/el_basic/els-odf/els-table/el-odftable-deleterows.md)
+	* [Фильтр диапазона](g_elements/el_basic/els-odf/els-table/el-odftable-filterrange.md)
   	* [Чтение диапазона](g_elements/el_basic/els-odf/els-table/el-odftable-readrange.md)
   	* [Чтение колонки](g_elements/el_basic/els-odf/els-table/el-odftable-readcolumn.md)
   	* [Чтение из ячейки](g_elements/el_basic/els-odf/els-table/el-odftable-readcell.md)
