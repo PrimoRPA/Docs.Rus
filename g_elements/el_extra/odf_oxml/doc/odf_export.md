@@ -2,7 +2,7 @@
 
 Элемент экспортирует ODF-файл в указанный формат. На данный момент поддерживает экспорт только в PDF. 
 
-![](<../../../.gitbook/assets1/windows_items/odf-export.png>)
+![](<../../../../.gitbook/assets1/windows_items/odf-export.png>)
 
 
 
