@@ -2,7 +2,7 @@
 
 Элемент ищет вхождение заданного текста в документ. Путь до файла указывается в контейнере «Документ ODF».
 
-![](<../../../.gitbook/assets1/windows_items/odf-find-text.png>)
+![](<../../../../.gitbook/assets1/windows_items/odf-find-text.png>)
 
 
 ## Свойства
