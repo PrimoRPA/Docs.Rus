@@ -2,7 +2,7 @@
 
 Элемент читает таблицу из документа и сохраняет в переменную. Путь до файла указывается в контейнере «Документ ODF».
 
-![](<../../../.gitbook/assets1/windows_items/odf-read-table.png>)
+![](<../../../../.gitbook/assets1/windows_items/odf-read-table.png>)
 
 
 ## Свойства
