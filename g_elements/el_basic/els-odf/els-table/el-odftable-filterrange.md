@@ -4,7 +4,7 @@ description: Filter range
 
 # Фильтр диапазона
 
-![](../../../resources/basic/myoffice/table/odftable-filterrange.png)
+![](../../../../.gitbook/assets1/odftable-filterrange.png)
 
 Компонент устанавливает фильтр диапазона ячеек таблицы.
 
