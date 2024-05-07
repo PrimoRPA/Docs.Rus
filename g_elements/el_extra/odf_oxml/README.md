@@ -1,6 +1,6 @@
 # ODF/OXML
 
-Автоматизировать работу с ODF-файлами в Primo можно c помощью библиотеки **Primo.Office.OdfOxml**.
+Автоматизировать работу с ODF-файлами в Primo можно c помощью библиотеки [**Primo.Office.OdfOxml**](https://www.nuget.org/packages/Primo.Office.OdfOxml).
 
 Библиотека включает две группы элементов:
 * *ODF/OXML - Документы*;
@@ -11,4 +11,3 @@
 ![](<../../../.gitbook/assets1/windows_items/library-odf.png>)
 
 
-## Установка библиотеки
