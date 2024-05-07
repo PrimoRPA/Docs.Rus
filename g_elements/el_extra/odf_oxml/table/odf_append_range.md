@@ -26,4 +26,4 @@
 1. **Расширять диапазон** *[Boolean]* — определяет, следует ли автоматически расширять диапазон до размеров данных. По умолчанию не используется.
 1. **Переменная (текст)** *[List\<List\<string>>]* — переменная для хранения данных текстовых значений.
 1. **Переменная (информация)** *[List\<List<[LTools.Office.Model.ExcelCellInfo](datatypes/excelcellinfo.md)>>]* — переменная для хранения данных, содержащих информацию о ячейках.
-1. **Переменная (таблица)** *[[System.Data.DataTable](https://learn.microsoft.com/ru-ru/dotnet/api/system.data.datatable?view=net-5.0)]* — переменная для хранения данных табличных значений.
+1. **Переменная (таблица)** *[[System.Data.DataTable](https://learn.microsoft.com/ru-ru/dotnet/api/system.data.datatable?view=net-5.0)]* — переменная для хранения данных в виде таблицы.
