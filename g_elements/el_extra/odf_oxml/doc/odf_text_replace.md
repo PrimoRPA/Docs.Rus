@@ -2,7 +2,7 @@
 
 Элемент заменяет все вхождения исходного текста на новый. Путь до файла указывается в контейнере «Документ ODF».
 
-![](<../../../.gitbook/assets1/windows_items/odf-text-replace.png>)
+![](<../../../../.gitbook/assets1/windows_items/odf-text-replace.png>)
 
 
 ## Свойства
