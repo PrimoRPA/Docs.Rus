@@ -4,7 +4,7 @@
 
 Элемент «Таблица ODF» также выступает контейнером по отношению к другим компонентам, обрабатывающим указанный файл.
 
-![Элемент «Таблица ODF»](<../../../../.gitbook/assets1/windows_items/odf-attach-table-app.png>)
+![Контейнер «Таблица ODF»](<../../../../.gitbook/assets1/windows_items/odf-attach-table-app.png>)
 
 
 ## Свойства
