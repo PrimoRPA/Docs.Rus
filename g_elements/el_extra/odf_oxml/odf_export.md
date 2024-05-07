@@ -1,8 +1,15 @@
 # Экспортировать документ
 
-Компонент, производящий экспорт документа Word в другой формат. Доступный формат: PDF
+Элемент экспортирует ODF-файл в указанный формат. На данный момент поддерживает экспорт только в PDF. 
+
+![](<../../../.gitbook/assets1/windows_items/odf-export.png>)
+
+
 
 ## Свойства
 
-1. **Путь к файлу** *[String]*: Путь к файлу (c:\folder\files.pdf).
-2. **Формат** *[LTools.Office.Model.WordExportFormats]*: Тип формата.
+Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
+
+1. **Путь к файлу** *[String]* — путь к файлу.
+2. **Формат** *[LTools.Office.Model.WordExportFormats]* — тип формата.
+
