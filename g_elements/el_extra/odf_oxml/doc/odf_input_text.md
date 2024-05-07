@@ -2,7 +2,7 @@
 
 Элемент записывает данные в ODF-файл. Путь до файла указывается в контейнере «Документ ODF».
 
-![Элемент «Ввод текста»](<../../../.gitbook/assets1/windows_items/odf-input-text.png>)
+![Элемент «Ввод текста»](<../../../../.gitbook/assets1/windows_items/odf-input-text.png>)
 
 
 ## Свойства
