@@ -4,15 +4,11 @@ description: Sort range
 
 # Сортировка диапазона
 
-Элемент сортирует данные в указанном диапазоне ячеек Excel.
+Элемент сортирует данные в указанном диапазоне ячеек Excel. Путь до файла и другие базовые параметры настраиваются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app).
+
+Если в файле требуется сохранить изменения, используйте дополнительно элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_save). 
 
 ![](<../../../.gitbook/assets1/WFSortRange.png>)
-
-**Примечания**:
-
-1. Путь до файла, тип драйвера и другие параметры предварительно настраиваются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app).
-2. Если в файле требуется сохранить изменения, используйте дополнительно элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_save). Автоматически изменения не сохраняются.
-
 
 
 ## Свойства
