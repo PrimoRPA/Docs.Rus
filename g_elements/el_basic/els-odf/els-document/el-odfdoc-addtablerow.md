@@ -3,7 +3,7 @@ description: Add table row
 ---
 # Добавить строку таблицы
 
-![](../../../.gitbook/assets1/odf-addtablerow1.PNG)
+![](../../../../.gitbook/assets1/odf-addtablerow1.PNG)
 
 Элемент добавляет строку к таблице. Элемент работает корректно только внутри контейнера "Документ ODF"
 
