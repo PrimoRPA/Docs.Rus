@@ -4,11 +4,12 @@ description: Insert columns
 
 # Вставка колонок
 
-Элемент вставляет колонки в лист Excel. Путь до файла указывается в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app). 
+Элемент вставляет колонки в лист Excel. Путь до файла и другие базовые параметры указывается в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app). 
 
-Если в файле требуется сохранить изменения, то дополнительно используйте элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_save).
+Дополнительно используйте элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_save), иначе изменения в файле не сохранятся.
 
 ![Элемент «Вставка колонок»](<../../../.gitbook/assets1/WFInsertColumns.png>)  
+
 
 ## Свойства
 
