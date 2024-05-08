@@ -788,6 +788,7 @@
   	* [Ввод текста](g_elements/el_basic/els-odf/els-document/el-odfdoc-inputtext.md)
 	* [Вставить таблицу](g_elements/el_basic/els-odf/els-document/el-odfdoc-inserttable.md)
 	* [Вставка изображения](g_elements/el_basic/els-odf/els-document/el-odfdoc-insertpic.md)
+    	* [Добавить строку таблицы](g_elements/el_basic/els-odf/els-document/el-odfdoc-addtablerow.md)
 	* [ODF Документ](g_elements/el_basic/els-odf/els-document/el-odfdoc-documentodf.md)
 	* [Заменить текст](g_elements/el_basic/els-odf/els-document/el-odfdoc-replace.md)
 	* [Найти текст](g_elements/el_basic/els-odf/els-document/el-odfdoc-findtext.md)
