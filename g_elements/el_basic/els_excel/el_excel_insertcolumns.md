@@ -4,7 +4,7 @@ description: Insert columns
 
 # Вставка колонок
 
-Элемент вставляет колонки в лист Excel. Путь до файла и другие базовые параметры указывается в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app). 
+Элемент вставляет колонки в лист Excel. Путь до файла и другие базовые настройки указываются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app). 
 
 Дополнительно используйте элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_save), иначе изменения в файле не сохранятся.
 
