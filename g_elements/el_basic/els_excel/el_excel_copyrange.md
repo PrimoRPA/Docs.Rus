@@ -4,7 +4,7 @@ description: Copy range
 
 # Копирование диапазона
 
-Элемент копирует выбранный диапазон ячеек Excel для вставки в другой лист. Вставку возможно осуществить как внутри файла-источника, так и во внешний файл Excel. Путь до файла-источника указывается в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app). 
+Элемент копирует выбранный диапазон ячеек для вставки в другой лист Excel. Вставку возможно осуществить как внутри файла-источника, так и во внешний файл Excel. Путь до файла-источника указывается в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app). 
 
 Чтобы внесенные изменения применились, используйте также элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g\_elements/osnovnye-elementy/prilozhenie-excel/el\_excel\_save).
 
