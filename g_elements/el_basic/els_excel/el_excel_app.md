@@ -41,9 +41,9 @@ description: Excel workbook
    * если включено свойство «Присоединяться»;
    * если указан массив байтов;
    * если используется файл в формате текста с разделителями.
-1. **Загружать AddIn-ы** *[Boolean]* — только для Interop. Определяет, нужно ли переподключать установленные дополнения (надстройки). Общие сведения о надстройках Excel приведены [здесь](https://learn.microsoft.com/ru-ru/office/dev/add-ins/excel/excel-add-ins-overview). Подробнее о работе этого свойства см. ниже, в подразделе [Надстройки Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app#nadstroiki-excel).
+1. **Загружать AddIn-ы** *[Boolean]* — только для Interop. Определяет, нужно ли переподключать установленные дополнения (надстройки). Общие сведения о надстройках Excel приведены [здесь](https://learn.microsoft.com/ru-ru/office/dev/add-ins/excel/excel-add-ins-overview). Подробнее о работе этого свойства см. ниже, в подразделе [Надстройки Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app#id-2.-nadstroiki-excel).
 1. **Отображать Excel** *[Boolean]* — только для Interop. Если параметр включен, на экране будет отображаться приложение Excel.
-1. **R1C1** *[Boolean]* — только для DX. Установка чекбокса позволяет указывать диапазон ячеек в элементах Excel, используя стиль ссылок [R1C1](https://learn.microsoft.com/ru-ru/office/troubleshoot/excel/numeric-columns-and-rows#a1-reference-style-vs-r1c1-reference-style). По умолчанию чекбокс выключен, а диапазоны указываются в формате A1. При использовании стиля R1C1, убедитесь, что он также установлен в файле Excel — подробнее см. в подразделе [Стиль ссылок R1C1](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app#stil-ssylok-r1c1).
+1. **R1C1** *[Boolean]* — только для DX. Установка чекбокса позволяет указывать диапазон ячеек в элементах Excel, используя стиль ссылок [R1C1](https://learn.microsoft.com/ru-ru/office/troubleshoot/excel/numeric-columns-and-rows#a1-reference-style-vs-r1c1-reference-style). По умолчанию чекбокс выключен, а диапазоны указываются в формате A1. При использовании стиля R1C1, убедитесь, что он также установлен в файле Excel — подробнее см. в подразделе [Стиль ссылок R1C1](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app#id-1.-stil-ssylok-r1c1).
 
 
 #### Группа Csv
