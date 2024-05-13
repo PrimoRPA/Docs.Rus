@@ -797,6 +797,7 @@
 	* [Сохранить документ](g_elements/el_basic/els-odf/els-document/el-odfdoc-savedoc.md)
     	* [Удалить текст](g_elements/el_basic/els-odf/els-document/el-odfdoc-deletetext.md)
     	* [Цвет фона шрифта](g_elements/el_basic/els-odf/els-document/el-odfdoc-backgroundcolor.md)
+       	* [Цвет шрифта](g_elements/el_basic/els-odf/els-document/el-odfdoc-textcolor.md)
 	* [Чтение текста](g_elements/el_basic/els-odf/els-document/el-odfdoc-readtext.md)
 	* [Экспортировать документ](g_elements/el_basic/els-odf/els-document/el-odfdoc-exportdoc.md)
   * [ODF - Таблицы](g_elements/el_basic/els-odf/els-table/readme.md)
