@@ -1,3 +1,8 @@
+---
+description: Get sheets
+--- 
+
+
 # Список страниц
 
 ![](<../../../../.gitbook/assets1/windows_items/ExcelWFGetSheets.png>)
