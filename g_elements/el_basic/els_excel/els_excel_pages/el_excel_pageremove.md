@@ -7,7 +7,7 @@ description: Delete sheet
 
 Элемент удаляет страницу книги по ее порядковому номеру или названию. Путь до файла указывается в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app).
 
-Если изменения требуется сохранить, то дополнительно используйте элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/prilozhenie-excel/el_excel_save).
+Чтобы сохранить изменения в файле, дополнительно используйте элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/prilozhenie-excel/el_excel_save).
 
 
 ![](<../../../../.gitbook/assets1/windows_items/ExcelWFSheetDelete.png>)
