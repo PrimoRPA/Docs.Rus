@@ -1,3 +1,8 @@
+---
+description: Delete sheet
+---
+
+
 # Удалить страницу
 
 Элемент удаляет страницу книги по ее порядковому номеру или названию. Путь до файла указывается в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app).
