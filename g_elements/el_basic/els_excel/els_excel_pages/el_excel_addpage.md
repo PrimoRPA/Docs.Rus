@@ -8,7 +8,7 @@ description: Add sheet
 
 Если изменения требуется сохранить, то дополнительно используйте элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/prilozhenie-excel/el_excel_save).
 
-![](<../../../../.gitbook/assets/image (242).png>)
+![](<../../../../.gitbook/assets1/windows_items/ExcelWFSheetAdd.png>)
 
 
 
