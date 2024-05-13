@@ -6,7 +6,7 @@ description: Insert rows
 
 Элемент добавляет строки в лист Excel. Путь до файла указывается в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app). 
 
-Дополнительно используйте элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_save), иначе изменения в файле не сохранятся.
+Чтобы сохранить изменения, дополнительно используйте элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_save).
 
 ![Элемент «Вставка строк»](<../../../.gitbook/assets1/WFInsertRows.png>)
 
