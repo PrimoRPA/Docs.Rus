@@ -795,6 +795,7 @@
 	* [Найти текст](g_elements/el_basic/els-odf/els-document/el-odfdoc-findtext.md)
 	* [Прочитать таблицу](g_elements/el_basic/els-odf/els-document/el-odfdoc-readtable.md)
 	* [Сохранить документ](g_elements/el_basic/els-odf/els-document/el-odfdoc-savedoc.md)
+    	* [Удалить текст](g_elements/el_basic/els-odf/els-document/el-odfdoc-deletetext.md)
     	* [Цвет фона шрифта](g_elements/el_basic/els-odf/els-document/el-odfdoc-backgroundcolor.md)
 	* [Чтение текста](g_elements/el_basic/els-odf/els-document/el-odfdoc-readtext.md)
 	* [Экспортировать документ](g_elements/el_basic/els-odf/els-document/el-odfdoc-exportdoc.md)
