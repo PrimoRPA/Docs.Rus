@@ -14,7 +14,7 @@ description: Rename sheet
 
 ## Свойства
 
-Символ `*` указывает на обязательность заполнения свойства. Описание общих свойств см. в разделе [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
+Символ `*` указывает на обязательность заполнения свойства. Описание общих свойств см. [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
 
 1. **Индекс\*** *[Int32]* — порядковый номер страницы, которую вы хотите переименовать. Нумерация начинается с нуля. Пример: `0`.
 1. **Имя\*** *[String]* — новое название страницы. Пример: `"New_name"`.
