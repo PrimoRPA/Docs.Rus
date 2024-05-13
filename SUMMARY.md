@@ -807,6 +807,7 @@
  	* [Изменение шрифта](g_elements/el_basic/els-odf/els-table/el-odftable-changefont.md)
 	* [Изменение ячейки](g_elements/el_basic/els-odf/els-table/el-odftable-changecell.md)
 	* [Копирование диапазона](g_elements/el_basic/els-odf/els-table/el-odftable-copyrange.md)
+    	* [Обновление сводных таблиц](g_elements/el_basic/els-odf/els-table/el-odftable-refreshpivottables.md)
 	* [Пересчет формул](g_elements/el_basic/els-odf/els-table/el-odftable-recalc.md)
 	* [Поиск в диапазоне](g_elements/el_basic/els-odf/els-table/el-odftable-searchrange.md)
 	* [Поиск на странице](g_elements/el_basic/els-odf/els-table/el-odftable-searchpage.md)
