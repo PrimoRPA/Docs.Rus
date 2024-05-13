@@ -803,6 +803,7 @@
   * [ODF - Таблицы](g_elements/el_basic/els-odf/els-table/readme.md)
 	* [Ввод в ячейку](g_elements/el_basic/els-odf/els-table/el-odftable-inputcell.md)
 	* [Ввод формулы в ячейку](g_elements/el_basic/els-odf/els-table/el-odftable-writeformula.md)
+    	* [Вставка диаграммы](g_elements/el_basic/els-odf/els-table/el-odftable-insertchart.md)
 	* [Вставка колонок](g_elements/el_basic/els-odf/els-table/el-odftable-insertcolumn.md)
 	* [Вставка строк](g_elements/el_basic/els-odf/els-table/el-odftable-insertrow.md)
 	* [Выделение диапазона](g_elements/el_basic/els-odf/els-table/el-odftable-selectrange.md)
