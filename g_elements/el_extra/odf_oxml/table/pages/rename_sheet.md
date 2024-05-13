@@ -1,7 +1,3 @@
----
-description: Rename sheet
----
-
 
 # Переименовать страницу
 
