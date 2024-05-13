@@ -3,7 +3,7 @@ description: Refresh pivot tables
 ---
 # Обновление сводных таблиц
 
-![](../../../resources/basic/myoffice/table/odftable-refresh-pivot-tables.png)
+![](../../../../.gitbook/assets1/odftable-refreshpivottables.png)
 
 Элемент производит обновление сводных таблиц.
 
