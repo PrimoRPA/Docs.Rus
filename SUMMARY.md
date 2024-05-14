@@ -815,6 +815,7 @@
 	* [Пересчет формул](g_elements/el_basic/els-odf/els-table/el-odftable-recalc.md)
 	* [Поиск в диапазоне](g_elements/el_basic/els-odf/els-table/el-odftable-searchrange.md)
 	* [Поиск на странице](g_elements/el_basic/els-odf/els-table/el-odftable-searchpage.md)
+	* [Редактировать диаграмму](g_elements/el_basic/els-odf/els-table/el-odftable-updatechart.md)
 	* [Сортировка диапазона](g_elements/el_basic/els-odf/els-table/el-odftable-sortrange.md)
 	* [Сохранить документ](g_elements/el_basic/els-odf/els-table/el-odftable-save.md)
 	* [Сохранить как PDF](g_elements/el_basic/els-odf/els-table/el-odftable-saveaspdf.md)
