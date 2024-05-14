@@ -742,6 +742,7 @@
        * [Чтение колонки](g\_elements/el\_extra/odf\_oxml/table/odf_read_сolumn.md)
        * [Чтение формулы из ячейки](g\_elements/el\_extra/odf\_oxml/table/odf_read_cell_formula.md)
   * [PDF](g\_elements/el\_extra/els\_pdf/README.md)
+    * [Получить форму XFA](g\_elements/el\_extra/els\_pdf/el\_getxfaform.md)
     * [Чтение таблицы](g\_elements/el\_extra/els\_pdf/el\_gettable.md)
   * [Python](g\_elements/el\_extra/els\_python/README.md)
     * [Python](g\_elements/el\_extra/els\_python/el\_pythonscope.md)
