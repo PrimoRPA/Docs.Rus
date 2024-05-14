@@ -4,6 +4,10 @@
 
 ## Обновления
 
+3. Добавлена возможность конфигурировать параметр `SecureSocketOption` для почтовой рассылки в LTools.Orchestrator.Notifications. Данный параметр улучшает безопасность почтовых рассылок.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/18609
+
 
 
 ### Улучшения UX/UI
