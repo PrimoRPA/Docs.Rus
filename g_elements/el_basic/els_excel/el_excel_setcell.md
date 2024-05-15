@@ -15,7 +15,7 @@ description: Change cells
 
 ## Свойства
 
-Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
+Символ `*` в названии указывает на обязательность заполнения. Описание общих свойств см. [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
 
 1. **Диапазон\*** *[String]* — диапазон ячеек. Пример: `"A1:D12"`. 
 1. **Страница** *[String]* — название страницы с указанным диапазоном. Пример: `"List1"`.
