@@ -12,7 +12,7 @@ description: Get table range
 
 
 ## Свойства
-Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
+Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
 
 | Свойство        | Тип    | Описание               | Пример       |
 | --------------- | ------ | ---------------------- | ------------ |
