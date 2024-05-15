@@ -795,6 +795,7 @@
 	* [ODF Документ](g_elements/el_basic/els-odf/els-document/el-odfdoc-documentodf.md)
 	* [Заменить текст](g_elements/el_basic/els-odf/els-document/el-odfdoc-replace.md)
 	* [Записать в ячейку таблицы](g_elements/el_basic/els-odf/els-document/el-odfdoc-writetablecell.md)
+	* [Копировать в буфер обмена](g_elements/el_basic/els-odf/els-document/el-odfdoc-copytoclipboard.md)
 	* [Найти текст](g_elements/el_basic/els-odf/els-document/el-odfdoc-findtext.md)
 	* [Прочитать таблицу](g_elements/el_basic/els-odf/els-document/el-odfdoc-readtable.md)
 	* [Сохранить документ](g_elements/el_basic/els-odf/els-document/el-odfdoc-savedoc.md)
