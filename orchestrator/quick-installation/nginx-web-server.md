@@ -276,6 +276,43 @@
 ![](<../../.gitbook/assets1/orch-install-nginxserver-26.png>)
 
 
+Начиная с версии Оркестратора 1.24.6 в работу службы `LTools.Orchestrator.Notifications` добавлена возможность конфигурировать параметр `SecureSocketOption` для почтовой рассылки. Данный параметр улучшает безопасность почтовых рассылок, обеспечивая шифрование трафика с помощью TLS или SSL.
+
+#### Параметры `SecureSocketOption`
+
+- **`SecureSocketOptions.None (0)`**
+  -  Не должно использоваться шифрование SSL или TLS.
+  
+- **`SecureSocketOptions.Auto (4)`**
+  -  Разрешает `MailKit.IMailService` выбирать, какие параметры SSL или TLS использовать (по умолчанию). Если сервер не поддерживает SSL или TLS, то соединение будет продолжаться без шифрования.
+
+- **`SecureSocketOptions.SslOnConnect (1)`**
+  -  Соединение должно сразу использовать шифрование SSL или TLS.
+
+- **`SecureSocketOptions.StartTls (2)`**
+  -  Повышает соединение до использования шифрования TLS сразу после чтения приветствия и возможностей сервера. Если сервер не поддерживает расширение STARTTLS, то соединение завершится с ошибкой и будет выброшено исключение `System.NotSupportedException`.
+
+- **`SecureSocketOptions.StartTlsWhenAvailable (3)`**
+  -  Повышает соединение до использования шифрования TLS сразу после чтения приветствия и возможностей сервера, но только если сервер поддерживает расширение STARTTLS.
+
+Для настройки `SecureSocketOption` необходимо в конфигурационном файле в секции e-mail указать соответствующую цифру в зависимости от желаемого уровня безопасности.
+
+```
+{
+  "Email": 
+    "FromName": "Primo.RPA",
+    "FromUserName": "mailing@primo-rpa.ru",
+    "FromEmail": "mailing@primo-rpa.ru",
+    "FromPassword": "CQZ0WKZkeJtyPyazHFc5yg==",
+    "FromSmtp": "mail.primo-rpa.ru",
+    "FromSmtpPort": 587,    
+    "RequireAuthenticate": true,
+    "SecureSocketOption": 1
+}
+```
+
+Обратите внимание, что если задан параметр **SecureSocketOption**, то параметр **UseSsl** будет игнорироваться.
+
 ### RDP2 
 
 > *Подробнее в «Руководстве по установке RDP2 под Windows 2016 Server.docx»*.
