@@ -20,7 +20,7 @@ description: Change cells
 1. **Диапазон\*** *[String]* — диапазон ячеек. Пример: `"A1:D12"`. 
 1. **Страница** *[String]* — название страницы с указанным диапазоном. Пример: `"List1"`.
 1. **Индекс страницы** *[Int32]* — номер страницы, начинается с нуля. Если указан индекс вместо названия, то в файле допускается переименовывать страницы. Пример: `"0"`. 
-1. **Цвет ячеек** *[System.Drawing.Color?]* — цвет ячеек диапазона. Пример: `System.Drawing.Color.Black`. 
+1. **Цвет ячеек** *[[System.Drawing.Color?](https://learn.microsoft.com/ru-ru/dotnet/api/system.drawing.color?view=net-5.0)]* — цвет ячеек диапазона. Пример: `System.Drawing.Color.Black`. 
 1. **Цвет бордюра** *[System.Drawing.Color?]* — цвет бордюра ячеек диапазона. Пример: `System.Drawing.Color.Black`. 
 1. **Тип бордюра** *[LTools.Office.Model.CellBorderTypes]* — тип бордюра ячеек. Возможные значения:
    * Keep —
