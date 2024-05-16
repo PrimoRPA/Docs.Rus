@@ -15,5 +15,14 @@
 3. **Пароль (зашифрованный)** *[[SecureString](https://learn.microsoft.com/ru-ru/dotnet/api/system.security.securestring?view=net-5.0)]* — защищенный пароль документа.
 4. **Массив байтов** *[byte[]]* — массив байтов документа.
 
+## Только код
+Пример использования элемента в процессе с типом **Только код (Pure code)**:
+
+C#:  
+```
+`Primo.Office.OdfOxml.WordApp app = Primo.Office.OdfOxml.WordApp.Init(wf, "fileName");
+```
+
+:small_orange_diamond: *Примечание. В языках Python и JavaScript использование элемента на данный момент не реализовано.*
 
 
