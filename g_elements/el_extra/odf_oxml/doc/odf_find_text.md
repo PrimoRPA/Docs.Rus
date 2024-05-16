@@ -15,3 +15,14 @@
 3. **Переменная (массив)** *[List\<Int32>]* — переменная для хранения массива индексов вхождения текста.
 
 
+## Только код
+Пример использования элемента в процессе с типом Только код (Pure code):
+
+C#:  
+```
+Primo.Office.OdfOxml.WordApp app = Primo.Office.OdfOxml.WordApp.Init(wf, "fileName");
+List<int> idxs = app.FindText(text);
+int? idx = app.FindTextFirst(text);
+```
+
+:small_orange_diamond: *Примечание. В языках Python и JavaScript использование элемента на данный момент не реализовано.*
