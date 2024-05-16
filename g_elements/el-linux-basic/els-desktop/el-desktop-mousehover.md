@@ -4,7 +4,7 @@ description: Mouse hover
 
 # Установить курсор мыши
 
-![](../../.gitbook/assets1/mouse_hover.png)
+![](../../../.gitbook/assets1/mouse_hover.png)
 
 Устанавливает курсор мыши на выбранном элементе управления или по координатам.
 
