@@ -14,4 +14,14 @@
 2. **Позиция** *[Int32]* — позиция для вставки изображения. 
 3. **Закладка** *[String]* — название закладки, определяющей начало записи. Если не указано, запись производится в конец текста.
 
+## Только код
+Пример использования элемента в процессе с типом **Только код** (Pure code):
 
+C#:  
+```
+Primo.Office.OdfOxml.WordApp app = Primo.Office.OdfOxml.WordApp.Init(wf, "fileName");
+app.InsertPicture(pic, bookmark);
+app.InsertPicture(pic, pos);
+```
+
+:small_orange_diamond: *Примечание. В языках Python и JavaScript использование элемента на данный момент не реализовано.*
