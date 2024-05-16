@@ -14,6 +14,14 @@
 3. **Длина** *[Int32]* — длина выделения текта.   
 
 
+## Только код
+Пример использования элемента в процессе с типом Только код (Pure code):
 
+C#:  
+```
+Primo.Office.OdfOxml.WordApp app = Primo.Office.OdfOxml.WordApp.Init(wf, "fileName");
+string txt = app.ReadText([selStart], [selLength]);
+```
 
+:small_orange_diamond: *Примечание. В языках Python и JavaScript использование элемента на данный момент не реализовано.*
 
