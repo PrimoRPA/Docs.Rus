@@ -11,3 +11,13 @@
 1. **Исходный текст** *[String]* — текст, подлежащий замене.
 2. **Новый текст\*** *[String]* — новый текст.
 
+## Только код
+Пример использования элемента в процессе с типом **Только код** (Pure code):
+
+C#:  
+```
+Primo.Office.OdfOxml.WordApp app = Primo.Office.OdfOxml.WordApp.Init(wf, "fileName");  
+app.ReplaceText(oldText, newText);
+```
+
+:small_orange_diamond: *Примечание. В языках Python и JavaScript использование элемента на данный момент не реализовано.*
