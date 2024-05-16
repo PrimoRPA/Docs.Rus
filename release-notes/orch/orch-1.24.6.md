@@ -33,6 +33,14 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/18
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/18174
 
+3. Добавлено отображение удаленных элементов в статистике очереди обмена данными.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17612
+
+4. Изменено отображение параметра `Таймаут` в форме **Ресурсы**. Параметр указывается в секундах в формах добавления и редактирования.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17285
+
 ## Исправленные ошибки
 1. Исправлена ошибка запуска заданий. Ранее при попытке запустить задание, находящееся в статусе `Ошибка`, возвращалась `Команда Start не применима к заданию`. Теперь состояние задания корректно обновляется перед запуском, позволяя перевести задание в статус **Выполняется**
 
