@@ -4,7 +4,7 @@ description: Change resolution
 
 # Разрешение
 
-![](../../../../.gitbook/assets1/change-resolution.png)
+![](../../../.gitbook/assets1/change-resolution.png)
 Элемент, осуществляющий смену разрешения экрана.
 
 ## Свойства
