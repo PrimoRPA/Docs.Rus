@@ -14,3 +14,14 @@
 3. **Данные** *[List\<List\<String>>]* — переменная для хранения прочитанной таблицы. Отличается от свойства «Таблица» только типом данных.
 
 
+## Только код
+Пример использования элемента в процессе с типом Только код (Pure code):
+
+C#:  
+```
+Primo.Office.OdfOxml.WordApp app = Primo.Office.OdfOxml.WordApp.Init(wf, "fileName");   
+List<List<string>> list = app.ReadTableArr(idx);
+System.Data.DataTable table = app.ReadTable(idx);
+```
+
+:small_orange_diamond: *Примечание. В языках Python и JavaScript использование элемента на данный момент не реализовано.*
