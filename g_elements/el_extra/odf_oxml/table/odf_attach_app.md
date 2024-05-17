@@ -17,5 +17,17 @@
 5. **Массив байтов** *[byte\[]]* — массив байтов документа.
 
 
+## Только код
 
+Пример использования элемента в процессе с типом **Только код (Pure code)**:
 
+{% tabs %}
+{% tab title="C#" %}
+```csharp
+Primo.Office.OdfOxml.ExcelApp app = Primo.Office.OdfOxml.ExcelApp.Init(wf, "file");
+Primo.Office.OdfOxml.ExcelApp app = Primo.Office.OdfOxml.ExcelApp.Init(wf, System.IO.File.ReadAllBytes("file"));
+```
+{% endtab %}
+{% endtabs %}
+
+:small_orange_diamond: *Примечание. В языках Python и JavaScript использование элемента на данный момент не реализовано.*
