@@ -4,7 +4,7 @@ description: Change cells
 
 # Изменение ячейки
 
-![](<../../../../.gitbook/assets1/Cropped-WriteFormula.png>)
+![](<../../../../.gitbook/assets1/odftable-changecell.png>)
 
 Компонент, изменяющий формат ячеек в таблице.
 
@@ -14,11 +14,11 @@ description: Change cells
 Символ `*` в названии свойства указывает на обязательность заполнения.
 
 1. **Диапазон** *[String]*: Диапазон ячеек. Пример: `A1:D12`.
-2. **Страница** *[String]*: Название страницы (работает только когда не указан индекс страницы). Пример: `"Лист 1"`
-3. **Индекс страницы** *[Int32]*: Индекс страницы (отсчет ведется с нуля; значение по умолчанию - `0`, когда название страницы также не указано). Пример: `1` 
+2. **Страница** *[String]*: Название страницы (используется, если не указан индекс страницы). Пример: `"Лист 1"`
+3. **Индекс страницы** *[Int32]*: Индекс страницы (отсчет ведется с нуля; значение по умолчанию - `0`). Испольуется, если название страницы не указано. Пример: `1` 
 4. **Цвет ячеек** *[Sуstem.Drawing.Color?]*: Цвет ячеек диапазона. Пример: `System.Drawing.Color.LightBlue`.
 5. **Цвет бордюра** *[Sуstem.Drawing.Color?]*: Цвет бордюра ячеек диапазона. Пример: `System.Drawing.Color.Black`.
-6. **Тип бордюра** *[Primo.Office.OdfOxml.Model.CellBorderTypes]*: Определяет бордюр ячеек для изменения. Пример: `Primo.Office.OdfOxml.Model.CellBorderTypes.Around` 
+6. **Тип бордюра** *[Primo.Office.OdfOxml.Model.CellBorderTypes]*: Определяет тип границы ячеек для изменения. Пример: `Primo.Office.OdfOxml.Model.CellBorderTypes.Around` 
 7. **Толщина бордюра** *[Primo.Office.OdfOxml.Model.CellBorderThickness]*: Толщина бордюра ячеек. Пример: `Primo.Office.OdfOxml.Model.CellBorderThickness.Medium`
 
 ### Примечание
