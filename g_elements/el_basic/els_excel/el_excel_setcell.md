@@ -23,17 +23,17 @@ description: Change cells
 1. **Страница** *[String]* — название страницы с указанным диапазоном. Пример: `"List1"`.
 1. **Индекс страницы** *[Int32]* — номер страницы, начинается с нуля. Если указан индекс вместо названия, то в файле допускается переименовывать страницы. Пример: `"0"`. 
 1. **Цвет ячеек** *[[System.Drawing.Color?](https://learn.microsoft.com/ru-ru/dotnet/api/system.drawing.color?view=net-5.0)]* — цвет ячеек диапазона. Пример: `System.Drawing.Color.Black`. 
-1. **Цвет бордюра** *[System.Drawing.Color?]* — цвет бордюра ячеек диапазона. Пример: `System.Drawing.Color.Black`. 
-1. **Тип бордюра** *[LTools.Office.Model.CellBorderTypes]* — тип бордюра ячеек. Возможные значения:
-   * Keep —
-   * None —
-   * Around — 
-   * Full —
-   * Left —
-   * Right —
-   * Top —
-   * Bottom —
-1. **Толщина бордюра** *[LTools.Office.Model.CellBorderThicknesses]* — толщина бордюра ячеек. Возможные значения:
+1. **Цвет бордюра** *[System.Drawing.Color?]* — цвет границы ячеек диапазона. Пример: `System.Drawing.Color.Black`. 
+1. **Тип бордюра** *[LTools.Office.Model.CellBorderTypes]* — тип границы ячеек в указанном диапазоне. Возможные значения:
+   * Keep — 
+   * None — нет границы.
+   * Around — внешние границы.
+   * Full — все границы.
+   * Left — лева граница.
+   * Right — правая граница.
+   * Top — верхняя граница.
+   * Bottom — нижняя граница.
+1. **Толщина бордюра** *[LTools.Office.Model.CellBorderThicknesses]* — толщина границы ячеек. Возможные значения:
    * *Thin* — тонкий бордюр. Значение по умолчанию.
    * *Medium* — средняя толщина.
    * *Thick* — толстый бордюр.
