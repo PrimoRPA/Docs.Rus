@@ -16,3 +16,14 @@
 1. **Страница** *[String]* — наименование страницы.
 1. **Индекс страницы** *[Int32]* — индекс страницы.
 
+
+## Только код
+Пример использования элемента в процессе с типом Только код (Pure code):  
+
+**C#**  
+```
+Primo.Office.OdfOxml.ExcelApp app = Primo.Office.OdfOxml.ExcelApp.Init(wf, [file]); 
+app.SortRange(range, [dir], [sheet], [sheetIdx]);
+```
+
+:small_orange_diamond: *Примечание. В языках Python и JavaScript использование элемента на данный момент не реализовано.*
