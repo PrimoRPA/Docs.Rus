@@ -37,4 +37,25 @@
 
 ## Пример использования
 
-Раздел находится в разработке.
+Пример использования элемента в процессе с типом **Только код** (Pure code):
+
+{% tabs %}
+{% tab title="C#" %}
+```csharp
+Primo.Office.Pdf.PdfApp.GetTable(wf, , "Путь к файлу", "Индекс", "Страница", "Заголовки", "Пароль");
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```python
+Primo.Office.Pdf.PdfApp.GetTable(wf, , "Путь к файлу", "Индекс", "Страница", "Заголовки", "Пароль");
+```
+{% endtab %}
+
+{% tab title="JavaScript" %}
+```javascript
+_lib.Primo.Office.Pdf.PdfApp.GetTable(wf, , "Путь к файлу", "Индекс", "Страница", "Заголовки", "Пароль");
+```
+{% endtab %}
+{% endtabs %}
+
