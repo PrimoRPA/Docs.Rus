@@ -27,4 +27,27 @@
 1. **Форма** *[Primo.Office.Pdf.Model.XfaForm]* — название переменной, в которую будут записаны данные из XFA-формы.
    
 
+## Только код
+
+Пример использования элемента в процессе с типом **Только код** (Pure code):
+
+{% tabs %}
+{% tab title="C#" %}
+```csharp
+Primo.Office.Pdf.GetXfaForm.GetTable(wf, "Путь к файлу", "Пароль");
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```python
+Primo.Office.Pdf.GetXfaForm.GetTable(wf, "Путь к файлу", "Пароль")
+```
+{% endtab %}
+
+{% tab title="JavaScript" %}
+```javascript
+_lib.Primo.Office.Pdf.GetXfaForm.GetTable(wf, "Путь к файлу", "Пароль");
+```
+{% endtab %}
+{% endtabs %}
 
