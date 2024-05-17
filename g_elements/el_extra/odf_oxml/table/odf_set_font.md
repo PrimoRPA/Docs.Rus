@@ -20,4 +20,13 @@
 1. **Подчеркнутый** — подчеркнутый.
 
   
- 
+ ## Только код
+Пример использования элемента в процессе с типом Только код (Pure code):  
+
+**C#**  
+```
+Primo.Office.OdfOxml.ExcelApp app = Primo.Office.OdfOxml.ExcelApp.Init(wf, [file]);
+app.SetFont(data, range, color, size, bold, italic, underline, [sheet], [sheetIdx]);
+```
+
+:small_orange_diamond: *Примечание. В языках Python и JavaScript использование элемента на данный момент не реализовано.*
