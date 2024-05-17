@@ -15,3 +15,14 @@
 1. **Индекс страницы** *[Int32]* — порядковый номер страницы.
 1. **Переменная** *[String]* — переменная для хранения результатов поиска.
  
+
+## Только код
+Пример использования элемента в процессе с типом Только код (Pure code):  
+
+**C#**  
+```
+Primo.Office.OdfOxml.ExcelApp app = Primo.Office.OdfOxml.ExcelApp.Init(wf, [file]);
+string data = app.LookUpRange(range, text, [sheet], [sheetIdx]);
+```
+
+:small_orange_diamond: *Примечание. В языках Python и JavaScript использование элемента на данный момент не реализовано.*
