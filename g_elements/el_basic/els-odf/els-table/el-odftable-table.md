@@ -20,25 +20,8 @@
 
 Пример использования элемента в процессе с типом **Только код (Pure code)**:
 
-{% tabs %}
-{% tab title="C#" %}
-```csharp
+**C#**
+```
 Primo.Office.OdfOxml.ExcelApp app = Primo.Office.OdfOxml.ExcelApp.Init(wf, "file");
 Primo.Office.OdfOxml.ExcelApp app = Primo.Office.OdfOxml.ExcelApp.Init(wf, System.IO.File.ReadAllBytes("file"));
 ```
-{% endtab %}
-
-{% tab title="Python" %}
-```python
-app = Primo.Office.OdfOxml.ExcelApp.Init(wf, "file")
-app = Primo.Office.OdfOxml.ExcelApp.Init(wf, System.IO.File.ReadAllBytes("file"))
-```
-{% endtab %}
-
-{% tab title="JavaScript" %}
-```javascript
-var app = _lib.Primo.Office.OdfOxml.ExcelApp.Init(wf, "file");
-var app = _lib.Primo.Office.OdfOxml.ExcelApp.Init(wf, _lib.System.IO.File.ReadAllBytes("file"));
-```
-{% endtab %}
-{% endtabs %}
