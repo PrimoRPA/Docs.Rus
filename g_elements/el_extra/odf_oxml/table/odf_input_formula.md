@@ -16,3 +16,13 @@
 1. **Страница** *[String]* — название страницы, на которой находится ячейка с таблицей. 
 1. **Индекс страницы** *[Int32]* — порядковый номер страницы с таблицей. 
 
+## Только код
+Пример использования элемента в процессе с типом Только код (Pure code):  
+
+**C#**  
+```
+Primo.Office.OdfOxml.ExcelApp app = Primo.Office.OdfOxml.ExcelApp.Init(wf, [file]);
+app.WriteCellFormula(cell, text, [sheet], [sheetIdx], [numFormat]);
+```
+
+:small_orange_diamond: *Примечание. В языках Python и JavaScript использование элемента на данный момент не реализовано.*
