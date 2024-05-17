@@ -4,9 +4,9 @@ description: Delete columns
 
 # Удаление колонок
 
-Элемент удаляет выбранные колонки из листа Excel.
+Элемент удаляет выбранные колонки из листа Excel. Путь до файла указывается в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app). 
 
-Путь до файла, тип драйвера и другие базовые параметры настраиваются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app). Чтобы сохранить изменения, используйте также элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_save). 
+Чтобы сохранить изменения, дополнительно используйте элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_save). 
 
 ![](<../../../.gitbook/assets1/WFDeleteColumns.png>)
 

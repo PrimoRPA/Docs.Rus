@@ -4,9 +4,7 @@ description: Read cell
 
 # Чтение из ячейки
 
-Элемент считывает данные из ячейки Excel и сохраняет их в переменную. 
-
-Путь до файла, тип драйвера и  другие базовые настройки указываются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app).
+Элемент считывает данные из ячейки Excel и сохраняет их в переменную. Путь до файла указывается в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app).
 
 :small_blue_diamond: **Совет**. Если вам нужно прочитать формулу, воспользуйтесь элементом [Чтение формулы из ячейки](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_readcellformula).
 
@@ -15,7 +13,7 @@ description: Read cell
 
 
 ## Свойства
-Символ `*` в названии свойства указывает на обязательность его заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
+Символ `*` в названии свойства указывает на обязательность его заполнения. Описание общих свойств см. [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
 
 | Свойство             | Тип                   | Описание                         | Пример       |
 | -------------------- | --------------------- | -------------------------------- | ------------ |
@@ -37,6 +35,8 @@ RPA-проект, демонстрирующий работу элемента, 
 
 1. Скачайте архив со всеми обучающими материалами по ссылке: [Скачать архив Learning](https://github.com/PrimoRPA/Learning/archive/refs/heads/master.zip).
 2. Распакуйте архив и откройте в Студии проект **WorkWithExcelExample**. Для процессов выбран тип **Последовательность**. 
+
+
 
 ## Только код
 Ниже приведен пример использования элемента в процессе с типом **Только код** (Pure code):

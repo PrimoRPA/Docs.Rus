@@ -4,7 +4,7 @@ description: Set cell formula
 
 # Ввод формулы в ячейку
 
-Элемент записывает формулу в ячейку таблицы Excel. Путь до файла и другие базовые параметры настраиваются в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app).
+Элемент записывает формулу в ячейку таблицы Excel. Путь до файла указывается в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app).
 
 После записи данных используйте элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_save), иначе изменения не сохранятся.
 
@@ -12,7 +12,7 @@ description: Set cell formula
 
 ## Свойства
 
-Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
+Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
 
 | Свойство        | Тип    | Описание                                                                                                  | Пример        |
 | --------------- | ------ | --------------------------------------------------------------------------------------------------------- | ------------- |
