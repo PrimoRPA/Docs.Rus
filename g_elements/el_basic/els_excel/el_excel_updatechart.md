@@ -1,3 +1,8 @@
+---
+description: Update chart
+---
+
+
 # Редактировать диаграмму
 
 Элемент редактирует существующую диаграмму в книге Excel. Измененная диаграмма сохраняется в переменную. Путь до файла указывается в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app). 
