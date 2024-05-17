@@ -20,7 +20,11 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/19
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/19054
 
-3. 
+3. Добавлена интеграция с **CyberArk**  в форме **Ресурсы** -> **Добавить/Редактировать ресурс** для централизованного управления учетными данными.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/15622
+
+
 ## Улучшения в UI 3
 1. Упрощено удаление элементов из очереди. Теперь элементы можно удалять прямо через меню **Действия** на странице Очереди без предварительного выбора чекбоксом. Ранее требовалось отдельное выделение каждого элемента.
    
