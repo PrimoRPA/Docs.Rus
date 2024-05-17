@@ -16,3 +16,14 @@
 1. **Страница** *[String]* — наименование страницы с таблицей. Пример: `"Лист1"`.
 1. **Индекс страницы** *[Int32]* — порядковый номер страницы с таблицей. Пример: `0`.
 
+
+## Только код
+Пример использования элемента в процессе с типом Только код (Pure code):  
+
+**C#**  
+```
+Primo.Office.OdfOxml.ExcelApp app = Primo.Office.OdfOxml.ExcelApp.Init(wf, [file]);   
+app.InsertRows(index, range, [sheet], [sheetIdx]);
+```
+
+:small_orange_diamond: *Примечание. В языках Python и JavaScript использование элемента на данный момент не реализовано.*
