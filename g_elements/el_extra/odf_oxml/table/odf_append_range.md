@@ -27,3 +27,17 @@
 1. **Переменная (текст)** *[List\<List\<string>>]* — переменная для хранения данных текстовых значений.
 1. **Переменная (информация)** *[List\<List<[LTools.Office.Model.ExcelCellInfo](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/datatypes/excelcellinfo)>>]* — переменная для хранения данных, содержащих информацию о ячейках.
 1. **Переменная (таблица)** *[[System.Data.DataTable](https://learn.microsoft.com/ru-ru/dotnet/api/system.data.datatable?view=net-5.0)]* — переменная для хранения данных в виде таблицы.
+
+
+ ## Только код
+Пример использования элемента в процессе с типом Только код (Pure code):  
+
+**C#**  
+```
+`Primo.Office.OdfOxml.ExcelApp app = Primo.Office.OdfOxml.ExcelApp.Init(wf, [file]);
+app.AppendRange(data, range, [overwrite], [sheet], [sheetIdx], [numFormat], [entireRow]);
+app.AppendRange(data_info, range, [overwrite], [sheet], [sheetIdx], [numFormat], [entireRow]);
+app.AppendRange(dataTable, range, [overwrite], [sheet], [sheetIdx], [numFormat], [entireRow]);
+```
+
+:small_orange_diamond: *Примечание. В языках Python и JavaScript использование элемента на данный момент не реализовано.*
