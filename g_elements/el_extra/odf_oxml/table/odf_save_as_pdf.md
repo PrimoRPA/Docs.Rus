@@ -16,3 +16,13 @@
 1. **Мин. качество** *[Boolean]* — определяет, нужно ли сохранять выходной файл в минимальном качестве. По умолчанию чекбокс снят — файл сохранится в высоком качестве.                         
 
 
+## Только код
+Пример использования элемента в процессе с типом Только код (Pure code):  
+
+**C#**  
+```
+Primo.Office.OdfOxml.ExcelApp app = Primo.Office.OdfOxml.ExcelApp.Init(wf, [file]);
+app.ExportToPdf(path, replaceExisting, minQuality, [start], [end]);
+```
+
+:small_orange_diamond: *Примечание. В языках Python и JavaScript использование элемента на данный момент не реализовано.*
