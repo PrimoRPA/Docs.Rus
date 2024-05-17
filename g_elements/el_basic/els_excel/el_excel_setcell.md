@@ -25,7 +25,7 @@ description: Change cells
 1. **Цвет ячеек** *[[System.Drawing.Color?](https://learn.microsoft.com/ru-ru/dotnet/api/system.drawing.color?view=net-5.0)]* — цвет ячеек диапазона. Пример: `System.Drawing.Color.Black`. 
 1. **Цвет бордюра** *[System.Drawing.Color?]* — цвет границы ячеек диапазона. Пример: `System.Drawing.Color.Black`. 
 1. **Тип бордюра** *[LTools.Office.Model.CellBorderTypes]* — тип границы ячеек в указанном диапазоне. Возможные значения:
-   * Keep — 
+   * Keep — использовать границу, установленную в документе.
    * None — нет границы.
    * Around — внешние границы.
    * Full — все границы.
