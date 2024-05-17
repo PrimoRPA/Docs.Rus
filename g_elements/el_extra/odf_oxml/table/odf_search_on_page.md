@@ -13,3 +13,15 @@
 1. **Страница** *[String]* — наименование страницы.
 1. **Индекс страницы** *[Int32]* — индекс страницы.
 1. **Переменная** *[List<String>]* — переменная для хранения результатов поиска.
+
+
+## Только код
+Пример использования элемента в процессе с типом Только код (Pure code):  
+
+**C#**  
+```
+Primo.Office.OdfOxml.ExcelApp app = Primo.Office.OdfOxml.ExcelApp.Init(wf, [file]);
+List<string> data = app.FindAll(text, [sheet], [sheetIdx]);
+```
+
+:small_orange_diamond: *Примечание. В языках Python и JavaScript использование элемента на данный момент не реализовано.*
