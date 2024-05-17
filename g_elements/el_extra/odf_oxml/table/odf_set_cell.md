@@ -22,3 +22,13 @@
    * *Medium* — средняя толщина.
    * *Thick* — толстый бордюр.
 
+## Только код
+Пример использования элемента в процессе с типом Только код (Pure code):  
+
+**C#**  
+```
+Primo.Office.OdfOxml.ExcelApp app = Primo.Office.OdfOxml.ExcelApp.Init(wf, [file]);
+app.SetCells(data, range, color, bcolor, thick, type, [sheet], [sheetIdx]);
+```
+
+:small_orange_diamond: *Примечание. В языках Python и JavaScript использование элемента на данный момент не реализовано.*
