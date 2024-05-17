@@ -20,3 +20,14 @@
 1. **Данные\*** *[List\<Object\>]* — название переменной, в которую будут записаны данные из колонки.
 
 
+## Только код
+Пример использования элемента в процессе с типом Только код (Pure code):  
+
+**C#**  
+```
+Primo.Office.OdfOxml.ExcelApp app = Primo.Office.OdfOxml.ExcelApp.Init(wf, [file]);
+List<Object> data = app.ReadColumn(cell, [sheet], [sheetIdx]);
+```
+
+:small_orange_diamond: *Примечание. В языках Python и JavaScript использование элемента на данный момент не реализовано.*
+
