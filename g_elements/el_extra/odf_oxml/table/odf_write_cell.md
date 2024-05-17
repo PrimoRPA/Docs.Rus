@@ -16,3 +16,17 @@
 1. **Страница** *[String]* — название страницы с нужной таблицей.
 1. **Индекс страницы** *[Int32]* — порядковый номер страницы. 
 1. **Как текст** *[Boolean]* — определите, нужно ли вставлять значение, как текст.
+
+
+
+
+## Только код
+Пример использования элемента в процессе с типом Только код (Pure code):  
+
+**C#**  
+```
+Primo.Office.OdfOxml.ExcelApp app = Primo.Office.OdfOxml.ExcelApp.Init(wf, [file]); 
+app.WriteCell(cell, text, [sheet], [sheetIdx], [numFormat]);
+```
+
+:small_orange_diamond: *Примечание. В языках Python и JavaScript использование элемента на данный момент не реализовано.*
