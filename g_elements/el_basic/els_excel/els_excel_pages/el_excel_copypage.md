@@ -20,3 +20,32 @@ description: Copy sheet
 1. **Индекс** *[Int32]* — порядковый номер копируемой страницы. Нумерация начинается с нуля. Указание индекса вместо имени дает возможность переименовывать страницу в файле. Пример значения: `0`. 
 1. **Новая страница\*** *[String]* — название страницы для вставки. Пример: `"Copy_of_List1"`.
 1. **Файл** *[String]* — путь к внешнему файлу Excel. Если путь не задан, то скопированная страница будет вставлена внутри файла-источника.
+
+
+## Только код
+
+Пример использования элемента в процессе с типом **Только код** (Pure code):
+
+{% tabs %}
+{% tab title="C#" %}
+```csharp
+LTools.Office.ExcelApp app = LTools.Office.ExcelApp.Init(wf, "Путь к файлу", ";", LTools.Office.Model.InteropTypes.DX);
+app.SheetCopy("Имя новой страницы", "Имя копируемой страницы", "Индекс", "Путь к файлу");
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```python
+app = LTools.Office.ExcelApp.Init(wf, "Путь к файлу", ";", LTools.Office.Model.InteropTypes.DX)
+app.SheetCopy("Имя новой страницы", "Имя копируемой страницы", "Индекс", "Путь к файлу")
+
+```
+{% endtab %}
+
+{% tab title="JavaScript" %}
+```javascript
+var app = _lib.LTools.Office.ExcelApp.Init(wf, "Путь к файлу", ";", LTools.Office.Model.InteropTypes.DX);
+app.SheetCopy("Имя новой страницы", "Имя копируемой страницы", "Индекс", "Путь к файлу");
+```
+{% endtab %}
+{% endtabs %}
