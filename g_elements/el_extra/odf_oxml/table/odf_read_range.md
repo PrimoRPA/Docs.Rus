@@ -23,3 +23,17 @@
 1. **Переменная (информация)** *[List\<List \<[LTools.Office.Model.ExcelCellInfo](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/prilozhenie-excel/datatypes/excelcellinfo)>>]* — переменная для хранения дополнительной информации, прочитанной о ячейках: например, о цвете шрифта.
 1. **Строка заголовков** *[Boolean]* — признак того, что первая строка содержит заголовки.
 1. **Учитывать типы полей ячеек Excel** *[Boolean]* — нужно ли учитывать типы ячеек в таблице Excel.
+
+
+## Только код
+Пример использования элемента в процессе с типом Только код (Pure code):  
+
+**C#**  
+```
+Primo.Office.OdfOxml.ExcelApp app = Primo.Office.OdfOxml.ExcelApp.Init(wf, [file]);
+List<List<string>> data = app.ReadRange(range, [sheet], [sheetIdx]);
+List<List<LTools.Office.Model.ExcelCellInfo>> data = app.ReadRangeInfo(range, [sheet], [sheetIdx]);
+System.Data.DataTable data = app.ReadRangeTable(range, [sheet], [sheetIdx]);
+```
+
+:small_orange_diamond: *Примечание. В языках Python и JavaScript использование элемента на данный момент не реализовано.*
