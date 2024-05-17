@@ -14,7 +14,17 @@
 1. **Путь к файлу** *[String]* — путь к месту сохранения файла. Если путь не указан, то обновится документ, открытый в рамках текущего контейнера «Таблица ODF».
 
 
+## Только код
+Пример использования элемента в процессе с типом Только код (Pure code):  
 
+**C#**  
+```
+Primo.Office.OdfOxml.ExcelApp app = Primo.Office.OdfOxml.ExcelApp.Init(wf, [file]);  
+app.Save();
+app.SaveAs(fileName);
+```
+
+:small_orange_diamond: *Примечание. В языках Python и JavaScript использование элемента на данный момент не реализовано.*
 
 
 
