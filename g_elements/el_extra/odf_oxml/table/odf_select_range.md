@@ -12,3 +12,15 @@
 1. **Диапазон\*** *[String]* — диапазон считывания ячеек.
 1. **Страница** *[String]* — наименование страницы c таблицей.
 1. **Индекс страницы** *[Int32]* — индекс страницы c таблицей.
+
+
+## Только код
+Пример использования элемента в процессе с типом Только код (Pure code):  
+
+**C#** 
+```
+Primo.Office.OdfOxml.ExcelApp app = Primo.Office.OdfOxml.ExcelApp.Init(wf, [file]);
+app.SelectRange(range, [sheet], [sheetIdx]);
+```
+
+:small_orange_diamond: *Примечание. В языках Python и JavaScript использование элемента на данный момент не реализовано.*
