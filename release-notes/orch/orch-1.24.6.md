@@ -53,6 +53,10 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17162
 
+7. Улучшена навигация между страницами **Запуски** и **Логи задания** 
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/18102 
+
 ## Исправленные ошибки
 1. Исправлена ошибка запуска заданий. Ранее при попытке запустить задание, находящееся в статусе `Ошибка`, возвращалась `Команда Start не применима к заданию`. Теперь состояние задания корректно обновляется перед запуском, позволяя перевести задание в статус **Выполняется**
 
@@ -66,6 +70,13 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17271
 
+4. Устранена ошибка запуска робота по E-mail, при которой робот не запускался при получении письма с темой на кириллице.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/18169
+
+5. Исправлена ошибка в логе агента, теперь идентификаторы процессов могут переиспользоваться при интенсивном запуске и остановке множества роботов.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/18008
 
 
 ## Где найти
