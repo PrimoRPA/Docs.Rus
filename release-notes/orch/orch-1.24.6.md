@@ -89,7 +89,7 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/19
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17429
 
-!!!3. Исправлена ошибка, при котором запросы в журнал робота по ID шли без даты по всем секциям. Теперь к запросу добавлен дополнительный параметр operationKey, поддерживаемый в UI2 и UI3.
+3. Исправлена ошибка, при котором запросы в журнал робота по ID шли без даты по всем секциям. Теперь к запросу добавлено условие по датам, чтобы запросы попадали в конкретную секцию, поддерживаемую в UI2 и UI3
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17271
 
