@@ -28,6 +28,10 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/15
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17346
 
+5. Исправлена ошибка приоритета робота в проекте. Теперь при удалении робота с приоритетом `1`, приоритет оставшихся роботов корректно сдвигается, увеличиваясь на 1.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17156
+
 
 ## Улучшения в UI 3
 1. Упрощено удаление элементов из очереди. Теперь элементы можно удалять прямо через меню **Действия** на странице Очереди без предварительного выбора чекбоксом. Ранее требовалось отдельное выделение каждого элемента.
@@ -72,6 +76,7 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17
 10. Исправлена ошибка, при которой тег проекта не удалялся после подтверждения операции. Теперь тег удаляется корректно и появляется всплывающее окно `Тег успешно удален`.
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17470
+
 
 
 
