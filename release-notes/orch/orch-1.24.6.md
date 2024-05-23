@@ -77,6 +77,10 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17470
 
+11. Выровнена иконка контекстного меню  в разделах **Очереди** и **Транзакции**. Теперь она соответствует стилю других вкладок.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17290
+
 
 
 
@@ -112,6 +116,21 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17
 8. Исправлена ошибка, при которой значения полей во вкладке **Мониторинг** сбрасывались. Теперь записи корректно фильтруются в соответствии с выставленными значениями.
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/11622
+
+9. Внесены изменения в настройки очередей **RabbitMQ**: удалены атрибуты autoDelete для соответствия с политиками высокой доступности (HA)
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17291
+
+10. Исправлена проблема с загрузкой логов в Журнале роботов. 
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/15678
+
+11. Внесены изменения в работу службы **States**: исправлена утечка памяти и проблема с применением миграций. Теперь служба работает корректно.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/15663
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/13978
+
+
 
 
 ## Где найти
