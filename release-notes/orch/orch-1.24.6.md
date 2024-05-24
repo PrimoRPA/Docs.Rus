@@ -32,6 +32,10 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17156
 
+6. Исправлена ошибка с потерей пробелов в предпросмотре метаданных элементов очереди Оркестратора. 
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/972
+
 
 ## Улучшения в UI 3
 1. Упрощено удаление элементов из очереди. Теперь элементы можно удалять прямо через меню **Действия** на странице Очереди без предварительного выбора чекбоксом. Ранее требовалось отдельное выделение каждого элемента.
@@ -129,6 +133,10 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/15
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/15663
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/13978
+
+12. Исправлена ошибка, из-за которой транзакция, выполняемая роботом на второй машине, не отображалась в очереди задач Оркестратора.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/4089
 
 
 
