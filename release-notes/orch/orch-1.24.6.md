@@ -8,7 +8,7 @@
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/18609
 
-
+2. 
 
 ### Улучшения UX/UI
 
@@ -35,6 +35,10 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17
 6. Исправлена ошибка с потерей пробелов в предпросмотре метаданных элементов очереди Оркестратора. 
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/972
+
+7. Добавлена возможность фильтрации проектов по источнику публикации.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/13127
 
 
 ## Улучшения в UI 3
@@ -137,6 +141,11 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/13
 12. Исправлена ошибка, из-за которой транзакция, выполняемая роботом на второй машине, не отображалась в очереди задач Оркестратора.
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/4089
+
+13. Исправлена ошибка, из-за которой робот оставался заблокированным после принудительного завершения процесса. Теперь при повторном запуске робот корректно разблокируется и проект запускается без проблем.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/13751
+
 
 
 
