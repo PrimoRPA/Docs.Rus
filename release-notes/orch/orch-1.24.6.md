@@ -44,6 +44,9 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/13
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/11617
 
+9. Исправлена ошибка отображения наименований событий в логах запусков. Теперь наименования, которые не помещаются в размер колонки, корректно обрезаются с отображением троеточия в конце, а при наведении появляется всплывающая подсказка с полным наименованием.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/13754
 
 ## Улучшения в UI 3
 
@@ -129,7 +132,7 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/18
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17554
 
-7. Исправлена ошибка с кнопками запуска и остановки заданий. Теперь кнопки `Запустить` и `Остановить` корректно работают как для разовых, так и для множественных запусков/остановок заданий
+7. Исправлена ошибка с кнопками запуска и остановки заданий. Теперь кнопки `Запустить` и сОстановить` корректно работают как для разовых, так и для множественных запусков/остановок заданий
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17532
 
@@ -161,6 +164,10 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/13
 14. Исправлена ошибка, при которой пропадали аргументы в задании при повторной загрузке ZIP-файла проекта. Теперь после повторной загрузки архива все аргументы остаются неизменными.
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/11468
+
+!!! Уточнить к Екатерины 15. Исправлена ошибка с незавершающимися процессами `astra-event-watcher` после работы робота. Теперь процессы завершаются корректно, без накопления зависших процессов.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/13677
 
 
 
