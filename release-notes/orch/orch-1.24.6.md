@@ -169,6 +169,9 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/11
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/13677
 
+16. Исправлена уязвимость с Nuget.Packaging в службе RobotLogs. Использованы последние версии пакетов NuGet.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17505
 
 
 
