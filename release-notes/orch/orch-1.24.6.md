@@ -3,12 +3,19 @@
 История изменений в Primo RPA Orchestrator за июнь 2024-го года. 
 
 ## Обновления
+(Сделать доку)1. Добавлена возможность завершения задач, находящихся в статусе `InProgress`, по истечении таймаута.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/355
+2. 
+
 
 3. Добавлена возможность конфигурировать параметр `SecureSocketOption` для почтовой рассылки в LTools.Orchestrator.Notifications. Данный параметр улучшает безопасность почтовых рассылок.
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/18609
 
-2. 
+4. Улучшена информативность ошибок и исключений в процессах. Теперь ошибки доступа и лицензий предоставляют более точную информацию о причинах проблем.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/1151
 
 ### Улучшения UX/UI
 
