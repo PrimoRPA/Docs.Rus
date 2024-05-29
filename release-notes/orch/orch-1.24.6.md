@@ -180,6 +180,13 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/13
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17505
 
+17. Изменен статус ошибки `Нехватка лицензий` на более понятный `Достигнуто максимальное количество работающих роботов на машине`.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/10073
+
+18. Исправлена ошибка блокировки триггера **Запуск при получении E-mail**. Ранее при указании неверных учетных данных триггер оставался заблокированным и не срабатывал при последующих попытках. Теперь при ошибке/исключении в обработке триггер автоматически разблокируется.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/18180
 
 
 
