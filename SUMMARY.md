@@ -1032,6 +1032,7 @@
 	* [Редактирование процесса](idea-hub/processes/edit-process.md)
 	* [Файл process.xlsx](idea-hub/file-process.md)
   	* [Файл areas.xlsx](idea-hub/file-areas.md)
+  	* [Файл users.xlsx](idea-hub/file-users.md)
 * [Импорт из Оркестратора](idea-hub/import-from-orchestrator.md)
 * [Настройка cron](idea-hub/cron.md)
 * [Настройка формул](idea-hub/formulas.md)
