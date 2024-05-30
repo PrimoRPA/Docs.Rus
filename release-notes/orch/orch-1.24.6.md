@@ -115,8 +115,13 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/9283
 
-13.
+13. Исправлена ошибка в разделе **Запуски** на вкладке **Очереди проектов**, при применении фильтра `Продолжительность`. Теперь таблица `Очередь проектов` корректно фильтруется по установленному значению.
 
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/20491
+
+14. Исправлено некорректное отображение тегов проекта. Теперь добавленные теги проекта отображаются под описанием проекта или под наименованием проекта, если описание отсутствует. 
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17618
 
 
 ## Исправленные ошибки
