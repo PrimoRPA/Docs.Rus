@@ -6,8 +6,8 @@
 (Сделать доку)1. Добавлена возможность завершения задач, находящихся в статусе `InProgress`, по истечении таймаута.
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/355
-2. 
 
+2. 
 
 3. Добавлена возможность конфигурировать параметр `SecureSocketOption` для почтовой рассылки в LTools.Orchestrator.Notifications. Данный параметр улучшает безопасность почтовых рассылок.
 
@@ -16,6 +16,12 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/18
 4. Улучшена информативность ошибок и исключений в процессах. Теперь ошибки доступа и лицензий предоставляют более точную информацию о причинах проблем.
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/1151
+
+5. Улучшено логирование Оркестратора: теперь при выводе сообщения в логе отображается полное сообщение, а не только первые 200 символов. В БД запись сохраняется полностью.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/7807
+6. 
+
 
 ### Улучшения UX/UI
 
