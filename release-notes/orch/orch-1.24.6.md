@@ -201,6 +201,12 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/18
 
 19. Исправлена ошибка в разделе **Запуски**, из-за которой фильтрация по дате не работала с другими фильтрами. Теперь фильтры по дате можно сочетать с другими фильтрами.
 
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/20484
+
+20. Исправлена ошибка удаления проекта при удалении двух его версий. Теперь корректно удаляются только выбранные версии проекта. 
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/19001
+
 
 
 ## Где найти
