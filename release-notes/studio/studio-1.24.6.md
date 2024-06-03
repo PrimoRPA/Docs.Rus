@@ -33,6 +33,10 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/20668
 6. Исправлена ошибка, при которой селектор не перевыбирался в предварительном редакторе шаблона. Теперь селектор успешно перевыбирается и при валидации подсвечивается новый селектор.
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/20674
 
+7. Исправлена ошибка при работе активности **Присвоение**. Ранее появлялось указание на ошибку в виде восклицательного знака.
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/20832
+
+
 
 
 ## Режим Citizen
