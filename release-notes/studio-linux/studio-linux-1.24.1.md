@@ -1,7 +1,7 @@
-# Primo Studio Linux 1.24.1
+# Primo RPA Studio Linux 1.24.1
 
-Раздел содержит описание изменений для версии приложения Primo Studio Linux 1.24.1, выпущенной в феврале 2024 года.
-Версия продукта Primo Studio для Линукс в данный момент отличается по своим функциональным возможностям от версии для Windows и не является ее полноценным аналогом; часть функциональности находится в процессе разработки. 
+Раздел содержит описание изменений для версии приложения Primo RPA Studio Linux 1.24.1, выпущенной в феврале 2024 года.
+Версия продукта Primo RPA Studio для Линукс в данный момент отличается по своим функциональным возможностям от версии для Windows и не является ее полноценным аналогом; часть функциональности находится в процессе разработки. 
 
 ## Новые функции и улучшения
 
@@ -55,7 +55,7 @@
 
 ### Где найти 
 
-[Скачать дистрибутив Primo Studio Linux](http://disk3.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FRelease%2FStudio).
+[Скачать дистрибутив Primo RPA Studio Linux](http://disk3.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FRelease%2FStudio).
 
 [Скачать дистрибутив Primo RPA Robot](http://disk3.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FRelease%2FRobot).
 
