@@ -9,6 +9,8 @@
 3. Обновлен пакет Primo.Office.Pdf до версии 1.1.0. Добавлен элемент [**Получить форму XFA**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_pdf/el_getxfaform). Также в элементе [**Чтение таблицы**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_pdf/el_gettable) добавлено свойство `Ядро`, в котором можно выбрать компонент для обработки pdf-документа. 
 4. Улучшена работа Студии при использовании `Selenium WebDriver`.
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/15750
+5. Добавлен новый шаблон **Mail process**, который позволяет использовать электронную почту как очередь. Шаблон доступен в Primo RPA Studio на английском и русском языках.
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/20590
 
 
 ## Исправленные ошибки (режим Pro)
@@ -25,6 +27,11 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/20300
 4. Исправлена ошибка, при которой проект, опубликованный из студии как `x86`, сохранялся как `x64` в Оркестраторе. Теперь заданная разрядность из Студии корректно сохраняется в Оркестраторе.
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/20446
 
+5. Исправлена ошибка, при которой изображения (скриншоты) не отображались в активностях **Клик мыши** или **Получить текст** после выбора элементов селектором. Теперь после выбора селектора скриншот корректно отображается в активностях.
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/20668
+
+6. Исправлена ошибка, при которой селектор не перевыбирался в предварительном редакторе шаблона. Теперь селектор успешно перевыбирается и при валидации подсвечивается новый селектор.
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/20674
 
 
 
