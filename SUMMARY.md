@@ -20,6 +20,7 @@
       * [Студия 1.1.29](release-notes/studio/history/1.1.29.md)
       * [Студия 1.1.28](release-notes/studio/history/1.1.28.md)
   * [Студия Линукс](release-notes/studio-linux/readme.md)
+    * [Студия Линукс 1.24.6](release-notes/studio-linux/studio-linux-1.24.6.md)
     * [Студия Линукс 1.24.3](release-notes/studio-linux/studio-linux-1.24.3.md)
     * [Студия Линукс 1.24.1](release-notes/studio-linux/studio-linux-1.24.1.md)
   * [Оркестратор](release-notes/orch/README.md)
