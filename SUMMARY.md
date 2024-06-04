@@ -861,6 +861,8 @@
 	* [Чтение текста](g_elements/el_basic/els-odf/els-document/el-odfdoc-readtext.md)
 	* [Экспортировать документ](g_elements/el_basic/els-odf/els-document/el-odfdoc-exportdoc.md)
   * [ODF - Таблицы](g_elements/el_basic/els-odf/els-table/readme.md)
+	* [Типы данных](g_elements/el_basic/els-odf/els-table/datatypes/readme.md)
+		* [ExcelCellInfo](g_elements/el_basic/els-odf/els-table/datatypes/excelcellinfo.md)
 	* [Ввод в ячейку](g_elements/el_basic/els-odf/els-table/el-odftable-inputcell.md)
 	* [Ввод формулы в ячейку](g_elements/el_basic/els-odf/els-table/el-odftable-writeformula.md)
 	* [Вставка диаграммы](g_elements/el_basic/els-odf/els-table/el-odftable-insertchart.md)
