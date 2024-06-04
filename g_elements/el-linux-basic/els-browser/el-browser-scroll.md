@@ -1,6 +1,6 @@
 # Прокрутка
 
-![](../../../resources/activities/basic/browser/browser-scroll-activity.png)
+![](../../../.gitbook/assets1/browser-scroll-activity.png)
 
 Элемент, осуществляющий прокрутку в браузере.
 
