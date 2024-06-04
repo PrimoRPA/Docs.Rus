@@ -1,6 +1,6 @@
 # Исчезновение элемента
 
-![](../../../resources/activities/basic/desktop/vanish-activity.png)
+![](../../../.gitbook/assets1/vanish-activity.png)
 
 Компонент, ожидающий исчезновения элемента управления.
 
