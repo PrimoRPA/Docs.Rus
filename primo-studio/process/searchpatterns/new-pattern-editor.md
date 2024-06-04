@@ -26,6 +26,12 @@
 
   ![](<../../../.gitbook/assets/daughter-selector-context-menu.png>)
 
+
+
+Изменения с 24.6 
+
+Редактор шаблона поиска https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/15807
+
   Функция полезна в ситуациях, когда бывает сложно определить нужный элемент управления только по его параметрам.
 
   ![](<../../../.gitbook/assets/parameters-daughter-selector.png>)
