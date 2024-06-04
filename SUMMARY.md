@@ -843,6 +843,8 @@
  		* [Присутствие элемента](g_elements/el-linux-basic/els-desktop/el-desktop-exists.md)
 		* [Разрешение](g_elements/el-linux-basic/els-desktop/el-desktop-changeresolution.md)
   		* [Установить курсор мыши](g_elements/el-linux-basic/els-desktop/el-desktop-mousehover.md)
+	* [Управление](g_elements/el-linux-basic/els-logic/readme.md)
+		* [Switch](g_elements/el-linux-basic/els-logic/switch.md)
   * [ODF - Документы](g_elements/el_basic/els-odf/els-document/readme.md)
   	* [Ввод текста](g_elements/el_basic/els-odf/els-document/el-odfdoc-inputtext.md)
 	* [Вставить таблицу](g_elements/el_basic/els-odf/els-document/el-odfdoc-inserttable.md)
