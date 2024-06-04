@@ -3,8 +3,7 @@
 История изменений в Primo RPA Orchestrator за июнь 2024-го года. 
 
 ## Обновления
-(Сделать доку)1. Добавлена возможность завершения задач, находящихся в статусе `InProgress`, по истечении таймаута.
-
+1. Добавлена возможность завершения задач, находящихся в статусе `InProgress`, по истечении таймаута.
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/355
 
 2. 
@@ -20,6 +19,7 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/11
 5. Улучшено логирование Оркестратора: теперь при выводе сообщения в логе отображается полное сообщение, а не только первые 200 символов. В БД запись сохраняется полностью.
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/7807
+
 6. 
 
 
@@ -82,7 +82,7 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17285
 
-!!!5. Исправлена ошибка, из-за которой не отображалась информация в статистике очередей при создании большого количества очередей
+!!!5. Исправлена ошибка, из-за которой не отображалась информация в статистике очередей при создании большого количества очередей.
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17181
 
@@ -94,16 +94,16 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/18102 
 
-8. Исправлена ошибка отображения элементов очереди (транзакций). Теперь при изменении количества отображаемых записей все страницы элементов очереди корректно видны.
+8. Исправлена ошибка отображения элементов очереди (транзакций). Теперь при изменении количества отображаемых записей все страницы элементов очереди показываются корректно.
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17547
 
 
-9. Исправлена ошибка при удалении проекта из очереди. Теперь проект сразу исчезает из списка, и в правом верхнем углу отображается уведомление `Элемент очереди успешно удален`. Исправление работает одинаково для интерфейсов UI2 и UI3.
+9. Исправлена ошибка при удалении проекта из очереди. Теперь проект сразу исчезает из списка, и в правом верхнем углу отображается уведомление `Элемент очереди успешно удален`.
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17545
 
-10. Исправлена ошибка, при которой тег проекта не удалялся после подтверждения операции. Теперь тег удаляется корректно и появляется всплывающее окно `Тег успешно удален`.
+10. Исправлена ошибка, при которой тег проекта не удалялся после подтверждения операции. Теперь тег удаляется корректно и появляется всплывающее уведомление `Тег успешно удален`.
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17470
 
@@ -134,7 +134,7 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/19
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17429
 
-3. Исправлена ошибка, при котором запросы в журнал робота по ID шли без даты по всем секциям. Теперь к запросу добавлено условие по датам, чтобы запросы попадали в конкретную секцию, поддерживаемую в UI2 и UI3
+3. Исправлена ошибка, при котором запросы в журнал робота по ID шли без даты по всем секциям. Теперь к запросу добавлено условие по датам, чтобы запросы попадали в конкретную секцию.
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17271
 
@@ -142,7 +142,7 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/18169
 
-5. Исправлена ошибка в логе агента, теперь идентификаторы процессов могут переиспользоваться при интенсивном запуске и остановке множества роботов.
+5. Исправлена ошибка в логе агента: теперь идентификаторы процессов могут переиспользоваться при интенсивном запуске и остановке множества роботов.
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/18008
 
@@ -150,7 +150,7 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/18
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17554
 
-7. Исправлена ошибка с кнопками запуска и остановки заданий. Теперь кнопки `Запустить` и сОстановить` корректно работают как для разовых, так и для множественных запусков/остановок заданий
+7. Исправлена ошибка с кнопками запуска и остановки заданий. Теперь кнопки `Запустить` и `Остановить` корректно работают как для разовых, так и для множественных запусков/остановок заданий.
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17532
 
@@ -158,7 +158,7 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/11622
 
-9. Внесены изменения в настройки очередей **RabbitMQ**: удалены атрибуты autoDelete для соответствия с политиками высокой доступности (HA)
+9. Внесены изменения в настройки очередей **RabbitMQ**: удалены атрибуты `autoDelete` для соответствия с политиками высокой доступности (HA).
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17291
 
@@ -166,7 +166,7 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/15678
 
-11. Внесены изменения в работу службы **States**: исправлена утечка памяти и проблема с применением миграций. Теперь служба работает корректно.
+11. Внесены изменения в работу службы **States**: исправлена утечка памяти и проблема с применением миграций. 
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/15663
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/13978
@@ -211,7 +211,7 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/19
 
 ## Где найти
 [Скачать комплект поставки Оркестратора:](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease%2FOrchestrator)
-* **Primo RPA Orchestrator 1.24.2 FULL.zip** — полный комплект поставки, в который входят дистрибутивы Оркестратора и внешних компонентов: например, базы данных PostgreSQL Server, брокера сообщений RabbitMQ и др. 
-* **Primo RPA Orchestrator 1.24.2.zip** — облегченный вариант поставки.
+* **Primo RPA Orchestrator 1.24.6 FULL.zip** — полный комплект поставки, в который входят дистрибутивы Оркестратора и внешних компонентов: например, базы данных PostgreSQL Server, брокера сообщений RabbitMQ и др. 
+* **Primo RPA Orchestrator 1.24.6.zip** — облегченный вариант поставки.
 
-[Скачать дистрибутив Robot Enterprise](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease%2FRobot). Архив должен иметь название **Primo RPA Robot Orchestrator <архитектура> 1.24.2.zip**. Дистрибутив этого робота загружается непосредственно в Оркестратор.
+[Скачать дистрибутив Robot Enterprise](https://disk.primo-rpa.ru/index.php/s/primo?path=%2FRelease%2FRobot). Архив должен иметь название **Primo RPA Robot Orchestrator <архитектура> 1.24.6.zip**. Дистрибутив этого робота загружается непосредственно в Оркестратор.
