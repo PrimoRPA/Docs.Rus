@@ -21,6 +21,9 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/20590
    * После успешного поиска элемента выделение в дереве контролов (UI-инспекторе) перемещается на выделенный элемент. Реализовано только для десктопных селекторов.
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/15807
 
+7. Добавлена поддержка Манифеста v3 в Студии. Пользователи имеют возможность выбирать между версиями Манифеста v2 и v3. Манифест v3 установлен по умолчанию. 
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/19046
+
 
 ## Исправленные ошибки (режим Pro)
 
