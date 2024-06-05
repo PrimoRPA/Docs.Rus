@@ -89,7 +89,7 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17285
 
-!!!5. Исправлена ошибка, из-за которой не отображалась информация в статистике очередей при создании большого количества очередей.
+5. Исправлена ошибка, из-за которой не отображалась информация в статистике очередей при создании большого количества очередей.
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17181
 
@@ -133,6 +133,16 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17
 15. Исправлена некорректная работа чек-бокса `Архив` с фильтрами в разделе **Запуски**. 
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/18170
+
+16. Устранена ошибка, которая возникала при одновременном удалении более одного элемента очереди. Теперь при выделении нескольких элементов и нажатии на кнопку **Удалить**  элементы удаляются корректно. При логическом удалении - их статус меняется на `Удаленная`, при физическом - полностью исчезают из очереди.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/19018
+
+17. Улучшено окно предпросмотра метаданных элементов очереди Оркестратора, теперь корректно отображаются все пробелы.
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/18197
+
+18. Улучшена функциональность сохранения пользовательских настроек при отображении столбцов таблицы. Теперь пользовательские настройки не теряются при переключении разделов или перезагрузке браузера.
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17548
 
 
 ## Исправленные ошибки
@@ -194,9 +204,7 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/13
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/11468
 
-!!! Уточнить к Екатерины 15. Исправлена ошибка с незавершающимися процессами `astra-event-watcher` после работы робота. Теперь процессы завершаются корректно, без накопления зависших процессов.
 
-https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/13677
 
 16. Исправлена уязвимость с Nuget.Packaging в службе RobotLogs. Использованы последние версии пакетов NuGet.
 
