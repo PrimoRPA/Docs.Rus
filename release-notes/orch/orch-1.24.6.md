@@ -105,7 +105,6 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/18
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17547
 
-
 9. Исправлена ошибка при удалении проекта из очереди. Теперь проект сразу исчезает из списка, и в правом верхнем углу отображается уведомление `Элемент очереди успешно удален`.
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17545
@@ -144,6 +143,11 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/18
 18. Улучшена функциональность сохранения пользовательских настроек при отображении столбцов таблицы. Теперь пользовательские настройки не теряются при переключении разделов или перезагрузке браузера.
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17548
 
+19. Исправлена ошибка, при которой таблица заданий не экспортировалась в файл `CSV`.
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17523
+
+20. Добавлена возможность редактирования ассетов через новое контекстное меню во вкладке **Ресурсы** (Assets)
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17302
 
 ## Исправленные ошибки
 
