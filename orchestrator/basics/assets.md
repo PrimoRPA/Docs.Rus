@@ -37,8 +37,14 @@
    - Если выбран CyberArk в поле **Тип внешнего хранилища**, отображается обязательное поле **Учетная запись CyberArk**с кнопкой `Поиск`.
    - Нажатие на кнопку `Поиск` открывает модальное окно для выбора учетной записи из CyberArk.
 
-
 ![](<../../.gitbook/assets1/editass.png>)
+
+### Дополнительные ресурсы:
+
+- [Вызов веб-сервиса поставщика учетных данных](https://docs.cyberark.com/credential-providers/Latest/en/Content/CCP/Calling-the-Central-Credential-Provider-Web-Service-from-Your-Application-Code.htm?tocpath=Developer%7CCentral%20Credential%20Provider%7CCall%20the%20Central%20Credential%20Provider%20Web%20Service%20from%20Your%20Application%20Code%7C_____0)
+- [Работа с SDK для паролей приложений](https://docs.cyberark.com/credential-providers/Latest/en/Content/CP%20and%20ASCP/Working-with-Application-Password-SDK.htm?tocpath=Developer%7CCredential%20Provider%7CApplication%20Password%20SDKs%7C_____0)
+- [Документация по API CyberArk в Postman](https://documenter.getpostman.com/view/998920/RzZ9Gz1U?bs=true)
+
 
 ## Работа с ресурсами из Студии
 
