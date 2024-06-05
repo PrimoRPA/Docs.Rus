@@ -218,6 +218,10 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/20
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/19001
 
+21. Исправлена ошибка, при которой проект, запускаемый с триггером **Запуск при завершении проекта Роботом**, выполнялся дважды. Теперь задание корректно срабатывает один раз.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/19042
+
 
 
 ## Где найти
