@@ -24,7 +24,8 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/11
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/7807
 
-6. 
+6. Добавлен новый виджет **Мерцающие RDP-сессии** во вкладке **Обзор**. Виджет отображает таблицу активных RDP-сессий. При отсутствии активных сессий таблица в виджете отсутствует.
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/11314
 
 
 ### Улучшения UX/UI
@@ -128,6 +129,10 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/20
 14. Исправлено некорректное отображение тегов проекта. Теперь добавленные теги проекта отображаются под описанием проекта или под наименованием проекта, если описание отсутствует. 
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17618
+
+15. Исправлена некорректная работа чек-бокса `Архив` с фильтрами в разделе **Запуски**. 
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/18170
 
 
 ## Исправленные ошибки
