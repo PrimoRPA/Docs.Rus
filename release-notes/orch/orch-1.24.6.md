@@ -29,6 +29,9 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/78
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/11314
 
+7. Добавлена опция отключения кнопок массовой остановки и запуска заданий. В файл конфигурации добавлены два поля для управления отображением кнопок `Остановить все` и `Запустить все остановленные`.
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17562
+
 
 ### Улучшения UX/UI
 
@@ -114,6 +117,8 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/11
 18. На странице **Роботы > Добавить Робота** добавлены поля для учетной записи `Пользователь Оркестратора` и `Пароль пользователя Оркестратора`, с всплывающими подсказками, разъясняющими требования к паролю.
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/11257
 
+19. Добавлена поддержка предрелизных версий (RC) и установлены права доступа к релизным версиям.
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/10456
 
 
 ## Исправленные ошибки
