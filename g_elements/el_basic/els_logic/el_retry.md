@@ -8,7 +8,6 @@
 
 ![](<../../../.gitbook/assets/image (161).png>)
 
-**Кроссплатформенность**: Windows, Linux, MacOS.
 
 ### Свойства
 
