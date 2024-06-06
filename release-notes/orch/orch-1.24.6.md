@@ -30,29 +30,14 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/11
 
 ### Улучшения UX/UI
 
-1. В разделе **Задания** исправлена ошибка, связанная с отображением и управлением заданий в статусе **Ошибка** (статус 4). Ранее задания в этом состоянии не позволяли использовать кнопки   **Запустить** и **Остановить**
 
-https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/19306
-
-2. Устранена ошибка с выбором времени запуска в повторных расписаниях. Теперь при установке времени запуска в повторном расписании выпадающий список работает корректно.
-
-https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/19054
 
 3. Добавлена интеграция с **CyberArk**  в форме **Ресурсы** -> **Добавить/Редактировать ресурс** для централизованного управления учетными данными.
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/15622
 
-4. Исправлена ошибка, при которой теги обрезались по высоте при изменении масштаба страницы на странице элементов очереди. Теперь теги корректно отображаются вне зависимости от масштаба страницы.
-
-https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17346
-
-5. Исправлена ошибка приоритета робота в проекте. Теперь при удалении робота с приоритетом `1`, приоритет оставшихся роботов корректно сдвигается, увеличиваясь на 1.
-
-https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17156
-
-6. Исправлена ошибка с потерей пробелов в предпросмотре метаданных элементов очереди Оркестратора. 
-
-https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/972
+2. Добавлен статус 'Выключенный' для машины робота (Агента). Теперь отключенные Агенты исключаются из выборки опроса и предупреждения о недоступности их машин больше не записываются в логи.
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/11187
 
 7. Добавлена возможность фильтрации проектов по источнику публикации.
 
@@ -66,7 +51,11 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/11
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/13754
 
+10. Кнопка `Сохранить` на странице **Стратегия очереди проектов** теперь доступна только после внесения изменений в настройки, предотвращая ненужное сохранение.
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/11335
+
 ## Улучшения в UI 3
+
 
 1. Улучшено управление элементами:
    * Упрощено удаление и клонирование элементов из очереди. Теперь элементы можно удалять или клонировать прямо через меню **Действия** на странице Очереди без предварительного выбора чекбоксом. Ранее требовалось отдельное выделение каждого элемента.
@@ -100,6 +89,9 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17
 7. Улучшена навигация между страницами **Запуски** и **Логи задания** 
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/18102 
+
+8. 1. Добавлена возможность редактирования аргументов в заданиях. 
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/11251
 
 8. Исправлена ошибка отображения элементов очереди (транзакций). Теперь при изменении количества отображаемых записей все страницы элементов очереди показываются корректно.
 
@@ -148,6 +140,14 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17
 
 20. Добавлена возможность редактирования ассетов через новое контекстное меню во вкладке **Ресурсы** (Assets)
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17302
+
+21. Добавлена кнопка **Повторить**  во вкладке **Запуски**. 
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/11828
+
+22. На странице **Роботы > Добавить Робота** добавлены поля для учетной записи `Пользователь Оркестратора` и `Пароль пользователя Оркестратора`, с всплывающими подсказками, разъясняющими требования к паролю.
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/11257
+
+
 
 ## Исправленные ошибки
 
@@ -233,6 +233,26 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/19
 21. Исправлена ошибка, при которой проект, запускаемый с триггером **Запуск при завершении проекта Роботом**, выполнялся дважды. Теперь задание корректно срабатывает один раз.
 
 https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/19042
+
+1. В разделе **Задания** исправлена ошибка, связанная с отображением и управлением заданий в статусе **Ошибка** (статус 4). Ранее задания в этом состоянии не позволяли использовать кнопки   **Запустить** и **Остановить**
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/19306
+
+2. Устранена ошибка с выбором времени запуска в повторных расписаниях. Теперь при установке времени запуска в повторном расписании выпадающий список работает корректно.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/19054
+
+4. Исправлена ошибка, при которой теги обрезались по высоте при изменении масштаба страницы на странице элементов очереди. Теперь теги корректно отображаются вне зависимости от масштаба страницы.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17346
+
+5. Исправлена ошибка приоритета робота в проекте. Теперь при удалении робота с приоритетом `1`, приоритет оставшихся роботов корректно сдвигается, увеличиваясь на 1.
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/17156
+
+6. Исправлена ошибка с потерей пробелов в предпросмотре метаданных элементов очереди Оркестратора. 
+
+https://azure-dos.s1.primo1.orch/PrimoCollection/Orchestrator/_workitems/edit/972
 
 
 
