@@ -2,7 +2,6 @@
 
 *Throw*
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (87).png>)
 
 ![](<../../../.gitbook/assets/image (126).png>)
 
