@@ -1,6 +1,4 @@
-# If-Else (Если - Иначе)
-
-*Eng: If-Else*
+# If-Else 
 
 ![](<../../../.gitbook/assets/image (64).png>)
 
