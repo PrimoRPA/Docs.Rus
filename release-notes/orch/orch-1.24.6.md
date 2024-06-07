@@ -17,7 +17,7 @@
 ![](../../.gitbook/assets1/asset_block.png)
 
 
-3. Улучшена безопасность почтовых рассылок с параметром `SecureSocketOption` в службе [Notifications](https://docs.primo-rpa.ru/primo-rpa/orchestrator/quick-installation/nginx-web-server#notifications)
+3. Улучшена безопасность почтовых рассылок с параметром `SecureSocketOption` в службе [Notifications](https://github.com/PrimoRPA/Docs.Rus/commit/79c93171e8427e297dbb5266fe8b4e3ef815b07f)
 
 4. Улучшена информативность ошибок и исключений в процессах. Теперь ошибки доступа и лицензий предоставляют более точную информацию о причинах проблем.
 
@@ -27,7 +27,7 @@
 
 7. Добавлена опция отключения кнопок массовой остановки и запуска заданий. В файл конфигурации добавлены два поля для управления отображением кнопок `Остановить все` и `Запустить все остановленные`.
 
-8. Добавлена интеграция с [**CyberArk**](https://docs.primo-rpa.ru/primo-rpa/orchestrator/security#integraciya-s-cyberark)  в форме **Ресурсы** -> **Добавить/Редактировать ресурс** для централизованного управления учетными данными.
+8. Добавлена интеграция с [**CyberArk**](https://github.com/PrimoRPA/Docs.Rus/commit/973ddfcba8a045254f99d898d64d889b92863b6a?short_path=a6dcccd#diff-a6dcccdc337f9961b65896c44577baed4f1d79f77060dce8fbf3ac4d87f0faac)  в форме **Ресурсы** -> **Добавить/Редактировать ресурс** для централизованного управления учетными данными.
 
 9. Добавлена возможность фильтрации проектов по источнику публикации. 
 
