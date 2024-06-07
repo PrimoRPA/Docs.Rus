@@ -41,19 +41,19 @@
 
 
 7. Исправлена ошибка при работе активности **Присвоение**. Ранее появлялось указание на ошибку в виде восклицательного знака.
-https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/20832
+
 
 8. Устранена ошибка, при которой статус `Изменено` (звездочка в названии вкладки) не исчезала при нажатии на кнопку **Сохранить проект**. 
-https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/20470
+
 
 9. Исправлена ошибка в элементе **Редактировать диаграмму**. Теперь свойство `Изменить заголовок оси` корректно отображается и применяет заголовок к правильной оси.
-https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/18216
+
 
 10. Исправлена ошибка `Обнаружено неоднозначное соответствие` при открытии процесса. Ранее ошибка возникала при наличии в проекте элемента WFToast.
-https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/17386
+
 
  
-https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/17176
+
 
 
 ## Режим Citizen
