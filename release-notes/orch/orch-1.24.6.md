@@ -218,10 +218,8 @@
 36. Исправлена уязвимость с Nuget.Packaging в службе **RobotLogs**. Использованы последние версии пакетов NuGet.
 
 
-
-
 ## Где найти
-[Скачать комплект поставки Оркестратора:](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FRelease%2FOrchestrator)
+[Скачать комплект поставки Оркестратора](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FRelease%2FOrchestrator)
 * **Primo RPA Orchestrator 1.24.6 FULL.zip** — полный комплект поставки, в который входят дистрибутивы Оркестратора и внешних компонентов: например, базы данных PostgreSQL Server, брокера сообщений RabbitMQ и др. 
 * **Primo RPA Orchestrator 1.24.6.zip** — облегченный вариант поставки.
 
