@@ -30,7 +30,7 @@
 Список значений может быть изменён.
 
 Значение этого поля переключается на специальной странице, на которую можно попасть по ссылке рядом с названием статуса:
-![image.png](/.attachments/image-bead137d-2c30-4a06-be76-a0ac067f2d41.png)
+![image.png](../../.gitbook/assets1/Fields.PNG)
 
 ##  Оркестратор подключен (comp orch connected)
 *Машинное имя*: comp_orch_connected  
