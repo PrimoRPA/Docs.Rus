@@ -54,12 +54,14 @@ LTools.WebBrowser.Native.exe install=<browser> lang=<language> mode=<mode>
  
   :small_orange_diamond: ***Важно**. Если вы меняете версию Манифеста, сначала удалите расширение на базе старого Манифеста, а только затем устанавливайте новое расширение*.
 
-Пример установки без интернета:
+#### Примеры 
+
+Установка браузерного расширения без интернета:
 ```
 LTools.WebBrowser.Native.exe install=CHROME lang=RU mode=packed manifest=v3
 ```
 
-Пример установки при наличии интернета:
+Установка браузерного расширения при наличии интернета:
 ```
 LTools.WebBrowser.Native.exe install=CHROME lang=RU mode=storelocal manifest=v3
 ```
@@ -82,4 +84,6 @@ Extensions\JavaBridge.ps1
 ## Автоматическая установка браузерных расширений
 
 Подробнее см. [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/autoinstall-browser-extension).
+
+:small_orange_diamond: ***Важно**. При автоматическом способе будет установлено расширение на базе Манифеста V2*.
 
