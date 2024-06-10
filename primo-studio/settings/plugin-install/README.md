@@ -1,9 +1,9 @@
 # Установка расширений и плагинов
 
 Расширения возможно установить:
-* [вручную из Студии](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/plugin-install#ruchnaya-ustanovka-iz-studii) - для браузерных расширений и плагинов RDP, Java;
-* [вручную из командной строки](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/plugin-install#ustanovka-iz-komandnoi-stroki) - для браузерных расширений и плагинов RDP, Java;
-* [автоматически](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/autoinstall-browser-extension) - только для браузерных расширений;
+* [вручную из Студии](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/plugin-install#ruchnaya-ustanovka-iz-studii) — для браузерных расширений и плагинов RDP, Java;
+* [вручную из командной строки](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/plugin-install#ustanovka-iz-komandnoi-stroki) — для браузерных расширений и плагинов RDP, Java;
+* [автоматически](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/autoinstall-browser-extension) — только для браузерных расширений.
 
 ## Ручная установка из Студии
 
@@ -44,18 +44,22 @@
 LTools.WebBrowser.Native.exe install=<browser> lang=<language> mode=<mode>
 ```
 Поддерживаемые аргументы:
-* **browser** - тип браузера: CHROME, FIREFOX, EDGE, YANDEX;
-* **language** - язык установки: EN, RU;
-* **mode** - режим установки расширения. Значения: packed (упакованное), storelocal (из магазина для текущего  пользователя), unpacked (распакованное).
+* **browser** — тип браузера: CHROME, FIREFOX, EDGE, YANDEX.
+* **language** — язык установки: EN, RU.
+* **mode** — режим установки расширения. Доступные значения:
+  * packed — упакованное;
+  * storelocal — из магазина для текущего  пользователя;
+  * unpacked — распакованное.
+* **manifest** — версия Манифеста, с которой взаимодействовать браузерному приложению. Данный параметр указывается только в случае использования Манифеста V3. Если параметр не указан, то по умолчанию будет установлено приложение на базе Манифеста V2. 
 
 Пример установки без интернета:
 ```
-LTools.WebBrowser.Native.exe install=CHROME lang=RU mode=packed
+LTools.WebBrowser.Native.exe install=CHROME lang=RU mode=packed manifest=v3
 ```
 
 Пример установки при наличии интернета:
 ```
-LTools.WebBrowser.Native.exe install=CHROME lang=RU mode=storelocal
+LTools.WebBrowser.Native.exe install=CHROME lang=RU mode=storelocal manifest=v3
 ```
 
 ### Плагины
