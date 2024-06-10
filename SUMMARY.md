@@ -840,6 +840,7 @@
 	* [Рабочий стол](g_elements/el-linux-basic/els-desktop/readme.md)
 		* [Исчезновение элемента](g_elements/el-linux-basic/els-desktop/el-desktop-elementvanish.md)
 		* [Клик мышью](g_elements/el-linux-basic/els-desktop/el-desktop-click.md)
+		* [Получить текст](g_elements/el-linux-basic/els-desktop/el-desktop-gettext.md)
  		* [Присутствие элемента](g_elements/el-linux-basic/els-desktop/el-desktop-exists.md)
 		* [Разрешение](g_elements/el-linux-basic/els-desktop/el-desktop-changeresolution.md)
   		* [Установить курсор мыши](g_elements/el-linux-basic/els-desktop/el-desktop-mousehover.md)
