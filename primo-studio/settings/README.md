@@ -215,7 +215,13 @@
 * [Ручная установка расширений и плагинов из интерфейса Студии](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/plugin-install#ruchnaya-ustanovka-iz-studii);
 * [Автоматическая установка расширений для браузеров](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/autoinstall-browser-extension).
 
+При установке браузерных расширений для Chrome, Edge, Yandex возможно выбрать версию Манифеста:
+* При установке чекбокса **Использовать манифест V3** будет установлено расширение на базе [3-й версии Манифеста](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3?hl=ru).
+* При отключенном чекбоксе (состояние по умолчанию) будет установлено стандартное расширение на базе 2-й версии Манифеста.
 
+Переход на расширение, работающее с Манифестом V3, возможно осуществить до июня 2025 года.
+
+![](<../../.gitbook/assets1/studio/settings/Manifestv3.png>)
 
 
 ## Мобильные устройства
