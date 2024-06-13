@@ -34,3 +34,28 @@
 1. Проверить наличие ресурса в Оркестраторе и правильность его наименования.
 2. Убедиться, что ресурс не заблокирован другим процессом.
 3. Проверить права доступа к ресурсу.
+
+
+## Только код
+
+Пример использования элемента в процессе с типом **Только код** (Pure code):
+
+{% tabs %}
+{% tab title="C#" %}
+```csharp
+LTools.Enterprise.OrchestratorApp.LockAsset(wf, asset, lockAsset);
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```python
+LTools.Enterprise.OrchestratorApp.LockAsset(wf, asset, lockAsset)
+```
+{% endtab %}
+
+{% tab title="JavaScript" %}
+```javascript
+_lib.LTools.Enterprise.OrchestratorApp.LockAsset(wf, asset, lockAsset);
+```
+{% endtab %}
+{% endtabs %}
