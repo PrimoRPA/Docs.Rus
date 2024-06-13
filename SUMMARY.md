@@ -115,6 +115,8 @@
     * [Настройка машины робота на РЕД ОС](primo-studio-linux/installation/installation-redos/install-robot-redos.md)
   * [CentOS](primo-studio-linux/installation/installation-centos/readme.md)
     * [Настройка машины робота на CentOS](primo-studio-linux/installation/installation-centos/install-robot-centos.md)
+  *[Работа с процессами](primo-studio-linux/process/debug/readme.md)
+    * [Запуск и отладка](primo-studio-linux/process/debug/debug.md)
 
 ## Элементы в Studio <a href="#g_elements" id="g_elements"></a>
 
