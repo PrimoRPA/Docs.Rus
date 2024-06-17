@@ -17,7 +17,7 @@
 
 ![](<../../../../.gitbook/assets/Машина-Робота-W. Компоненты Орка.png>)
 
-Полная схема приведена в разделе [Компоненты системы](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/system-components).
+Полная схема приведена в разделе [Компоненты системы](https://docs.primo-rpa.ru/primo-rpa/orchestrator/system-components).
 
 **Агент** – self-hosted веб-приложение. Агент выполнен как .NET Core 3.1-приложение. Агент используется для развертывания и управления роботом на машине робота.
 
@@ -45,7 +45,7 @@
 
 ## Файлы из комплекта поставки Оркестратора
 
-Для настройки машины Робота потребуются следующие файлы из [комплекта поставки](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/kit) Оркестратора:
+Для настройки машины робота потребуются следующие файлы из [комплекта поставки](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/kit) Оркестратора:
 
 |             Файл             |                             Описание                            |                               Примечание                              |
 | :--------------------------: | :-------------------------------------------------------------: | :-------------------------------------------------------------------: |
@@ -64,5 +64,5 @@
 
 Установить Агента Оркестратора на машине робота можно двумя способами:
 
-* [из инсталлятора `AgentInstaller.zip`](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/windows/robotmachine/agentinstaller) - это основной инструмент для настройки машины робота;
-* [без использования инсталлятора](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/windows/robotmachine/appendix) - альтернативный вариант на случай, если не получилось установить Агента через инсталлятор.
+* [из инсталлятора `AgentInstaller.zip`](https://docs.primo-rpa.ru/primo-rpa/orchestrator/setting-up-machines/windows/agentinstaller) - это основной инструмент для настройки машины робота;
+* [без использования инсталлятора](https://docs.primo-rpa.ru/primo-rpa/orchestrator/setting-up-machines/windows/appendix) - альтернативный вариант на случай, если не получилось установить Агента через инсталлятор.
