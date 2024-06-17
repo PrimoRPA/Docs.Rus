@@ -4,7 +4,7 @@ description: Convert PDF to image
 
 # Преобразовать в изображение
 
-![](<../../../.gitbook/assets/image (322).png>)
+![](<../../../.gitbook/assets1/PDF-ConvertToImage.png>)
 
 Компонент, преобразующий документ PDF в изображение.
 
