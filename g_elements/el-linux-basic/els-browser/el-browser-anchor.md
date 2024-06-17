@@ -4,7 +4,7 @@ description: Browser anchor
 
 # Якорь
 
-![](<../../../../.gitbook/assets/image (404).png>)
+![](<../../../.gitbook/assets1/Browser-Anchor.png>)
 
 Компонент, производящий операцию над элементом, основываясь на его положении относительно элемента-якоря.
 
