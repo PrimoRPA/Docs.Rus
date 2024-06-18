@@ -1,10 +1,8 @@
 # Tesseract OCR
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (128).png>)
-
 ![](<../../../.gitbook/assets/image (309).png>)
 
-Компонент, осуществляющий подключение к ядру OCR Tesseract. Tesseract 3-й версии поставляется вместе с Primo RPA Studio и не требует дополнительной установки.
+Компонент осуществляет подключение к ядру OCR Tesseract. Tesseract 3-й версии поставляется вместе с Primo RPA Studio и не требует дополнительной установки.
 
 ## Свойства
 Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
