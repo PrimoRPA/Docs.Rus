@@ -1,7 +1,5 @@
 # Yandex Vision OCR
 
-![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (2) (212).png>)
-
 ![](<../../../.gitbook/assets/image (406).png>)
 
 Компонент, осуществляющий подключение к ядру OCR Yandex Vision.
