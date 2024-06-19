@@ -12,6 +12,11 @@ description: Create request
 ## Свойства
 Символ `*` указывает на обязательность заполнения свойства. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
 
+Группа «Обработка»
+
 1. **Документ\*** *[String]* — путь к файлу обрабатываемого документа.
 2. **Тип модели** *[String]* — тип модели для обработки документа.
-3. **Результат** *[Primo.AI.Server.Model.ClassificationResult]* — результат создания запроса.
+
+Группа «Вывод»
+
+1. **Результат** *[Primo.AI.Server.Model.ClassificationResult]* — результат создания запроса.
