@@ -7,7 +7,7 @@ description: Get result
 
 Элемент получает от сервера Primo.AI результат распознавания документа моделью нейронной сети. Результат сохраняется в переменную.
 
-![](<../../../.gitbook/assets/отсоединиться от бд.png>)
+![](<../../../.gitbook/assets1/windows_items/WFPrimoAIGetInference.png>)
 
 
 ## Свойства
