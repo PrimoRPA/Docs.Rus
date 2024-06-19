@@ -1,3 +1,7 @@
+---
+description: Primo.AI server
+---
+
 # Сервер Primo.AI
 
 Элемент производит подключение к серверу Primo.AI.
