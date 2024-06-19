@@ -1,12 +1,40 @@
-# Сервер Primo.AI
+# Получить результат
 
-Элемент производит подключение к серверу Primo.AI.
+Элемент получает результат распознавания документа от сервера Primo.AI.
 
 ![](<../../../.gitbook/assets/отсоединиться от бд.png>)
 
 
 ## Свойства
-Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
+Символ `*` указывает на обязательность заполнения свойства. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
   
-  - Сервер: [String] URL сервера
-  - Тайм-аут: [Int32] Тайм-аут действий сервера (мс)
+  - Ключ запроса*: [System.Guid] Ключ запроса
+  - Результат: [Primo.AI.Server.Model.InferenceResult] Результат обработки документов
+
+Primo.AI.Server.Model.InferenceResult - Свойства:
+  - CreatedAt [System.DateTime]: Дата создания
+  - ExpiresAt [System.DateTime]: Дата завершения
+  - ModelType [String]: Тип модели
+  - ResultIsReady [Boolean]: Флаг готовности результат
+  - Result [Primo.AI.Server.Model.InferenceResultContent]: Результат
+  - Files [List<Primo.AI.Server.Model.InferenceResultFile>]: Обработанные файлы
+
+Primo.AI.Server.Model.InferenceResultFile - Свойства:
+  - OriginalFileName [String]: Наименование файла
+  - ContentType [String]: Тип контента
+  - ContentLength [Int64]: Длина контента
+
+Primo.AI.Server.Model.InferenceResultContent - Свойства:
+  - CreatedAt [System.DateTime]: Дата создания
+  - ErrorMsg [String]: Текст ошибки
+  - Items [List<Primo.AI.Server.Model.InferenceResultItem>]: Элементы
+
+Primo.AI.Server.Model.InferenceResultItem - Свойства:
+  - Field [String]: Имя поля
+  - Text [String]: Текст поля
+  - Confidence [Decimal]: Уверенность
+  - Rows [List<Primo.AI.Server.Model.InferenceResultItemRow>]: Табличные данные
+
+Primo.AI.Server.Model.InferenceResultItemRow - Свойства:
+  - Confidence [Decimal]: Уверенность
+  - Columns [List<String>]: Список строк
