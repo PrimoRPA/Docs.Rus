@@ -4,7 +4,7 @@ description: Primo.AI server
 
 # Сервер Primo.AI
 
-Элемент производит подключение к серверу Primo RPA AI Server. Выступает контейнером для других элементов, работающих с Primo RPA AI Server.
+Элемент производит подключение к серверу Primo RPA AI Server. Выполняет роль контейнера для других элементов, работающих с Primo RPA AI Server.
 
 ![](<../../../.gitbook/assets1/windows_items/WFAttachPrimoAIServer.png>)
 
