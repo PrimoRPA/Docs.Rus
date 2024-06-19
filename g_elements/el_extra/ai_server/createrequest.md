@@ -7,7 +7,7 @@ description: Create request
 
 Элемент получает от сервера Primo.AI результат распознавания документа. Результат сохраняется в переменную.
 
-![](<../../../.gitbook/assets1/WFPrimoAICreateInference.png>)
+![](<../../../.gitbook/assets1/windows_items/WFPrimoAICreateInference.png>)
 
 
 ## Свойства
