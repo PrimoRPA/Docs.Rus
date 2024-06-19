@@ -6,7 +6,7 @@ description: Primo.AI server
 
 Элемент производит подключение к серверу Primo.AI.
 
-![](<../../../.gitbook/assets/отсоединиться от бд.png>)
+![](<../../../.gitbook/assets1/windows_items/WFAttachPrimoAIServer.png>)
 
 
 ## Свойства
