@@ -91,7 +91,7 @@
 
 ![](<../../../.gitbook/assets1/primo-ai/classifier-7-new.png>)
 
-В верхней панели выберите в верхней панели инструмент **Add Bounding Box (b)**.
+В верхней панели выберите инструмент **Add Bounding Box (b)**.
 
 ![](<../../../.gitbook/assets1/primo-ai/classifier-bounding-box.png>)
 
