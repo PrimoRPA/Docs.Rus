@@ -1,6 +1,6 @@
 # Primo Studio 1.24.2
 
-История изменений в Primo Studio для Windows за февраль 2024-го года.
+История изменений в Primo RPA Studio для Windows за февраль 2024-го года.
 
 ## Режим Pro
 
