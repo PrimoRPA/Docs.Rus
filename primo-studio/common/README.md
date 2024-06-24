@@ -1,5 +1,5 @@
 ---
-description: Описание назначения и ключевых возможностей приложения Primo RPA Studio для Windows.
+description: Описание ключевых возможностей приложения Primo RPA Studio для Windows.
 ---
 
 # Общие сведения
