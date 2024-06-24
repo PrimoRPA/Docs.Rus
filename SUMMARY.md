@@ -41,7 +41,7 @@
 
 ## Primo Studio
 
-* [Издания](primo-studio/editions.md)
+* [Общие сведения](primo-studio/editions.md)
 * [Системные требования](primo-studio/systemreq.md)
 * [Установка и обновление](primo-studio/installation/README.md)
   * [Обновление](primo-studio/installation/update.md)
@@ -104,7 +104,7 @@
 * [Горячие клавиши](primo-studio/hotkeys.md)
 
 ## Primo Studio Linux
-* [Общая информация](primo-studio-linux/overview.md)
+* [Общие сведения](primo-studio-linux/overview.md)
 * [Системные требования](primo-studio-linux/studio-linux-sysreq.md)
 * [Установка](primo-studio-linux/installation/readme.md)
   * [Astra Linux](primo-studio-linux/installation/installation-astra/readme.md)
@@ -904,7 +904,7 @@
 
 ## Primo Robot
 
-* [Описание](primo-robot/intro.md)
+* [Общие сведения](primo-robot/intro.md)
 * [Системные требования](primo-robot/systemreq.md)
 * [Установка и запуск](primo-robot/installation/README.md)
   * [Установка Робота Core](primo-robot/installation/robot\_core.md)
@@ -918,7 +918,7 @@
 
 ## Primo Orchestrator <a href="#orchestrator" id="orchestrator"></a>
 
-* [Описание](orchestrator/intro.md)
+* [Общие сведения](orchestrator/intro.md)
 * [Системные требования](orchestrator/systemreq.md)
 * [Компоненты](orchestrator/system-components.md)
 * [Инфраструктура](orchestrator/ports.md)
