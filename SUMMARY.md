@@ -116,6 +116,9 @@
     * [Настройка машины робота на РЕД ОС](primo-studio-linux/installation/installation-redos/install-robot-redos.md)
   * [CentOS](primo-studio-linux/installation/installation-centos/readme.md)
     * [Настройка машины робота на CentOS](primo-studio-linux/installation/installation-centos/install-robot-centos.md)
+* [Работа с проектами](primo-studio-linux/projects/readme.md)
+    * [Зависимости](primo-studio-linux/projects/manage-dependencies.md)
+    * [Требования к импорту DLL и NuGet пакетов](primo-studio-linux/projects/import-nuget-dll.md)
 * [Работа с процессами](primo-studio-linux/process/debug/readme.md)
     * [Запуск и отладка](primo-studio-linux/process/debug/debug.md)
 
