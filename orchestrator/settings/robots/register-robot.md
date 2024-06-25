@@ -3,8 +3,8 @@
 Перед регистрацией машины робота в Оркестраторе ее необходимо настроить на основе «Руководства по настройке машины Робота.docx» из комплекта поставки. 
 
 Ознакомиться с процессом настройки также можно в разделах:
-* [настройка машины под Windows](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/windows/robotmachine);
-* [настройка машины под Linux](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/robotmachine).
+* [настройка машины под Windows](https://docs.primo-rpa.ru/primo-rpa/orchestrator/setting-up-machines/windows/robotmachine);
+* [настройка машины под Linux (CentOS 8)](https://docs.primo-rpa.ru/primo-rpa/orchestrator/setting-up-machines/linux/robotmachine).
 
 ## Как зарегистрировать машину
 
