@@ -7,8 +7,8 @@
 1. **Caller** — ссылка на объект процесса, который вызвал текущий процесс.
 2. **Current** — ccылка на объект текущего процесса.
 3. **CurrentWorkflowPath** — ссылка на путь текущего процесса, то есть к конкретному ltw-файлу.
-4. **GetArgument** — позволяет получить [агрумент](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/args).
-5. **SetArgument** — позволяет изменить агрумент.
+4. **GetArgument** — позволяет получить [аргумент](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/args).
+5. **SetArgument** — позволяет изменить аргумент.
 6. **ProjectPath** — путь к папке проекта. Пример указания полного пути к файлу Settings.xlsx в подпапке Data проекта:
    `System.IO.Path.Combine(_Workflow.ProjectPath,"Data","Settings.xlsx")`
 7. **RunConfig** — стандартная конфигурация запуска робота. Доступные значения:
