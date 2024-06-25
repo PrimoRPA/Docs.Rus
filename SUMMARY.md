@@ -107,8 +107,8 @@
 
 ## Primo Studio Linux
 * [Общие сведения](primo-studio-linux/overview.md)
-* [Системные требования](primo-studio-linux/studio-linux-sysreq.md)
-* [Установка](primo-studio-linux/installation/readme.md)
+* [Установка и обновление](primo-studio-linux/installation/readme.md)
+  * [Системные требования](primo-studio-linux/studio-linux-sysreq.md)
   * [Astra Linux](primo-studio-linux/installation/installation-astra/readme.md)
     * [Перечень необходимых пакетов](primo-studio-linux/installation/installation-astra/libs-astra.md)
     * [Установка Studio Linux на Astra Linux](primo-studio-linux/installation/installation-astra/install-astra-v3.md)
