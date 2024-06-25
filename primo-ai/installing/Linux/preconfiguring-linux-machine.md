@@ -105,9 +105,10 @@ passwd: пароль успешно обновлён
 ```
 
 Для запуска агентом заданий роботов без прав пользователя root установите следующую настройку:
+```
 [primo-admin@astra-machine ~]$ sudo sh -c "echo 'agent ALL = (%primo-ai) NOPASSWD: /usr/bin/at' > /etc/sudoers.d/primo-ai-agent"
 [primo-admin@astra-machine ~]$ sudo sh -c "echo 'agent ALL = (ALL) NOPASSWD: /usr/sbin/reboot' >> /etc/sudoers.d/primo-ai-agent"
-
+```
 
 ### Установка агента
 
@@ -169,19 +170,24 @@ passwd: пароль успешно обновлён
 
 ### Настройка правила брандмауэра ufw
 
-Установка и настройка брандмауэра ufw описана в статье Межсетевой экран ufw .
+Установка и настройка брандмауэра ufw описана в статье Межсетевой экран ufw.
 Для разрешения доступа к API агента выполните следующее:
+```
 [primo-admin@astra-machine ~]$ sudo ufw allow 5002/tcp
+```
 
 ### Настройка учетной записи IDP
 Создание учётной записи IDP idp:
+```
 [primo-admin@astra-machine ~]$ sudo useradd -g primo-ai -m -s /bin/bash idp
+```
 Установка пароля учётной записи IDP idp:
+```
 [primo-admin@astra-machine ~]$ sudo passwd idp
 Новый пароль : ***
 Повторите ввод нового пароля : ***
 passwd: пароль успешно обновлён
-
+```
 
 ### Обновление агента
 Остановка службы:
