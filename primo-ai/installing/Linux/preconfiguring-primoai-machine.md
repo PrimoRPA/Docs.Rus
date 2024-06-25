@@ -19,7 +19,7 @@
 
 ### 2. Настройка общего доступа к папке
 
-Устанавливаем samba:
+Устанавливаем Samba:
 ```
 # sudo dnf install samba samba-common samba-client
 ```
