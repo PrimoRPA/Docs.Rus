@@ -140,11 +140,11 @@
 1. Перейдите в подраздел «Обучение» на вкладку «Шаблоны обучения».
 1. Выберите для вашего шаблона действие «Процессы».
 
-   ![](<../../../.gitbook/assets1/primo-ai/classifier-go-to-training-proccesses.png>) 
+   ![](<../../../.gitbook/assets1/primo-ai/class-goto-training-proccesses.png>) 
 
 1. Нажмите кнопку **Добавить процесс обучения**.
   
-   ![](<../../../.gitbook/assets1/primo-ai/classifier-add-training-proccess.png>) 
+   ![](<../../../.gitbook/assets1/primo-ai/class-add-training-proccess.png>) 
 
 1. В форме добавления процесса укажите целевую машину, на которой будет проводиться обучение модели классификатора.
 1. Сохраните настройки, чтобы добавить процесс в систему.
