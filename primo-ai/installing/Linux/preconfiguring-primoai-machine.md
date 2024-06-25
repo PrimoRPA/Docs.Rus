@@ -103,15 +103,15 @@ directory mode = 0777
 # mkdir /opt/Primo.AI
 ```
 
-### 5. chmod
+### 5. Настройка прав доступа 
 
-Для сервисов Primo.AI.Api: Api, Inference, MachineInfo, Logs, Auth возможны указанные ниже модификации для прав на исполняемые файлы и запускаемые скрипты этих сервисов (т.е. на файлы Primo.AI.Api, Primo.AI.Api.Inference... Primo.AI.Api.Auth):
+Для сервисов **Primo.AI.Api**: Api, Inference, MachineInfo, Logs, Auth возможны указанные ниже модификации для прав на исполняемые файлы и запускаемые скрипты этих сервисов (т.е. на файлы Primo.AI.Api, Primo.AI.Api.Inference... Primo.AI.Api.Auth):
 
 chmod 777\
 chmod 775\
 chmod 774\
 chmod 771\
-chmod 770\ 
+chmod 770\
 chmod 750\
 chmod 740\
 chmod 710\
