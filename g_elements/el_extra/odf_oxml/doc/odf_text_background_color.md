@@ -2,7 +2,7 @@
 
 *Eng: Text background color*
 
-![](../../../../.gitbook/assets1/color_background_font.PNG)
+![](../../../../.gitbook/assets1/color_background_font.png)
 
 Элемент обрабатывает цвет фона текста документа. Элемент работает корректно только внутри контейнера **Документ ODF**.
 
