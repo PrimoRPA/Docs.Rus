@@ -2,7 +2,7 @@
 
 *Eng: Add table row*
 
-![](../../.gitbook/assets1/add_table_row.png)
+![](../../../../.gitbook/assets1/add_table_row.png)
 
 Элемент добавляет строку к таблице. Элемент работает корректно только внутри контейнера **Документ ODF**
 
