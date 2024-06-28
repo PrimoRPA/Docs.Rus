@@ -729,6 +729,7 @@
        * [Удалить текст](g\_elements/el\_extra/odf\_oxml/doc/odf\_deletetext.md)
        * [Цвет фона шрифта](g\_elements/el\_extra/odf\_oxml/doc/odf\_text_background_color.md)
        * [Записать в ячейку таблицы](g\_elements/el\_extra/odf\_oxml/doc/odf\_%20writetablecell.md)
+       * [Добавить строку таблицы](g\_elements/el\_extra/odf\_oxml/doc/odf\_addtablerow.md)
        * [Цвет шрифта](g\_elements/el\_extra/odf\_oxml/doc/odf\_textcolor.md)
        * [Копировать в буфер обмена](g\_elements/el\_extra/odf\_oxml/doc/odf\_copytoclipboard.md)
     * [ODF — Таблицы](g\_elements/el\_extra/odf\_oxml/table/README.md)
