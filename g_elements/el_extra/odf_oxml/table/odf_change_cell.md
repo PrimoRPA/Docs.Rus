@@ -1,6 +1,6 @@
 # Изменение ячейки
 
-*Eng: Change cells*
+*Eng: Change cell*
 
 ![](<../../../../.gitbook/assets1/changecellodf.png>)
 
