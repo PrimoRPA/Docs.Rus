@@ -1,5 +1,5 @@
 ---
-description: Change cells
+description: Change cell
 ---
 
 # Изменение ячейки
