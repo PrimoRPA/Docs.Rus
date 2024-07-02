@@ -17,7 +17,7 @@ description: Convert PDF to image
 1. **Защищенный пароль** *[SecureString]* - Защищенный пароль
 1. **Размер\*** *[int]* - Длина наибольшей стороны изображения (пиксели)  
 1. **Страницы\*** *[String]* - Массив извлекаемых страниц (1,2,4)  
-1. **Переменная** *[List<SixLabors.ImageSharp.Image>]* - Переменная для хранения результатов преобразования  
+1. **Переменная** *[Systems.Collections.Generic.List<SixLabors.ImageSharp.Image>]* - Переменная для хранения результатов преобразования  
 
 ## Только код
 Пример использования элемента в процессе с типом Только код (Pure code):
@@ -25,7 +25,7 @@ description: Convert PDF to image
 {% tabs %}
 {% tab title="C#" %}
 ```csharp
-List<System.Drawing.Bitmap> img = LTools.Office.PdfApp.ConvertToImage(wf, "Файл 1", 2000, "пароль");
+System.Collections.Generic.List<SixLabors.ImageSharp.Image> img = LTools.Office.PdfApp.ConvertToImage(wf, "Файл 1", 2000, "пароль"); 
 ```
 {% endtab %}
 
