@@ -4,9 +4,7 @@
 
 ### Рекомендации
 
-После каждого обновления Студии требуется либо переустанавливать расширение, либо изначально соблюдать рекомендации при [обновлении](https://docs.primo-rpa.ru/primo-rpa/primo-studio/installation/update), касающиеся файла `manifest_ch.json`. 
-
-Исключением является ситуация, когда расширение было установлено с помощью [скриптов](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/autoinstall-browser-extension).
+После каждого обновления Студии требуется либо переустанавливать расширение, либо изначально соблюдать рекомендации при [обновлении](https://docs.primo-rpa.ru/primo-rpa/primo-studio/installation/update), касающиеся файла `manifest_ch.json`. Исключением является ситуация, когда расширение было установлено с помощью [скриптов](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/autoinstall-browser-extension).
 
 ## Способы установки
 
