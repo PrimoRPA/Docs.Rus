@@ -2,9 +2,7 @@
 
 *Eng: Set password*
 
-
-
-![](../../../../.gitbook/assets1/setpassw.png)
+![](<../../../.gitbook/assets1/setpassw.png>)
 
 Элемент устанавливает пароль для указанного файла Excel. Элемент работает корректно только внутри контейнера **Excel**.
 
