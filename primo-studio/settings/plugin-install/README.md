@@ -41,7 +41,7 @@
 ### Расширения браузеров
 
 ```
-LTools.WebBrowser.Native.exe install=<browser> lang=<language> mode=<mode>
+LTools.WebBrowser.Native.exe install=<browser> lang=<language> mode=<mode> manifest=v3
 ```
 Поддерживаемые аргументы:
 * **browser** — тип браузера: CHROME, FIREFOX, EDGE, YANDEX.
