@@ -5,8 +5,8 @@
 
 ## Обновления и улучшения (режим Pro)
 
-1. Расширение для браузеров стало поддерживать работу с [Манифестом V3](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3?hl=ru) — последней версией платформы расширений Chrome Extensions. Теперь при [ручной установке расширения](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/plugin-install) Primo RPA Extension вы cможете указать, какую версию Манифеста следует использовать: 2 или 3. Переход на V3 возможно осуществить в течение года, что позволяет изучить возможности обновленного расширения без ущерба для бизнес-задач. Манифест V3 обеспечивает улучшенную безопасность, повышенную производительность и новые функции, требуя от разработчиков адаптации своих расширений к новым стандартам.
-![](<../.gitbook/assets1/studio/settings/Manifestv3.png>)
+1. Для расширения Primo RPA Extension добавлена совместимость с [Манифестом V3](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3?hl=ru) новым стандартом от Google. Использование Manifest V3 поможет избежать проблем с совместимостью в будущих версиях браузеров на платформе Chromium (Chrome, Yandex, Edge). Поскольку расширение на базе Манифеста V3 является новым, рекомендуется сначала проверить работоспособность решения в Студии или тестовом контуре, и только затем использовать в продуктивной среде.
+
 2. Добавлен элемент [**Установить пароль** (SetPassword)](https://github.com/PrimoRPA/Docs.Rus/blob/SiuzanaTedzhoeva-setpass/g_elements/el_basic/els_excel/el_excel_set_password.md) для установки пароля на Excel файлы.
 3. Обновлено расширение Primo RPA Extension. Новая версия расширения поддерживает взаимодействие с веб-клиентом 1С, включая возможность выбирать шаблон поиска с помощью xPath. Улучшение распространяется на обе версии Манифеста.
 4. Добавлен элемент [**Заблокировать ресурс**](https://github.com/PrimoRPA/Docs.Rus/blob/SiuzanaTedzhoeva-lock_ass/g_elements/el_basic/els_orch/els_assets/lock_asset.md) (asset).
