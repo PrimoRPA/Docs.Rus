@@ -395,6 +395,7 @@
       * [Получить учетные данные](g\_elements/el\_basic/els\_orch/els\_assets/el\_orch\_getcredentials.md)
       * [Установить значение](g\_elements/el\_basic/els\_orch/els\_assets/el\_orch\_setvalue.md)
       * [Установить учетные данные](g\_elements/el\_basic/els\_orch/els\_assets/el\_orch\_setcredentials.md)
+      * [Заблокировать ресурс](g\_elements/el\_basic/els\_orch/els\_assets/lock\_asset.md)
     * [Очереди](g\_elements/el\_basic/els\_orch/els\_queues/README.md)
       * [Типы данных](g\_elements/el\_basic/els\_orch/els\_queues/datatypes.md)
       * [Добавить в очередь](g\_elements/el\_basic/els\_orch/els\_queues/addtoqueue.md)
