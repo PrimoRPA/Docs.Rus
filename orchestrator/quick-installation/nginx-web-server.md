@@ -276,6 +276,8 @@
 ![](<../../.gitbook/assets1/orch-install-nginxserver-26.png>)
 
 
+### SecureSocketOption
+
 Начиная с версии Оркестратора 1.24.6 в работу службы `LTools.Orchestrator.Notifications` добавлена возможность конфигурировать параметр `SecureSocketOption`  для почтовой рассылки.
  
 #### Параметры `SecureSocketOption`
