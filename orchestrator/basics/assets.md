@@ -1,4 +1,4 @@
-# Ресурсы
+# Ресурсы (Assets)
 
 Ресурсы – именованные переменные в хранилище Оркестратора, которые могут читать/устанавливать роботы и Студия при выполнении RPA-проектов. 
 
@@ -21,11 +21,28 @@
    * *Запрещено чтение* — другим роботам полностью запрещено использовать этот ресурс. Настройка помогает исключить «грязное» чтение: когда один робот меняет значение заблокированного ресурса, другой робот не может прочитать старое значение.
 7. **Таймаут** — время блокировки ресурса в секундах.
 
-![](<../../.gitbook/assets1/assetscreate-1.24.2.png>)
-
 После чего сохраните изменения. 
 
 :white_check_mark: **Готово**. Новый ресурс отобразится на странице **Роботы > Ресурсы** в табличной части. 
+
+![](<../../.gitbook/assets1/ass.png>)
+
+### CyberArk
+
+С версии Оркестратора 1.24.6 во вкладке **Ресурсы** в форме **Добавить ресурс** и **Редактировать ресурс** добавлены новые поля для интеграции с **CyberArk**: 
+1. Поле **Тип внешнего хранилища**:
+   - Если тип данных ресурса выбран как `Сredentials`, появляется выпадающий список `Тип внешнего хранилища` с вариантом для выбора `CyberArk`.
+
+2. Поле **Учетная запись CyberArk**:
+   - Если выбран CyberArk в поле **Тип внешнего хранилища**, отображается обязательное поле **Учетная запись CyberArk**с кнопкой `Поиск`.
+   - Нажатие на кнопку `Поиск` открывает модальное окно для выбора учетной записи из CyberArk.
+![](<../../.gitbook/assets1/editass.png>)
+
+### Дополнительно:
+
+- [Вызов веб-сервиса поставщика учетных данных](https://docs.cyberark.com/credential-providers/Latest/en/Content/CCP/Calling-the-Central-Credential-Provider-Web-Service-from-Your-Application-Code.htm?tocpath=Developer%7CCentral%20Credential%20Provider%7CCall%20the%20Central%20Credential%20Provider%20Web%20Service%20from%20Your%20Application%20Code%7C_____0)
+- [Работа с SDK для паролей приложений](https://docs.cyberark.com/credential-providers/Latest/en/Content/CP%20and%20ASCP/Working-with-Application-Password-SDK.htm?tocpath=Developer%7CCredential%20Provider%7CApplication%20Password%20SDKs%7C_____0)
+- [Документация по API CyberArk в Postman](https://documenter.getpostman.com/view/998920/RzZ9Gz1U?bs=true)
 
 
 ## Работа с ресурсами из Студии
