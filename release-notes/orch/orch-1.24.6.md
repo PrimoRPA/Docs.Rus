@@ -10,7 +10,8 @@
     * Логическое удаление элемента очереди при `"AllowPhysicalRemoval": false`:
     Если элемент прочитан роботом, он переходит из статуса `New` в статус `InProgress`. По истечению таймаута элемент помечается как `Удалённый` и продолжает отображаться в списке. Запись в базе данных не удаляется.
 
-![](../../.gitbook/assets1/timeout1.png)  
+
+![](../../.gitbook/assets1/timeoutque.png) 
 
 2. Улучшена безопасность почтовых рассылок с параметром `SecureSocketOption` в службе [Notifications](https://github.com/PrimoRPA/Docs.Rus/pull/1290/commits/021a09c4cdc9232eed5b0e9cddfbaeb93f692499)
 
