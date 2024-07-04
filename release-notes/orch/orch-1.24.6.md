@@ -13,7 +13,7 @@
 
 ![](../../.gitbook/assets1/timeoutque.png) 
 
-2. Улучшена безопасность почтовых рассылок с параметром `SecureSocketOption` в службе [Notifications](https://github.com/PrimoRPA/Docs.Rus/pull/1290/commits/021a09c4cdc9232eed5b0e9cddfbaeb93f692499)
+2. Улучшена безопасность почтовых рассылок с параметром `SecureSocketOption` в службе [Notifications](https://docs.primo-rpa.ru/primo-rpa/orchestrator/quick-installation/nginx-web-server#securesocketoption)
 
 3. Улучшено логирование Оркестратора: теперь при выводе сообщения в логе отображается полное сообщение, а не только первые 200 символов. В БД запись сохраняется полностью.
 
