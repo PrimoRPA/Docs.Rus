@@ -495,6 +495,7 @@
     * [Удаление диапазона](g\_elements/el\_basic/els\_excel/el\_excel\_deleterange.md)
     * [Удаление колонок](g\_elements/el\_basic/els\_excel/el\_excel\_deletecolumns.md)
     * [Удаление строк](g\_elements/el\_basic/els\_excel/el\_excel\_deleterows.md)
+    * [Установить пароль](g\_elements/el\_basic/els\_excel/el\_excel\_set_password.md)
   * [Приложение Outlook](g\_elements/el\_basic/els\_outlook/README.md)
     * [Приложение Outlook](g\_elements/el\_basic/els\_outlook/el\_outlook\_app.md)
     * [Закрыть Outlook](g\_elements/el\_basic/els\_outlook/el\_outlook\_close.md)
