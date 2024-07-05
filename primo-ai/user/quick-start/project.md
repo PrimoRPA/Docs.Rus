@@ -9,11 +9,11 @@
 
 Перейдите в раздел с выбранным проектом, кликнув по нему мышью.
 
-![](<../../../.gitbook/assets1/primo-ai/go-to-classifier.png>)
+![](<../../../.gitbook/assets1/primo-ai/all-system-projects.png>)
 
 В левой части отобразится меню проекта.
 
-![](<../../../.gitbook/assets1/primo-ai/go-to-classifier.png>)
+![](<../../../.gitbook/assets1/primo-ai/menu-of-project.png>)
 
 ### Шаг 2 — Создайте шаблон процесса инференса
 
@@ -49,7 +49,7 @@
 
 1. Нажмите кнопку **Добавить Процесс Inference**.
 
-   ![](<../../../.gitbook/assets1/primo-ai/class-goto-infprocess.png>)
+   ![](<../../../.gitbook/assets1/primo-ai/add-inf-process.png>)
    
 1. Выберите доступную целевую машину и нажмите **Сохранить**.
 
