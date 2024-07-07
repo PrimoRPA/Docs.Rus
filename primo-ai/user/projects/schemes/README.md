@@ -6,7 +6,7 @@
 
 Все перечисленные действия осуществляются на странице **Схемы разметки**, которая доступна после перехода в выбранный проект.
 
-![](<../../../../.gitbook/assets1/primo-ai/user-guide/data-in-project.png>)
+![](<../../../../.gitbook/assets1/primo-ai/user-guide/schemes-page.png>)
 
 
 ## Содержание
