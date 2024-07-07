@@ -28,18 +28,20 @@
 :large_blue_diamond:***Примечание**. Роль пользователя должна включать право «???».*
 
 1. Выберите карточку проекта и перейдите на страницу **Данные**.
+
    ![](<../../../.gitbook/assets1/primo-ai/user-guide/data-in-project.png>)
 
 1. Нажмите кнопку **Добавить изображения**.
 
-   ![](<../../../.gitbook/assets1/primo-ai/user-guide/data-in-project.png>)
+   ![](<../../../.gitbook/assets1/primo-ai/user-guide/data-button-add-file.png>)
 
    Откроется форма для загрузки изображений.
 
-   ![](<../../../.gitbook/assets1/primo-ai/user-guide/project-form.png>)
+   ![](<../../../.gitbook/assets1/primo-ai/user-guide/add-data-form.png>)
 
-1. 
+1. Перетащите в область загрузки поддерживаемые файлы изображений.
 1. Нажмите кнопку **Сохранить**.
+
 
 
 ## Загрузить архив
