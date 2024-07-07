@@ -91,9 +91,13 @@
    ![](<../../../../.gitbook/assets1/primo-ai/user-guide/button-rotate-image-datapage.png>)
 
 1. Выберите действие **Повернуть**.
-1. 
+1. Откроется форма с изображением для редактирования:
+   * 1 —
+   * 2 —
+   * 3 —
+   * 4 — 
   
-   ![](<../../../../.gitbook/assets1/primo-ai/user-guide/actions-with-data.png>)
+   ![](<../../../../.gitbook/assets1/primo-ai/user-guide/rotate-image-form.png>)
 
 
 ## Удалить изображение
