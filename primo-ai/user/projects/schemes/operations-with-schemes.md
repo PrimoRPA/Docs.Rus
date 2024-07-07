@@ -6,7 +6,7 @@
 
 1. Перейдите на страницу **Схемы разметки** и нажмите кнопку **Добавить схему**.
 
-   ![](<../../../../.gitbook/assets1/primo-ai/user-guide/add-schemes-button.png>)
+   ![](<../../../../.gitbook/assets1/primo-ai/user-guide/add-scheme-button.png>)
 
 1. Откроется форма создания схемы.
 
@@ -47,7 +47,7 @@
 1. Выберите действие **Редактировать**.
 1. Измените свойства схемы и выберите **Сохранить**.
 
-   ![](<../../../../.gitbook/assets1/primo-ai/user-guide/edit-datafile-form.png>)
+   ![](<../../../../.gitbook/assets1/primo-ai/user-guide/edit-scheme.png>)
 
 
 ## Удалить схему разметки
