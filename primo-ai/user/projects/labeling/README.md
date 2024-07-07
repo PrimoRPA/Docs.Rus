@@ -6,6 +6,8 @@
 
 ![](<../../../../.gitbook/assets1/primo-ai/classifier-labeling-1.png>)
 
+![](<../../../../.gitbook/assets1/primo-ai//user-guide/labeling-page.png>)
+
 
 ## Перед началом работы
 
