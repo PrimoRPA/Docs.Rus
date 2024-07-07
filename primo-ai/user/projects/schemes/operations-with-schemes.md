@@ -47,7 +47,7 @@
 1. Выберите действие **Редактировать**.
 1. Измените свойства схемы и выберите **Сохранить**.
 
-   ![](<../../../../.gitbook/assets1/primo-ai/user-guide/edit-scheme.png>)
+   ![](<../../../../.gitbook/assets1/primo-ai/user-guide/edit-scheme-form.png>)
 
 
 ## Удалить схему разметки
