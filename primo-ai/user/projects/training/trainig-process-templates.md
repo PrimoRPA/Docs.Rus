@@ -48,6 +48,9 @@
 ### Шаг 3. Запуск процесса обучения
 
 1. На странице **Процессы обучения** выберите для созданного процесса действие **Запустить**.
+
+   ![](<../../../../.gitbook/assets1/primo-ai//user-guide/actions-with-training-process.png>)
+
 1. Дождитесь, когда статус изменится на `Выполняется`.
 
 ![](<../../../../.gitbook/assets1/primo-ai/class-training-process-is-running.png>) 
