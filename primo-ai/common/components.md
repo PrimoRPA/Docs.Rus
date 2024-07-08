@@ -2,7 +2,7 @@
 
 Система построена на клиент-серверной архитектуре. 
 
-![](<../../../.gitbook/assets1/primo-ai/components-scheme.png>)
+![](<../../.gitbook/assets1/primo-ai/components-scheme.png>)
 
 В систему входят следующие компоненты:
 1. **Сервер баз данных и хранилищ данных:**
