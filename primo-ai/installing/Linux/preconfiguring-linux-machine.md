@@ -17,7 +17,7 @@
 
 Компоненты Primo.AI.Api (выборочно) и их связи и с целевыми машинами приведены на схеме:
 
-![](<../../../.gitbook/assets1/primo-ai/.png>)
+![](<../../../.gitbook/assets1/primo-ai/install/components-and-machines-scheme.png>)
 
 Агент – self-hosted веб-приложение, REST API. Агент выполнен как NET8-приложение. Агент используется для управления IDP на целевой машине.
 
