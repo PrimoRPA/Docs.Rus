@@ -59,9 +59,9 @@
 
 ### Настройка дополнительного ПО
 
-1. Выполните подключение машины робота к репозиториям main, update, base и extended. Сами репозитории описаны в статье Интернет-репозитории Astra Linux Special Edition x.7 . Настройка локальных зеркал этих репозиториев описана в статье Создание репозиториев для операционной системы Astra Linux Special Edition x.7 в закрытом сегменте 
+1. Выполните подключение машины робота к репозиториям `main`, `update`, `base` и `extended`. Сами репозитории описаны в статье [Интернет-репозитории Astra Linux Special Edition x.7](https://wiki.astralinux.ru/pages/viewpage.action?pageId=158598882). Настройка локальных зеркал этих репозиториев описана в статье [Создание репозиториев для операционной системы Astra Linux Special Edition x.7 в закрытом сегменте](https://wiki.astralinux.ru/pages/viewpage.action?pageId=199148426).
 
-   !!ВАЖНО!! Локальные репозитории необходимо выгружать на машине, имеющей доступ в Интернет.
+   :large_orange_diamond:***Важно**. Локальные репозитории необходимо выгружать на машине, имеющей доступ в интернет.*
 
    Рекомендуется выделить одну машину под управлением Astra Linux для размещения на ней сервера репозиториев.
 
@@ -69,12 +69,7 @@
    ```
    [primo-admin@astra-machine ~]$ sudo apt update
    ```
-   Репозитории main, update, base и extended должны присутствовать в выводе команды.
-
-1. Установите необходимое для работы робота ПО:
-   ```
-   [primo-admin@astra-machine ~]$ sudo apt -y install at xvfb python3-numpy python3-opencv xdotool dotnet-sdk-6.0 graphicsmagick-imagemagick-compat
-   ```
+   Репозитории `main`, `update`, `base` и `extended` должны присутствовать в выводе команды.
 
 ### Настройка учетной записи агента
 
