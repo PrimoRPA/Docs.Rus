@@ -10,11 +10,7 @@
 
    ![](<../../../../.gitbook/assets1/primo-ai/user-guide/data-in-project.png>)
 
-1. Нажмите кнопку **Добавить изображения**.
-
-   ![](<../../../../.gitbook/assets1/primo-ai/user-guide/data-button-add-file.png>)
-
-   Откроется форма для загрузки изображений.
+1. Нажмите кнопку **Добавить изображения** — откроется форма для загрузки изображений.
 
    ![](<../../../../.gitbook/assets1/primo-ai/user-guide/add-data-form.png>)
 
