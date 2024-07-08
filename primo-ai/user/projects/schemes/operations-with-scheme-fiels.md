@@ -66,7 +66,7 @@
    ![](<../../../../.gitbook/assets1/primo-ai/user-guide/fields-actions.png>)
 
 1. Выберите действие **Редактировать**.
-1. Измените свойства поля и выберите **Сохранить**.
+1. Измените нужные свойства и выберите **Сохранить**.
 
    ![](<../../../../.gitbook/assets1/primo-ai/user-guide/edit-field-form.png>)
 
