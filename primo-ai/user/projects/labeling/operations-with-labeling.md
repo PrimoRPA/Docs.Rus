@@ -71,9 +71,6 @@
 ### Соотнесите поля с изображениями
 
 1. В блоке **Схема** выберите тип поля. 
-
-   ![](<../../../../.gitbook/assets1/primo-ai/classifier-7-new.png>)
-
 2. В панели инструментов выберите **Add Bounding Box (b)**.
 
    ![](<../../../../.gitbook/assets1/primo-ai/classifier-bounding-box.png>)
