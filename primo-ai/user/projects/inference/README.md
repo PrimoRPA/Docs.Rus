@@ -7,7 +7,7 @@
 2. Создание процесса инференса.
 3. Запуск процесса инференса на целевой машине.
 
-![](<../../../../.gitbook/assets1/primo-ai//user-guide/training-page.png>)
+![](<../../../../.gitbook/assets1/primo-ai//user-guide/inference-page.png>)
 
 ## Содержание
 
