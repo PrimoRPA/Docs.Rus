@@ -21,18 +21,18 @@ description: Get result
 ### InferenceResult
 
 Свойства модели Primo.AI.Server.Model.InferenceResult:
-- CreatedAt *[System.DateTime]* — дата создания.
-- ExpiresAt *[System.DateTime]* — дата завершения.
-- ModelType *[String]* — тип модели.
-- ResultIsReady *[Boolean]* — флаг готовности результат.
-- Result *[Primo.AI.Server.Model.InferenceResultContent]* — результат.
-- Files *[List<Primo.AI.Server.Model.InferenceResultFile>]* — обработанные файлы.
+- CreatedAt *[System.DateTime]* — дата создания (запроса на инференс?).
+- ExpiresAt *[System.DateTime]* — дата завершения обработки документа.
+- ModelType *[String]* — тип модели, который использовался для распознавания данных.
+- ResultIsReady *[Boolean]* — флаг готовности результата. 
+- Result *[Primo.AI.Server.Model.InferenceResultContent]* — результат распознавания. Описание модели InferenceResultContent приведено в подразделе ниже.
+- Files *[List<Primo.AI.Server.Model.InferenceResultFile>]* — список обработанных файлов. Описание модели InferenceResultFile приведено ниже.
 
 
 ### InferenceResultFile
 
 Свойства модели Primo.AI.Server.Model.InferenceResultFile:
-- OriginalFileName *[String]* — наименование файла.
+- OriginalFileName *[String]* — название обработанного файла.
 - ContentType *[String]* — тип контента.
 - ContentLength *[Int64]* — длина контента.
 
@@ -41,14 +41,14 @@ description: Get result
 Свойства модели Primo.AI.Server.Model.InferenceResultContent:
 - CreatedAt *[System.DateTime]* — дата создания.
 - ErrorMsg *[String]* — текст ошибки.
-- Items *[List<Primo.AI.Server.Model.InferenceResultItem>]* — элементы.
+- Items *[List<Primo.AI.Server.Model.InferenceResultItem>]* — список распознанных элементов. Описание структуры элемента приведено ниже.
 
 ### InferenceResultItem
 
 Свойства модели Primo.AI.Server.Model.InferenceResultItem:
 - Field *[String]* — имя поля.
 - Text *[String]* — текст поля.
-- Confidence *[Decimal]* — уверенность.
+- Confidence *[Decimal]* — уверенность в корректности распознанных данных.
 - Rows *[List<Primo.AI.Server.Model.InferenceResultItemRow>]* — табличные данные.
 
 ### InferenceResultItemRow
