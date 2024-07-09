@@ -5,8 +5,11 @@
 
 ## Обновления и улучшения (режим Pro)
 
+1. Добавлен новый элемент [Закрыть вкладку брузера (Close Tab)](https://github.com/PrimoRPA/Docs.Rus/issues/1477), позволяющий закрывать вкладки в браузерах (IE, Chrome, Firefox) по индексу, заголовку или переменной, полученной на уровне элементов **Open Browser (Открыть браузер)**, **Attach Browser (Присоединиться к браузеру)**, **Open Application (Открыть приложение)**, **Attach Application (Присоединиться к приложению)**. При использовании браузера Firefox с Манифестом V3 необходимо убедиться, что присутствуют нужные разрешения.
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/3702
 1. Улучшено отображение шаблонов в интерфейсе Студии: теперь шаблоны отображаются на языке, выбранном в настройках интерфейса (русском или английском).
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/20598
+
 
 
 
@@ -33,3 +36,4 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/20598
 
 1. Исправлена ошибка, из-за которой при отладке процесса с типом **Диаграмма** не происходил переход внутрь элементов, несмотря на активированную опцию `В глубину`.
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/21266
+
