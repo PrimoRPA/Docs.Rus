@@ -49,7 +49,7 @@
 Для настройки целевой машины требуется последовательно выполнить все шаги настоящего руководства.
  
 
-## Действия при установке Astra Linux
+## 1. Действия при установке Astra Linux
 
 При установке Astra Linux на целевой машине необходимо создать пользователя-администратора. Для этого на экране «Настройка учетных записей и паролей» введите имя `primo-admin` для учетной записи администратора.
 
@@ -229,3 +229,66 @@ passwd: пароль успешно обновлён
 [primo-admin@astra-machine ~]$ sudo systemctl daemon-reload
 [primo-admin@astra-machine ~]$ sudo systemctl enable /etc/systemd/system/Primo.AI.Agent.service
 ```
+
+## 2. Настройка IDP-ядра
+
+Установите библиотеку python3, tesseract и другие пакеты с помощью команд:
+```
+# apt-get update 
+# apt install python3=3.11 python3-venv=3.11 libsm6 libxext6 tesseract-ocr 
+```
+
+Создайте папку с инсталляцией:
+```
+# mkdir /opt/Primo.AI/IDP
+```
+
+Скопируйте папку `/srv/samba/shared/install/IDP` в каталог `/opt/Primo.AI/IDP`:
+```
+# cp -R /srv/samba/shared/install/IDP/* /opt/Primo.AI/IDP
+```
+
+Установите права запуска для пользователя `idp`:
+```
+# chown idp /opt/Primo.AI/IDP/*
+[primo-admin@astra-machine ~]$ sudo chmod a+x /opt/Primo.AI/IDP
+[primo-admin@astra-machine ~]$ sudo chown -R idp.primo-ai /opt/Primo.AI/IDP 
+[primo-admin@astra-machine ~]$ sudo chmod -R g+w /opt/Primo.AI/IDP
+```
+
+Создание и активация виртуальной среды venv:
+```
+# python3 –m venv /opt/Primo.AI/IDP/venv
+# source /opt/Primo.AI/IDP/venv/bin/activate
+```
+
+Установка пакетов python. 
+```
+# python -m ensurepip –upgrade
+```
+•	Если для IDP-процесса будет использоваться CPU:
+```
+# pip3 install –r /opt/Primo.AI/IDP/prequisites_cpu.txt
+# pip3 install –r /opt/Primo.AI/IDP/requirements_cpu.txt
+```
+•	Если для IDP-процесса будет использоваться GPU:
+```
+# pip3 install –r /opt/Primo.AI/IDP/prequisites.txt	
+# pip3 install –r /opt/Primo.AI/IDP/requirements.txt
+ ```
+
+
+## Проверка настройки целевой машины
+
+Проверяем доступность Primo.AI.Api с целевой машины. На целевой машине выполняем команду:
+```
+# curl -k https://<IP-адрес-Primo.Ai.Api>:44392/api/version
+```
+
+и убеждаемся, что вернется версия Primo.Ai.Api.
+
+Проверяем работу агента на целевой машине. На машине Primo.Ai.Api выполняем команду:
+```
+# curl -k https://<IP-адрес-целевой-машины>:5002/api/version
+```
+и убеждаемся, что вернулась версия агента.
