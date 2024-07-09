@@ -16,7 +16,7 @@ description: Get result
 ## Свойства
 Символ `*` указывает на обязательность заполнения свойства. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
   
-1. **Ключ запроса\*** *[System.Guid]* — ключ запроса. Ключом является результат выполнения элемента [**Создать запрос**](https://github.com/PrimoRPA/Docs.Rus/blob/1299-%D0%BD%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82-%D0%BF%D0%BE-primoai/g_elements/el_extra/ai_server/createrequest.md), сохраненный в переменную.
+1. **Ключ запроса\*** *[System.Guid]* — идентификатор запроса к Primo RPA AI Server. Получить его можно в результате выполнения элемента [**Создать запрос**](https://github.com/PrimoRPA/Docs.Rus/blob/1299-%D0%BD%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82-%D0%BF%D0%BE-primoai/g_elements/el_extra/ai_server/createrequest.md).
 1. **Результат** *[Primo.AI.Server.Model.InferenceResult]* — название переменной для сохранения результата обработки документов. Описание модели InferenceResult представлено ниже.
 
 
