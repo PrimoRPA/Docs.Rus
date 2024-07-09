@@ -13,16 +13,18 @@ description: Get result
 ## Свойства
 Символ `*` указывает на обязательность заполнения свойства. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
   
-  - Ключ запроса*: [System.Guid] Ключ запроса
-  - Результат: [Primo.AI.Server.Model.InferenceResult] Результат обработки документов
+1. **Ключ запроса\*** *[System.Guid]* — ключ запроса.
+1. **Результат** *[Primo.AI.Server.Model.InferenceResult]* — результат обработки документов.
 
-Primo.AI.Server.Model.InferenceResult - Свойства:
-  - CreatedAt [System.DateTime]: Дата создания
-  - ExpiresAt [System.DateTime]: Дата завершения
-  - ModelType [String]: Тип модели
-  - ResultIsReady [Boolean]: Флаг готовности результат
-  - Result [Primo.AI.Server.Model.InferenceResultContent]: Результат
-  - Files [List<Primo.AI.Server.Model.InferenceResultFile>]: Обработанные файлы
+## Описание модели InferenceResult
+
+Свойства модели Primo.AI.Server.Model.InferenceResult:
+- CreatedAt [System.DateTime]: Дата создания.
+- ExpiresAt [System.DateTime]: Дата завершения.
+- ModelType [String]: Тип модели.
+- ResultIsReady [Boolean]: Флаг готовности результат.
+- Result [Primo.AI.Server.Model.InferenceResultContent]: Результат.
+- Files [List<Primo.AI.Server.Model.InferenceResultFile>]: Обработанные файлы.
 
 Primo.AI.Server.Model.InferenceResultFile - Свойства:
   - OriginalFileName [String]: Наименование файла
