@@ -2,7 +2,6 @@
 description: Get result
 ---
 
-
 # Получить результат
 
 Элемент получает от Primo RPA AI Server результат распознавания документа моделью нейронной сети. Результат сохраняется в переменную.
@@ -13,35 +12,47 @@ description: Get result
 ## Свойства
 Символ `*` указывает на обязательность заполнения свойства. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
   
-1. **Ключ запроса\*** *[System.Guid]* — ключ запроса.
-1. **Результат** *[Primo.AI.Server.Model.InferenceResult]* — результат обработки документов.
+1. **Ключ запроса\*** *[System.Guid]* — ключ запроса. Ключом является результат выполнения элемента [**Создать запрос**](), сохраненный в переменную.
+1. **Результат** *[Primo.AI.Server.Model.InferenceResult]* — название переменной для сохранения результата обработки документов. Описание модели InferenceResult представлено ниже.
 
-## Описание модели InferenceResult
+
+## Описание моделей
+
+### InferenceResult
 
 Свойства модели Primo.AI.Server.Model.InferenceResult:
-- CreatedAt [System.DateTime]: Дата создания.
-- ExpiresAt [System.DateTime]: Дата завершения.
-- ModelType [String]: Тип модели.
-- ResultIsReady [Boolean]: Флаг готовности результат.
-- Result [Primo.AI.Server.Model.InferenceResultContent]: Результат.
-- Files [List<Primo.AI.Server.Model.InferenceResultFile>]: Обработанные файлы.
+- CreatedAt *[System.DateTime]* — дата создания.
+- ExpiresAt *[System.DateTime]* — дата завершения.
+- ModelType *[String]* — тип модели.
+- ResultIsReady *[Boolean]* — флаг готовности результат.
+- Result *[Primo.AI.Server.Model.InferenceResultContent]* — результат.
+- Files *[List<Primo.AI.Server.Model.InferenceResultFile>]* — обработанные файлы.
 
-Primo.AI.Server.Model.InferenceResultFile - Свойства:
-  - OriginalFileName [String]: Наименование файла
-  - ContentType [String]: Тип контента
-  - ContentLength [Int64]: Длина контента
 
-Primo.AI.Server.Model.InferenceResultContent - Свойства:
-  - CreatedAt [System.DateTime]: Дата создания
-  - ErrorMsg [String]: Текст ошибки
-  - Items [List<Primo.AI.Server.Model.InferenceResultItem>]: Элементы
+### InferenceResultFile
 
-Primo.AI.Server.Model.InferenceResultItem - Свойства:
-  - Field [String]: Имя поля
-  - Text [String]: Текст поля
-  - Confidence [Decimal]: Уверенность
-  - Rows [List<Primo.AI.Server.Model.InferenceResultItemRow>]: Табличные данные
+Свойства модели Primo.AI.Server.Model.InferenceResultFile:
+- OriginalFileName *[String]* — наименование файла.
+- ContentType *[String]* — тип контента.
+- ContentLength *[Int64]* — длина контента.
 
-Primo.AI.Server.Model.InferenceResultItemRow - Свойства:
-  - Confidence [Decimal]: Уверенность
-  - Columns [List<String>]: Список строк
+### InferenceResultContent
+
+Свойства модели Primo.AI.Server.Model.InferenceResultContent:
+- CreatedAt *[System.DateTime]* — дата создания.
+- ErrorMsg *[String]* — текст ошибки.
+- Items *[List<Primo.AI.Server.Model.InferenceResultItem>]* — элементы.
+
+### InferenceResultItem
+
+Свойства модели Primo.AI.Server.Model.InferenceResultItem:
+- Field *[String]* — имя поля.
+- Text *[String]* — текст поля.
+- Confidence *[Decimal]* — уверенность.
+- Rows *[List<Primo.AI.Server.Model.InferenceResultItemRow>]* — табличные данные.
+
+### InferenceResultItemRow
+
+Свойства модели Primo.AI.Server.Model.InferenceResultItemRow:
+- Confidence *[Decimal]* — уверенность.
+- Columns *[List<String>]* — список строк.
