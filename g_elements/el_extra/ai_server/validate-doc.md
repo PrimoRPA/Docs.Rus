@@ -6,7 +6,7 @@ description: Validate
 
 Элемент выполняет валидацию распознавания документа. Используется вне контейнера **Сервер Primo.AI**.
 
-![](<../../../.gitbook/assets1/windows_items/WFAttachPrimoAIServer.png>)
+![](<../../../.gitbook/assets1/windows_items/validate-doc.png>)
 
 
 ## Перед началом работы
