@@ -8,6 +8,10 @@ description: Get result
 
 ![](<../../../.gitbook/assets1/windows_items/WFPrimoAIGetInference.png>)
 
+## Перед началом работы
+
+Убедитесь, что в студии установлена библиотека [Primo.AI.Server](). 
+
 
 ## Свойства
 Символ `*` указывает на обязательность заполнения свойства. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
