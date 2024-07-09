@@ -4,8 +4,7 @@ description: Validate
 
 # Проверить документ
 
-
-Компонент, производящий валидацию распознавания документа.
+Элемент выполняет валидацию распознавания документа.
 
 ![](<../../../.gitbook/assets1/windows_items/WFAttachPrimoAIServer.png>)
 
@@ -19,4 +18,4 @@ description: Validate
 Символ `*` указывает на обязательность заполнения свойства. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
 
 1. **Документ\*** *[String]* — путь к файлу обрабатываемого документа.
-1. **InferenceResult** *[Primo.AI.Server.Model.InferenceResult]* — переменная для хранения данных проверки.
+1. **InferenceResult** *[Primo.AI.Server.Model.InferenceResult]* — название переменной для сохранения данных проверки.
