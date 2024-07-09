@@ -25,7 +25,7 @@ description: Get result
 ### InferenceResult
 
 Свойства модели Primo.AI.Server.Model.InferenceResult:
-- CreatedAt *[System.DateTime]* — дата создания (запроса на инференс?).
+- CreatedAt *[System.DateTime]* — дата создания запроса на инференс.
 - ExpiresAt *[System.DateTime]* — дата завершения обработки документа.
 - ModelType *[String]* — тип модели, который использовался для распознавания данных.
 - ResultIsReady *[Boolean]* — флаг готовности результата. 
