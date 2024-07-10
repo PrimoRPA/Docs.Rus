@@ -37,3 +37,17 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/20598
 1. Исправлена ошибка, из-за которой при отладке процесса с типом **Диаграмма** не происходил переход внутрь элементов, несмотря на активированную опцию `В глубину`.
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/21266
 
+2. Исправлена ошибка, возникавшая при создании библиотеки, если в проекте присутствовали переменные типа DataTable. Теперь процесс создания библиотеки выполняется корректно и без ошибок.
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/17479
+
+
+
+## Режим Citizen
+
+
+
+## Где найти
+[Скачать дистрибутив Primo RPA Studio Enterprise](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FRelease%2FStudio%2FWindows).
+
+[Скачать дистрибутив Primo RPA Robot](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FRelease%2FRobot%2FWindows):
+* **Primo RPA Robot 1.24.6** — предназначен для установки на локальной рабочей станции. Выступает в роли цифрового ассистента пользователя. Дистрибутив поставляется в разрядности x64 и x86.
