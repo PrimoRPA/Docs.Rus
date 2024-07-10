@@ -20,24 +20,27 @@ description: Change resolution
 **Вывод**
 1. **Разрешение** *[Avalonia.Point]* - Текущее разрешение экрана.  
 
-## Только код  
+## Только код
 Пример использования элемента в процессе с типом **Только код** (Pure code):  
 
-{% tabs %}  
-{% tab title="C#" %}  
-```csharp  
-LTools.Desktop.ChangeResolutionApplication(wf, 1920, 1080, 20000);  
+{% tabs %}
+{% tab title="C#" %}
+```csharp
+LTools.Desktop.DesktopApp.ChangeResolution(wf, 1920, 1080, 20000);
 ```
-{% endtab %}  
-{% tab title="Python" %}  
-```python  
-LTools.Desktop.ChangeResolutionApplication(wf, 1920, 1080, 20000)  
+{% endtab %}
+
+{% tab title="Python" %}
+```python
+LTools.Desktop.DesktopApp.ChangeResolution(wf, 1920, 1080, 20000)
 ```
-{% endtab %}  
-{% tab title="JavaScript" %}  
-```javascript  
-_lib.LTools.Desktop.ChangeResolutionApplication(wf, 1920, 1080, 20000);  
+{% endtab %}
+
+{% tab title="JavaScript" %}
+```javascript
+_lib.LTools.Desktop.DesktopApp.ChangeResolution(wf, 1920, 1080, 20000);
 ```
-{% endtab %}  
-{% endtabs %}  
+{% endtab %}
+{% endtabs %}
+
 
