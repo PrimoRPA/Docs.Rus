@@ -1,5 +1,5 @@
 ---
-description: Validate
+description: Validate document
 ---
 
 # Проверить документ
