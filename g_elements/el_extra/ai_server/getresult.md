@@ -24,7 +24,7 @@ description: Get result
 
 ### InferenceResult
 
-Свойства модели Primo.AI.Server.Model.InferenceResult:
+Свойства модели `Primo.AI.Server.Model.InferenceResult`:
 - CreatedAt *[System.DateTime]* — дата создания запроса на инференс.
 - ExpiresAt *[System.DateTime]* — дата завершения обработки документа.
 - ModelType *[String]* — тип модели, который использовался для распознавания данных.
@@ -35,14 +35,14 @@ description: Get result
 
 #### InferenceResultFile
 
-Свойства модели Primo.AI.Server.Model.InferenceResultFile:
+Свойства модели `Primo.AI.Server.Model.InferenceResultFile`:
 - OriginalFileName *[String]* — название обработанного файла.
 - ContentType *[String]* — тип контента.
 - ContentLength *[Int64]* — длина контента.
 
 #### InferenceResultContent
 
-Свойства модели Primo.AI.Server.Model.InferenceResultContent:
+Свойства модели `Primo.AI.Server.Model.InferenceResultContent`:
 - CreatedAt *[System.DateTime]* — дата создания результата распознавания.
 - ErrorMsg *[String]* — текст ошибки. Например: `"Не запущены агенты для модели"`.
 - Items *[List<Primo.AI.Server.Model.InferenceResultItem>]* — список распознанных элементов. Описание структуры элемента приведено ниже.
@@ -51,7 +51,7 @@ description: Get result
 
 #### InferenceResultItem
 
-Свойства модели Primo.AI.Server.Model.InferenceResultItem:
+Свойства модели `Primo.AI.Server.Model.InferenceResultItem`:
 - Field *[String]* — имя поля.
 - Text *[String]* — текст поля.
 - ModelType *[String]* — тип модели (для классификации).
@@ -61,13 +61,13 @@ description: Get result
 
 ### InferenceResultItemRow
 
-Свойства модели Primo.AI.Server.Model.InferenceResultItemRow:
+Свойства модели `Primo.AI.Server.Model.InferenceResultItemRow`:
 - Confidence *[Decimal]* — уверенность.
 - Columns *[List<String>]* — список строк.
 
 
 ### BoundingBox
-Свойства модели Primo.AI.Server.Model.BoundingBox:
+Свойства модели `Primo.AI.Server.Model.BoundingBox`:
 - MinX *[Decimal]* — минимальная координата X.
 - MaxX *[Decimal]* — максимальная координата X.
 - MinY *[Decimal]* — минимальная координата Y.
