@@ -861,6 +861,7 @@
 		* [Скачать изображение](g_elements/el-linux-basic/els-browser/el-browser-getimage.md)
 		* [Якорь](g_elements/el-linux-basic/els-browser/el-browser-anchor.md)
 	* [Рабочий стол](g_elements/el-linux-basic/els-desktop/readme.md)
+  		* [Активировать окно](g_elements/el-linux-basic/els-desktop/el-desktop-activatewindow.md) 
 		* [Исчезновение элемента](g_elements/el-linux-basic/els-desktop/el-desktop-elementvanish.md)
 		* [Клик мышью](g_elements/el-linux-basic/els-desktop/el-desktop-click.md)
 		* [Получить текст](g_elements/el-linux-basic/els-desktop/el-desktop-gettext.md)
