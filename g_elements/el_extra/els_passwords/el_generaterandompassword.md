@@ -1,5 +1,5 @@
 ---
-description: Validate
+description: Generate random password
 ---
 
 # Сгенерировать случайный пароль
