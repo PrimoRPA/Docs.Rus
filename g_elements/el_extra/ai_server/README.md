@@ -19,4 +19,4 @@
 
 ![](<../../../.gitbook/assets1/windows_items/rpa-flow-for-server-ai.png>)
 
-Элемент **Wait** ([Ожидание](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_logic/el_logic_wait)), не входящий в состав библиотеки, может быть использован для того, чтобы предоставить серверу больше времени для распознавания.
+Элемент **Wait** ([Ожидание](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_logic/el_logic_wait)), не входящий в состав библиотеки, используется в данном примере, чтобы предоставить серверу больше времени для распознавания.
