@@ -6,7 +6,7 @@ description: Validate
 
 ![](<../../../.gitbook/assets1/windows_items/library/WFGenerateRandomPassword.png>)
 
-Элемент генерирует новый пароль.
+Элемент генерирует случайный пароль. Требования к паролю необходимо указать в свойствах элемента.
 
 ## Перед началом работы
 
