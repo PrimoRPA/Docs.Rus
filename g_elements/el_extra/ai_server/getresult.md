@@ -4,7 +4,7 @@ description: Get result
 
 # Получить результат
 
-Элемент получает от Primo RPA AI Server результат распознавания документа ядром IDP. Результат сохраняется в переменную.
+Элемент получает от Primo RPA AI Server результат обработки документа ядром IDP. Результат сохраняется в переменную.
 
 ![](<../../../.gitbook/assets1/windows_items/WFPrimoAIGetInference.png>)
 
@@ -28,35 +28,47 @@ description: Get result
 - CreatedAt *[System.DateTime]* — дата создания запроса на инференс.
 - ExpiresAt *[System.DateTime]* — дата завершения обработки документа.
 - ModelType *[String]* — тип модели, который использовался для распознавания данных.
-- ResultIsReady *[Boolean]* — флаг готовности результата. 
+- ResultIsReady *[Boolean]* — флаг готовности результата: true или false.
 - Result *[Primo.AI.Server.Model.InferenceResultContent]* — результат распознавания. Описание модели InferenceResultContent приведено в подразделе ниже.
 - Files *[List<Primo.AI.Server.Model.InferenceResultFile>]* — список обработанных файлов. Описание модели InferenceResultFile приведено ниже.
 
 
-### InferenceResultFile
+#### InferenceResultFile
 
 Свойства модели Primo.AI.Server.Model.InferenceResultFile:
 - OriginalFileName *[String]* — название обработанного файла.
 - ContentType *[String]* — тип контента.
 - ContentLength *[Int64]* — длина контента.
 
-### InferenceResultContent
+#### InferenceResultContent
 
 Свойства модели Primo.AI.Server.Model.InferenceResultContent:
-- CreatedAt *[System.DateTime]* — дата создания.
-- ErrorMsg *[String]* — текст ошибки.
+- CreatedAt *[System.DateTime]* — дата создания результата распознавания.
+- ErrorMsg *[String]* — текст ошибки. Например: `"Не запущены агенты для модели"`.
 - Items *[List<Primo.AI.Server.Model.InferenceResultItem>]* — список распознанных элементов. Описание структуры элемента приведено ниже.
+- ThresholdOKMin *[String]* — порог, когда считается, что значение распозналось достоверно.
+- ThresholdWarnMin *[String]* — порог, когда считается, что значение распозналось неоднозначно.
 
-### InferenceResultItem
+#### InferenceResultItem
 
 Свойства модели Primo.AI.Server.Model.InferenceResultItem:
 - Field *[String]* — имя поля.
 - Text *[String]* — текст поля.
+- ModelType *[String]* — тип модели (для классификации).
 - Confidence *[Decimal]* — уверенность в корректности распознанных данных.
-- Rows *[List<Primo.AI.Server.Model.InferenceResultItemRow>]* — табличные данные.
+- Coordinates *[BoundingBox]* — координаты элемента, выделенного на изображении инструментом BoundingBox. Описание свойств модели приведено в подразделе ниже.
+- Rows *[List<Primo.AI.Server.Model.InferenceResultItemRow>]* — табличные данные, при наличии их в документе.
 
 ### InferenceResultItemRow
 
 Свойства модели Primo.AI.Server.Model.InferenceResultItemRow:
 - Confidence *[Decimal]* — уверенность.
 - Columns *[List<String>]* — список строк.
+
+
+### BoundingBox
+Свойства модели Primo.AI.Server.Model.BoundingBox:
+- MinX *[Decimal]* — минимальная координата X.
+- MaxX *[Decimal]* — максимальная координата X.
+- MinY *[Decimal]* — минимальная координата Y.
+- MaxY *[Decimal]* — максимальная координата Y.
