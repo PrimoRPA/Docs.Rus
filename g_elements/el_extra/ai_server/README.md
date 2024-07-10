@@ -11,3 +11,10 @@
 Данный набор элементов будет доступен в Студии только после [установки библиотеки](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects/manage-dependencies#menedzher-zavisimostei) **Primo.AI.Server**. Вы сможете увидеть их на панели элементов в группе **AI**.
 
 ![](<../../../.gitbook/assets1/windows_items/library/ai-server-group.png>)
+
+
+## Порядок применения элементов
+
+Ваш проект, выполненный с помощью элементов библиотеки **Primo.AI.Server**, может выглядеть так:
+
+![](<../../../.gitbook/assets1/windows_items/rpa-flow-for-server-ai.png>)
