@@ -718,6 +718,8 @@
   * [Networking](g\_elements/el\_extra/els\_networking/README.md)
     * [Запрос HTTP](g\_elements/el\_extra/els\_networking/el\_httpclient.md)
     * [Запрос SOAP](g\_elements/el\_extra/els\_networking/el\_soaprequest.md)
+  * [Passwords](g\_elements/el\_extra/els\_passwords//README.md)
+    * [Сгенерировать случайный пароль](g\_elements/el\_extra/els\_passwords/el\_generaterandompassword.md)
   * [ODF/OXML](g\_elements/el\_extra/odf\_oxml/README.md)
     * [ODF — Документы](g\_elements/el\_extra/odf\_oxml/doc/README.md)
        * [Документ ODF](g\_elements/el\_extra/odf\_oxml/doc/odf\_app.md)
