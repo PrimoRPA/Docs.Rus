@@ -1,3 +1,7 @@
+---
+Description: Element exists
+---
+
 # Присутствие элемента
 
 ![](../../../.gitbook/assets1/Desktop-ElementExists.PNG)
