@@ -28,7 +28,7 @@
 
 В строке с вашим шаблоном обучения выберите действие **Процессы**.
 
-![](<../../../../.gitbook/assets1/primo-ai/class-goto-training-proccesses.png>) 
+![](<../../../../.gitbook/assets1/primo-ai/user-guide/goto-training-processes.png>) 
 
 Нажмите кнопку **Добавить процессы обучения**.
   
