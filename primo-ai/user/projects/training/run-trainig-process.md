@@ -32,7 +32,7 @@
 
 Нажмите кнопку **Добавить процессы обучения**.
   
-![](<../../../../.gitbook/assets1/primo-ai/add-training-proccess-button.png>) 
+![](<../../../../.gitbook/assets1/primo-ai/user-guide/add-training-proccess-button.png>) 
 
 В открывшейся форме укажите целевую машину, на которой будет проводиться обучение модели, и нажмите **Сохранить**.
 
