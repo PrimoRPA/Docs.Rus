@@ -32,11 +32,11 @@
 
 Нажмите кнопку **Добавить процессы обучения**.
   
-![](<../../../../.gitbook/assets1/primo-ai/class-add-training-proccess.png>) 
+![](<../../../../.gitbook/assets1/primo-ai/add-training-proccess-button.png>) 
 
 В открывшейся форме укажите целевую машину, на которой будет проводиться обучение модели, и нажмите **Сохранить**.
 
-![](<../../../../.gitbook/assets1/primo-ai//user-guide/add-training-process-form.png>)
+![](<../../../../.gitbook/assets1/primo-ai//user-guide/create-training-process-form.png>)
 
 :large_orange_diamond:***Примечание**. На одной целевой машине можно создать только один процесс обучения. Целевая машина заранее настраивается администратором системы. Если у вас нет доступных целевых машин, обратитесь с данным вопросом к ответственному лицу*.
 
