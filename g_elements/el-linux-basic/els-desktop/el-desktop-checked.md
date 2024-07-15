@@ -1,3 +1,7 @@
+---
+Description: Checked
+---
+
 # Выбрать элемент
 
 ![](../../../.gitbook/assets1/checked-element.png)
