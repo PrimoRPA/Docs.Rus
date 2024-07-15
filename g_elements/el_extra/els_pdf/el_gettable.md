@@ -1,10 +1,10 @@
-# Чтение таблицы
+# Чтение таблицы PDF
 
-*Eng: Get table*
+*Eng: Get table PDF*
 
 Элемент предназначен для автоматического извлечения табличных данных из PDF-документов. Он обеспечивает быстрый и точный способ чтения таблиц со страниц PDF, что особенно полезно при обработке большого количества документов или при интеграции данных из PDF в другие системы и приложения.
 
-Чтобы элемент стал доступен в вашей Студии, необходимо установить библиотеку [Primo.Office.Pdf](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_pdf).
+Чтобы элемент стал доступен в Студии, необходимо установить библиотеку [Primo.Office.Pdf](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_pdf) либо [обновить ее](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_pdf#obnovlenie-paketa) до версии 1.1.0
 
 ![](<../../../.gitbook/assets1/gettable.png>)
 
