@@ -1,3 +1,7 @@
+---
+Description: Close window
+---
+
 # Закрыть окно
 
 ![](../../../.gitbook/assets1/close-window-activity.png)
