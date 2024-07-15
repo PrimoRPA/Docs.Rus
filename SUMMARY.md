@@ -863,6 +863,7 @@
 	* [Рабочий стол](g_elements/el-linux-basic/els-desktop/readme.md)
   		* [Активировать окно](g_elements/el-linux-basic/els-desktop/el-desktop-activatewindow.md) 
 		* [Исчезновение элемента](g_elements/el-linux-basic/els-desktop/el-desktop-elementvanish.md)
+  		* [Закрыть окно](g_elements/el-linux-basic/els-desktop/el-desktop-closewindow.md) 
 		* [Клик мышью](g_elements/el-linux-basic/els-desktop/el-desktop-click.md)
 		* [Получить текст](g_elements/el-linux-basic/els-desktop/el-desktop-gettext.md)
  		* [Присутствие элемента](g_elements/el-linux-basic/els-desktop/el-desktop-exists.md)
