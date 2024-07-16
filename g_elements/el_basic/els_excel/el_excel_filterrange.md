@@ -4,9 +4,9 @@
 
 ![](<../../../.gitbook/assets/image (265).png>)
 
-Элемент устанавливает фильтр в указанном диапазоне ячеек Excel. Путь до файла настраивается в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app).
+Элемент устанавливает фильтр в указанном диапазоне ячеек Excel. Фильтр позволит отобразить только нужные данные и временно скроет остальные. 
 
-При необходимости сохранить изменения в файле, используйте элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_save).
+ Путь до файла Excel настраивается в контейнере [Приложение Excel](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_app). При необходимости сохранить изменения в файле, используйте элемент [Сохранить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_excel/el_excel_save).
 
 ## Свойства
 
