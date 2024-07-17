@@ -24,8 +24,6 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/147
 * Активная вкладка
 * Открыть вкладку"
 * [Закрыть вкладку брузера (Close Tab)](https://github.com/PrimoRPA/Docs.Rus/issues/1477), позволяющий закрывать вкладки в браузерах (IE, Chrome, Firefox) по индексу, заголовку или переменной, полученной на уровне элементов **Open Browser (Открыть браузер)**, **Attach Browser (Присоединиться к браузеру)**, **Open Application (Открыть приложение)**, **Attach Application (Присоединиться к приложению)**. При использовании браузера Firefox с Манифестом V3 необходимо убедиться, что присутствуют нужные разрешения.
-
-
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/3702
 
 
@@ -51,6 +49,11 @@ https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/17479
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/15534
 1. Исправлена ошибка в чистом коде при использовании оператора else в отладчике чистого кода v2. Теперь, при выполнении блока if, блок else корректно пропускается, и отладка работает без ошибок.
 https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/15541
+1. Исправлено нарушение выполнения последовательности контейнеров внутри диаграммы Роботом из Оркестратора. Ранее в версии ядра v1 некорректно пропускались элементы.
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/24654
+1. Исправлено некорректное поведение в режиме Отладки (Debug) при установленной галочке **Продолжить при ошибке**. Теперь при возникновении исключения внутри активности **TryCatch**, выполняются действия внутри блока **Catch**, как и должно быть.
+https://azure-dos.s1.primo1.orch/PrimoCollection/Studio/_workitems/edit/17334
+
 
 ## Режим Citizen
 
