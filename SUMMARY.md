@@ -1084,7 +1084,7 @@
 * [Процессы](idea-hub/processes/readme-processes.md)
 	* [Создание процесса](idea-hub/processes/create-process.md)
 	* [Редактирование процесса](idea-hub/processes/edit-process.md)
-* [Импорт и экспорт]
+* [Импорт и экспорт](idea-hub/import-export/readme.md)
 	* [Импорт из Оркестратора](idea-hub/import-export/import-from-orchestrator.md)
  	* [Файл process.xlsx](idea-hub/import-export/file-process.md)
   	* [Файл areas.xlsx](idea-hub/import-export/file-areas.md)
