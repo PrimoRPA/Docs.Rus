@@ -1077,17 +1077,21 @@
 	* [Установка на ОС Linux](idea-hub/installation/installation-linux.md)
 	* [Установка на ОС Windows](idea-hub/installation/installation-windows.md)
 	* [Обновление](idea-hub/installation/update.md)
+ 	* [Настройка cron](idea-hub/installation/cron.md)
+  	* [Интеграция с LDAP](idea-hub/installation/integration-ldap.md)
+* [Начало работы](idea-hub/getting-started/readme.md)
+	* [Работа с идеями](idea-hub/getting-started/ideas.md)
 * [Процессы](idea-hub/processes/readme-processes.md)
 	* [Создание процесса](idea-hub/processes/create-process.md)
 	* [Редактирование процесса](idea-hub/processes/edit-process.md)
-	* [Файл process.xlsx](idea-hub/file-process.md)
-  	* [Файл areas.xlsx](idea-hub/file-areas.md)
-  	* [Файл users.xlsx](idea-hub/file-users.md)
-* [Импорт из Оркестратора](idea-hub/import-from-orchestrator.md)
-* [Настройка cron](idea-hub/cron.md)
+* [Импорт и экспорт](idea-hub/import-export/readme.md)
+	* [Импорт из Оркестратора](idea-hub/import-export/import-from-orchestrator.md)
+ 	* [Файл process.xlsx](idea-hub/import-export/file-process.md)
+  	* [Файл areas.xlsx](idea-hub/import-export/file-areas.md)
+  	* [Файл users.xlsx](idea-hub/import-export/file-users.md)
 * [Настройка формул](idea-hub/formulas.md)
 * [Создание индикаторов](idea-hub/indicators.md)
-* [Интеграция с LDAP](idea-hub/integration-ldap.md)
+
 
 
 
