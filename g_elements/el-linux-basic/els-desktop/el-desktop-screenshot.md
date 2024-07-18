@@ -1,3 +1,7 @@
+---
+Description: Screenshot
+---
+
 # Снимок рабочего стола
 
 ![](../../../.gitbook/assets1/screenshot-activity.png)
