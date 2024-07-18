@@ -1,3 +1,7 @@
+---
+Description: Get processes
+---
+
 # Список процессов
 
 ![](../../../.gitbook/assets1/get-processes-activity.png)
