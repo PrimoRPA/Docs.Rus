@@ -14,20 +14,27 @@
 * Возможности импорта данных из других продуктов и ИТ-систем, а также экспорта в них.
 * Быстрый доступ к информации о проектах, их статусах и ответственных.
 
-Пакет онлайн документации Primo RPA Idea Hub содержит следующие разделы:
+Пакет онлайн документации Primo RPA Idea Hub содержит следующие разделы, которые также доступны через меню в левой части страницы:
 
+1. [Общие сведения](https://docs.primo-rpa.ru/primo-rpa/primo-idea-hub/description)
 1. [Установка и обновление](https://docs.primo-rpa.ru/primo-rpa/primo-idea-hub/readme-installation)
    * [Системные требования](https://docs.primo-rpa.ru/primo-rpa/primo-idea-hub/readme-installation/system-requirements)
    * [Установка на ОС Linux](https://docs.primo-rpa.ru/primo-rpa/primo-idea-hub/readme-installation/installation-linux)
    * [Установка на ОС Windows](https://docs.primo-rpa.ru/primo-rpa/primo-idea-hub/readme-installation/installation-windows)
    * [Обновление](https://docs.primo-rpa.ru/primo-rpa/primo-idea-hub/readme-installation/update)
-3. [Процессы](https://docs.primo-rpa.ru/primo-rpa/primo-idea-hub/readme-processes)
+   * [Настройка cron](https://docs.primo-rpa.ru/primo-rpa/primo-idea-hub/cron)
+   * [Интеграция с LDAP](https://docs.primo-rpa.ru/primo-rpa/primo-idea-hub/integration-ldap)
+1. [Начало работы](https://docs.primo-rpa.ru/primo-rpa/primo-idea-hub/getting-started)
+   * [Работа с идеями](https://docs.primo-rpa.ru/primo-rpa/primo-idea-hub/getting-started/ideas)
+1. [Процессы](https://docs.primo-rpa.ru/primo-rpa/primo-idea-hub/readme-processes)
    * [Создание процесса](https://docs.primo-rpa.ru/primo-rpa/primo-idea-hub/readme-processes/create-process)
    * [Редактирование процесса](https://docs.primo-rpa.ru/primo-rpa/primo-idea-hub/readme-processes/edit-process)
+1. [Импорт и экспорт](https://docs.primo-rpa.ru/primo-rpa/primo-idea-hub/import-export)
+   * [Импорт из Оркестратора](https://docs.primo-rpa.ru/primo-rpa/primo-idea-hub/import-from-orchestrator)
    * [Файл process.xlsx](https://docs.primo-rpa.ru/primo-rpa/primo-idea-hub/readme-processes/file-process)
-5. [Импорт из Оркестратора](https://docs.primo-rpa.ru/primo-rpa/primo-idea-hub/import-from-orchestrator)
-6. [Настройка cron](https://docs.primo-rpa.ru/primo-rpa/primo-idea-hub/cron)
-7. [Настройка формул](https://docs.primo-rpa.ru/primo-rpa/primo-idea-hub/formulas)
-8. [Создание индикаторов](https://docs.primo-rpa.ru/primo-rpa/primo-idea-hub/indicators)
-9. [Интеграция с LDAP](https://docs.primo-rpa.ru/primo-rpa/primo-idea-hub/integration-ldap)
+   * [Файл areas.xlsx](https://docs.primo-rpa.ru/primo-rpa/primo-idea-hub/import-export/file-areas)
+   * [Файл users.xlsx](https://docs.primo-rpa.ru/primo-rpa/primo-idea-hub/import-export/file-users)
+1. [Настройка формул](https://docs.primo-rpa.ru/primo-rpa/primo-idea-hub/formulas)
+1. [Создание индикаторов](https://docs.primo-rpa.ru/primo-rpa/primo-idea-hub/indicators)
+
 
