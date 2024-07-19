@@ -285,16 +285,16 @@
  - **`SecureSocketOptions.None (0)`**
   -  Не должно использоваться шифрование SSL или TLS.
   
- - **`SecureSocketOptions.Auto (4)`**
+ - **`SecureSocketOptions.Auto (1)`**
   -  Разрешает `MailKit.IMailService` выбирать, какие параметры SSL или TLS использовать (по умолчанию). Если сервер не поддерживает SSL или TLS, то соединение будет продолжаться без шифрования.
 
-  - **`SecureSocketOptions.SslOnConnect (1)`**
+  - **`SecureSocketOptions.SslOnConnect (2)`**
   -  Соединение должно сразу использовать шифрование SSL или TLS.
 
- - **`SecureSocketOptions.StartTls (2)`**
+ - **`SecureSocketOptions.StartTls (3)`**
   -  Повышает соединение до использования шифрования TLS сразу после чтения приветствия и возможностей сервера. Если сервер не поддерживает расширение STARTTLS, то соединение завершится с ошибкой и будет выброшено исключение `System.NotSupportedException`.
 
- - **`SecureSocketOptions.StartTlsWhenAvailable (3)`**
+ - **`SecureSocketOptions.StartTlsWhenAvailable (4)`**
   -  Повышает соединение до использования шифрования TLS сразу после чтения приветствия и возможностей сервера, но только если сервер поддерживает расширение STARTTLS.
 
  Для настройки `SecureSocketOption` необходимо в конфигурационном файле в секции e-mail указать соответствующую цифру в зависимости от настроек почтового сервера.
@@ -309,7 +309,7 @@
     "FromSmtp": "mail.primo-rpa.ru",
     "FromSmtpPort": 587,    
     "RequireAuthenticate": true,
-    "SecureSocketOption": **1**
+    "SecureSocketOption": 1
 }
 ```
 
