@@ -1,5 +1,5 @@
 ---
-Description: Emulate input
+Description: Input simulation
 ---
 
 # Эмуляция ввода текста
