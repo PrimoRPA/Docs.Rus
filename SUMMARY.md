@@ -868,7 +868,7 @@
 		* [Выбрать элемент](g_elements/el-linux-basic/els-desktop/el-desktop-checked.md)
 		* [Исчезновение элемента](g_elements/el-linux-basic/els-desktop/el-desktop-elementvanish.md)  
   		* [Закрыть окно](g_elements/el-linux-basic/els-desktop/el-desktop-closewindow.md)
-      		* [Запустить приложение](g_elements/el-linux-basic/els-desktop/el-desktop-startapp.md)  
+    		* [Запустить приложение](g_elements/el-linux-basic/els-desktop/el-desktop-startapp.md)  
 		* [Клик мышью](g_elements/el-linux-basic/els-desktop/el-desktop-click.md)  
   		* [Получение списка](g_elements/el-linux-basic/els-desktop/el-desktop-getlist.md) 
 		* [Получить текст](g_elements/el-linux-basic/els-desktop/el-desktop-gettext.md)  
