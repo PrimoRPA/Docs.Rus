@@ -861,7 +861,7 @@
 		* [Скачать изображение](g_elements/el-linux-basic/els-browser/el-browser-getimage.md)
 		* [Якорь](g_elements/el-linux-basic/els-browser/el-browser-anchor.md)
 	* [Рабочий стол](g_elements/el-linux-basic/els-desktop/readme.md)
-  		* [Типы данных](g_elements/el-linux-basic/els-desktop/datatypes/readme.md)
+  		* [Типы данных](g_elements/el-linux-basic/els-desktop/datatypes/readme.md)  
     			* [UIDataTable](g_elements/el-linux-basic/els-desktop/datatypes/uidatatable.md)  
   		* [Активировать окно](g_elements/el-linux-basic/els-desktop/el-desktop-activatewindow.md)
     		* [Ввод текста](g_elements/el-linux-basic/els-desktop/el-desktop-inputtext.md)
