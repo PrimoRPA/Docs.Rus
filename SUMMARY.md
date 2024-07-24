@@ -123,6 +123,7 @@
 * [Работа с проектами](primo-studio-linux/projects/readme.md)
     * [Зависимости](primo-studio-linux/projects/manage-dependencies.md)
     * [Пространства имен](primo-studio-linux/projects/namespaces.md)
+    * [Поиск в проекте](primo-studio-linux/projects/search.md)
     * [Требования к импорту DLL и NuGet пакетов](primo-studio-linux/projects/import-nuget-dll.md)
 * [Работа с процессами](primo-studio-linux/process/debug/readme.md)
     * [Запуск и отладка](primo-studio-linux/process/debug/debug.md)
