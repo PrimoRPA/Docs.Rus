@@ -1,6 +1,6 @@
 # Выбор значения
 
-![](../../../resources/activities/basic/desktop/selected-element.png)
+![](../../../.gitbook/assets1/selected-element1.png)
 
 Компонент, выбирающий значения в комбо-боксе или списке.
 
