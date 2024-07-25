@@ -866,6 +866,7 @@
 			* [UIDataTable](g_elements/el-linux-basic/els-desktop/datatypes/uidatatable.md)
   		* [Активировать окно](g_elements/el-linux-basic/els-desktop/el-desktop-activatewindow.md)
 		* [Ввод текста](g_elements/el-linux-basic/els-desktop/el-desktop-inputtext.md)
+ 		* [Выбор значения](g_elements/el-linux-basic/els-desktop/el-desktop-selectitem.md)
 		* [Выбрать элемент](g_elements/el-linux-basic/els-desktop/el-desktop-checked.md)
 		* [Исчезновение элемента](g_elements/el-linux-basic/els-desktop/el-desktop-elementvanish.md)  
   		* [Закрыть окно](g_elements/el-linux-basic/els-desktop/el-desktop-closewindow.md)
