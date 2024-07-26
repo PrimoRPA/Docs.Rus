@@ -1,3 +1,7 @@
+---
+Description: Add function
+---
+
 # Добавить функцию
 
 ![](../../../../.gitbook/assets1/python-add-function.png)
