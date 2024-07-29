@@ -1,4 +1,4 @@
-# Primo RPA Studio Linux 1.24.6
+# Primo RPA Studio Linux 1.24.8
 
 Раздел содержит описание изменений для версии приложения **Primo RPA Studio Linux 1.24.8**, выпущенной в июле 2024 года. 
 
