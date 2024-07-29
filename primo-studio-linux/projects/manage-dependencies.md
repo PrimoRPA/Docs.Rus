@@ -20,7 +20,7 @@
 
 ![](<../../.gitbook/assets1/Dependencies-ManageDependencies-menuitem.PNG>)
 
-Откроектся окно вида:
+Откроется окно вида:
 
 ![](<../../.gitbook/assets1/Dependencies-ManageDependencies-Manager.PNG>)
 
@@ -43,7 +43,7 @@
 
 По нажатию кнопки **Сохранить** выводится окно со списком предполагаемых изменений:
 
-![](<../../.gitbook/assets1/Dependencies-Install.png>)
+![](<../../.gitbook/assets1/manager-dependencies-instalation-window.PNG>)
 
 После нажатия кнопки **Установить** будут произведены все описанные изменения, а в нижней части окна отобразится журнал работы установщика зависимостей.
 
@@ -57,7 +57,7 @@
 
 Восстановить зависимости можно как вручую путем копирования, так и автоматически: для этого нужно нажать на любую зависимость левой кнопкой мыши и выбрать пункт меню **Восстановить зависимости**:
 
-![](<../../.gitbook/assets1/Dependencies-Restore.png>)
+![](<../../.gitbook/assets1/manager-dependencies-broken-dependency.PNG>)
 
 ***
 
