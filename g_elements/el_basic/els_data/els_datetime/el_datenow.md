@@ -1,5 +1,6 @@
 # Текущая дата/время
 
+*Eng: Current date/time*
 
 ![](<../../../../.gitbook/assets/image (444).png>)
 
