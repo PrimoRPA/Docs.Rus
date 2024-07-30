@@ -857,6 +857,8 @@
 	* [PDF](g_elements/el-linux-basic/els-pdf/readme.md)
 		* [Преобразовать в изображение](g_elements/el-linux-basic/els-pdf/els-pdf-toimage.md)
   	* [Браузер](g_elements/el-linux-basic/els-browser/readme.md)
+		* [Исчезновение элемента](g_elements/el-linux-basic/els-browser/el-browser-elemvanish.md)
+		* [Присутствие элемента](g_elements/el-linux-basic/els-browser/el-browser-exists.md)
 		* [Прокрутка](g_elements/el-linux-basic/els-browser/el-browser-scroll.md)
 		* [Скачать изображение](g_elements/el-linux-basic/els-browser/el-browser-getimage.md)
 		* [Якорь](g_elements/el-linux-basic/els-browser/el-browser-anchor.md)
