@@ -89,7 +89,7 @@
   * [События](primo-studio/process/events.md)
   * [Песочница](primo-studio/process/processes\_sandbox.md)
   * [Запуск и отладка](primo-studio/process/debug/README.md)
-    * [Тестирование](primo-studio/process/debug/testing.md)
+  * [Тестирование](primo-studio/process/debug/testing.md)
   * [Журнал](primo-studio/projects/log.md)
   * [To Do](primo-studio/projects/todo.md)
   * [Запись сценария](primo-studio/process/recording.md)
