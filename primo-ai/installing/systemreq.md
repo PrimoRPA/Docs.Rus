@@ -24,7 +24,7 @@
 | CPU        | Intel Core i5 / AMD Ryzen 5 | Intel Core i7/i9 / AMD Ryzen 7/9 | Intel Xeon / AMD EPYC |
 | Кол-во физических ядер на 1 агента | 4 (возможно замедление обучения модели) | 8 | 16          |
 | RAM        | 8 ГБ               | 32 ГБ                              | 64 ГБ                   | 
-| Хранилище  | 1Tb HDD            | 2Tb SSD                            | NVMe SSD или RAID       | 
+| Хранилище  | 1Tb HDD ТБ (OS + Data) | 2Tb SSD                            | NVMe SSD или RAID       | 
 | GPU        | - | NVIDIA GPU семейства Ampere (compute capability > 8.0) VRAM > 16 | NVIDIA GPU семейства Ampere (compute capability > 8.0) (например, RTX 3090) | 
 | CUDA       | -                  | 12.1                               | 12.1                    | 
 
