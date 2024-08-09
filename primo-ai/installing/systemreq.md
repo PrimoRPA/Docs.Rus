@@ -9,7 +9,7 @@
 | CPU              | x86/x64, 8 ядер                |                  
 | RAM               | 8 Гб                 |      
 | Хранилище         |  200 Гб (ОС + базовые данные приложений) + ~1-2 Гб для обучения 1 модели +  ~1 Гб в сутки при обработке 1000 изображений |                    
-| ОС                | Windows 10 / Windows 11 / Windows Server 2016 и выше <p>CentOS 8+ / Ubuntu 20+ / Astra Linux 1.7+ <\p>|   
+| ОС                | Windows 10 / Windows 11 / Windows Server 2016 и выше <p>CentOS 8+ / Ubuntu 20+ / Astra Linux 1.7+ </p>|   
 
 
 
