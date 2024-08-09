@@ -31,11 +31,10 @@
 
 6. Перейдите в панель инструментов **Обозреватель решений** (Solution Explorer), вызовите контекстное меню проекта и выберите **Управление пакетами NuGet**. Установите следующие сборки:
    * Avalonia 11.0.10
-   * Avalonia.Desktop 0.10.18
-   * Avalonia.Diagnostics 0.10.18
-   * Avalonia.Xaml.Behaviors 0.10.18
-   * MessageBox.Avalonia 2.1.0
-   * XamlNameReferenceGenerator 1.5.1
+   * Avalonia.Desktop 11.0.10
+   * Avalonia.Diagnostics 11.0.10
+   * Avalonia.Xaml.Behaviors 11.0.10.9
+   * MessageBox.Avalonia 3.1.5.1
 
    ![](<../../../.gitbook/assets1/add-nugets.png>)
 
