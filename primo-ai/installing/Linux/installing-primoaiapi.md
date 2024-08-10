@@ -1,40 +1,41 @@
-# Установка и развертывание Primo.AI.Api 
+# Установка Primo.AI.Api для Linux
 
-Подключаемся к серверу по SSH с пользователем с правами root. 
+***Это шаг после предв. настр. маш. с Primo RPA AI Server под Astra Linux.
 
-Создаем (если отсутствует) папку /app/Primo.AI: см «Рук-во по предв. настр. маш. с Primo RPA AI Server под Astra Linux». 
-
-Создаем папку /app/Primo.AI/Api:
-```
-# sudo mkdir /app/Primo.AI/Api
-```
-Разархивируем Api-linux.zip в /app/Primo.AI/Api:
-```
-# sudo unzip /srv/samba/shared/install/Api-linux.zip -d /app/Primo.AI/Api
-```
-Установите владельца папки с инсталляцией:
-```
-#  sudo chown -R primo:primo-ai /app/Primo.AI/Api
-```
+1. Подключаемся к серверу по SSH с пользователем с правами root. 
+1. Создаем, если отсутствует, папку `/app/Primo.AI`*.
+1. Создаем папку `/app/Primo.AI/Api`:
+   ```
+   # sudo mkdir /app/Primo.AI/Api
+   ```
+1. Разархивируем `Api-linux.zip` в `/app/Primo.AI/Api`:
+   ```
+   # sudo unzip /srv/samba/shared/install/Api-linux.zip -d /app/Primo.AI/Api
+   ```
+1. Установим владельца папки с инсталляцией:
+   ```
+   #  sudo chown -R primo:primo-ai /app/Primo.AI/Api
+   ```
 
 ## Создаем и настраиваем службу
 	
-Копируем файл службы (идет с комплектом поставки) в /etc/systemd/system:
-```
-# sudo cp /app/Primo.AI/Api/Primo.AI.Api.service /etc/systemd/system/Primo.AI.Api.service
-# sudo systemctl daemon-reload	
-```
-Помещаем службу в автозапуск:	
-```
-# sudo systemctl enable /etc/systemd/system/Primo.AI.Api.service 	
-```
+1. Копируем файл службы, который идет с комплектом поставки, в `/etc/systemd/system`:
+   ```
+   # sudo cp /app/Primo.AI/Api/Primo.AI.Api.service /etc/systemd/system/Primo.AI.Api.service
+   # sudo systemctl daemon-reload	
+   ```
+1. Помещаем службу в автозапуск:	
+   ```
+   # sudo systemctl enable /etc/systemd/system/Primo.AI.Api.service 	
+   ```
 
-## Редактируем конфиг
-```
-# sudo vim appsettings.ProdLinux.json
-```
+## Редактируем конфигурационный файл
+1. Редактируем конфигурационный файл:
+   ```
+   # sudo vim appsettings.ProdLinux.json
+   ```
 1. Задаем тип используемой СУБД:
-2. Редактируем строки подключения к БД:
+1. Редактируем строки подключения к БД:
 
  
 Cм. Рук-во по уст. PostgreSQL.docx.
@@ -68,3 +69,4 @@ Cм. Рук-во по уст. PostgreSQL.docx.
 ```
 # sudo systemctl status Primo.AI.Api
 ```
+>*\*Согласно инструкции по предварительной настройке машины для Primo RPA AI Server под Astra Linux.*
