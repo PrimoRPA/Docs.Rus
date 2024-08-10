@@ -59,7 +59,7 @@
     ```
     # exit
     ```
-1.	Наcтройте удаленный доступ к СУБД, для чего в конфигурационном файле `/etc/postgresql/NN/main/postgresql.conf` проверить и установить параметр listen_addresses и port. 
+1.	Наcтройте удаленный доступ к СУБД. Для этого в конфигурационном файле `/etc/postgresql/NN/main/postgresql.conf` проверьте и установите параметры **listen_addresses** и **port**. 
     ```
     listen_addresses = '192.168.1.2'
     port = 5432
