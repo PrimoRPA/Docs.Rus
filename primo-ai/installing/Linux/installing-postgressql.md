@@ -51,7 +51,7 @@
     ```
     # psql -c "alter user primo createdb"
     ```
-1.	Установите пароль тестового пользователя:
+1.	Установите пароль для тестового пользователя:
     ```
     # psql -c "alter user primo with password '<пароль>'"
     ```
