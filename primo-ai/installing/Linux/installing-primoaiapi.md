@@ -31,7 +31,7 @@
 
 ## Редактируем конфигурационный файл
 
-1. Редактируем конфигурационный файл:
+1. Открываем для редактирования конфигурационный файл:
    ```
    # sudo vim appsettings.ProdLinux.json
    ```
@@ -43,13 +43,13 @@
 
    ![](<../../../.gitbook/assets1/primo-ai/install/api/API-1.png>)
  
-   Cм. Рук-во по уст. PostgreSQL.docx.
+   Cм. инструкцию по уст. PostgreSQL.
 
-   В HOST указываем адрес сервера, где установлен PostgreSQL.	
+   В **HOST** указываем адрес сервера, где установлен PostgreSQL.	
 
-   В USER ID указываем пользователя БД primo. В PASSWORD – его пароль.
+   В **USER ID** указываем пользователя БД `primo`, в **PASSWORD** — его пароль.
 
-1. Настраиваем Primo.AI.Api на работу с сервисом получения параметров оборудования для лицензирования – вводим адрес этого сервиса:
+1. Настраиваем Primo.AI.Api на работу с сервисом получения параметров оборудования для лицензирования — вводим адрес этого сервиса:
 
    ![](<../../../.gitbook/assets1/primo-ai/install/api/API-2.png>)
  
@@ -57,15 +57,15 @@
  
    ![](<../../../.gitbook/assets1/primo-ai/install/api/API-3.png>)
 
-1. Опционально - настраиваем MinIO:
+1. Опционально — настраиваем MinIO:
  
    ![](<../../../.gitbook/assets1/primo-ai/install/api/API-4.png>)
 
-1. Опционально - настраиваем Redis:
+1. Опционально — настраиваем Redis:
  
    ![](<../../../.gitbook/assets1/primo-ai/install/api/API-5.png>)
 
-1. Настраиваем параметр Security > EnabledOrigins для кроссдоменных запросов:
+1. Настраиваем параметр `Security > EnabledOrigins` для кроссдоменных запросов:
  
    ![](<../../../.gitbook/assets1/primo-ai/install/api/API-6.png>)
 
