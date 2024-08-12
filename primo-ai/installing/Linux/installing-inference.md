@@ -63,7 +63,7 @@
    ```
    # sudo chmod -R 770 /app/Primo.AI/Api.Inference/Primo.AI.Api.Inference
    ```
-1. Стартуем службу:
+1. Запускаем службу:
    ```
    # sudo systemctl start Primo.AI.Api.Inference
    ```
