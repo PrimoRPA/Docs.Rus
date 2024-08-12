@@ -60,7 +60,7 @@
    ```
    # sudo chmod -R 770 /app/Primo.AI/Api.Logs/Primo.AI.Api.Logs
    ```
-1. Стартуем службу:
+1. Запускаем службу:
    ```
    # sudo systemctl start Primo.AI.Api.Logs
    ```
