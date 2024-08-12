@@ -42,11 +42,11 @@
 
     ![](<../../../.gitbook/assets1/primo-ai/install/logs/logs-1.png>)
 
-   > *Cм. инструкцию по установке PostgreSQL.*
+    > *Cм. инструкцию по установке PostgreSQL.*
 
-   В `HOST` указываем адрес сервера, где установлен PostgreSQL.	
+    В `HOST` указываем адрес сервера, где установлен PostgreSQL.	
 
-   В `USER ID` указываем пользователя БД `primo`, а в `PASSWORD` – его пароль.
+    В `USER ID` указываем пользователя БД `primo`, а в `PASSWORD` – его пароль.
 
 
 1. Настраиваем подключение к RabbitMQ:
