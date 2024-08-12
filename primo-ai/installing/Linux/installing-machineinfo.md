@@ -18,7 +18,7 @@
 
 ## Создаем и настраиваем службу
 	 
-1. Копируем файл службы (идет с комплектом поставки) в /etc/systemd/system:
+1. Копируем файл службы из комплекта поставки в `/etc/systemd/system`:
    ```
    # sudo cp /app/Primo.AI/Api.MachineInfo/Primo.AI.Api.MachineInfo.service /etc/systemd/system/Primo.AI.Api.MachineInfo.service
    # sudo systemctl daemon-reload
