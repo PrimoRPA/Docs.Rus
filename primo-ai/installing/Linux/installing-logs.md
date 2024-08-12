@@ -35,6 +35,9 @@
    # sudo vim appsettings.ProdLinux.json
    ```
 1. Задаем тип используемой СУБД:
+   ```
+   "DBVendor": "Postgres", //Postgres, MSSQL
+   ```
  
 1. Редактируем строки подключения к БД:
 
