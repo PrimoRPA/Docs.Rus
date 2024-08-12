@@ -38,7 +38,8 @@
    ```
  1. Редактируем строки подключения к БД:
 
- 
+    ![](<../../../.gitbook/assets1/primo-ai/install/MachineInfo/MachineInfo-1.png>)
+    
    > *Cм. инструкцию по установке PostgreSQL.*
 
    В `HOST` указываем адрес сервера, где установлен PostgreSQL.	
@@ -48,12 +49,15 @@
 
 1. Настраиваем подключение к RabbitMQ:
  
-
+   ![](<../../../.gitbook/assets1/primo-ai/install/MachineInfo/MachineInfo-2.png>)
 
 1. Опционально - настраиваем Redis:
  
+   ![](<../../../.gitbook/assets1/primo-ai/install/MachineInfo/MachineInfo-3.png>)
+
 
 ## Даем права на запуск
+
 1. Даем права на запуск:
    ```
    # sudo chmod -R 770 /app/Primo.AI/Api.MachineInfo/Primo.AI.Api.MachineInfo
@@ -65,6 +69,7 @@
 
    Если она выполнится с ошибкой, находим вместо `/dev/sda` какое-то другое блочное устройство (диск) и прописываем его в конфигурационном файле:
  
+   ![](<../../../.gitbook/assets1/primo-ai/install/MachineInfo/MachineInfo-4.png>)
 
 
 ## Настройка службы
@@ -82,10 +87,14 @@
 
 ## Настройка Primo RPA AI Server для работы с MachineInfo
 Если используется один сервер с MachineInfo, в конфигурационном файле службы Primo.AI.Api прописывается ссылка на него:
+
+![](<../../../.gitbook/assets1/primo-ai/install/MachineInfo/MachineInfo-5.png>)
  
 Параметр `Timeout` (по умолчанию 4 сек) – время ответа, после которого сервис считается не доступным.
 Если используется кластер MachineInfo, или MachineInfo используется в геокластере, в конфигурационном файле службы Primo.AI.Api прописываются ссылки на все узлы кластера:
- 
+
+![](<../../../.gitbook/assets1/primo-ai/install/MachineInfo/MachineInfo-6.png>)
+
 Порядок узлов имеет значение. В момент генерации запроса на лицензию должны быть доступны все узлы. 
 
 Узлы нельзя скрывать за лоадбалансером.
