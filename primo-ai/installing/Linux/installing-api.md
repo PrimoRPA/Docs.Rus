@@ -1,7 +1,6 @@
 # Установка Primo.AI.Api
 
 1. Подключаемся к серверу по SSH с пользователем с правами root. 
-1. Создаем, если отсутствует, папку `/app/Primo.AI`*.
 1. Создаем папку `/app/Primo.AI/Api`:
    ```
    # sudo mkdir /app/Primo.AI/Api
@@ -81,4 +80,4 @@
    ```
    # sudo systemctl status Primo.AI.Api
    ```
->*\*Согласно инструкции по предварительной настройке машины для Primo RPA AI Server под Astra Linux.*
+
