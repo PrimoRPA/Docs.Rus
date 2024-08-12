@@ -10,7 +10,7 @@
    ``` 
    # sudo unzip /srv/samba/shared/install/Api.MachineInfo-linux.zip -d /app/Primo.AI/Api.MachineInfo
    ```
-1. Установливаем владельца папки с инсталляцией:
+1. Устанавливаем владельца папки с инсталляцией:
    ```
    #  sudo chown -R primo:primo-ai /app/Primo.AI/Api
    ```
