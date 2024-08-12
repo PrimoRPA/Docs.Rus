@@ -2,7 +2,6 @@
 
 ## Размещаем файлы компонента
 1. Подключаемся к серверу по SSH с пользователем с правами root. 
-1. Создаем, если отсутствует, папку `/app/Primo.AI`.
 1. Создаем, если отсутствует, папку `/app/Primo.AI/Api.MachineInfo`:
    ```
    # sudo mkdir /app/Primo.AI/Api.MachineInfo
@@ -11,7 +10,7 @@
    ``` 
    # sudo unzip /srv/samba/shared/install/Api.MachineInfo-linux.zip -d /app/Primo.AI/Api.MachineInfo
    ```
-1. Установите владельца папки с инсталляцией:
+1. Установим владельца папки с инсталляцией:
    ```
    #  sudo chown -R primo:primo-ai /app/Primo.AI/Api
    ```
