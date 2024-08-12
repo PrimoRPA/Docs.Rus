@@ -1,4 +1,4 @@
-# Установка Primo.AI.Api.Auth для Linux
+# Установка Primo.AI.Api.Auth
 
 
 ## Размещаем файлы компонента
