@@ -52,7 +52,7 @@
  
    ![](<../../../.gitbook/assets1/primo-ai/install/inference/inference-2.png>)
    
-1. Опционально - настраиваем Redis:
+1. Опционально – настраиваем Redis:
  
    ![](<../../../.gitbook/assets1/primo-ai/install/inference/inference-3.png>)
 
