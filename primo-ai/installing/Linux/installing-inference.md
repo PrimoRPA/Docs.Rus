@@ -34,10 +34,13 @@
    # sudo vim appsettings.ProdLinux.json
    ```
 1. Задаем тип используемой СУБД:
+   ```
+   "DBVendor": "Postgres", //Postgres, MSSQL
  
 1. Редактируем строки подключения к БД:
 
- 
+   ![](<../../../.gitbook/assets1/primo-ai/install/inference/inference-1.png>)
+   
    > *Cм. инструкцию по установке PostgreSQL.*
    
    В `HOST` указываем адрес сервера, где установлен PostgreSQL.	
@@ -47,9 +50,12 @@
 
 1. Настраиваем подключение к RabbitMQ:
  
-
+   ![](<../../../.gitbook/assets1/primo-ai/install/inference/inference-2.png>)
+   
 1. Опционально - настраиваем Redis:
  
+   ![](<../../../.gitbook/assets1/primo-ai/install/inference/inference-3.png>)
+
 
 ## Запускаем службу
 
