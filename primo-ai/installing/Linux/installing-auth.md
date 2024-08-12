@@ -45,33 +45,35 @@
  
 1. Редактируем строки подключения к БД:
 
- 
-   Cм. инструкцию по установке PostgreSQL.
+   ![](<../../../.gitbook/assets1/primo-ai/install/auth/auth-1.png>)
+   
+   > *Cм. инструкцию по установке PostgreSQL.*
 
    В `HOST` указываем адрес сервера, где установлен PostgreSQL.	
 
    В `USER ID` указываем пользователя БД `primo`, а в `PASSWORD` — его пароль.
 
 1. Настраиваем подключение к RabbitMQ:
- 
+
+   ![](<../../../.gitbook/assets1/primo-ai/install/auth/auth-2.png>)
 
 1. Опционально — настраиваем Redis:
  
+   ![](<../../../.gitbook/assets1/primo-ai/install/auth/auth-3.png>)
 
 
-## Даем права на запуск
+## Запускаем службу
 
-```
-# sudo chmod -R 770 /app/Primo.AI/Api.Auth/Primo.AI.Api.Auth
-```
+1. Даем права на запуск:
 
-## Стартуем службу
-
-```
-# sudo systemctl start Primo.AI.Api.Auth
-```
-
-## Проверяем состояние службы
-```
-# sudo systemctl status Primo.AI.Api.Auth
-```
+   ```
+   # sudo chmod -R 770 /app/Primo.AI/Api.Auth/Primo.AI.Api.Auth
+   ```
+1. Запускаем службу:
+   ```
+   # sudo systemctl start Primo.AI.Api.Auth
+   ```
+1. Проверяем состояние службы:
+   ```
+   # sudo systemctl status Primo.AI.Api.Auth
+   ```
