@@ -1,4 +1,4 @@
-# Установка Primo.AI.Api для Linux
+# Установка Primo.AI.Api
 
 ***Это шаг после предв. настр. маш. с Primo RPA AI Server под Astra Linux.
 
@@ -43,7 +43,7 @@
 
    ![](<../../../.gitbook/assets1/primo-ai/install/api/API-1.png>)
  
-   Cм. инструкцию по установке PostgreSQL.
+   > *Cм. инструкцию по установке PostgreSQL.*
 
    В **HOST** указываем адрес сервера, где установлен PostgreSQL.	
 
@@ -70,18 +70,17 @@
    ![](<../../../.gitbook/assets1/primo-ai/install/api/API-6.png>)
 
 
-## Даем права на запуск
-```
-# sudo chmod -R 770 /app/Primo.AI/Api/Primo.AI.Api
-```
-
 ## Запускаем службу
-```
-# sudo systemctl start Primo.AI.Api
-```
-
-## Проверяем состояние службы
-```
-# sudo systemctl status Primo.AI.Api
-```
+1. Даем права на запуск:
+   ```
+   # sudo chmod -R 770 /app/Primo.AI/Api/Primo.AI.Api
+   ```
+1. Запускаем службу:
+   ```
+   # sudo systemctl start Primo.AI.Api
+   ```
+1. Проверяем состояние службы:
+   ```
+   # sudo systemctl status Primo.AI.Api
+   ```
 >*\*Согласно инструкции по предварительной настройке машины для Primo RPA AI Server под Astra Linux.*
