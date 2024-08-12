@@ -7,7 +7,7 @@
    ```
    # sudo mkdir /app/Primo.AI/Api.MachineInfo
    ```
-1. Разархивируем Api.MachineInfo-linux.zip в /app/Primo.AI/Api.MachineInfo:
+1. Разархивируем `Api.MachineInfo-linux.zip` в `/app/Primo.AI/Api.MachineInfo`:
    ``` 
    # sudo unzip /srv/samba/shared/install/Api.MachineInfo-linux.zip -d /app/Primo.AI/Api.MachineInfo
    ```
