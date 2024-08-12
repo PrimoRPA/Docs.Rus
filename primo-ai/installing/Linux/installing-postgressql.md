@@ -1,4 +1,4 @@
-# Установка PostgreSQL для Linux
+# Установка PostgreSQL 
 
 ## Установка пакетов
 
