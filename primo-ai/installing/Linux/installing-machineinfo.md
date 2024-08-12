@@ -10,7 +10,7 @@
    ``` 
    # sudo unzip /srv/samba/shared/install/Api.MachineInfo-linux.zip -d /app/Primo.AI/Api.MachineInfo
    ```
-1. Установим владельца папки с инсталляцией:
+1. Установливаем владельца папки с инсталляцией:
    ```
    #  sudo chown -R primo:primo-ai /app/Primo.AI/Api
    ```
@@ -28,13 +28,15 @@
    ```
 	
 ## Редактируем конфигурационный файл
-1. Открываем конфигурационный файл:
+1. Открываем конфигурационный файл в vim:
    ```
    # sudo vim appsettings.ProdLinux.json
    ```
 1. Задаем тип используемой СУБД:
- 
-1. Редактируем строки подключения к БД:
+   ```
+   "DBVendor": "Postgres", //Postgres, MSSQL
+   ```
+ 1. Редактируем строки подключения к БД:
 
  
    > *Cм. инструкцию по установке PostgreSQL.*
