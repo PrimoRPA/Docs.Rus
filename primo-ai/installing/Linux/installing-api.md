@@ -43,7 +43,7 @@
 
    ![](<../../../.gitbook/assets1/primo-ai/install/api/API-1.png>)
  
-   Cм. инструкцию по уст. PostgreSQL.
+   Cм. инструкцию по установке PostgreSQL.
 
    В **HOST** указываем адрес сервера, где установлен PostgreSQL.	
 
