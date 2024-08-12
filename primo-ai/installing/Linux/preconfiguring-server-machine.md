@@ -108,7 +108,7 @@ directory mode = 0777
 
 Создаем папку для размещения служб Primo.AI.Api:
 ```
-# mkdir /opt/Primo.AI
+# mkdir /app/Primo.AI
 ```
 
 ## 5. Настройка прав доступа к службам
