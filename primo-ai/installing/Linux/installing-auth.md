@@ -12,7 +12,7 @@
    # sudo mkdir /app/Primo.AI/Api.Auth
    ```
 
-1. Разархивируем Api.Auth-linux.zip в `/app/Primo.AI/Api.Auth`:	
+1. Разархивируем `Api.Auth-linux.zip` в `/app/Primo.AI/Api.Auth`:	
    ```
    # sudo unzip /srv/samba/shared/install/Api.Auth-linux.zip -d /app/Primo.AI/Api.Auth
    ```
