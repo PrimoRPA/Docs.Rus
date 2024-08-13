@@ -15,7 +15,7 @@
 ```
 # sudo systemctl enable nginx
 ```
-	Открываем порт на файерволе:
+Открываем порт на файерволе:
  ```
 # sudo ufw allow 44392/tcp
 ```
