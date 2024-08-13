@@ -12,7 +12,7 @@
    ```
    # apt policy rabbitmq-server
    ```
-1. Установить пакет rabbitmq-server старшей доступной версии:
+1. Установить пакет `rabbitmq-server` старшей доступной версии:
    ```
    # sudo apt install rabbitmq-server
    ```
@@ -20,6 +20,9 @@
    ```
    # systemctl status rabbitmq-server
    ```
+
+   ![](<../../../../.gitbook/assets1/primo-ai/install/rabbit/rabbit-1.png>)
+
 
 ## Первичная настройка RabbitMQ
 
