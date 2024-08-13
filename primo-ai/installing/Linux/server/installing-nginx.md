@@ -33,7 +33,7 @@
 ```
 # systemctl restart nginx
 ```
-Проверяем состояние:
+Проверяем состояние службы:
 ```
 # systemctl status nginx
 ```
