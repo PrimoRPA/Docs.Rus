@@ -111,7 +111,7 @@
 # sudo systemctl enable /etc/systemd/system/Primo.AI.Agent.service
 ```
 
-В конфигурационном файле `appsettings.ProdLinux.json` укажите адрес Primo.AI.Api и его компонентов, TenantId (если эта машина не в тенанте по умолчанию) и пользователя тенанта:
+В конфигурационном файле `appsettings.ProdLinux.json` укажите адрес Primo.AI.Api и его компонентов, а также TenantId (если эта машина не в тенанте по умолчанию) и пользователя тенанта:
 ```
  	"Api": {
     		"UserName": "agent",
@@ -139,17 +139,17 @@
 },
 ```
 
-Запуск службы:
+Запустите службы:
 ```
 # sudo systemctl start Primo.AI.Agent
 ```
 
-Просмотр статуса службы:
+Проверьте статус службы:
 ```
 # sudo systemctl status Primo.AI.Agent
 ```
 
-Просмотр журнала службы:
+Просмотрите журнал службы:
 ```
 # sudo journalctl -u Primo.AI.Agent
 ```
