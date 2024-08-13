@@ -71,7 +71,7 @@
 
 Проверьте доступность репозиториев, используя команду: 
 ```
-[primo-admin@astra-machine ~]$ sudo apt update
+# sudo apt update
 ```
 Репозитории `main`, `update`, `base` и `extended` должны присутствовать в выводе команды.
 
