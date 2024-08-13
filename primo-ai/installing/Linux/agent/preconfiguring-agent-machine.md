@@ -91,27 +91,31 @@
 
 ### 2. Установка агента
 
-Разворачивание файлов агента на целевой машине (файл `Agent-linux.zip` должен находиться в каталоге `/srv/samba/shared/install`): 
+Разверните файлы агента на целевой машине (файл `Agent-linux.zip` должен находиться в каталоге `/srv/samba/shared/install`): 
 ```
-[primo-admin@astra-machine ~]$ sudo mkdir -p /opt/Primo.AI/Agent /opt/Primo.AI/AgentData 
-[primo-admin@astra-machine ~]$ sudo unzip /srv/samba/shared/install/Agent-linux.zip -d /opt/Primo.AI/Agent
-[primo-admin@astra-machine ~]$ sudo chmod a+x /opt/Primo.AI/Agent/Primo.AI.Agent
-[primo-admin@astra-machine ~]$ sudo chown -R agent.primo-ai /opt/Primo.AI/Agent /opt/Primo.AI/AgentData /opt/Primo.AI/Agent
-[primo-admin@astra-machine ~]$ sudo chmod -R g+w /opt/Primo.AI/Agent /opt/Primo.AI/AgentData /opt/Primo.AI/Agent
+# sudo mkdir -p /app/Primo.AI /app/Primo.AI/Agent /app/Primo.AI/AgentData 
+# sudo unzip /srv/samba/shared/install/Agent-linux.zip -d /app/Primo.AI/Agent
+# sudo chmod –R 771 /app/Primo.AI/Agent /app/Primo.AI/AgentData
+# sudo chown -R agent:primo-ai /app/Primo.AI/Agent /app/Primo.AI/AgentData /app/Primo.AI/Agent
+```
+
+Для запуска и остановки агентом IDP-ядра без ввода пароля установите следующую настройку:
+```
+# sudo sh -c "echo 'agent ALL=(%primo-ai) NOPASSWD: /app/Primo.AI/Agent/kill.sh, /app/Primo.AI/IDP/start_inference.sh, /app/Primo.AI/IDP/start_training.sh, /app/Primo.AI/IDP/start_evaluation.sh' > /etc/sudoers.d/Primo.AI.Agent"
 ```
 
 Установите агент как службу и настройте автозапуск:
 ```
-[primo-admin@astra-machine ~]$ sudo cp /opt/Primo.AI/Agent/Primo.AI.Agent.service /etc/systemd/system/
-[primo-admin@astra-machine ~]$ sudo systemctl daemon-reload
-[primo-admin@astra-machine ~]$ sudo systemctl enable /etc/systemd/system/Primo.AI.Agent.service
+# sudo cp /app/Primo.AI/Agent/Primo.AI.Agent.service /etc/systemd/system/
+# sudo systemctl daemon-reload
+# sudo systemctl enable /etc/systemd/system/Primo.AI.Agent.service
 ```
 
 В конфигурационном файле `appsettings.ProdLinux.json` укажите адрес Primo.AI.Api и его компонентов, TenantId (если эта машина не в тенанте по умолчанию) и пользователя тенанта:
 ```
  	"Api": {
     		"UserName": "agent",
-    		"Password": "Qwe123!@#",
+    		"Password": "Xxxxxxxxxxxx",
 
     		"AuthBaseUrl": "https://primo-ai-api-server:44392",
     		"ApiBaseUrl": "https://primo-ai-api-server:44392",
@@ -125,157 +129,128 @@
 Убедитесь, что в конфигурационном файле `appsettings.ProdLinux.json` правильно указан путь к стандартным скриптам, с помощью которых агент запускает процессы IDP:
 ```
 "TrainProcess": {
-  "ProcessFileName": "/opt/Primo.AI/IDP/start_training.sh"
+  "ProcessFileName": "/app/Primo.AI/IDP/start_training.sh"
 },
 "InferenceProcess": {
-  "ProcessFileName": "/opt/Primo.AI/IDP/start_inference.sh"
+  "ProcessFileName": "/app/Primo.AI/IDP/start_inference.sh"
 },
 "TestProcess": {
-  "ProcessFileName": "/opt/Primo.AI/IDP/start_evaluation.sh"
+  "ProcessFileName": "/app/Primo.AI/IDP/start_evaluation.sh"
 },
 ```
 
 Запуск службы:
 ```
-[primo-admin@astra-machine ~]$ sudo systemctl start Primo.AI.Agent
+# sudo systemctl start Primo.AI.Agent
 ```
 
 Просмотр статуса службы:
 ```
-[primo-admin@astra-machine ~]$ sudo systemctl status Primo.AI.Agent
+# sudo systemctl status Primo.AI.Agent
 ```
 
 Просмотр журнала службы:
 ```
-[primo-admin@astra-machine ~]$ sudo journalctl -u Primo.AI.Agent
+# sudo journalctl -u Primo.AI.Agent
 ```
 
 ### 3. Настройка правила брандмауэра ufw
 
 Для разрешения доступа к API агента выполните команду:
 ```
-[primo-admin@astra-machine ~]$ sudo ufw allow 5002/tcp
+# sudo ufw allow 5002/tcp
 ```
 
-### 4. Настройка учетной записи IDP
-Создание учетной записи IDP `idp`:
-```
-[primo-admin@astra-machine ~]$ sudo useradd -g primo-ai -m -s /bin/bash idp
-```
-Для запуска агентом заданий роботов без прав пользователя `root` установите следующую настройку:
-```
-[primo-admin@astra-machine ~]$ sudo sh -c "echo idp ALL = (%primo-ai) NOPASSWD: /usr/bin/at' > /etc/sudoers.d/idp"
-[primo-admin@astra-machine ~]$ sudo sh -c "echo idp ALL = (ALL) NOPASSWD: /usr/sbin/reboot' >> /etc/sudoers.d/idp"
-```
-
-### 5. Обновление агента
+### 4. Обновление агента
 Остановка службы:
 ```
-[primo-admin@astra-machine ~]$ sudo systemctl stop Primo.AI.Agent
+# sudo systemctl stop Primo.AI.Agent
 ```
+
 Обновление файлов агента на целевой машине (файл `Agent-linux.zip` должен находиться в каталоге `/srv/samba/shared/install`):
 ```
-[primo-admin@astra-machine ~]$ sudo unzip -o -u /srv/samba/shared/install/Agent-linux.zip -d /opt/Primo.AI/Agent -x appsettings.ProdLinux.json appsettings.json
-[primo-admin@astra-machine ~]$ sudo chown -R agent.primo-ai /opt/Primo.AI/Agent
-[primo-admin@astra-machine ~]$ sudo chmod -R g+w /opt/Primo.AI/Agent 
-[primo-admin@astra-machine ~]$ sudo chmod a+x /opt/Primo.AI/Agent/Primo.AI.Agent
+# sudo unzip -o -u /srv/samba/shared/install/Agent-linux.zip -d /app/Primo.AI/Agent -x appsettings.ProdLinux.json appsettings.json
 
+# sudo chown -R agent:primo-ai /app/Primo.AI/Agent
+
+# sudo chmod -R 771 /app/Primo.AI/Agent /app/Primo.AI/AgentData
+
+# sudo chown -R  agent:primo-ai /app/Primo.AI/Agent
 ```
+
 Запуск службы:
 ```
-[primo-admin@astra-machine ~]$ sudo systemctl start Primo.AI.Agent
+# sudo systemctl start Primo.AI.Agent
 ```
 Просмотр статуса службы:
 ```
-[primo-admin@astra-machine ~]$ sudo systemctl status Primo.AI.Agent
+# sudo systemctl status Primo.AI.Agent
 ```
 
-### 6. Настройка пользователей и групп
-Эти команды необходимо выполнять от имени пользователя, настроенного в качестве администратора при установке Astra Linux:
 
+## IDP
+### Вариант установки А
+
+> Установка IDP при наличии в репозиториях apt целевой машины python3.10/3.11, выхода в интернет, а также GNU C Library (glibc) версии 2.33 и выше.
+
+Создайте учетную запись **idp**:
 ```
-[admin@astra-machine ~]$ sudo systemctl stop Primo.AI.Agent
-
-[admin@astra-machine ~]$ sudo useradd -m -s /bin/bash primo-admin
-
-[admin@astra-machine ~]$ sudo passwd primo-admin
-Новый пароль : ***
-Повторите ввод нового пароля : ***
-passwd: пароль успешно обновлён
+# sudo useradd -g primo-ai -m -s /bin/bash idp
 ```
 
-Теперь войдите в систему под пользователем `primo-admin` и дальнейшие команды выполняйте под его именем.
-
-Существующие учетные записи IDP добавьте в группу **primo-ai**:
+Разверните файлы IDP на целевой машине (файл `A-IDP.zip` должен находиться в каталоге `/srv/samba/shared/install`):
 ```
-[primo-admin@astra-machine ~]$ sudo usermod -G primo-ai robot
-```
-
-### 7. Обновление агента и файла конфигурации
-Обновление файлов агента (файл `Agent-linux.zip` должен находиться в каталоге `/srv/samba/shared/install`):
-```
-[primo-admin@astra-machine ~]$ sudo unzip -o -u /srv/samba/shared/install/Agent-linux.zip -d /opt/Primo.AI/Agent -x appsettings.ProdLinux.json appsettings.json
-[primo-admin@astra-machine ~]$ sudo chown -R agent.primo-ai /opt/Primo.AI/Agent
-[primo-admin@astra-machine ~]$ sudo chmod -R g+w /opt/Primo.AI/Agent 
-[primo-admin@astra-machine ~]$ sudo chmod a+x /opt/Primo.AI/Agent/Primo.AI.Agent
+# sudo mkdir -p /app/Primo.AI/IDP 
+# sudo unzip /srv/samba/shared/install/A-IDP.zip -d /app/Primo.AI/IDP
+# sudo chmod –R 771 /app/Primo.AI/IDP
+# sudo chown -R idp:primo-ai /app/Primo.AI/IDP
 ```
 
-### 8. Обновление файла управления службой
-
-Выполните команды:
+Установите библиотеки python3, tesseract и другие пакеты:
 ```
-[primo-admin@astra-machine ~]$ sudo cp /opt/Primo.AI/Agent/Primo.AI.Agent.service /etc/systemd/system/
-[primo-admin@astra-machine ~]$ sudo systemctl daemon-reload
-[primo-admin@astra-machine ~]$ sudo systemctl enable /etc/systemd/system/Primo.AI.Agent.service
+# apt-get update & apt install python3=3.11 python3-venv=3.11 libsm6 libxext6 tesseract-ocr build-essential libssl-dev libffi-dev python3-dev ffmpeg
 ```
 
-## Настройка IDP-ядра
+Создайте и активируйте виртуальную среду venv:
+```
+# python3 –m venv /app/Primo.AI/IDP/venv
 
-Установите библиотеку python3, tesseract и другие пакеты с помощью команд:
-```
-# apt-get update 
-# apt install python3=3.11 python3-venv=3.11 libsm6 libxext6 tesseract-ocr 
-```
-
-Создайте папку с инсталляцией:
-```
-# mkdir /opt/Primo.AI/IDP
+# source /app/Primo.AI/IDP/venv/bin/activate
 ```
 
-Скопируйте папку `/srv/samba/shared/install/IDP` в каталог `/opt/Primo.AI/IDP`:
-```
-# cp -R /srv/samba/shared/install/IDP/* /opt/Primo.AI/IDP
-```
-
-Установите права запуска для пользователя `idp`:
-```
-# chown idp /opt/Primo.AI/IDP/*
-[primo-admin@astra-machine ~]$ sudo chmod a+x /opt/Primo.AI/IDP
-[primo-admin@astra-machine ~]$ sudo chown -R idp.primo-ai /opt/Primo.AI/IDP 
-[primo-admin@astra-machine ~]$ sudo chmod -R g+w /opt/Primo.AI/IDP
-```
-
-Создание и активация виртуальной среды venv:
-```
-# python3 –m venv /opt/Primo.AI/IDP/venv
-# source /opt/Primo.AI/IDP/venv/bin/activate
-```
-
-Установка пакетов python. 
+Установите пакеты python. 
 ```
 # python -m ensurepip –upgrade
 ```
-•	Если для IDP-процесса будет использоваться CPU:
-```
-# pip3 install –r /opt/Primo.AI/IDP/prequisites_cpu.txt
-# pip3 install –r /opt/Primo.AI/IDP/requirements_cpu.txt
-```
-•	Если для IDP-процесса будет использоваться GPU:
 
+*	Если для IDP-процесса будет использоваться CPU:
 ```
-# pip3 install –r /opt/Primo.AI/IDP/prequisites.txt	
-# pip3 install –r /opt/Primo.AI/IDP/requirements.txt
+# pip3 install –r /app/Primo.AI/IDP/prequisites_cpu.txt
+# pip3 install –r /app/Primo.AI/IDP/requirements_cpu.txt
 ```
+*	Если для IDP-процесса будет использоваться GPU:
+```
+# pip3 install –r /app/Primo.AI/IDP/prequisites.txt	
+# pip3 install –r /app/Primo.AI/IDP/requirements.txt
+```
+
+Произведите финальную раздачу прав IDP:
+```
+# sudo chmod –R 771 /app/Primo.AI/IDP
+# sudo chown -R idp:primo-ai /app/Primo.AI/IDP
+```
+
+### Вариант установки Б
+
+> Используйте этот способ при отсутствии необходимых библиотек.
+
+
+
+
+
+
+
+
 
 ## Проверка настройки целевой машины
 
