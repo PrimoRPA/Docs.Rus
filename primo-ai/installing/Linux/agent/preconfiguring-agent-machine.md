@@ -293,23 +293,6 @@ tesseract-ocr:
 # sudo apt install tesseract-ocr
 ```
 
-### Обновление IDP
-
-Создайте резервную копию текущей установки. 
-
-Удалите текущую установку – папку `src`:
-```
-# sudo rm -r /app/Primo.AI/IDP/src
-```
-
-Обновите файлы IDP на целевой машине (файл `A-IDP.zip` должен находиться в каталоге `/srv/samba/shared/install`):
-```
-# sudo unzip -o -u /srv/samba/shared/install/A-IDP.zip -d /app/Primo.AI/IDP -x start_inference.sh start_training.sh  start_evaluation.sh venv.zip
-
-# sudo chown -R  idp:primo-ai /app/Primo.AI/IDP
-
-# sudo chmod -R 771 /app/Primo.AI/IDP
-```
  
 
 ## Проверка настройки целевой машины
