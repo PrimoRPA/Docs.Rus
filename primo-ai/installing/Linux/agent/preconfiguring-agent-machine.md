@@ -244,38 +244,37 @@
 
 > Используйте этот способ при отсутствии необходимых библиотек.
 
-Создание учетной записи **idp**. 
-
-Необходимо указать расположение home-папки – там будут размещены инсталляции Python, а также все необходимые пакеты суммарным весом более 3.5 ГБайт:
+Создайте учетную запись **idp**. При этом укажите расположение home-папки – там будут размещены инсталляции Python, а также все необходимые пакеты суммарным весом более 3.5 Гбайт:
 ```
-#  sudo useradd -g primo-ai -m -s /bin/bash -d <custom_home_dir_location> idp
+# sudo useradd -g primo-ai -m -s /bin/bash -d <custom_home_dir_location> idp
 ```
 
-Установка pyenv c Python 3.11 и виртуальной средой
-Создать временный каталог pyenv и переместиться туда: 
+#### Установка pyenv c Python 3.11 и виртуальной средой
+
+Создайте временный каталог `pyenv` и переместитесь туда: 
 ```
 # mkdir pyenv
 # cd pyenv 
 ```
-
-Скопировать во временный каталог файлы pyenv из комплекта поставки (файл B-pyenv.zip должен находиться в каталоге /srv/samba/shared/install): 
+Скопируйте во временный каталог файлы pyenv из комплекта поставки (файл `B-pyenv.zip` должен находиться в каталоге `/srv/samba/shared/install`): 
 ```
 # sudo unzip /srv/samba/shared/install/B-pyenv.zip . 
 ```
 
-Запустить скрипт установки pyenv-installer.sh: 
+Запустите скрипт установки `pyenv-installer.sh`: 
 ```
 # sudo ./pyenv-installer.sh idp primo-ai  <custom_home_dir_location>
 ```
 
-Сообщение «WARNING: The Python tkinter extension was not compiled and GUI subsystem has been detected. Missing the Tk toolkit?» можно проигнорировать.
+Сообщение *«WARNING: The Python tkinter extension was not compiled and GUI subsystem has been detected. Missing the Tk toolkit?»* можно проигнорировать.
 
-Удалить установочные файлы: 
+Удалите установочные файлы: 
 ```
 # sudo rm  pyenv-installer.sh B-pyenv.zip Python-3.11.9.tar.xz
 ```
 
-Установка зависимостей IDP в виртуальную среду
+#### Установка зависимостей IDP в виртуальную среду
+
 Создайте папку с инсталляцией:
 ```
 # mkdir /app/Primo.AI/IDP
@@ -285,44 +284,59 @@
 ```
 # sudo unzip /srv/samba/shared/install/B-IDP.zip -d /app/Primo.AI/IDP
 ```
-Переместиться в папку с инсталляцией:
+
+Переместитесь в папку с инсталляцией:
 ```
 # cd /app/Primo.AI/IDP
 ```
-Запустить скрипт установки idp-installer.sh:
+Запустите скрипт установки `idp-installer.sh`:
 ```
 # sudo ./idp-installer.sh idp primo-ai <custom_home_dir_location>
 ```
-Финальная раздача прав IDP:
+
+Раздайте права на IDP:
 ```
-#  sudo chmod –R 771 /app/Primo.AI/IDP
-#  sudo chown -R idp:primo-ai /app/Primo.AI/IDP
+# sudo chmod –R 771 /app/Primo.AI/IDP
+# sudo chown -R idp:primo-ai /app/Primo.AI/IDP
 ```
-Удалить установочные файлы: 
+Удалите установочные файлы: 
 ```
 # sudo rm /app/Primo.AI/IDP/idp-installer.sh /app/Primo.AI/IDP/venv.zip 
 ```
 
-Установка Tesseract
-Проверить наличие Tesseract версии 4.0.0+: 
+#### Установка Tesseract
+
+Проверьте наличие Tesseract версии 4.0.0+: 
 ```
 # sudo apt policy tesseract-ocr
 tesseract-ocr: 
- Установлен: (отсутствует) 
+ Установлен:                   (отсутствует) 
  Кандидат:   4.0.0-2~bpo9+1
 ```
 
-Установить Tesseract
+Установите Tesseract:
 ```
 # sudo apt install tesseract-ocr
 ```
 
+### Обновление IDP
 
+Создайте бэкап текущей установки. 
 
+Удалите текущую установку – папку src:
+```
+# sudo rm -r /app/Primo.AI/IDP/src
+```
 
+Обновите файлы IDP на целевой машине (файл `A-IDP.zip` должен находиться в каталоге `/srv/samba/shared/install`):
+```
+# sudo unzip -o -u /srv/samba/shared/install/A-IDP.zip -d /app/Primo.AI/IDP -x start_inference.sh start_training.sh  start_evaluation.sh venv.zip
 
+# sudo chown -R  idp:primo-ai /app/Primo.AI/IDP
 
-
+# sudo chmod -R 771 /app/Primo.AI/IDP
+```
+ 
 
 ## Проверка настройки целевой машины
 
@@ -330,7 +344,6 @@ tesseract-ocr:
 ```
 # curl -k https://<IP-адрес-Primo.Ai.Api>:44392/api/version
 ```
-
 Убедитесь, что вернулась версия Primo.Ai.Api.
 
 Проверьте работу агента на целевой машине. На машине Primo.Ai.Api выполните команду:
@@ -339,4 +352,12 @@ tesseract-ocr:
 ```
 Убедитесь, что вернулась версия агента.
 
+## Ограничение нагрузки 
 
+Оптимальная нагрузка на целевую машину предполагает размещение единственного агента с IDP-ядром и запуск единственного в каждый момент времени процесса (любого типа – инференс или обучение).
+
+Кроме того, для процессов инференса (распознавание изображений в IDP) следует ограничивать также единовременное количество запросов (изображений) в обработке. Превышение этого ограничения приведёт к неадекватному кратному увеличению времени обработки изображений. 
+
+Рассчитайте максимальную нагрузку на целевую машину по формуле 0.5n – 1, где n – количество виртуальных ядер процессора (например, для 16 виртуальных ядер это значение – 7) и пропишите это значение в параметр InferenceRequestQueue -> MaxImagesLoad  конфига appsettings.ProdLinux.json агента:
+
+![](<>)
