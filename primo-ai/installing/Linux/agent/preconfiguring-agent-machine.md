@@ -360,4 +360,4 @@ tesseract-ocr:
 
 Рассчитайте максимальную нагрузку на целевую машину по формуле 0.5n – 1, где n – количество виртуальных ядер процессора (например, для 16 виртуальных ядер это значение – 7) и пропишите это значение в параметр InferenceRequestQueue -> MaxImagesLoad  конфига appsettings.ProdLinux.json агента:
 
-![](<>)
+![](<../../../../.gitbook/assets1/primo-ai/install/agent/install-agent-and-idp-1.png>)
