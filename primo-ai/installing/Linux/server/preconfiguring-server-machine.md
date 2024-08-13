@@ -133,7 +133,7 @@ chmod 770
 ```
 # sudo groupadd primo-ai
 ```
-Создайте учетную запись `primo`:
+Создайте учетную запись **primo**:
 ```
 # sudo useradd -g primo-ai -m -s /bin/bash primo
 ```
@@ -143,4 +143,9 @@ chmod 770
 # sudo chown -R primo:primo-ai /app/Primo.AI/
 ```
 
+## Что дальше
+
+Теперь вы можете перейти к установке Nginx на машине сервера.
+
 >*\*Имеются в виду файлы Primo.AI.Api, Primo.AI.Api.Inference... Primo.AI.Api.Auth*.
+
