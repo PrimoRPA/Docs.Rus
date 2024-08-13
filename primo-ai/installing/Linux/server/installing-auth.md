@@ -24,7 +24,6 @@
    # sudo cp /app/Primo.AI/Api.Auth/Primo.AI.Api.Auth.service /etc/systemd/system/Primo.AI.Api.Auth.service
    # sudo systemctl daemon-reload
    ```
-
 1. Помещаем службу в автозапуск:	
    ```
    # sudo systemctl enable /etc/systemd/system/Primo.AI.Api.Auth.service
@@ -33,7 +32,7 @@
 
 ## Редактируем конфигурационный файл
 
-1. Открываем для редактирования конфигурационный файл:
+1. Открываем конфигурационный файл в vim:
    ```
    # sudo vim appsettings.ProdLinux.json
    ```
@@ -41,10 +40,9 @@
     ```
     "DBVendor": "Postgres", //Postgres, MSSQL
     ```
- 
-1. Редактируем строки подключения к БД:
+ 1. Редактируем строки подключения к БД:
 
-   ![](<../../../.gitbook/assets1/primo-ai/install/auth/auth-1.png>)
+   ![](<../../../../.gitbook/assets1/primo-ai/install/auth/auth-1.png>)
    
    > *Cм. инструкцию по установке PostgreSQL.*
 
@@ -54,11 +52,11 @@
 
 1. Настраиваем подключение к RabbitMQ:
 
-   ![](<../../../.gitbook/assets1/primo-ai/install/auth/auth-2.png>)
+   ![](<../../../../.gitbook/assets1/primo-ai/install/auth/auth-2.png>)
 
 1. Опционально — настраиваем Redis:
  
-   ![](<../../../.gitbook/assets1/primo-ai/install/auth/auth-3.png>)
+   ![](<../../../../.gitbook/assets1/primo-ai/install/auth/auth-3.png>)
 
 
 ## Запускаем службу
@@ -76,3 +74,7 @@
    ```
    # sudo systemctl status Primo.AI.Api.Auth
    ```
+
+## Что дальше
+
+Теперь вы можете перейти к установке компонента Api.Inference.
