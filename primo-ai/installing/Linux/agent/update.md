@@ -1,12 +1,12 @@
 # Обновление
 
 ## Обновление агента
-Остановка службы:
+Остановите службу:
 ```
 # sudo systemctl stop Primo.AI.Agent
 ```
 
-Обновление файлов агента на целевой машине (файл `Agent-linux.zip` должен находиться в каталоге `/srv/samba/shared/install`):
+Обновите файлы агента на целевой машине (файл `Agent-linux.zip` должен находиться в каталоге `/srv/samba/shared/install`):
 ```
 # sudo unzip -o -u /srv/samba/shared/install/Agent-linux.zip -d /app/Primo.AI/Agent -x appsettings.ProdLinux.json appsettings.json
 
