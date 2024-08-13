@@ -17,7 +17,7 @@
 # sudo chown -R  agent:primo-ai /app/Primo.AI/Agent
 ```
 
-Запуск службы:
+Запустите службу:
 ```
 # sudo systemctl start Primo.AI.Agent
 ```
