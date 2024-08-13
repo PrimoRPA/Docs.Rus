@@ -91,7 +91,7 @@
 
 ### 2. Установка агента
 
-Разворачивание файлов агента на целевой машине (файл `Agent-linux.zip` должен находиться в каталоге `/srv/samba/shared/install`):
+Разворачивание файлов агента на целевой машине (файл `Agent-linux.zip` должен находиться в каталоге `/srv/samba/shared/install`): 
 ```
 [primo-admin@astra-machine ~]$ sudo mkdir -p /opt/Primo.AI/Agent /opt/Primo.AI/AgentData 
 [primo-admin@astra-machine ~]$ sudo unzip /srv/samba/shared/install/Agent-linux.zip -d /opt/Primo.AI/Agent
