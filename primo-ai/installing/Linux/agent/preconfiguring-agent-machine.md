@@ -244,6 +244,78 @@
 
 > Используйте этот способ при отсутствии необходимых библиотек.
 
+Создание учетной записи **idp**. 
+
+Необходимо указать расположение home-папки – там будут размещены инсталляции Python, а также все необходимые пакеты суммарным весом более 3.5 ГБайт:
+```
+#  sudo useradd -g primo-ai -m -s /bin/bash -d <custom_home_dir_location> idp
+```
+
+Установка pyenv c Python 3.11 и виртуальной средой
+Создать временный каталог pyenv и переместиться туда: 
+```
+# mkdir pyenv
+# cd pyenv 
+```
+
+Скопировать во временный каталог файлы pyenv из комплекта поставки (файл B-pyenv.zip должен находиться в каталоге /srv/samba/shared/install): 
+```
+# sudo unzip /srv/samba/shared/install/B-pyenv.zip . 
+```
+
+Запустить скрипт установки pyenv-installer.sh: 
+```
+# sudo ./pyenv-installer.sh idp primo-ai  <custom_home_dir_location>
+```
+
+Сообщение «WARNING: The Python tkinter extension was not compiled and GUI subsystem has been detected. Missing the Tk toolkit?» можно проигнорировать.
+
+Удалить установочные файлы: 
+```
+# sudo rm  pyenv-installer.sh B-pyenv.zip Python-3.11.9.tar.xz
+```
+
+Установка зависимостей IDP в виртуальную среду
+Создайте папку с инсталляцией:
+```
+# mkdir /app/Primo.AI/IDP
+```
+
+Распакуйте архив с IDP в каталог `/app/Primo.AI/IDP` (файл `B-IDP.zip` должен находиться в каталоге `/srv/samba/shared/install`):
+```
+# sudo unzip /srv/samba/shared/install/B-IDP.zip -d /app/Primo.AI/IDP
+```
+Переместиться в папку с инсталляцией:
+```
+# cd /app/Primo.AI/IDP
+```
+Запустить скрипт установки idp-installer.sh:
+```
+# sudo ./idp-installer.sh idp primo-ai <custom_home_dir_location>
+```
+Финальная раздача прав IDP:
+```
+#  sudo chmod –R 771 /app/Primo.AI/IDP
+#  sudo chown -R idp:primo-ai /app/Primo.AI/IDP
+```
+Удалить установочные файлы: 
+```
+# sudo rm /app/Primo.AI/IDP/idp-installer.sh /app/Primo.AI/IDP/venv.zip 
+```
+
+Установка Tesseract
+Проверить наличие Tesseract версии 4.0.0+: 
+```
+# sudo apt policy tesseract-ocr
+tesseract-ocr: 
+ Установлен: (отсутствует) 
+ Кандидат:   4.0.0-2~bpo9+1
+```
+
+Установить Tesseract
+```
+# sudo apt install tesseract-ocr
+```
 
 
 
