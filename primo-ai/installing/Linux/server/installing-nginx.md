@@ -19,7 +19,7 @@
  ```
 # sudo ufw allow 44392/tcp
 ```
-Копируем конфиг и сертификаты из комплекта поставки:
+Копируем конфигурационный файл и сертификаты из комплекта поставки:
 ```
 # cp /srv/samba/shared/install/nginx/nginx.conf /etc/nginx/nginx.conf
 # cp /srv/samba/shared/install/nginx/cert1.crt/etc/nginx/cert1.crt
