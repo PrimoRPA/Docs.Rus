@@ -38,21 +38,21 @@
    ```
  1. Редактируем строки подключения к БД:
 
-    ![](<../../../.gitbook/assets1/primo-ai/install/MachineInfo/MachineInfo-1.png>)
+    ![](<../../../../.gitbook/assets1/primo-ai/install/MachineInfo/MachineInfo-1.png>)
     
     > *Cм. инструкцию по установке PostgreSQL.*
 
-    В `HOST` указываем адрес сервера, где установлен PostgreSQL.	
+    В **HOST** указываем адрес сервера, где установлен PostgreSQL.	
    
-    В `USER ID` указываем пользователя БД `primo`, а в `PASSWORD` – его пароль.
+    В **USER ID** указываем пользователя БД `primo`, а в **PASSWORD** – его пароль.
 
 1. Настраиваем подключение к RabbitMQ:
  
-   ![](<../../../.gitbook/assets1/primo-ai/install/MachineInfo/MachineInfo-2.png>)
+   ![](<../../../../.gitbook/assets1/primo-ai/install/MachineInfo/MachineInfo-2.png>)
 
 1. Опционально - настраиваем Redis:
  
-   ![](<../../../.gitbook/assets1/primo-ai/install/MachineInfo/MachineInfo-3.png>)
+   ![](<../../../../.gitbook/assets1/primo-ai/install/MachineInfo/MachineInfo-3.png>)
 
 
 ## Даем права на запуск
@@ -68,7 +68,7 @@
 
    Если команда выполнится с ошибкой, находим вместо `/dev/sda` другое блочное устройство (диск) и прописываем его в конфигурационном файле:
  
-   ![](<../../../.gitbook/assets1/primo-ai/install/MachineInfo/MachineInfo-devices.png>)
+   ![](<../../../../.gitbook/assets1/primo-ai/install/MachineInfo/MachineInfo-devices.png>)
 
 
 ## Настройка службы
@@ -88,17 +88,17 @@
 
 1. Если используется один сервер с MachineInfo, в конфигурационном файле службы Primo.AI.Api прописываем ссылку на него:
 
-   ![](<../../../.gitbook/assets1/primo-ai/install/MachineInfo/MachineInfo-4.png>)
+   ![](<../../../../.gitbook/assets1/primo-ai/install/MachineInfo/MachineInfo-4.png>)
  
-   Параметр `Timeout` – время ответа, после которого сервис считается недоступным. По умолчанию равен 4 сек.
+   Параметр **Timeout** – время ответа, после которого сервис считается недоступным. По умолчанию равен 4 сек.
 
 2. Если используется кластер MachineInfo, или MachineInfo используется в геокластере, то в конфигурационном файле службы Primo.AI.Api прописываем ссылки на все узлы кластера:
 
-   ![](<../../../.gitbook/assets1/primo-ai/install/MachineInfo/MachineInfo-5.png>)
+   ![](<../../../../.gitbook/assets1/primo-ai/install/MachineInfo/MachineInfo-5.png>)
 
    Порядок узлов имеет значение. В момент генерации запроса на лицензию должны быть доступны все узлы. 
 
-   Узлы нельзя скрывать за балансировщиком нагрузки (Load balancer).
+   Узлы нельзя скрывать за балансировщиком нагрузки (load balancer).
 
 
 ## Запускаем службу
@@ -111,3 +111,7 @@
    ```
    # sudo systemctl status Primo.AI.Api.MachineInfo
    ```
+
+## Что дальше
+
+Теперь вы можете перейти к установке UI на машине сервера.
