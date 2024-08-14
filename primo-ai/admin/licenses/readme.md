@@ -73,9 +73,7 @@ Primo RPA AI Server — лицензированное ПО платформы P
 
 :large_orange_diamond:***Важно**. Если вы измените машину, на которой установлен компонент MachineInfo, то лицензия также станет невалидной. На текущей стадии реализации системы замена лицензий при смене оборудования не предусмотрена.*
 
-![](<../../../.gitbook/assets1/primo-ai/valid-lisenses.png>)
-
-
+![](<../../../.gitbook/assets1/primo-ai/admin/lisenses-table.png>)
 
 
 
