@@ -1,42 +1,41 @@
 # Установка Nginx 
 
-Подключаемся к серверу по SSH с пользователем с правами root. 
-
-Устанавливаем Nginx: 
-1. Через менеджер пакетов apt:
+1. Подключитесь к серверу по SSH с пользователем с правами root. 
+1. Устанавите Nginx одним из способов:
+   * через менеджер пакетов apt:
+     ```
+     # sudo apt install nginx
+     ```
+   * из пакета поставки:
+     ```
+     # sudo rpm -i nginx-1.16.0-1.el8.ngx.x86_64.rpm
+     ```
+1. Включите службу в автозагрузку:
    ```
-   # sudo apt install nginx
+   # sudo systemctl enable nginx
    ```
-1. Из пакета поставки:
+1. Откройте порт на файерволе:
    ```
-   # sudo rpm -i nginx-1.16.0-1.el8.ngx.x86_64.rpm
+   # sudo ufw allow 44392/tcp
    ```
-Включаем службу в автозагрузку:
-```
-# sudo systemctl enable nginx
-```
-Открываем порт на файерволе:
- ```
-# sudo ufw allow 44392/tcp
-```
-Копируем конфигурационный файл и сертификаты из комплекта поставки:
-```
-# cp /srv/samba/shared/install/nginx/nginx.conf /etc/nginx/nginx.conf
-# cp /srv/samba/shared/install/nginx/cert1.crt/etc/nginx/cert1.crt
-# cp /srv/samba/shared/install/nginx/cert1.rsa /etc/nginx/cert1.rsa
-```
-При необходимости корректируем конфигурационный файл:
-```
-# vim /etc/nginx/nginx.conf
-```
-Перезапускаем службу:
-```
-# systemctl restart nginx
-```
-Проверяем состояние службы:
-```
-# systemctl status nginx
-```
+1. Скопируйте конфигурационный файл и сертификаты из комплекта поставки:
+   ```
+   # cp /srv/samba/shared/install/nginx/nginx.conf /etc/nginx/nginx.conf
+   # cp /srv/samba/shared/install/nginx/cert1.crt/etc/nginx/cert1.crt
+   # cp /srv/samba/shared/install/nginx/cert1.rsa /etc/nginx/cert1.rsa
+   ```
+1. При необходимости скорректируйте конфигурационный файл:
+   ```
+   # vim /etc/nginx/nginx.conf
+   ```
+1. Перезапустите службу:
+   ```
+   # systemctl restart nginx
+   ```
+1. Проверьте состояние службы:
+   ```
+   # systemctl status nginx
+   ```
 
 ## Что дальше
 
