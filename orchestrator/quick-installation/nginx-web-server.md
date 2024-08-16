@@ -181,7 +181,7 @@
 
 ![](<../../.gitbook/assets1/orch-install-nginxserver-19.png>)
 
-Заходим под пользователем admin/Qwe123!@#.
+Заходим под пользователем admin/ваш пароль.
 
 ![](<../../.gitbook/assets1/orch-install-nginxserver-20.png>)
 
