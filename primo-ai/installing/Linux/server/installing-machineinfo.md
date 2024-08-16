@@ -27,34 +27,6 @@
    # sudo systemctl enable /etc/systemd/system/Primo.AI.Api.MachineInfo.service
    ```
 	
-## Редактируем конфигурационный файл
-1. Открываем конфигурационный файл в vim:
-   ```
-   # sudo vim appsettings.ProdLinux.json
-   ```
-1. Задаем тип используемой СУБД:
-   ```
-   "DBVendor": "Postgres", //Postgres, MSSQL
-   ```
- 1. Редактируем строки подключения к БД:
-
-    ![](<../../../../.gitbook/assets1/primo-ai/install/MachineInfo/MachineInfo-1.png>)
-    
-    > *Cм. инструкцию по установке PostgreSQL.*
-
-    В **HOST** указываем адрес сервера, где установлен PostgreSQL.	
-   
-    В **USER ID** указываем пользователя БД `primo`, а в **PASSWORD** – его пароль.
-
-1. Настраиваем подключение к RabbitMQ:
- 
-   ![](<../../../../.gitbook/assets1/primo-ai/install/MachineInfo/MachineInfo-2.png>)
-
-1. Опционально - настраиваем Redis:
- 
-   ![](<../../../../.gitbook/assets1/primo-ai/install/MachineInfo/MachineInfo-3.png>)
-
-
 ## Даем права на запуск
 
 1. Назначаем права:

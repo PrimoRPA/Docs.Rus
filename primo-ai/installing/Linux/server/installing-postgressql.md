@@ -27,7 +27,7 @@
          Tasks: 0 (limit: 4637)
          Memory: 0B
          CGroup: /system.slice/postgresql.service
-
+	```
 ## Первичная настройка СУБД PostgreSQL 
 
 1.	Выполните вход в сессию служебного пользователя **postgres**:

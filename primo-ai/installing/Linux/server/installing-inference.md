@@ -22,6 +22,8 @@
    ```
    # sudo cp /app/Primo.AI/Api.Inference/Primo.AI.Api.Inference.service /etc/systemd/system/Primo.AI.Api.Inference.service
    # sudo systemctl daemon-reload	
+   ```
+   
 1. Помещаем службу в автозапуск:
    ```
    # sudo systemctl enable /etc/systemd/system/Primo.AI.Api.Inference.service
@@ -35,6 +37,7 @@
 1. Задаем тип используемой СУБД:
    ```
    "DBVendor": "Postgres", //Postgres, MSSQL
+   ```
  
 1. Редактируем строки подключения к БД:
 
