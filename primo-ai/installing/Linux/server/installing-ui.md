@@ -1,6 +1,6 @@
 # Установка UI 
 
-1. Подключитесь к серверу с Primo.AI от имени суперпользователя (root). 
+1. Подключитесь к серверу с Primo RPA AI Server от имени суперпользователя root. 
 2. Скопируйте папку `/srv/samba/shared/install/UI` в каталог `/app/Primo.AI/UI`:
    ```
    # cp -R /srv/samba/shared/install/UI/* /app/Primo.AI/UI
