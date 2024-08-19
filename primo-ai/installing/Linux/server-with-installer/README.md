@@ -3,11 +3,11 @@
 В этом разделе вы узнаете, как установить и настроить компоненты Primo RPA AI Server с использованием инсталляторов.
 
 Порядок шагов:
-* Установка Primo.AI.Api
-* Установка Primo.AI.Api.Auth
-* Установка Primo.AI.Api.Inference
-* Установка Primo.AI.Api.Logs
-* Установка Primo.AI.Api.MachineInfo
-* Установка UI
+1. Установка Primo.AI.Api.
+1. Установка Primo.AI.Api.Auth.
+1. Установка Primo.AI.Api.Inference.
+1. Установка Primo.AI.Api.Logs.
+1. Установка Primo.AI.Api.MachineInfo.
+1. Установка UI.
 
 Установка и настройка компонентов целевой машины производится вручную.
