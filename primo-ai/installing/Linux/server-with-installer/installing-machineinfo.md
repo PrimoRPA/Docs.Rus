@@ -1,4 +1,4 @@
-# Установка Primo.AI.Api.MachineInfo
+# Установка Api.MachineInfo
 
 В этом разделе вы узнаете, как с помощью инсталлятора установить на машину сервера компонент Primo.AI.Api.MachineInfo.
 
