@@ -83,7 +83,7 @@
 ```
 # sudo mkdir -p /app/Primo.AI /app/Primo.AI/Agent /app/Primo.AI/AgentData 
 # sudo unzip /srv/samba/shared/install/Agent-linux.zip -d /app/Primo.AI/Agent
-# sudo chmod –R 771 /app/Primo.AI/Agent /app/Primo.AI/AgentData
+# sudo chmod -R 771 /app/Primo.AI/Agent /app/Primo.AI/AgentData
 # sudo chown -R agent:primo-ai /app/Primo.AI/Agent /app/Primo.AI/AgentData /app/Primo.AI/Agent
 ```
 
