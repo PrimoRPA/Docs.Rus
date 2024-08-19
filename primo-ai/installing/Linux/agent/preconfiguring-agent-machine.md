@@ -169,7 +169,7 @@
 ```
 # sudo mkdir -p /app/Primo.AI/IDP 
 # sudo unzip /srv/samba/shared/install/A-IDP.zip -d /app/Primo.AI/IDP
-# sudo chmod -R 771 /app/Primo.AI/IDP
+# sudo chmod -R 777 /app/Primo.AI/IDP
 ```
 
 Установите библиотеки python3, tesseract и другие пакеты:
