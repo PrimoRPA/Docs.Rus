@@ -66,6 +66,25 @@
  
    ![](<../../../../.gitbook/assets1/primo-ai/install/api/API-6.png>)
 
+   
+## Размещаем файлы ИИ-моделей
+
+1. Разархивируем **IDP models.zip** из комплекта поставки в директорию с ИИ-моделями (см. конфигурационный файл: **FileUpload** > **Model** > **Folder**):
+   ```
+   "FileUpload": {
+      ...
+      "Model": {
+         ...
+         "Folder": "/app/Primo.AI/Api_Models" 
+      },
+      ...
+   }
+   ```
+   
+   Для этого выполняем:
+   ```
+   # sudo unzip '/srv/samba/shared/install/IDP models.zip' -d /app/Primo.AI/Api_Models 	
+   ```
 
 ## Запускаем службу
 1. Даем права на запуск:
