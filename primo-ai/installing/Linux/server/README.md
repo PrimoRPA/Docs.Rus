@@ -9,5 +9,5 @@
    - установите Api.Auth;
    - установите Api.Inference;
    - установите Api.Logs;
-   - установите Api.MachineInfo;
+   - установите Api.MachineInfo.
 1. Установите UI.
