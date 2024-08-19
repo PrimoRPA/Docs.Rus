@@ -7,6 +7,7 @@
 * Установка Primo.AI.Api.Auth
 * Установка Primo.AI.Api.Inference
 * Установка Primo.AI.Api.Logs
+* Установка Primo.AI.Api.MachineInfo
 * Установка 
 
 Установка и настройка компонентов целевой машины производится вручную.
