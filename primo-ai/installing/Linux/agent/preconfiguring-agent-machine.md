@@ -169,7 +169,7 @@
 ```
 # sudo mkdir -p /app/Primo.AI/IDP 
 # sudo unzip /srv/samba/shared/install/A-IDP.zip -d /app/Primo.AI/IDP
-# sudo chmod –R 771 /app/Primo.AI/IDP
+# sudo chmod -R 771 /app/Primo.AI/IDP
 # sudo chown -R idp:primo-ai /app/Primo.AI/IDP
 ```
 
@@ -180,30 +180,30 @@
 
 Создайте и активируйте виртуальную среду venv:
 ```
-# python3 –m venv /app/Primo.AI/IDP/venv
+# python3 -m venv /app/Primo.AI/IDP/venv
 
 # source /app/Primo.AI/IDP/venv/bin/activate
 ```
 
 Установите пакеты python. 
 ```
-# python -m ensurepip –upgrade
+# python -m ensurepip --upgrade
 ```
 
 *	Если для IDP-процесса будет использоваться CPU:
 ```
-# pip3 install –r /app/Primo.AI/IDP/prequisites_cpu.txt
-# pip3 install –r /app/Primo.AI/IDP/requirements_cpu.txt
+# pip3 install -r /app/Primo.AI/IDP/prequisites_cpu.txt
+# pip3 install -r /app/Primo.AI/IDP/requirements_cpu.txt
 ```
 *	Если для IDP-процесса будет использоваться GPU:
 ```
-# pip3 install –r /app/Primo.AI/IDP/prequisites.txt	
-# pip3 install –r /app/Primo.AI/IDP/requirements.txt
+# pip3 install -r /app/Primo.AI/IDP/prequisites.txt	
+# pip3 install -r /app/Primo.AI/IDP/requirements.txt
 ```
 
 Произведите финальную раздачу прав IDP:
 ```
-# sudo chmod –R 771 /app/Primo.AI/IDP
+# sudo chmod -R 771 /app/Primo.AI/IDP
 # sudo chown -R idp:primo-ai /app/Primo.AI/IDP
 ```
 
@@ -263,7 +263,7 @@
 
 Раздайте права на IDP:
 ```
-# sudo chmod –R 771 /app/Primo.AI/IDP
+# sudo chmod -R 771 /app/Primo.AI/IDP
 # sudo chown -R idp:primo-ai /app/Primo.AI/IDP
 ```
 Удалите установочные файлы: 
