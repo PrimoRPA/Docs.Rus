@@ -863,6 +863,8 @@
 		* [Якорь](g_elements/el-linux-basic/els-browser/el-browser-anchor.md)
 	* [Диалоги](g_elements/el-linux-basic/els-dialogs/readme.md)
 		* [Окно сообщения](g_elements/el-linux-basic/els-dialogs/el-dialog-message.md)
+	* [Криптография](g_elements/el-linux-basic/els-crypto/readme.md)
+		* [SecureString к строке](g_elements/el-linux-basic/els-crypto/el-crypto-securestring.md)
 	* [Рабочий стол](g_elements/el-linux-basic/els-desktop/readme.md)
 		* [Исчезновение элемента](g_elements/el-linux-basic/els-desktop/el-desktop-elementvanish.md)
 		* [Клик мышью](g_elements/el-linux-basic/els-desktop/el-desktop-click.md)
