@@ -28,7 +28,7 @@ description: Get result
 - CreatedAt *[System.DateTime]* — дата создания запроса на инференс.
 - ExpiresAt *[System.DateTime]* — дата завершения обработки документа.
 - ModelType *[String]* — тип модели, который использовался для распознавания данных.
-- ResultIsReady *[Boolean]* — флаг готовности результата: `true` или `false`.
+- ResultIsReady *[Boolean]* — флаг готовности результата: `true` (готов) или `false` (не готов).
 - Result *[Primo.AI.Server.Model.InferenceResultContent]* — результат распознавания. Описание модели InferenceResultContent приведено в подразделе ниже.
 - Files *[List<Primo.AI.Server.Model.InferenceResultFile>]* — список обработанных файлов. Описание модели InferenceResultFile приведено ниже.
 
