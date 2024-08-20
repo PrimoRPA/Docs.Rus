@@ -4,7 +4,7 @@ Description: SecureStringToString
 
 # SecureString к строке
 
-![](../../../resources/activities/basic/crypto/SecureString-to-string-activity.png)
+![](../../../.gitbook/assets1/SecureString-to-string-activity.png)
 
 Компонент, который преобразует SecureString в строку. Элемент **SecureString к строке** может быть полезен при автоматизации задач, которые требуют обработки конфиденциальных данных.
 
@@ -17,14 +17,6 @@ Description: SecureStringToString
 
 **Вывод:** 
 1. **SecureString\*** *[[System.Security.SecureString](https://learn.microsoft.com/ru-ru/dotnet/api/system.security.securestring?view=net-5.0)] - Название переменной вывода, в которую сохранены данные в формате SecureString.
-
-## Learning
-
-На странице [Learning](https://github.com/PrimoRPA/Learning) доступен RPA-проект, демонстрирующий работу элемента.
-
-1. Скачайте архив со всеми обучающими материалами по ссылке: [Скачать архив Learning](https://github.com/PrimoRPA/Learning/archive/refs/heads/master.zip).
-2. Распакуйте архив и откройте в Студии проект **StudioActivities**.
-3. Выберите процесс `StudioActivities/Ru/Криптография/Secure_string.ltw` для просмотра.
 
 ## Только код
 
