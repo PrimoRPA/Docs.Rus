@@ -11,7 +11,7 @@
 
 Чтобы перейти в определенный проект, достаточно кликнуть по его карточке. После чего, в панели слева, вы увидите меню для управления ресурсами проекта. 
 
-![](<../../../../.gitbook/assets1/primo-ai/user-guide/first-project-page.png>)
+![](<../../../../.gitbook/assets1/primo-ai/user-guide/project-menu-panel.png>)
 
 
 ## Содержание
