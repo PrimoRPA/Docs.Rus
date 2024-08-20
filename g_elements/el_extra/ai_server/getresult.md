@@ -52,7 +52,7 @@ description: Get result
 #### InferenceResultItem
 
 Свойства модели `Primo.AI.Server.Model.InferenceResultItem`:
-- Field *[String]* — имя поля.
+- Field *[String]* — название поля.
 - Text *[String]* — текст поля.
 - ModelType *[String]* — тип модели (для классификации).
 - Confidence *[Decimal]* — уверенность в корректности распознанных данных.
