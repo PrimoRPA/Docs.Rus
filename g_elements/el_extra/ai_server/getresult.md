@@ -48,6 +48,7 @@ description: Get result
 - Items *[List<Primo.AI.Server.Model.InferenceResultItem>]* — список распознанных элементов. Описание структуры элемента приведено ниже.
 - ThresholdOKMin *[String]* — порог, когда считается, что значение распозналось достоверно.
 - ThresholdWarnMin *[String]* — порог, когда считается, что значение распозналось неоднозначно.
+- ImageTransforms *[Primo.AI.Server.Model.ImageTransforms]* — преобразование изображения.
 
 #### InferenceResultItem
 
