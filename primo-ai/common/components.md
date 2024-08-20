@@ -2,7 +2,7 @@
 
 Primo RPA AI Server построен на клиент-серверной архитектуре. Взаимосвязь компонентов представлена на схеме ниже.
 
-![](<../../.gitbook/assets1/primo-ai/Primo.AI.arch.png>)
+![](<../../.gitbook/assets1/primo-ai/primo-ai-components-scheme.png>)
 
 В состав сервиса входят следующие компоненты:
 1. **Сервер баз данных и хранилищ данных:**
