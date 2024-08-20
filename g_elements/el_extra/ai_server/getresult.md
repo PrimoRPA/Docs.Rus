@@ -56,7 +56,7 @@ description: Get result
 - Text *[String]* — текст поля.
 - ModelType *[String]* — тип модели (для классификации).
 - Confidence *[Decimal]* — уверенность в корректности распознанных данных.
-- Coordinates *[BoundingBox]* — координаты элемента, выделенного на изображении инструментом BoundingBox. Описание свойств модели BoundingBox приведено в подразделе ниже.
+- Coordinates *[BoundingBox]* — координаты элемента, выделенного на изображении инструментом Add Bounding Box. Описание свойств модели BoundingBox приведено в подразделе ниже.
 - Rows *[List<Primo.AI.Server.Model.InferenceResultItemRow>]* — табличные данные, при наличии их в документе.
 
 ### InferenceResultItemRow
