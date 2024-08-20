@@ -49,7 +49,7 @@
 
 1. На странице **Процессы Inference** нажмите кнопку **Добавить Процесс Inference**.
 
-   ![](<../../../.gitbook/assets1/primo-ai/add-inf-process.png>)
+   ![](<../../../.gitbook/assets1/primo-ai/user-guide/add-inference-process.png>)
    
 1. Выберите доступную целевую машину и нажмите **Сохранить**.
 
