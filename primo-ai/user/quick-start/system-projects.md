@@ -45,9 +45,9 @@
 
 1. В строке с шаблоном инференса выберите действие **Процессы**.
 
-   ![](<../../../.gitbook/assets1/primo-ai/class-goto-infprocess.png>)
+   ![Действие «Процессы»](<../../../.gitbook/assets1/primo-ai/class-goto-infprocess.png>)
 
-1. Нажмите кнопку **Добавить Процесс Inference**.
+1. На странице **Процессы Inference** нажмите кнопку **Добавить Процесс Inference**.
 
    ![](<../../../.gitbook/assets1/primo-ai/add-inf-process.png>)
    
