@@ -11,9 +11,6 @@
 
 ![](<../../../.gitbook/assets1/primo-ai/all-system-projects.png>)
 
-В левой части отобразится меню проекта.
-
-![](<../../../.gitbook/assets1/primo-ai/menu-of-project.png>)
 
 ### Шаг 2 — Создайте шаблон процесса инференса
 
