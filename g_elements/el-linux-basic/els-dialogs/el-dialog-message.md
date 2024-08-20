@@ -1,3 +1,7 @@
+---
+Description: Dialog message
+---
+
 # Окно сообщения
 
 ![](../../../.gitbook/assets1/Activity-message.png)
