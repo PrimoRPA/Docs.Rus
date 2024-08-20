@@ -72,3 +72,4 @@ description: Get result
 - MaxX *[Decimal]* — максимальная координата X.
 - MinY *[Decimal]* — минимальная координата Y.
 - MaxY *[Decimal]* — максимальная координата Y.
+- RotationAngle *[Decimal]* — угол поворота изображения.
