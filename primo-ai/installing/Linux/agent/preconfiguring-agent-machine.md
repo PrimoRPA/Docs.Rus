@@ -63,7 +63,6 @@
 ```
 Репозитории `main`, `update`, `base` и `extended` должны присутствовать в выводе команды.
 
-
 ## Агент
 
 ### Настройка учетной записи агента
@@ -316,3 +315,19 @@ tesseract-ocr:
 Пропишите итоговое значение в параметре **InferenceRequestQueue** -> **MaxImagesLoad** в конфигурационном файле агента (`appsettings.ProdLinux.json`):
 
 ![](<../../../../.gitbook/assets1/primo-ai/install/agent/install-agent-and-idp-1.png>)
+
+# Увеличение лимита потребления ресурсов
+
+При большой нагрузке на целевую машину происходит открытие множества дескрипторов файлов, что приводит к ошибке – "Too many open files". Необходимо увеличить системный лимит на количество дескрипторов, доступных пользователям. Для этого отредактируйте файл limits.conf:
+```
+sudo nano /etc/security/limits.conf
+```
+
+Добавьте туда следующие строки:
+```
+agent         hard    nofile      128000
+agent         soft    nofile      128000
+
+idp         hard    nofile      128000
+idp         soft    nofile      128000
+```
