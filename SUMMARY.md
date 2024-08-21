@@ -42,7 +42,7 @@
 * [Лицензии](licenses.md)
 * [Полезные ресурсы](useful-links.md)
 
-## Primo Studio
+## Primo RPA Studio
 
 * [Общие сведения](primo-studio/common/README.md)
    * [Издания](primo-studio/common/editions.md)
@@ -108,7 +108,7 @@
   * [Редактор диалогов](primo-studio/tools/dialogs-editor.md)
 * [Горячие клавиши](primo-studio/hotkeys.md)
 
-## Primo Studio Linux
+## Primo RPA Studio Linux
 * [Общие сведения](primo-studio-linux/overview.md)
 * [Установка и обновление](primo-studio-linux/installation/readme.md)
   * [Системные требования](primo-studio-linux/studio-linux-sysreq.md)
@@ -925,7 +925,7 @@
   	* [Чтение формулы из ячейки](g_elements/el_basic/els-odf/els-table/el-odftable-readcellformula.md)
    * [Tesseract OCR](g_elements/el-linux/el-extra/el-ocr-tesseract-lin.md)
 
-## Primo Robot
+## Primo RPA Robot
 
 * [Общие сведения](primo-robot/intro.md)
 * [Системные требования](primo-robot/systemreq.md)
@@ -939,7 +939,7 @@
   * [Настройки](primo-robot/robot-runner/settings.md)
 
 
-## Primo Orchestrator <a href="#orchestrator" id="orchestrator"></a>
+## Primo RPA Orchestrator <a href="#orchestrator" id="orchestrator"></a>
 
 * [Общие сведения](orchestrator/intro.md)
 * [Системные требования](orchestrator/systemreq.md)
@@ -1075,7 +1075,7 @@
   * [Возврат к предыдущей версии интерфейса](orchestrator-hope-ui/additional/ui-rollback.md)
 
 
-## Primo Idea Hub
+## Primo RPA Idea Hub
 
 * [Общие сведения](idea-hub/description.md)
 * [Установка и обновление](idea-hub/installation/readme-installation.md)
@@ -1098,7 +1098,7 @@
 * [Настройка формул](idea-hub/formulas.md)
 * [Создание индикаторов](idea-hub/indicators.md)
 
-## Primo AI Server
+## Primo RPA AI Server
 * [Словарь](primo-ai/glossary/README.md)
 * [Общие сведения](primo-ai/common/README.md)
     * [Архитектура](primo-ai/common/components.md)
