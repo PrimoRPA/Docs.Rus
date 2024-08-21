@@ -13,4 +13,4 @@
 1. [Установите UI](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/server/installing-ui)
 
 ## Что дальше
-[Установите и настройте ПО для целевой машины](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/agent/preconfiguring-agent-machine) — эти действия также выполняются вручную.
+[Установите и настройте ПО для целевой машины](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/agent/preconfiguring-agent-machine).
