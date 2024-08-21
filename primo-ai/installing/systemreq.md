@@ -30,4 +30,4 @@
 
 
 ## См. также
-* Архитектура
+* [Архитектура](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/common/components)
