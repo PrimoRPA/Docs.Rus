@@ -64,9 +64,7 @@
 
 :large_blue_diamond:***Примечание**. Роль пользователя должна иметь право «Шаблоны процесса обучения — Просмотр».*
 
-Для запуска обучения модели недостаточно создать шаблон — требуется еще создать в этом шаблоне процесс обучения. Чтобы перейти к целевому действию, выберите для шаблона действие **Процессы** и следуйте [инструкции](https://github.com/PrimoRPA/Docs.Rus/blob/1299-%D0%BD%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82-%D0%BF%D0%BE-primoai/primo-ai/user/projects/training/operations-with-process.md#%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F).
-
-![](<../../../../.gitbook/assets1/primo-ai//user-guide/go-to-training-process.gif>)
+Для запуска обучения модели недостаточно создать шаблон — требуется еще создать в этом шаблоне процесс обучения. Чтобы перейти к целевому действию, выберите для шаблона действие **Процессы** и следуйте [инструкции](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/user/training/operations-with-process#sozdat-process-obucheniya).
 
 
 ## Редактировать шаблон обучения
