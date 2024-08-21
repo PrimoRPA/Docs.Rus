@@ -2,9 +2,7 @@
 
 :large_orange_diamond:***Важно**. Изучите [требования к изображениям для обучения](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/other/dataset-quality-requirements).*
 
-Пользователь может добавить изображения в проект, просмотреть, редактировать, повернуть и удалить. 
-
-Изображения можно добавить разными способами:
+Пользователь может добавить изображения в проект, просмотреть, редактировать, повернуть и удалить. Изображения можно добавить разными способами:
 * [добавить файлы](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/data/operations-with-data#dobavit-izobrazheniya);
 * [добавить архив](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/data/operations-with-data#dobavit-izobrazheniya-arkhivom);
 * [импортировать существующий датасет вместе со схемой разметки](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/data/operations-with-data#import-dataseta).
