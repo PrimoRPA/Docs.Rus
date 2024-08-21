@@ -14,27 +14,27 @@
 
 
 ## Содержание раздела
-* Системные требования
-* Сетевые порты
-* Установка под Astra Linux:
-  * Предварительная настройка машины сервера
-  * Установка компонентов сервера инсталлятором:
-    * Установка UI
-    * Установка Primo.AI.Api
-    * Установка Primo.AI.Api.Auth
-    * Установка Primo.AI.Api.Inference
-    * Установка Primo.AI.Api.Logs
-    * Установка Primo.AI.Api.MachineInfo
-  * Установка компонентов сервера вручную:
-    *  Установка Nginx
-    *  Установка RabbitMQ
-    *  Установка PostgreSQL
-    *  Установка Api
-    *  Установка Api.Auth
-    *  Установка Api.Inference
-    *  Установка Api.Logs
-    *  Установка Api.MachineInfo
-    *  Установка UI
+* [Системные требования](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/systemreq)
+* [Сетевые порты](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/ports)
+* [Установка под Astra Linux](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux):
+  * [Предварительная настройка машины сервера](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/preconfiguring-server-machine)
+  * [Установка компонентов сервера инсталлятором](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/server-with-installer):
+    * [Установка UI](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/server-with-installer/installing-ui)
+    * [Установка AI.Api](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/server-with-installer/installing-api)
+    * [Установка Api.Auth](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/server-with-installer/installing-auth)
+    * [Установка Api.Inference](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/server-with-installer/installing-inference)
+    * [Установка Api.Logs](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/server-with-installer/installing-logs)
+    * [Установка Api.MachineInfo](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/server-with-installer/installing-machineinfo)
+  * [Установка компонентов сервера вручную](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/server):
+    *  [Установка Nginx](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/server/installing-nginx)
+    *  [Установка RabbitMQ](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/server/installing-rabbitmq)
+    *  [Установка PostgreSQL](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/server/installing-postgressql)
+    *  [Установка Api](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/server/installing-api)
+    *  [Установка Api.Auth](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/server/installing-auth)
+    *  [Установка Api.Inference](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/server/installing-inference)
+    *  [Установка Api.Logs](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/server/installing-logs)
+    *  [Установка Api.MachineInfo](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/server/installing-machineinfo)
+    *  [Установка UI](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/server/installing-ui)
   * Подготовка целевой машины:
-    * Настройка целевой машины
-    * Обновление ПО 
+    * [Настройка целевой машины](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/agent/preconfiguring-agent-machine)
+    * [Обновление ПО](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/agent/update) 
