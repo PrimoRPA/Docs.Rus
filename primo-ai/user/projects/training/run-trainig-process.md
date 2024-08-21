@@ -8,7 +8,7 @@
 
 1. Перейдите на страницу **Обучение > Шаблоны обучения**.
 
-   ![](<../../../../.gitbook/assets1/primo-ai//user-guide/training-page.png>)
+   ![](<../../../../.gitbook/assets1/primo-ai//user-guide/training-model-page.png>)
 
 1. Нажмите кнопку **Добавить шаблон обучения**.
 1. В открывшейся форме:
