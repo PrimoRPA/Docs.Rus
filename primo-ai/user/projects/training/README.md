@@ -8,7 +8,7 @@
 3. Запуск процесса обучения.
 4. Проверка наличия обученной модели.
 
-![](<../../../../.gitbook/assets1/primo-ai//user-guide/training-page.png>)
+![](<../../../../.gitbook/assets1/primo-ai//user-guide/training-model-page.png>)
 
 ## Содержание
 
