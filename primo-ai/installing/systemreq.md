@@ -28,3 +28,6 @@
 | GPU        | - | NVIDIA GPU семейства Ampere (compute capability > 8.0) VRAM > 16 | NVIDIA GPU семейства Ampere (compute capability > 8.0) (например, RTX 3090) | 
 | CUDA       | -                  | 12.1                               | 12.1                    | 
 
+
+## См. также
+* Архитектура
