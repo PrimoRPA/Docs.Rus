@@ -2,7 +2,7 @@
 
 Пользователь может создать шаблон обучения, просмотреть, редактировать и удалить. 
 
-![Страница управления шаблоном обучения](<../../../../.gitbook/assets1/primo-ai//user-guide/training-page.png>)
+![](<../../../../.gitbook/assets1/primo-ai//user-guide/training-model-page.png>)
 
 
 ## Создать шаблон процесса обучения
