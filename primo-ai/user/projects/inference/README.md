@@ -13,7 +13,7 @@
 
 ## Содержание
 
-* Как запустить процесс инференса
+* [Как запустить процесс инференса](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/inference/run-inference-process)
 
 ## Что дальше
 
