@@ -17,6 +17,8 @@
 
 ## Что дальше
 
-После того, как на целевой машине успешно запущен инференс, работа с проектом в Primo RPA AI Server может быть завершена. Следующий шаг — подготовить RPA-проект в Primo RPA Studio, который будет взаимодействовать с Primo RPA AI Server и вашей подготовленной целевой машиной. Для разработки RPA-проекта понадобится установить библиотеку [Primo.AI.Server](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server).
+После того, как на целевой машине успешно запущен инференс, работа с проектом в Primo RPA AI Server может быть завершена. Следующий шаг — подготовить RPA-проект в Primo RPA Studio, который будет взаимодействовать с Primo RPA AI Server и вашей подготовленной целевой машиной. 
+
+Для разработки RPA-проекта понадобится установить библиотеку [Primo.AI.Server](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server) в Primo RPA Studio.
 
 :large_blue_diamond:***Примечание**. Изображения для инференса добавляются в рамках RPA-проекта, в веб-интерфейсе Primo RPA AI Server эта функция отсутствует.*
