@@ -4,13 +4,13 @@ description: Create request
 
 # Создать запрос
 
-Элемент отправляет запрос на распознавание документа в Primo RPA AI Server. Используется в рамках контейнера **Сервер Primo.AI**.
+Элемент отправляет запрос на распознавание документа в Primo RPA AI Server. Используется в контейнере [**Сервер Primo.AI**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/primoaiserver).
 
 ![](<../../../.gitbook/assets1/windows_items/WFAttachPrimoAIServer.png>)
 
 ## Перед началом работы
 
-1. Убедитесь, что в Студии установлена библиотека [Primo.AI.Server](https://github.com/PrimoRPA/Docs.Rus/tree/1299-%D0%BD%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82-%D0%BF%D0%BE-primoai/g_elements/el_extra/ai_server), поскольку данный элемент входит в состав библиотеки.
+1. Установите в Студии библиотеку [Primo.AI.Server](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server), поскольку данный элемент входит в состав библиотеки.
 
 2. Подготовьте изображение, соответствующее следующим требованиям:
    * Поддерживаемые форматы файлов: JPEG, JPG, JPE, PNG, PDF, BMP, TIF, TIFF, DIB. 
@@ -19,7 +19,7 @@ description: Create request
    * Размер изображения не должен превышать 20 мегапикселей (длина × ширина).
    * Количество страниц: одностраничный документ. Многостраничные документы необходимо разбить на отдельные страницы и распознавать постранично.
 
-Подробнее с требованиями к изображениям можно ознакомиться [здесь](https://github.com/PrimoRPA/Docs.Rus/blob/1299-%D0%BD%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82-%D0%BF%D0%BE-primoai/primo-ai/other/inference-quality-requirements.md).
+Подробнее с требованиями к изображениям можно ознакомиться [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/other/inference-quality-requirements).
 
 ## Свойства
 Символ `*` указывает на обязательность заполнения свойства. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
