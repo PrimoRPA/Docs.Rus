@@ -19,7 +19,7 @@ description: Create request
    * Размер изображения не должен превышать 20 мегапикселей (длина × ширина).
    * Количество страниц: одностраничный документ. Многостраничные документы необходимо разбить на отдельные страницы и распознавать постранично.
 
-Подробнее с требованиями к изображениям можно ознакомиться [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/other/inference-quality-requirements).
+Подробнее с требованиями можно ознакомиться [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/other/inference-quality-requirements).
 
 ## Свойства
 Символ `*` указывает на обязательность заполнения свойства. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
