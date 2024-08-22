@@ -6,7 +6,7 @@ description: Validate document
 
 ![](<../../../.gitbook/assets1/windows_items/validate-doc.png>)
 
-Элемент проверяет результат распознавания документа. Результатом распознавания выступает переменная с типом `Primo.AI.Server.Model.InferenceResult`, которую получают с помощью элемента **Получить результат**. 
+Элемент проверяет результат распознавания документа. Результатом распознавания выступает переменная с типом `Primo.AI.Server.Model.InferenceResult`, которую получают с помощью элемента [Получить результат](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/getresult). 
 
 Элемент **Проверить документ** валидирует содержимое этой переменной и сохраняет результат валидации в новую переменную с тем же типом данных. Во время валидации открывается диалоговое окно с изображением документа и распознанными полями:
 * *Зеленым цветом выделены успешно распознанные блоки.*
@@ -24,7 +24,7 @@ description: Validate document
 
 ## Перед началом работы
 
-Убедитесь, что в Студии установлена библиотека [Primo.AI.Server](https://github.com/PrimoRPA/Docs.Rus/tree/1299-%D0%BD%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82-%D0%BF%D0%BE-primoai/g_elements/el_extra/ai_server), поскольку данный элемент входит в состав библиотеки.
+Установите в Студии библиотеку [Primo.AI.Server](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server), поскольку данный элемент входит в состав библиотеки.
 
 
 ## Свойства
@@ -33,7 +33,7 @@ description: Validate document
 **Обработка:**
 
 1. **Документ\*** *[String]* — путь к файлу обрабатываемого документа.
-1. **Результат распознавания\*** *[Primo.AI.Server.Model.InferenceResult]* — название переменной с результатом распознавания документа.
+1. **Результат распознавания\*** *[[Primo.AI.Server.Model.InferenceResult](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/getresult#inferenceresult)]* — название переменной с результатом распознавания документа.
 
 **Вывод:**
 
