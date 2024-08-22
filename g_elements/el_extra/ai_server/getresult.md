@@ -10,13 +10,13 @@ description: Get result
 
 ## Перед началом работы
 
-Убедитесь, что в Студии установлена библиотека [Primo.AI.Server](https://github.com/PrimoRPA/Docs.Rus/tree/1299-%D0%BD%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82-%D0%BF%D0%BE-primoai/g_elements/el_extra/ai_server), поскольку данный элемент входит в состав библиотеки.
+Установите в Студии библиотеку [Primo.AI.Server](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server), поскольку данный элемент входит в состав библиотеки.
 
 
 ## Свойства
 Символ `*` указывает на обязательность заполнения свойства. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
   
-1. **Ключ запроса\*** *[System.Guid]* — идентификатор запроса к Primo RPA AI Server. Получить его можно в результате выполнения элемента [**Создать запрос**](https://github.com/PrimoRPA/Docs.Rus/blob/1299-%D0%BD%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82-%D0%BF%D0%BE-primoai/g_elements/el_extra/ai_server/createrequest.md).
+1. **Ключ запроса\*** *[System.Guid]* — идентификатор запроса к Primo RPA AI Server. Получить его можно в результате выполнения элемента [Создать запрос](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/createrequest).
 1. **Результат** *[Primo.AI.Server.Model.InferenceResult]* — название переменной, в которую сохранится результат обработки документа. Описание модели InferenceResult представлено ниже.
 
 
@@ -29,8 +29,8 @@ description: Get result
 - ExpiresAt *[System.DateTime]* — дата завершения обработки документа.
 - ModelType *[String]* — тип модели, который использовался для распознавания данных.
 - ResultIsReady *[Boolean]* — флаг готовности результата: `true` (готов) или `false` (не готов).
-- Result *[Primo.AI.Server.Model.InferenceResultContent]* — результат распознавания. Описание модели InferenceResultContent приведено в подразделе ниже.
-- Files *[List<Primo.AI.Server.Model.InferenceResultFile>]* — список обработанных файлов. Описание модели InferenceResultFile приведено ниже.
+- Result *[[Primo.AI.Server.Model.InferenceResultContent](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/getresult#inferenceresultcontent)]* — результат распознавания. 
+- Files *[List\<[Primo.AI.Server.Model.InferenceResultFile](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/getresult#inferenceresultfile)>]* — список обработанных файлов. 
 
 
 #### InferenceResultFile
@@ -45,10 +45,10 @@ description: Get result
 Свойства модели `Primo.AI.Server.Model.InferenceResultContent`:
 - CreatedAt *[System.DateTime]* — дата создания результата распознавания.
 - ErrorMsg *[String]* — текст ошибки, если она присутствует. Например: `"Не запущены агенты для модели"`.
-- Items *[List<Primo.AI.Server.Model.InferenceResultItem>]* — список распознанных элементов. Описание структуры элемента приведено ниже.
+- Items *[List\<[Primo.AI.Server.Model.InferenceResultItem](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/getresult#inferenceresultitem)>]* — список распознанных элементов. 
 - ThresholdOKMin *[String]* — порог, когда считается, что значение распозналось достоверно.
 - ThresholdWarnMin *[String]* — порог, когда считается, что значение распозналось неоднозначно.
-- ImageTransforms *[Primo.AI.Server.Model.ImageTransforms]* — преобразование изображения.
+- ImageTransforms *[[Primo.AI.Server.Model.ImageTransforms](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/getresult#imagetransforms)]* — преобразование изображения.
 
 #### InferenceResultItem
 
@@ -57,8 +57,8 @@ description: Get result
 - Text *[String]* — текст поля.
 - ModelType *[String]* — тип модели (для классификации).
 - Confidence *[Decimal]* — уверенность в корректности распознанных данных.
-- Coordinates *[BoundingBox]* — координаты элемента, выделенного на изображении инструментом Add Bounding Box. Описание свойств модели BoundingBox приведено в подразделе ниже.
-- Rows *[List<Primo.AI.Server.Model.InferenceResultItemRow>]* — табличные данные, если они присутствуют в документе.
+- Coordinates *[[BoundingBox](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/getresult#boundingbox)]* — координаты элемента, выделенного на изображении инструментом Add Bounding Box. 
+- Rows *[List\<[Primo.AI.Server.Model.InferenceResultItemRow](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/getresult#inferenceresultitemrow)>]* — табличные данные, если они присутствуют в документе.
 
 ### InferenceResultItemRow
 
