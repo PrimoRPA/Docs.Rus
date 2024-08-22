@@ -1159,7 +1159,7 @@
         * [Как запустить инференс](primo-ai/user/projects/inference/run-inference-process.md)
 * [Дополнительно](primo-ai/other/README.md)
     * [Требования к изображениям для обучения](primo-ai/other/dataset-quality-requirements.md)
-    * [Требования к изображениям для инфреренса](primo-ai/other/inference-quality-requirements.md)
+    * [Требования к изображениям для инференса](primo-ai/other/inference-quality-requirements.md)
 
 
 ## Разработчикам <a href="#developers" id="developers"></a>
