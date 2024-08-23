@@ -1,8 +1,6 @@
 # Базовые понятия
 
-В данном разделе вы познакомитесь с базовыми понятиями, используемыми при работе с Primo RPA AI Server. 
-
-Ключевыми понятиями в контексте работы сервиса являются [обучение](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/glossary#obuchenie) (training) и [инференс](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/glossary#inferens) (inference).
+В данном разделе вы познакомитесь с базовыми понятиями, которые облегчат работу с Primo RPA AI Server. Ключевыми понятиями в контексте работы сервиса являются [обучение](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/glossary#obuchenie) (training) и [инференс](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/glossary#inferens) (inference).
 
 ## Общие понятия
 
