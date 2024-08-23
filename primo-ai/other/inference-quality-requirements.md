@@ -29,5 +29,5 @@
 
 
 ### См. также
-- Требования к изображениям для обучения
+- [Требования к изображениям для обучения](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/other/dataset-quality-requirements)
 
