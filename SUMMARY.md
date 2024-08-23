@@ -1141,6 +1141,7 @@
     * [Быстрый старт](primo-ai/user/quick-start/README.md)
         * [О встроенных проектах](primo-ai/user/quick-start/about-system-projects.md)
         * [Работа со встроенным проектом](primo-ai/user/quick-start/system-projects.md)
+        * [Создание проекта с нуля](primo-ai/user/quick-start/new-project.md)
     * [Проект](primo-ai/user/projects/project/README.md)
         * [Управление проектом](primo-ai/user/projects/project/operation-with-projects.md)
     * [Данные](primo-ai/user/projects/data/README.md)
