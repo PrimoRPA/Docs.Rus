@@ -1087,7 +1087,7 @@
   	* [Интеграция с LDAP](idea-hub/installation/integration-ldap.md)
 * [Начало работы](idea-hub/getting-started/readme.md)
 	* [Работа с идеями](idea-hub/getting-started/ideas.md)
-* [Процессы](idea-hub/processes/readme-processes.md)
+* [Процессы](idea-hub/processes/readme.md)
 	* [Создание процесса](idea-hub/processes/create-process.md)
 	* [Редактирование процесса](idea-hub/processes/edit-process.md)
         * [Добавление полей](idea-hub/processes/add-fields.md)
