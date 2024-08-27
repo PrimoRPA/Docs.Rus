@@ -18,7 +18,7 @@
 
 ![](<../../.gitbook/assets/IdeaHub_Processes_1_SuggestIdea.png>)
 
-После добавления поле появится в списке на странице **Управление полями**.
+Добавленное поле появится в списке на странице **Управление полями**.
 
 Для определенных типов полей существует возможность указать, можно ли будет его заполнять с помощью импорта `process.xslx` файла.\
 К таким типам полей относятся: datetime, file, entity_reference, integer, decimal, float, string, string_long, text_with_summary, workflow, formula.
