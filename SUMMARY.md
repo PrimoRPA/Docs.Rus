@@ -953,26 +953,7 @@
   	* [Чтение из ячейки](g_elements/el_basic/els-odf/els-table/el-odftable-readcell.md)
   	* [Чтение формулы из ячейки](g_elements/el_basic/els-odf/els-table/el-odftable-readcellformula.md)
    * [Tesseract OCR](g_elements/el-linux/el-extra/el-ocr-tesseract-lin.md)
-   * [Дополнительные](g_elements/el-linux/el-extra/readme.md)  
-	* [Т1-Интеграция](g_elements/el-linux/el-extra/t1/readme.md)  
-		* [Коллекции](g_elements/el-linux/el-extra/t1/els-collections/readme.md)  
-			* [Добавить в справочник](g_elements/el-linux/el-extra/t1/els-collections/el-addtodict.md)  
-			* [Коллекция содержит](g_elements/el-linux/el-extra/t1/els-collections/el-collcontains.md)  
-			* [Очистить коллекцию](g_elements/el-linux/el-extra/t1/els-collections/el-clearcoll.md)  
-			* [Очистить справочник](g_elements/el-linux/el-extra/t1/els-collections/el-cleardict.md)  
-			* [Получить из коллекции](g_elements/el-linux/el-extra/t1/els-collections/el-getcollvalue.md)  
-			* [Получить из массива](g_elements/el-linux/el-extra/t1/els-collections/el-getarrayvalue.md)  
-			* [Получить из справочника](g_elements/el-linux/el-extra/t1/els-collections/el-getdictvalue.md)  
-			* [Получить из таблицы](g_elements/el-linux/el-extra/t1/els-collections/el-gettablevalue.md)  
-			* [Размер коллекции](g_elements/el-linux/el-extra/t1/els-collections/el-collcount.md)  
-			* [Размер справочника](g_elements/el-linux/el-extra/t1/els-collections/el-countdict.md)  
-			* [Создать коллекцию](g_elements/el-linux/el-extra/t1/els-collections/el-buildcoll.md)  
-			* [Создать справочник](g_elements/el-linux/el-extra/t1/els-collections/el-builddict.md)  
-			* [Справочник содержит](g_elements/el-linux/el-extra/t1/els-collections/el-dictcontains.md)  
-			* [Удалить из коллекции](g_elements/el-linux/el-extra/t1/els-collections/el-removefromcoll.md)  
-			* [Удалить из справочника](g_elements/el-linux/el-extra/t1/els-collections/el-removefromdict.md)  
-			* [Форматировать коллекцию](g_elements/el-linux/el-extra/t1/els-collections/el-collchunk.md)  
-			* [Форматировать таблицу](g_elements/el-linux/el-extra/t1/els-collections/el-tablechunk.md)  
+
 
 ## Primo RPA Robot
 
