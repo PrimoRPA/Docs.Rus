@@ -918,12 +918,7 @@
   	* [Чтение из ячейки](g_elements/el_basic/els-odf/els-table/el-odftable-readcell.md)
   	* [Чтение формулы из ячейки](g_elements/el_basic/els-odf/els-table/el-odftable-readcellformula.md)
    * [Tesseract OCR](g_elements/el-linux/el-extra/el-ocr-tesseract-lin.md)
-   * [Дополнительные](g_elements/el-linux/el-extra/readme.md)
-		* [Python](g_elements/el-linux/el-extra/python/readme.md)
-  			* [Python](g_elements/el-linux/el-extra/python/el-python-pythonscope.md)
-  			* [Выполнить скрипт](g_elements/el-linux/el-extra/python/el-python-execscript.md)
-  			* [Добавить функцию](g_elements/el-linux/el-extra/python/els-python-addfunction.md)
-  			* [Получить объект](g_elements/el-linux/el-extra/python/el-python-getobject.md)
+  
 
 ## Primo Robot
 
