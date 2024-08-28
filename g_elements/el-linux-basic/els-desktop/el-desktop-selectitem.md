@@ -1,6 +1,6 @@
 # Выбор значения
 
-![](../../../resources/activities/basic/desktop/selected-element.png)
+![](../../../.gitbook/assets1/selected-element1.png)
 
 Компонент, выбирающий значения в комбо-боксе или списке.
 
@@ -19,43 +19,46 @@
 
 ## Только код  
 Пример использования элемента в процессе с типом **Только код** (Pure code):
+> - Для работы с примером необходимо установить приложение **mate-calc**.
+> - Для демонстрации компонента `Выбор значения` калькулятор необходимо переключить в режим `Финансовый`.
 
 {% tabs %}
 {% tab title="C#" %}
 ```csharp
-LTools.Desktop.DesktopApp app = LTools.Desktop.DesktopApp.Init(wf, null, "Test_*", 10000, true, LTools.Desktop.Model.DesktopTypes.UIAUTOMATION);
+LTools.Desktop.DesktopApp app = LTools.Desktop.DesktopApp.Init(wf, null, "Калькулятор", 10000, true, LTools.Desktop.Model.DesktopTypes.UIAUTOMATION);
 //Шаблон поиска + Значение
-app.SelectItem("{\"Name\":\"\",\"AutomationID\":\"cmbbxCombo\",\"ClassName\":\"ComboBox\",\"AUIProperties\":[],\"TextSearchMode\":0,\"IsRoot\":false,\"IsQuickSearch\":false}", new List<string>() { "Item1" });
+app.SelectItem("{\"WinName\":null,\"WinPath\":null,\"WinId\":null,\"AppName\":null,\"TextSearchMode\":0,\"Items\":[{\"Role\":\"combo box\",\"Items\":[]}]}", new List<string>() { "Алжирский динар" });
 //Элемент + Индекс + Очистка
-LTools.Desktop.Model.DUIControl el = app.FindElement("{\"Name\":\"\",\"AutomationID\":\"cmbbxCombo\",\"ClassName\":\"ComboBox\",\"AUIProperties\":[],\"TextSearchMode\":0,\"IsRoot\":false,\"IsQuickSearch\":false}");
-app.SelectItem(el, new List<int>() { 2 }, true);
+LTools.Desktop.Model.DUIControl el = app.FindElement("{\"WinName\":null,\"WinPath\":null,\"WinId\":null,\"AppName\":null,\"TextSearchMode\":0,\"Items\":[{\"Role\":\"combo box\",\"Items\":[]}]}");
+app.SelectItem(el, new List<int>() { 1 }, true);
 ```
 {% endtab %}
 
 {% tab title="Python" %}
 ```python
-app = LTools.Desktop.DesktopApp.Init(wf, None, "Test_*", 10000, True, LTools.Desktop.Model.DesktopTypes.UIAUTOMATION)
+app = LTools.Desktop.DesktopApp.Init(wf, None, "Калькулятор", 10000, True, LTools.Desktop.Model.DesktopTypes.UIAUTOMATION)
 #Шаблон поиска + Значение		
-app.SelectItem("{\"Name\":\"\",\"AutomationID\":\"cmbbxCombo\",\"ClassName\":\"ComboBox\",\"AUIProperties\":[],\"TextSearchMode\":0,\"IsRoot\":false,\"IsQuickSearch\":false}", List[String](["Item1"]))
+app.SelectItem("{\"WinName\":null,\"WinPath\":null,\"WinId\":null,\"AppName\":null,\"TextSearchMode\":0,\"Items\":[{\"Role\":\"combo box\",\"Items\":[]}]}", List[String](["Алжирский динар"]))
 #Элемент + Индекс + Очистка
-el = app.FindElement("{\"Name\":\"\",\"AutomationID\":\"cmbbxCombo\",\"ClassName\":\"ComboBox\",\"AUIProperties\":[],\"TextSearchMode\":0,\"IsRoot\":false,\"IsQuickSearch\":false}")
-app.SelectItem(el, List[int]([2]), True)
+el = app.FindElement("{\"WinName\":null,\"WinPath\":null,\"WinId\":null,\"AppName\":null,\"TextSearchMode\":0,\"Items\":[{\"Role\":\"combo box\",\"Items\":[]}]}")
+app.SelectItem(el, List[int]([1]), True)
 ```
 {% endtab %}
 
 {% tab title="JavaScript" %}
 ```javascript
 var host = new _lib.Microsoft.ClearScript.HostFunctions();
-var app = _lib.LTools.Desktop.DesktopApp.Init(wf, null, "Test_*", 10000, true, _lib.LTools.Desktop.Model.DesktopTypes.UIAUTOMATION);
+var app = _lib.LTools.Desktop.DesktopApp.Init(wf, null, "Калькулятор", 10000, true, _lib.LTools.Desktop.Model.DesktopTypes.UIAUTOMATION);
 //Шаблон поиска + Значение
 var items = host.newObj(_lib.System.Collections.Generic.List(_lib.System.String));
-items.Add("Item1");
-app.SelectItem("{\"Name\":\"\",\"AutomationID\":\"cmbbxCombo\",\"ClassName\":\"ComboBox\",\"AUIProperties\":[],\"TextSearchMode\":0,\"IsRoot\":false,\"IsQuickSearch\":false}", items);
+items.Add("Алжирский динар");
+app.SelectItem("{\"WinName\":null,\"WinPath\":null,\"WinId\":null,\"AppName\":null,\"TextSearchMode\":0,\"Items\":[{\"Role\":\"combo box\",\"Items\":[]}]}", items);
 //Элемент + Индекс + Очистка
 var idx = host.newObj(_lib.System.Collections.Generic.List(_lib.System.Int32));
-idx.Add(2);
-var el = app.FindElement("{\"Name\":\"\",\"AutomationID\":\"cmbbxCombo\",\"ClassName\":\"ComboBox\",\"AUIProperties\":[],\"TextSearchMode\":0,\"IsRoot\":false,\"IsQuickSearch\":false}");
+idx.Add(1);
+var el = app.FindElement("{\"WinName\":null,\"WinPath\":null,\"WinId\":null,\"AppName\":null,\"TextSearchMode\":0,\"Items\":[{\"Role\":\"combo box\",\"Items\":[]}]}");
 app.SelectItem(el, idx, true);
 ```
 {% endtab %}
 {% endtabs %}
+
