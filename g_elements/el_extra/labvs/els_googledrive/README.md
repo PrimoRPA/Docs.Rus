@@ -4,33 +4,35 @@
 
 {% embed url="https://www.nuget.org/packages/Primo.LabVS.GoogleDrive" %}
 
-### Create a new Google Cloud Platform (GCP) project <a href="#create_a_new_google_cloud_platform_gcp_project" id="create_a_new_google_cloud_platform_gcp_project"></a>
+### Создание нового проекта Google Cloud Platform (GCP) <a href="#create_a_new_google_cloud_platform_gcp_project" id="create_a_new_google_cloud_platform_gcp_project"></a>
 
-To use Google Workspace APIs, you need a Google Cloud Platform project. This project forms the basis for creating, enabling, and using all GCP services, including managing APIs, enabling billing, adding and removing collaborators, and managing permissions.
+Для использования Google Workspace API необходимо наличие проекта Google Cloud Platform. Проекты представляет собой основу для создания, подключения и использования всех сервисов GCP, включая управление API, выставление счетов, добавление и удаление соавторов, а также управление разрешениями.
 
-1. Open the [Google Cloud Console](https://console.cloud.google.com/).
-2. Next to "Google Cloud Platform," click the Down arrow arrow\_drop\_down . A dialog listing current projects appears.
-3. Click **New Project**. The New Project screen appears.
-4. In the **Project Name** field, enter a descriptive name for your project. If you're executing a quickstart, use "Quickstart."
-5. (Optional) To edit the **Project ID**, click **Edit**. The project ID can't be changed after the project is created, so choose an ID that meets your needs for the lifetime of the project.
-6. Click **Organization** and select your organization.
-7. In the **Location** field, click **Browse** to display potential locations for your project.
-8. Click a location and click **Select**.
-9. Click **Create**. The console navigates to the Dashboard page and your project is created within a few minutes.
+Чтобы создать новый проект, выполните следующую последовательность действий: 
+
+1. Откройте [консоль Google Cloud](https://console.cloud.google.com/).
+2. Нажмите на указатель "стрелка вниз" рядом с "Google Cloud Platform" - появится диалог с перечислением всех текущих проектов. 
+3. Нажмите на **Новый проект** (**New Project**) - откроется окно для добавления нового проекта.
+4. В поле **Имя проекта** (**Project Name**) укажите название проекта. Если вы выполняете быстрый старт, используйте "Quickstart".
+5. (Необязательно) Чтобы изменить **Идентификатор проекта** (**Project ID**), нажмите **Редактировать** (**Edit**). После создания проекта его идентификатор изменить невозможно, поэтому следует выбирать такой идентификатор, который будет удовлетворять потребности на всем протяжении его существования. 
+6. Нажмите на **Организация** (**Organization**) и выберите вашу организацию.
+7. В поле **Местоположение** (**Location**) нажмите на **Обзор** (**Browse**) - будут показаны возможные варианты расположения проекта. 
+8. Нажмите на вариант расположения, затем нажмите **Выбрать** (**Select**).
+9. Нажмите **Создать** (**Create**). Консоль переключится на страницу панели инструментов, и ваш проект будет создан в течение нескольких минут. 
 
 ![](<../../../../.gitbook/assets/image (544).png>)
 
 ![](<../../../../.gitbook/assets/image (457).png>)
 
-For further information on GCP projects, refer to [Creating and managing projects](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
+Дополнительную информацию о проектах GCP можно найти на странице [Creating and managing projects](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
 
-### Enable a Google Workspace API <a href="#enable-api" id="enable-api"></a>
+### Подключение Google Workspace API <a href="#enable-api" id="enable-api"></a>
 
-1. Open the [Google Cloud Console](https://console.cloud.google.com/).
-2. Next to "Google Cloud Platform," click the Down arrow arrow\_drop\_down and select a project.
-3. In the top-left corner, click Menu menu > **APIs & Services**.
-4. Click **Enable APIs and Services**. The **Welcome to API Library** page appears.
-5. In the search field, enter the name of the API you want to enable. For example, type "Gmail API" to find the Gmail API. If you are enabling an API for a quickstart, refer to the quickstart's Prerequisites section for the API to enable.
-6. Click the API to enable. The API page appears.
-7. Click **Enable**. The Overview page appears.
-8. To enable an additional API, repeat steps 3 - 7.
+1. Откройте [консоль Google Cloud](https://console.cloud.google.com/).
+2. Нажмите на указатель "стрелка вниз" рядом с "Google Cloud Platform" и выберите проект.
+3. В верхнем левом углу выберите Меню > **API и Сервисы** (Menu > **APIs & Services**).
+4. Нажмите на **Включить API и Сервисы** (**Enable APIs and Services**) - откроется страница **Добро пожаловать в Библиотеку API** (**Welcome to API Library**).
+5. В поле поиска укажите название API для подключения. Например, "Gmail API", чтобы найти Gmail API. Если вы подключаете API для быстрого старта, ознакомьтесь с разделом Предварительные условия (Prerequisites) для быстрого старта для соответствующего API.
+6. Нажмите нужный API - откроется страница API.
+7. Нажмите **Включить** (**Enable**) - откроется страница Обзор (Overview).
+8. Чтобы подключить дополнительные API, повторите шаги 3 - 7.
