@@ -15,6 +15,7 @@
 * [Как запустить обучение модели](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/training/run-trainig-process)
 * [Управление шаблоном обучения](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/training/operations-with-training-templates)
 * [Управление процессом обучения](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/training/operations-with-process)
+* [Мониторинг обучения](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/training/operations-with-process)
 
 ## Что дальше
 
