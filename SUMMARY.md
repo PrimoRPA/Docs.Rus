@@ -1212,6 +1212,7 @@
         * [Как запустить обучение модели](primo-ai/user/projects/training/run-trainig-process.md)
         * [Управление шаблоном обучения](primo-ai/user/projects/training/operations-with-training-templates.md)
         * [Управление процессом обучения](primo-ai/user/projects/training/operations-with-process.md)
+        * [Мониторинг обучения](primo-ai/user/projects/training/monitoring.md)
     * [Инференс](primo-ai/user/projects/inference/README.md)
         * [Как запустить инференс](primo-ai/user/projects/inference/run-inference-process.md)
 * [Дополнительно](primo-ai/other/README.md)
