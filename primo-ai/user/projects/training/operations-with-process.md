@@ -5,13 +5,13 @@
 ![](<../../../../.gitbook/assets1/primo-ai//user-guide/go-to-training-process.gif>)
 
 ## Возможные действия с процессом
-* Cоздать — добавляет процесс обучения в текущий шаблон. 
-* Запустить — запускает процесс обучения на доступной целевой машине. 
-* Мониторинг — позволяет перейти к графику с ключевыми метриками обучения модели. График доступен, только если был запущен процесс обучения. Страница с мониторингом носит информативный характер.
-* Остановить — останавливает запущенный процесс обучения.
-* Выключить — блокирует возможность управлять процессом обучения, т. е. делает его недоступным для запуска / остановки.
-* Включить — разблокирует процесс обучения, который ранее был выключен.
-* Удалить — удаляет из шаблона процесс обучения.
+* [Cоздать](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/training/operations-with-process#sozdat-process-obucheniya) — добавляет процесс обучения в текущий шаблон. 
+* [Запустить](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/training/operations-with-process#zapustit-process-obucheniya) — запускает процесс обучения на доступной целевой машине. 
+* [Мониторинг](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/training/operations-with-process#monitoring-obucheniya) — позволяет перейти к графику с ключевыми метриками обучения модели. График доступен, только если был запущен процесс обучения. Страница с мониторингом носит информативный характер.
+* [Остановить](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/training/operations-with-process#ostanovit-process-obucheniya) — останавливает запущенный процесс обучения.
+* [Выключить](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/training/operations-with-process#vyklyuchit-process-obucheniya) — блокирует возможность управлять процессом обучения, т. е. делает его недоступным для запуска / остановки.
+* [Включить](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/training/operations-with-process#vklyuchit-process-obucheniya) — разблокирует процесс обучения, который ранее был выключен.
+* [Удалить](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/training/operations-with-process#udalit-process-obucheniya) — удаляет из шаблона процесс обучения.
 
 
 ## Создать процесс обучения
