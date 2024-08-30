@@ -5,6 +5,7 @@
 1. Быстрый старт:
    * [О встроенных проектах](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/quick-start/about-system-projects)
    * [Работа со встроенным проектом](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/quick-start/system-projects)
+   * [Создание проекта с нуля](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/quick-start/new-project)
 1. [Проект](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/project):
    * [Управление проектом](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/project/operation-with-projects)
 1. [Данные](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/data):
@@ -19,6 +20,7 @@
    * [Как запустить обучение](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/training/run-trainig-process)
    * [Управление шаблоном обучения](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/training/operations-with-training-templates)
    * [Управление процессом обучения](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/training/operations-with-process)
+   * [Мониторинг обучения](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/training/monitoring)
 1. [Инференс](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/inference):
    * [Как запустить инференс](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/inference/run-inference-process)
    
