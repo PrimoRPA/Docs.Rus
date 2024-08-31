@@ -65,19 +65,17 @@
 | ProjectDataImgRemoved                     | 4002  |                                   |  
 | ProjectDataImgArchiveUploaded             | 4003  |                                   |  
 | ProjectDataImgCreateError                 | 4004  |                                   |  
+| MarkingSchemeCreated                      | 5000  |                                   |  
+| MarkingSchemeUpdated                      | 5001  |                                   |  
+| MarkingSchemeRemoved                      | 5002  |                                   |  
+| MarkingFieldCreated                       | 6000  |                                   |  
+| MarkingFieldUpdated                       | 6001  |                                   |   
+| MarkingFieldRemoved                       | 6002  |                                   |   
+| MarkingFieldTypesUpdated                  | 6003  |                                   |   
+| MarkingFieldColumnsUpdated                | 6004  |                                   |   
 
 
 
-
-    MarkingSchemeCreated = 5000,
-    MarkingSchemeUpdated = 5001,
-    MarkingSchemeRemoved = 5002,
-
-    MarkingFieldCreated = 6000,
-    MarkingFieldUpdated = 6001,
-    MarkingFieldRemoved = 6002,
-    MarkingFieldTypesUpdated = 6003,
-    MarkingFieldColumnsUpdated = 6004,
 
 	FolderCreated = 7000,
     FolderUpdated = 7001,
