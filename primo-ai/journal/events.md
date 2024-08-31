@@ -49,28 +49,25 @@
 | LicenseToTenantAdded                      | 608   |                                   | 
 | LicenseDeactivated                        | 609   |                                   | 
 | LicenseActivated                          | 610   |                                   | 
+| Login                                     | 2001  |                                   | 
+| LoginUserNotExist                         | 2002  |                                   | 
+| LoginUserLocked                           | 2003  |                                   | 
+| LoginUserUnauthorized                     | 2004  |                                   | 
+| LoginUserUnauthorizedAD                   | 2005  |                                   |  
+| LoginUserNoRightsGroupAD                  | 2006  |                                   |  
+| LogOut                                    | 2007  |                                   |  
+| LoginUserExpired                          | 2008  |                                   |  
+| ProjectCreated                            | 3000  |                                   |  
+| ProjectUpdated                            | 3001  |                                   |  
+| ProjectRemoved                            | 3002  |                                   |  
+| ProjectDataImgCreated                     | 4000  |                                   |  
+| ProjectDataImgUpdated                     | 4001  |                                   |  
+| ProjectDataImgRemoved                     | 4002  |                                   |  
+| ProjectDataImgArchiveUploaded             | 4003  |                                   |  
+| ProjectDataImgCreateError                 | 4004  |                                   |  
 
-   
 
 
-    Login = 2001,
-    LoginUserNotExist = 2002,
-    LoginUserLocked = 2003,
-    LoginUserUnauthorized = 2004,
-    LoginUserUnauthorizedAD = 2005,
-    LoginUserNoRightsGroupAD = 2006,
-    LogOut = 2007,
-    LoginUserExpired = 2008,
-
-    ProjectCreated = 3000,
-    ProjectUpdated = 3001,
-    ProjectRemoved = 3002,
-
-    ProjectDataImgCreated = 4000,
-    ProjectDataImgUpdated = 4001,
-    ProjectDataImgRemoved = 4002,
-    ProjectDataImgArchiveUploaded = 4003,
-    ProjectDataImgCreateError = 4004,
 
     MarkingSchemeCreated = 5000,
     MarkingSchemeUpdated = 5001,
