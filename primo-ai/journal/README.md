@@ -20,8 +20,24 @@
 1. **EntityData** — ?
 
 Дополнительную информацию по событию можно просмотреть, развернув событие.
-
-
+```
+id:"716afd7f-80c5-4d64-a664-e8694129a12c"
+event:2001
+entityData:"logs, tenantId="
+userId:null
+apiCreatedAt:"2024-08-31T23:35:58.29378"
+createdAt:"2024-08-31T23:35:58.29378"
+signature:"a723bb110eceddd6e248657686b775726d2a36b3d72b189760358b0e6993d0bc"
+text:null
+ip:"10.0.0.24"
+tenantId:null
+nodeId:null
+operationKey:null
+classifiedEvent:3
+validSignature:true
+eventName:"Login"
+index:1
+```
 
 
 События:
