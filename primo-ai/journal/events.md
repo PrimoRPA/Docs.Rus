@@ -73,23 +73,21 @@
 | 6002  | MarkingFieldRemoved                       |                                   |   
 | 6003  | MarkingFieldTypesUpdated                  |                                   |   
 | 6004  | MarkingFieldColumnsUpdated                |                                   |   
+| 7000  | FolderCreated                             |                                   |   
+| 7001  | FolderUpdated                             |                                   |   
+| 7002  | FolderRemoved                             |                                   |  
+| 7003  | FolderResubordination                     |                                   |  
+| 7004  | FolderMoveObjects                         |                                   |  
+| 7005  | FolderGrantUserFolders                    |                                   |  
+| 7006  | FolderGrantFolderUsers                    |                                   |  
+| 8000  | RoleCreated                               |                                   |  
+| 8001  | RoleUpdated                               |                                   |  
+| 8002  | RoleRemoved                               |                                   |       
+| 8003  | RoleAssignAdGroups                        |                                   |    
+| 8004  | RoleAssignPermissions                     |                                   |    
+ 
 
-
-
-
-	FolderCreated = 7000,
-    FolderUpdated = 7001,
-    FolderRemoved = 7002,
-    FolderResubordination = 7003,
-    FolderMoveObjects = 7004,
-    FolderGrantUserFolders = 7005,
-    FolderGrantFolderUsers = 7006,
-
-    RoleCreated = 8000,
-    RoleUpdated = 8001,
-    RoleRemoved = 8002,
-    RoleAssignAdGroups = 8003,
-    RoleAssignPermissions = 8004,
+   
 
     UserCreated = 9000,
     UserUpdated = 9001,
