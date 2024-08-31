@@ -1,6 +1,6 @@
 # Журнал
 
-Для просмотра событий в Primo RPA Server предназначен раздел **Журнал**. 
+Для просмотра событий в Primo RPA AI Server предназначен раздел **Журнал**. 
 
 ![](<../../.gitbook/assets1/primo-ai/user-guide/monitoring.png>)
 
