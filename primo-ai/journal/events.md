@@ -85,30 +85,27 @@
 | 8002  | RoleRemoved                               |                                   |       
 | 8003  | RoleAssignAdGroups                        |                                   |    
 | 8004  | RoleAssignPermissions                     |                                   |    
- 
+| 9000  | UserCreated                               |                                   |    
+| 9001  | UserUpdated                               |                                   |  
+| 9002  | UserRemoved                               |                                   |     
+| 9003  | UserRolesAssigned                         |                                   |     
+| 9004  | UserPasswordChanged                       |                                   |   
+| 9005  | UserEnabled                               |                                   |  
+| 9006  | UserDisabled                              |                                   |  
+| 10000 | ModelTemplateCreated                      |                                   |  
+| 10001 | ModelTemplateUpdated                      |                                   |  
+| 10002 | ModelTemplateRemoved                      |                                   |  
+| 11000 | MarkingCreateOrEdit                       |                                   |  
+| 11001 | MarkingRemoved                            |                                   |  
+| 11002 | MarkingMovedToDataSet                     |                                   |      
 
-   
 
-    UserCreated = 9000,
-    UserUpdated = 9001,
-    UserRemoved = 9002,
-    UserRolesAssigned = 9003,
-    UserPasswordChanged = 9004,
-    UserEnabled = 9005,
-    UserDisabled= 9006,
 
-    ModelTemplateCreated = 10000,
-    ModelTemplateUpdated = 10001,
-    ModelTemplateRemoved = 10002,
-
-    MarkingCreateOrEdit = 11000,
-    MarkingRemoved = 11001,
-    MarkingMovedToDataSet = 11002,
 
     DataSetCreated = 12000,
     DataSetUpdated = 12001,
     DataSetRemoved = 12002,
-	DataSetArchivateStarted = 12003,
+DataSetArchivateStarted = 12003,
     DataSetArchivateCompletedSuccess = 12004,
     DataSetArchivateCompletedError = 12005,
     DataSetArchivateProgress1 = 12006,
