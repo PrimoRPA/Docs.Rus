@@ -14,14 +14,14 @@ Primo RPA AI Server — лицензированный сервис платфо
 
 ### Порядок получения лицензии 
 
-1. Сформируйте текстовый запрос на лицензию.
-1. Отправьте вендору файлы с запросом лицензий на электронную почту.
-2. Загрузите полученные лицензии. Убедитесь, что лицензии валидны.
-3. Если вы используете несколько тенантов — назначьте лицензии для каждого из тенантов. 
+1. [Сформируйте](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/admin/licenses/license-management#zaprosit-licenziyu) текстовый запрос на лицензию.
+1. Отправьте вендору файлы с запросом лицензий на электронную почту License@primo-rpa.ru.
+2. [Загрузите](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/admin/licenses/license-management#dobavit-licenziyu) полученные лицензии. Убедитесь, что лицензии валидны.
+3. Если вы используете несколько тенантов — [назначьте](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/admin/licenses/license-management#vydat-licenziyu-na-tenant) лицензии для каждого из тенантов. 
 
 ### См. также
 
-* Управление лицензиями
+* [Управление лицензиями](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/admin/licenses/license-management)
 
 
 
