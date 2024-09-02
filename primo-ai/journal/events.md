@@ -34,7 +34,7 @@
 | 302   | InferenceProcessTemplateRemoved           |                                   |
 | 400   | AgentCreated                              |                                   |
 | 401   | AgentUpdated                              |                                   |
-| 402   | AgentRemoved                              |                                   |  
+| 402   | AgentRemoved                              |                                   |
 | 403   | AgentDisabled                             |                                   | 
 | 404   | AgentEnabled                              |                                   | 
 | 405   | AgentAutoDisabled                         |                                   | 
@@ -100,48 +100,43 @@
 | 11000 | MarkingCreateOrEdit                       |                                   |  
 | 11001 | MarkingRemoved                            |                                   |  
 | 11002 | MarkingMovedToDataSet                     |                                   |      
-
-
-
-
-    DataSetCreated = 12000,
-    DataSetUpdated = 12001,
-    DataSetRemoved = 12002,
-DataSetArchivateStarted = 12003,
-    DataSetArchivateCompletedSuccess = 12004,
-    DataSetArchivateCompletedError = 12005,
-    DataSetArchivateProgress1 = 12006,
-    DataSetArchivateProgress2= 12007,
-    DataSetArchivateCompletedTimeout = 12008,
-    DataSetArchiveUploaded = 12009,
-    DataSetArchiveImportSucceed = 12010,
-    DataSetArchiveImportFailed = 12011,
-
-	ModelTypeCreated = 13000,
-    ModelTypeUpdated = 13001,
-    ModelTypeRemoved = 13002,
-
-	ModelCreated = 14000,
-    ModelUpdated = 14001,
-    ModelRemoved = 14002,
-    ModelDownloadSuccess = 14003,
-    ModelDownloadError = 14004,
-
-    TrainProcessCreated = 15000,
-    TrainProcessRemoved = 15001,
-    TrainProcessDisabled = 15002,
-    TrainProcessEnabled = 15003,
-
-    TrainProcessSendToStart = 15004,
-    TrainProcessStarted = 15005,        
+| 12000 | DataSetCreated                            |                                   |   
+| 12001 | DataSetUpdated                            |                                   |   
+| 12002 | DataSetRemoved                            |                                   |   
+| 12003 | DataSetArchivateStarted                   |                                   |   
+| 12004 | DataSetArchivateCompletedSuccess          |                                   |   
+| 12005 | DataSetArchivateCompletedError            |                                   |
+| 12006 | DataSetArchivateProgress1                 |                                   |
+| 12007 | DataSetArchivateProgress2                 |                                   |
+| 12008 | DataSetArchivateCompletedTimeout          |                                   |
+| 12009 | DataSetArchiveUploaded                    |                                   |
+| 12010 | DataSetArchiveImportSucceed               |                                   |
+| 12011 | DataSetArchiveImportFailed                |                                   |
+| 13000 | ModelTypeCreated                          |                                   |
+| 13001 | ModelTypeUpdated                          |                                   |
+| 13002 | ModelTypeRemoved                          |                                   |
+| 14000 | ModelCreated                              |                                   |
+| 14001 | ModelUpdated                              |                                   |
+| 14002 | ModelRemoved                              |                                   |
+| 14003 | ModelDownloadSuccess                      |                                   |
+| 14004 | ModelDownloadError                        |                                   |
+| 15000 | TrainProcessCreated                       |                                   |
+| 15001 | TrainProcessRemoved                       |                                   |
+| 15002 | TrainProcessDisabled                      |                                   |
+| 15003 | TrainProcessEnabled                       |                                   |
+| 15004 | TrainProcessSendToStart                   |                                   |
+| 15005 | TrainProcessStarted                       |                                   |
+| 15006 | TrainProcessSendToStop                    |                                   |
+| 15007 | TrainProcessStopedSuccess                 |                                   |
+| 15008 | TrainProcessStopedError                   |                                   |
+| 15100 | TrainProcessStartPipeline                 |                                   |
+| 15101 | TrainProcessEmergencyShutdown             |                                   |
+   
     
-    TrainProcessSendToStop = 15006,
-    TrainProcessStopedSuccess = 15007,
-    TrainProcessStopedError = 15008,
 
-    TrainProcessStartPipeline = 15100,
-    TrainProcessEmergencyShutdown = 15101,
-	TrainProcessStartFileStoragePrepareSuccess = 15200,
+
+    
+TrainProcessStartFileStoragePrepareSuccess = 15200,
     TrainProcessStartFileStoragePrepareError = 15201,
     TrainProcessStartDownloadScriptSuccess = 15300,
     TrainProcessStartDownloadScriptError = 15301,
