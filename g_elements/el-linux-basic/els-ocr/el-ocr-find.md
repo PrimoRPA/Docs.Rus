@@ -1,3 +1,7 @@
+---
+Description: OCR Find image
+---
+
 # Поиск изображения
 
 ![](../../../.gitbook/assets1/studio-linux-elements-basic/ocr-find-image-element.png)
