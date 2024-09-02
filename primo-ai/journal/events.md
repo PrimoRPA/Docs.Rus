@@ -30,12 +30,12 @@
 | 201   | InferenceProcessRemoved                   | Процесс инференса удален          |
 | 202   | InferenceProcessDisabled                  | Процесс инференса выключен        |
 | 203   | InferenceProcessEnabled                   | Процесс инференса включен         |
-| 204   | InferenceProcessStarted                   | Процесс инференса **(выполняется??)** |
+| 204   | InferenceProcessStarted                   | Процесс инференса **(запущен?)** |
 | 205   | InferenceProcessStoped                    | Процесс инференса остановлен      |
 | 206   | InferenceProcessSentToLaunch              | Процесс инференса **отправлен на запуск??** |
-| 207   | InferenceProcessSentToStop                | Процесс инференса **отправлен на остановку??** |
+| 207   | InferenceProcessSentToStop                | Процесс инференса **отправлен на остановку?** |
 | 208   | InferenceProcessStartingError             | **Запуск процесса инференса завершился ошибкой?** |
-| 209   | InferenceProcessStoppingError             | **Остановка процесса инференса завершилась ошибкой** |
+| 209   | InferenceProcessStoppingError             | **Остановка процесса инференса завершилась ошибкой?** |
 
 
 ### Шаблон процесса инференса
