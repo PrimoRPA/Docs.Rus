@@ -86,13 +86,13 @@
 
 |  Код  | Событие                                   | Описание                          |
 | ----- | ----------------------------------------- | --------------------------------- |
-| 2001  | Login                                     |                                   | 
-| 2002  | LoginUserNotExist                         |                                   | 
+| 2001  | Login                                     | Пользователь авторизовался в сервисе | 
+| 2002  | LoginUserNotExist                         | Указанный логин пользователя не существует (?) | 
 | 2003  | LoginUserLocked                           |                                   | 
 | 2004  | LoginUserUnauthorized                     |                                   | 
 | 2005  | LoginUserUnauthorizedAD                   |                                   |  
 | 2006  | LoginUserNoRightsGroupAD                  |                                   |  
-| 2007  | LogOut                                    |                                   |  
+| 2007  | LogOut                                    | Пользователь вышел из сервиса     |  
 | 2008  | LoginUserExpired                          |                                   |  
 
 
