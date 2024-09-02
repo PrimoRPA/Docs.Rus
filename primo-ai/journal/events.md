@@ -42,9 +42,9 @@
 
 |  Код  | Событие                                   | Описание                          |
 | ----- | ----------------------------------------- | --------------------------------- |
-| 300   | InferenceProcessTemplateCreated           |                                   |
-| 301   | InferenceProcessTemplateUpdated           |                                   |
-| 302   | InferenceProcessTemplateRemoved           |                                   |
+| 300   | InferenceProcessTemplateCreated           | Шаблон процесса инференса создан  |
+| 301   | InferenceProcessTemplateUpdated           | Шаблон процесса инференса изменен |
+| 302   | InferenceProcessTemplateRemoved           | Шаблон процесса инференса удален  |
 
 
 ### Целевая машина
