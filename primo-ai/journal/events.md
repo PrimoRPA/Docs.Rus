@@ -135,8 +135,8 @@
 | 15201 | TrainProcessStartFileStoragePrepareError  |                                   |
 | 15300 | TrainProcessStartDownloadScriptSuccess    |   |
 | 15301 | TrainProcessStartDownloadScriptError      |   |
-| 15400 | TrainProcessStartDownloadModelTemplateSuccess     |    |
-| 15401 | TrainProcessStartDownloadModelTemplateError       |    |
+| 15400 | TrainProcessStartDownloadModelTemplateSuccess      |  |
+| 15401 | TrainProcessStartDownloadModelTemplateError        |  |
 | 15402 | TrainProcessStartUnzipModelTemplateSuccess         |  |
 | 15403 | TrainProcessStartUnzipModelTemplateError           |  |
 | 15500 | TrainProcessStartDownloadModelSuccess              |  |
@@ -153,78 +153,39 @@
 | 15623 | TrainProcessStartDownloadUnzipTestDataSetError     |  |
 | 15700 | TrainProcessStartCompletedSuccess                  |  |
 | 15701 | TrainProcessStartCompletedError                    |  |
+| 15800 | TrainProcessCompletedSuccess                       |  |
+| 15801 | TrainProcessCompletedError                         |  |
+| 15800 | TrainProcessTimeout                                |  |
+| 15900 | TrainProcessMetricsReceived                        |  |
+ 
+
+### Шаблон обучения
+
+| Код   | Событие                                           | Описание                          |
+| ----- | ------------------------------------------------- | --------------------------------- |
+| 16000 | TrainProcessTemplateCreated                       | Шаблон обучения создан |
+| 16001 | TrainProcessTemplateUpdated                       | Шаблон обучения обновлен |
+| 16002 | TrainProcessTemplateRemoved                       | Шаблон обучения удален |
+
+### Пайплан
+
+| Код   | Событие                                           | Описание                          |
+| ----- | ------------------------------------------------- | --------------------------------- |
+| 17000 | PipelineCreated                                   | Пайплан создан |
+| 17001 | PipelineUpdated                                   | Пайплан обновлен |
+| 17002 | PipelineRemoved                                   | Пайплан удален |
+
+
+### 
+
+| Код   | Событие                                           | Описание                          |
+| ----- | ------------------------------------------------- | --------------------------------- |
 
 
 
 
 
 
-
-
-| Код  | Событие                                   | Описание |
-|------|-------------------------------------------|----------|
-| 15222| TrainProcessCompletedSuccess               |          |
-| 15223| TrainProcessCompletedError                 |          |
-
-| Код  | Событие                                   | Описание |
-|------|-------------------------------------------|----------|
-| 15224| TrainProcessTimeout                        |          |
-
-| Код  | Событие                                   | Описание |
-|------|-------------------------------------------|----------|
-| 15225| TrainProcessMetricsReceived                |          |
-
-| Код  | Событие                                   | Описание |
-|------|-------------------------------------------|----------|
-| 15226| TrainProcessTemplateCreated                |          |
-| 15227| TrainProcessTemplateUpdated                |          |
-| 15228| TrainProcessTemplateRemoved                |          |
-
-| Код  | Событие                                   | Описание |
-|------|-------------------------------------------|----------|
-| 15229| PipelineCreated                           |          |
-| 15230| PipelineUpdated                           |          |
-| 15231| PipelineRemoved                           |          |
-
-| Код  | Событие                                   | Описание |
-|------|-------------------------------------------|----------|
-| 15232| InferenceProcessStartPipeline              |          |
-| 15233| InferenceProcessEmergencyShutdown          |          |
-| 15234| InferenceProcessStartFileStoragePrepareSuccess |     |
-| 15235| InferenceProcessStartFileStoragePrepareError   |     |
-| 15236| InferenceProcessStartDownloadScriptSuccess    |     |
-| 15237| InferenceProcessStartDownloadScriptError      |     |
-| 15238| InferenceProcessStartDownloadModelSuccess      |     |
-| 15239| InferenceProcessStartDownloadModelError        |     |
-| 15240| InferenceProcessStartUnzipModelSuccess         |     |
-| 15241| InferenceProcessStartUnzipModelError           |     |
-| 15242| InferenceProcessStartDownloadMarkingSchemeSuccess |   |
-| 15243| InferenceProcessStartDownloadMarkingSchemeError   |   |
-| 15244| InferenceTestProcessStartDownloadDataSetSuccess   |   |
-| 15245| InferenceTestProcessStartDownloadDataSetError     |   |
-| 15246| InferenceTestProcessStartUnzipDataSetSuccess      |   |
-| 15247| InferenceTestProcessStartUnzipDataSetError        |   |
-| 15248| InferenceProcessStartCompletedSuccess              |   |
-
-
-    
-
-    
-
-	TrainProcessCompletedSuccess = 15800,
-    TrainProcessCompletedError = 15801,
-
-	TrainProcessTimeout = 15800,
-
-    TrainProcessMetricsReceived = 15900,
-
-	TrainProcessTemplateCreated = 16000,
-    TrainProcessTemplateUpdated = 16001,
-    TrainProcessTemplateRemoved = 16002,
-
-	PipelineCreated = 17000,
-    PipelineUpdated = 17001,
-    PipelineRemoved = 17002,
 
     InferenceProcessStartPipeline = 18100,
     InferenceProcessEmergencyShutdown = 18101,
@@ -249,5 +210,4 @@
     InferenceTestProcessCompletedSuccess = 18940,
 	InferenceTestProcessCompletedError = 18960,
 
-	AgentLogDataReceived = 19000,
-}
+	AgentLogDataReceived = 19000
