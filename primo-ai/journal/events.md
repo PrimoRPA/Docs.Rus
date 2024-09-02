@@ -26,16 +26,16 @@
 
 |  Код  | Событие                                   | Описание                          |
 | ----- | ----------------------------------------- | --------------------------------- |
-| 200   | InferenceProcessCreated                   |                                   |
-| 201   | InferenceProcessRemoved                   |                                   |
-| 202   | InferenceProcessDisabled                  |                                   |
-| 203   | InferenceProcessEnabled                   |                                   |
-| 204   | InferenceProcessStarted                   |                                   |
-| 205   | InferenceProcessStoped                    |                                   |
-| 206   | InferenceProcessSentToLaunch              |                                   |
-| 207   | InferenceProcessSentToStop                |                                   |
-| 208   | InferenceProcessStartingError             |                                   |
-| 209   | InferenceProcessStoppingError             |                                   |
+| 200   | InferenceProcessCreated                   | Процесс инференса создан          |
+| 201   | InferenceProcessRemoved                   | Процесс инференса удален          |
+| 202   | InferenceProcessDisabled                  | Процесс инференса выключен        |
+| 203   | InferenceProcessEnabled                   | Процесс инференса включен         |
+| 204   | InferenceProcessStarted                   | Процесс инференса **(выполняется??)** |
+| 205   | InferenceProcessStoped                    | Процесс инференса остановлен      |
+| 206   | InferenceProcessSentToLaunch              | Процесс инференса **отправлен на запуск??** |
+| 207   | InferenceProcessSentToStop                | Процесс инференса **отправлен на остановку??** |
+| 208   | InferenceProcessStartingError             | **Запуск процесса инференса завершился ошибкой?** |
+| 209   | InferenceProcessStoppingError             | **Остановка процесса инференса завершилась ошибкой** |
 
 
 ### Шаблон процесса инференса
