@@ -19,7 +19,7 @@
    
 В результате сформируется файл `licensereq-*.txt`, где будет указан программный продукт, аппаратные характеристики сервера, с которого формировался запрос, дата начала и срок действия лицензии. Данный файл следует отправить вендору на почту License@primo-rpa.ru. 
 
-В ответе придет файл лицензионного ключа с расширением `*.license`, который необходимо [загрузить](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/admin/licenses/license-management#dobavit-licenziyu) в систему. По умолчанию лицензия считается выданной на дефолтный тенант, однако после загрузки лицензии в сервис, можно [выдать](Выдать лицензию на тенант](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/admin/licenses/license-management#vydat-licenziyu-na-tenant) ее на другой тенант.
+В ответе придет файл лицензионного ключа с расширением `*.license`, который необходимо [загрузить](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/admin/licenses/license-management#dobavit-licenziyu) в систему. По умолчанию лицензия считается выданной на дефолтный тенант, однако после загрузки лицензии в сервис, можно [выдать](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/admin/licenses/license-management#vydat-licenziyu-na-tenant) ее на другой тенант.
 
 
 ## Добавить лицензию
