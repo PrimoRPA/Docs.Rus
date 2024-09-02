@@ -176,38 +176,40 @@
 | 17002 | PipelineRemoved                                   | Пайплан удален |
 
 
-### 
+### Процесс инференса
 
 | Код   | Событие                                           | Описание                          |
 | ----- | ------------------------------------------------- | --------------------------------- |
+| 18100 | InferenceProcessStartPipeline                     |  |
+| 18101 | InferenceProcessEmergencyShutdown                 |  |
+| 18200 | InferenceProcessStartFileStoragePrepareSuccess    |  |
+| 18201 | InferenceProcessStartFileStoragePrepareError      |  |
+| 18300 | InferenceProcessStartDownloadScriptSuccess        |  |
+| 18301 | InferenceProcessStartDownloadScriptError          |  |
+| 18500 | InferenceProcessStartDownloadModelSuccess         |  |
+| 18501 | InferenceProcessStartDownloadModelError           |  |
+| 18502 | InferenceProcessStartUnzipModelSuccess            |  |
+| 18503 | InferenceProcessStartUnzipModelError              |  |
+| 18600 | InferenceProcessStartDownloadMarkingSchemeSuccess |  |
+| 18601 | InferenceProcessStartDownloadMarkingSchemeError   |  |
+| 18700 | InferenceTestProcessStartDownloadDataSetSuccess   |  |
+| 18701 | InferenceTestProcessStartDownloadDataSetError     |  |
+| 18702 | InferenceTestProcessStartUnzipDataSetSuccess      |  |
+| 18703 | InferenceTestProcessStartUnzipDataSetError        |  |
+| 18800 | InferenceProcessStartCompletedSuccess             |  |
+| 18801 | InferenceProcessStartCompletedError               |  |
+| 18900 | InferenceTestProcessTransferEvaluationResultSuccess |  |
+| 18920 | InferenceTestProcessTransferBboxSuccess           |  |
+| 18940 | InferenceTestProcessCompletedSuccess              |  |
+| 18960 | InferenceTestProcessCompletedError                |  |
+
+
+### Данные журнала агента
+
+| Код   | Событие                                           | Описание                          |
+| ----- | ------------------------------------------------- | --------------------------------- |
+| 19000 | AgentLogDataReceived                              |  |
 
 
 
 
-
-
-
-    InferenceProcessStartPipeline = 18100,
-    InferenceProcessEmergencyShutdown = 18101,
-    InferenceProcessStartFileStoragePrepareSuccess = 18200,
-    InferenceProcessStartFileStoragePrepareError = 18201,
-    InferenceProcessStartDownloadScriptSuccess = 18300,
-    InferenceProcessStartDownloadScriptError = 18301,
-    InferenceProcessStartDownloadModelSuccess = 18500,
-    InferenceProcessStartDownloadModelError = 18501,
-    InferenceProcessStartUnzipModelSuccess = 18502,
-    InferenceProcessStartUnzipModelError = 18503,
-    InferenceProcessStartDownloadMarkingSchemeSuccess = 18600,
-    InferenceProcessStartDownloadMarkingSchemeError = 18601,
-    InferenceTestProcessStartDownloadDataSetSuccess = 18700,
-    InferenceTestProcessStartDownloadDataSetError = 18701,
-    InferenceTestProcessStartUnzipDataSetSuccess = 18702,
-    InferenceTestProcessStartUnzipDataSetError = 18703,
-	InferenceProcessStartCompletedSuccess = 18800,
-    InferenceProcessStartCompletedError = 18801,
-    InferenceTestProcessTransferEvaluationResultSuccess = 18900,
-	InferenceTestProcessTransferBboxSuccess = 18920,
-    InferenceTestProcessCompletedSuccess = 18940,
-	InferenceTestProcessCompletedError = 18960,
-
-	AgentLogDataReceived = 19000
