@@ -4,7 +4,7 @@ Description: Layout
 
 # Раскладка
 
-![](../../../../.gitbook/assets1/studio-linux-elements-basic/Desktop-Layout.PNG)
+![](../../../.gitbook/assets1/studio-linux-elements-basic/Desktop-Layout.PNG)
 
 Элемент, осуществляющий смену раскладки клавиатуры.
 
