@@ -19,5 +19,29 @@ Description: Layout
 1. **Таймаут\*** *[Int32]* - Предельное время ожидания завершения процесса (мс).
 
 ## Только код
+Пример использования элемента в процессе с типом Только код (Pure code):
 
-В настоящее время функциональность для использования данного элемента в процессах с типом **Только код** (Pure code) не реализована.
+{% tabs %}
+{% tab title="C#" %}
+```csharp
+LTools.Desktop.DesktopApp app = LTools.Desktop.DesktopApp.Init(wf, null, "Test_*", 20000, true, LTools.Desktop.Model.DesktopTypes.UIAUTOMATION);
+app.SwitchLayout("ru-RU", 10000);
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```python
+app = LTools.Desktop.DesktopApp.Init(wf, None, "Test_*", 20000, True, LTools.Desktop.Model.DesktopTypes.UIAUTOMATION)
+app.SwitchLayout("ru-RU", 10000)
+```
+{% endtab %}
+
+{% tab title="JavaScript" %}
+```javascript
+var app = _lib.LTools.Desktop.DesktopApp.Init(wf, null, "Test_*", 20000, true, _lib.LTools.Desktop.Model.DesktopTypes.UIAUTOMATION);
+app.SwitchLayout("ru-RU", 10000);
+```
+{% endtab %}
+{% endtabs %}
+
+
