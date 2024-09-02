@@ -4,6 +4,8 @@
 
 Список событий может измениться в следующих версиях Primo RPA AI Server.
 
+### Запрос на инференс
+
 |  Код  | Событие                                   | Описание                          |
 | ----- | ----------------------------------------- | --------------------------------- |
 | 100   | InferenceRequestAccepted                  |                                   |
@@ -19,6 +21,11 @@
 | 110   | InferenceRequestProcessedError            |                                   |
 | 111   | InferenceRequestResultTransferred         |                                   |
 | 112   | InferenceRequestNoLicensedAgent           |                                   |
+
+### Процесс инференса
+
+|  Код  | Событие                                   | Описание                          |
+| ----- | ----------------------------------------- | --------------------------------- |
 | 200   | InferenceProcessCreated                   |                                   |
 | 201   | InferenceProcessRemoved                   |                                   |
 | 202   | InferenceProcessDisabled                  |                                   |
@@ -29,18 +36,41 @@
 | 207   | InferenceProcessSentToStop                |                                   |
 | 208   | InferenceProcessStartingError             |                                   |
 | 209   | InferenceProcessStoppingError             |                                   |
+
+
+### Шаблон процесса инференса
+
+|  Код  | Событие                                   | Описание                          |
+| ----- | ----------------------------------------- | --------------------------------- |
 | 300   | InferenceProcessTemplateCreated           |                                   |
 | 301   | InferenceProcessTemplateUpdated           |                                   |
 | 302   | InferenceProcessTemplateRemoved           |                                   |
+
+
+### Агент
+
+|  Код  | Событие                                   | Описание                          |
+| ----- | ----------------------------------------- | --------------------------------- |
 | 400   | AgentCreated                              |                                   |
 | 401   | AgentUpdated                              |                                   |
 | 402   | AgentRemoved                              |                                   |
 | 403   | AgentDisabled                             |                                   | 
 | 404   | AgentEnabled                              |                                   | 
 | 405   | AgentAutoDisabled                         |                                   | 
+
+### Скрипт
+
+|  Код  | Событие                                   | Описание                          |
+| ----- | ----------------------------------------- | --------------------------------- |
 | 500   | ScriptCreated                             |                                   | 
 | 501   | ScriptUpdated                             |                                   | 
 | 502   | ScriptRemoved                             |                                   | 
+
+
+### Лицензия
+
+|  Код  | Событие                                   | Описание                          |
+| ----- | ----------------------------------------- | --------------------------------- |
 | 601   | LicenseAdded                              |                                   | 
 | 602   | LicenseDeleted                            |                                   | 
 | 603   | LicenseDownloaded                         |                                   | 
@@ -51,6 +81,11 @@
 | 608   | LicenseToTenantAdded                      |                                   | 
 | 609   | LicenseDeactivated                        |                                   | 
 | 610   | LicenseActivated                          |                                   | 
+
+### Авторизация
+
+|  Код  | Событие                                   | Описание                          |
+| ----- | ----------------------------------------- | --------------------------------- |
 | 2001  | Login                                     |                                   | 
 | 2002  | LoginUserNotExist                         |                                   | 
 | 2003  | LoginUserLocked                           |                                   | 
@@ -59,22 +94,51 @@
 | 2006  | LoginUserNoRightsGroupAD                  |                                   |  
 | 2007  | LogOut                                    |                                   |  
 | 2008  | LoginUserExpired                          |                                   |  
+
+
+### Проект
+
+|  Код  | Событие                                   | Описание                          |
+| ----- | ----------------------------------------- | --------------------------------- |
 | 3000  | ProjectCreated                            |                                   |  
 | 3001  | ProjectUpdated                            |                                   |  
 | 3002  | ProjectRemoved                            |                                   |  
+
+
+### Данные
+
+|  Код  | Событие                                   | Описание                          |
+| ----- | ----------------------------------------- | --------------------------------- |
 | 4000  | ProjectDataImgCreated                     |                                   |  
 | 4001  | ProjectDataImgUpdated                     |                                   |  
 | 4002  | ProjectDataImgRemoved                     |                                   |  
 | 4003  | ProjectDataImgArchiveUploaded             |                                   |  
 | 4004  | ProjectDataImgCreateError                 |                                   |  
+
+
+### Схема разметки
+
+|  Код  | Событие                                   | Описание                          |
+| ----- | ----------------------------------------- | --------------------------------- |
 | 5000  | MarkingSchemeCreated                      |                                   |  
 | 5001  | MarkingSchemeUpdated                      |                                   |  
 | 5002  | MarkingSchemeRemoved                      |                                   |  
+
+### Поля схемы разметки
+
+|  Код  | Событие                                   | Описание                          |
+| ----- | ----------------------------------------- | --------------------------------- |
 | 6000  | MarkingFieldCreated                       |                                   |  
 | 6001  | MarkingFieldUpdated                       |                                   |   
 | 6002  | MarkingFieldRemoved                       |                                   |   
 | 6003  | MarkingFieldTypesUpdated                  |                                   |   
 | 6004  | MarkingFieldColumnsUpdated                |                                   |   
+
+
+### Папка (что за папка имеется в виду?)
+
+|  Код  | Событие                                   | Описание                          |
+| ----- | ----------------------------------------- | --------------------------------- |
 | 7000  | FolderCreated                             |                                   |   
 | 7001  | FolderUpdated                             |                                   |   
 | 7002  | FolderRemoved                             |                                   |  
@@ -82,11 +146,23 @@
 | 7004  | FolderMoveObjects                         |                                   |  
 | 7005  | FolderGrantUserFolders                    |                                   |  
 | 7006  | FolderGrantFolderUsers                    |                                   |  
+
+
+### Роль
+
+|  Код  | Событие                                   | Описание                          |
+| ----- | ----------------------------------------- | --------------------------------- |
 | 8000  | RoleCreated                               |                                   |  
 | 8001  | RoleUpdated                               |                                   |  
 | 8002  | RoleRemoved                               |                                   |       
 | 8003  | RoleAssignAdGroups                        |                                   |    
 | 8004  | RoleAssignPermissions                     |                                   |    
+
+
+### Пользователь
+
+|  Код  | Событие                                   | Описание                          |
+| ----- | ----------------------------------------- | --------------------------------- |
 | 9000  | UserCreated                               |                                   |    
 | 9001  | UserUpdated                               |                                   |  
 | 9002  | UserRemoved                               |                                   |     
@@ -94,12 +170,28 @@
 | 9004  | UserPasswordChanged                       |                                   |   
 | 9005  | UserEnabled                               |                                   |  
 | 9006  | UserDisabled                              |                                   |  
+
+
+### Шаблон модели
+
+|  Код  | Событие                                   | Описание                          |
+| ----- | ----------------------------------------- | --------------------------------- |
 | 10000 | ModelTemplateCreated                      |                                   |  
 | 10001 | ModelTemplateUpdated                      |                                   |  
 | 10002 | ModelTemplateRemoved                      |                                   |  
+
+### Разметка
+
+|  Код  | Событие                                   | Описание                          |
+| ----- | ----------------------------------------- | --------------------------------- |
 | 11000 | MarkingCreateOrEdit                       |                                   |  
 | 11001 | MarkingRemoved                            |                                   |  
 | 11002 | MarkingMovedToDataSet                     |                                   |      
+
+### Датасет
+
+|  Код  | Событие                                   | Описание                          |
+| ----- | ----------------------------------------- | --------------------------------- |
 | 12000 | DataSetCreated                            |                                   |   
 | 12001 | DataSetUpdated                            |                                   |   
 | 12002 | DataSetRemoved                            |                                   |   
@@ -112,6 +204,12 @@
 | 12009 | DataSetArchiveUploaded                    |                                   |
 | 12010 | DataSetArchiveImportSucceed               |                                   |
 | 12011 | DataSetArchiveImportFailed                |                                   |
+
+
+### Тип модели
+
+|  Код  | Событие                                   | Описание                          |
+| ----- | ----------------------------------------- | --------------------------------- |
 | 13000 | ModelTypeCreated                          |                                   |
 | 13001 | ModelTypeUpdated                          |                                   |
 | 13002 | ModelTypeRemoved                          |                                   |
@@ -120,6 +218,12 @@
 | 14002 | ModelRemoved                              |                                   |
 | 14003 | ModelDownloadSuccess                      |                                   |
 | 14004 | ModelDownloadError                        |                                   |
+
+
+### Процесс обучения
+
+|  Код  | Событие                                   | Описание                          |
+| ----- | ----------------------------------------- | --------------------------------- |
 | 15000 | TrainProcessCreated                       |                                   |
 | 15001 | TrainProcessRemoved                       |                                   |
 | 15002 | TrainProcessDisabled                      |                                   |
@@ -176,7 +280,7 @@
 | 17002 | PipelineRemoved                                   | Пайплан удален |
 
 
-### Процесс инференса
+### Процесс инференса - ?
 
 | Код   | Событие                                           | Описание                          |
 | ----- | ------------------------------------------------- | --------------------------------- |
