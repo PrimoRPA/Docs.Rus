@@ -864,6 +864,8 @@
     * [Удалить слайд](g\_elements/el\_extra/els\_powerpoint/el\_powerpoint\_deleteslide.md)
 * [Линукс](g_elements/el_linux/readme.md)
   * [Основные](g_elements/el-linux-basic/readme.md)
+	* [OCR](g_elements/el-linux-basic/els-ocr)
+		* [Tesseract OCR](g_elements/el-linux-basic/els-ocr/el-ocr-tesseract-lin.md)
 	* [PDF](g_elements/el-linux-basic/els-pdf/readme.md)
 		* [Преобразовать в изображение](g_elements/el-linux-basic/els-pdf/els-pdf-toimage.md)
   	* [Браузер](g_elements/el-linux-basic/els-browser/readme.md)
@@ -954,7 +956,7 @@
   		* [Чтение колонки](g_elements/el_basic/els-odf/els-table/el-odftable-readcolumn.md)
   		* [Чтение из ячейки](g_elements/el_basic/els-odf/els-table/el-odftable-readcell.md)
   		* [Чтение формулы из ячейки](g_elements/el_basic/els-odf/els-table/el-odftable-readcellformula.md)
-   	* [Tesseract OCR](g_elements/el-linux/el-extra/el-ocr-tesseract-lin.md)
+   	* [Tesseract OCR](g_elements/el-linux-basic/els-ocr/el-ocr-tesseract-lin.md)
    * [Дополнительные](g_elements/el-linux/el-extra/readme.md)  
 		* [Т1-Интеграция](g_elements/el-linux/el-extra/t1/readme.md)  
 			* [Коллекции](g_elements/el-linux/el-extra/t1/els-collections/readme.md)  
@@ -980,7 +982,6 @@
   			* [Выполнить скрипт](g_elements/el-linux/el-extra/python/el-python-execscript.md)
   			* [Добавить функцию](g_elements/el-linux/el-extra/python/els-python-addfunction.md)
   			* [Получить объект](g_elements/el-linux/el-extra/python/el-python-getobject.md)
-
 
 ## Primo RPA Robot
 
