@@ -864,6 +864,9 @@
     * [Удалить слайд](g\_elements/el\_extra/els\_powerpoint/el\_powerpoint\_deleteslide.md)
 * [Линукс](g_elements/el_linux/readme.md)
   * [Основные](g_elements/el-linux-basic/readme.md)
+	* [OCR](g_elements/el-linux-basic/els-ocr)  
+		* [Tesseract OCR](g_elements/el-linux-basic/els-ocr/el-ocr-tesseract-lin.md)  
+		* [Поиск изображения](g_elements/el-linux-basic/els-ocr/el-ocr-find.md)  
 	* [PDF](g_elements/el-linux-basic/els-pdf/readme.md)
 		* [Преобразовать в изображение](g_elements/el-linux-basic/els-pdf/els-pdf-toimage.md)
   	* [Браузер](g_elements/el-linux-basic/els-browser/readme.md)
@@ -893,7 +896,8 @@
  		* [Присутствие элемента](g_elements/el-linux-basic/els-desktop/el-desktop-exists.md)  
 		* [Прокрутка](g_elements/el-linux-basic/els-desktop/el-desktop-scroll.md)
   		* [Развернуть окно](g_elements/el-linux-basic/els-desktop/el-desktop-maximize.md)
-		* [Разрешение](g_elements/el-linux-basic/els-desktop/el-desktop-changeresolution.md)  
+		* [Разрешение](g_elements/el-linux-basic/els-desktop/el-desktop-changeresolution.md)
+		* [Раскладка](g_elements/el-linux-basic/els-desktop/el-desktop-layout.md)
   		* [Свернуть окно](g_elements/el-linux-basic/els-desktop/el-desktop-minimize.md)
 		* [Снимок рабочего стола](g_elements/el-linux-basic/els-desktop/el-desktop-screenshot.md)
 		* [Список процессов](g_elements/el-linux-basic/els-desktop/el-desktop-getprocesses.md)
@@ -904,7 +908,9 @@
 		* [Эмуляция ввода текста](g_elements/el-linux-basic/els-desktop/el-desktop-emulinput.md)
 		* [Эмуляция спецкнопки](g_elements/el-linux-basic/els-desktop/el-desktop-emulspbutton.md)  
 	* [Управление](g_elements/el-linux-basic/els-logic/readme.md)
+		* [Выбрать ветвь](g_elements/el-linux-basic/els-logic/el-logic-pickbranch.md)
 		* [Множественное присвоение](g_elements/el-linux-basic/els-logic/el-multipleassign.md)
+		* [Параллельные потоки](g_elements/el-linux-basic/els-logic/el-logic-parallel.md)
   		* [Switch](g_elements/el-linux-basic/els-logic/switch.md)
   	* [ODF - Документы](g_elements/el_basic/els-odf/els-document/readme.md)
   		* [Ввод текста](g_elements/el_basic/els-odf/els-document/el-odfdoc-inputtext.md)
@@ -953,7 +959,7 @@
   		* [Чтение колонки](g_elements/el_basic/els-odf/els-table/el-odftable-readcolumn.md)
   		* [Чтение из ячейки](g_elements/el_basic/els-odf/els-table/el-odftable-readcell.md)
   		* [Чтение формулы из ячейки](g_elements/el_basic/els-odf/els-table/el-odftable-readcellformula.md)
-   	* [Tesseract OCR](g_elements/el-linux/el-extra/el-ocr-tesseract-lin.md)
+   	* [Tesseract OCR](g_elements/el-linux-basic/els-ocr/el-ocr-tesseract-lin.md)
    * [Дополнительные](g_elements/el-linux/el-extra/readme.md)  
 		* [Т1-Интеграция](g_elements/el-linux/el-extra/t1/readme.md)  
 			* [Коллекции](g_elements/el-linux/el-extra/t1/els-collections/readme.md)  
@@ -979,7 +985,6 @@
   			* [Выполнить скрипт](g_elements/el-linux/el-extra/python/el-python-execscript.md)
   			* [Добавить функцию](g_elements/el-linux/el-extra/python/els-python-addfunction.md)
   			* [Получить объект](g_elements/el-linux/el-extra/python/el-python-getobject.md)
-
 
 ## Primo RPA Robot
 
