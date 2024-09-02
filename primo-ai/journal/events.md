@@ -73,16 +73,16 @@
 
 |  Код  | Событие                                   | Описание                          |
 | ----- | ----------------------------------------- | --------------------------------- |
-| 601   | LicenseAdded                              | Сгенерирован запрос лицензии  (**НУЖНО ПОЯСНЕНИЕ**) | 
-| 602   | LicenseDeleted                            | Лицензия (???)                    | 
-| 603   | LicenseDownloaded                         | Лицензия загружена в сервис        | 
+| 601   | LicenseAdded                              | **ЧЕМ ОТЛИЧАЕТСЯ ОТ LicenseDownloaded?** | 
+| 602   | LicenseDeleted                            | Лицензия удалена **(событие есть, но не используется из-за отсутствия функции удаления?)** | 
+| 603   | LicenseDownloaded                         | Лицензия добавлена                | 
 | 604   | LicenseRevoked                            | Лицензия отозвана                 | 
-| 605   | LicenseRevokeReplaced                     | Отозванная лицензия заменена? (**НУЖНО ПОЯСНЕНИЕ**) | 
-| 606   | LicenseRequested                          |                                   | 
-| 607   | LicenseReplaceRequested                   |                                   | 
-| 608   | LicenseToTenantAdded                      |                                   | 
-| 609   | LicenseDeactivated                        |                                   | 
-| 610   | LicenseActivated                          |                                   | 
+| 605   | LicenseRevokeReplaced                     | **Отозванная лицензия заменена**  | 
+| 606   | LicenseRequested                          | Лицензия запрошена                | 
+| 607   | LicenseReplaceRequested                   | **Замена лицензии запрошена**     | 
+| 608   | LicenseToTenantAdded                      | Лицензия выдана на тенант         | 
+| 609   | LicenseDeactivated                        | Лицензия деактивирована           | 
+| 610   | LicenseActivated                          | Лицензия, которая ранее была деактивирована пользователем, вновь активирована | 
 
 ### Авторизация
 
