@@ -131,12 +131,12 @@
 | 15008 | TrainProcessStopedError                   |                                   |
 | 15100 | TrainProcessStartPipeline                 |                                   |
 | 15101 | TrainProcessEmergencyShutdown             |                                   |
-   
+| 15200 | TrainProcessStartFileStoragePrepareSuccess |                                  |  
     
 
 
     
-TrainProcessStartFileStoragePrepareSuccess = 15200,
+
     TrainProcessStartFileStoragePrepareError = 15201,
     TrainProcessStartDownloadScriptSuccess = 15300,
     TrainProcessStartDownloadScriptError = 15301,
