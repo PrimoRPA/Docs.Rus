@@ -100,9 +100,9 @@
 
 |  Код  | Событие                                   | Описание                          |
 | ----- | ----------------------------------------- | --------------------------------- |
-| 3000  | ProjectCreated                            |                                   |  
-| 3001  | ProjectUpdated                            |                                   |  
-| 3002  | ProjectRemoved                            |                                   |  
+| 3000  | ProjectCreated                            | Проект создан                     |  
+| 3001  | ProjectUpdated                            | Проект изменен                    |  
+| 3002  | ProjectRemoved                            | Проект удален                     |  
 
 
 ### Данные
@@ -120,17 +120,17 @@
 
 |  Код  | Событие                                   | Описание                          |
 | ----- | ----------------------------------------- | --------------------------------- |
-| 5000  | MarkingSchemeCreated                      |                                   |  
-| 5001  | MarkingSchemeUpdated                      |                                   |  
-| 5002  | MarkingSchemeRemoved                      |                                   |  
+| 5000  | MarkingSchemeCreated                      | Схема разметки создана            |  
+| 5001  | MarkingSchemeUpdated                      | Схема разметки изменена           |  
+| 5002  | MarkingSchemeRemoved                      | Схема разметки удалена            |  
 
 ### Поля схемы разметки
 
 |  Код  | Событие                                   | Описание                          |
 | ----- | ----------------------------------------- | --------------------------------- |
-| 6000  | MarkingFieldCreated                       |                                   |  
-| 6001  | MarkingFieldUpdated                       |                                   |   
-| 6002  | MarkingFieldRemoved                       |                                   |   
+| 6000  | MarkingFieldCreated                       | Поле создано                      |  
+| 6001  | MarkingFieldUpdated                       | Поле изменено                     |   
+| 6002  | MarkingFieldRemoved                       | Поле удалено                      |   
 | 6003  | MarkingFieldTypesUpdated                  |                                   |   
 | 6004  | MarkingFieldColumnsUpdated                |                                   |   
 
@@ -152,9 +152,9 @@
 
 |  Код  | Событие                                   | Описание                          |
 | ----- | ----------------------------------------- | --------------------------------- |
-| 8000  | RoleCreated                               |                                   |  
-| 8001  | RoleUpdated                               |                                   |  
-| 8002  | RoleRemoved                               |                                   |       
+| 8000  | RoleCreated                               | Роль создана                      |  
+| 8001  | RoleUpdated                               | Роль изменена                     |  
+| 8002  | RoleRemoved                               | Роль удалена                      |       
 | 8003  | RoleAssignAdGroups                        |                                   |    
 | 8004  | RoleAssignPermissions                     |                                   |    
 
