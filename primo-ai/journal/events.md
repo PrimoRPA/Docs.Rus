@@ -71,11 +71,11 @@
 
 |  Код  | Событие                                   | Описание                          |
 | ----- | ----------------------------------------- | --------------------------------- |
-| 601   | LicenseAdded                              |                                   | 
-| 602   | LicenseDeleted                            |                                   | 
-| 603   | LicenseDownloaded                         |                                   | 
-| 604   | LicenseRevoked                            |                                   | 
-| 605   | LicenseRevokeReplaced                     |                                   | 
+| 601   | LicenseAdded                              | Сгенерирован запрос лицензии  (**НУЖНО ПОЯСНЕНИЕ**) | 
+| 602   | LicenseDeleted                            | Лицензия (???)                    | 
+| 603   | LicenseDownloaded                         | Лицензия загружна в сервис        | 
+| 604   | LicenseRevoked                            | Лицензия отозвана                 | 
+| 605   | LicenseRevokeReplaced                     | Отозванная лицензия заменена? (**НУЖНО ПОЯСНЕНИЕ**) | 
 | 606   | LicenseRequested                          |                                   | 
 | 607   | LicenseReplaceRequested                   |                                   | 
 | 608   | LicenseToTenantAdded                      |                                   | 
@@ -155,8 +155,8 @@
 | 8000  | RoleCreated                               | Роль создана                      |  
 | 8001  | RoleUpdated                               | Роль изменена                     |  
 | 8002  | RoleRemoved                               | Роль удалена                      |       
-| 8003  | RoleAssignAdGroups                        |                                   |    
-| 8004  | RoleAssignPermissions                     |                                   |    
+| 8003  | RoleAssignAdGroups                        | В текущей версии сервиса не используется. Роль привязана к AD-группе |    
+| 8004  | RoleAssignPermissions                     | Роли назначены разрешения         |    
 
 
 ### Пользователь
