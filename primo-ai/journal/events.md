@@ -132,32 +132,84 @@
 | 15100 | TrainProcessStartPipeline                 |                                   |
 | 15101 | TrainProcessEmergencyShutdown             |                                   |
 | 15200 | TrainProcessStartFileStoragePrepareSuccess |                                  |  
-    
+| 15201 | TrainProcessStartFileStoragePrepareError  |                                   |
+| 15300 | TrainProcessStartDownloadScriptSuccess    |   |
+| 15301 | TrainProcessStartDownloadScriptError      |   |
+| 15400 | TrainProcessStartDownloadModelTemplateSuccess     |    |
+| 15401 | TrainProcessStartDownloadModelTemplateError       |    |
+| 15402 | TrainProcessStartUnzipModelTemplateSuccess         |  |
+| 15403 | TrainProcessStartUnzipModelTemplateError           |  |
+| 15500 | TrainProcessStartDownloadModelSuccess              |  |
+| 15501 | TrainProcessStartDownloadModelError                |  |
+| 15502 | TrainProcessStartUnzipModelSuccess                 |  |
+| 15503 | TrainProcessStartUnzipModelError                   |  |
+| 15600 | TrainProcessStartDownloadDataSetSuccess            |  |
+| 15601 | TrainProcessStartDownloadDataSetError              |  |
+| 15602 | TrainProcessStartUnzipDataSetSuccess               |  |
+| 15603 | TrainProcessStartUnzipDataSetError                 |  |
+| 15620 | TrainProcessStartDownloadTestDataSetSuccess        |  |
+| 15621 | TrainProcessStartDownloadTestDataSetError          |  |
+| 15622 | TrainProcessStartDownloadUnzipTestDataSetSuccess   |  |
+| 15623 | TrainProcessStartDownloadUnzipTestDataSetError     |  |
+| 15700 | TrainProcessStartCompletedSuccess                  |  |
+| 15701 | TrainProcessStartCompletedError                    |  |
+
+
+
+
+
+
+
+
+| Код  | Событие                                   | Описание |
+|------|-------------------------------------------|----------|
+| 15222| TrainProcessCompletedSuccess               |          |
+| 15223| TrainProcessCompletedError                 |          |
+
+| Код  | Событие                                   | Описание |
+|------|-------------------------------------------|----------|
+| 15224| TrainProcessTimeout                        |          |
+
+| Код  | Событие                                   | Описание |
+|------|-------------------------------------------|----------|
+| 15225| TrainProcessMetricsReceived                |          |
+
+| Код  | Событие                                   | Описание |
+|------|-------------------------------------------|----------|
+| 15226| TrainProcessTemplateCreated                |          |
+| 15227| TrainProcessTemplateUpdated                |          |
+| 15228| TrainProcessTemplateRemoved                |          |
+
+| Код  | Событие                                   | Описание |
+|------|-------------------------------------------|----------|
+| 15229| PipelineCreated                           |          |
+| 15230| PipelineUpdated                           |          |
+| 15231| PipelineRemoved                           |          |
+
+| Код  | Событие                                   | Описание |
+|------|-------------------------------------------|----------|
+| 15232| InferenceProcessStartPipeline              |          |
+| 15233| InferenceProcessEmergencyShutdown          |          |
+| 15234| InferenceProcessStartFileStoragePrepareSuccess |     |
+| 15235| InferenceProcessStartFileStoragePrepareError   |     |
+| 15236| InferenceProcessStartDownloadScriptSuccess    |     |
+| 15237| InferenceProcessStartDownloadScriptError      |     |
+| 15238| InferenceProcessStartDownloadModelSuccess      |     |
+| 15239| InferenceProcessStartDownloadModelError        |     |
+| 15240| InferenceProcessStartUnzipModelSuccess         |     |
+| 15241| InferenceProcessStartUnzipModelError           |     |
+| 15242| InferenceProcessStartDownloadMarkingSchemeSuccess |   |
+| 15243| InferenceProcessStartDownloadMarkingSchemeError   |   |
+| 15244| InferenceTestProcessStartDownloadDataSetSuccess   |   |
+| 15245| InferenceTestProcessStartDownloadDataSetError     |   |
+| 15246| InferenceTestProcessStartUnzipDataSetSuccess      |   |
+| 15247| InferenceTestProcessStartUnzipDataSetError        |   |
+| 15248| InferenceProcessStartCompletedSuccess              |   |
 
 
     
 
-    TrainProcessStartFileStoragePrepareError = 15201,
-    TrainProcessStartDownloadScriptSuccess = 15300,
-    TrainProcessStartDownloadScriptError = 15301,
-    TrainProcessStartDownloadModelTemplateSuccess = 15400,
-    TrainProcessStartDownloadModelTemplateError = 15401,
-    TrainProcessStartUnzipModelTemplateSuccess = 15402,
-    TrainProcessStartUnzipModelTemplateError = 15403,
-    TrainProcessStartDownloadModelSuccess = 15500,
-    TrainProcessStartDownloadModelError = 15501,
-    TrainProcessStartUnzipModelSuccess = 15502,
-    TrainProcessStartUnzipModelError = 15503,
-    TrainProcessStartDownloadDataSetSuccess = 15600,
-    TrainProcessStartDownloadDataSetError = 15601,
-    TrainProcessStartUnzipDataSetSuccess = 15602,
-    TrainProcessStartUnzipDataSetError = 15603,
-    TrainProcessStartDownloadTestDataSetSuccess = 15620,
-    TrainProcessStartDownloadTestDataSetError = 15621,
-    TrainProcessStartDownloadUnzipTestDataSetSuccess = 15622,
-    TrainProcessStartDownloadUnzipTestDataSetError = 15623,
-	TrainProcessStartCompletedSuccess = 15700,
-    TrainProcessStartCompletedError = 15701,
+    
 
 	TrainProcessCompletedSuccess = 15800,
     TrainProcessCompletedError = 15801,
