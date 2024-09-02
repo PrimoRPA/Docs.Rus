@@ -909,6 +909,7 @@
 		* [Эмуляция спецкнопки](g_elements/el-linux-basic/els-desktop/el-desktop-emulspbutton.md)  
 	* [Управление](g_elements/el-linux-basic/els-logic/readme.md)
 		* [Множественное присвоение](g_elements/el-linux-basic/els-logic/el-multipleassign.md)
+		* [Параллельные потоки](g_elements/el-linux-basic/els-logic/el-logic-parallel.md)
   		* [Switch](g_elements/el-linux-basic/els-logic/switch.md)
   	* [ODF - Документы](g_elements/el_basic/els-odf/els-document/readme.md)
   		* [Ввод текста](g_elements/el_basic/els-odf/els-document/el-odfdoc-inputtext.md)
