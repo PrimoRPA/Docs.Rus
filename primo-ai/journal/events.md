@@ -134,8 +134,8 @@
 | 6000  | MarkingFieldCreated                       | Поле создано                      |  
 | 6001  | MarkingFieldUpdated                       | Поле изменено                     |   
 | 6002  | MarkingFieldRemoved                       | Поле удалено                      |   
-| 6003  | MarkingFieldTypesUpdated                  | **Тип поля схемы разметки изменен** |   
-| 6004  | MarkingFieldColumnsUpdated                |                                   |   
+| 6003  | MarkingFieldTypesUpdated                  | **Тип поля схемы разметки изменен** не понимаю, о чем речь  |   
+| 6004  | MarkingFieldColumnsUpdated                | **Столбцы поля схемы разметки изменены** не понимаю, о чем речь |   
 
 
 ### Папка (что за папка имеется в виду? это папки в Орке?)
