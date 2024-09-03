@@ -20,7 +20,7 @@
 | 109   | InferenceRequestProcessedSuccess          | Запрос на инференс обработан успешно |
 | 110   | InferenceRequestProcessedError            | Обработка запроса на инференс завершилась ошибкой |
 | 111   | InferenceRequestResultTransferred         | Результат обработки запроса на инференс **передан** (серверу? роботу?)|
-| 112   | InferenceRequestNoLicensedAgent           | **Нет лицензированного агента для обработки запроса на инференс** |
+| 112   | InferenceRequestNoLicensedAgent           | **Не найден лицензированный агент для обработки запроса на инференс** |
 
 
 ### Процесс инференса
