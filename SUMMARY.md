@@ -267,6 +267,7 @@
     * [Активировать вкладку браузера](g\_elements/el\_basic/els\_browser/el\_activatetab.md) 
     * [Открыть вкладку браузера](g\_elements/el\_basic/els\_browser/el\_opentab.md)
     * [Текущая вкладка браузера](g\_elements/el\_basic/els\_browser/el\_current_tab.md)
+    * [Закрыть вкладку браузера](g\_elements/el\_basic/els\_browser/el\_closetab.md) 
     * [Вперед](g\_elements/el\_basic/els\_browser/el\_forward.md)
     * [Назад](g\_elements/el\_basic/els\_browser/el\_back.md)
     * [Обновить](g\_elements/el\_basic/els\_browser/el\_refresh.md)
