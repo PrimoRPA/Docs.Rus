@@ -233,10 +233,10 @@
 
 |  Код  | Событие                                   | Описание                          |
 | ----- | ----------------------------------------- | --------------------------------- |
-| 15000 | TrainProcessCreated                       |                                   |
-| 15001 | TrainProcessRemoved                       |                                   |
-| 15002 | TrainProcessDisabled                      |                                   |
-| 15003 | TrainProcessEnabled                       |                                   |
+| 15000 | TrainProcessCreated                       | Процесс обучения создан           |
+| 15001 | TrainProcessRemoved                       | Процесс обучения удален           |
+| 15002 | TrainProcessDisabled                      | Процесс обучения выключен. Выключенный процесс становится недоступным для запуска и остановки |
+| 15003 | TrainProcessEnabled                       | Процесс обучения, который ранее был выключен, снова включен |
 | 15004 | TrainProcessSendToStart                   |                                   |
 | 15005 | TrainProcessStarted                       |                                   |
 | 15006 | TrainProcessSendToStop                    |                                   |
@@ -295,35 +295,35 @@
 
 | Код   | Событие                                           | Описание                          |
 | ----- | ------------------------------------------------- | --------------------------------- |
-| 18100 | InferenceProcessStartPipeline                     |  |
-| 18101 | InferenceProcessEmergencyShutdown                 |  |
-| 18200 | InferenceProcessStartFileStoragePrepareSuccess    |  |
-| 18201 | InferenceProcessStartFileStoragePrepareError      |  |
-| 18300 | InferenceProcessStartDownloadScriptSuccess        |  |
-| 18301 | InferenceProcessStartDownloadScriptError          |  |
-| 18500 | InferenceProcessStartDownloadModelSuccess         |  |
-| 18501 | InferenceProcessStartDownloadModelError           |  |
-| 18502 | InferenceProcessStartUnzipModelSuccess            |  |
-| 18503 | InferenceProcessStartUnzipModelError              |  |
-| 18600 | InferenceProcessStartDownloadMarkingSchemeSuccess |  |
-| 18601 | InferenceProcessStartDownloadMarkingSchemeError   |  |
-| 18700 | InferenceTestProcessStartDownloadDataSetSuccess   |  |
-| 18701 | InferenceTestProcessStartDownloadDataSetError     |  |
-| 18702 | InferenceTestProcessStartUnzipDataSetSuccess      |  |
-| 18703 | InferenceTestProcessStartUnzipDataSetError        |  |
-| 18800 | InferenceProcessStartCompletedSuccess             |  |
-| 18801 | InferenceProcessStartCompletedError               |  |
-| 18900 | InferenceTestProcessTransferEvaluationResultSuccess |  |
-| 18920 | InferenceTestProcessTransferBboxSuccess           |  |
-| 18940 | InferenceTestProcessCompletedSuccess              |  |
-| 18960 | InferenceTestProcessCompletedError                |  |
+| 18100 | InferenceProcessStartPipeline                     | **?**  |
+| 18101 | InferenceProcessEmergencyShutdown                 | Процесс инференса... |
+| 18200 | InferenceProcessStartFileStoragePrepareSuccess    | Процесс инференса... |
+| 18201 | InferenceProcessStartFileStoragePrepareError      | Процесс инференса... |
+| 18300 | InferenceProcessStartDownloadScriptSuccess        | Процесс инференса...  |
+| 18301 | InferenceProcessStartDownloadScriptError          | Процесс инференса... |
+| 18500 | InferenceProcessStartDownloadModelSuccess         | Процесс инференса... |
+| 18501 | InferenceProcessStartDownloadModelError           | Процесс инференса... |
+| 18502 | InferenceProcessStartUnzipModelSuccess            | Процесс инференса... |
+| 18503 | InferenceProcessStartUnzipModelError              | Процесс инференса... |
+| 18600 | InferenceProcessStartDownloadMarkingSchemeSuccess | Процесс инференса... |
+| 18601 | InferenceProcessStartDownloadMarkingSchemeError   | Процесс инференса... |
+| 18700 | InferenceTestProcessStartDownloadDataSetSuccess   | Процесс инференса... |
+| 18701 | InferenceTestProcessStartDownloadDataSetError     | Процесс инференса... |
+| 18702 | InferenceTestProcessStartUnzipDataSetSuccess      | Процесс инференса... |
+| 18703 | InferenceTestProcessStartUnzipDataSetError        | Процесс инференса... |
+| 18800 | InferenceProcessStartCompletedSuccess             | Процесс инференса... |
+| 18801 | InferenceProcessStartCompletedError               | Процесс инференса... |
+| 18900 | InferenceTestProcessTransferEvaluationResultSuccess | Процесс инференса... |
+| 18920 | InferenceTestProcessTransferBboxSuccess           | Процесс инференса... |
+| 18940 | InferenceTestProcessCompletedSuccess              | Процесс инференса... |
+| 18960 | InferenceTestProcessCompletedError                | Процесс инференса... |
 
 
 ### Данные журнала агента
 
 | Код   | Событие                                           | Описание                          |
 | ----- | ------------------------------------------------- | --------------------------------- |
-| 19000 | AgentLogDataReceived                              |  |
+| 19000 | AgentLogDataReceived                              | Данные журнала агента получены |
 
 
 
