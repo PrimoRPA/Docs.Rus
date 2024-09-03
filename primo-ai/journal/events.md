@@ -9,18 +9,18 @@
 |  Код  | Событие                                   | Описание                          |
 | ----- | ----------------------------------------- | --------------------------------- |
 | 100   | InferenceRequestAccepted                  | Запрос на инференс принят         |
-| 101   | InferenceRequestSentForProcessingSuccess  | Запрос на инференс **успешно отправлен на целевую машину для обработки?** |
-| 102   | InferenceRequestSentForProcessingError    | Запрос на инференс **отправлен...**   |
+| 101   | InferenceRequestSentForProcessingSuccess  | Запрос на инференс **успешно отправлен на целевую машину для обработки** |
+| 102   | InferenceRequestSentForProcessingError    | **Отправка запроса на инференс для обработки завершилась ошибкой?**   |
 | 103   | InferenceRequestNoAgent                   | **в запросе на инференс не указана целевая машина?** |
 | 104   | InferenceRequestStartPipeline             | **?**                             |
-| 105   | InferenceRequestDownloadImgFileSuccess    | В запросе на инференс **Загрузка файла изображения выполнена успешно** |
-| 106   | InferenceRequestDownloadImgFileError      | В запросе на инференс **Загрузка файла изображения завершилась ошибкой** |
+| 105   | InferenceRequestDownloadImgFileSuccess    | В запросе на инференс **загрузка файла изображения выполнена успешно** |
+| 106   | InferenceRequestDownloadImgFileError      | В запросе на инференс **загрузка файла изображения завершилась ошибкой** |
 | 107   | InferenceRequestDownloadMarkingFileSuccess | В запросе на инференс **загрузка схемы разметки(?) выполнена успешно** |
 | 108   | InferenceRequestDownloadMarkingFileError  | В запросе на инференс **загрузка схемы разметки(?) завершилась ошибкой** |
-| 109   | InferenceRequestProcessedSuccess          |                                   |
-| 110   | InferenceRequestProcessedError            |                                   |
-| 111   | InferenceRequestResultTransferred         |                                   |
-| 112   | InferenceRequestNoLicensedAgent           |                                   |
+| 109   | InferenceRequestProcessedSuccess          | Запрос на инференс обработан успешно |
+| 110   | InferenceRequestProcessedError            | Обработка запроса на инференс завершилась ошибкой |
+| 111   | InferenceRequestResultTransferred         | Результат обработки запроса на инференс **передан** (серверу? роботу?)|
+| 112   | InferenceRequestNoLicensedAgent           | **Нет лицензированного агента для обработки запроса на инференс** |
 
 ### Процесс инференса
 
