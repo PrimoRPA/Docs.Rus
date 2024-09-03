@@ -138,7 +138,7 @@
 | 6004  | MarkingFieldColumnsUpdated                |                                   |   
 
 
-### Папка (что за папка имеется в виду?)
+### Папка (что за папка имеется в виду? это папки в Орке?)
 
 |  Код  | Событие                                   | Описание                          |
 | ----- | ----------------------------------------- | --------------------------------- |
@@ -198,15 +198,15 @@
 | 12000 | DataSetCreated                            | Датасет создан                    |   
 | 12001 | DataSetUpdated                            | Датасет изменен                   |   
 | 12002 | DataSetRemoved                            | Датасет удален                    |   
-| 12003 | DataSetArchivateStarted                   | **Запущена архивация датасета**   |   
-| 12004 | DataSetArchivateCompletedSuccess          |                                   |   
-| 12005 | DataSetArchivateCompletedError            |                                   |
-| 12006 | DataSetArchivateProgress1                 |                                   |
-| 12007 | DataSetArchivateProgress2                 |                                   |
-| 12008 | DataSetArchivateCompletedTimeout          |                                   |
-| 12009 | DataSetArchiveUploaded                    |                                   |
-| 12010 | DataSetArchiveImportSucceed               |                                   |
-| 12011 | DataSetArchiveImportFailed                |                                   |
+| 12003 | DataSetArchivateStarted                   | Запущена архивация датасета       |   
+| 12004 | DataSetArchivateCompletedSuccess          | Архивирование датасета успешно завершено |   
+| 12005 | DataSetArchivateCompletedError            | Архивирование датасета завершилось ошибкой |
+| 12006 | DataSetArchivateProgress1                 | **?**                                  |
+| 12007 | DataSetArchivateProgress2                 | **?**                                   |
+| 12008 | DataSetArchivateCompletedTimeout          | Архивирование датасета завершилось ошибкой таймаута **Привести причины**|
+| 12009 | DataSetArchiveUploaded                    | Архив с датасетом загружен        |
+| 12010 | DataSetArchiveImportSucceed               | Импорт архива с датасетом выполнен успешно **Чем отличается от DataSetArchiveUploaded?**  |
+| 12011 | DataSetArchiveImportFailed                | Импорт архива с датасетом завершился ошибкой |
 
 
 ### Тип модели
@@ -227,7 +227,6 @@
 | 14002 | ModelRemoved                              | Модель удалена                    |
 | 14003 | ModelDownloadSuccess                      | Модель загружена успешно          |
 | 14004 | ModelDownloadError                        | Загрузка модели завершилась ошибкой |
-
 
 
 ### Процесс обучения
@@ -300,13 +299,13 @@
 
 ### Пайплан
 
-В текущей версии сервиса пайплайны не используются.
+**Примечание**. В текущей версии сервиса пайплайны не используются.
 
 | Код   | Событие                                           | Описание                          |
 | ----- | ------------------------------------------------- | --------------------------------- |
-| 17000 | PipelineCreated                                   | Пайплан создан |
-| 17001 | PipelineUpdated                                   | Пайплан обновлен |
-| 17002 | PipelineRemoved                                   | Пайплан удален |
+| 17000 | PipelineCreated                                   | Пайплан создан                    |
+| 17001 | PipelineUpdated                                   | Пайплан обновлен                  |
+| 17002 | PipelineRemoved                                   | Пайплан удален                    |
 
 
 ### Процесс инференса - ?
