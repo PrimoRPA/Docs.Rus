@@ -8,15 +8,15 @@
 
 |  Код  | Событие                                   | Описание                          |
 | ----- | ----------------------------------------- | --------------------------------- |
-| 100   | InferenceRequestAccepted                  |                                   |
-| 101   | InferenceRequestSentForProcessingSuccess  |                                   |
-| 102   | InferenceRequestSentForProcessingError    |                                   |
-| 103   | InferenceRequestNoAgent                   |                                   |
-| 104   | InferenceRequestStartPipeline             |                                   |
-| 105   | InferenceRequestDownloadImgFileSuccess    |                                   |
-| 106   | InferenceRequestDownloadImgFileError      |                                   |
-| 107   | InferenceRequestDownloadMarkingFileSuccess |                                  |
-| 108   | InferenceRequestDownloadMarkingFileError  |                                   |
+| 100   | InferenceRequestAccepted                  | Запрос на инференс принят         |
+| 101   | InferenceRequestSentForProcessingSuccess  | Запрос на инференс отправлен **на целевую машину для успешной обработки?** |
+| 102   | InferenceRequestSentForProcessingError    | Запрос на инференс **отправлен...**   |
+| 103   | InferenceRequestNoAgent                   | **в запросе на инференс не указана целевая машина?** |
+| 104   | InferenceRequestStartPipeline             | **?**                             |
+| 105   | InferenceRequestDownloadImgFileSuccess    | В запросе на инференс **Загрузка файла изображения выполнена успешно** |
+| 106   | InferenceRequestDownloadImgFileError      | В запросе на инференс **Загрузка файла изображения завершилась ошибкой** |
+| 107   | InferenceRequestDownloadMarkingFileSuccess | В запросе на инференс **загрузка схемы разметки(?) выполнена успешно** |
+| 108   | InferenceRequestDownloadMarkingFileError  | В запросе на инференс **загрузка схемы разметки(?) завершилась ошибкой** |
 | 109   | InferenceRequestProcessedSuccess          |                                   |
 | 110   | InferenceRequestProcessedError            |                                   |
 | 111   | InferenceRequestResultTransferred         |                                   |
