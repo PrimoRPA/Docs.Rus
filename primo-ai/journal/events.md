@@ -224,8 +224,8 @@
 | 14000 | ModelCreated                              | Модель создана                    |
 | 14001 | ModelUpdated                              | Модель изменена                   |
 | 14002 | ModelRemoved                              | Модель удалена                    |
-| 14003 | ModelDownloadSuccess                      |                                   |
-| 14004 | ModelDownloadError                        |                                   |
+| 14003 | ModelDownloadSuccess                      | Модель загружена успешно          |
+| 14004 | ModelDownloadError                        | Загрузка модели завершилась ошибкой |
 
 
 
