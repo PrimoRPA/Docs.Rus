@@ -1,4 +1,4 @@
-# События
+  # События
 
 Все события, которые фиксируются в Primo RPA AI Server, приведены в таблице ниже.
 
@@ -30,7 +30,7 @@
 | 201   | InferenceProcessRemoved                   | Процесс инференса удален          |
 | 202   | InferenceProcessDisabled                  | Процесс инференса выключен        |
 | 203   | InferenceProcessEnabled                   | Процесс инференса включен         |
-| 204   | InferenceProcessStarted                   | Процесс инференса **(запущен?)** |
+| 204   | InferenceProcessStarted                   | Процесс инференса **(запущен?)**  |
 | 205   | InferenceProcessStoped                    | Процесс инференса остановлен      |
 | 206   | InferenceProcessSentToLaunch              | Процесс инференса **отправлен на запуск??** |
 | 207   | InferenceProcessSentToStop                | Процесс инференса **отправлен на остановку?** |
@@ -168,7 +168,7 @@
 | 9000  | UserCreated                               | Пользователь создан               |    
 | 9001  | UserUpdated                               | Пользователь изменен              |  
 | 9002  | UserRemoved                               | Пользователь удален               |     
-| 9003  | UserRolesAssigned                         | **Пользователю назначены роли**  |     
+| 9003  | UserRolesAssigned                         | **Пользователю назначены роли**   |     
 | 9004  | UserPasswordChanged                       | Пароль пользователя изменен       |   
 | 9005  | UserEnabled                               | Пользователь **разблокирован?**   |  
 | 9006  | UserDisabled                              | Пользователь **заблокирован?**    |  
@@ -237,10 +237,10 @@
 | 15008 | TrainProcessStopedError                   |                                   |
 | 15100 | TrainProcessStartPipeline                 |                                   |
 | 15101 | TrainProcessEmergencyShutdown             |                                   |
-| 15200 | TrainProcessStartFileStoragePrepareSuccess |                                  |  
+| 15200 | TrainProcessStartFileStoragePrepareSuccess|                                   |  
 | 15201 | TrainProcessStartFileStoragePrepareError  |                                   |
-| 15300 | TrainProcessStartDownloadScriptSuccess    |   |
-| 15301 | TrainProcessStartDownloadScriptError      |   |
+| 15300 | TrainProcessStartDownloadScriptSuccess    |                                   |
+| 15301 | TrainProcessStartDownloadScriptError      |                                   |
 | 15400 | TrainProcessStartDownloadModelTemplateSuccess      |  |
 | 15401 | TrainProcessStartDownloadModelTemplateError        |  |
 | 15402 | TrainProcessStartUnzipModelTemplateSuccess         |  |
