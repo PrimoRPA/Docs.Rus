@@ -111,7 +111,7 @@
 
 |  Код  | Событие                                   | Описание                          |
 | ----- | ----------------------------------------- | --------------------------------- |
-| 4000  | ProjectDataImgCreated                     |                                   |  
+| 4000  | ProjectDataImgCreated                     | **?**                                  |  
 | 4001  | ProjectDataImgUpdated                     |                                   |  
 | 4002  | ProjectDataImgRemoved                     |                                   |  
 | 4003  | ProjectDataImgArchiveUploaded             |                                   |  
@@ -194,10 +194,10 @@
 
 |  Код  | Событие                                   | Описание                          |
 | ----- | ----------------------------------------- | --------------------------------- |
-| 12000 | DataSetCreated                            |                                   |   
-| 12001 | DataSetUpdated                            |                                   |   
-| 12002 | DataSetRemoved                            |                                   |   
-| 12003 | DataSetArchivateStarted                   |                                   |   
+| 12000 | DataSetCreated                            | Датасет создан                    |   
+| 12001 | DataSetUpdated                            | Датасет изменен                   |   
+| 12002 | DataSetRemoved                            | Датасет удален                    |   
+| 12003 | DataSetArchivateStarted                   | **Запущена архивация датасета**   |   
 | 12004 | DataSetArchivateCompletedSuccess          |                                   |   
 | 12005 | DataSetArchivateCompletedError            |                                   |
 | 12006 | DataSetArchivateProgress1                 |                                   |
@@ -212,14 +212,21 @@
 
 |  Код  | Событие                                   | Описание                          |
 | ----- | ----------------------------------------- | --------------------------------- |
-| 13000 | ModelTypeCreated                          |                                   |
-| 13001 | ModelTypeUpdated                          |                                   |
-| 13002 | ModelTypeRemoved                          |                                   |
-| 14000 | ModelCreated                              |                                   |
-| 14001 | ModelUpdated                              |                                   |
-| 14002 | ModelRemoved                              |                                   |
+| 13000 | ModelTypeCreated                          | Тип модели создан                 |
+| 13001 | ModelTypeUpdated                          | Тип модели изменен                |
+| 13002 | ModelTypeRemoved                          | Тип модели удален                 |
+
+
+### Модель
+
+|  Код  | Событие                                   | Описание                          |
+| ----- | ----------------------------------------- | --------------------------------- |
+| 14000 | ModelCreated                              | Модель создана                    |
+| 14001 | ModelUpdated                              | Модель изменена                   |
+| 14002 | ModelRemoved                              | Модель удалена                    |
 | 14003 | ModelDownloadSuccess                      |                                   |
 | 14004 | ModelDownloadError                        |                                   |
+
 
 
 ### Процесс обучения
