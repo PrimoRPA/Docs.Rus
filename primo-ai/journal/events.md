@@ -236,16 +236,16 @@
 | 15000 | TrainProcessCreated                       | Процесс обучения создан           |
 | 15001 | TrainProcessRemoved                       | Процесс обучения удален           |
 | 15002 | TrainProcessDisabled                      | Процесс обучения выключен. Выключенный процесс становится недоступным для запуска и остановки |
-| 15003 | TrainProcessEnabled                       | Процесс обучения, который ранее был выключен, снова включен пользователем |
+| 15003 | TrainProcessEnabled                       | Процесс обучения, который ранее был выключен, вновь включен |
 | 15004 | TrainProcessSendToStart                   | Процесс обучения **запускается**  |
 | 15005 | TrainProcessStarted                       | Процесс обучения запущен          |
 | 15006 | TrainProcessSendToStop                    | Процесс обучения останавливается  |
 | 15007 | TrainProcessStopedSuccess                 | Процесс обучения успешно остановлен |
-| 15008 | TrainProcessStopedError                   | Остановка процесса обучения завершилась ошибкой |
+| 15008 | TrainProcessStopedError                   | Остановка процесса обучения завершилась ошибкой **привести причины** |
 | 15100 | TrainProcessStartPipeline                 | **Старт конвейера запуска. Примечание: в текущей версии конвейер не используется** |
 | 15101 | TrainProcessEmergencyShutdown             | Процесс обучения аварийно завершен **Привести причины**  |
-| 15200 | TrainProcessStartFileStoragePrepareSuccess | **Файловое хранилище подготовлено** |  
-| 15201 | TrainProcessStartFileStoragePrepareError  | Подготовка файлового хранилища завершилась ошибкой |
+| 15200 | TrainProcessStartFileStoragePrepareSuccess | Файловое хранилище успешно подготовлено |  
+| 15201 | TrainProcessStartFileStoragePrepareError  | Подготовка файлового хранилища завершилась ошибкой **Привести причины** |
 | 15300 | TrainProcessStartDownloadScriptSuccess    | Файл скрипта скачан **какого скрипта, пояснить** |
 | 15301 | TrainProcessStartDownloadScriptError      | Скачивание файла скрипта завершилось ошибкой |
 | 15400 | TrainProcessStartDownloadModelTemplateSuccess      | Шаблон модели загружен успешно  |
@@ -254,36 +254,22 @@
 | 15403 | TrainProcessStartUnzipModelTemplateError           | Распаковка шаблона модели завершилась ошибкой |
 | 15500 | TrainProcessStartDownloadModelSuccess              | Загрузка модели успешно запущена |
 | 15501 | TrainProcessStartDownloadModelError                | Загрузка модели завершилось ошибкой |
-| 15502 | TrainProcessStartUnzipModelSuccess                 | Распаковка модели успешно запущена |
-| 15503 | TrainProcessStartUnzipModelError                   | Распаковка модели завершилась ошибкой |
+| 15502 | TrainProcessStartUnzipModelSuccess                 | Распаковка архива модели успешно запущена |
+| 15503 | TrainProcessStartUnzipModelError                   | Распаковка архива модели завершилась ошибкой |
 | 15600 | TrainProcessStartDownloadDataSetSuccess            | Загрузка датасета для обучения успешно запущена |
 | 15601 | TrainProcessStartDownloadDataSetError              | Загрузка датасета для обучения завершилась ошибкой |
 | 15602 | TrainProcessStartUnzipDataSetSuccess               | Распаковка датасета успешно запущена |
 | 15603 | TrainProcessStartUnzipDataSetError                 | Распаковка датасета завершилась ошибкой |
-| 15620 | TrainProcessStartDownloadTestDataSetSuccess        | Загрузка тестового датасета успешно запущена |
-| 15621 | TrainProcessStartDownloadTestDataSetError          | Загрузка тестового датасета завершилась ошибкой |
-| 15622 | TrainProcessStartDownloadUnzipTestDataSetSuccess   | Распаковка тестового датасета успешно запущена |
-| 15623 | TrainProcessStartDownloadUnzipTestDataSetError     | Распаковка тестового датасета завершилась ошибкой |
-| 15700 | TrainProcessStartCompletedSuccess                  |  |
-| 15701 | TrainProcessStartCompletedError                    |  |
-| 15800 | TrainProcessCompletedSuccess                       |  |
-| 15801 | TrainProcessCompletedError                         |  |
+| 15620 | TrainProcessStartDownloadTestDataSetSuccess        | Загрузка архива тестового датасета успешно запущена |
+| 15621 | TrainProcessStartDownloadTestDataSetError          | Загрузка архива тестового датасета завершилась ошибкой |
+| 15622 | TrainProcessStartDownloadUnzipTestDataSetSuccess   | Распаковка архива тестового датасета успешно запущена |
+| 15623 | TrainProcessStartDownloadUnzipTestDataSetError     | Распаковка архива тестового датасета завершилась ошибкой |
+| 15700 | TrainProcessStartCompletedSuccess                  | **Запуск завершен успешно?** В чем отличие от TrainProcessStarted? |
+| 15701 | TrainProcessStartCompletedError                    | **?** |
+| 15800 | TrainProcessCompletedSuccess                       | Процесс обучения успешно завершен. Результатом обучения является обученная модель |
+| 15801 | TrainProcessCompletedError                         | Процесс обучения завершился ошибкой |
 | 15800 | TrainProcessTimeout                                | Процесс обучения завершился с ошибкой таймаута **Привести причины** |
-| 15900 | TrainProcessMetricsReceived                        |  |
-
-Файл модели скачан.
-Ошибка скачивания файла модели.
-Архив модели распакован.
-Ошибка распаковки архива модели.
-
-Разметка данных скачана.
-Ошибка скачивания разметки данных.
-Файл тестового датасета скачан.
-Ошибка скачивания файла тестового датасета.
-Архив тестового датасета распакован.
-Ошибка распаковки архива тестового датасета.
-Процесс запущен.
-Ошибка запуска процесса.
+| 15900 | TrainProcessMetricsReceived                        | Получены метрики процесса обучения |
 
 
 ### Шаблон обучения
