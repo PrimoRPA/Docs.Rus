@@ -12,15 +12,16 @@
 | 101   | InferenceRequestSentForProcessingSuccess  | Запрос на инференс **успешно отправлен на целевую машину для обработки** |
 | 102   | InferenceRequestSentForProcessingError    | **Отправка запроса на инференс для обработки завершилась ошибкой?**   |
 | 103   | InferenceRequestNoAgent                   | **в запросе на инференс не указана целевая машина?** |
-| 104   | InferenceRequestStartPipeline             | **?**                             |
+| 104   | InferenceRequestStartPipeline             | **Старт конвейера запуска(? в чем отличие от InferenceProcessStartPipeline?). Примечание: в текущей версии конвейер не используется** |
 | 105   | InferenceRequestDownloadImgFileSuccess    | В запросе на инференс **загрузка файла изображения выполнена успешно** |
-| 106   | InferenceRequestDownloadImgFileError      | В запросе на инференс **загрузка файла изображения завершилась ошибкой** |
-| 107   | InferenceRequestDownloadMarkingFileSuccess | В запросе на инференс **загрузка схемы разметки(?) выполнена успешно** |
-| 108   | InferenceRequestDownloadMarkingFileError  | В запросе на инференс **загрузка схемы разметки(?) завершилась ошибкой** |
+| 106   | InferenceRequestDownloadImgFileError      | **Загрузка файла изображения завершилась ошибкой** |
+| 107   | InferenceRequestDownloadMarkingFileSuccess | **Загрузка разметки данных выполнена успешно(?)** |
+| 108   | InferenceRequestDownloadMarkingFileError  | **Загрузка разметки данных завершилась ошибкой(?)** |
 | 109   | InferenceRequestProcessedSuccess          | Запрос на инференс обработан успешно |
 | 110   | InferenceRequestProcessedError            | Обработка запроса на инференс завершилась ошибкой |
 | 111   | InferenceRequestResultTransferred         | Результат обработки запроса на инференс **передан** (серверу? роботу?)|
 | 112   | InferenceRequestNoLicensedAgent           | **Нет лицензированного агента для обработки запроса на инференс** |
+
 
 ### Процесс инференса
 
@@ -95,7 +96,7 @@
 | 2005  | LoginUserUnauthorizedAD                   |                                   |  
 | 2006  | LoginUserNoRightsGroupAD                  |                                   |  
 | 2007  | LogOut                                    | Пользователь вышел из сервиса     |  
-| 2008  | LoginUserExpired                          |                                   |  
+| 2008  | LoginUserExpired                          | Срок действия учетной записи пользователя истек |  
 
 
 ### Проект
@@ -111,7 +112,7 @@
 
 |  Код  | Событие                                   | Описание                          |
 | ----- | ----------------------------------------- | --------------------------------- |
-| 4000  | ProjectDataImgCreated                     | **?**                                  |  
+| 4000  | ProjectDataImgCreated                     | **Файлы изображений добавлены?**  |  
 | 4001  | ProjectDataImgUpdated                     |                                   |  
 | 4002  | ProjectDataImgRemoved                     |                                   |  
 | 4003  | ProjectDataImgArchiveUploaded             |                                   |  
@@ -133,7 +134,7 @@
 | 6000  | MarkingFieldCreated                       | Поле создано                      |  
 | 6001  | MarkingFieldUpdated                       | Поле изменено                     |   
 | 6002  | MarkingFieldRemoved                       | Поле удалено                      |   
-| 6003  | MarkingFieldTypesUpdated                  |                                   |   
+| 6003  | MarkingFieldTypesUpdated                  | **Тип поля схемы разметки изменен** |   
 | 6004  | MarkingFieldColumnsUpdated                |                                   |   
 
 
@@ -236,15 +237,15 @@
 | 15000 | TrainProcessCreated                       | Процесс обучения создан           |
 | 15001 | TrainProcessRemoved                       | Процесс обучения удален           |
 | 15002 | TrainProcessDisabled                      | Процесс обучения выключен. Выключенный процесс становится недоступным для запуска и остановки |
-| 15003 | TrainProcessEnabled                       | Процесс обучения, который ранее был выключен, снова включен |
-| 15004 | TrainProcessSendToStart                   |                                   |
-| 15005 | TrainProcessStarted                       |                                   |
-| 15006 | TrainProcessSendToStop                    |                                   |
-| 15007 | TrainProcessStopedSuccess                 |                                   |
-| 15008 | TrainProcessStopedError                   |                                   |
-| 15100 | TrainProcessStartPipeline                 |                                   |
+| 15003 | TrainProcessEnabled                       | Процесс обучения, который ранее был выключен, снова включен пользователем |
+| 15004 | TrainProcessSendToStart                   | Процесс обучения **запускается**  |
+| 15005 | TrainProcessStarted                       | Процесс обучения запущен          |
+| 15006 | TrainProcessSendToStop                    | Процесс обучения останавливается  |
+| 15007 | TrainProcessStopedSuccess                 | Процесс обучения успешно остановлен |
+| 15008 | TrainProcessStopedError                   | Остановка процесса обучения завершилась ошибкой |
+| 15100 | TrainProcessStartPipeline                 | **Старт конвейера запуска. Примечание: в текущей версии конвейер не используется** |
 | 15101 | TrainProcessEmergencyShutdown             |                                   |
-| 15200 | TrainProcessStartFileStoragePrepareSuccess|                                   |  
+| 15200 | TrainProcessStartFileStoragePrepareSuccess |                                   |  
 | 15201 | TrainProcessStartFileStoragePrepareError  |                                   |
 | 15300 | TrainProcessStartDownloadScriptSuccess    |                                   |
 | 15301 | TrainProcessStartDownloadScriptError      |                                   |
@@ -268,9 +269,26 @@
 | 15701 | TrainProcessStartCompletedError                    |  |
 | 15800 | TrainProcessCompletedSuccess                       |  |
 | 15801 | TrainProcessCompletedError                         |  |
-| 15800 | TrainProcessTimeout                                |  |
+| 15800 | TrainProcessTimeout                                | Процесс обучения завершился с ошибкой таймаута |
 | 15900 | TrainProcessMetricsReceived                        |  |
- 
+
+
+Файловое хранилище подготовлено.
+Ошибка подготовки файлового хранилища.
+Файл скрипта скачан.
+Ошибка скачивания файла скрипта.
+Файл модели скачан.
+Ошибка скачивания файла модели.
+Архив модели распакован.
+Ошибка распаковки архива модели.
+Разметка данных скачана.
+Ошибка скачивания разметки данных.
+Файл тестового датасета скачан.
+Ошибка скачивания файла тестового датасета.
+Архив тестового датасета распакован.
+Ошибка распаковки архива тестового датасета.
+Процесс запущен.
+Ошибка запуска процесса.
 
 ### Шаблон обучения
 
@@ -295,7 +313,7 @@
 
 | Код   | Событие                                           | Описание                          |
 | ----- | ------------------------------------------------- | --------------------------------- |
-| 18100 | InferenceProcessStartPipeline                     | **?**  |
+| 18100 | InferenceProcessStartPipeline                     | **Старт конвейера запуска? Примечание: в текущей версии конвейер не используется****  |
 | 18101 | InferenceProcessEmergencyShutdown                 | Процесс инференса... |
 | 18200 | InferenceProcessStartFileStoragePrepareSuccess    | Процесс инференса... |
 | 18201 | InferenceProcessStartFileStoragePrepareError      | Процесс инференса... |
@@ -317,6 +335,10 @@
 | 18920 | InferenceTestProcessTransferBboxSuccess           | Процесс инференса... |
 | 18940 | InferenceTestProcessCompletedSuccess              | Процесс инференса... |
 | 18960 | InferenceTestProcessCompletedError                | Процесс инференса... |
+
+
+
+
 
 
 ### Данные журнала агента
