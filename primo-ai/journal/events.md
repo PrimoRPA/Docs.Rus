@@ -291,7 +291,11 @@
 | 17002 | PipelineRemoved                                   | Пайплан удален                    |
 
 
-### Процесс инференса - ? таблица с таким названием уже есть, как переформулировать эту таблицу?
+### Процесс инференса - ? 
+
+**таблица с таким названием уже есть, как переформулировать эту таблицу? Этапы запуска процесса инференса?**
+
+**почему скачивание датасета для тестового процесса есть, а для обычного нет?**
 
 | Код   | Событие                                           | Описание                          |
 | ----- | ------------------------------------------------- | --------------------------------- |
@@ -299,41 +303,24 @@
 | 18101 | InferenceProcessEmergencyShutdown                 | Процесс инференса **аварийно отключен?** привести причины |
 | 18200 | InferenceProcessStartFileStoragePrepareSuccess    | Файловое хранилище успешно подготовлено |
 | 18201 | InferenceProcessStartFileStoragePrepareError      | Подготовка файлового хранилища завершилась ошибкой **привести причины** |
-| 18300 | InferenceProcessStartDownloadScriptSuccess        | Процесс инференса...  |
-| 18301 | InferenceProcessStartDownloadScriptError          | Процесс инференса... |
-| 18500 | InferenceProcessStartDownloadModelSuccess         | Процесс инференса... |
-| 18501 | InferenceProcessStartDownloadModelError           | Процесс инференса... |
-| 18502 | InferenceProcessStartUnzipModelSuccess            | Процесс инференса... |
-| 18503 | InferenceProcessStartUnzipModelError              | Процесс инференса... |
-| 18600 | InferenceProcessStartDownloadMarkingSchemeSuccess | Процесс инференса... |
-| 18601 | InferenceProcessStartDownloadMarkingSchemeError   | Процесс инференса... |
-| 18700 | InferenceTestProcessStartDownloadDataSetSuccess   | Процесс инференса... |
-| 18701 | InferenceTestProcessStartDownloadDataSetError     | Процесс инференса... |
-| 18702 | InferenceTestProcessStartUnzipDataSetSuccess      | Процесс инференса... |
-| 18703 | InferenceTestProcessStartUnzipDataSetError        | Процесс инференса... |
-| 18800 | InferenceProcessStartCompletedSuccess             | Процесс инференса... |
-| 18801 | InferenceProcessStartCompletedError               | Процесс инференса... |
-| 18900 | InferenceTestProcessTransferEvaluationResultSuccess | Процесс инференса... |
-| 18920 | InferenceTestProcessTransferBboxSuccess           | Процесс инференса... |
-| 18940 | InferenceTestProcessCompletedSuccess              | Процесс инференса... |
-| 18960 | InferenceTestProcessCompletedError                | Процесс инференса... |
-
-
-Файл скрипта скачан.
-Ошибка скачивания файла скрипта.
-Файл модели скачан.
-Ошибка скачивания файла модели.
-Архив модели распакован.
-Ошибка распаковки архива модели.
-Разметка данных скачана.
-Ошибка скачивания разметки данных.
-Файл тестового датасета скачан.
-Ошибка скачивания файла тестового датасета.
-Архив тестового датасета распакован.
-Ошибка распаковки архива тестового датасета.
-Процесс запущен.
-Ошибка запуска процесса.
-
+| 18300 | InferenceProcessStartDownloadScriptSuccess        | Скачивание файла скрипта выполняется (**или файл уже скачан?**) |
+| 18301 | InferenceProcessStartDownloadScriptError          | Скачивание файла скрипта завершилось ошибкой |
+| 18500 | InferenceProcessStartDownloadModelSuccess         | **Скачивание модели выполняется**  |
+| 18501 | InferenceProcessStartDownloadModelError           | Скачивание модели завершилось ошибкой |
+| 18502 | InferenceProcessStartUnzipModelSuccess            | **Распаковка архива модели выполняется** |
+| 18503 | InferenceProcessStartUnzipModelError              | Распаковка архива модели завершилась ошибкой |
+| 18600 | InferenceProcessStartDownloadMarkingSchemeSuccess | Скачивание схемы разметки выполняется |
+| 18601 | InferenceProcessStartDownloadMarkingSchemeError   | Скачивание схемы разметки завершилось ошибкой |
+| 18700 | InferenceTestProcessStartDownloadDataSetSuccess   | Скачивание тестового датасета выполняется (тестовый процесс инференса) |
+| 18701 | InferenceTestProcessStartDownloadDataSetError     | Скачивание тестового датасета завершилось ошибкой |
+| 18702 | InferenceTestProcessStartUnzipDataSetSuccess      | Распаковка тестового датасета выполняется |
+| 18703 | InferenceTestProcessStartUnzipDataSetError        | Распаковка тестового датасета завершилось ошибкой |
+| 18800 | InferenceProcessStartCompletedSuccess             | Процесс инференса **успешно запущен (чем отличается от 204 InferenceProcessStarted?)** |
+| 18801 | InferenceProcessStartCompletedError               | **Запуск процесса инференса завершился ошибкой** |
+| 18900 | InferenceTestProcessTransferEvaluationResultSuccess | Тестовый процесс инференса... Передача Оценка Результат Успех|
+| 18920 | InferenceTestProcessTransferBboxSuccess           | **Тестовый процесс инференса...?**  |
+| 18940 | InferenceTestProcessCompletedSuccess              | Тестовый процесс инференса завершен |
+| 18960 | InferenceTestProcessCompletedError                | Тестовый процесс инференса завершился ошибкой |
 
 
 ### Данные журнала агента
