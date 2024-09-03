@@ -113,10 +113,10 @@
 |  Код  | Событие                                   | Описание                          |
 | ----- | ----------------------------------------- | --------------------------------- |
 | 4000  | ProjectDataImgCreated                     | **Файлы изображений добавлены?**  |  
-| 4001  | ProjectDataImgUpdated                     |                                   |  
-| 4002  | ProjectDataImgRemoved                     |                                   |  
-| 4003  | ProjectDataImgArchiveUploaded             |                                   |  
-| 4004  | ProjectDataImgCreateError                 |                                   |  
+| 4001  | ProjectDataImgUpdated                     | **Изображение изменено (одно?)**  |  
+| 4002  | ProjectDataImgRemoved                     | **Файл изображения удален**       |  
+| 4003  | ProjectDataImgArchiveUploaded             | Архив с изображениями загружен    |  
+| 4004  | ProjectDataImgCreateError                 | **Добавление файлов изображений завершилось ошибкой** |  
 
 
 ### Схема разметки
