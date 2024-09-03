@@ -9,7 +9,7 @@
 |  Код  | Событие                                   | Описание                          |
 | ----- | ----------------------------------------- | --------------------------------- |
 | 100   | InferenceRequestAccepted                  | Запрос на инференс принят         |
-| 101   | InferenceRequestSentForProcessingSuccess  | Запрос на инференс отправлен **на целевую машину для успешной обработки?** |
+| 101   | InferenceRequestSentForProcessingSuccess  | Запрос на инференс **успешно отправлен на целевую машину для обработки?** |
 | 102   | InferenceRequestSentForProcessingError    | Запрос на инференс **отправлен...**   |
 | 103   | InferenceRequestNoAgent                   | **в запросе на инференс не указана целевая машина?** |
 | 104   | InferenceRequestStartPipeline             | **?**                             |
