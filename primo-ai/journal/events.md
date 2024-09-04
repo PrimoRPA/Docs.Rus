@@ -2,25 +2,25 @@
 
 Все события, которые фиксируются в Primo RPA AI Server, приведены в таблице ниже. Список событий может меняться в следующих версиях Primo RPA AI Server.
 
-### Запрос на инференс
+### Запрос на извлечение данных из изображения
 
 Запрос на инференс в Primo RPA AI Server отправляет робот при выполнении RPA-проекта.
 
 |  Код  | Событие                                   | Описание                          |
 | ----- | ----------------------------------------- | --------------------------------- |
-| 100   | InferenceRequestAccepted                  | Запрос на инференс принят         |
-| 101   | InferenceRequestSentForProcessingSuccess  | Запрос на инференс **успешно отправлен на целевую машину для обработки** |
-| 102   | InferenceRequestSentForProcessingError    | **Отправка запроса на инференс для обработки завершилась ошибкой?**   |
-| 103   | InferenceRequestNoAgent                   | **в запросе на инференс не указана целевая машина?** |
-| 104   | InferenceRequestStartPipeline             | **Старт конвейера запуска(? в чем отличие от InferenceProcessStartPipeline?). Примечание: в текущей версии конвейер не используется** |
-| 105   | InferenceRequestDownloadImgFileSuccess    | В запросе на инференс **загрузка файла изображения выполнена успешно** |
-| 106   | InferenceRequestDownloadImgFileError      | **Загрузка файла изображения завершилась ошибкой** |
-| 107   | InferenceRequestDownloadMarkingFileSuccess | **Загрузка разметки данных выполнена успешно(?)** |
-| 108   | InferenceRequestDownloadMarkingFileError  | **Загрузка разметки данных завершилась ошибкой(?)** |
-| 109   | InferenceRequestProcessedSuccess          | Запрос на инференс обработан успешно |
-| 110   | InferenceRequestProcessedError            | Обработка запроса на инференс завершилась ошибкой |
-| 111   | InferenceRequestResultTransferred         | Результат обработки запроса на инференс **передан** (серверу? роботу?)|
-| 112   | InferenceRequestNoLicensedAgent           | **Не найден лицензированный агент для обработки запроса на инференс** |
+| 100   | InferenceRequestAccepted                  | Запрос на извлечение данных из изображения принят сервером в обработку |
+| 101   | InferenceRequestSentForProcessingSuccess  | Запрос на извлечение данных из изображения успешно отправлен на целевую машину для обработки |
+| 102   | InferenceRequestSentForProcessingError    | Отправка запроса на извлечение данных из изображения завершилась ошибкой   |
+| 103   | InferenceRequestNoAgent                   | Не найден агент, на котором запущен процесс для обработки запроса на извлечение данных из изображения указанного типа модели |
+| 104   | InferenceRequestStartPipeline             | Старт конвейера запуска обработки запроса на извлечение данных из изображения |
+| 105   | InferenceRequestDownloadImgFileSuccess    | Успешно завершен этап загрузки на целевую машину файла изображения запроса |
+| 106   | InferenceRequestDownloadImgFileError      | Этап загрузки на целевую машину файла изображения завершен ошибкой |
+| 107   | InferenceRequestDownloadMarkingFileSuccess | Успешно завершен этап загрузки на целевую машину схемы разметки |
+| 108   | InferenceRequestDownloadMarkingFileError  | Этап загрузки на целевую машину схемы разметки завершен ошибкой |
+| 109   | InferenceRequestProcessedSuccess          | Запрос на извлечение данных из изображения обработан успешно |
+| 110   | InferenceRequestProcessedError            | Обработка запроса на извлечение данных из изображения завершилась ошибкой |
+| 111   | InferenceRequestResultTransferred         | Извлеченные из изображения запроса данные получены сервером  |
+| 112   | InferenceRequestNoLicensedAgent           | Не найден лицензированный агент с указанным типом модели для обработки запроса на извлечение данных из изображения |
 
 
 ### Процесс инференса
@@ -31,12 +31,12 @@
 | 201   | InferenceProcessRemoved                   | Процесс инференса удален          |
 | 202   | InferenceProcessDisabled                  | Процесс инференса выключен        |
 | 203   | InferenceProcessEnabled                   | Процесс инференса включен         |
-| 204   | InferenceProcessStarted                   | Процесс инференса успешно запущен |
-| 205   | InferenceProcessStoped                    | Процесс инференса успешно остановлен |
+| 204   | InferenceProcessStarted                   | Процесс инференса ожидает запуск |
+| 205   | InferenceProcessStoped                    | Процесс инференса ожидает остановку |
 | 206   | InferenceProcessSentToLaunch              | Процесс инференса запускается     |
 | 207   | InferenceProcessSentToStop                | Процесс инференса останавливается |
-| 208   | InferenceProcessStartingError             | **Запуск процесса инференса завершился ошибкой** привести причины |
-| 209   | InferenceProcessStoppingError             | **Остановка процесса инференса завершилась ошибкой** привести причины |
+| 208   | InferenceProcessStartingError             | Запуск процесса инференс завершился ошибкой |
+| 209   | InferenceProcessStoppingError             | Остановка процесса инференса завершилась ошибкой |
 
 
 ### Шаблон процесса инференса
@@ -57,7 +57,7 @@
 | 402   | AgentRemoved                              | Целевая машина удалена            |
 | 403   | AgentDisabled                             | Целевая машина выключена          | 
 | 404   | AgentEnabled                              | Целевая машина включена           | 
-| 405   | AgentAutoDisabled                         | Целевая машина автоматически выключена (**ТРЕБУЕТ ПОЯСНЕНИЙ**)  | 
+| 405   | AgentAutoDisabled                         | Целевая машина автоматически выключена вследствие превышения времени недоступности. Максимальное время недоступности указывается в настройках (**Agents** > **AutoDisableUnavailablePeriod**) | 
 
 ### Скрипт
 
@@ -91,12 +91,12 @@
 | ----- | ----------------------------------------- | --------------------------------- |
 | 2001  | Login                                     | Пользователь авторизовался в сервисе | 
 | 2002  | LoginUserNotExist                         | Пользователь не существует        | 
-| 2003  | LoginUserLocked                           | **Попытка входа заблокированного пользователя**. При попытке входа такой пользователь увидит уведомление `Ошибка аутентификации` | 
+| 2003  | LoginUserLocked                           | Попытка входа заблокированного пользователя. При попытке входа такой пользователь увидит уведомление `Ошибка аутентификации` | 
 | 2004  | LoginUserUnauthorized                     | Ошибка авторизации **привести пример причины** | 
-| 2005  | LoginUserUnauthorizedAD                   | Gользователь не авторизован в Active Directory (AD). **Примечание**: в текущей версии AD-пользователи не используются |  
+| 2005  | LoginUserUnauthorizedAD                   | Пользователь не авторизован в Active Directory (AD). **Примечание**: в текущей версии AD-пользователи не используются |  
 | 2006  | LoginUserNoRightsGroupAD                  | Роль пользователя не имеет привязки к AD-группе. **Примечание**: в текущей версии AD-пользователи не используются |  
 | 2007  | LogOut                                    | Пользователь вышел из сервиса     |  
-| 2008  | LoginUserExpired                          | Срок действия **учетной записи (имеется в виду пароль?)** истек |  
+| 2008  | LoginUserExpired                          | Срок действия учетной записи с текущим паролем истек |  
 
 
 ### Проект
@@ -112,11 +112,11 @@
 
 |  Код  | Событие                                   | Описание                          |
 | ----- | ----------------------------------------- | --------------------------------- |
-| 4000  | ProjectDataImgCreated                     | **Файлы изображений добавлены?**  |  
-| 4001  | ProjectDataImgUpdated                     | **Изображение изменено (одно?)**  |  
-| 4002  | ProjectDataImgRemoved                     | **Файл изображения удален**       |  
-| 4003  | ProjectDataImgArchiveUploaded             | Архив с изображениями загружен    |  
-| 4004  | ProjectDataImgCreateError                 | **Добавление файлов изображений завершилось ошибкой** |  
+| 4000  | ProjectDataImgCreated                     | Файлы изображений добавлены в проект или извлечены из загруженного архива    |  
+| 4001  | ProjectDataImgUpdated                     | Файлы изображений изменены              |  
+| 4002  | ProjectDataImgRemoved                     | Файлы изображений удалены               |  
+| 4003  | ProjectDataImgArchiveUploaded             | Архив с изображениями загружен          |  
+| 4004  | ProjectDataImgCreateError                 | Добавление файлов изображений завершилось ошибкой |  
 
 
 ### Схема разметки
@@ -134,21 +134,21 @@
 | 6000  | MarkingFieldCreated                       | Поле создано                      |  
 | 6001  | MarkingFieldUpdated                       | Поле изменено                     |   
 | 6002  | MarkingFieldRemoved                       | Поле удалено                      |   
-| 6003  | MarkingFieldTypesUpdated                  | **Тип поля схемы разметки изменен** не понимаю, о чем речь  |   
-| 6004  | MarkingFieldColumnsUpdated                | **Столбцы поля схемы разметки изменены** не понимаю, о чем речь |   
+| 6003  | MarkingFieldTypesUpdated                  | Параметры полей схемы разметки изменены на странице "Поля"/"Документы"  |   
+| 6004  | MarkingFieldColumnsUpdated                | Настройки табличных полей схемы разметки изменены на странице "Поля" |   
 
 
-### Папка (что за папка имеется в виду? это папки в Орке?)
+### Папка 
 
 |  Код  | Событие                                   | Описание                          |
 | ----- | ----------------------------------------- | --------------------------------- |
-| 7000  | FolderCreated                             |                                   |   
-| 7001  | FolderUpdated                             |                                   |   
-| 7002  | FolderRemoved                             |                                   |  
-| 7003  | FolderResubordination                     |                                   |  
-| 7004  | FolderMoveObjects                         |                                   |  
-| 7005  | FolderGrantUserFolders                    |                                   |  
-| 7006  | FolderGrantFolderUsers                    |                                   |  
+| 7000  | FolderCreated                             | Папка создана. **Примечание:** в текущей версии папки не используются |   
+| 7001  | FolderUpdated                             | Папка изменена. **Примечание:** в текущей версии папки не используются | 
+| 7002  | FolderRemoved                             | Папка удалена. **Примечание:** в текущей версии папки не используются |  
+| 7003  | FolderResubordination                     | Переподчинение общих папок. **Примечание:** в текущей версии папки не используются | 
+| 7004  | FolderMoveObjects                         | Перемещение объектов заданного типа из текущей папки в указанную. **Примечание:** в текущей версии папки не используются | 
+| 7005  | FolderGrantUserFolders                    | Добавление/изменение прав на общие папки для пользователя. **Примечание:** в текущей версии папки не используются | 
+| 7006  | FolderGrantFolderUsers                    | Добавление/изменение прав на общие папки. **Примечание:** в текущей версии папки не используются | 
 
 
 ### Роль
@@ -169,10 +169,10 @@
 | 9000  | UserCreated                               | Пользователь создан               |    
 | 9001  | UserUpdated                               | Пользователь изменен              |  
 | 9002  | UserRemoved                               | Пользователь удален               |     
-| 9003  | UserRolesAssigned                         | **Пользователю назначены роли**   |     
+| 9003  | UserRolesAssigned                         | Пользователю назначены роли       |     
 | 9004  | UserPasswordChanged                       | Пароль пользователя изменен       |   
-| 9005  | UserEnabled                               | Пользователь **разблокирован?**   |  
-| 9006  | UserDisabled                              | Пользователь **заблокирован?**. Вход заблокированного пользователя временно ограничен. При попытке входа такой пользователь увидит уведомление `Ошибка аутентификации`    |  
+| 9005  | UserEnabled                               | Пользователь разблокирован        |  
+| 9006  | UserDisabled                              | Пользователь заблокирован. Вход заблокированного пользователя временно ограничен. При попытке входа такой пользователь увидит уведомление `Ошибка аутентификации`    |  
 
 
 ### Шаблон модели
@@ -187,9 +187,9 @@
 
 |  Код  | Событие                                   | Описание                          |
 | ----- | ----------------------------------------- | --------------------------------- |
-| 11000 | MarkingCreateOrEdit                       | **Разметка создана или отредактирована?** |  
-| 11001 | MarkingRemoved                            | **Разметка удалена?**             |  
-| 11002 | MarkingMovedToDataSet                     | **Разметка изображения сохранена в датасет** |      
+| 11000 | MarkingCreateOrEdit                       | Изображение размечено или переразмечено  |  
+| 11001 | MarkingRemoved                            | Разметка изображения удалена             |  
+| 11002 | MarkingMovedToDataSet                     | Разметка изображения добавлена в датасет |      
 
 ### Датасет
 
@@ -201,12 +201,12 @@
 | 12003 | DataSetArchivateStarted                   | Запущена архивация датасета       |   
 | 12004 | DataSetArchivateCompletedSuccess          | Архивирование датасета успешно завершено |   
 | 12005 | DataSetArchivateCompletedError            | Архивирование датасета завершилось ошибкой |
-| 12006 | DataSetArchivateProgress1                 | **?**                                  |
-| 12007 | DataSetArchivateProgress2                 | **?**                                   |
-| 12008 | DataSetArchivateCompletedTimeout          | Архивирование датасета завершилось ошибкой таймаута **Привести причины**|
-| 12009 | DataSetArchiveUploaded                    | Архив с датасетом загружен        |
-| 12010 | DataSetArchiveImportSucceed               | Импорт архива с датасетом выполнен успешно **Чем отличается от DataSetArchiveUploaded?**  |
-| 12011 | DataSetArchiveImportFailed                | Импорт архива с датасетом завершился ошибкой |
+| 12006 | DataSetArchivateProgress1                 | Этап подготовки данных изображения датасета успешно завершен |
+| 12007 | DataSetArchivateProgress2                 | Этап добавления в архив данных изображения датасета успешно завершен |
+| 12008 | DataSetArchivateCompletedTimeout          | Не удаётся за отведённое в конфигурации сервиса (**DateSet** > **ArchivateTimeout**) время сформировать архив датасета вследствие ошибок или размеров датасета |
+| 12009 | DataSetArchiveUploaded                    | Архив с датасетом загружен для обработки        |
+| 12010 | DataSetArchiveImportSucceed               | Импорт датасета из загруженного архива выполнен успешно  |
+| 12011 | DataSetArchiveImportFailed                | Импорт датасета из загруженного архива завершился ошибкой |
 
 
 ### Тип модели
@@ -237,17 +237,17 @@
 | 15001 | TrainProcessRemoved                       | Процесс обучения удален           |
 | 15002 | TrainProcessDisabled                      | Процесс обучения выключен. Выключенный процесс становится недоступным для запуска и остановки |
 | 15003 | TrainProcessEnabled                       | Процесс обучения, который ранее был выключен, вновь включен |
-| 15004 | TrainProcessSendToStart                   | Процесс обучения **запускается**  |
-| 15005 | TrainProcessStarted                       | Процесс обучения запущен          |
+| 15004 | TrainProcessSendToStart                   | Процесс обучения отправлен на целевую машину для запуска  |
+| 15005 | TrainProcessStarted                       | Процесс обучения готов к запуску          |
 | 15006 | TrainProcessSendToStop                    | Процесс обучения останавливается  |
 | 15007 | TrainProcessStopedSuccess                 | Процесс обучения успешно остановлен |
-| 15008 | TrainProcessStopedError                   | Остановка процесса обучения завершилась ошибкой **привести причины** |
-| 15100 | TrainProcessStartPipeline                 | **Старт конвейера запуска. Примечание: в текущей версии конвейер не используется** |
-| 15101 | TrainProcessEmergencyShutdown             | Процесс обучения аварийно завершен **Привести причины**  |
+| 15008 | TrainProcessStopedError                   | Остановка процесса обучения завершилась ошибкой (например, не хватает прав для остановки процесса в ОС целевой машины) |
+| 15100 | TrainProcessStartPipeline                 | Старт конвейера запуска процесса обучения |
+| 15101 | TrainProcessEmergencyShutdown             | При запуске агента было обнаружено, что процесс обучения аварийно завершен и не выполняется  |
 | 15200 | TrainProcessStartFileStoragePrepareSuccess | Файловое хранилище успешно подготовлено |  
-| 15201 | TrainProcessStartFileStoragePrepareError  | Подготовка файлового хранилища завершилась ошибкой **Привести причины** |
-| 15300 | TrainProcessStartDownloadScriptSuccess    | Файл скрипта скачан **какого скрипта, пояснить** |
-| 15301 | TrainProcessStartDownloadScriptError      | Скачивание файла скрипта завершилось ошибкой |
+| 15201 | TrainProcessStartFileStoragePrepareError  | Подготовка файлового хранилища завершилась ошибкой (например, не хватает прав для создания папки с данными процесса обучения на целевой машине) |
+| 15300 | TrainProcessStartDownloadScriptSuccess    | Файл скрипта скачан. Внимание |
+| 15301 | TrainProcessStartDownloadScriptError      | Скачивание файла скрипта завершилось ошибкой. **Примечание:** в текущей версии пользовательские скрипты не поддерживаются |
 | 15400 | TrainProcessStartDownloadModelTemplateSuccess      | Шаблон модели загружен успешно  |
 | 15401 | TrainProcessStartDownloadModelTemplateError        | Загрузка шаблона модели завершилась ошибкой |
 | 15402 | TrainProcessStartUnzipModelTemplateSuccess         | Распаковка шаблона модели успешно запущена |
@@ -264,11 +264,11 @@
 | 15621 | TrainProcessStartDownloadTestDataSetError          | Загрузка архива тестового датасета завершилась ошибкой |
 | 15622 | TrainProcessStartDownloadUnzipTestDataSetSuccess   | Распаковка архива тестового датасета успешно запущена |
 | 15623 | TrainProcessStartDownloadUnzipTestDataSetError     | Распаковка архива тестового датасета завершилась ошибкой |
-| 15700 | TrainProcessStartCompletedSuccess                  | **Запуск завершен успешно?** В чем отличие от TrainProcessStarted? |
-| 15701 | TrainProcessStartCompletedError                    | **?** |
+| 15700 | TrainProcessStartCompletedSuccess                  | Запуск процесса обучения завершен успешно |
+| 15701 | TrainProcessStartCompletedError                    | Запуск процесса обучения завершен с ошибкой |
 | 15800 | TrainProcessCompletedSuccess                       | Процесс обучения успешно завершен. Результатом обучения является обученная модель |
 | 15801 | TrainProcessCompletedError                         | Процесс обучения завершился ошибкой |
-| 15800 | TrainProcessTimeout                                | Процесс обучения завершился с ошибкой таймаута **Привести причины** |
+| 15800 | TrainProcessTimeout                                | Процесс обучения завершился с ошибкой таймаута. Например, при нехватке прав или библиотек аварийно завершился IDP-процесс |
 | 15900 | TrainProcessMetricsReceived                        | Получены метрики процесса обучения |
 
 
@@ -291,35 +291,31 @@
 | 17002 | PipelineRemoved                                   | Пайплан удален                    |
 
 
-### Процесс инференса - ? 
-
-**таблица с таким названием уже есть, как переформулировать название этой таблицы? Этапы запуска процесса инференса?**
-
-**почему скачивание датасета для тестового процесса есть, а для обычного нет?**
+### Процесс инференса 
 
 | Код   | Событие                                           | Описание                          |
 | ----- | ------------------------------------------------- | --------------------------------- |
-| 18100 | InferenceProcessStartPipeline                     | **Старт конвейера запуска? Примечание: в текущей версии конвейер не используется****  |
-| 18101 | InferenceProcessEmergencyShutdown                 | Процесс инференса **аварийно отключен?** привести причины |
+| 18100 | InferenceProcessStartPipeline                     | Старт конвейера запуска процесса инференса  |
+| 18101 | InferenceProcessEmergencyShutdown                 | При запуске агента было обнаружено, что процесс инференса аварийно завершен и не выполняется |
 | 18200 | InferenceProcessStartFileStoragePrepareSuccess    | Файловое хранилище успешно подготовлено |
-| 18201 | InferenceProcessStartFileStoragePrepareError      | Подготовка файлового хранилища завершилась ошибкой **привести причины** |
-| 18300 | InferenceProcessStartDownloadScriptSuccess        | Скачивание файла скрипта выполняется (**или файл уже скачан?**) |
-| 18301 | InferenceProcessStartDownloadScriptError          | Скачивание файла скрипта завершилось ошибкой |
-| 18500 | InferenceProcessStartDownloadModelSuccess         | **Скачивание модели выполняется**  |
+| 18201 | InferenceProcessStartFileStoragePrepareError      | Подготовка файлового хранилища завершилась ошибкой. Например, не хватает прав для создания папки с данными процесса обучения на целевой машине |
+| 18300 | InferenceProcessStartDownloadScriptSuccess        | Скачивание файла скрипта завершилось успешно. **Примечание:** в текущей версии пользовательские скрипты не поддерживаются |
+| 18301 | InferenceProcessStartDownloadScriptError          | Скачивание файла скрипта завершилось ошибкой. **Примечание:** в текущей версии пользовательские скрипты не поддерживаются |
+| 18500 | InferenceProcessStartDownloadModelSuccess         | Скачивание модели завершилось успешно  |
 | 18501 | InferenceProcessStartDownloadModelError           | Скачивание модели завершилось ошибкой |
-| 18502 | InferenceProcessStartUnzipModelSuccess            | **Распаковка архива модели выполняется** |
+| 18502 | InferenceProcessStartUnzipModelSuccess            | Распаковка архива модели завершилась успешно |
 | 18503 | InferenceProcessStartUnzipModelError              | Распаковка архива модели завершилась ошибкой |
-| 18600 | InferenceProcessStartDownloadMarkingSchemeSuccess | Скачивание схемы разметки выполняется |
+| 18600 | InferenceProcessStartDownloadMarkingSchemeSuccess | Скачивание схемы разметки завершилась успешно |
 | 18601 | InferenceProcessStartDownloadMarkingSchemeError   | Скачивание схемы разметки завершилось ошибкой |
-| 18700 | InferenceTestProcessStartDownloadDataSetSuccess   | Скачивание тестового датасета выполняется (тестовый процесс инференса) |
+| 18700 | InferenceTestProcessStartDownloadDataSetSuccess   | Скачивание тестового датасета завершилась успешно (тестовый процесс инференса) |
 | 18701 | InferenceTestProcessStartDownloadDataSetError     | Скачивание тестового датасета завершилось ошибкой |
-| 18702 | InferenceTestProcessStartUnzipDataSetSuccess      | Распаковка тестового датасета выполняется |
+| 18702 | InferenceTestProcessStartUnzipDataSetSuccess      | Распаковка тестового датасета завершилась успешно |
 | 18703 | InferenceTestProcessStartUnzipDataSetError        | Распаковка тестового датасета завершилось ошибкой |
-| 18800 | InferenceProcessStartCompletedSuccess             | Процесс инференса **успешно запущен (чем отличается от 204 InferenceProcessStarted?)** |
-| 18801 | InferenceProcessStartCompletedError               | **Запуск процесса инференса завершился ошибкой** |
-| 18900 | InferenceTestProcessTransferEvaluationResultSuccess | Тестовый процесс инференса... Передача Оценка Результат Успех|
-| 18920 | InferenceTestProcessTransferBboxSuccess           | **Тестовый процесс инференса...?**  |
-| 18940 | InferenceTestProcessCompletedSuccess              | Тестовый процесс инференса завершен |
+| 18800 | InferenceProcessStartCompletedSuccess             | Процесс инференса успешно запущен |
+| 18801 | InferenceProcessStartCompletedError               | Запуск процесса инференса завершился ошибкой |
+| 18900 | InferenceTestProcessTransferEvaluationResultSuccess | Показатели оценки процесса тестового инференс получены сервером |
+| 18920 | InferenceTestProcessTransferBboxSuccess           | Координаты полей тестового инференс получены сервером |
+| 18940 | InferenceTestProcessCompletedSuccess              | Тестовый процесс инференса завершен успешно |
 | 18960 | InferenceTestProcessCompletedError                | Тестовый процесс инференса завершился ошибкой |
 
 
