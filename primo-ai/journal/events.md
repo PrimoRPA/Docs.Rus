@@ -146,7 +146,7 @@
 | 8000  | RoleCreated                               | Роль создана                      |  
 | 8001  | RoleUpdated                               | Роль изменена                     |  
 | 8002  | RoleRemoved                               | Роль удалена                      |       
-| 8003  | RoleAssignAdGroups                        | Роль привязана к AD-группе. **Примечание:** в текущей версии группы Active Directory не используются |    
+| 8003  | RoleAssignAdGroups                        | Роль привязана к AD-группе. **Примечание:** в текущей версии AD-группы не используются |    
 | 8004  | RoleAssignPermissions                     | Роли назначены разрешения         |    
 
 
@@ -160,7 +160,7 @@
 | 9003  | UserRolesAssigned                         | Пользователю назначены роли       |     
 | 9004  | UserPasswordChanged                       | Пароль пользователя изменен       |   
 | 9005  | UserEnabled                               | Пользователь разблокирован        |  
-| 9006  | UserDisabled                              | Пользователь заблокирован. Вход заблокированного пользователя временно ограничен. При попытке входа такой пользователь увидит уведомление `Ошибка аутентификации`    |  
+| 9006  | UserDisabled                              | Пользователь заблокирован. Вход заблокированного пользователя будет временно ограничен |  
 
 
 ### Шаблон модели
@@ -191,7 +191,7 @@
 | 12005 | DataSetArchivateCompletedError            | Архивирование датасета завершилось ошибкой |
 | 12006 | DataSetArchivateProgress1                 | Этап подготовки данных изображения датасета успешно завершен |
 | 12007 | DataSetArchivateProgress2                 | Этап добавления в архив данных изображения датасета успешно завершен |
-| 12008 | DataSetArchivateCompletedTimeout          | Не удаётся за отведённое в конфигурации сервиса (**DateSet** > **ArchivateTimeout**) время сформировать архив датасета вследствие ошибок или размеров датасета |
+| 12008 | DataSetArchivateCompletedTimeout          | Не удается за отведенное в конфигурации время сформировать архив датасета вследствие ошибок или размеров датасета. Параметры конфигурации сервиса: **DateSet** > **ArchivateTimeout** |
 | 12009 | DataSetArchiveUploaded                    | Архив с датасетом загружен для обработки        |
 | 12010 | DataSetArchiveImportSucceed               | Импорт датасета из загруженного архива выполнен успешно  |
 | 12011 | DataSetArchiveImportFailed                | Импорт датасета из загруженного архива завершился ошибкой |
@@ -226,7 +226,7 @@
 | 15002 | TrainProcessDisabled                      | Процесс обучения выключен. Выключенный процесс становится недоступным для запуска и остановки |
 | 15003 | TrainProcessEnabled                       | Процесс обучения, который ранее был выключен, вновь включен |
 | 15004 | TrainProcessSendToStart                   | Процесс обучения отправлен на целевую машину для запуска  |
-| 15005 | TrainProcessStarted                       | Процесс обучения готов к запуску          |
+| 15005 | TrainProcessStarted                       | Процесс обучения готов к запуску  |
 | 15006 | TrainProcessSendToStop                    | Процесс обучения останавливается  |
 | 15007 | TrainProcessStopedSuccess                 | Процесс обучения успешно остановлен |
 | 15008 | TrainProcessStopedError                   | Остановка процесса обучения завершилась ошибкой (например, не хватает прав для остановки процесса в ОС целевой машины) |
@@ -234,7 +234,7 @@
 | 15101 | TrainProcessEmergencyShutdown             | При запуске агента было обнаружено, что процесс обучения аварийно завершен и не выполняется  |
 | 15200 | TrainProcessStartFileStoragePrepareSuccess | Файловое хранилище успешно подготовлено |  
 | 15201 | TrainProcessStartFileStoragePrepareError  | Подготовка файлового хранилища завершилась ошибкой (например, не хватает прав для создания папки с данными процесса обучения на целевой машине) |
-| 15300 | TrainProcessStartDownloadScriptSuccess    | Файл скрипта скачан. Внимание |
+| 15300 | TrainProcessStartDownloadScriptSuccess    | Файл скрипта скачан. **Примечание:** в текущей версии пользовательские скрипты не поддерживаются |
 | 15301 | TrainProcessStartDownloadScriptError      | Скачивание файла скрипта завершилось ошибкой. **Примечание:** в текущей версии пользовательские скрипты не поддерживаются |
 | 15400 | TrainProcessStartDownloadModelTemplateSuccess      | Шаблон модели загружен успешно  |
 | 15401 | TrainProcessStartDownloadModelTemplateError        | Загрузка шаблона модели завершилась ошибкой |
@@ -264,9 +264,9 @@
 
 | Код   | Событие                                           | Описание                          |
 | ----- | ------------------------------------------------- | --------------------------------- |
-| 16000 | TrainProcessTemplateCreated                       | Шаблон обучения создан |
-| 16001 | TrainProcessTemplateUpdated                       | Шаблон обучения обновлен |
-| 16002 | TrainProcessTemplateRemoved                       | Шаблон обучения удален |
+| 16000 | TrainProcessTemplateCreated                       | Шаблон обучения создан            |
+| 16001 | TrainProcessTemplateUpdated                       | Шаблон обучения обновлен          |
+| 16002 | TrainProcessTemplateRemoved                       | Шаблон обучения удален            |
 
 ### Пайплан
 
@@ -299,11 +299,11 @@
 | 18701 | InferenceTestProcessStartDownloadDataSetError     | Скачивание тестового датасета завершилось ошибкой |
 | 18702 | InferenceTestProcessStartUnzipDataSetSuccess      | Распаковка тестового датасета завершилась успешно |
 | 18703 | InferenceTestProcessStartUnzipDataSetError        | Распаковка тестового датасета завершилось ошибкой |
-| 18800 | InferenceProcessStartCompletedSuccess             | Процесс инференса успешно запущен |
-| 18801 | InferenceProcessStartCompletedError               | Запуск процесса инференса завершился ошибкой |
+| 18800 | InferenceProcessStartCompletedSuccess             | Процесс инференса успешно запущен             |
+| 18801 | InferenceProcessStartCompletedError               | Запуск процесса инференса завершился ошибкой  |
 | 18900 | InferenceTestProcessTransferEvaluationResultSuccess | Показатели оценки процесса тестового инференс получены сервером |
 | 18920 | InferenceTestProcessTransferBboxSuccess           | Координаты полей тестового инференс получены сервером |
-| 18940 | InferenceTestProcessCompletedSuccess              | Тестовый процесс инференса завершен успешно |
+| 18940 | InferenceTestProcessCompletedSuccess              | Тестовый процесс инференса завершен успешно   |
 | 18960 | InferenceTestProcessCompletedError                | Тестовый процесс инференса завершился ошибкой |
 
 
