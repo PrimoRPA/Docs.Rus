@@ -8,17 +8,13 @@
 
 1. Реализовать связь между материалом типа Проект с соответствующей статистикой в хранилище  https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25886
 
-1. НЕ НАДО - Написать тест для разделителей значков на карточке процесса.https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/26550
-
 1. Из типа материала Очередь удалить поля, в которых хранили статистику https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25884
 
 1. Добавить возможность управлять "дельтами" https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25146
 
-1. НЕ НАДО - Установить автоматическое свёртывание больших чисел в "млн" https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25747
+1. Установить автоматическое свёртывание больших чисел в "млн" https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25747
 
 1. Реализовать возможность создания произвольные типы комплексных полей https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25749
-
-1. МБ НЕ НАДО? - Ошибка даты в записях в хранилище https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/26611
 
 1. Добавить новое рассчитываемое поле https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25138
 
@@ -26,15 +22,13 @@
 
 1. Добавить возможность управлять разделителями баджей в краткой версии карточек процессов https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25180
 
-1. МБ НЕ НАДО? (ну или подать по-другому) Иконка в блоке пользователя в нижней части меню не обновляется https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25750
+1. Иконка в блоке пользователя в нижней части меню не обновляется https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25750
 
 1. Добавить в представления "No result" https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25375
 
 1. Перенести список департаментов из демо inner https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25396
 
 1. Департаменты не корректно обновляются https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25748
-
-1. НЕ НАДО - Изменить порядок полей на странице очереди. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25023
 
 1. Добавить разрешения на просмотр полей https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25778
 
@@ -46,24 +40,16 @@
 
 1. Перенести добавление t() в stagin для доступных значений поля "Период операций"  https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25127
 
-1. НЕ НАДО? - Исправить тест testQueuesPage   https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25145
-
 1. Поиск на английской версии сайта работает неправильно https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/15583
 
 1. Изменение иконок в тизере не работает  https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/24291
 
 1. Неправильно работает поле  https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25077
 
-1. НЕ НАДО - Исправить TaskPageTest https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25126
-
 1. Организация хранения обязательных датированных данных от системы RPA   https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25061
 
 1. На странице очередей не работают региональные настройки  https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25022
 
 1. Перенести функциональность миграции RateAndHumanDuration в модуль поля PrimoComplex https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/20670
-
-1. НЕ НАДО - Настроить автоматическое развёртывание на тестовом стенде https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/20500
-  
-1. НЕ НАДО -  Базовые тесты https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/24648
 
 1. Ошибка при запуске крона primo_migrate_node_license_presave()->getTimestamp https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/23241
