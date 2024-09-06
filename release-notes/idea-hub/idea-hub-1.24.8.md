@@ -50,20 +50,20 @@
 
 1. Поиск на английской версии сайта работает неправильно https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/15583
 
-1. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/24291
+1. Изменение иконок в тизере не работает  https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/24291
 
-1. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25077
+1. Неправильно работает поле  https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25077
 
-1. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25126
+1. НЕ НАДО - Исправить TaskPageTest https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25126
 
-1. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25061
+1. Организация хранения обязательных датированных данных от системы RPA   https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25061
 
-1. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25022
+1. На странице очередей не работают региональные настройки  https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25022
 
-1. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/20670
+1. Перенести функциональность миграции RateAndHumanDuration в модуль поля PrimoComplex https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/20670
 
-1. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/20500
+1. НЕ НАДО - Настроить автоматическое развёртывание на тестовом стенде https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/20500
   
-1. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/24648
+1. НЕ НАДО -  Базовые тесты https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/24648
 
-1. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/23241
+1. Ошибка при запуске крона primo_migrate_node_license_presave()->getTimestamp https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/23241
