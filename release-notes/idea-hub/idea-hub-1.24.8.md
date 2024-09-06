@@ -4,51 +4,51 @@
 
 ## Обновления и улучшения
 
-1. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25887
+1. Реализовать связь между материалом типа Очередь с соответствующей статистикой в хранилище  https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25887
 
-1. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25886
+1. Реализовать связь между материалом типа Проект с соответствующей статистикой в хранилище  https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25886
 
-1. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/26550
+1. НЕ НАДО - Написать тест для разделителей значков на карточке процесса.https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/26550
 
-1. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25884
+1. Из типа материала Очередь удалить поля, в которых хранили статистику https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25884
 
-1. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25146
+1. Добавить возможность управлять "дельтами" https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25146
 
-1. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25747
+1. НЕ НАДО - Установить автоматическое свёртывание больших чисел в "млн" https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25747
 
-1. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25749
+1. Реализовать возможность создания произвольные типы комплексных полей https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25749
 
-1. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/26611
+1. МБ НЕ НАДО? - Ошибка даты в записях в хранилище https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/26611
 
-1. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25138
+1. Добавить новое рассчитываемое поле https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25138
 
-1. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25135
+1. Добавить новую пользовательскую функцию  (что за функция?) https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25135
 
-1. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25180
+1. Добавить возможность управлять разделителями баджей в краткой версии карточек процессов https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25180
 
-1. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25750
+1. МБ НЕ НАДО? (ну или подать по-другому) Иконка в блоке пользователя в нижней части меню не обновляется https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25750
 
-1. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25375
+1. Добавить в представления "No result" https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25375
 
-1. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25396
+1. Перенести список департаментов из демо inner https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25396
 
-1. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25748
+1. Департаменты не корректно обновляются https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25748
 
-1. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25023
+1. НЕ НАДО - Изменить порядок полей на странице очереди. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25023
 
-1. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25778
+1. Добавить разрешения на просмотр полей https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25778
 
-1. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/26557
+1. Исправить правила обновления сервера staging https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/26557
 
-1. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25121
+1. Сохранять получаемые из текущего оркестратора данные в новое датированное хранилище https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25121
 
-1. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/26209
+1. Экспорт процессов падает с фатальной ошибкой при отсутствии департамента  https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/26209
 
-1. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25127
+1. Перенести добавление t() в stagin для доступных значений поля "Период операций"  https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25127
 
-1. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25145
+1. НЕ НАДО? - Исправить тест testQueuesPage   https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25145
 
-1. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/15583
+1. Поиск на английской версии сайта работает неправильно https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/15583
 
 1. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/24291
 
