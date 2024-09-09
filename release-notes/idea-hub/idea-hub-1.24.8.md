@@ -4,6 +4,11 @@
 
 ## Обновления и улучшения
 
+1. Установить автоматическое свертывание больших чисел в "млн" https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25747
+
+1. Добавить разрешения на просмотр полей https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25778
+
+
 1. Реализовать связь между материалом типа Очередь с соответствующей статистикой в хранилище  https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25887
 
 1. Реализовать связь между материалом типа Проект с соответствующей статистикой в хранилище  https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25886
@@ -11,8 +16,6 @@
 1. Из типа материала Очередь удалить поля, в которых хранили статистику https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25884
 
 1. Добавить возможность управлять "дельтами" https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25146
-
-1. Установить автоматическое свёртывание больших чисел в "млн" https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25747
 
 1. Реализовать возможность создания произвольные типы комплексных полей https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25749
 
@@ -25,8 +28,6 @@
 1. Добавить в представления "No result" https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25375
 
 1. Перенести список департаментов из демо inner https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25396
-
-1. Добавить разрешения на просмотр полей https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25778
 
 1. Исправить правила обновления сервера staging https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/26557
 
