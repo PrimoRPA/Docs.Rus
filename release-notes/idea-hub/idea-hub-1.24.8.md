@@ -41,20 +41,13 @@
 
 ## Исправленные ошибки
 
+1. Исправлена ошибка, из-за которой не обновлялась иконка пользователя в меню. /https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25750
+1. Исправлена ошибка в миграции, из-за которой департаменты обновлялись некорректно. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25748
+1. ПОЯСНИТЬ (ЧТО ТАКОЕ ТИЗЕР, КАКИЕ ДИСПЛЕИ ИМЕЮТСЯ В ВИДУ) Исправлена ошибка, из-за которой нельзя было изменить иконки в тизере. Теперь в любом дисплее можно настроить иконки для полей процесса.  https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/24291
+1. Исправлена ошибка, из-за которой экспорт процессов завершался ошибкой при отсутствии департамента, привязанного к процессу.  https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/26209
+1. Исправлена ошибка, из-за которой не работал поиск в английской версии сайта. https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/15583
+1. Решена проблема, из-за которой на странице очередей не работали региональные настройки.  https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25022
+
 1. Ошибка при запуске крона primo_migrate_node_license_presave()->getTimestamp https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/23241
 
-1. Изменение иконок в тизере не работает  https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/24291
-
-1. Неправильно работает поле  https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25077
-
-1. Департаменты не корректно обновляются https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25748
-
-1. Иконка в блоке пользователя в нижней части меню не обновляется https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25750
-
-1. Экспорт процессов падает с фатальной ошибкой при отсутствии департамента  https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/26209
-
-1. Поиск на английской версии сайта работает неправильно https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/15583
-
-1. На странице очередей не работают региональные настройки  https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25022
-
-
+1. ЗАДЧА В СТАТУСЕ ОТКЛОНЕНА - Исправлена ошибка в форме создания параметра расчета. Если в качестве типа сущности контекста был выбран Процесс, то.... Неправильно работает поле  https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25077
