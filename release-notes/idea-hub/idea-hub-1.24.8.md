@@ -22,13 +22,9 @@
 
 1. Добавить возможность управлять разделителями баджей в краткой версии карточек процессов https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25180
 
-1. Иконка в блоке пользователя в нижней части меню не обновляется https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25750
-
 1. Добавить в представления "No result" https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25375
 
 1. Перенести список департаментов из демо inner https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25396
-
-1. Департаменты не корректно обновляются https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25748
 
 1. Добавить разрешения на просмотр полей https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25778
 
@@ -36,20 +32,29 @@
 
 1. Сохранять получаемые из текущего оркестратора данные в новое датированное хранилище https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25121
 
-1. Экспорт процессов падает с фатальной ошибкой при отсутствии департамента  https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/26209
-
 1. Перенести добавление t() в stagin для доступных значений поля "Период операций"  https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25127
 
-1. Поиск на английской версии сайта работает неправильно https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/15583
+1. Организация хранения обязательных датированных данных от системы RPA   https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25061
+
+1. Перенести функциональность миграции RateAndHumanDuration в модуль поля PrimoComplex https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/20670
+
+
+## Исправленные ошибки
+
+1. Ошибка при запуске крона primo_migrate_node_license_presave()->getTimestamp https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/23241
 
 1. Изменение иконок в тизере не работает  https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/24291
 
 1. Неправильно работает поле  https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25077
 
-1. Организация хранения обязательных датированных данных от системы RPA   https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25061
+1. Департаменты не корректно обновляются https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25748
+
+1. Иконка в блоке пользователя в нижней части меню не обновляется https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25750
+
+1. Экспорт процессов падает с фатальной ошибкой при отсутствии департамента  https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/26209
+
+1. Поиск на английской версии сайта работает неправильно https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/15583
 
 1. На странице очередей не работают региональные настройки  https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/25022
 
-1. Перенести функциональность миграции RateAndHumanDuration в модуль поля PrimoComplex https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/20670
 
-1. Ошибка при запуске крона primo_migrate_node_license_presave()->getTimestamp https://azure-dos.s1.primo1.orch/PrimoCollection/IdeaHub/_workitems/edit/23241
