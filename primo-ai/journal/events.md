@@ -134,7 +134,7 @@
 | 6000  | MarkingFieldCreated                       | Поле создано                      |  
 | 6001  | MarkingFieldUpdated                       | Поле изменено                     |   
 | 6002  | MarkingFieldRemoved                       | Поле удалено                      |   
-| 6003  | MarkingFieldTypesUpdated                  | Параметры полей схемы разметки изменены на странице "Поля"/"Документы"  |   
+| 6003  | MarkingFieldTypesUpdated                  | Параметры полей схемы разметки изменены на странице "Инференс > Поля"/"Документы"  |   
 | 6004  | MarkingFieldColumnsUpdated                | Настройки табличных полей схемы разметки изменены на странице "Поля" |   
 
 
