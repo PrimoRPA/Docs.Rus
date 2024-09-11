@@ -1227,6 +1227,8 @@
         * [Мониторинг обучения](primo-ai/user/projects/training/monitoring.md)
     * [Инференс](primo-ai/user/projects/inference/README.md)
         * [Как запустить инференс](primo-ai/user/projects/inference/run-inference-process.md)
+* [Журнал](primo-ai/journal/README.md)
+    * [События](primo-ai/journal/events.md)
 * [Дополнительно](primo-ai/other/README.md)
     * [Требования к изображениям для обучения](primo-ai/other/dataset-quality-requirements.md)
     * [Требования к изображениям для инференса](primo-ai/other/inference-quality-requirements.md)
