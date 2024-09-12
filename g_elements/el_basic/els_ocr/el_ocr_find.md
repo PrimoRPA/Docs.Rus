@@ -1,3 +1,7 @@
+---
+description: Image exists
+---
+
 # Поиск изображения
 
 ![](<../../../.gitbook/assets/image (384).png>)
