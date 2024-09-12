@@ -1,6 +1,6 @@
-#  Primo RPA Studio 1.24.6.17 
+#  Primo RPA Studio 1.24.6.17 LTS
 
-Внесенные изменения для версии приложения **Primo RPA Studio Windows 1.24.6.17**
+Внесенные изменения для версии приложения **Primo RPA Studio Windows 1.24.6.17 (LTS)** 
 
 ### Исправленные ошибки
 
