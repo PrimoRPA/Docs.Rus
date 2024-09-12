@@ -2,16 +2,28 @@
 
 ![](<../../../.gitbook/assets/image (384).png>)
 
-Компонент, производящий поиск заданного изображения на экране.
+Элемент производит поиск заданного изображения на экране. В случае, если значение искомого изображения не указано, растр берется из скриншота элемента.
 
-В случае, если значение Искомого изображения не указано, растр берется из скриншота компонента
+## Свойства
 
-| Свойство            | Тип                      | Описание                                           |
-| ------------------- | ------------------------ | -------------------------------------------------- |
-| Искомое изображение | [System.Drawing.Bitmap](https://learn.microsoft.com/ru-ru/dotnet/api/system.drawing.bitmap?redirectedfrom=MSDN&view=netframework-4.8)    | Растр искомого изображения                         |
-| Точность            | [Double](https://learn.microsoft.com/ru-ru/dotnet/api/system.double?view=net-5.0&viewFallbackFrom=windowsdesktop-3.0)   | Точность совпадения растра (% от 0 до 1)           |
-| Координаты          | [System.Drawing.Rectangle](https://learn.microsoft.com/ru-ru/dotnet/api/system.drawing.rectangle?view=netcore-3.0) | Координаты найденного изображения                  |
-| Таймаут\*           | Int32                    | Предельное время ожидания завершения процесса (мс) |
+Символ `*` в названии указывает на обязательность заполнения свойства. Описание общих свойств см. [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
+
+**OCR**
+
+1. **Искомое изображение** *[[System.Drawing.Bitmap](https://learn.microsoft.com/ru-ru/dotnet/api/system.drawing.bitmap?redirectedfrom=MSDN&view=netframework-4.8)]* — растр искомого изображения.
+1. **Точность** *[[Double](https://learn.microsoft.com/ru-ru/dotnet/api/system.double?view=net-5.0&viewFallbackFrom=windowsdesktop-3.0)]* — точность совпадения растра (% от 0 до 1). По умолчанию `0.9`.
+1. **Таймаут\*** *[Int32]* — предельное время ожидания завершения процесса (мс). По умолчанию `10000`.
+
+
+**Вывод**
+
+1. **Координаты** *[[System.Drawing.Rectangle](https://learn.microsoft.com/ru-ru/dotnet/api/system.drawing.rectangle?view=netcore-3.0)]* — название переменной, в которую сохранятся координаты найденного изображения.
+1. **Результат** *[Boolean]* — результат поиска.
+1. **Создавать исключение** *[Boolean]* — определяет, следует ли создавать исключение, если изображение не нашлось. По умолчанию параметр включен, исключение будет создаваться.
+
+## Только код
+
+Ниже приведен пример использования элемента в процессе с типом **Только код (Pure code)**:
 
 {% tabs %}
 {% tab title="C#" %}
