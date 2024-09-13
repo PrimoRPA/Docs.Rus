@@ -21,6 +21,9 @@
 1. Копируем файл службы из комплекта поставки в `/etc/systemd/system`:
    ```
    # sudo cp /app/Primo.AI/Api.Inference/Primo.AI.Api.Inference.service /etc/systemd/system/Primo.AI.Api.Inference.service
+   ```
+1. Перезагружаем systemctl:
+   ```
    # sudo systemctl daemon-reload	
    ```
    
