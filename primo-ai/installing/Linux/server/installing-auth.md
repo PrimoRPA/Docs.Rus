@@ -34,7 +34,7 @@
 
 1. Открываем конфигурационный файл в vim:
    ```
-   # sudo vim appsettings.ProdLinux.json
+   # sudo nano appsettings.ProdLinux.json
    ```
 1. Задаем тип используемой СУБД:
     ```
