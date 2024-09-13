@@ -6,17 +6,17 @@
 
 В терминале ОС выполняем:
 ```
-# sudo apt install openssh-server
+sudo apt install openssh-server
 ```
 ```
-# sudo systemctl start ssh
+sudo systemctl start ssh
 ```
 ```
-# sudo systemctl enable ssh
+sudo systemctl enable ssh
 ```
 Смотрим IP, назначенный машине Primo RPA AI Server:
 ```
-# ifconfig
+ifconfig
 ```
 
 Далее по этому IP подключаемся к машине Primo RPA AI Server через SSH-клиент, например PuTTY.
@@ -26,33 +26,33 @@
 
 Устанавливаем Samba:
 ```
-# sudo dnf install samba samba-common samba-client
+sudo dnf install samba samba-common samba-client
 ```
 
 Делаем резервную копию конфигурационного файла Samba:
 ```
-# sudo mv /etc/samba/smb.conf /etc/samba/smb.con.bak
+sudo mv /etc/samba/smb.conf /etc/samba/smb.con.bak
 ```
 
 Создаем общую папку:
 ```
-# sudo mkdir -p /srv/samba/shared
+sudo mkdir -p /srv/samba/shared
 ```
 
 Назначаем права доступа к папке:
 ```
-# sudo chmod -R 0755 /srv/samba/shared
+sudo chmod -R 0755 /srv/samba/shared
 ```
 ```
-# sudo chown -R nobody:nobody /srv/samba/shared
+sudo chown -R nobody:nobody /srv/samba/shared
 ```
 ```
-# sudo chcon -t samba_share_t /srv/samba/shared
+sudo chcon -t samba_share_t /srv/samba/shared
 ```
 
 Редактируем конфигурационный файл:
 ```
-# sudo nano /etc/samba/smb.conf
+sudo nano /etc/samba/smb.conf
 ```
 
 Вводим в редакторе vim текст:
@@ -82,25 +82,25 @@ directory mode = 0777
 
 Проверяем корректность конфигурационного файла:
 ```
-# sudo testparm
+sudo testparm
 ```
 
 Открываем файервол:
 ```
-# sudo ufw allow samba
+sudo ufw allow samba
 ```
 
 Запускаем службу:
 ```
-# sudo systemctl start smbd
+sudo systemctl start smbd
 ```
 ```
-# sudo systemctl enable smbd
+sudo systemctl enable smbd
 ```
 
 Проверяем состояние службы:
 ```
-# sudo systemctl status smbd
+sudo systemctl status smbd
 ```
 Проверяем доступность папки с другой машины в сети.
 
@@ -109,7 +109,7 @@ directory mode = 0777
 
 В общей папке `shared` создаем папку `install`:
 ```
-# sudo mkdir /srv/samba/shared/install
+sudo mkdir /srv/samba/shared/install
 ```
 В папку `install` копируем дистрибутивы из комплекта поставки. Архивы дистрибутивов можно сразу распаковать в одноименные папки.
 
@@ -118,7 +118,7 @@ directory mode = 0777
 
 Создаем папку для размещения служб Primo.AI.Api:
 ```
-# sudo mkdir /app/Primo.AI
+sudo mkdir /app/Primo.AI
 ```
 
 ## 5. Настройка прав доступа к службам
@@ -141,16 +141,16 @@ chmod 770
 
 Для работы компонентов API создайте группу пользователей **primo-ai**:
 ```
-# sudo groupadd primo-ai
+sudo groupadd primo-ai
 ```
 Создайте учетную запись **primo**:
 ```
-# sudo useradd -g primo-ai -m -s /bin/bash primo
+sudo useradd -g primo-ai -m -s /bin/bash primo
 ```
 
 Установите владельца папки с инсталляцией:
 ```
-# sudo chown -R primo:primo-ai /app/Primo.AI/
+sudo chown -R primo:primo-ai /app/Primo.AI/
 ```
 
 ## Что дальше
