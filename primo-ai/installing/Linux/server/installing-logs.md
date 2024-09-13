@@ -20,7 +20,10 @@
 1. Копируем файл службы из комплекта поставки в `/etc/systemd/system`:
    ```
    # sudo cp /app/Primo.AI/Api.Logs/Primo.AI.Api.Logs.service /etc/systemd/system/Primo.AI.Api.Logs.service
-   # sudo systemctl daemon-reload
+   ```
+1. Перезагружаем systemctl:
+   ```
+   # sudo systemctl daemon-reload	
    ```
 1. Помещаем службу в автозапуск:
    ```
