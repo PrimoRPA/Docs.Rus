@@ -22,7 +22,10 @@
 1. Копируем файл службы из комплекта поставки в `/etc/systemd/system`:
    ```
    # sudo cp /app/Primo.AI/Api.Auth/Primo.AI.Api.Auth.service /etc/systemd/system/Primo.AI.Api.Auth.service
-   # sudo systemctl daemon-reload
+   ```
+1. Перезагружаем systemctl:
+   ```
+   # sudo systemctl daemon-reload	
    ```
 1. Помещаем службу в автозапуск:	
    ```
