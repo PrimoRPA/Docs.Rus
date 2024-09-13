@@ -32,7 +32,7 @@
 ## Редактируем конфигурационный файл
 1. Открываем для редактирования конфигурационный файл:
    ```
-   # sudo vim appsettings.ProdLinux.json
+   # sudo nano appsettings.ProdLinux.json
    ```
 1. Задаем тип используемой СУБД:
    ```
