@@ -11,7 +11,7 @@
    ```
 1. Установим владельца папки с инсталляцией:
    ```
-   #  sudo chown -R primo:primo-ai /app/Primo.AI/Api
+   sudo chown -R primo:primo-ai /app/Primo.AI/Api
    ```
 
 ## Создаем и настраиваем службу
