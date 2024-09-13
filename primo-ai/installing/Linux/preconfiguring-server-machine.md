@@ -44,7 +44,7 @@
 
 Редактируем конфигурационный файл:
 ```
-# sudo vim /etc/samba/smb.conf
+# sudo nano /etc/samba/smb.conf
 ```
 
 Вводим в редакторе vim текст:
