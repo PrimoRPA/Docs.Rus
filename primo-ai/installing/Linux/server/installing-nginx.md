@@ -26,7 +26,7 @@
    ```
 1. Скорректируйте конфигурационный файл:
    ```
-   # vim /etc/nginx/nginx.conf
+   # sudo nano /etc/nginx/nginx.conf
    ```
 1. Перезапустите службу:
    ```
