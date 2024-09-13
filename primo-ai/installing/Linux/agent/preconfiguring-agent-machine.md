@@ -97,7 +97,7 @@ sudo chown -R agent:primo-ai /app/Primo.AI/Agent /app/Primo.AI/AgentData /app/Pr
 
 Для запуска и остановки агентом IDP-ядра без ввода пароля установите следующую настройку:
 ```
-sudo sh -c "echo 'agent ALL=(%primo-ai) NOPASSWD: /app/Primo.AI/Agent/kill.sh, /app/Primo.AI/IDP/start_inference.sh, /app/Primo.AI/IDP/start_training.sh, /app/Primo.AI/IDP/start_evaluation.sh' > /etc/sudoers.d/Primo.AI.Agent"
+sudo sh -c "echo 'agent ALL=(%primo-ai) NOPASSWD: /app/Primo.AI/Agent/kill.sh, /app/Primo.AI/IDP/start_inference.sh, /app/Primo.AI/IDP/start_training.sh, /app/Primo.AI/IDP/start_evaluation.sh' > /etc/sudoers.d/agent"
 ```
 
 Установите агент как службу и настройте автозапуск:
