@@ -68,15 +68,15 @@
 
 ## Агент
 
-### Настройка учетной записи агента
+### Настройка учетной записи 
 
 Для работы агента и IDP создайте общую группу:
 ```
 # sudo groupadd primo-ai
 ```
-Для работы агента создайте учетную запись **agent**:
+Для работы агента и IDP-ядра создайте учетную запись **agent**, указав расположение home-папки – в ней будут размещены инсталляции Python, а также все необходимые пакеты **суммарным весом более 3.5 Гбайт** (вариант установки Б IDP-ядра - см. далее):
 ```
-# sudo useradd -g primo-ai -m -s /bin/bash agent
+# sudo useradd -g primo-ai -m -s /bin/bash -d <custom_home_dir_location> agent
 ```
 
 ### Установка агента
@@ -162,11 +162,6 @@
 
 > Установка IDP при наличии в репозиториях apt целевой машины python3.10/3.11, выхода в интернет, а также GNU C Library (glibc) версии 2.33 и выше.
 
-Создайте учетную запись **idp**:
-```
-# sudo useradd -g primo-ai -m -s /bin/bash idp
-```
-
 Разверните файлы IDP на целевой машине (файл `A-IDP.zip` должен находиться в каталоге `/srv/samba/shared/install`):
 ```
 # sudo mkdir -p /app/Primo.AI/IDP 
@@ -206,17 +201,12 @@
 Произведите финальную раздачу прав IDP:
 ```
 # sudo chmod -R 771 /app/Primo.AI/IDP
-# sudo chown -R idp:primo-ai /app/Primo.AI/IDP
+# sudo chown -R agent:primo-ai /app/Primo.AI/IDP
 ```
 
 ### Вариант установки Б
 
 > Используйте этот способ при отсутствии необходимых библиотек.
-
-Создайте учетную запись **idp**, указав расположение home-папки – в ней будут размещены инсталляции Python, а также все необходимые пакеты **суммарным весом более 3.5 Гбайт**:
-```
-# sudo useradd -g primo-ai -m -s /bin/bash -d <custom_home_dir_location> idp
-```
 
 #### Установка pyenv c Python 3.11 и виртуальной средой
 
@@ -233,7 +223,7 @@
 
 Запустите скрипт установки `pyenv-installer.sh`: 
 ```
-# sudo ./pyenv-installer.sh idp primo-ai  <custom_home_dir_location>
+# sudo ./pyenv-installer.sh agent primo-ai  <custom_home_dir_location>
 ```
 
 Сообщение *«WARNING: The Python tkinter extension was not compiled and GUI subsystem has been detected. Missing the Tk toolkit?»* можно проигнорировать.
@@ -263,13 +253,13 @@
 
 Запустите скрипт установки `idp-installer.sh`:
 ```
-# sudo ./idp-installer.sh idp primo-ai <custom_home_dir_location>
+# sudo ./idp-installer.sh agent primo-ai <custom_home_dir_location>
 ```
 
 Раздайте права на IDP:
 ```
 # sudo chmod -R 771 /app/Primo.AI/IDP
-# sudo chown -R idp:primo-ai /app/Primo.AI/IDP
+# sudo chown -R agent:primo-ai /app/Primo.AI/IDP
 ```
 Удалите установочные файлы: 
 ```
@@ -330,7 +320,4 @@ sudo nano /etc/security/limits.conf
 ```
 agent         hard    nofile      128000
 agent         soft    nofile      128000
-
-idp         hard    nofile      128000
-idp         soft    nofile      128000
 ```
