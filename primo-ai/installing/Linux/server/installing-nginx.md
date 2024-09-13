@@ -24,7 +24,7 @@
    # cp /srv/samba/shared/install/nginx/cert1.crt/etc/nginx/cert1.crt
    # cp /srv/samba/shared/install/nginx/cert1.rsa /etc/nginx/cert1.rsa
    ```
-1. При необходимости скорректируйте конфигурационный файл:
+1. Скорректируйте конфигурационный файл:
    ```
    # vim /etc/nginx/nginx.conf
    ```
