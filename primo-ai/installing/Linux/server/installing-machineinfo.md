@@ -4,38 +4,41 @@
 1. Подключаемся к серверу по SSH с пользователем с правами root. 
 1. Создаем, если отсутствует, папку `/app/Primo.AI/Api.MachineInfo`:
    ```
-   # sudo mkdir /app/Primo.AI/Api.MachineInfo
+   sudo mkdir /app/Primo.AI/Api.MachineInfo
    ```
 1. Разархивируем `Api.MachineInfo-linux.zip` в `/app/Primo.AI/Api.MachineInfo`:
    ``` 
-   # sudo unzip /srv/samba/shared/install/Api.MachineInfo-linux.zip -d /app/Primo.AI/Api.MachineInfo
+   sudo unzip /srv/samba/shared/install/Api.MachineInfo-linux.zip -d /app/Primo.AI/Api.MachineInfo
    ```
 1. Устанавливаем владельца папки с инсталляцией:
    ```
-   #  sudo chown -R primo:primo-ai /app/Primo.AI/Api.MachineInfo
+   sudo chown -R primo:primo-ai /app/Primo.AI/Api.MachineInfo
    ```
 
 ## Создаем и настраиваем службу
 	 
 1. Копируем файл службы из комплекта поставки в `/etc/systemd/system`:
    ```
-   # sudo cp /app/Primo.AI/Api.MachineInfo/Primo.AI.Api.MachineInfo.service /etc/systemd/system/Primo.AI.Api.MachineInfo.service
-   # sudo systemctl daemon-reload
+   sudo cp /app/Primo.AI/Api.MachineInfo/Primo.AI.Api.MachineInfo.service /etc/systemd/system/Primo.AI.Api.MachineInfo.service
+   ```
+1. Перезагружаем systemctl:
+   ```
+   sudo systemctl daemon-reload	
    ```
 1. Помещаем службу в автозапуск:
    ```
-   # sudo systemctl enable /etc/systemd/system/Primo.AI.Api.MachineInfo.service
+   sudo systemctl enable /etc/systemd/system/Primo.AI.Api.MachineInfo.service
    ```
 	
 ## Даем права на запуск
 
 1. Назначаем права:
    ```
-   # sudo chmod -R 770 /app/Primo.AI/Api.MachineInfo/Primo.AI.Api.MachineInfo
+   sudo chmod -R 770 /app/Primo.AI/Api.MachineInfo/Primo.AI.Api.MachineInfo
    ```
 1. Проверяем выполнение команды:
    ```
-   # sudo lsblk --nodeps -no serial /dev/sda
+   sudo lsblk --nodeps -no serial /dev/sda
    ```
 
    Если команда выполнится с ошибкой, находим вместо `/dev/sda` другое блочное устройство (диск) и прописываем его в конфигурационном файле:
@@ -46,14 +49,14 @@
 ## Настройка службы
 Открываем порт:
 ```
-# sudo ufw allow 5052/tcp
+sudo ufw allow 5052/tcp
 ```
 
 ## Вспомогательные компоненты
 Устанавливаем пакет (команда ОС) cpuid:
 ```
 # cd /srv/samba/shared/install
-# sudo dpkg -i cpuid_20201006-1_amd64.deb
+sudo dpkg -i cpuid_20201006-1_amd64.deb
 ```
 
 ## Настройка Primo RPA AI Server для работы с MachineInfo
@@ -77,11 +80,11 @@
 
 1. Запускаем службу:
    ```
-   # sudo systemctl start Primo.AI.Api.MachineInfo
+   sudo systemctl start Primo.AI.Api.MachineInfo
    ```
 1. Проверяем состояние службы:
    ```
-   # sudo systemctl status Primo.AI.Api.MachineInfo
+   sudo systemctl status Primo.AI.Api.MachineInfo
    ```
 
 ## Что дальше

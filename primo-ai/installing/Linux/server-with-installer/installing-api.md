@@ -6,11 +6,11 @@
 1. Подключитесь к серверу по SSH с пользователем с правами root. 
 1. Запустите инсталлятор:
    ```
-   # /srv/samba/shared/install/Api-X.X.X.X.run
+   /srv/samba/shared/install/Api-X.X.X.X.run
    ```
 1. По завершению работы инсталлятора установите владельца папки с инсталляцией:
    ```
-   #  sudo chown -R primo:primo-ai /app/Primo.AI/Api
+   sudo chown -R primo:primo-ai /app/Primo.AI/Api
    ```
 
 
@@ -18,7 +18,7 @@
 
 1. Откройте в vim конфигурационный файл:
    ```
-   # sudo vim appsettings.ProdLinux.json
+   sudo nano appsettings.ProdLinux.json
    ```
 
 1. Настройте Primo.AI.Api на работу с сервисом MachineInfo, который получает параметры оборудования для лицензирования — введите адрес этого сервиса:
@@ -49,21 +49,21 @@
    
    Для этого выполните:
    ```
-   # sudo unzip '/srv/samba/shared/install/IDP models.zip' -d /app/Primo.AI/Api_Models 	
+   sudo unzip '/srv/samba/shared/install/IDP models.zip' -d /app/Primo.AI/Api_Models 	
    ```
 
 ## Запустите службу
 1. Назначьте права на запуск службы:
    ```
-   # sudo chmod -R 770 /app/Primo.AI/Api/Primo.AI.Api
+   sudo chmod -R 770 /app/Primo.AI/Api/Primo.AI.Api
    ```
 1. Проверьте состояние службы:
    ```
-   # sudo systemctl status Primo.AI.Api
+   sudo systemctl status Primo.AI.Api
    ```
 1. При необходимости - запустите службу:
    ```
-   # sudo systemctl start Primo.AI.Api
+   sudo systemctl start Primo.AI.Api
    ```
 
 ## Что дальше

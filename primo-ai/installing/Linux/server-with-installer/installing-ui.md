@@ -5,11 +5,11 @@
 1. Подключитесь к серверу с Primo RPA AI Server от имени суперпользователя root. 
 1. Запустите инсталлятор:
    ```
-   # /srv/samba/shared/install/UI-X.X.X.X.run
+   /srv/samba/shared/install/UI-X.X.X.X.run
    ```
 1. Проверьте состояние службы nginx:
    ```
-   # sudo systemctl status nginx
+   sudo systemctl status nginx
    ```
 
 ## Что дальше

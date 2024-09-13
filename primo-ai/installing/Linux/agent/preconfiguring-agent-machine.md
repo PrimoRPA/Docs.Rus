@@ -62,43 +62,53 @@
 
 Проверьте доступность репозиториев, используя команду: 
 ```
-# sudo apt update
+sudo apt update
 ```
 Репозитории `main`, `update`, `base` и `extended` должны присутствовать в выводе команды.
 
 ## Агент
 
-### Настройка учетной записи агента
+### Настройка учетной записи 
 
 Для работы агента и IDP создайте общую группу:
 ```
-# sudo groupadd primo-ai
+sudo groupadd primo-ai
 ```
-Для работы агента создайте учетную запись **agent**:
+Для работы агента и IDP-ядра создайте учетную запись **agent**, указав расположение home-папки – в ней будут размещены инсталляции Python, а также все необходимые пакеты **суммарным весом более 3.5 Гбайт** (при установке IDP-ядра с использованием "варианта Б" - см. далее):
 ```
-# sudo useradd -g primo-ai -m -s /bin/bash agent
+sudo useradd -g primo-ai -m -s /bin/bash -d <custom_home_dir_location> agent
 ```
 
 ### Установка агента
 
 Разверните файлы агента на целевой машине (файл `Agent-linux.zip` должен находиться в каталоге `/srv/samba/shared/install`): 
 ```
-# sudo mkdir -p /app/Primo.AI /app/Primo.AI/Agent /app/Primo.AI/AgentData 
-# sudo unzip /srv/samba/shared/install/Agent-linux.zip -d /app/Primo.AI/Agent
-# sudo chmod -R 771 /app/Primo.AI/Agent /app/Primo.AI/AgentData
-# sudo chown -R agent:primo-ai /app/Primo.AI/Agent /app/Primo.AI/AgentData /app/Primo.AI/Agent
+sudo mkdir -p /app/Primo.AI /app/Primo.AI/Agent /app/Primo.AI/AgentData 
+```
+```
+sudo unzip /srv/samba/shared/install/Agent-linux.zip -d /app/Primo.AI/Agent
+```
+```
+sudo chmod -R 771 /app/Primo.AI/Agent /app/Primo.AI/AgentData
+```
+```
+sudo chown -R agent:primo-ai /app/Primo.AI/Agent /app/Primo.AI/AgentData /app/Primo.AI/Agent
 ```
 
 Для запуска и остановки агентом IDP-ядра без ввода пароля установите следующую настройку:
 ```
-# sudo sh -c "echo 'agent ALL=(%primo-ai) NOPASSWD: /app/Primo.AI/Agent/kill.sh, /app/Primo.AI/IDP/start_inference.sh, /app/Primo.AI/IDP/start_training.sh, /app/Primo.AI/IDP/start_evaluation.sh' > /etc/sudoers.d/Primo.AI.Agent"
+sudo sh -c "echo 'agent ALL=(%primo-ai) NOPASSWD: /app/Primo.AI/Agent/kill.sh, /app/Primo.AI/IDP/start_inference.sh, /app/Primo.AI/IDP/start_training.sh, /app/Primo.AI/IDP/start_evaluation.sh' > /etc/sudoers.d/agent"
 ```
 
 Установите агент как службу и настройте автозапуск:
 ```
-# sudo cp /app/Primo.AI/Agent/Primo.AI.Agent.service /etc/systemd/system/
-# sudo systemctl daemon-reload
-# sudo systemctl enable /etc/systemd/system/Primo.AI.Agent.service
+sudo cp /app/Primo.AI/Agent/Primo.AI.Agent.service /etc/systemd/system/
+```
+```
+sudo systemctl daemon-reload
+```
+```
+sudo systemctl enable /etc/systemd/system/Primo.AI.Agent.service
 ```
 
 В конфигурационном файле `appsettings.ProdLinux.json` укажите:
@@ -136,24 +146,24 @@
 
 Запустите службы:
 ```
-# sudo systemctl start Primo.AI.Agent
+sudo systemctl start Primo.AI.Agent
 ```
 
 Проверьте статус службы:
 ```
-# sudo systemctl status Primo.AI.Agent
+sudo systemctl status Primo.AI.Agent
 ```
 
 Просмотрите журнал службы:
 ```
-# sudo journalctl -u Primo.AI.Agent
+sudo journalctl -u Primo.AI.Agent
 ```
 
 ### Настройка правила брандмауэра ufw
 
 Для разрешения доступа к API агента выполните команду:
 ```
-# sudo ufw allow 5002/tcp
+sudo ufw allow 5002/tcp
 ```
 
 
@@ -162,125 +172,139 @@
 
 > Установка IDP при наличии в репозиториях apt целевой машины python3.10/3.11, выхода в интернет, а также GNU C Library (glibc) версии 2.33 и выше.
 
-Создайте учетную запись **idp**:
-```
-# sudo useradd -g primo-ai -m -s /bin/bash idp
-```
-
 Разверните файлы IDP на целевой машине (файл `A-IDP.zip` должен находиться в каталоге `/srv/samba/shared/install`):
 ```
-# sudo mkdir -p /app/Primo.AI/IDP 
-# sudo unzip /srv/samba/shared/install/A-IDP.zip -d /app/Primo.AI/IDP
-# sudo chmod -R 777 /app/Primo.AI/IDP
+sudo mkdir -p /app/Primo.AI/IDP 
+```
+```
+sudo unzip /srv/samba/shared/install/A-IDP.zip -d /app/Primo.AI/IDP
+```
+```
+sudo chmod -R 777 /app/Primo.AI/IDP
 ```
 
 Установите библиотеки python3, tesseract и другие пакеты:
 ```
-# sudo apt install software-properties-common -y
-# sudo add-apt-repository ppa:deadsnakes/ppa
-# sudo apt-get update | sudo apt install python3.11 python3.11-venv python3.11-dev libsm6 libxext6 build-essential libssl-dev libffi-dev ffmpeg -y
+sudo apt install software-properties-common -y
+```
+```
+sudo add-apt-repository ppa:deadsnakes/ppa
+```
+```
+sudo apt-get update | sudo apt install python3.11 python3.11-venv python3.11-dev libsm6 libxext6 build-essential libssl-dev libffi-dev ffmpeg -y
 ```
 
 Создайте и активируйте виртуальную среду venv:
 ```
-# python3.11 -m venv /app/Primo.AI/IDP/venv
-# source /app/Primo.AI/IDP/venv/bin/activate
+python3.11 -m venv /app/Primo.AI/IDP/venv
+```
+```
+source /app/Primo.AI/IDP/venv/bin/activate
 ```
 
 Установите пакеты python. 
 ```
-# python -m ensurepip --upgrade
+python -m ensurepip --upgrade
 ```
 
 *	Если для IDP-процесса будет использоваться CPU:
 ```
-# pip3 install -r /app/Primo.AI/IDP/prequisites_cpu.txt
-# pip3 install -r /app/Primo.AI/IDP/requirements_cpu.txt
+pip3 install -r /app/Primo.AI/IDP/prequisites_cpu.txt
+```
+```
+pip3 install -r /app/Primo.AI/IDP/requirements_cpu.txt
 ```
 *	Если для IDP-процесса будет использоваться GPU:
 ```
-# pip3 install -r /app/Primo.AI/IDP/prequisites.txt	
-# pip3 install -r /app/Primo.AI/IDP/requirements.txt
+pip3 install -r /app/Primo.AI/IDP/prequisites.txt	
+```
+```	
+pip3 install -r /app/Primo.AI/IDP/requirements.txt
 ```
 
 Произведите финальную раздачу прав IDP:
 ```
-# sudo chmod -R 771 /app/Primo.AI/IDP
-# sudo chown -R idp:primo-ai /app/Primo.AI/IDP
+sudo chmod -R 771 /app/Primo.AI/IDP
+```
+```
+sudo chown -R agent:primo-ai /app/Primo.AI/IDP
 ```
 
 ### Вариант установки Б
 
 > Используйте этот способ при отсутствии необходимых библиотек.
 
-Создайте учетную запись **idp**, указав расположение home-папки – в ней будут размещены инсталляции Python, а также все необходимые пакеты **суммарным весом более 3.5 Гбайт**:
-```
-# sudo useradd -g primo-ai -m -s /bin/bash -d <custom_home_dir_location> idp
-```
-
 #### Установка pyenv c Python 3.11 и виртуальной средой
 
 Создайте временный каталог `pyenv` и переместитесь туда: 
 ```
-# mkdir /tmp/pyenv
-# cd /tmp/pyenv 
+mkdir /tmp/pyenv
+```
+```
+cd /tmp/pyenv 
 ```
 Скопируйте во временный каталог файлы pyenv из комплекта поставки (файл `B-pyenv.zip` должен находиться в каталоге `/srv/samba/shared/install`): 
 ```
-# sudo unzip /srv/samba/shared/install/B-pyenv.zip .
-# sudo chmod -R 771 .
+sudo unzip /srv/samba/shared/install/B-pyenv.zip .
+```
+```
+sudo chmod -R 771 .
 ```
 
 Запустите скрипт установки `pyenv-installer.sh`: 
 ```
-# sudo ./pyenv-installer.sh idp primo-ai  <custom_home_dir_location>
+sudo ./pyenv-installer.sh agent primo-ai  <custom_home_dir_location>
 ```
 
 Сообщение *«WARNING: The Python tkinter extension was not compiled and GUI subsystem has been detected. Missing the Tk toolkit?»* можно проигнорировать.
 
 Удалите установочные файлы: 
 ```
-# sudo rm  -r /tmp/pyenv
+sudo rm  -r /tmp/pyenv
 ```
 
 #### Установка зависимостей IDP в виртуальную среду
 
 Создайте папку с инсталляцией:
 ```
-# sudo mkdir /app/Primo.AI/IDP
+sudo mkdir /app/Primo.AI/IDP
 ```
 
 Переместитесь в папку с инсталляцией
 ```
-# cd /app/Primo.AI/IDP
+cd /app/Primo.AI/IDP
 ```
 
 Распакуйте архив с IDP в каталог `/app/Primo.AI/IDP` (файл `B-IDP.zip` должен находиться в каталоге `/srv/samba/shared/install`):
 ```
-# sudo unzip /srv/samba/shared/install/B-IDP.zip 
-# sudo chmod -R 771 /app/Primo.AI/IDP
+sudo unzip /srv/samba/shared/install/B-IDP.zip 
+```
+```
+sudo chmod -R 771 /app/Primo.AI/IDP
 ```
 
 Запустите скрипт установки `idp-installer.sh`:
 ```
-# sudo ./idp-installer.sh idp primo-ai <custom_home_dir_location>
+sudo ./idp-installer.sh agent primo-ai <custom_home_dir_location>
 ```
 
 Раздайте права на IDP:
 ```
-# sudo chmod -R 771 /app/Primo.AI/IDP
-# sudo chown -R idp:primo-ai /app/Primo.AI/IDP
+sudo chmod -R 771 /app/Primo.AI/IDP
+```
+```
+sudo chown -R agent:primo-ai /app/Primo.AI/IDP
 ```
 Удалите установочные файлы: 
 ```
-# sudo rm -r /app/Primo.AI/IDP/idp-installer.sh /app/Primo.AI/IDP/venv.zip 
+sudo rm -r /app/Primo.AI/IDP/idp-installer.sh /app/Primo.AI/IDP/venv.zip 
 ```
 
 #### Установка Tesseract
 
 Проверьте наличие Tesseract версии 4.0.0+: 
 ```
-# sudo apt policy tesseract-ocr
+sudo apt policy tesseract-ocr
 tesseract-ocr: 
  Установлен:                   (отсутствует) 
  Кандидат:   4.0.0-2~bpo9+1
@@ -288,7 +312,7 @@ tesseract-ocr:
 
 Установите Tesseract:
 ```
-# sudo apt install tesseract-ocr
+sudo apt install tesseract-ocr
 ```
 
  
@@ -297,13 +321,13 @@ tesseract-ocr:
 
 Проверьте доступность Primo.AI.Api с целевой машины. На целевой машине выполните команду:
 ```
-# curl -k https://<IP-адрес-Primo.Ai.Api>:44392/api/version
+curl -k https://<IP-адрес-Primo.Ai.Api>:44392/api/version
 ```
 Убедитесь, что вернулась версия Primo.Ai.Api.
 
 Проверьте работу агента на целевой машине. На машине Primo.Ai.Api выполните команду:
 ```
-# curl -k https://<IP-адрес-целевой-машины>:5002/api/version
+curl -k https://<IP-адрес-целевой-машины>:5002/api/version
 ```
 Убедитесь, что вернулась версия агента.
 
@@ -330,7 +354,4 @@ sudo nano /etc/security/limits.conf
 ```
 agent         hard    nofile      128000
 agent         soft    nofile      128000
-
-idp         hard    nofile      128000
-idp         soft    nofile      128000
 ```

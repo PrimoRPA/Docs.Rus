@@ -1,12 +1,11 @@
 # Установка UI 
 
 1. Подключитесь к серверу с Primo RPA AI Server от имени суперпользователя root. 
-2. Скопируйте папку `/srv/samba/shared/install/UI` в каталог `/app/Primo.AI/UI`:
+2. Распакуйте архив с UI в каталог `/app/Primo.AI/UI`:
    ```
-   # cp -R /srv/samba/shared/install/UI/* /app/Primo.AI/UI
+   sudo unzip /srv/samba/shared/install/UI.zip -d /app/Primo.AI/UI 
    ```
-
-При обновлении производите предварительную очистку папки перед записью новых файлов.
+Этот каталог будет использоваться сервером nginx - укажите его в конфиге (/etc/nginx/nginx.conf > http > server > root).
 
 ## Что дальше
 
