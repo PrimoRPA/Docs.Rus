@@ -3,11 +3,11 @@
 1. Подключаемся к серверу по SSH с пользователем с правами root. 
 1. Создаем папку `/app/Primo.AI/Api`:
    ```
-   # sudo mkdir /app/Primo.AI/Api
+   sudo mkdir /app/Primo.AI/Api
    ```
 1. Разархивируем `Api-linux.zip` в `/app/Primo.AI/Api`:
    ```
-   # sudo unzip /srv/samba/shared/install/Api-linux.zip -d /app/Primo.AI/Api
+   sudo unzip /srv/samba/shared/install/Api-linux.zip -d /app/Primo.AI/Api
    ```
 1. Установим владельца папки с инсталляцией:
    ```
@@ -18,22 +18,22 @@
 	
 1. Копируем файл службы, который идет с комплектом поставки, в `/etc/systemd/system`:
    ```
-   # sudo cp /app/Primo.AI/Api/Primo.AI.Api.service /etc/systemd/system/Primo.AI.Api.service
+   sudo cp /app/Primo.AI/Api/Primo.AI.Api.service /etc/systemd/system/Primo.AI.Api.service
    ```
 1. Перезагружаем systemctl:
    ```
-   # sudo systemctl daemon-reload	
+   sudo systemctl daemon-reload	
    ```
 1. Помещаем службу в автозапуск:	
    ```
-   # sudo systemctl enable /etc/systemd/system/Primo.AI.Api.service 	
+   sudo systemctl enable /etc/systemd/system/Primo.AI.Api.service 	
    ```
 
 ## Редактируем конфигурационный файл
 
 1. Открываем в vim конфигурационный файл:
    ```
-   # sudo nano appsettings.ProdLinux.json
+   sudo nano appsettings.ProdLinux.json
    ```
 1. Задаем тип используемой СУБД:
    ```
@@ -86,21 +86,21 @@
    
    Для этого выполняем:
    ```
-   # sudo unzip '/srv/samba/shared/install/IDP models.zip' -d /app/Primo.AI/Api_Models 	
+   sudo unzip '/srv/samba/shared/install/IDP models.zip' -d /app/Primo.AI/Api_Models 	
    ```
 
 ## Запускаем службу
 1. Даем права на запуск:
    ```
-   # sudo chmod -R 770 /app/Primo.AI/Api/Primo.AI.Api
+   sudo chmod -R 770 /app/Primo.AI/Api/Primo.AI.Api
    ```
 1. Запускаем службу:
    ```
-   # sudo systemctl start Primo.AI.Api
+   sudo systemctl start Primo.AI.Api
    ```
 1. Проверяем состояние службы:
    ```
-   # sudo systemctl status Primo.AI.Api
+   sudo systemctl status Primo.AI.Api
    ```
 
 ## Что дальше
