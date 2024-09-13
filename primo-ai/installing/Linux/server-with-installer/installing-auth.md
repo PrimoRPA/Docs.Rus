@@ -16,7 +16,7 @@
 
 1. Откройте конфигурационный файл в vim:
    ```
-   # sudo vim appsettings.ProdLinux.json
+   # sudo nano appsettings.ProdLinux.json
    ```
 
 1. Опционально — настройте Redis:
