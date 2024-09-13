@@ -18,7 +18,7 @@
 
 1. Откройте в vim конфигурационный файл:
    ```
-   # sudo vim appsettings.ProdLinux.json
+   # sudo nano appsettings.ProdLinux.json
    ```
 
 1. Настройте Primo.AI.Api на работу с сервисом MachineInfo, который получает параметры оборудования для лицензирования — введите адрес этого сервиса:
