@@ -99,7 +99,7 @@ directory mode = 0777
 
 В общей папке `shared` создаем папку `install`:
 ```
-# mkdir /srv/samba/shared/install
+# sudo mkdir /srv/samba/shared/install
 ```
 В папку `install` копируем дистрибутивы из комплекта поставки. Архивы дистрибутивов можно сразу распаковать в одноименные папки.
 
@@ -108,7 +108,7 @@ directory mode = 0777
 
 Создаем папку для размещения служб Primo.AI.Api:
 ```
-# mkdir /app/Primo.AI
+# sudo mkdir /app/Primo.AI
 ```
 
 ## 5. Настройка прав доступа к службам
