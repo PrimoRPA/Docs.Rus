@@ -7,7 +7,11 @@
 В терминале ОС выполняем:
 ```
 # sudo apt install openssh-server
+```
+```
 # sudo systemctl start ssh
+```
+```
 # sudo systemctl enable ssh
 ```
 Смотрим IP, назначенный машине Primo RPA AI Server:
@@ -38,7 +42,11 @@
 Назначаем права доступа к папке:
 ```
 # sudo chmod -R 0755 /srv/samba/shared
+```
+```
 # sudo chown -R nobody:nobody /srv/samba/shared
+```
+```
 # sudo chcon -t samba_share_t /srv/samba/shared
 ```
 
@@ -85,6 +93,8 @@ directory mode = 0777
 Запускаем службу:
 ```
 # sudo systemctl start smbd
+```
+```
 # sudo systemctl enable smbd
 ```
 
