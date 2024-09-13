@@ -84,8 +84,14 @@
 Разверните файлы агента на целевой машине (файл `Agent-linux.zip` должен находиться в каталоге `/srv/samba/shared/install`): 
 ```
 # sudo mkdir -p /app/Primo.AI /app/Primo.AI/Agent /app/Primo.AI/AgentData 
+```
+```
 # sudo unzip /srv/samba/shared/install/Agent-linux.zip -d /app/Primo.AI/Agent
+```
+```
 # sudo chmod -R 771 /app/Primo.AI/Agent /app/Primo.AI/AgentData
+```
+```
 # sudo chown -R agent:primo-ai /app/Primo.AI/Agent /app/Primo.AI/AgentData /app/Primo.AI/Agent
 ```
 
@@ -97,7 +103,11 @@
 Установите агент как службу и настройте автозапуск:
 ```
 # sudo cp /app/Primo.AI/Agent/Primo.AI.Agent.service /etc/systemd/system/
+```
+```
 # sudo systemctl daemon-reload
+```
+```
 # sudo systemctl enable /etc/systemd/system/Primo.AI.Agent.service
 ```
 
@@ -165,20 +175,30 @@
 Разверните файлы IDP на целевой машине (файл `A-IDP.zip` должен находиться в каталоге `/srv/samba/shared/install`):
 ```
 # sudo mkdir -p /app/Primo.AI/IDP 
+```
+```
 # sudo unzip /srv/samba/shared/install/A-IDP.zip -d /app/Primo.AI/IDP
+```
+```
 # sudo chmod -R 777 /app/Primo.AI/IDP
 ```
 
 Установите библиотеки python3, tesseract и другие пакеты:
 ```
 # sudo apt install software-properties-common -y
+```
+```
 # sudo add-apt-repository ppa:deadsnakes/ppa
+```
+```
 # sudo apt-get update | sudo apt install python3.11 python3.11-venv python3.11-dev libsm6 libxext6 build-essential libssl-dev libffi-dev ffmpeg -y
 ```
 
 Создайте и активируйте виртуальную среду venv:
 ```
 # python3.11 -m venv /app/Primo.AI/IDP/venv
+```
+```
 # source /app/Primo.AI/IDP/venv/bin/activate
 ```
 
@@ -190,17 +210,23 @@
 *	Если для IDP-процесса будет использоваться CPU:
 ```
 # pip3 install -r /app/Primo.AI/IDP/prequisites_cpu.txt
+```
+```
 # pip3 install -r /app/Primo.AI/IDP/requirements_cpu.txt
 ```
 *	Если для IDP-процесса будет использоваться GPU:
 ```
 # pip3 install -r /app/Primo.AI/IDP/prequisites.txt	
+```
+```	
 # pip3 install -r /app/Primo.AI/IDP/requirements.txt
 ```
 
 Произведите финальную раздачу прав IDP:
 ```
 # sudo chmod -R 771 /app/Primo.AI/IDP
+```
+```
 # sudo chown -R agent:primo-ai /app/Primo.AI/IDP
 ```
 
@@ -213,11 +239,15 @@
 Создайте временный каталог `pyenv` и переместитесь туда: 
 ```
 # mkdir /tmp/pyenv
+```
+```
 # cd /tmp/pyenv 
 ```
 Скопируйте во временный каталог файлы pyenv из комплекта поставки (файл `B-pyenv.zip` должен находиться в каталоге `/srv/samba/shared/install`): 
 ```
 # sudo unzip /srv/samba/shared/install/B-pyenv.zip .
+```
+```
 # sudo chmod -R 771 .
 ```
 
@@ -248,6 +278,8 @@
 Распакуйте архив с IDP в каталог `/app/Primo.AI/IDP` (файл `B-IDP.zip` должен находиться в каталоге `/srv/samba/shared/install`):
 ```
 # sudo unzip /srv/samba/shared/install/B-IDP.zip 
+```
+```
 # sudo chmod -R 771 /app/Primo.AI/IDP
 ```
 
@@ -259,6 +291,8 @@
 Раздайте права на IDP:
 ```
 # sudo chmod -R 771 /app/Primo.AI/IDP
+```
+```
 # sudo chown -R agent:primo-ai /app/Primo.AI/IDP
 ```
 Удалите установочные файлы: 
