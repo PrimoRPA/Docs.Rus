@@ -93,6 +93,7 @@
 ## Где найти
 
 [**Скачать Primo RPA Studio**](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FRelease%2FStudio)
+
 [**Скачать Primo RPA Robot**](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FRelease%2FRobot). 
 
 
