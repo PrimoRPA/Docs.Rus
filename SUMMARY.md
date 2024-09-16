@@ -4,8 +4,6 @@
 * [Что нового](release-notes/README.md)
   * [Studio Windows](release-notes/studio/README.md)
     * [Студия 1.24.8](release-notes/studio/studio-1.24.8.md)
-    * [Студия 1.24.6.17 LTS](release-notes/studio/studio-1.24.6.17.md)
-    * [Студия 1.24.6.13 LTS](release-notes/studio/studio-1.24.6.13-LTS.md)
     * [Студия 1.24.6](release-notes/studio/studio-1.24.6.md)
     * [Студия 1.24.4](release-notes/studio/studio-1.24.4.md)
     * [Студия 1.24.2](release-notes/studio/studio-1.24.2.md)
