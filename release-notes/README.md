@@ -5,3 +5,4 @@
 * [Изменения в Primo RPA Studio для Windows](https://docs.primo-rpa.ru/primo-rpa/release-notes/studio);
 * [Изменения в Primo RPA Studio для Linux](https://docs.primo-rpa.ru/primo-rpa/release-notes/studio-linux);
 * [Изменения в Primo RPA Orchestrator](https://docs.primo-rpa.ru/primo-rpa/release-notes/orch).
+* [Изменения в Primo RPA AI Server](https://docs.primo-rpa.ru/primo-rpa/release-notes/ai-server).
