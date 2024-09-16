@@ -8,7 +8,7 @@
 - для разметки документов;
 - для обучения моделей и мониторинга;
 - для использования обученных моделей;
-- реализована библиотека [Primo.AI.Server](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server), которую можно установить в Primo RPA Studio (Windows) для работы с умным OCR.
+- реализована библиотека [Primo.AI.Server](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server), которую можно установить в Primo RPA Studio для работы с умным OCR.
 
 Умный OCR позволяет:
 - Классифицировать документы по типам.
