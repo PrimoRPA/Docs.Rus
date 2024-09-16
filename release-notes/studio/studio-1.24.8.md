@@ -89,10 +89,13 @@
 
 Исправлена ошибка, при которой пользовательские настройки расписания в Robot Runner не учитывались. Теперь робот выполняется строго по заданному расписанию.
 
+Также предлагаем ознакомиться с изменениями для версий приложений:
+  - [Primo RPA Studio Windows 1.24.6.17 (LTS)](https://github.com/PrimoRPA/Docs.Rus/blob/main/release-notes/studio/studio-1.24.6.17.md)
+  - [Primo RPA Studio 1.24.6.13 (LTS)](https://github.com/PrimoRPA/Docs.Rus/blob/main/release-notes/studio/studio-1.24.6.13-LTS.md)
+
 ## Где найти
 
 [**Скачать Primo RPA Studio**](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FRelease%2FStudio)
-
 
 [**Скачать Primo RPA Robot**](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FRelease%2FRobot). 
 
