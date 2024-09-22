@@ -4,7 +4,7 @@ Description: Activate tab
 
 # Активировать вкладку браузера
 
-![](<../../../../.gitbook/assets1/studio-linux-elements-basic/browser-tab-activate-activity.png>)
+![](<../../../.gitbook/assets1/studio-linux-elements-basic/browser-tab-activate-activity.png>)
 
 Элемент предназначен для активации указанной вкладки браузера. Он работает корректно в следующих случаях:
 - Внутри контейнеров «Открыть браузер» и «Присоединиться к браузеру».
