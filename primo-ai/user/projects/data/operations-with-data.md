@@ -11,6 +11,7 @@
 
 :large_blue_diamond:***Примечание**. Роль пользователя должна иметь права «Проект — Просмотр, Создание».*
 
+1. Изучите [требования к формату и качеству изображений](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/other/dataset-quality-requirements).
 1. Находясь в выбранном проекте, перейдите на страницу **Данные**.
 
    ![Страница «Данные»](<../../../../.gitbook/assets1/primo-ai/user-guide/data-in-project.png>)
@@ -25,8 +26,7 @@
 
 ## Добавить изображения архивом
 
-:large_blue_diamond:***Примечание**. Роль пользователя должна иметь права «Проект — Просмотр, Создание».*
-
+1. Изучите [требования к формату и качеству изображений](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/other/dataset-quality-requirements).
 1. Перейдите на страницу **Данные** и нажмите кнопку **Загрузить архив**.
 
    ![Кнопка «Загрузить архив»](<../../../../.gitbook/assets1/primo-ai/user-guide/data-button-addarchive.png>)
