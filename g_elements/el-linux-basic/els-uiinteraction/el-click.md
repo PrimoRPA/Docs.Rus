@@ -1,8 +1,14 @@
+---
+Description: Mouse click
+---
+
 # Клик мышью
 
-![](../../../../.gitbook/assets1/studio-linux-elements-basic/mouse-click-activity.png>)
+![](../../../.gitbook/assets1/studio-linux-elements-basic/mouse-click-activity.png)
 
 Производит клик мышью на выбранном элементе управления.
+
+> Для работы данного элемента необходимо установленное браузерное расширение версии 3.68 (1.68) и выше.
 
 ## Свойства
 Символ `*` в названии свойства указывает на обязательность. 
