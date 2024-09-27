@@ -43,7 +43,7 @@
     * [Оркестратор 2.2.15](release-notes/orch/2.2.15.0.md)
   * [AI Server](release-notes/ai-server/README.md)
     * [AI Server 1.24.8](release-notes/ai-server/ai-server-1.24.8.md)
-  * [AutoDoc]
+  * [AutoDoc](release-notes/autodoc/readme.md)
     * [AutoDoc 1.24.10](release-notes/autodoc/autodoc-1.24.10.md)
 * [Лицензии](licenses.md)
 * [Полезные ресурсы](useful-links.md)
