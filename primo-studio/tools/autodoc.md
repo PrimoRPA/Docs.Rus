@@ -45,7 +45,7 @@ PrimoAutodoc.exe -i D:\Primo\PrimoProjects\HR001_Small -o D:\Primo\Docum -t D:\P
 - *Docum* — выходная папка, в которой будет создан файл Proj_HR001_Small.html с документацией.
 - *Templates* — папка с шаблонами для документации (необязательно).
 
-   ![](../../../.gitbook/assets1/autodoc2.png) 
+   ![](../../.gitbook/assets1/autodoc2.png) 
 
 ## Описание файлов и шаблонов
 В папке Resources содержатся настроечные файлы и шаблоны, используемые для генерации документации.
