@@ -1,6 +1,6 @@
 #  AutoDoc 1.24.10
 
-Релизные заметки для AutoDocС публикуются впервые. Полная информация о функционале Автодок (AutoDoc) доступна по [ссылке](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio/tools/autodoc)
+Релизные заметки для AutoDoc публикуются впервые. Полная информация о функционале Автодок (AutoDoc) доступна по [ссылке](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio/tools/autodoc)
 
 ## Улучшения и обновления в версии AutoDoc 1.24.10
 
