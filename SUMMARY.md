@@ -99,6 +99,7 @@
   * [To Do](primo-studio/projects/todo.md)
   * [Запись сценария](primo-studio/process/recording.md)
 * [Инструменты](primo-studio/tools/README.md)
+  * [Autodoc](primo-studio/tools/autodoc.md)
   * [RDP](primo-studio/tools/rdp.md)
   * [Desktop Anywhere](primo-studio/tools/desktop-anywhere.md)
   * [Запись трафика](primo-studio/tools/capturetraffic.md)
