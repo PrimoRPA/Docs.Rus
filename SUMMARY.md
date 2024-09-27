@@ -43,6 +43,8 @@
     * [Оркестратор 2.2.15](release-notes/orch/2.2.15.0.md)
   * [AI Server](release-notes/ai-server/README.md)
     * [AI Server 1.24.8](release-notes/ai-server/ai-server-1.24.8.md)
+  * [AutoDoc]
+    * [AutoDoc 1.24.10](release-notes/autodoc/autodoc-1.24.10.md)
 * [Лицензии](licenses.md)
 * [Полезные ресурсы](useful-links.md)
 
@@ -99,7 +101,7 @@
   * [To Do](primo-studio/projects/todo.md)
   * [Запись сценария](primo-studio/process/recording.md)
 * [Инструменты](primo-studio/tools/README.md)
-  * [Autodoc](primo-studio/tools/autodoc.md)
+  * [AutoDoc](primo-studio/tools/autodoc.md)
   * [RDP](primo-studio/tools/rdp.md)
   * [Desktop Anywhere](primo-studio/tools/desktop-anywhere.md)
   * [Запись трафика](primo-studio/tools/capturetraffic.md)
