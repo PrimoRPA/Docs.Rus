@@ -533,6 +533,7 @@
     * [Выбрать элемент](g\_elements/el\_basic/els\_uiinteraction/el\_checked.md)
     * [Исчезновение элемента](g\_elements/el\_basic/els\_uiinteraction/el\_elementvanish.md)
     * [Клик мышью](g\_elements/el\_basic/els\_uiinteraction/el\_click.md)
+    * [Клик текста мышью](g\_elements/el\_basic/els\_uiinteraction/el\_clicktext.md)
     * [Перетаскивание](g\_elements/el\_basic/els\_uiinteraction/el\_dragdrop.md)
     * [Поиск Java Applet](g\_elements/el\_basic/els\_uiinteraction/el\_searchapplet.md)
     * [Получение списка](g\_elements/el\_basic/els\_uiinteraction/el\_getlist.md)
