@@ -34,9 +34,18 @@ description: Start application
 1. **Консоль** *[LTools.Desktop.Model.ConsoleApp]* — ссылка на консольное приложение.
 
 
+## Пример использования
+
+RPA-проект, демонстрирующий работу элемента, можно найти в нашем публичном репозитории [Learning](https://github.com/PrimoRPA/Learning).
+
+1. Скачайте архив со всеми обучающими материалами по ссылке: [Скачать архив Learning](https://github.com/PrimoRPA/Learning/archive/refs/heads/master.zip).
+2. Распакуйте архив и откройте в Студии проект **WorkWithExcelExample**.
+3. Элемент **Запустить макрос** находится в процессе `Main`, в контейнере **Приложение Excel Interop**.
+
+
 ## Только код
 
-
+Пример использования элемента в процессе с типом **Только код** (Pure code):
 
 {% tabs %}
 {% tab title="C#" %}
