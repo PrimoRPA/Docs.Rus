@@ -7,7 +7,7 @@
 
 1. Вывести на страницу с графиком "Оценка обучения" ссылку на документацию (https://azure-dos.s1.primo1.orch/PrimoCollection/AI/_boards/board/t/AI%20Team/Stories/?workitem=27052)
 1. Экспорт моделей (https://azure-dos.s1.primo1.orch/PrimoCollection/AI/_boards/board/t/AI%20Team/Stories/?workitem=25173)
-1. Добавить в таблицу "Целевых машин" столбец "Удерживает лицензию" (https://azure-dos.s1.primo1.orch/PrimoCollection/AI/_boards/board/t/AI%20Team/Stories/?workitem=27010)
+1. Появилась возможность просмотреть, занимает ли агент на определенной целевой машине лицензию. Для этого в таблице целевых машин добавился столбец **Удерживает лицензию**.
 
 
 
