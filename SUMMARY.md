@@ -24,6 +24,8 @@
   * [Studio Linux](release-notes/studio-linux/readme.md)
     * [Студия Линукс 1.24.10](release-notes/studio-linux/studio-linux-1.24.10.md)
     * [Студия Линукс 1.24.8](release-notes/studio-linux/studio-linux-1.24.8.md)
+		* [Студия Линукс 1.24.8.3](release-notes/studio-linux/studio-linux-1.24.8.3.md)
+		* [Студия Линукс 1.24.8.4](release-notes/studio-linux/studio-linux-1.24.8.4.md)
     * [Студия Линукс 1.24.6](release-notes/studio-linux/studio-linux-1.24.6.md)
     * [Студия Линукс 1.24.3](release-notes/studio-linux/studio-linux-1.24.3.md)
     * [Студия Линукс 1.24.1](release-notes/studio-linux/studio-linux-1.24.1.md)
