@@ -3,8 +3,8 @@
 Раздел содержит описание изменений для версии приложения **Primo RPA Studio Linux 1.24.8**, выпущенной в августе 2024 года. 
 
 Информацию по обновленным релизам версии 1.24.8 можно найти в статьях:
-   * [Студия Линукс 1.24.8.3](release-notes/studio-linux/studio-linux-1.24.8.3.md)
-   * [Студия Линукс 1.24.8.4](release-notes/studio-linux/studio-linux-1.24.8.4.md)
+   * [Студия Линукс 1.24.8.3](https://docs.primo-rpa.ru/primo-rpa/release-notes/studio-linux/studio-linux-1.24.8/studio-linux-1.24.8.3)
+   * [Студия Линукс 1.24.8.4](https://docs.primo-rpa.ru/primo-rpa/release-notes/studio-linux/studio-linux-1.24.8/studio-linux-1.24.8.4)
 
 
 ## Новые функции и улучшения
