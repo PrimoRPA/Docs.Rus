@@ -20,3 +20,9 @@
 1. Исправлена ошибка, из-за которой некоторые диаграммы из Студии для Windows не переносились на Linux (диаграммы не открывались, появлялось сообщение об ошибке).
 
 1. Восстановлена работа элемента **Рабочий стол: Присутствие элемента**.
+
+## Где найти 
+
+[Скачать дистрибутив Primo RPA Studio Linux](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FRelease%2FStudio)
+
+[Скачать дистрибутив Primo RPA Robot](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FRelease%2FRobot)
