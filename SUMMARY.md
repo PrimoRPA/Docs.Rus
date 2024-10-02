@@ -49,6 +49,9 @@
   * [AutoDoc](release-notes/autodoc/readme.md)
     * [AutoDoc 1.24.10](release-notes/autodoc/autodoc-1.24.10.md)
   * [NuGet-пакеты](release-notes/packages/README.md)
+    * [Linux](release-notes/packages/linux/README.md)
+      * [Primo.Office.OdfOxml.Linux](release-notes/packages/linux/office-odfoxml/README.md)
+        * [1.2.4](release-notes/packages/linux/office-odfoxml/office-odfoxml-linux-1.2.4.md)
 * [Лицензии](licenses.md)
 * [Полезные ресурсы](useful-links.md)
 
