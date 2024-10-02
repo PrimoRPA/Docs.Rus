@@ -48,8 +48,13 @@
     * [AI Server 1.24.8](release-notes/ai-server/ai-server-1.24.8.md)
   * [AutoDoc](release-notes/autodoc/readme.md)
     * [AutoDoc 1.24.10](release-notes/autodoc/autodoc-1.24.10.md)
+  * [NuGet-пакеты](release-notes/packages/README.md)
+    * [Primo.Office.OdfOxml.Linux 1.2.4](release-notes/packages/office-odfoxml-linux-1.2.4.md)
 * [Лицензии](licenses.md)
 * [Полезные ресурсы](useful-links.md)
+
+
+
 
 ## Primo RPA Studio
 
