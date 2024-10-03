@@ -45,8 +45,8 @@ description: Start application
 RPA-проект, демонстрирующий работу элемента, можно найти в нашем публичном репозитории [Learning](https://github.com/PrimoRPA/Learning).
 
 1. Скачайте архив со всеми обучающими материалами по ссылке: [Скачать архив Learning](https://github.com/PrimoRPA/Learning/archive/refs/heads/master.zip).
-2. Распакуйте архив и откройте в Студии проект **WorkWithExcelExample**.
-3. Элемент **Запустить макрос** находится в процессе `Main`, в контейнере **Приложение Excel Interop**.
+2. Распакуйте архив и откройте в Студии проект **StudioActivities**.
+3. Откройте процесс **Ru > Рабочий стол > Запустить приложение.ltw** для просмотра.
 
 
 ## Только код
