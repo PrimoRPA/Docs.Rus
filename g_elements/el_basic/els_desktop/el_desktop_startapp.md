@@ -14,7 +14,7 @@ description: Start application
 
 **Desktop Anywhere**:
 
-> Свойства этой группы предназначены для запуска приложения удаленного рабочего стола с использованием утилиты [Desktop Anywhere](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio/tools/desktop-anywhere).
+> Свойства этой группы заполняются в случае, если вы хотите запустить приложение удаленного рабочего стола с использованием утилиты [Desktop Anywhere](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio/tools/desktop-anywhere). 
 
 1. **Адрес** *[String]* — адрес сервиса.
 1. **Логин** *[String]* — логин сервиса.
@@ -27,7 +27,7 @@ description: Start application
 1. **Тип автоматизации** *[LTools.Desktop.Model.DesktopTypes]* — тип используемой автоматизации при взаимодействии с приложением. Доступные значения:
    * `UIAUTOMATION` — значение по умолчанию. Современная технология автоматизации для взаимодействия с приложениями, которые работают по правилам Win32.
    * `UIAUTOMATION_UAI` — рекомендуется использовать в случае, если в режиме UIAUTOMATION не удается получить доступ к нужному приложению.
-   * `MSAA` — библиотека Microsoft Active Accessibility. Имеет больше ограничений, чем UIAUTOMATION, поскольку является устаревшей технологией. 
+   * `MSAA` — устаревшая технология Microsoft Active Accessibility. Имеет больше ограничений, чем UIAUTOMATION. 
    * `RDP` — для взаимодействия с приложениями удаленного рабочего стола по протоколу RDP.
    * `JAVA` — для взаимодействия с Java-приложениями.
    * `JAVA_EXT` — для более глубокого взаимодействия с Java-приложениями, 
