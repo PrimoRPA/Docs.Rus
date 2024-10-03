@@ -14,7 +14,7 @@ description: Start application
 
 **Desktop Anywhere**:
 
-Группа свойств для взаимодействия с приложением удаленного рабочего стола через утилиту [Desktop Anywhere](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio/tools/desktop-anywhere).
+Группа свойств предназначена для взаимодействия с приложением удаленного рабочего стола через утилиту [Desktop Anywhere](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio/tools/desktop-anywhere).
 
 1. **Адрес** *[String]* — адрес сервиса.
 1. **Логин** *[String]* — логин сервиса.
