@@ -1,6 +1,6 @@
 # AI.Server
 
-Библиотека **Primo.AI.Server** реализована для взаимодействия с решением Primo RPA AI Server. Библиотека содержит набор элементов для разработки RPA-проекта, ключевой задачей которого является получение результатов распознавания новых изображений обученной моделью. 
+Библиотека **Primo.AI.Server** реализована для взаимодействия с решением Primo RPA AI Server. Библиотека содержит набор элементов для разработки RPA-проекта, ключевой задачей которого является получение результатов распознавания данных в изображениях с помощью обученной модели. 
 
 В библиотеку входят элементы:
 * [Сервер Primo.AI](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/primoaiserver) — производит подключение к Primo RPA AI Server, а также выполняет роль контейнера для других элементов из библиотеки Primo.AI.Server.
@@ -8,14 +8,18 @@
 * [Получить результат](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/getresult) — получает от Primo RPA AI Server результат распознавания документа обученной моделью нейронной сети.
 * [Проверить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/validatedoc) — производит валидацию распознанных данных и позволяет скорректировать их.
 
-Данный набор элементов будет доступен в Студии только после [установки библиотеки](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects/manage-dependencies#menedzher-zavisimostei) **Primo.AI.Server**. Вы сможете увидеть их на панели элементов в группе **AI**.
+Данные элементы станут доступными при условии, что в Студии [установлены](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects/manage-dependencies#menedzher-zavisimostei) следующие зависимости:
+1. NuGet-пакет **System.Drawing.Common** версии 8.0.7.
+1. NuGet-пакет **Primo.AI.Server**. 
+
+Набор элементов для взаимодействия с AI Server появится в группе **AI** на панели элементов:
 
 ![](<../../../.gitbook/assets1/windows_items/library/ai-server-group.png>)
 
 
 ## Порядок применения элементов
 
-Процесс, разработанный с помощью элементов библиотеки **Primo.AI.Server**, может выглядеть так:
+Процесс, разработанный с помощью элементов из пакета **Primo.AI.Server**, может выглядеть так:
 
 ![](<../../../.gitbook/assets1/windows_items/rpa-flow-for-server-ai.png>)
 
