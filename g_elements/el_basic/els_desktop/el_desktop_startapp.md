@@ -14,7 +14,7 @@ description: Start application
 
 **Desktop Anywhere**:
 
-> Свойства этой группы предназначены для запуска приложения удаленного рабочего стола через утилиту [Desktop Anywhere](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio/tools/desktop-anywhere).
+> Свойства этой группы предназначены для запуска приложения удаленного рабочего стола с использованием утилиты [Desktop Anywhere](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio/tools/desktop-anywhere).
 
 1. **Адрес** *[String]* — адрес сервиса.
 1. **Логин** *[String]* — логин сервиса.
