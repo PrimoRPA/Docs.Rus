@@ -44,8 +44,3 @@
 Primo.Robot.exe instantStart exitOnSuccess noOrchestrator logType=Csv "seqPath=C:\Work\Project\Sequence.ltw" "projPath=C:\Work\Project" engver=v2 
 ```
 
-Иногда при запуске Primo RPA Robot через командную строку может возникать следующая ошибка, которая будет устранена в ближайших релизах:
-
-"Не удается загрузить удостоверение сертификата X.509, указанное в конфигурации."
-
-![](<../../.gitbook/assets1/x509.png>)
