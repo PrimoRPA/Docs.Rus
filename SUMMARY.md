@@ -131,7 +131,7 @@
   * [Системные требования](primo-studio-linux/studio-linux-sysreq.md)
   * [Astra Linux](primo-studio-linux/installation/installation-astra/readme.md)
     * [Перечень необходимых пакетов](primo-studio-linux/installation/installation-astra/libs-astra.md)
-    * [Установка Studio Linux на Astra Linux](primo-studio-linux/installation/installation-astra/install-astra-v3.md)
+    * [Установка Studio Linux на Astra Linux](primo-studio-linux/installation/installation-astra/install-astra.md)
     * [Настройка машины робота на Astra Linux](primo-studio-linux/installation/installation-astra/install-robot-astra.md)
   * [РЕД ОС](primo-studio-linux/installation/installation-redos/readme.md)
     * [Установка Studio Linux на РЕД ОС](primo-studio-linux/installation/installation-redos/install-redos.md)
