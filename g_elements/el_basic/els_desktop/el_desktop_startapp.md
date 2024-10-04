@@ -76,3 +76,6 @@ _lib.LTools.Desktop.DesktopApp.Start(wf, "calc", null, "c:\\", _lib.LTools.Deskt
 ```
 {% endtab %}
 {% endtabs %}
+
+## См. также
+* [Уничтожить процесс](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_desktop/el_desktop_kill)
