@@ -2,7 +2,10 @@
 
 ![](<../../../.gitbook/assets/image (493) (1) (1).png>)
 
-Производит клик мышью на выбранном элементе управления.
+Производит клик мышью на выбранном элементе управления приложения рабочего стола или веб-приложения. Для корректной работы следует поместить данный элемент в один из следующих контейнеров:
+* [Присоединиться к приложению](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_desktop/el_desktop_attach) — для взаимодействия с элементами управления приложения рабочего стола.
+* [Открыть браузер](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_browser/el_browser_open) или [Присоединиться к браузеру](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_browser/el_browser_attach) — для взаимодействия с элементами управления веб-приложения.
+
 
 ## Свойства
 Символ `*` в названии свойства указывает на обязательность. Описание общих свойств элемента см. [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
