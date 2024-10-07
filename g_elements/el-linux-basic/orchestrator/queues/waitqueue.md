@@ -4,7 +4,7 @@ Description: Wait queue
 
 # Ожидать сообщения из очереди
 
-![](../../../.gitbook/assets1/studio-linux-elements-basic/wait-queue.png)
+![](../../../../.gitbook/assets1/studio-linux-elements-basic/wait-queue.png)
 
 Компонент ожидает появление нового элемента в [очереди обмена данных](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/data-queues). При появлении элемента, робот извлечет его из очереди Оркестратора и сохранит в переменную. Извлеченный элемент перейдет из состояния New в InProgress. Это означает, что он будет доступен вашему роботу для дальнейшей обработки в рамках сценария автоматизации. Подробнее о статусах элемента см. [здесь](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/data-queues/items#statusy-elementa).
 
