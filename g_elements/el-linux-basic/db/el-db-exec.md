@@ -72,24 +72,55 @@ Description: Execute query
 {% tabs %}
 {% tab title="C#" %}
 ```csharp
-LTools.Database.DatabaseApp app = LTools.Database.DatabaseApp.Init(wf, "Provider=SQLOLEDB;Data Source=<servername>;Initial Catalog=<dbname>;Integrated Security=SSPI");
-List<List<string>> data = app.Execute("SELECT * FROM Table1", true);
-System.Data.DataTable tbl = app.ExecuteQueryTbl("SELECT * FROM Table1");
+var connectionString = "Provider=SQLOLEDB;Data Source=<servername>;Initial Catalog=<dbname>;Integrated Security=SSPI";
+var databaseType = LTools.Database.Model.DatabaseTypes.OleDB;
+
+LTools.Database.DatabaseApp app = LTools.Database.DatabaseApp.Init(wf, connectionString, databaseType);
+
+var query = "SELECT * FROM Table1";
+var isMakeResult = true;
+LTools.Database.Model.ArgumentsModel arguments = null;
+var timeout = 10000;
+
+List<List<string>> data = app.Execute(query, isMakeResultisMakeResult, arguments, timeout);
 ```
 {% endtab %}
 
 {% tab title="Python" %}
 ```python
-app = LTools.Database.DatabaseApp.Init(wf, "Provider=SQLOLEDB;Data Source=<servername>;Initial Catalog=<dbname>;Integrated Security=SSPI")
-data = app.Execute("SELECT * FROM Table1", True)
-tbl = app.ExecuteQueryTbl("SELECT * FROM Table1")
+connectionString = "Provider=SQLOLEDB;Data Source=<servername>;Initial Catalog=<dbname>;Integrated Security=SSPI";
+databaseType = LTools.Database.Model.DatabaseTypes.OleDB;
+
+app = LTools.Database.DatabaseApp.Init(wf, connectionString, databaseType)
+
+query = "SELECT * FROM Table1";
+isMakeResult = true;
+arguments = None;
+timeout = 10000;
+
+data = app.Execute(query, isMakeResultisMakeResult, arguments, timeout);
 ```
 {% endtab %}
 
 {% tab title="JavaScript" %}
 ```javascript
-var app = _lib.LTools.Database.DatabaseApp.Init(wf, "Provider=SQLOLEDB;Data Source=<servername>;Initial Catalog=<dbname>;Integrated Security=SSPI");
-var data = app.Execute("SELECT * FROM Table1", true);
+var connectionString = "Provider=SQLOLEDB;Data Source=<servername>;Initial Catalog=<dbname>;Integrated Security=SSPI";
+var databaseType = LTools.Database.Model.DatabaseTypes.OleDB;
+
+var app = _lib.LTools.Database.DatabaseApp.Init(wf, connectionString, databaseType);
+
+var query = "SELECT * FROM Table1";
+var isMakeResult = true;
+var arguments = Null;
+var timeout = 10000;
+
+var data = app.Execute(query, isMakeResultisMakeResult, arguments, timeout);
+```
+{% endtab %}
+{% endtabs %}
+
+
+
 var tbl = app.ExecuteQueryTbl("SELECT * FROM Table1");
 ```
 {% endtab %}
