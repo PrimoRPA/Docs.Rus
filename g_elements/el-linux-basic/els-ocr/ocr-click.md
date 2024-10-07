@@ -1,6 +1,6 @@
 # Клик изображения мышью
 
-![](../../.gitbook/assets1/studio-linux-elements-basic/ocr-mouse-click.PNG)
+![](../../../.gitbook/assets1/studio-linux-elements-basic/ocr-mouse-click.PNG)
 
 Компонент, производящий клик мышью на заданном изображении.
 
