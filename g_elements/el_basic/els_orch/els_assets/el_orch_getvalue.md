@@ -6,23 +6,25 @@ description: Get asset
 
 ![Внешний вид элемента](<../../../../.gitbook/assets1/windows_items/WFGetAsset.png>)
 
-Элемент позволяет получить [ресурс](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) из Оркестратора. Поиск ресурса осуществляется по его названию. Робот может запросить ресурс с типом данных:
-* String;
-* Integer;
-* Floating;
-* Boolean;
-* DateTime;
-* JObject (для JSON).
+Элемент позволяет получить [ресурс](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) из Оркестратора. Поиск ресурса осуществляется по его названию. Поддерживается работа с ресурсами следующих типов данных:
+* String
+* Integer
+* Floating
+* Boolean
+* DateTime
+* JObject (для JSON)
 
-:large_orange_diamond: ***Чтобы получить ресурс с типом Credentials, используйте элемент [Получить учетные данные](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_assets/el_orch_getcredentials).***
+Полученный ресурс робот сохранит в переменную с типом данных `System.Object`, название которой указывается в свойстве **Результат**.
 
-Полученный ресурс будет сохранен в переменную с типом данных System.Object, название которой следует указать в свойстве **Результат**.
+> **Примечание**.
+> 1. До версии 1.24.6 элемент **Получить ресурс** назывался **Получить значение**.
+> 2. Чтобы получить ресурс с типом Credentials, используйте элемент [Получить учетные данные](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_assets/el_orch_getcredentials).
 
 
 ## Начальные условия
 
 * Установлено [подключение](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings#orkestrator) Студии к Оркестратору.
-* В Оркестраторе создан ресурс указанного типа.
+* В Оркестраторе создан ресурс поддерживаемого типа данных.
 
 
 ## Свойства
@@ -42,7 +44,7 @@ description: Get asset
 
 ## Пример использования
 
-:large_blue_diamond:***Примечание**. До версии 1.24.6 элемент назывался **Получить значение**.*
+
 
 Пример использования элемента **Получить ресурс** доступен в нашем публичном репозитории [Learning](https://github.com/PrimoRPA/Learning).
 
