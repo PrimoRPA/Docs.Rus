@@ -4,7 +4,7 @@ description: Set asset
 
 # Установить ресурс
 
-![Внешний вид элемента](<../../../../.gitbook/assets1/windows_items/WFSetAsset.png>)
+![](<../../../../.gitbook/assets1/windows_items/WFSetAsset.png>)
 
 Элемент обращается в Оркестратор, чтобы установить новое значение [ресурсу](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets). В свойствах элемента необходимо указать название искомого ресурса и его новое значение. 
 
@@ -16,10 +16,10 @@ description: Set asset
 * DateTime
 * JObject (для JSON)
 
-:large_orange_diamond: ***Чтобы изменить значение ресурса с типом Credentials, используйте элемент [Установить учетные данные](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_assets/el_orch_setcredentials).***
 
-
-> **Примечание**. До версии 1.24.6 элемент **Установить ресурс** назывался **Установить значение**.
+> **Примечание**.
+> 1. До версии 1.24.6 элемент **Установить ресурс** назывался **Установить значение**.
+> 2. Чтобы изменить значение ресурса с типом Credentials, используйте элемент [Установить учетные данные](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_assets/el_orch_setcredentials).
 
 
 ## Начальные условия
