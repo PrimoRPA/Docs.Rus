@@ -14,12 +14,16 @@ Description: OCR Find image
 
 Символ `*` в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
 
-1. **Искомое изображение** *[[System.Drawing.Bitmap](https://learn.microsoft.com/ru-ru/dotnet/api/system.drawing.bitmap?redirectedfrom=MSDN&view=netframework-4.8)]* - Растр искомого изображения.
+**OCR**
+1. **Искомое изображение** *[[SixLabors.ImageSharp.Image](https://docs.sixlabors.com/api/ImageSharp/SixLabors.ImageSharp.Image.html)]* - Растр искомого изображения.
+1. **Таймаут\*** *[Int32]* - Предельное время ожидания завершения процесса (мс).
 1. **Точность** *[[Double](https://learn.microsoft.com/ru-ru/dotnet/api/system.double?view=net-5.0&viewFallbackFrom=windowsdesktop-3.0)]* - Точность совпадения растра (% от 0 до 1).
 1. **Ядро** *[Open/External]* - Тип ядра разбора.
+
+**Прочее**
 1. **Координаты** *[[System.Drawing.Rectangle](https://learn.microsoft.com/ru-ru/dotnet/api/system.drawing.rectangle?view=netcore-3.0)]* - Координаты найденного изображения.
 1. **Результат** *[[System.Boolean](https://learn.microsoft.com/ru-ru/dotnet/api/system.boolean?view=net-5.0)]* - Результат поиска изображения.
-1. **Таймаут\*** *[Int32]* - Предельное время ожидания завершения процесса (мс).
+
 
 ## Только код
 
