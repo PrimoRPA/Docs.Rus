@@ -1,10 +1,10 @@
 ---
-description: MS Exchange
+Description: MS Exchange
 ---
 
 # Сервер MS Exchange
 
-![](../../../../resources/activities/basic/mail/exchange/attach-exchange-activity.png)
+![](../../../../.gitbook/assets1/studio-linux-elements-basic/attach-exchange-activity.png)
 
 Элемент производит подключение к серверу Microsoft Exchange и позволяет роботу взаимодействовать с ним для выполнения операций с электронной почтой.
 
