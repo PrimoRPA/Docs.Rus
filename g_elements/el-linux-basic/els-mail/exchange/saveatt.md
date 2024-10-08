@@ -4,7 +4,7 @@ Description: Save attachment
 
 # Сохранить вложение
 
-![](../../../../resources/activities/basic/mail/exchange/exchange-save-attachment-activity.png)
+![](../../../../.gitbook/assets1/studio-linux-elements-basic/exchange-save-attachment-activity.png)
 
 Элемент позволяет сохранить вложение письма.
 
