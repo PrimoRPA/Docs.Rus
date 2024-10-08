@@ -4,7 +4,7 @@ Description: Insert
 
 # Вставка данных
 
-![](../../.gitbook/assets1/studio-linux-elements-basic/insert-data-activity,.png)
+![](../../../.gitbook/assets1/studio-linux-elements-basic/insert-data-activity,.png)
 
 Элемент производит вставку данных в указанную таблицу базы данных (БД).
 
