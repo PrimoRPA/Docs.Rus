@@ -4,7 +4,7 @@ Description: Receive mail (IMAP)
 
 # Получить письма (IMAP)
 
-![](../../../../.gitbook/assets1/studio-linux-elements-basic/receive-mails-imap-activity.png)
+![](../../../.gitbook/assets1/studio-linux-elements-basic/receive-mails-imap-activity.png)
 
 Элемент используется для получения почтовых сообщений по протоколу IMAP. Cвойства элемента представлены ниже.
 
