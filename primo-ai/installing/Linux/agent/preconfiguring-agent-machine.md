@@ -37,10 +37,12 @@
 
 | Файл            | Описание                              | Примечание   |
 | --------------- | ------------------------------------- | ------------ |
-| Agent-linux.zip | Дистрибутив агента	                  |  |
-| A-IDP.zip       | Дистрибутив IDP	 | Вариант установки А: <p> -	при наличии интернета; </p> <p> -	python 3.10+; </p><p> -	GNU C Library (glibc) версии 2.33 и выше </p> |
-| B-IDP.zip       | Дистрибутив IDP	 | Вариант установки Б – при невозможности выполнить вариант установки А |
-| B-pyenv.zip     | Вспомогательное ПО – pyenv со встроенным Python 3.11  | Вариант установки Б – при невозможности выполнить вариант установки А |
+| Agent-linux.zip | Дистрибутив агента	                  |              |
+| A-IDP.zip       | Дистрибутив IDP	 | Вариант установки A: <p> -	при наличии интернета; </p> <p> -	python 3.10+; </p><p> -	GNU C Library (glibc) версии 2.33 и выше </p> |
+| B-IDP.zip       | Дистрибутив IDP	 | Вариант установки B – при невозможности выполнить вариант установки A.  <p>Требует наличие менеджера пакетов apt.</p> |
+| B-pyenv.zip     | Вспомогательное ПО для варианта установки B | Содержит pyenv со встроенным Python 3.11 |
+| C-IDP.zip       | Дистрибутив IDP  | Вариант установки C – при невозможности выполнить вариант установки A и B. <p>Подходит для версии Astra Linux Special Edition 1.7 (базовой) amd64</p> |
+| C-pkgs.zip      | Вспомогательное ПО для варианта установки С | Содержит .deb-пакеты с Python 3.11, venv, ffmpeg, tesseract-ocr | 
 
 
 
@@ -166,9 +168,42 @@ sudo journalctl -u Primo.AI.Agent
 sudo ufw allow 5002/tcp
 ```
 
+### Установка Tesseract
+
+#### При наличии менеджера пакетов apt
+Проверьте наличие Tesseract версии 4.0.0+: 
+```
+sudo apt policy tesseract-ocr
+tesseract-ocr: 
+ Установлен:                   (отсутствует) 
+ Кандидат:   4.0.0-2~bpo9+1
+```
+
+Установите Tesseract:
+```
+sudo apt install tesseract-ocr
+```
+
+#### В отсутствие менеджера пакетов apt
+Создайте временную папку:
+```
+sudo mkdir -p install/idp-deps/tesseract-ocr
+```
+Распакуйте пакеты для Tesseract из варианта установки C: 
+```
+yes | sudo unzip /srv/share/C-pkgs.zip "tesseract-ocr/*" -d install/idp-deps/tesseract-ocr
+```
+Установите зависимости:
+```
+sudo dpkg -i install/idp-deps/tesseract-ocr/*.deb
+```
+Удалите временные файлы: 
+```
+sudo rm -r install/idp-deps/tesseract-ocr
+```
 
 ## IDP
-### Вариант установки А
+### Вариант установки A
 
 > Установка IDP при наличии в репозиториях apt целевой машины python3.10/3.11, выхода в интернет, а также GNU C Library (glibc) версии 2.33 и выше.
 
@@ -230,7 +265,7 @@ sudo chmod -R 771 /app/Primo.AI/IDP
 sudo chown -R agent:primo-ai /app/Primo.AI/IDP
 ```
 
-### Вариант установки Б
+### Вариант установки B
 
 > Используйте этот способ при отсутствии необходимых библиотек.
 
@@ -300,22 +335,112 @@ sudo chown -R agent:primo-ai /app/Primo.AI/IDP
 sudo rm -r /app/Primo.AI/IDP/idp-installer.sh /app/Primo.AI/IDP/venv.zip 
 ```
 
-#### Установка Tesseract
+### Вариант установки C
+Создайте временную папку с инсталляцией:
+```
+sudo mkdir -p install/idp-deps
+```
+Распакуйте архивы с зависимостями:
+```
+yes | sudo unzip /srv/samba/shared/install/C-pkgs.zip -d install/idp-deps
+```
+Последовательно установите зависимости:
+```
+sudo dpkg -i install/idp-deps/python3.11/*.deb
+```
+```
+sudo dpkg -i install/idp-deps/python3.11-venv/*.deb
+```
+```
+sudo dpkg -i install/idp-deps/python3.11-dev/*.deb
+```
+```
+sudo dpkg -i install/idp-deps/ffmpeg/*.deb
+```
 
-Проверьте наличие Tesseract версии 4.0.0+: 
+Проверьте, что python3.11 доступен для вызова:
 ```
-sudo apt policy tesseract-ocr
-tesseract-ocr: 
- Установлен:                   (отсутствует) 
- Кандидат:   4.0.0-2~bpo9+1
+which python3.11
+```
+> /usr/bin/python3.11 
+
+Удалите временные файлы: 
+```
+sudo rm -r install/idp-deps
 ```
 
-Установите Tesseract:
+Создайте папку с инсталляцией:
 ```
-sudo apt install tesseract-ocr
+sudo mkdir /app/Primo.AI/IDP
 ```
 
+Переместитесь в папку с инсталляцией
+```
+cd /app/Primo.AI/IDP
+```
+
+Распакуйте архив с IDP в каталог `/app/Primo.AI/IDP` (файл `C-IDP.zip` должен находиться в каталоге `/srv/samba/shared/install`):
+```
+sudo unzip /srv/samba/shared/install/C-IDP.zip 
+```
+
+Создайте виртуальное окружение:
+```
+python -m venv /app/Primo.AI/IDP/venv 
+```
+
+Разместите в виртуальном окружении зависимости:
+```
+yes | sudo unzip /app/Primo.AI/IDP/venv.zip -d /app/Primo.AI/IDP/venv/
+```
+
+Удалите временные файлы: 
+```
+sudo rm /app/Primo.AI/IDP/venv.zip
+```
+
+Раздайте права на IDP:
+```
+sudo chmod -R 771 /app/Primo.AI/IDP
+```
+```
+sudo chown -R agent:primo-ai /app/Primo.AI/IDP
+```
  
+#### Проверка работоспособности
+Создайте папку с тестовыми данными:
+```
+sudo mkdir -p install/idp-test
+```
+Распакуйте архивы с зависимостями:
+```
+yes | sudo unzip /srv/samba/shared/install/C-IDP-test.zip -d install/idp-test
+```
+Раздайте права:
+```
+sudo chown -R agent install/idp-test
+```
+```
+sudo chmod -R 777 install/idp-test
+```
+Запустите IDP-процесс на тестовых данных:
+```
+/app/Primo.AI/IDP/start-inference.sh install/idp-test/Config/snils/1/config.json
+```
+Проверьте, что IDP-процесс сформировал корректные логи:
+```
+cat /app/Primo.AI/IDP/output.log
+```
+> Manager initialized successfully 
+
+Теперь, когда IDP-модуль готов принимать изображения для распознавания, передайте ему тестовое изображение:
+```
+sudo cp install/idp-test/snils.jpg  install/idp-test/HotDir/snils/
+```
+Подождите немного, проверьте наличие файла с результатами:
+```
+cat install/idp-test/HotDir/snils/snils.jpg.result
+```
 
 ## Проверка настройки целевой машины
 
