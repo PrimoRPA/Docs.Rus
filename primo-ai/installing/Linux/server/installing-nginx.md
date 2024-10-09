@@ -1,15 +1,28 @@
 # Установка Nginx 
 
 1. Подключитесь к серверу по SSH с пользователем с правами root. 
-1. Установите Nginx одним из способов:
-   * через менеджер пакетов apt:
-     ```
-     sudo apt install nginx
-     ```
-   * из пакета поставки:
-     ```
-     sudo rpm -i nginx-1.16.0-1.el8.ngx.x86_64.rpm
-     ```
+
+### Если есть доступ к менеджеру пакетов apt.
+1.	Обновите список пакетов:
+    ```
+    sudo apt update
+    ```
+1.	Установите пакет nginx старшей доступной версии:
+    ```
+    sudo apt install nginx
+    ```
+
+### Если доступа к менеджеру пакетов apt нет.
+1.	Распакуйте во временную папку архив с Nginx.
+    ```
+    sudo unzip /srv/samba/shared/install/nginx.zip -d install/nginx
+    ```
+1.	Установите пакеты:
+    ```
+    sudo dpkg -i install/nginx/*.deb
+    ```
+
+### После установки службы
 1. Включите службу в автозагрузку:
    ```
    sudo systemctl enable nginx
