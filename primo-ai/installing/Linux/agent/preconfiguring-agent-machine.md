@@ -168,41 +168,20 @@ sudo journalctl -u Primo.AI.Agent
 sudo ufw allow 5002/tcp
 ```
 
-### Установка Tesseract
-
-#### При наличии менеджера пакетов apt
-Проверьте наличие Tesseract версии 4.0.0+: 
-```
-sudo apt policy tesseract-ocr
-tesseract-ocr: 
- Установлен:                   (отсутствует) 
- Кандидат:   4.0.0-2~bpo9+1
-```
-
-Установите Tesseract:
-```
-sudo apt install tesseract-ocr
-```
-
-#### В отсутствие менеджера пакетов apt
-Создайте временную папку:
-```
-sudo mkdir -p install/idp-deps/tesseract-ocr
-```
-Распакуйте пакеты для Tesseract из варианта установки C: 
-```
-yes | sudo unzip /srv/share/C-pkgs.zip "tesseract-ocr/*" -d install/idp-deps/tesseract-ocr
-```
-Установите зависимости:
-```
-sudo dpkg -i install/idp-deps/tesseract-ocr/*.deb
-```
-Удалите временные файлы: 
-```
-sudo rm -r install/idp-deps/tesseract-ocr
-```
-
 ## IDP
+
+### Выберите подходящий вариант установки IDP-ядра.
+
+**Вариант установки B** требует наличие менеджера пакетов apt с конкретными зависимостями в репозиториях, но содержит наименьшее число ручных действий.
+<details>
+  <summary>Список зависимостей варианта установки B.</summary>
+install make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libedit-dev libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
+</details>
+
+**Вариант установки C** подходит для "чистой" установки на ОС Astra Linux SE 1.7 (базовый). Это единственный вариант, который не требует менеджера пакетов apt с репозиториями.
+
+**Вариант установки A** требует наличия интернета, apt с конкретными зависимостями в репозиториях, а также GNU C Library (glibc) версии 2.33 для компиляции вспомогательных библиотек.
+
 ### Вариант установки A
 
 > Установка IDP при наличии в репозиториях apt целевой машины python3.10/3.11, выхода в интернет, а также GNU C Library (glibc) версии 2.33 и выше.
@@ -336,6 +315,7 @@ sudo rm -r /app/Primo.AI/IDP/idp-installer.sh /app/Primo.AI/IDP/venv.zip
 ```
 
 ### Вариант установки C
+
 Создайте временную папку с инсталляцией:
 ```
 sudo mkdir -p install/idp-deps
@@ -408,6 +388,9 @@ sudo chown -R agent:primo-ai /app/Primo.AI/IDP
 ```
  
 #### Проверка работоспособности
+
+> Переходите к этому шагу после установки Tesseract.
+
 Создайте папку с тестовыми данными:
 ```
 sudo mkdir -p install/idp-test
@@ -440,6 +423,41 @@ sudo cp install/idp-test/snils.jpg  install/idp-test/HotDir/snils/
 Подождите немного, проверьте наличие файла с результатами:
 ```
 cat install/idp-test/HotDir/snils/snils.jpg.result
+```
+
+
+### Установка Tesseract
+
+#### При наличии менеджера пакетов apt
+Проверьте наличие Tesseract версии 4.0.0+: 
+```
+sudo apt policy tesseract-ocr
+tesseract-ocr: 
+ Установлен:                   (отсутствует) 
+ Кандидат:   4.0.0-2~bpo9+1
+```
+
+Установите Tesseract:
+```
+sudo apt install tesseract-ocr
+```
+
+#### В отсутствие менеджера пакетов apt
+Создайте временную папку:
+```
+sudo mkdir -p install/idp-deps/tesseract-ocr
+```
+Распакуйте пакеты для Tesseract из варианта установки C: 
+```
+yes | sudo unzip /srv/share/C-pkgs.zip "tesseract-ocr/*" -d install/idp-deps/tesseract-ocr
+```
+Установите зависимости:
+```
+sudo dpkg -i install/idp-deps/tesseract-ocr/*.deb
+```
+Удалите временные файлы: 
+```
+sudo rm -r install/idp-deps/tesseract-ocr
 ```
 
 ## Проверка настройки целевой машины
