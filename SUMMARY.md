@@ -60,7 +60,7 @@
 
 ## Primo RPA Studio
 
-* [Общие сведения](primo-studio/common/README.md)
+* [Общие сведения](primo-studio/common/README.md) 
    * [Издания](primo-studio/common/editions.md)
 * [Установка и обновление](primo-studio/installation/README.md)
   * [Системные требования](primo-studio/installation/systemreq.md)
