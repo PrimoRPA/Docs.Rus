@@ -2,6 +2,7 @@
 
 ## Установка пакетов
 
+### Если есть доступ к менеджеру пакетов apt.
 1.	Обновите список пакетов:
     ```
     sudo apt update
@@ -16,6 +17,18 @@
     ```
     sudo apt install postgresql
     ```
+
+### Если доступа к менеджеру пакетов apt нет.
+1.	Распакуйте во временную папку архив с PostgreSQL.
+    ```
+    sudo unzip /srv/samba/shared/install/postgresql.zip -d install/postgresql
+    ```
+1.	Установите пакеты:
+    ```
+    sudo dpkg -i install/postgresql/*.deb
+    ```
+
+### После установки службы
 1.	Убедитесь, что служба postgresql запустилась:
     ```
     sudo systemctl status postgresql
@@ -29,7 +42,6 @@
          CGroup: /system.slice/postgresql.service
 	```
 ## Первичная настройка СУБД PostgreSQL 
-
 1.	Выполните вход в сессию служебного пользователя **postgres**:
     ```
     sudo su - postgres
