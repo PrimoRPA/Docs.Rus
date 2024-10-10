@@ -15,7 +15,7 @@
 ### Если доступа к менеджеру пакетов apt нет.
 1.	Распакуйте во временную папку архив с Nginx.
     ```
-    sudo unzip /srv/samba/shared/install/nginx.zip -d install/nginx
+    sudo unzip /srv/samba/shared/install/nginx/debs.zip -d install/nginx
     ```
 1.	Установите пакеты:
     ```
