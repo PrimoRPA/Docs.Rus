@@ -541,6 +541,7 @@
     * [Ввод текста](g\_elements/el\_basic/els\_uiinteraction/el\_inputtext.md)
     * [Выбор значения](g\_elements/el\_basic/els\_uiinteraction/el\_selectitem.md)
     * [Выбрать элемент](g\_elements/el\_basic/els\_uiinteraction/el\_checked.md)
+    * [Дочерние элементы](g\_elements/el\_basic/els\_uiinteraction/el\_find_children.md)
     * [Исчезновение элемента](g\_elements/el\_basic/els\_uiinteraction/el\_elementvanish.md)
     * [Клик мышью](g\_elements/el\_basic/els\_uiinteraction/el\_click.md)
     * [Клик текста мышью](g\_elements/el\_basic/els\_uiinteraction/el\_clicktext.md)
