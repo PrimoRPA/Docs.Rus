@@ -4,7 +4,7 @@
 
 Если RabbitMQ был установлен ранее, требуется удалить все очереди.
 
-### Если есть доступ к менеджеру пакетов apt.
+### Если есть доступ к менеджеру пакетов apt
 1. Обновите список пакетов:
    ```
    sudo apt update
@@ -18,8 +18,8 @@
    sudo apt install rabbitmq-server
    ```
 
-### Если доступа к менеджеру пакетов apt нет.
-1. Распакуйте во временную папку архив с конфигурациями и зависимостями RabbitMQ.
+### Если нет доступа к менеджеру пакетов apt
+1. Распакуйте во временную папку архив с конфигурациями и зависимостями RabbitMQ:
     ```
     sudo unzip /srv/samba/shared/install/rabbitmq/debs.zip -d install/rabbitmq
     ```
@@ -29,12 +29,12 @@
     ```
 
 ### После установки службы
-1. Убедитесь, что служба rabbitmq-server запустилась:
-   ```
-   systemctl status rabbitmq-server
-   ```
+Убедитесь, что служба rabbitmq-server запустилась:
+```
+systemctl status rabbitmq-server
+```
 
-   ![](<../../../../.gitbook/assets1/primo-ai/install/rabbit/rabbit-1.png>)
+![](<../../../../.gitbook/assets1/primo-ai/install/rabbit/rabbit-1.png>)
 
 
 ## Первичная настройка RabbitMQ
