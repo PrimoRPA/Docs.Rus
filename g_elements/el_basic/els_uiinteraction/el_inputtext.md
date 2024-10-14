@@ -6,11 +6,11 @@ description: Text input
 
 ![](<../../../.gitbook/assets/image (937).png>)
 
-Компонент вводит текст в элемент пользовательского интерфейса (UI). Инструмент ![](<../../../.gitbook/assets/image (794).png>) позволяет автоматически заполнить [шаблон поиска](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/searchpatterns) для нахождения UI-элемента.
+Компонент вводит текст в элемент пользовательского интерфейса (UI) в веб-приложении или приложении рабочего стола. На панели компонента есть инструмент ![](<../../../.gitbook/assets/image (794).png>), который позволяет автоматически заполнить [шаблон поиска](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/searchpatterns) для обнаружения UI-элемента.
 
 Особенности использования:
 * Если элемент управления относится к определенному приложению рабочего стола, то поместите **Ввод текста** в контейнер [Присоединиться к приложению](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/els_desktop/el_desktop_attach).
-* Если элемент управления относится к веб-приложению, то поместите **Ввод текста** в контейнер []() или 
+* Если элемент управления относится к веб-приложению, то поместите **Ввод текста** в контейнер [Открыть браузер](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_browser/el_browser_open) или [Присоединиться к браузеру](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_browser/el_browser_attach). 
 
 ## Свойства
 Обязательные для заполнения свойства отмечены символом `*`. Описание общих свойств элемента см. [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
