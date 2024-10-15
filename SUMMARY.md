@@ -1086,6 +1086,7 @@
     * [Предварительная настройка машины Оркестратора](orchestrator/setting-up-machines/linux/presetting-orch-machine.md)
     * [Настройка машины робота на CentOS 8](orchestrator/setting-up-machines/linux/robotmachine/README.md)
     * [Установка Агента Оркестратора](orchestrator/setting-up-machines/linux/robotmachine/agentinstall.md)
+    	* [Установка и настройка Агента версии 1.24.2.8 для Astra Linux 1.7](orchestrator/setting-up-machines/linux/robotmachine/agentinstall-1.24.8.2-astra.md)
 * [Варианты установки Оркестратора](orchestrator/quick-installation/README.md)
   * [Установка Оркестратора на веб-сервер IIS](orchestrator/quick-installation/IIS-web-server.md)
   * [Установка Оркестратора на веб-сервер Nginx](orchestrator/quick-installation/nginx-web-server.md)
