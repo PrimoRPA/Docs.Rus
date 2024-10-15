@@ -50,7 +50,7 @@
 | Шаг                                              | Примечание     |
 | ------------------------------------------------ | -------------- |
 | 1. Настройка машины робота                       | 1. См. [Настройка машины робота под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator/setting-up-machines/windows/robotmachine) <p>2. См. [Настройка машины робота под CentOS 8](https://docs.primo-rpa.ru/primo-rpa/orchestrator/setting-up-machines/linux/robotmachine) </p> |  
-| 2. Установка Agent на машине робота              | 1. См. [Установка Агента Оркестратора из инсталлятора под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator/setting-up-machines/windows/agentinstaller) или [Установка Агента без инсталлятора под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator/setting-up-machines/windows/appendix). <p> 2. См. [Установка Агента Оркестратора под CentOS 8](https://docs.primo-rpa.ru/primo-rpa/orchestrator/setting-up-machines/linux/agentinstall) </p> |  
+| 2. Установка Agent на машине робота              | 1. См. [Установка Агента Оркестратора из инсталлятора под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator/setting-up-machines/windows/agentinstaller) или [Установка Агента без инсталлятора под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator/setting-up-machines/windows/appendix). <p> 2. См. [Установка Агента Оркестратора под CentOS 8](https://docs.primo-rpa.ru/primo-rpa/orchestrator/setting-up-machines/linux/agentinstall), а также [Установка и настройка Агента версии 1.24.2.8 для Astra Linux 1.7](orchestrator/setting-up-machines/linux/robotmachine/agentinstall-1.24.8.2-astra.md) </p> |  
 
 
 ### Условия для корректной работы
