@@ -114,11 +114,11 @@ agent ALL = (%primo-rpa) NOPASSWD: /usr/bin/loginctl enable-linger *
 [primo-admin@astra-robot ~]$ sudo systemctl enable /etc/systemd/system/Primo.Orchestrator.Agent.service
 ```
 В конфигурационном файле `appsettings.ProdLinux.json` укажите адрес Оркестратора и TenantId (если эта машина не в тенанте по умолчанию) и пользователя из тенанта, а также адрес машины робота и режим запуска роботов:
-```
+<pre>
   "Orchestrator": {
     "UserName": "agent",
     "Password": "Qwe123!@#",
-    "BaseUrl": "https://192.168.1.154:5001",
+    <b>"BaseUrl": "https://192.168.1.154:5001",</b>
     "DownloadRpaProject": true,
     "UserBaseUrlFromRequest": true,
     "TenantId": ""
@@ -126,19 +126,20 @@ agent ALL = (%primo-rpa) NOPASSWD: /usr/bin/loginctl enable-linger *
   ...
   "Agent": {
     ...
-    "IpAddress": "192.168.0.20",
+    <b>"IpAddress": "192.168.0.20",</b>
     ...
-    "RobotStartMethod": "systemd",
+    <b>"RobotStartMethod": "systemd",</b>
   },
-```
+</pre>
+
 Убедитесь, что в конфигурационном файле `appsettings.ProdLinux.json` правильно указаны команды, с помощью которых агент запускает роботов и управляет машиной (здесь указаны правильные команды для Astra Linux 1.7):
-```
+<pre>
   "AgentCommands": {
-    "At": "/usr/bin/at",
+    <b>"At": "/usr/bin/at",
     "Reboot": "/usr/sbin/reboot",
-    "Session": "/usr/bin/fly-wm --execOnly {}"
+    "Session": "/usr/bin/fly-wm --execOnly {}"</b>
   },
-```
+</pre>
 Для запуска графического сеанса и сеанса робота используется программа `LTools.Orchestrator.Agent.Runner`, идущая в комплекте с агентом. Файлом конфигурации этой программы является файл `appsettings.Runner.json`:
 ```
 ...
