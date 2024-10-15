@@ -7,6 +7,10 @@ description: Save message (IMAP)
 
 Элемент позволяет сохранять сообщения электронной почты на диск в формате EML. 
 
+
+![](<../../../.gitbook/assets1/savemsg.png>)
+
+
 ### Свойства
 
 Символ * в названии свойства указывает на обязательность заполнения. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
