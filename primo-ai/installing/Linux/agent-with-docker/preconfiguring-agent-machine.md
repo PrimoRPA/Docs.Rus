@@ -57,11 +57,10 @@ mkdir -p install/docker
 cd install/docker
 ```
 ```
-tar xzvf /srv/samba/shared/install/docker/install/docker-27.3.1.tgz
+tar xzvf /srv/samba/shared/install/docker/install/docker/docker-27.3.1.tgz
 ```
 
 1. Переместите распакованные компоненты Докера в /usr/bin/ 
-
 ```
 sudo cp docker/* /usr/bin/
 ```
@@ -77,32 +76,77 @@ yes | sudo unzip /srv/samba/shared/install/docker/install/iptables.zip -d instal
 sudo dpkg -i install/iptables/*.deb
 ```
 
+1. Установите docker-compose:
+```
+sudo dpkg -i /srv/samba/shared/install/docker/install/docker/docker-compose-plugin_2.27.1-1~debian.10~buster_amd64.deb
+```
+
 1. Установите системную службу:
 ```
-cp /srv/samba/shared/install/docker.service /etc/systemd/system/
+sudo cp /srv/samba/shared/install/docker/docker.service /etc/systemd/system/
 ```
 
 ```
-systemctl daemon-reload
+sudo systemctl enable docker.service
 ```
 
 ```
-systemctl restart docker
+sudo systemctl daemon-reload
 ```
 
-[comment]: <> (TODO)
+```
+sudo systemctl restart docker
+```
 
 ## Загрузка образа
 ```
-xxxxxxxxxxxxxxxx
+docker load -i /srv/samba/shared/install/docker/target-machine/agent_ai.tar
 ```
-
-[comment]: <> (TODO)
 
 ## Создание контейнера
 
-[comment]: <> (TODO)
+1. Разместите тома контейнера:
+```
+sudo mkdir -p /app/Primo.AI/SmartOCR/
+```
+```
+yes | sudo unzip /srv/samba/shared/install/docker/target-machine/volumes.zip -d /app/Primo.AI/SmartOCR/
+```
+```
+cp /srv/samba/shared/install/docker/target-machine/docker-compose.yaml /app/Primo.AI/SmartOCR/
+```
 
-## Подключение контейнера к серверу Primo AI RPA Server 
+1. Настройте docker-compose.yaml:
+```
+nano /app/Primo.AI/SmartOCR/docker-compose.yaml
+```
 
-[comment]: <> (TODO)
+1. Отредактируйте файл конфигурации агента Primo RPA AI Server:
+```
+nano /app/Primo.AI/SmartOCR/volumes/conf/Agent/appsettings.ProdLinux.json
+```
+
+Обратите внимание на идентификатор агента (ключ Api > AgentId). 
+Он должен соответствовать идентификатору в настройках "Целевые машины" портала AI Server.
+
+Также настройте адрес сервера Primo RPA AI Server (ключи Api > AuthBaseUrl / ApiBaseUrl / InferenceBaseUrl / LogsBaseUrl).
+
+1. Создайте контейнер:
+```
+cd /app/Primo.AI/SmartOCR/
+```
+```
+docker compose up -d
+```
+
+## Ограничение нагрузки 
+
+Оптимальная нагрузка на целевую машину предполагает размещение единственного агента с IDP-ядром и запуск единственного в каждый момент времени процесса любого типа – обучение или инференс (распознавание изображений в IDP).
+
+Кроме того, для процессов инференса следует ограничивать единовременное количество запросов (изображений) в обработке. Превышение этого ограничения приведет к неадекватному кратному увеличению времени обработки изображений. 
+
+Рассчитайте максимальную нагрузку на целевую машину по формуле: **0.5n – 1**, где **n** – количество виртуальных ядер процессора (например, для 16 виртуальных ядер это значение – 7).
+
+Пропишите итоговое значение в параметре **InferenceRequestQueue** -> **MaxImagesLoad** в конфигурационном файле агента (`appsettings.ProdLinux.json`):
+
+![](<../../../../.gitbook/assets1/primo-ai/install/agent/install-agent-and-idp-1.png>)
