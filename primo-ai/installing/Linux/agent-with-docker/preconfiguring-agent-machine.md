@@ -107,13 +107,16 @@ docker load -i /srv/samba/shared/install/docker/target-machine/agent_ai.tar
 
 ### 1. Разместите тома контейнера:
 ```
-sudo mkdir -p /app/Primo.AI/SmartOCR/
+sudo mkdir -p /app/Primo.AI/SmartOCR/volumes/conf/Agent/ /app/Primo.AI/SmartOCR/volumes/IDP/lib/ /app/Primo.AI/SmartOCR/volumes/AgentData
 ```
 ```
-yes | sudo unzip /srv/samba/shared/install/docker/target-machine/volumes.zip -d /app/Primo.AI/SmartOCR/
+yes | sudo unzip /srv/samba/shared/install/docker/target-machine/python3.11.zip -d /app/Primo.AI/SmartOCR/volumes/IDP/lib
 ```
 ```
 cp /srv/samba/shared/install/docker/target-machine/docker-compose.yaml /app/Primo.AI/SmartOCR/
+```
+```
+cp /srv/samba/shared/install/docker/target-machine/conf/Agent/* /app/Primo.AI/SmartOCR/volumes/conf/Agent/
 ```
 
 ### 2. Настройте docker-compose.yaml:
