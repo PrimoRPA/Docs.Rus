@@ -119,6 +119,22 @@ cp /srv/samba/shared/install/docker/target-machine/docker-compose.yaml /app/Prim
 cp /srv/samba/shared/install/docker/target-machine/conf/Agent/* /app/Primo.AI/SmartOCR/volumes/conf/Agent/
 ```
 
+Должна получиться такая иерархия папок для соответствия стандартному docker-compose.yaml:
+```
+/app/Primo.AI/SmartOCR/
+├── docker-compose.yaml
+└── volumes
+    ├── AgentData
+    ├── conf
+    │   └── Agent
+    │       ├── appsettings.json
+    │       └── appsettings.ProdLinux.json
+    └── IDP
+        └── lib
+            └── python3.11
+                └── site-packages
+```
+
 ### 2. Настройте docker-compose.yaml:
 ```
 nano /app/Primo.AI/SmartOCR/docker-compose.yaml
