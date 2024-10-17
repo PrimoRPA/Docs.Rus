@@ -38,3 +38,41 @@ description: Save message (IMAP)
 
 
 
+## Только код:
+
+Пример использования элемента в процессе с типом Только код (Pure code)
+
+{% tabs %}
+{% tab title="C#" %}
+```csharp
+var app = new LTools.Office.OutlookApp();
+var msg = new LTools.Office.Model.OMailMessage();
+string file = "C:\\path\\to\\save\\message.eml";
+// Сохранение сообщения в формате EML
+app.SaveMessage(msg, file, "EML");
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```python
+app = LTools.Office.OutlookApp()
+msg = LTools.Office.Model.OMailMessage()
+file = "C:\\path\\to\\save\\message.eml"
+// Сохранение сообщения в формате EML
+app.SaveMessage(msg, file, "EML")
+```
+{% endtab %}
+
+{% tab title="JavaScript" %}
+```javascript
+var app = new _lib.LTools.Office.OutlookApp();
+var msg = new _lib.LTools.Office.Model.OMailMessage();
+var file = "C:\\path\\to\\save\\message.eml";
+// Сохранение сообщения в формате EML
+app.SaveMessage(msg, file, "EML");
+```
+{% endtab %}
+{% endtabs %}
+
+
+
