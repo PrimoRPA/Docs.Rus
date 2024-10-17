@@ -13,11 +13,11 @@
 
 Настоящее краткое руководство основано на официальной инструкции - [Install Docker Engine from binaries](https://docs.docker.com/engine/install/binaries/).
 
-1. При наличии интернета, загрузите свежий архив с официального сайта: 
+### 1. При наличии интернета, загрузите свежий архив с официального сайта: 
 
 Или воспользуйтесь предоставленной версией 27.3.1.
 
-1. Распакуйте архив во временную папку: 
+### 2. Распакуйте архив во временную папку: 
 ```
 mkdir -p install/docker
 ```
@@ -28,12 +28,12 @@ cd install/docker
 tar xzvf /srv/samba/shared/install/docker/install/docker/docker-27.3.1.tgz
 ```
 
-1. Переместите распакованные компоненты Докера в /usr/bin/ 
+### 3. Переместите распакованные компоненты Докера в /usr/bin/ 
 ```
 sudo cp docker/* /usr/bin/
 ```
 
-1. Установите зависимости:
+### 4. Установите зависимости:
 ```
 mkdir -p install/iptables
 ```
@@ -44,12 +44,12 @@ yes | sudo unzip /srv/samba/shared/install/docker/install/iptables.zip -d instal
 sudo dpkg -i install/iptables/*.deb
 ```
 
-1. Установите docker-compose:
+### 5. Установите docker-compose:
 ```
 sudo dpkg -i /srv/samba/shared/install/docker/install/docker/docker-compose-plugin_2.27.1-1~debian.10~buster_amd64.deb
 ```
 
-1. Установите системную службу:
+### 6. Установите системную службу:
 ```
 sudo cp /srv/samba/shared/install/docker/docker.service /etc/systemd/system/
 ```
@@ -73,23 +73,42 @@ docker load -i /srv/samba/shared/install/docker/target-machine/agent_ai.tar
 
 ## Создание контейнера
 
-1. Разместите тома контейнера:
+### 1. Разместите тома контейнера:
 ```
-sudo mkdir -p /app/Primo.AI/SmartOCR/
+sudo mkdir -p /app/Primo.AI/SmartOCR/volumes/conf/Agent/ /app/Primo.AI/SmartOCR/volumes/IDP/lib/ /app/Primo.AI/SmartOCR/volumes/AgentData
 ```
 ```
-yes | sudo unzip /srv/samba/shared/install/docker/target-machine/volumes.zip -d /app/Primo.AI/SmartOCR/
+yes | sudo unzip /srv/samba/shared/install/docker/target-machine/python3.11.zip -d /app/Primo.AI/SmartOCR/volumes/IDP/lib
 ```
 ```
 cp /srv/samba/shared/install/docker/target-machine/docker-compose.yaml /app/Primo.AI/SmartOCR/
 ```
+```
+cp /srv/samba/shared/install/docker/target-machine/conf/Agent/* /app/Primo.AI/SmartOCR/volumes/conf/Agent/
+```
 
-1. Настройте docker-compose.yaml:
+Должна получиться такая иерархия папок для соответствия стандартному docker-compose.yaml:
+```
+/app/Primo.AI/SmartOCR/
+├── docker-compose.yaml
+└── volumes
+    ├── AgentData
+    ├── conf
+    │   └── Agent
+    │       ├── appsettings.json
+    │       └── appsettings.ProdLinux.json
+    └── IDP
+        └── lib
+            └── python3.11
+                └── site-packages
+```
+
+### 2. Настройте docker-compose.yaml:
 ```
 nano /app/Primo.AI/SmartOCR/docker-compose.yaml
 ```
 
-1. Отредактируйте файл конфигурации агента Primo RPA AI Server:
+### 3. Отредактируйте файл конфигурации агента Primo RPA AI Server:
 ```
 nano /app/Primo.AI/SmartOCR/volumes/conf/Agent/appsettings.ProdLinux.json
 ```
@@ -99,7 +118,7 @@ nano /app/Primo.AI/SmartOCR/volumes/conf/Agent/appsettings.ProdLinux.json
 
 Также настройте адрес сервера Primo RPA AI Server (ключи Api > AuthBaseUrl / ApiBaseUrl / InferenceBaseUrl / LogsBaseUrl).
 
-1. Создайте контейнер:
+### 4. Создайте контейнер:
 ```
 cd /app/Primo.AI/SmartOCR/
 ```
