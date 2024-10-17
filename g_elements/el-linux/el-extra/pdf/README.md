@@ -11,7 +11,7 @@ Primo.Office.Pdf.Linux — пакет для автоматизации рабо
 Порядок действий:
 1. Установите пакет Primo.Office.Pdf.Linux — способ установки описан [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio-linux/projects/manage-dependencies#menedzher-zavisimostei).
 2. В Студии, на панели **Элементы**, в группу PDF добавятся элементы **Чтение таблицы** и **Получить форму XFA**.
-3. Перетащите нужный элемент в свой процесс, чтобы начать работу.
+3. Перетащите нужный элемент в свой процесс, чтобы начать с ним работу.
 
 ![](<../../../../.gitbook/assets1/linux_items/pdf-items-nuget.png>) 
 
