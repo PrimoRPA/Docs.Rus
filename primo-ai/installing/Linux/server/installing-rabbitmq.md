@@ -80,7 +80,7 @@ systemctl status rabbitmq-server
    ```
    rabbitmqctl add_user primo 'Qwe123!@#'
    ```
-1. Назначьте права на чтение и запись для пользователя **primo**:
+1. Назначьте права на конфигурацию, чтение и запись для пользователя **primo**:
    ```
    rabbitmqctl set_permissions primo ".*" ".*" ".*"
    ```
