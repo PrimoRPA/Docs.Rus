@@ -18,7 +18,7 @@ description: Primo Remote Agent (Desktop Anywhere)
    - Открыть порт на удаленной машине и прописать его в файле *Primo.RemoteAgent.exe.config* в разделе `<add baseaddress=”...>`.
    - Указать логин и пароль в соответствующих разделах `<add key=”login”>, <add key=”pass”>` файла конфигурации.
    - Запустить агента с параметрами: `Primo.RemoteAgent.exe shownotify anywhere`.
-   - Чтобы взаимодействовать с компонентами приложений удаленного рабочего стола  и записывать действия пользователя, в Студии в свойствах элемента [**Присоединиться к приложению**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_desktop/el_desktop_attach) выберите тип автоматизации **Desktop Anywhere** и укажите адрес, логин и пароль из файла конфигурации.
+   - Чтобы взаимодействовать с компонентами приложений удаленного рабочего стола в Студии в свойствах элемента [**Присоединиться к приложению**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_desktop/el_desktop_attach) выберите тип автоматизации **Desktop Anywhere** и укажите адрес, логин и пароль из файла конфигурации.
 
 
 ![](../../.gitbook/assets1/desk-anywhere-type.png)
