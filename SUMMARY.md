@@ -503,7 +503,7 @@
     * [Пометить сообщения](g\_elements/el\_basic/els\_outlook/el\_outlook\_mark.md)
     * [Синхронизировать папку](g\_elements/el\_basic/els\_outlook/el\_outlook\_sync.md)
     * [Сохранить вложение](g\_elements/el\_basic/els\_outlook/el\_outlook\_saveatt.md)
-    * [Сохранить сообщение](g\_elements/el\_basic/els\_outlook/el\_outlook\_savemail.md)
+    * [Сохранить сообщение](g\_elements/el\_basic/els\_outlook/el\_outlook\_savemsg.md)
     * [Читать адресную книгу](g\_elements/el\_basic/els\_outlook/el\_outlook\_readaddr.md)
     * [Чтение почты](g\_elements/el\_basic/els\_outlook/el\_outlook\_readmail.md)
   * [Приложение Word](g\_elements/el\_basic/els\_word/README.md)
