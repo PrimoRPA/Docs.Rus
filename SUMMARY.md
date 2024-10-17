@@ -52,6 +52,8 @@
     * [Linux](release-notes/packages/linux/README.md)
       * [Primo.Office.OdfOxml.Linux](release-notes/packages/linux/office-odfoxml/README.md)
         * [1.2.4](release-notes/packages/linux/office-odfoxml/office-odfoxml-linux-1.2.4.md)
+      * [Primo.Office.Pdf.Linux](release-notes/packages/linux/office-pdf/README.md)
+        * [1.1.0](release-notes/packages/linux/office-pdf/office-pdf-linux-1.1.0.md)
 * [Лицензии](licenses.md)
 * [Полезные ресурсы](useful-links.md)
 
@@ -1031,6 +1033,9 @@
   			* [Чтение колонки](g_elements/el_basic/els-odf/els-table/el-odftable-readcolumn.md)
   			* [Чтение из ячейки](g_elements/el_basic/els-odf/els-table/el-odftable-readcell.md)
   			* [Чтение формулы из ячейки](g_elements/el_basic/els-odf/els-table/el-odftable-readcellformula.md)
+                * [PDF](g_elements/el-linux/el-extra/pdf/README.md)
+                        * [Чтение таблицы](g_elements/el-linux/el-extra/pdf/gettable.md)
+                        * [Получить форму XFA](g_elements/el-linux/el-extra/pdf/getxfaform.md)
 		* [Python](g_elements/el-linux/el-extra/python/readme.md)
   			* [Python](g_elements/el-linux/el-extra/python/el-python-pythonscope.md)
   			* [Выполнить скрипт](g_elements/el-linux/el-extra/python/el-python-execscript.md)
