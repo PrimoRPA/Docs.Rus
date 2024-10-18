@@ -78,7 +78,7 @@ systemctl status rabbitmq-server
    ```
 1. Добавьте пользователя **primo** (последний аргумент – пароль пользователя):
    ```
-   rabbitmqctl add_user primo 'Qwe123!@#'
+   rabbitmqctl add_user primo 'password'
    ```
 1. Назначьте права на конфигурацию, чтение и запись для пользователя **primo**:
    ```
