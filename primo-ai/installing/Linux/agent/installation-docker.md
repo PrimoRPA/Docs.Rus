@@ -61,7 +61,7 @@ sudo dpkg -i /srv/samba/shared/install/docker/install/docker/docker-compose-plug
 
 ### 6. Установка системных служб
 
-Воспользуйтесь командой:
+Используйте команды:
 
 ```
 sudo cp /srv/samba/shared/install/docker/docker.service /etc/systemd/system/
