@@ -542,3 +542,7 @@ sudo nano /etc/security/limits.conf
 agent         hard    nofile      128000
 agent         soft    nofile      128000
 ```
+
+## Что дальше
+
+[Выполните шаги](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/agent/post-installation-steps), необходимые после установки компонентов.
