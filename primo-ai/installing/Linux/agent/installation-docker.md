@@ -139,6 +139,8 @@ nano /app/Primo.AI/SmartOCR/volumes/conf/Agent/appsettings.ProdLinux.json
 
 ### 4. Создание контейнера
 
+Используйте команды:
+
 ```
 cd /app/Primo.AI/SmartOCR/
 ```
