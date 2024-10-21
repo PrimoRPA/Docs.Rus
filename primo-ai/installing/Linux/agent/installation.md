@@ -19,12 +19,13 @@
 **Дополнительное ПО**:
 * python 3.10+;
 * GNU C Library (glibc) версии 2.33 и выше — для компиляции вспомогательных библиотек.
+* software-properties-common — пакет для менеджера apt.
 
 {% endtab %}
 
 {% tab title="Вариант установки B" %} 
 
-Используется при невозможности выполнить вариант установки A. Требуется менеджер пакетов apt с конкретными зависимостями в репозиториях, но содержит наименьшее число ручных действий. (нужен интернет или нет?)
+Используется при невозможности выполнить вариант установки A. Требуется менеджер пакетов apt с конкретными зависимостями в репозиториях, но содержит наименьшее число ручных действий. Требует наличие доступного репозитория в менеджере пакетов apt.
 
 **Файлы из комплекта поставки**: 
 * `Agent-linux.zip` — дистрибутив агента.
@@ -33,7 +34,7 @@
 
 Для установки зависимостей используйте команду:
 ```
-install make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libedit-dev libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
+make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libedit-dev libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
 ```
 
 {% endtab %}
