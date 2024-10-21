@@ -39,9 +39,14 @@ Cкопируйте на целевую машину файлы из компл�
 * `B-pyenv.zip`— вспомогательное ПО для варианта установки B. Содержит pyenv со встроенным Python 3.11.
 
 Для установки зависимостей используйте команду:
+
+{% code title="" overflow="wrap" lineNumbers="true" %}
+
 ```
 make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libedit-dev libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
 ```
+
+{% endcode %}
 
 {% endtab %}
 
