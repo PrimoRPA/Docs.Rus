@@ -16,10 +16,9 @@
 * `Agent-linux.zip` — дистрибутив агента.
 * `A-IDP.zip` — дистрибутив IDP.
 
-**Дополнительное ПО**:
-* python 3.10+;
+**Требует наличия**:
 * GNU C Library (glibc) версии 2.33 и выше — для компиляции вспомогательных библиотек.
-* software-properties-common — пакет для менеджера apt.
+* `software-properties-common` — пакет для менеджера apt.
 
 {% endtab %}
 
