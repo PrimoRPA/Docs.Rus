@@ -25,7 +25,9 @@
 
 ## Настройка дополнительного ПО
 
-Выполните подключение целевой машины к репозиториям `main`, `update`, `base` и `extended`. Данные репозитории описаны в статье [Интернет-репозитории Astra Linux Special Edition x.7](https://wiki.astralinux.ru/pages/viewpage.action?pageId=158598882). Настройка локальных зеркал этих репозиториев описана в статье [Создание репозиториев для операционной системы Astra Linux Special Edition x.7 в закрытом сегменте](https://wiki.astralinux.ru/pages/viewpage.action?pageId=199148426).
+Выполните подключение целевой машины к репозиториям `main`, `update`, `base` и `extended`. В этом вам могут помочь статьи:
+* [Интернет-репозитории Astra Linux Special Edition x.7](https://wiki.astralinux.ru/pages/viewpage.action?pageId=158598882).
+* [Создание репозиториев для операционной системы Astra Linux Special Edition x.7 в закрытом сегменте](https://wiki.astralinux.ru/pages/viewpage.action?pageId=199148426) — описывает настройку локальных зеркал данных репозиториев.
 
 {% hint style="warning" %}
 Локальные репозитории необходимо выгружать на машине, имеющей доступ в интернет.
