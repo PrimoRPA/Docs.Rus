@@ -91,7 +91,7 @@ sudo apt update
 
 ## Установка агента
 
-Установка агента осуществляется одинаково для любого из вариантов установки IDP.
+Установка агента осуществляется одинаково для любого из вариантов установки.
 
 ### Настройка учетной записи 
 
@@ -196,7 +196,11 @@ sudo ufw allow 5002/tcp
 
 ### Вариант установки A
 
-> Установка IDP при наличии в репозиториях apt целевой машины python3.10/3.11, выхода в интернет, а также GNU C Library (glibc) версии 2.33 и выше.
+Установка IDP при наличии в репозиториях apt целевой машины python3.10/3.11, выхода в интернет, а также GNU C Library (glibc) версии 2.33 и выше.
+
+<details>
+
+<summary>Вариант установки A</summary>
 
 Разверните файлы IDP на целевой машине (файл `A-IDP.zip` должен находиться в каталоге `/srv/samba/shared/install`):
 ```
@@ -256,11 +260,18 @@ sudo chmod -R 771 /app/Primo.AI/IDP
 sudo chown -R agent:primo-ai /app/Primo.AI/IDP
 ```
 
+
+</details>
+
+
+
 ### Вариант установки B
 
-> Используйте этот способ при отсутствии необходимых библиотек.
+Используйте этот способ при отсутствии необходимых библиотек.
 
-#### Установка pyenv c Python 3.11 и виртуальной средой
+<details>
+
+<summary>Шаг 1: Установка pyenv c Python 3.11 и виртуальной средой </summary>
 
 Создайте временный каталог `pyenv` и переместитесь туда: 
 ```
@@ -289,7 +300,13 @@ sudo ./pyenv-installer.sh agent primo-ai  <custom_home_dir_location>
 sudo rm  -r /tmp/pyenv
 ```
 
-#### Установка зависимостей IDP в виртуальную среду
+
+</details>
+
+
+<details>
+
+<summary>Шаг 2: Установка зависимостей IDP в виртуальную среду </summary>
 
 Создайте папку с инсталляцией:
 ```
@@ -326,7 +343,16 @@ sudo chown -R agent:primo-ai /app/Primo.AI/IDP
 sudo rm -r /app/Primo.AI/IDP/idp-installer.sh /app/Primo.AI/IDP/venv.zip 
 ```
 
+</details>
+
+
+
+
 ### Вариант установки C
+
+<details>
+
+<summary>Вариант установки C</summary>
 
 Создайте временную папку с инсталляцией:
 ```
@@ -398,10 +424,17 @@ sudo chmod -R 771 /app/Primo.AI/IDP
 ```
 sudo chown -R agent:primo-ai /app/Primo.AI/IDP
 ```
+
+</details>
+
+
  
 #### Проверка работоспособности
 
-> Переходите к этому шагу после установки Tesseract.
+{% hint style="warning" %}
+Переходите к этому шагу после установки Tesseract.
+{% endhint %}
+
 
 Создайте папку с тестовыми данными:
 ```
@@ -440,7 +473,11 @@ cat install/idp-test/HotDir/snils/snils.jpg.result
 
 ### Установка Tesseract
 
-#### При наличии менеджера пакетов apt
+<details>
+
+<summary>При наличии менеджера пакетов apt</summary>
+
+
 Проверьте наличие Tesseract версии 4.0.0+: 
 ```
 sudo apt policy tesseract-ocr
@@ -454,7 +491,16 @@ tesseract-ocr:
 sudo apt install tesseract-ocr
 ```
 
-#### В отсутствие менеджера пакетов apt
+</details>
+
+
+
+
+<details>
+
+<summary>В отсутствие менеджера пакетов apt</summary>
+
+
 Создайте временную папку:
 ```
 sudo mkdir -p install/idp-deps/tesseract-ocr
@@ -471,6 +517,10 @@ sudo dpkg -i install/idp-deps/tesseract-ocr/*.deb
 ```
 sudo rm -r install/idp-deps/tesseract-ocr
 ```
+
+</details>
+
+
 
 ## Увеличение лимита потребления ресурсов
 
