@@ -436,52 +436,6 @@ sudo chown -R agent:primo-ai /app/Primo.AI/IDP
 </details>
 
 
- 
-#### Проверка работоспособности
-
-{% hint style="warning" %}
-Переходите к этому шагу после установки Tesseract.
-{% endhint %}
-
-
-Создайте папку с тестовыми данными:
-```
-sudo mkdir -p install/idp-test
-```
-Распакуйте архивы с зависимостями:
-```
-yes | sudo unzip /srv/samba/shared/install/C-IDP-test.zip -d install/idp-test
-```
-Раздайте права:
-```
-sudo chown -R agent install/idp-test
-```
-```
-sudo chmod -R 777 install/idp-test
-```
-Запустите IDP-процесс на тестовых данных:
-```
-/app/Primo.AI/IDP/start-inference.sh install/idp-test/Config/snils/1/config.json
-```
-Проверьте, что IDP-процесс сформировал корректные логи:
-```
-cat /app/Primo.AI/IDP/output.log
-```
-
-{% hint style="success" %}
-Manager initialized successfully.
-{% endhint %}
-
-Теперь, когда IDP-модуль готов принимать изображения для распознавания, передайте ему тестовое изображение:
-```
-sudo cp install/idp-test/snils.jpg  install/idp-test/HotDir/snils/
-```
-Подождите немного, проверьте наличие файла с результатами:
-```
-cat install/idp-test/HotDir/snils/snils.jpg.result
-```
-
-
 ### Установка Tesseract
 
 <details>
@@ -531,7 +485,49 @@ sudo rm -r install/idp-deps/tesseract-ocr
 
 </details>
 
+#### Проверка работоспособности
 
+{% hint style="warning" %}
+Переходите к этому шагу после установки Tesseract.
+{% endhint %}
+
+
+Создайте папку с тестовыми данными:
+```
+sudo mkdir -p install/idp-test
+```
+Распакуйте архивы с зависимостями:
+```
+yes | sudo unzip /srv/samba/shared/install/C-IDP-test.zip -d install/idp-test
+```
+Раздайте права:
+```
+sudo chown -R agent install/idp-test
+```
+```
+sudo chmod -R 777 install/idp-test
+```
+Запустите IDP-процесс на тестовых данных:
+```
+/app/Primo.AI/IDP/start-inference.sh install/idp-test/Config/snils/1/config.json
+```
+Проверьте, что IDP-процесс сформировал корректные логи:
+```
+cat /app/Primo.AI/IDP/output.log
+```
+
+{% hint style="success" %}
+Manager initialized successfully.
+{% endhint %}
+
+Теперь, когда IDP-модуль готов принимать изображения для распознавания, передайте ему тестовое изображение:
+```
+sudo cp install/idp-test/snils.jpg  install/idp-test/HotDir/snils/
+```
+Подождите немного, проверьте наличие файла с результатами:
+```
+cat install/idp-test/HotDir/snils/snils.jpg.result
+```
 
 ## Увеличение лимита потребления ресурсов
 
