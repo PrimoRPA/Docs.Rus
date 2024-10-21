@@ -467,7 +467,10 @@ sudo chmod -R 777 install/idp-test
 ```
 cat /app/Primo.AI/IDP/output.log
 ```
-> Manager initialized successfully 
+
+{% hint style="success" %}
+Manager initialized successfully.
+{% endhint %}
 
 Теперь, когда IDP-модуль готов принимать изображения для распознавания, передайте ему тестовое изображение:
 ```
