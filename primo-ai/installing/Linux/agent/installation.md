@@ -483,7 +483,7 @@ sudo rm -r install/idp-deps/tesseract-ocr
 
 </details>
 
-#### Проверка работоспособности
+### Проверка работоспособности
 
 {% hint style="warning" %}
 Переходите к этому шагу после установки Tesseract.
