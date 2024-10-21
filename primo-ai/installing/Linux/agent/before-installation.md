@@ -34,3 +34,8 @@
 | HDD             | 250 Гб (OS + Data)	                   |  
 
 
+## Что дальше
+
+Выполните установку компонентов на целевую машину одним из способов:
+* [С использованием Docker](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/agent/installation-docker)
+* [Без использования Docker](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/agent/installation)
