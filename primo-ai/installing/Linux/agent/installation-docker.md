@@ -21,6 +21,19 @@
 
 ### 2. Распаковка архива
 Распакуйте архив во временную папку: 
+
+{% code title="" overflow="wrap" lineNumbers="true" %}
+
+```
+mkdir -p install/docker
+cd install/docker
+tar xzvf /srv/samba/shared/install/docker/install/docker/docker-27.3.1.tgz
+```
+
+{% endcode %}
+
+
+
 ```
 mkdir -p install/docker
 ```
