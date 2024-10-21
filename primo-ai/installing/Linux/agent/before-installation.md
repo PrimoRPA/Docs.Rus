@@ -1,5 +1,7 @@
 # Перед установкой
 
+## Общие сведения
+
 Компоненты Primo.AI.Api (выборочно) и их связи приведены на схеме ниже:
 
 ![Компоненты Primo.AI.Api и целевые машины](<../../../../.gitbook/assets1/primo-ai/install/components-and-machines-scheme.png>)
