@@ -1252,6 +1252,7 @@
         * [Подготовка целевой машины](primo-ai/installing/Linux/agent/README.md)
             * [Настройка целевой машины](primo-ai/installing/Linux/agent/preconfiguring-agent-machine.md)
             * [Обновление ПО](primo-ai/installing//Linux/agent/update.md)
+            * [Test](primo-ai/installing//Linux/agent/test.md)
 * [Администраторам](primo-ai/admin/README.md)
     * [Встроенные роли и пользователи](primo-ai/admin/system-users.md)
     * [Лицензии](primo-ai/admin/licenses/README.md)
