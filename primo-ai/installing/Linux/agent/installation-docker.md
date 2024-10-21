@@ -33,7 +33,7 @@ tar xzvf /srv/samba/shared/install/docker/install/docker/docker-27.3.1.tgz
 
 ### 3. Расположение компонентов
 
-Переместите распакованные компоненты Docker в /usr/bin/ 
+Переместите распакованные компоненты Docker в /usr/bin/:
 ```
 sudo cp docker/* /usr/bin/
 ```
