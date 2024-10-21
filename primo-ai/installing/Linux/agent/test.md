@@ -541,3 +541,17 @@ sudo nano /etc/security/limits.conf
 agent         hard    nofile      128000
 agent         soft    nofile      128000
 ```
+
+
+### 2. Распаковка архива
+Распакуйте архив во временную папку: 
+
+{% code title="" overflow="wrap" lineNumbers="true" %}
+
+```
+mkdir -p install/docker
+cd install/docker
+tar xzvf /srv/samba/shared/install/docker/install/docker/docker-27.3.1.tgz
+```
+
+{% endcode %}
