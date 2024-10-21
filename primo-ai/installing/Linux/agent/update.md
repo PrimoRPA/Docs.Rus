@@ -1,4 +1,6 @@
-# Обновление компонентов целевой машины без docker
+# Обновление компонентов без Docker
+
+В статье приводятся шаги для обновления установленных компонентов целевой машины без использования Docker.
 
 ## Обновление агента
 Остановите службу:
@@ -7,7 +9,12 @@
 sudo systemctl stop Primo.AI.Agent
 ```
 
-Обновите файлы агента на целевой машине (файл `Agent-linux.zip` должен находиться в каталоге `/srv/samba/shared/install`):
+Обновите файлы агента на целевой машине:
+
+{% hint style="info" %}
+Файл `Agent-linux.zip` должен находиться в каталоге `/srv/samba/shared/install`.
+{% endhint %}
+
 ```
 # sudo unzip -o -u /srv/samba/shared/install/Agent-linux.zip -d /app/Primo.AI/Agent -x appsettings.ProdLinux.json appsettings.json
 sudo unzip -o -u /srv/samba/shared/install/Agent-linux.zip -d /app/Primo.AI/Agent -x appsettings.ProdLinux.json appsettings.json
@@ -30,7 +37,7 @@ sudo chown -R  agent:primo-ai /app/Primo.AI/Agent
 # sudo systemctl start Primo.AI.Agent
 sudo systemctl start Primo.AI.Agent
 ```
-Просмотр статуса службы:
+Просмотрите статус службы:
 ```
 # sudo systemctl status Primo.AI.Agent
 sudo systemctl status Primo.AI.Agent
@@ -46,7 +53,12 @@ sudo systemctl status Primo.AI.Agent
 sudo rm -r /app/Primo.AI/IDP/src
 ```
 
-Обновите файлы IDP на целевой машине (файл `A-IDP.zip` должен находиться в каталоге `/srv/samba/shared/install`):
+Обновите файлы IDP на целевой машине:
+
+{% hint style="info" %}
+Файл `A-IDP.zip` должен находиться в каталоге `/srv/samba/shared/install`.
+{% endhint %}
+
 ```
 # sudo unzip -o -u /srv/samba/shared/install/A-IDP.zip -d /app/Primo.AI/IDP -x start_inference.sh start_training.sh  start_evaluation.sh venv.zip
 sudo unzip -o -u /srv/samba/shared/install/A-IDP.zip -d /app/Primo.AI/IDP -x start_inference.sh start_training.sh  start_evaluation.sh venv.zip
