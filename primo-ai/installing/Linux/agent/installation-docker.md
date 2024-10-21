@@ -107,6 +107,7 @@ cp /srv/samba/shared/install/docker/target-machine/conf/Agent/* /app/Primo.AI/Sm
 ```
 nano /app/Primo.AI/SmartOCR/docker-compose.yaml
 ```
+При необходимости можно указать, например, другой порт агента, скорректировать пути к общим томам или отключить автоматический рестарт контейнера.
 
 ### 3. Отредактируйте файл конфигурации агента Primo RPA AI Server:
 ```
