@@ -37,7 +37,7 @@
 
 3. Установите необходимое для работы робота ПО:
 ```
-[primo-admin@astra-robot ~]$ sudo apt -y install at xvfb python3-numpy python3-opencv xdotool graphicsmagick-imagemagick-compat wmctrl
+[primo-admin@astra-robot ~]$ sudo apt -y install at xvfb python3-numpy python3-opencv xdotool wmctrl
 ```
 
 
