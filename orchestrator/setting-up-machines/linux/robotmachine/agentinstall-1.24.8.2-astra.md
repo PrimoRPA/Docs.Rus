@@ -40,7 +40,7 @@ deb https://download.astralinux.ru/astra/stable/1.7_x86-64/repository-extended/ 
 
 3.	Установите необходимое для работы робота ПО:
 ```
-[primo-admin@astra-robot ~]$ sudo apt -y install at xvfb python3-numpy python3-opencv xdotool dotnet-sdk-6.0 graphicsmagick-imagemagick-compat
+[primo-admin@astra-robot ~]$ sudo apt -y install at xvfb
 ```
 ## Настройка учетной записи агента
 
