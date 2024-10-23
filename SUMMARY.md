@@ -56,6 +56,7 @@
         * [1.2.4](release-notes/packages/linux/office-odfoxml/1.2.4.md)
         * [1.2.3](release-notes/packages/linux/office-odfoxml/1.2.3.md)
         * [1.2.2](release-notes/packages/linux/office-odfoxml/1.2.2.md)
+        * [1.1.1](release-notes/packages/linux/office-odfoxml/1.1.1.md)
       * [Primo.Office.Pdf.Linux](release-notes/packages/linux/office-pdf/README.md)
         * [1.1.0](release-notes/packages/linux/office-pdf/1.1.0.md)
       * [Primo.T1.Essentials.Linux](release-notes/packages/linux/t1-essentials/README.md)
