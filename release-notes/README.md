@@ -6,5 +6,5 @@
 * [Изменения в Primo RPA Studio для Linux](https://docs.primo-rpa.ru/primo-rpa/release-notes/studio-linux);
 * [Изменения в Primo RPA Orchestrator](https://docs.primo-rpa.ru/primo-rpa/release-notes/orch).
 * [Изменения в Primo RPA AI Server](https://docs.primo-rpa.ru/primo-rpa/release-notes/ai-server).
-* [Изменения AutoDoc ](https://docs.primo-rpa.ru/primo-rpa/release-notes/autodoc)
-* [Изменения NuGet](https://docs.primo-rpa.ru/primo-rpa/release-notes/packages)
+* [Изменения в Primo RPA AutoDoc](https://docs.primo-rpa.ru/primo-rpa/release-notes/autodoc)
+* [Изменения в Primo RPA NuGet](https://docs.primo-rpa.ru/primo-rpa/release-notes/packages)
