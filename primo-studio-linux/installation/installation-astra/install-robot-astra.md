@@ -20,8 +20,9 @@
 1. Выполните подключение машины робота к репозиториям `main`, `update`, `base` и `extended`. Сами репозитории описаны в статье [Интернет-репозитории Astra Linux Special Edition x.7](https://wiki.astralinux.ru/pages/viewpage.action?pageId=158598882). Настройка локальных зеркал этих репозиториев описана в статье [Создание репозиториев для операционной системы Astra Linux Special Edition x.7 в закрытом сегменте](https://wiki.astralinux.ru/pages/viewpage.action?pageId=199148426)
 
 
-**!!ВАЖНО!! Локальные репозитории необходимо выгружать на машине, имеющей доступ в Интернет.**
-
+{% hint style="warning" %}
+**Важно**. Локальные репозитории необходимо выгружать на машине, имеющей доступ в Интернет.
+{% endhint %}
 
 Рекомендуется выделить одну машину под управлением Astra Linux 1.7 для размещения на ней сервера репозиториев.
 
@@ -31,33 +32,30 @@
 [primo-admin@astra-robot ~]$ sudo apt update
 ```
 
-
 Репозитории `main`, `update`, `base` и `extended` должны присутствовать в выводе команды.
 
 
 3. Установите необходимое для работы робота ПО:
 ```
-[primo-admin@astra-robot ~]$ sudo apt -y install at xvfb python3-numpy python3-opencv xdotool wmctrl
+[primo-admin@astra-robot ~]$ sudo apt -y install xsel at xvfb python3 python3-pyatspi python3-numpy xdotool imagemagick python3-opencv wmctrl
 ```
 
 
 ## Настройка учетной записи агента
 
-
-Для работы агента оркестратора и роботов создайте общую группу:
+Для работы агента Оркестратора и роботов создайте общую группу:
 ```
 [primo-admin@astra-robot ~]$ sudo groupadd primo-rpa
 ```
 
 
-Для работы агента оркестратора создайте учётную запись:
+Для работы агента Оркестратора создайте учётную запись:
 ```
 [primo-admin@astra-robot ~]$ sudo useradd -g primo-rpa -m -s /bin/bash agent
 ```
 
 
 Если необходимо, задайте пароль учётной записи:
-
 
 ```
 [primo-admin@redos-robot ~]$ sudo passwd agent
@@ -66,18 +64,17 @@
 passwd: пароль успешно обновлён
 ```
 
-
-Для запуска агентом оркестратора заданий роботов без прав пользователя `root` установите следующую настройку:
+Для запуска агентом Оркестратора заданий роботов без прав пользователя `root` установите следующую настройку:
 ```
 [primo-admin@astra-robot ~]$ sudo sh -c "echo 'agent ALL = (%primo-rpa) NOPASSWD: /usr/bin/at' > /etc/sudoers.d/primo-rpa-agent"
 [primo-admin@astra-robot ~]$ sudo sh -c "echo 'agent ALL = (ALL) NOPASSWD: /usr/sbin/reboot' >> /etc/sudoers.d/primo-rpa-agent"
 ```
 
 
+
 ## Установка агента
 
-
-Разворачивание файлов агента оркестратора на машине роботов (файл `Agent-linux.zip` должен находиться в каталоге `/srv/samba/shared/install`):
+Разворачивание файлов агента Оркестратора на машине роботов (файл `Agent-linux.zip` должен находиться в каталоге `/srv/samba/shared/install`):
 ```
 [primo-admin@astra-robot ~]$ sudo mkdir -p /opt/Primo/Agent /opt/Primo/AgentData /opt/LTools
 [primo-admin@astra-robot ~]$ sudo unzip /srv/samba/shared/install/Agent-linux.zip -d /opt/Primo/Agent
@@ -86,8 +83,7 @@ passwd: пароль успешно обновлён
 [primo-admin@astra-robot ~]$ sudo chmod -R g+w /opt/Primo/Agent /opt/Primo/AgentData /opt/LTools
 ```
 
-
-Установите агент оркестратора как службу и настройте автозапуск:
+Установите агент Оркестратора как службу и настройте автозапуск:
 ```
 [primo-admin@astra-robot ~]$ sudo cp /opt/Primo/Agent/Primo.Orchestrator.Agent.service /etc/systemd/system/
 [primo-admin@astra-robot ~]$ sudo systemctl daemon-reload
@@ -192,7 +188,7 @@ passwd: пароль успешно обновлён
 Для экономии памяти используйте минимально необходимую глубину цвета экрана - 24 или 16 бит.
 
 
-## Обновление агента оркестратора
+## Обновление агента Оркестратора
 
 
 Остановка службы:
@@ -201,7 +197,7 @@ passwd: пароль успешно обновлён
 ```
 
 
-Обновление файлов агента оркестратора на машине роботов (файл `Agent-linux.zip` должен находиться в каталоге `/srv/samba/shared/install`):
+Обновление файлов агента Оркестратора на машине роботов (файл `Agent-linux.zip` должен находиться в каталоге `/srv/samba/shared/install`):
 ```
 [primo-admin@astra-robot ~]$ sudo unzip -o -u /srv/samba/shared/install/Agent-linux.zip -d /opt/Primo/Agent -x appsettings.ProdLinux.json appsettings.json
 [primo-admin@astra-robot ~]$ sudo chown -R agent.primo-rpa /opt/Primo/Agent
@@ -222,14 +218,14 @@ passwd: пароль успешно обновлён
 ```
 
 
-## Миграция агента оркестратора
+## Миграция агента Оркестратора
 
 
-Для миграции существующей установки агента оркестратора на версию с возможностью работы без прав `root` выполните следующее:
-* настройте пользователей и группы
-* перенесите данные агента оркестратора
-* обновите агент и файл конфигурации
-* обновите файл управления службой
+Для миграции существующей установки агента Оркестратора на версию с возможностью работы без прав `root` выполните следующее:
+* настройте пользователей и группы;
+* перенесите данные агента Оркестратора;
+* обновите агент и файл конфигурации;
+* обновите файл управления службой.
 
 
 ### Настройка пользователей и групп
@@ -261,11 +257,10 @@ passwd: пароль успешно обновлён
 ```
 
 
-### Перенос данных агента оркестратора
+### Перенос данных агента Оркестратора
 
 
 В командах этого раздела предполагаются исходные пути каталогов с данными, совпадающие с оригинальным файлом конфигурации. Если эти пути были изменены, подставьте изменённые пути.
-
 
 ```
 [primo-admin@astra-robot ~]$ sudo mkdir /opt/Primo/AgentData 
@@ -278,7 +273,7 @@ passwd: пароль успешно обновлён
 ### Обновление агента и файла конфигурации
 
 
-Обновление файлов агента оркестратора (файл `Agent-linux.zip` должен находиться в каталоге `/srv/samba/shared/install`):
+Обновление файлов агента Оркестратора (файл `Agent-linux.zip` должен находиться в каталоге `/srv/samba/shared/install`):
 ```
 [primo-admin@astra-robot ~]$ sudo unzip -o -u /srv/samba/shared/install/Agent-linux.zip -d /opt/Primo/Agent -x appsettings.ProdLinux.json appsettings.json
 [primo-admin@astra-robot ~]$ sudo chown -R agent.primo-rpa /opt/Primo/Agent
@@ -349,7 +344,8 @@ passwd: пароль успешно обновлён
     "At": "/usr/bin/at",
     "Reboot": "/usr/sbin/reboot",
     "Xvfb": "/usr/bin/xvfb-run",
-    "Session": "/usr/bin/fly-wm"
+    "Session": "/usr/bin/fly-wm",
+    "StopSession": "fly-wmfunc FLYWM_UPDATE_VAL UseExitDialog false && fly-wmfunc FLYWM_UPDATE_VAL UseConfirmDialog false && fly-wmfunc FLYWM_LOGOUT"
 },
 ```
 
