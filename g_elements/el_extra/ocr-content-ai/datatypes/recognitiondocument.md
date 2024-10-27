@@ -1,7 +1,6 @@
 # RecognitionDocument
 
-Primo.OCR.ContentAI.Model.RecognitionDocument — модель, 
-
+Primo.OCR.ContentAI.Model.RecognitionDocument — модель, которая описывает результат обработки документа.
 
 
 ## Свойства
