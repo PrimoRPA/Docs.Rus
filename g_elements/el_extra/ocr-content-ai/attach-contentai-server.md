@@ -1,5 +1,5 @@
 ---
-description: 
+description: ContentCapture server
 ---
 
 # Сервер ContentCapture
