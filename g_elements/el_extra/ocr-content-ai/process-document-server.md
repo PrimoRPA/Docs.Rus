@@ -6,7 +6,7 @@ description: Process documents
 
 ![](<../../../.gitbook/assets1/windows_items/library/WFProcessDocumentSrv.png>)
 
-Элемент осуществляет обработку документов на сервере ContentCapture.
+Элемент осуществляет обработку документов на сервере ContentCapture. Подключение к серверу настраивается в контейнере **Сервер ContentCapture**.
 
 
 ## Перед началом работы
@@ -37,14 +37,6 @@ description: Process documents
 1. **Результат** *[Primo.OCR.ContentAI.Model.RecognitionResults]* — результат обработки документов.
 1. **Пакет** *[Primo.OCR.ContentAI.Model.BatchInfo]* — информация о пакете.
 
-
-Primo.OCR.ContentAI.Model.RecognitionResults - Свойства:
-  - Items [List<Primo.OCR.ContentAI.Model.RecognitionDocument>]: Массив результатов обработки
-
-Primo.OCR.ContentAI.Model.RecognitionDocument - Свойства:
-  - [string (имя шаблона)] [Primo.OCR.ContentAI.Model.RecognitionResult]: Результат обработки шаблона
-  - Items [List<Primo.OCR.ContentAI.Model.RecognitionResult>]: Массив обработанных шаблонов
-  - Xml [string]: Данные, полученные от сервера
 
 Primo.OCR.ContentAI.Model.RecognitionResult - Свойства:
   - [string (имя поля)] [string]: Данные поля
