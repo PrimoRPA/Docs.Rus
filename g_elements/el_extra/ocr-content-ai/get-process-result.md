@@ -1,5 +1,5 @@
 ---
-description: 
+description: Get processing result
 ---
 
 # Результаты обработки
