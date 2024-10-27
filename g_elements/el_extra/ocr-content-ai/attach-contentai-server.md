@@ -4,7 +4,7 @@ description:
 
 # Сервер ContentCapture
 
-![](<../../../.gitbook/assets1/windows_items/library/WFAttachContentAIServer.png>)
+![](<../../../.gitbook/assets1/windows_items/library/WFAttachContentAIServer-2.png>)
 
 Контейнер, который подключает к серверу ContentCapture.
 
