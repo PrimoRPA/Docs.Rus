@@ -23,7 +23,7 @@ description: ContentCapture server
 1. **Delegation** *[Boolean]* — определяет, следует ли использовать делегацию. По умолчанию галочка отсутствует — делегация не используется.
 1. **Логин** *[String]* — логин пользователя.
 1. **Пароль** *[String]* — пароль пользователя.
-1. **Защищенный пароль** *[[SecureString](https://learn.microsoft.com/ru-ru/dotnet/api/system.security.securestring?view=net-5.0)]* — поле для вставки защищенного пароля.
+1. **Защищенный пароль** *[[SecureString](https://learn.microsoft.com/ru-ru/dotnet/api/system.security.securestring?view=net-5.0)]* — поле для указания защищенного пароля.
 1. **Роль** — роль пользователя. Доступные значения:
    * `Processing Station` — значение по умолчанию.
    * `Scanning Operator`
