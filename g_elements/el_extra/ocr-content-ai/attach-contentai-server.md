@@ -4,7 +4,7 @@ description:
 
 # Сервер ContentCapture
 
-![](<../../../.gitbook/assets1/excel-workbook-1.png>)
+![](<../../../.gitbook/assets1/windows_items/library/WFAttachContentAIServer.png>)
 
 Контейнер, который подключает к серверу ContentCapture.
 
