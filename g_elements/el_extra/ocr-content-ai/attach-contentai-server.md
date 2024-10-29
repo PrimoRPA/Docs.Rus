@@ -10,7 +10,7 @@ description: ContentCapture server
 
 ## Перед началом работы
 
-Установите в Primo RPA Studio (Windows) пакет Primo.OCR.ContentAI, иначе данный элемент будет недоступен.
+Установите в Primo RPA Studio (Windows) пакет [Primo.OCR.ContentAI](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ocr-content-ai), иначе данный элемент будет недоступен.
 
 
 ## Свойства
