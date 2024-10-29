@@ -32,3 +32,4 @@ description: Get processing result
 1. **Результат** *[Primo.OCR.ContentAI.Model.RecognitionResults]* — название переменной, которая будет хранить результат обработки документов.
 
 
+
