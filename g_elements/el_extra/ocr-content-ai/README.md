@@ -1,6 +1,6 @@
 # OCR.ContentAI
 
-Primo.OCR.ContentAI — NuGet-пакет для автоматизации работы с сервером ContentCapture. Пакет содержит элементы для обработки документов и получения результатов обработки роботом.
+Primo.OCR.ContentAI — NuGet-пакет для автоматизации работы с ПО ContentCapture. Пакет содержит элементы для обработки документов и получения результатов обработки роботом.
 
 После установки пакета в Studio (Windows), в группе элементов **OCR** появится подгруппа **Content AI**. В нее входят элементы:
 * [Сервер ContentCapture](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ocr-content-ai/attach-contentai-server) — автоматизирует подключение к серверу ContentCapture.
