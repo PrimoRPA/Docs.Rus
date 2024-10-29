@@ -36,6 +36,6 @@ description: Process documents
 
 **Вывод:**
 
-1. **Результат** *[Primo.OCR.ContentAI.Model.RecognitionResults]* — результат обработки документов.
-1. **Пакет** *[Primo.OCR.ContentAI.Model.BatchInfo]* — информация о пакете.
+1. **Результат** *[Primo.OCR.ContentAI.Model.RecognitionResults]* — название переменной, которая будет хранить результат обработки документов.
+1. **Пакет** *[Primo.OCR.ContentAI.Model.BatchInfo]* — название переменной, которая будет хранить информацию о пакете.
 
