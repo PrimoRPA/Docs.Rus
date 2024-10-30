@@ -57,7 +57,7 @@
   * [NuGet-пакеты](release-notes/packages/README.md)
     * [Windows](release-notes/packages/windows/README.md)
       * [Primo.OCR.ContentAI](release-notes/packages/windows/ocr-content-ai/README.md)
-        * [1.0.0](release-notes/packages/windows/ocr-content-ai/1.0.0.md)
+        * [1.0.1](release-notes/packages/windows/ocr-content-ai/1.0.1.md)
     * [Linux](release-notes/packages/linux/README.md)
       * [Primo.Office.OdfOxml.Linux](release-notes/packages/linux/office-odfoxml/README.md)
         * [1.2.4](release-notes/packages/linux/office-odfoxml/1.2.4.md)
