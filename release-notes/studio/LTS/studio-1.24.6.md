@@ -2,7 +2,7 @@
 
 История изменений в Primo Studio для Windows за июнь 2024-го года. 
 
-Информацию по обновленным релизам версии 1.24.8 можно найти в статьях:
+Информацию по обновленным релизам версии 1.24.6 можно найти в статьях:
 
 * [Студия 1.24.6.13](https://docs.primo-rpa.ru/primo-rpa/release-notes/studio/studio-1.24.6/studio-1.24.6.13)
 * [Студия 1.24.6.17](https://docs.primo-rpa.ru/primo-rpa/release-notes/studio/studio-1.24.6/studio-1.24.6.17)
