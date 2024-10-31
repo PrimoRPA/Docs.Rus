@@ -92,9 +92,9 @@
 
 ## Где найти
 
-[**Скачать Primo RPA Studio**](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FRelease%2FStudio)
+[Скачать Primo RPA Studio](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FArchive%2FStudio%2F1.24.8).
 
-[**Скачать Primo RPA Robot**](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FRelease%2FRobot). 
+[Скачать Primo RPA Robot](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FArchive%2FRobot%2F1.24.8).
 
 
 Если у вас возникнут сложности с установкой или использованием данной версии, пожалуйста, обращайтесь к вашему менеджеру или в [наш чат поддержки в Telegram](https://t.me/primo_RPA_chat).
