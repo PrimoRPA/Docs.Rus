@@ -95,7 +95,7 @@ agent ALL = (%primo-rpa) NOPASSWD: /usr/bin/loginctl enable-linger *
 
 ## Установка агента
 
-Разворачивание файлов агента оркестратора на машине роботов (файл `Agent-linux.zip` должен находиться в каталоге `/srv/samba/shared/install`):
+Разворачивание файлов агента Оркестратора на машине роботов (файл `Agent-linux.zip` должен находиться в каталоге `/srv/samba/shared/install`):
 ```
 [primo-admin@astra-robot ~]$ sudo mkdir -p /opt/Primo/Agent /opt/Primo/AgentData /opt/LTools
 [primo-admin@astra-robot ~]$ sudo unzip /srv/samba/shared/install/Agent-linux.zip -d /opt/Primo/Agent
@@ -168,7 +168,7 @@ agent ALL = (%primo-rpa) NOPASSWD: /usr/bin/loginctl enable-linger *
 
 ## Настройка учетной записи робота
 
-Создание учётной записи робота `robot1`:
+Создание учетной записи робота `robot1`:
 ```
 [primo-admin@astra-robot ~]$ sudo useradd -g primo-rpa -m -s /bin/bash robot1
 ```
@@ -182,14 +182,11 @@ agent ALL = (%primo-rpa) NOPASSWD: /usr/bin/loginctl enable-linger *
 passwd: пароль успешно обновлен
 ```
 
-
 После создания учетной записи робота на машине робота необходимо войти в графический сеанс этой учётной записи для инициализации графического окружения.
 
 Рекомендуется отключить фон рабочего стола для экономии памяти. Для этого используйте: 
 
-
 *ПКМ на рабочем столе -> Свойства -> Обои, удалить обои и логотип.*
-
 
 Запомните разрешение экрана, при котором тестируются действия робота - поиск изображений, клики и т.п., чтобы настроить такое же разрешение пользователю робота в Оркестраторе:
 
@@ -207,30 +204,25 @@ passwd: пароль успешно обновлен
 [primo-admin@astra-robot ~]$ sudo systemctl stop Primo.Orchestrator.Agent
 ```
 
-
-Обновление файлов агента Оркестратора на машине роботов (файл `Agent-linux.zip` должен находиться в каталоге `/srv/samba/shared/install`):
+Обновление файлов агента оркестратора на машине роботов (файл `Agent-linux.zip` должен находиться в каталоге `/srv/samba/shared/install`):
 ```
 [primo-admin@astra-robot ~]$ sudo unzip -o -u /srv/samba/shared/install/Agent-linux.zip -d /opt/Primo/Agent -x appsettings.ProdLinux.json appsettings.json
-[primo-admin@astra-robot ~]$ sudo chown -R agent.primo-rpa /opt/Primo/Agent
+[primo-admin@astra-robot ~]$ sudo chown -R agent:primo-rpa /opt/Primo/Agent
 [primo-admin@astra-robot ~]$ sudo chmod -R g+w /opt/Primo/Agent 
-[primo-admin@astra-robot ~]$ sudo chmod a+x /opt/Primo/Agent/Primo.Orchestrator.Agent
+[primo-admin@astra-robot ~]$ sudo chmod a+x /opt/Primo/Agent/Primo.Orchestrator.Agent /opt/Primo/Agent/LTools.Orchestrator.Agent.Runner
 ```
-
 
 Запуск службы:
 ```
 [primo-admin@astra-robot ~]$ sudo systemctl start Primo.Orchestrator.Agent
 ```
 
-
 Просмотр статуса службы:
 ```
 [primo-admin@astra-robot ~]$ sudo systemctl status Primo.Orchestrator.Agent
 ```
 
-
 ## Миграция агента Оркестратора
-
 
 Для миграции существующей установки агента Оркестратора на версию с возможностью работы без прав `root` выполните следующее:
 * настройте пользователей и группы;
@@ -240,7 +232,6 @@ passwd: пароль успешно обновлен
 
 
 ### Настройка пользователей и групп
-
 
 Эти команды необходимо выполнять от имени пользователя настроенного как администратор при установке Astra Linux 1.7:
 ```
@@ -253,9 +244,7 @@ passwd: пароль успешно обновлен
 passwd: пароль успешно обновлён
 ```
 
-
 Теперь войдите в систему под пользователем `primo-admin` и дальнейшие команды выполняйте под его именем.
-
 
 Выполните команды из следующих разделов:
 * [Настройка дополнительного ПО](#Настройка-дополнительного-ПО)
@@ -270,28 +259,24 @@ passwd: пароль успешно обновлён
 
 ### Перенос данных агента Оркестратора
 
-
 В командах этого раздела предполагаются исходные пути каталогов с данными, совпадающие с оригинальным файлом конфигурации. Если эти пути были изменены, подставьте измененные пути.
 
 ```
 [primo-admin@astra-robot ~]$ sudo mkdir /opt/Primo/AgentData 
 [primo-admin@astra-robot ~]$ sudo mv /opt/Primo/Agent/RobotLocks /opt/PrimoAgent/RobotDistr /opt/Primo/Agent/ScreenFilesZip /opt/Primo/AgentData
-[primo-admin@astra-robot ~]$ sudo chown -R agent.primo-rpa /opt/Primo/Agent /opt/Primo/AgentData /opt/LTools
+[primo-admin@astra-robot ~]$ sudo chown -R agent:primo-rpa /opt/Primo/Agent /opt/Primo/AgentData /opt/LTools
 [primo-admin@astra-robot ~]$ sudo chmod -R g+w /opt/Primo/Agent /opt/Primo/AgentData /opt/LTools
 ```
 
-
 ### Обновление агента и файла конфигурации
-
 
 Обновление файлов агента Оркестратора (файл `Agent-linux.zip` должен находиться в каталоге `/srv/samba/shared/install`):
 ```
-[primo-admin@astra-robot ~]$ sudo unzip -o -u /srv/samba/shared/install/Agent-linux.zip -d /opt/Primo/Agent -x appsettings.ProdLinux.json appsettings.json
-[primo-admin@astra-robot ~]$ sudo chown -R agent.primo-rpa /opt/Primo/Agent
+[primo-admin@astra-robot ~]$ sudo unzip -o -u /srv/samba/shared/install/Agent-linux.zip -d /opt/Primo/Agent -x appsettings.ProdLinux.json appsettings.json appsettings.Runner.json
+[primo-admin@astra-robot ~]$ sudo chown -R agent:primo-rpa /opt/Primo/Agent
 [primo-admin@astra-robot ~]$ sudo chmod -R g+w /opt/Primo/Agent 
-[primo-admin@astra-robot ~]$ sudo chmod a+x /opt/Primo/Agent/Primo.Orchestrator.Agent
+[primo-admin@astra-robot ~]$ sudo chmod a+x /opt/Primo/Agent/Primo.Orchestrator.Agent /opt/Primo/Agent/LTools.Orchestrator.Agent.Runner
 ```
-
 
 В файле конфигурации `appsettings.ProdLinux.json` внесите следующие изменения:
 1) Вместо:
@@ -355,11 +340,9 @@ passwd: пароль успешно обновлён
     "At": "/usr/bin/at",
     "Reboot": "/usr/sbin/reboot",
     "Xvfb": "/usr/bin/xvfb-run",
-    "Session": "/usr/bin/fly-wm",
-    "StopSession": "fly-wmfunc FLYWM_UPDATE_VAL UseExitDialog false && fly-wmfunc FLYWM_UPDATE_VAL UseConfirmDialog false && fly-wmfunc FLYWM_LOGOUT"
+    "Session": "/usr/bin/fly-wm --execOnly {}"
 },
 ```
-
 
 ### Обновление файла управления службой
 
