@@ -66,7 +66,7 @@
 
 ## Где найти
 
-[Скачать версию Primo RPA Studio 1.24.6.18](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FArchive%2FStudio%2F1.24.6).
+[Скачать версию Primo RPA Studio 1.24.6.22](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FLTS%2FStudio%2F1.24.6).
 
-[Скачать версию Primo RPA Robot 1.24.6.18](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FArchive%2FRobot%2F1.24.6).
+[Скачать версию Primo RPA Robot 1.24.6.22](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FLTS%2FRobot%2F1.24.6).
 
