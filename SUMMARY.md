@@ -1274,7 +1274,7 @@
             * [Установка UI](primo-ai/installing//Linux/server/installing-ui.md)
         * [Подготовка целевой машины](primo-ai/installing/Linux/agent/README.md)
             * [Перед установкой компонентов](primo-ai/installing/Linux/agent/before-installation.md)
-            * [Установка без Docker](primo-ai/installing/Linux/agent/installation.md)
+            * [Установка компонентов без Docker](primo-ai/installing/Linux/agent/installation.md)
             * [Установка с использованием Docker](primo-ai/installing/Linux/agent/installation-docker.md)
             * [После установки компонентов](primo-ai/installing/Linux/agent/post-installation-steps.md)
             * [Обновление компонентов без Docker](primo-ai/installing//Linux/agent/update.md)
