@@ -3,7 +3,7 @@
 Расширения возможно установить:
 * [Вручную из Студии](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/plugin-install#ruchnaya-ustanovka-iz-studii) — для браузерных расширений и плагинов RDP, Java.
 * [Вручную из командной строки](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/plugin-install#ustanovka-iz-komandnoi-stroki) — для браузерных расширений и плагинов RDP, Java.
-* [Автоматически](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/autoinstall-browser-extension) — только для браузерных расширений на базе манифеста V2 (расширение с версией 1.xx).
+* [Автоматически](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/autoinstall-browser-extension) — только для браузерных расширений, созданных на основе манифеста V2 (расширение с версией 1.xx).
 
 ## Ручная установка из Студии
 
@@ -50,10 +50,10 @@ LTools.WebBrowser.Native.exe install=<browser> lang=<language> mode=<mode> manif
   * packed — упакованное;
   * storelocal — из магазина для текущего  пользователя;
   * unpacked — распакованное.
-* **manifest** — параметр используется для установки браузерного расширения на базе нового [манифеста версии 3](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3?hl=ru). Единственное допустимое значение параметра — `v3`. Расширение на основе манифеста V3 поможет избежать проблем с совместимостью в поздних версиях браузеров на платформе Chromium (Chrome, Yandex, Edge).  Если параметр `manifest` не указан, то по умолчанию будет установлено расширение для манифеста V2.
+* **manifest** — используется для установки браузерного расширения на основе [манифеста версии 3](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3?hl=ru). Единственное допустимое значение параметра — `v3`. Расширение на базе Manifest V3 разработано, чтобы избежать проблем с совместимостью в поздних версиях браузеров Chrome, Yandex, Edge, основанных на платформе Chromium.  Если параметр `manifest` не указан, то по умолчанию будет установлено расширение для манифеста V2.
 
 {% hint style="info" %}
-Версии расширения для манифеста V2 нумеруются с 1.xx (например, 1.66), для манифеста V3 — с 3.xx (например, 3.66).
+Версии расширения Primo RPA Extension для Manifest V2 нумеруются с 1.xx (например, 1.66), для Manifest V3 — с 3.xx (например, 3.66).
 {% endhint %}
 
 {% hint style="warning" %}
@@ -61,17 +61,16 @@ LTools.WebBrowser.Native.exe install=<browser> lang=<language> mode=<mode> manif
 {% endhint %}
 
 
-#### Особенности работы расширения с манифестом V2
+#### Особенности работы расширения с Manifest V2
 
-Расширение на базе манифеста V2 (1.xx) на данный момент может работать нестабильно из-за политик Google в отношении старых расширений, не предназначенных для ManifestV3. Для продолжения работы расширения со старым манифестом V2 в рабочие контуры рекомендуется добавить политику ExtensionManifestV2Availability со значением 2  (разрешить пользоваться расширениями с манифестом v2).
-Например, для браузера Chrome это можно сделать или групповыми политиками или вручную, запустив скрипт от имени администратора на сервере агента (компьютере клиента):
+Расширение на базе второй версии манифеста (1.xx) на данный момент может работать нестабильно из-за политик Google в отношении старых расширений, не предназначенных для ManifestV3. Чтобы продолжить работу с расширением для Manifest V2, в рабочие контуры рекомендуется добавить политику `ExtensionManifestV2Availability` со значением `2`, которая разрешает пользоваться расширениями на основе Manifest V2.
 
+Например, для браузера Chrome это можно сделать или групповыми политиками или вручную, запустив скрипт от имени администратора на сервере агента (компьютере клиента) в CMD или Powershell:
+```
 reg add HKLM\SOFTWARE\Policies\Google\Chrome /v ExtensionManifestV2Availability /t REG_DWORD /d 2 /f
+```
 
-После этого до июня 2025 года, по заявлениям Google, можно будет работать с расширениями v2 без опаски их остановки
-https://chromeenterprise.google/policies/?hl=ru#ExtensionManifestV2Availability
-
-
+После этого, [по заявлениям Google](https://chromeenterprise.google/policies/?hl=ru#ExtensionManifestV2Availability), можно будет работать с расширениями второй версии манифеста до июня 2025 года.
 
 
 #### Пример установки браузерного расширения
