@@ -40,7 +40,6 @@
    [primo-admin@astra-robot ~]$ sudo apt -y install xsel at xvfb python3 python3-pyatspi python3-numpy xdotool imagemagick python3-opencv wmctrl
    ```
 
-
 ## Настройка учетной записи агента
 
 Для работы агента Оркестратора и роботов создайте общую группу:
@@ -48,37 +47,60 @@
 [primo-admin@astra-robot ~]$ sudo groupadd primo-rpa
 ```
 
-Для работы агента Оркестратора создайте учетную запись:
+Для работы агента оркестратора создайте учётную запись:
 ```
 [primo-admin@astra-robot ~]$ sudo useradd -g primo-rpa -m -s /bin/bash agent
 ```
 
-
 Если необходимо, задайте пароль учетной записи:
-
 ```
 [primo-admin@redos-robot ~]$ sudo passwd agent
 Новый пароль : ***
 Повторите ввод нового пароля : ***
-passwd: пароль успешно обновлен
+passwd: пароль успешно обновлён
 ```
 
-Для запуска агентом Оркестратора заданий роботов без прав пользователя `root` установите следующую настройку:
+### Режим запуска роботов `atd`
+
+Для запуска заданий роботов без прав пользователя `root` файл `/etc/sudoers.d/primo-rpa-agent` должен выглядеть следующим образом:
 ```
-[primo-admin@astra-robot ~]$ sudo sh -c "echo 'agent ALL = (%primo-rpa) NOPASSWD: /usr/bin/at' > /etc/sudoers.d/primo-rpa-agent"
-[primo-admin@astra-robot ~]$ sudo sh -c "echo 'agent ALL = (ALL) NOPASSWD: /usr/sbin/reboot' >> /etc/sudoers.d/primo-rpa-agent"
+agent ALL = (ALL) NOPASSWD: /usr/sbin/reboot
+agent ALL = (%primo-rpa) NOPASSWD: /usr/bin/kill
+agent ALL = (%primo-rpa) NOPASSWD: /usr/bin/at
 ```
 
+Примечания:
+- первая строка разрешает пользователю `agent` запуск команды `/usr/sbin/reboot` с правами пользователя `root` без ввода пароля, то есть, позволяет агенту перезагрузить машину агента;
+- вторая строка разрешает пользователю `agent` запуск команды `/usr/bin/kill` с правами любого пользователя из группы `primo-rpa` без ввода пароля, то есть, позволяет агенту завершить процесс любого робота;
+- третья строка разрешает пользователю `agent` запуск команды `/usr/bin/at` с правами любого пользователя из группы `primo-rpa` без ввода пароля, то есть, позволяет агенту запустить робота с помощью службы `atd`.
+
+### Режим запуска роботов `systemd`
+
+Для запуска заданий роботов без прав пользователя `root`  файл `/etc/sudoers.d/primo-rpa-agent` должен выглядеть следующим образом:
+```
+agent ALL = (ALL) NOPASSWD: /usr/sbin/reboot
+agent ALL = (%primo-rpa) NOPASSWD: /usr/bin/kill
+agent ALL = (%primo-rpa) NOPASSWD:SETENV: /usr/bin/systemd-run -G --user --unit *
+agent ALL = (%primo-rpa) NOPASSWD:SETENV: /usr/bin/systemctl --user stop *
+agent ALL = (%primo-rpa) NOPASSWD: /usr/bin/loginctl enable-linger *
+```
+
+Примечания:
+- первая строка разрешает пользователю `agent` запуск команды `/usr/sbin/reboot` с правами пользователя `root` без ввода пароля, то есть позволяет агенту перезагрузить машину агента;
+- вторая строка разрешает пользователю `agent` запуск команды `/usr/bin/kill` с правами любого пользователя из группы `primo-rpa` без ввода пароля, то есть позволяет агенту завершить процесс любого робота;
+- третья строка разрешает пользователю `agent` запуск команды `/usr/bin/systemd-run` с правами любого пользователя из группы `primo-rpa` без ввода пароля, то есть позволяет агенту запустить сеанса робота с помощью службы `systemd`;
+- четвертая строка разрешает пользователю `agent` запуск команды `/usr/bin/systemctl` с правами любого пользователя из группы `primo-rpa` без ввода пароля, то есть позволяет агенту корректно остановить сеанс робота с помощью службы `systemd`;
+- пятая строка разрешает пользователю `agent` запуск команды `/usr/bin/loginctl` с правами любого пользователя из группы `primo-rpa` без ввода пароля, то есть позволяет агенту включить поддержку сеансов для робота.
 
 
 ## Установка агента
 
-Разворачивание файлов агента Оркестратора на машине роботов (файл `Agent-linux.zip` должен находиться в каталоге `/srv/samba/shared/install`):
+Разворачивание файлов агента оркестратора на машине роботов (файл `Agent-linux.zip` должен находиться в каталоге `/srv/samba/shared/install`):
 ```
 [primo-admin@astra-robot ~]$ sudo mkdir -p /opt/Primo/Agent /opt/Primo/AgentData /opt/LTools
 [primo-admin@astra-robot ~]$ sudo unzip /srv/samba/shared/install/Agent-linux.zip -d /opt/Primo/Agent
-[primo-admin@astra-robot ~]$ sudo chmod a+x /opt/Primo/Agent/Primo.Orchestrator.Agent
-[primo-admin@astra-robot ~]$ sudo chown -R agent.primo-rpa /opt/Primo/Agent /opt/Primo/AgentData /opt/LTools
+[primo-admin@astra-robot ~]$ sudo chmod a+x /opt/Primo/Agent/Primo.Orchestrator.Agent /opt/Primo/Agent/LTools.Orchestrator.Agent.Runner
+[primo-admin@astra-robot ~]$ sudo chown -R agent:primo-rpa /opt/Primo/Agent /opt/Primo/AgentData /opt/LTools
 [primo-admin@astra-robot ~]$ sudo chmod -R g+w /opt/Primo/Agent /opt/Primo/AgentData /opt/LTools
 ```
 
@@ -88,7 +110,6 @@ passwd: пароль успешно обновлен
 [primo-admin@astra-robot ~]$ sudo systemctl daemon-reload
 [primo-admin@astra-robot ~]$ sudo systemctl enable /etc/systemd/system/Primo.Orchestrator.Agent.service
 ```
-
 
 В конфигурационном файле `appsettings.ProdLinux.json` укажите адрес Оркестратора и TenantId (если эта машина не в тенанте по умолчанию) и пользователя из тенанта, а также адрес машины робота:
 <pre>
@@ -105,32 +126,29 @@ passwd: пароль успешно обновлен
     ...
     <b>"IpAddress": "192.168.0.20",</b>
     ...
+    <b>"RobotStartMethod": "system",</b>
   },
 </pre>
 
-
-Убедитесь, что в конфигурационном файле `appsettings.ProdLinux.json` правильно указаны команды, с помощью которых агент запускает роботов и управляет машиной (здесь указаны правильные команды для Astra Linux 1.7):
+Убедитесь, что в конфигурационном файле `appsettings.ProdLinux.json` правильно указаны команды, с помощью которых агент запускает роботов и управляет машиной:
 <pre>
   "AgentCommands": {
     <b>"At": "/usr/bin/at",</b>
     <b>"Reboot": "/usr/sbin/reboot",</b>
     <b>"Xvfb": "/usr/bin/xvfb-run",</b>
-    <b>"Session": "/usr/bin/fly-wm"</b>
+    <b>"Session": "/usr/bin/fly-wm --execOnly {}"</b>
   },
 </pre>
-
 
 Запуск службы:
 ```
 [primo-admin@astra-robot ~]$ sudo systemctl start Primo.Orchestrator.Agent
 ```
 
-
 Просмотр статуса службы:
 ```
 [primo-admin@astra-robot ~]$ sudo systemctl status Primo.Orchestrator.Agent
 ```
-
 
 Просмотр журнала службы:
 ```
