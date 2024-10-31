@@ -61,8 +61,6 @@ sudo dpkg -i /srv/samba/shared/install/docker/install/docker/docker-compose-plug
 
 ### 6. Установка системных служб
 
-Используйте команды:
-
 ```
 sudo cp /srv/samba/shared/install/docker/docker.service /etc/systemd/system/
 ```
@@ -80,7 +78,7 @@ sudo systemctl restart docker
 ```
 
 ## Загрузка образа
-Воспользуйтесь командой:
+
 ```
 docker load -i /srv/samba/shared/install/docker/target-machine/agent_ai.tar
 ```
@@ -89,7 +87,7 @@ docker load -i /srv/samba/shared/install/docker/target-machine/agent_ai.tar
 
 ### 1. Размещение томов контейнера
 
-Используйте команды:
+Выполните команды:
 ```
 sudo mkdir -p /app/Primo.AI/SmartOCR/volumes/conf/Agent/ /app/Primo.AI/SmartOCR/volumes/IDP/lib/ /app/Primo.AI/SmartOCR/volumes/AgentData
 ```
@@ -138,8 +136,6 @@ nano /app/Primo.AI/SmartOCR/volumes/conf/Agent/appsettings.ProdLinux.json
 Также настройте адрес сервера Primo RPA AI Server (ключи Api > AuthBaseUrl / ApiBaseUrl / InferenceBaseUrl / LogsBaseUrl).
 
 ### 4. Создание контейнера
-
-Используйте команды:
 
 ```
 cd /app/Primo.AI/SmartOCR/
