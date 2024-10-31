@@ -1,6 +1,6 @@
 # Системным администраторам
 
-В этом разделе вы узнаете, как установить и настроить компоненты Primo RPA AI Server для дальнейшей работы.
+В этом разделе вы узнаете, как установить и настроить компоненты Primo RPA AI Server.
 
 **Вам потребуются следующие навыки:**
 1. Вы должны быть уверенным пользователем ОС Linux:
@@ -35,6 +35,9 @@
     *  [Установка Api.Logs](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/server/installing-logs)
     *  [Установка Api.MachineInfo](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/server/installing-machineinfo)
     *  [Установка UI](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/server/installing-ui)
-  * Подготовка целевой машины:
-    * [Настройка целевой машины](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/agent/preconfiguring-agent-machine)
-    * [Обновление ПО](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/agent/update) 
+  * [Подготовка целевой машины](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/agent):
+    * [Перед установкой компонентов](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/agent/before-installation)
+    * [Установка компонентов целевой машины без Docker](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/agent/installation)
+    * [Установка компонентов целевой машины с использованием Docker](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/agent/installation-docker)
+    * [После установки компонентов](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/agent/post-installation-steps)
+    * [Обновление компонентов целевой машины без Docker](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/agent/update)
