@@ -47,7 +47,7 @@
 [primo-admin@astra-robot ~]$ sudo groupadd primo-rpa
 ```
 
-Для работы агента оркестратора создайте учётную запись:
+Для работы агента Оркестратора создайте учетную запись:
 ```
 [primo-admin@astra-robot ~]$ sudo useradd -g primo-rpa -m -s /bin/bash agent
 ```
