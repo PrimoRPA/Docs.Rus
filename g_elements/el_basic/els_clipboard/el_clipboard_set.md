@@ -5,9 +5,9 @@ description: Copy to Clipboard
 
 # Отправить в буфер обмена
 
-Элемент предназначен для отправки текста в буфер обмена.
-
 ![](<../../../.gitbook/assets/image (376).png>)
+
+Элемент предназначен для отправки текста в буфер обмена.
 
 ## Свойства
 Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
