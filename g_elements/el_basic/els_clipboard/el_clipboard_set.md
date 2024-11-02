@@ -1,5 +1,9 @@
+---
+description: Copy to Clipboard
+---
+
+
 # Отправить в буфер обмена
-*Eng: Copy to Clipboard*
 
 Элемент предназначен для отправки текста в буфер обмена.
 
@@ -13,9 +17,15 @@
 | Текст    | String | Текст, который будет отправлен в буфер обмена. Пример: `"test text"` |
 
 
-## Пример на Learning
+## Пример использования
 
-RPA-сценарий, демонстрирующий работу элемента, доступен на [Learning](https://github.com/PrimoRPA/Learning). Скачайте проект StudioActivities, откройте его в Студии и выберите процесс `StudioActivities/Ru/Буфер обмена/Копировать-Вставить.ltw` для просмотра. 
+RPA-проект, демонстрирующий работу элемента, можно найти в нашем публичном репозитории [Learning](https://github.com/PrimoRPA/Learning).
+
+1. Скачайте архив со всеми обучающими материалами по ссылке: [Скачать архив Learning](https://github.com/PrimoRPA/Learning/archive/refs/heads/master.zip).
+2. Распакуйте архив и откройте проект из папки **StudioActivities** в вашей Студии.
+3. Откройте процесс `StudioActivities > Ru > Буфер обмена > Копировать-Вставить.ltw`.
+
+
 
 ## Только код
 
