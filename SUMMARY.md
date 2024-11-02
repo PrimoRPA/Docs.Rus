@@ -1333,7 +1333,7 @@
     * [Привязка данных к UI](developers/sdk/LTools.SDK/ui-binding.md)
     * [Сборка и отладка](developers/sdk/LTools.SDK/debugging.md)
     * [Упаковка и публикация](developers/sdk/LTools.SDK/publish.md)
-    * [Правила анализа кода](developers/sdk/LTools.SDK/rules.md)
+    * [Создание правил анализа кода](developers/sdk/LTools.SDK/rules.md)
 * [LTools.Office.SDK](developers/sdk/LTools.Office.SDK/README.md)
     * [Начало работы](developers/sdk/LTools.Office.SDK/getting-started.md)
     * [Дополнительные свойства](developers/sdk/LTools.Office.SDK/additional-properties.md)
