@@ -1,6 +1,6 @@
 # Решить hCapcha
 
-![](<../../../.gitbook/assets/image (505).png>)
+![](<../../../.gitbook/assets1/linux_items/library/hcapcha.png>)
 
 Элемент, решающий капчу формата hCapcha
 
