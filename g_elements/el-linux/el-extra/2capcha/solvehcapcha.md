@@ -2,7 +2,7 @@
 
 ![](<../../../../.gitbook/assets1/linux_items/library/hcapcha.png>)
 
-Элемент решает капчу формата hCapcha. hCaptcha - это относительно новый вид капчи, который очень похож на reCAPTCHA
+Элемент решает капчу формата hCapcha. Это относительно новый вид капчи, который очень похож на reCAPTCHA.
 
 ![](<../../../../.gitbook/assets/image (801).png>)
 
