@@ -1,8 +1,8 @@
 # Решить hCapcha
 
-![](<../../../.gitbook/assets1/linux_items/library/hcapcha.png>)
+![](<../../../../.gitbook/assets1/linux_items/library/hcapcha.png>)
 
-Элемент, решающий капчу формата hCapcha
+Элемент решает капчу формата hCapcha.
 
 | Свойство   | Тип    | Описание                |
 | ---------- | ------ | ----------------------- |
