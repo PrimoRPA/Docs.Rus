@@ -9,8 +9,8 @@
 
 ## Исправленные ошибки 
 
-1.	Исправлена проблема, из-за которой при нажатии “Undo” происходил аварийный выход с ошибкой: «Unhandled exception. System.InvalidOperationException: The control already has a visual parent. »
-2.	 
+1.	Исправлена проблема, из-за которой при нажатии “Undo” происходил аварийный выход с ошибкой: «Unhandled exception. System.InvalidOperationException: The control already has a visual parent.»
+1. Устранена ошибка, вызывавшая срабатывание «Пропуска элемента» при запуске диаграммы в режиме «Playback».
 
 
 ## Где найти 
