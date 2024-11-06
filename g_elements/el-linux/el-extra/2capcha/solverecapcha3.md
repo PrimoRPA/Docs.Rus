@@ -1,6 +1,6 @@
 # Решить ReCapcha v3
 
-![](<../../../.gitbook/assets/image (745).png>)
+![](<../../../../.gitbook/assets1/linux-items-extra/recaptcha-v3.png>)
 
 Элемент решает капчу формата reCAPTCHA v3 и сохраняет результат в указанную переменную.
 
