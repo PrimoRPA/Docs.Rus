@@ -56,7 +56,7 @@ gpgkey=https://angie.software/keys/angie-signing.gpg.asc
 
 Отредактируйте конфигурационный файл:
 
-В указанных ниже секциях поменяйте текущий адрес на адрес сервера, на который устанавливается Angie:
+В указанных ниже секциях поменяйте текущий адрес на адрес сервера, на который устанавливается Angie:  
 http > upstream app_server  
 http > upstream robotlogs  
 http > ustream rdpstream  
