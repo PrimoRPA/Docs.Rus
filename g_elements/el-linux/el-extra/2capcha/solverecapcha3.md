@@ -53,13 +53,13 @@ reCAPTCHA v3 — вид капчи от Google, который основан н
 Описание общих свойств элемента см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
 Символ `*` в названии свойства указывает на обязательность заполнения.
 
-1. **Ключ сайта\*** | String | — Ключ капчи reCapcha.
-1. **URL\***        | String | — URL сайта капчи.
-1. **Ключ API\***   | String | — Ключ API.
-1. **URL API\***    | String | — URL API.
-1. **Точность**   | [Double](https://learn.microsoft.com/ru-ru/dotnet/api/system.double?view=net-5.0&viewFallbackFrom=windowsdesktop-3.0) | — Необходимая точность.
-1. **Тайм-аут**   | Int32  | — Тайм-аут.
-1. **Результат**  | String | — Результат разбора капчи.
+1. **Ключ сайта\*** *[String]* — ключ капчи reCapcha.
+1. **URL\*** *[String]* — URL сайта капчи.
+1. **Ключ API\*** *[String]* — ключ API.
+1. **URL API\*** *[String]* — URL API.
+1. **Точность** *[[Double](https://learn.microsoft.com/ru-ru/dotnet/api/system.double?view=net-5.0&viewFallbackFrom=windowsdesktop-3.0)]* — необходимая точность.
+1. **Тайм-аут** *[Int32]* — тайм-аут.
+1. **Результат** *[String]* — результат разбора капчи.
 
 
 ## Только код
