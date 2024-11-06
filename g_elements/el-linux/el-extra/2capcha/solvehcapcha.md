@@ -1,6 +1,6 @@
 # Решить hCapcha
 
-![](<../../../../.gitbook/assets1/linux_items-extra/hcapcha.png>)
+![](<../../../../.gitbook/assets1/linux-items-extra/hcapcha.png>)
 
 Элемент решает капчу формата hCapcha и сохраняет результат в указанную переменную. Этот вид капчи похож на reCAPTCHA и выглядит следующим образом:
 
