@@ -48,7 +48,7 @@ gpgkey=https://angie.software/keys/angie-signing.gpg.asc
 ```
 # sudo systemctl status angie.service
 ```
-Добавьте сертификаты из архива `cert1.crt` и `cert1.rsa в `/etc/angie`.
+Добавьте сертификаты из архива `cert1.crt` и `cert1.rsa` в `/etc/angie`.
 
 ### Конфигурирование Angie
 
@@ -66,7 +66,7 @@ http > upstream rdpstream1
 
 В секции server > root укажите путь к папке *UI* Оркестратора:
 
-![](../../../../orchestrator-new/resources/install/linux/redos/angie-redos2.PNG)
+![](../../.gitbook/assets1/orchestrator/angie-redos2.PNG)
 
 Перезапустите службу и убедитесь, что она работает:
 ```
