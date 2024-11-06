@@ -9,6 +9,6 @@
 
 **Linux**:
 
-- Развёртывание Оркестратора на Angie (РЕДОС v.7.3)
+- [Развёртывание Оркестратора на веб-сервере Angie (РЕДОС v.7.3)](https://docs.primo-rpa.ru/primo-rpa/orchestrator/quick-installation/angie-web-server-redos)
 
 *Разделы для ОС Linux находятся в разработке. Инструкции в формате \*.docx вы можете найти в комплекте поставки Оркестратора для Linux (см. каталог `Docs`).*
