@@ -1122,6 +1122,7 @@
 * [Варианты установки Оркестратора](orchestrator/quick-installation/README.md)
   * [Установка Оркестратора на веб-сервер IIS](orchestrator/quick-installation/IIS-web-server.md)
   * [Установка Оркестратора на веб-сервер Nginx](orchestrator/quick-installation/nginx-web-server.md)
+  * [Развёртывание Оркестратора на веб-сервере Angie (РЕДОС v.7.3)](orchestrator/quick-installation/angie-web-server-redos.md)
 * [Тонкая настройка](orchestrator/fine-tuning/README.md)
   * [Общие папки](orchestrator/fine-tuning/shared-folders.md)
   * [Внешняя поддержка RDP-сессии](orchestrator/fine-tuning/rdp-sessions.md)
