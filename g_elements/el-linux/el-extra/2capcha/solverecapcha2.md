@@ -1,6 +1,6 @@
 # Решить ReCapcha v2
 
-![](<../../../../.gitbook/assets1/linux_items-extra/>)
+![](<../../../../.gitbook/assets1/linux_items-extra/recaptcha-v2.png>)
 
 Элемент решает капчу формата reCAPTCHA v2. Это популярный вид капчи, также известный как "Я не робот" reCAPTCHA, и выглядит так:
 
