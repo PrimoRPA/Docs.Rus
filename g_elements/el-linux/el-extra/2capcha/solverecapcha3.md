@@ -41,11 +41,11 @@
 Символ `*` в названии свойства указывает на обязательность заполнения.
 
 1. **Ключ сайта\*** *[String]* — ключ капчи reCapcha. Пример: `"6LdKlZEpAAAAAAOQjzC2v_d36tWxCl6dWsozdSy9"`.
-1. **URL\*** *[String]* — URL сайта капчи.
+1. **URL\*** *[String]* — URL страницы с капчей reCAPTCHA v3.
 1. **Ключ API\*** *[String]* — ключ API.
-1. **URL API\*** *[String]* — URL API.
-1. **Точность** *[[Double](https://learn.microsoft.com/ru-ru/dotnet/api/system.double?view=net-5.0&viewFallbackFrom=windowsdesktop-3.0)]* — необходимая точность.
-1. **Тайм-аут** *[Int32]* — тайм-аут.
+1. **URL API\*** *[String]* — URL API. Значение по умолчанию: `"https://2captcha.com"`.
+1. **Точность** *[[Double](https://learn.microsoft.com/ru-ru/dotnet/api/system.double?view=net-5.0&viewFallbackFrom=windowsdesktop-3.0)]* — необходимая точность. По умолчанию `0.4`.
+1. **Тайм-аут** *[Int32]* — тайм-аут. По умолчанию `20000` миллисекунд.
 1. **Результат** *[String]* — результат разбора капчи.
 
 
