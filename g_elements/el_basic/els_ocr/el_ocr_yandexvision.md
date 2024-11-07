@@ -27,7 +27,7 @@
 | ------------- | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ID каталога\* | String             | [ID каталога](https://cloud.yandex.ru/docs/resource-manager/operations/folder/get-id) облака Yandex |
 | OAuth-Токен   | String             | OAuth-токен в сервисе Яндекс.OAuth |
-| API-Key       | String             | [Ключ API](https://cloud.yandex.ru/docs/iam/concepts/authorization/api-key). Данное свойство не требуется заполнять, если вы указали OAuth-Токен |
+| API-Key       | String             | [Ключ API](https://cloud.yandex.ru/docs/iam/concepts/authorization/api-key). Если вы указали OAuth-Токен, то данное свойство заполнять не нужно |
 | Переменная    | LTools.OCR.OCRInst | Переменная для сохранения ссылки на ядро OCR               |
 
 
