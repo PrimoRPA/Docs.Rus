@@ -1,6 +1,6 @@
 # Получить форму XFA
 
-![](<../../../../.gitbook/assets1/linux_items/pdf-getform-xfa.png>)
+![](<../../../../.gitbook/assets1/linux-items-extra/pdf-getform-xfa.png>)
 
 Элемент получает данные из формы XFA в PDF-документе. Результат сохраняется в указанную переменную. 
 
