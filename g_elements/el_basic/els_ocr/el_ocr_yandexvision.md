@@ -16,7 +16,7 @@
 
    ![](<../../../.gitbook/assets1/windows_items/get-oauth-token.png>)
    
-5. Получить OAuth ID — данное значение потребуется указать в свойстве элемента **OAuth-Токен**.
+5. Скопируйте OAuth ID — данное значение потребуется указать в свойстве элемента **OAuth-Токен**.
 
    ![](<../../../.gitbook/assets1/windows_items/OAuth-token.png>)
 
