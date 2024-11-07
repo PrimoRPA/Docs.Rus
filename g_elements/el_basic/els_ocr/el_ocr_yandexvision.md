@@ -18,8 +18,6 @@
    
 5. Скопируйте OAuth ID — данное значение потребуется указать в свойстве элемента **OAuth-Токен**.
 
-   ![](<../../../.gitbook/assets1/windows_items/OAuth-token.png>)
-
 
 ## Свойства
 Символ `*` в названии указывает на обязательность заполнения свойства. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
