@@ -26,10 +26,10 @@
 Описание общих свойств элемента см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
 Символ `*` в названии свойства указывает на обязательность заполнения.
 
+1. **URL API\*** *[String]* — URL API. По умолчанию: `"https://2captcha.com"`.
 1. **Ключ сайта\*** *[String]* — ключ hCapcha. Пример: `"a5f74b19-9e45-40e0-b45d-47ff91b7a6c2"`.  
 1. **URL\*** *[String]* — URL сайта с капчой. Пример: `"https://accounts.hcaptcha.com/demo"`.
 1. **Ключ API\*** *[String]* — ключ API. Пример: `"aa7a17bf3f570f76e0000b7e9ce2c65905"`.
-1. **URL API\*** *[String]* — URL API. Пример: `"https://2captcha.com"`.
 1. **Тайм-аут\*** *[Int32]* — тайм-аут, значение указывается в миллисекундах. По умолчанию `20000`.
 1. **Результат** *[String]* — название переменной для хранения полученного разбора капчи.
 
