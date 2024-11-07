@@ -4,15 +4,15 @@
 
 Элемент производит подключение к ядру OCR Yandex Vision.
 
-Перед началом работы необходимо:
+Перед началом работы:
 
-1. Зарегистрироваться в Yandex Cloud.
-2. Зайти в консоль [https://console.cloud.yandex.ru/](https://console.cloud.yandex.ru/) и пополнить баланс.
-3. Перейти в папку и получить ее идентификатор — данное значение потребуется указать в свойстве элемента **ID каталога**.
+1. Зарегистрируйтесь в Yandex Cloud.
+2. Зайдите в консоль [https://console.cloud.yandex.ru/](https://console.cloud.yandex.ru/) и пополните баланс.
+3. Перейдите в папку и получите ее идентификатор — данное значение потребуется указать в свойстве элемента **ID каталога**.
 
    ![Ссылка для перехода в каталог](<../../../.gitbook/assets/image (976).png>)
 
-4. На странице [https://cloud.yandex.ru/docs/cli/quickstart#install](https://cloud.yandex.ru/docs/cli/quickstart#install) перейти по ссылке из пункта 1.
+4. На странице [https://cloud.yandex.ru/docs/cli/quickstart#install](https://cloud.yandex.ru/docs/cli/quickstart#install) перейдите по ссылке из пункта 1.
 
    ![](<../../../.gitbook/assets1/windows_items/get-oauth-token.png>)
    
