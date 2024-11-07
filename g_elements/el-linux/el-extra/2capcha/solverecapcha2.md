@@ -42,10 +42,10 @@
 Описание общих свойств элемента см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\
 Символ `*` в названии свойства указывает на обязательность заполнения.
 
+1. **URL API\*** *[String]* — URL API. По умолчанию: `"https://2captcha.com"`.
+1. **URL\*** *[String]* — URL страницы с капчей. Пример: `"https://recaptcha-demo.appspot.com/recaptcha-v2-checkbox.php"`.
 1. **Ключ сайта\*** *[String]* — ключ капчи reCAPTCHA v2. Пример: `"6LfW6wATAAAAAHLqO2pb8bDBahxlMxNdo9g947u9"`.
 1. **Ключ API\*** *[String]* — ключ API. Пример: `"7a17bf3f570f76e2140b7e9ce2c00000"`.
-1. **URL API\*** *[String]* — URL API. Пример: `"https://2captcha.com"`.
-1. **URL\*** *[String]* — URL страницы с капчей. Пример: `"https://recaptcha-demo.appspot.com/recaptcha-v2-checkbox.php"`.
 1. **Невидимая** *[Boolean]* — признак невидимой капчи. По умолчанию не используется.
 1. **Тайм-аут\*** *[Int32]* — тайм-аут, указывается в миллисекундах. По умолчанию `20000`.
 1. **Результат** *[String]* — название переменной, в которую будет сохранен результат разбора капчи.
