@@ -1,6 +1,6 @@
 # Выбор значения
 
-![](../../.gitbook/assets1/studio-linux-elements-basic/select-item-activity.png)
+![](../../../.gitbook/assets1/studio-linux-elements-basic/select-item-activity.png)
 
 Компонент позволяет выбирать значения в комбобоксе или списке.
 
