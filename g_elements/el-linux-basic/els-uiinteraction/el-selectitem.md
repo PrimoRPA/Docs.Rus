@@ -1,3 +1,7 @@
+---
+Description: Select item
+---
+
 # Выбор значения
 
 ![](../../../.gitbook/assets1/studio-linux-elements-basic/select-item-activity.png)
