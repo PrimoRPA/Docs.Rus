@@ -961,6 +961,7 @@
 		* [Получить письма (POP3)](g_elements/el-linux-basic/els-mail/pop3-getmail.md)
 	* [Работа с UI](g_elements/el-linux-basic/els-uiinteraction/readme.md)
 		* [Ввод текста](g_elements/el-linux-basic/els-uiinteraction/el-inputtext.md)
+		* [Исчезновение элемента](g_elements/el-linux-basic/els-uiinteraction/el-elementvanish.md)
 		* [Клик мышью](g_elements/el-linux-basic/els-uiinteraction/el-click.md)
 	* [Рабочий стол](g_elements/el-linux-basic/els-desktop/readme.md)
   		* [Типы данных](g_elements/el-linux-basic/els-desktop/datatypes/readme.md)
