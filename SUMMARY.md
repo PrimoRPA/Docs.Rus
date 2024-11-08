@@ -961,6 +961,8 @@
 		* [Переместить в папку (IMAP)](g_elements/el-linux-basic/els-mail/imap-movetofolder.md)
 		* [Получить письма (IMAP)](g_elements/el-linux-basic/els-mail/imap-getmail.md)
 		* [Получить письма (POP3)](g_elements/el-linux-basic/els-mail/pop3-getmail.md)
+	* [Работа с UI](g_elements/el-linux-basic/els-uiinteraction/readme.md)
+		* [Клик мышью](g_elements/el-linux-basic/els-uiinteraction/el-click.md)
 	* [Рабочий стол](g_elements/el-linux-basic/els-desktop/readme.md)
   		* [Типы данных](g_elements/el-linux-basic/els-desktop/datatypes/readme.md)
 			* [UIDataTable](g_elements/el-linux-basic/els-desktop/datatypes/uidatatable.md)
