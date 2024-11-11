@@ -965,6 +965,7 @@
 		* [Ввод текста](g_elements/el-linux-basic/els-uiinteraction/el-inputtext.md)
 		* [Выбор значения](g_elements/el-linux-basic/els-uiinteraction/el-selectitem.md)
 		* [Клик мышью](g_elements/el-linux-basic/els-uiinteraction/el-click.md)
+		* [Получить текст](g_elements/el-linux-basic/els-uiinteraction/el-gettext.md)
 	* [Рабочий стол](g_elements/el-linux-basic/els-desktop/readme.md)
   		* [Типы данных](g_elements/el-linux-basic/els-desktop/datatypes/readme.md)
 			* [UIDataTable](g_elements/el-linux-basic/els-desktop/datatypes/uidatatable.md)
