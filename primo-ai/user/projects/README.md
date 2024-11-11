@@ -7,11 +7,11 @@
 * *Описание проекта.*
 * *Информация о количестве пакетов и пайплайнах* — в настоящее время не используется, реализовано для будущих версий.
 
-![](<../../../../.gitbook/assets1/primo-ai/user-guide/project-card.png>)
+![](<../../../.gitbook/assets1/primo-ai/user-guide/project-card.png>)
 
 Чтобы перейти в определенный проект, достаточно выбрать его карточку. После чего, в панели слева, вы увидите меню для управления ресурсами проекта. 
 
-![](<../../../../.gitbook/assets1/primo-ai/user-guide/project-menu-panel.png>)
+![](<../../../.gitbook/assets1/primo-ai/user-guide/project-menu-panel.png>)
 
 
 ## Содержание
