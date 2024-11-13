@@ -25,48 +25,6 @@
 - *PropertiesDict.csv* — содержит отображаемые значения для некоторых свойств активностей.
 - *elements.csv* — описывает активности, включая группу, описание и название класса.
 
-#### Шаблон **project.cshtml** 
-
-**project.cshtml**  - это шаблон, предназначенный для описания проекта в формате HTML. Для этого используется модель данных `ProjectInfo`, которая подключается через директиву `@model`:
-
-```csharp
-@using PrimoAutodoc.ObjectModel
-@using PrimoConverter.Utils
-@using PrimoDocum.ObjectModel
-@model ProjectInfo
-```
-
-Модель данных `ProjectInfo` определяет доступ к информации о проекте, такой как имя, описание и список компонентов, которые можно включить в выходной документ.
-
-#### Шаблон process.cshtml
-
-**process.cshtml** — это шаблон, предназначенный для описания файла процесса (*.ltw). В этом шаблоне используется модель данных `ProcessInfo`, подключаемая с помощью директивы `@model`. 
-
-```csharp
-@using PrimoConverter.PrimoModel
-@using PrimoDocum.ObjectModel
-@model ProcessInfo
-```
-
-В шаблоне **process.cshtml** предусмотрен специальный тег `{Activities}`, который обозначает место, куда *AutoDoc* автоматически вставляет результат заполнения шаблона **ActivityInfo**. Это позволяет легко интегрировать информацию об активностях процесса в итоговый документ.
-
-
-
-#### Шаблон ActivityInfo.cshtml
-
-**ActivityInfo.cshtml** — это шаблон активностей, предназначенный для описания элементов процесса. В этом шаблоне используется модель данных `IEnumerable<ActivityInfo>`, которая подключается с помощью директивы `@model`.
-
-```csharp
-@using PrimoAutodoc.ObjectModel
-@using PrimoConverter.Utils
-@using PrimoDocum.ObjectModel
-@using System.Collections.Generic
-@using System.Linq
-@model IEnumerable<ActivityInfo>
-```
-
-Шаблон **ActivityInfo.cshtml** выполняет обход дерева элементов процесса в порядке их вызова. Для отображения структуры элементов используется метод `ShowTree(@Model)`, который обеспечивает последовательное отображение всех активностей внутри процесса.
-
 
 #### Шаблон Template.uml
 
