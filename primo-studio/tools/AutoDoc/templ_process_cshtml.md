@@ -9,19 +9,6 @@
 ```
 
 В шаблоне **process.cshtml** предусмотрен специальный тег `{Activities}`, который обозначает место, куда *AutoDoc* автоматически вставляет результат заполнения шаблона **ActivityInfo**. Это позволяет легко интегрировать информацию об активностях процесса в итоговый документ.
-# Шаблон ActivityInfo.cshtml
-
-
-**ActivityInfo.cshtml** — это шаблон активностей, предназначенный для описания элементов процесса. В этом шаблоне используется модель данных `IEnumerable<ActivityInfo>`, которая подключается с помощью директивы `@model`.
-
-```csharp
-@using PrimoAutodoc.ObjectModel
-@using PrimoConverter.Utils
-@using PrimoDocum.ObjectModel
-@using System.Collections.Generic
-@using System.Linq
-@model IEnumerable<ActivityInfo>
-```
 
 
 ## Описание свойств, используемых в шаблонах `*.cshtml`
