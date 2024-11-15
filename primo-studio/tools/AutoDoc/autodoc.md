@@ -47,7 +47,7 @@ PrimoAutodoc.exe -i/-input "папка с Primo-проектом" -o/-output "п
 - **Файлы настроек**: файлы `.csv`, такие как `tags.csv`, `PropertiesDict.csv`, и `elements.csv` для управления отображением наименований, типов и свойств.
 - **Подпапки**: **assets* и *mazer* для стилей, скриптов и изображений, которые используются при оформлении выходных документов.
 
-Подробное описание каждого шаблона доступно в разделе [Шаблоны AutoDoc]([primo-studio/tools/AutoDoc/autodoc_templ_all.md](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio/tools/autodoc/autodoc_templ_all).
+Подробное описание каждого шаблона доступно в разделе [Шаблоны AutoDoc](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio/tools/autodoc/autodoc_templ_all).
 
 
 ## Конфигурация
