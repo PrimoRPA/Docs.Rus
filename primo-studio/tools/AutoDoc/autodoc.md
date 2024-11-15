@@ -49,7 +49,7 @@ PrimoAutodoc.exe -i/-input "папка с Primo-проектом" -o/-output "п
 
 Подробное описание каждого шаблона доступно в разделе [Шаблоны AutoDoc](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio/tools/autodoc/autodoc_templ_all).
 
-![Сгенерированные файлы](../../../.gitbook/assets1/autodoc_ready.png) 
+![Сгенерированные файлы](../../../.gitbook/assets1/autodoc_files.png) 
 
 ## Конфигурация
 
@@ -143,6 +143,9 @@ PrimoAutodoc.exe -?
 
 
    ![Процесс создания документа](../../../.gitbook/assets1/autodoc_process.png) 
+
+
+   ![Паспорт Робота](../../../.gitbook/assets1/autodoc_ready.png) 
 
 
  
