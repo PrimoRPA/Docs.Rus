@@ -2,11 +2,11 @@
 
 При генерации документации Робота (паспорт робота) в *AutoDoc* применяются несколько шаблонов для описания проектов и их структуры:
 
-- **Project.cshtml** — Шаблон для описания проекта (*.ltp).
-- **Process.cshtml** — Шаблон для описания процесса.
-- **ActivityInfo.cshtml** — Шаблон для активностей проекта.
-- **Template.uml** - Шаблон UML для визуализации процессов.
-- **Template.docx** - Шаблон для автоматической генерации описания проекта в формате документа **MS Word**
+- [**Project.cshtml**](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio/tools/autodoc/templ_project_cshtml) — Шаблон для описания проекта (*.ltp).
+- [**Process.cshtml**](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio/tools/autodoc/templ_process_cshtml) — Шаблон для описания процесса.
+- [**ActivityInfo.cshtml**](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio/tools/autodoc/templ_activityinfo_cshtml) — Шаблон для активностей проекта.
+- [**Template.uml**](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio/tools/autodoc/template_uml) - Шаблон UML для визуализации процессов.
+- [**Template.docx**](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio/tools/autodoc/template_docx) - Шаблон для автоматической генерации описания проекта в формате документа **MS Word**
 
 Каждый из этих шаблонов использует свою модель данных, которая определяется директивой `@model`.
 
@@ -31,13 +31,13 @@
 
 По ссылкам ниже представлены описания свойств используемых типов в шаблонах `.cshtml`. Каждому типу данных сопоставлен набор свойств.
 
-1. [Тип ProjectInfo](#тип-projectinfo)  
-2. [Тип ProcessInfo](#тип-processinfo)  
+1. [Тип ProjectInfo](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio/tools/autodoc/templ_properties#id-1.-tip-projectinfo)  
+2. [Тип ProcessInfo](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio/tools/autodoc/templ_properties#id-2.-tip-processinfo)  
 3. [Тип ToCItem](#тип-tocitem)  
-4. [Тип ScriptVariable](#тип-scriptvariable)  
-5. [Тип SerializationComponent](#тип-serializationcomponent)  
-6. [Тип Components](#тип-components)  
-7. [Тип Properties](#тип-properties)  
-8. [Тип SerializationItem](#тип-serializationitem)  
-9. [Тип ActivityInfo](#тип-activityinfo)  
-10. [Тип ActivityProp](#тип-activityprop)
+4. [Тип ScriptVariable](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio/tools/autodoc/templ_properties#id-4.-tip-scriptvariable)  
+5. [Тип SerializationComponent](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio/tools/autodoc/templ_properties#id-5.-tip-serializationcomponent)  
+6. [Тип Components](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio/tools/autodoc/templ_properties#id-6.-tip-components)  
+7. [Тип Properties](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio/tools/autodoc/templ_properties#id-7.-tip-properties)  
+8. [Тип SerializationItem](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio/tools/autodoc/templ_properties#id-8.-tip-serializationitem)  
+9. [Тип ActivityInfo](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio/tools/autodoc/templ_properties#id-9.-tip-activityinfo)  
+10. [Тип ActivityProp](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio/tools/autodoc/templ_properties#id-10.-tip-activityprop)
