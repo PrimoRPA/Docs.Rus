@@ -67,7 +67,7 @@
 | **BackPath**           | `string`                      | Относительный путь от папки процесса до папки проекта ("../..")          |
 | **Components**         | `List<SerializationComponent>`| Компоненты процесса верхнего уровня                              |
 | **Description**        | `string`                      | Описание проекта из файла Itw                                    |
-| **GetTotalActivitiesCount** | `int`                   | Общее количество элементов                                       |
+| **GetTotalActivitiesCount** | `int`                   | Получить общее количество элементов                                       |
 | **GlobalVariables**    | `List<ScriptVariable>`        | Переменные                                                       |
 | **GlobalVariablesGroups** | `List<string>`            | Список групп переменных                                          |
 | **HtmlKeywords**       | `string`                      | Ключевые слова для метаданных страницы                           |
@@ -78,7 +78,7 @@
 | **ProjectHtml**        | `string`                      | Наименование файла с описанием проекта                           |
 | **Queues**             | `HashSet<string>`             | Очереди                                                          |
 | **RelativePath**       | `string`                      | Часть пути от папки проекта к подпапке с файлом процесса         |
-| **SvgFileNameBigFull** | `string`                      |Устаревшее название (не использовать) 
+| **SvgFileNameBigFull** | `string`                      |Устаревшее название 
 | **SvgFileNameBig**     | `string`                      |  Путь к полной диаграмме процесса                           |
 | **SvgFileNameSmall**   | `string`                      | Путь к краткой диаграмме процесса                                |
 | **Tags**               | `HashSet<string>`             | Список тегов   tags.csv                                                  |
@@ -172,10 +172,9 @@
 | **Guid**            | `string`              | Идентификатор элемента                          |
 | **HasChildren**     | `bool`                | Наличие вложенных элементов (Есть записи в свойстве Activities)                    |
 | **Header**          | `string`              | Заголовок элемента                              |
-| **HtmlBorderColor** | `string`              | Цвет рамки границ элемента в отчете. 
-Зависит от типа элемента                    |
+| **HtmlBorderColor** | `string`              | Цвет рамки границ элемента в отчете. Зависит от типа элемента               |
 | **IsFirstLevel**    | `bool`                |Признак элемента корневого уровня               |
-| **Link**            | `string`              | Ссылка на файл описания элемента                         |
+| **Link**            | `string`              | Ссылка на отдельный файл описания элемента                         |
 | **Name**            | `string`              | Наименование элемента                           |
 | **Num**             | `int`                 | Порядковый номер в списке активностей           |
 | **PngFile**         | `string`              | Путь к файлу снимка экрана, отображаемому в элементе                          |
