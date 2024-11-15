@@ -47,7 +47,7 @@
 | **GroupUsage**    | `Dictionary<string, int>` | Группы элементов (наименование, количество)  |
 | **HtmlKeywords**  | `string`              | Ключевые слова для метаданных страницы            |
 | **Libraries**     | `HashSet<string>`     | Общий список библиотек                            |
-| **Name**          | `string`              | Наименование проекта из файла ITP                 |
+| **Name**          | `string`              | Наименование проекта из файла Itp              |
 | **ProcessCount**  | `int`                 | Общее количество процессов                        |
 | **Queues**        | `HashSet<string>`     | Общий список очередей                             |
 | **Tags**          | `HashSet<string>`     | Общий список тегов (tags.csv)                                |
