@@ -1,6 +1,6 @@
 # Лицензии
 
-Primo RPA AI Server — лицензированный сервис платформы Primo RPA. Лицензии запрашиваются у вендора на вкладке **Настройки > Лицензии**. Только пользователь пользователем с ролью [Administrator](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/admin/system-users#vstroennye-roli) вправе запрашивать лицензии и управлять ими.
+Primo RPA AI Server — лицензированный сервис платформы Primo RPA. Лицензии запрашиваются на вкладке **Настройки > Лицензии**. Только пользователь пользователем с ролью [Administrator](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/admin/system-users#vstroennye-roli) вправе запрашивать лицензии и управлять ими.
 
 Лицензированию подлежат следующие части сервиса:
 * Primo RPA AI Server — программные компоненты для машины сервера. 
