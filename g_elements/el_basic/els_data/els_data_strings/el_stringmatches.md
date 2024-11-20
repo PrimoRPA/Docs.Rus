@@ -2,9 +2,9 @@
 
 ![](<../../../../.gitbook/assets/Рег выражение(массив).png>)
 
-Элемент применяет регулярное выражение к заданной строке. В результате вы получите список совпадений.
+Элемент применяет регулярное выражение к заданной строке. В результате вы получите список соответствий.
 
-Если вам не нужен список совпадений, а нужно только узнать, есть совпадение или нет — используйте элемент [Регулярное выражение (IsMatch)](https://docs.primo-rpa.ru/primo-rpa/g\_elements/osnovnye-elementy/els\_data/els\_data\_strings/el\_regex), который вернет результат в формате Boolean.
+Если вам не нужен список соответствий, а нужно только узнать, есть соответствие или нет — используйте элемент [Регулярное выражение (IsMatch)](https://docs.primo-rpa.ru/primo-rpa/g\_elements/osnovnye-elementy/els\_data/els\_data\_strings/el\_regex), который вернет результат в формате Boolean.
 
 
 ## Свойства
@@ -17,4 +17,4 @@
 1. **Параметр** — параметр регулярного выражения, если требуется. Подробнее со значениями параметра можно ознакомиться [здесь](https://learn.microsoft.com/ru-ru/dotnet/standard/base-types/regular-expression-options). По умолчанию установлено значение `None`.
 
 **Вывод**:                                                                                                                                                                                                                                                                       
-1. **Результат\*** [List<[Match](https://learn.microsoft.com/ru-ru/dotnet/api/system.text.regularexpressions.match?view=net-6.0)>] — название переменной, в которую сохранятся все найденные совпадения.
+1. **Результат\*** [List<[Match](https://learn.microsoft.com/ru-ru/dotnet/api/system.text.regularexpressions.match?view=net-6.0)>] — название переменной, в которую сохранятся все найденные соответствия.
