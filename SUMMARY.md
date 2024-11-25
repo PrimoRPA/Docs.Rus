@@ -10,6 +10,7 @@
       * [Студия 1.24.6.17](release-notes/studio/LTS/studio-1.24.6.17.md)
       * [Студия 1.24.6.18](release-notes/studio/LTS/studio-1.24.6.18.md)
       * [Студия 1.24.6.22](release-notes/studio/LTS/studio-1.24.6.22.md) 
+      * [Студия 1.24.6.24](release-notes/studio/LTS/studio-1.24.6.24.md)
     * [Студия 1.24.4](release-notes/studio/studio-1.24.4.md)
     * [Студия 1.24.2](release-notes/studio/studio-1.24.2.md)
     * [Архив](release-notes/studio/history/README.md)
