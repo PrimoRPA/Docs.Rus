@@ -8,7 +8,7 @@
 * [Студия 1.24.6.17](https://docs.primo-rpa.ru/primo-rpa/release-notes/studio/studio-1.24.6/studio-1.24.6.17)
 * [Студия 1.24.6.18](https://docs.primo-rpa.ru/primo-rpa/release-notes/studio/studio-1.24.6/studio-1.24.6.18)
 * [Студия 1.24.6.22](https://docs.primo-rpa.ru/primo-rpa/release-notes/studio/studio-1.24.6/studio-1.24.6.22)
-
+* [Студия 1.24.6.24](https://docs.primo-rpa.ru/primo-rpa/release-notes/studio/studio-1.24.6/studio-1.24.6.24)
 
 ## Обновления и улучшения (режим Pro)
 
