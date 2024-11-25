@@ -3,11 +3,22 @@
 Элемент получает результат NLP-запроса от Primo AI Server.
 
 
+## Перед началом работы
+
+1. Установите в Студии библиотеку [Primo.AI.Server](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server), поскольку данный элемент входит в состав библиотеки.
+1. Найдите на панели элементов группу **AI > NLP** и перетащите элемент **Получить результат NLP** в свой процесс.
+1. Перед использованием элемента создайте запрос NLP к Primo AI Server.
 
 
-Свойства
-  - Ключ запроса*: [System.Guid] Ключ запроса
-  - Результат: [Primo.AI.Server.Model.NlpResult] Результат запроса
+
+## Свойства
+Символ `*` указывает на обязательность заполнения свойства. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
+
+**Обработка:**
+* **Ключ запроса\*** *[System.Guid]* — ключ запроса.
+
+**Вывод:**
+* **Результат** *[Primo.AI.Server.Model.NlpResult]* — название переменной, в которую сохранится результат выполненного запроса.
 
 Primo.AI.Server.Model.NlpResult - Свойства:
   - CreatedAt [System.DateTimeOffset]: Дата создания запроса
