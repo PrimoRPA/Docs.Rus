@@ -2,6 +2,8 @@
 
 Элемент получает результат обработки NLP-запроса от Primo RPA AI Server.
 
+![](<../../../.gitbook/assets1/windows_items/WFAttachPrimoAIServer.png>)
+
 
 ## Перед началом работы
 
