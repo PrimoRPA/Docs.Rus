@@ -1,6 +1,10 @@
 #  Primo RPA Studio Windows  1.24.10
 
-Изменения в **Primo RPA Studio** за октябрь 2024-го года
+Изменения в **Primo RPA Studio** за октябрь 2024-го года.
+
+Информацию по обновленному релизу версии 1.24.10 можно найти по ссылке:
+
+[Студия 1.24.10.4](https://docs.primo-rpa.ru/primo-rpa/release-notes/studio/studio-1.24.10/studio-1.24.10.4)
 
 ## Обновления и улучшения (режим Pro)
 
