@@ -1,6 +1,6 @@
 # Получить результат NLP
 
-![](<../../../../.gitbook/assets1/windows_items/library/Primo.AI.Server.Elements.WFPrimoAIGetRequestNlp>)
+![](<../../../../.gitbook/assets1/windows_items/library/Primo.AI.Server.Elements.WFPrimoAIGetRequestNlp.png>)
 
 Элемент получает результат обработки NLP-запроса от Primo RPA AI Server и сохраняет его в переменную. 
 
