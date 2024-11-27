@@ -7,7 +7,7 @@ Primo.AI.Server.Model.NlpResult — результат обработки NLP-з
 1. **ExpiresAt** *[System.DateTimeOffset]* — дата, до которой хранятся все данные запроса.
 1. **RoutingKey** *[String]* — ключ маршрутизации запроса.
 1. **Key** *[Guid]* — идентификатор запроса.
-1. **Result** *[Primo.AI.Server.Model.NlpResultContent]* — результат выполнения запроса.
+1. **Result** *[Primo.AI.Server.Model.NlpResultContent]* — детализированный результат выполнения запроса.
 
 
 ## NlpResultContent
