@@ -13,11 +13,6 @@
   * Создать запрос NLP — отправляет запрос для обработки текста на естественном языке. Запрос обрабатывается NLP-моделью.
   * Получить результат NLP — получает результат NLP-запроса от AI Server.
 
-
-Данные элементы станут доступными при условии, что в Студии [установлены](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects/manage-dependencies#menedzher-zavisimostei) следующие зависимости:
-1. NuGet-пакет **System.Drawing.Common** версии 8.0.7.
-1. NuGet-пакет **Primo.AI.Server**. 
-
 Набор элементов для взаимодействия с AI Server появится в группе **AI** на панели элементов:
 
 ![](<../../../.gitbook/assets1/windows_items/library/ai-server-items.png>)
