@@ -6,7 +6,7 @@ description: Create request
 
 Элемент отправляет запрос на распознавание документа в Primo RPA AI Server. Используется в контейнере [**Сервер Primo.AI**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/primoaiserver).
 
-![](<../../../.gitbook/assets1/windows_items/WFAttachPrimoAIServer.png>)
+![](<../../../../.gitbook/assets1/windows_items/WFAttachPrimoAIServer.png>)
 
 ## Перед началом работы
 
