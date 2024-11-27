@@ -4,9 +4,10 @@ description: Get result
 
 # Получить результат
 
-Элемент получает от Primo RPA AI Server результат обработки документа. Результат сохраняется в переменную, указанную пользователем в свойствах элемента.
+![](<../../../../.gitbook/assets1/windows_items/WFPrimoAIGetInference.png>)
 
-![](<../../../.gitbook/assets1/windows_items/WFPrimoAIGetInference.png>)
+Элемент получает от Primo RPA AI Server результат обработки документа. Результат сохраняется в переменную, указанную в свойствах элемента.
+
 
 ## Перед началом работы
 
