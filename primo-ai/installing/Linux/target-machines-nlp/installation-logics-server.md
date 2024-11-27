@@ -56,15 +56,6 @@ nano /app/Primo.AI/NLP/logics/docker-compose.yaml
 ```
 При необходимости можно указать, например, другой порт агента, имя контейнера, скорректировать пути к общим томам или отключить автоматический рестарт контейнера.
 
-### 4. Создание контейнера
-
-```
-cd /app/Primo.AI/NLP/logics
-```
-```
-docker compose up -d
-```
-
 ## Что дальше
 Выполните установку агента LLM-ядра на текущей или иной машине.
 * [LLM-ядро](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/target-machines-nlp/installation-llm-core-agent)
