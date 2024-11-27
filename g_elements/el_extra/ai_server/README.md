@@ -9,7 +9,7 @@
 В библиотеку входят элементы:
 * [Сервер Primo.AI](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/primoaiserver) — производит подключение к AI Server, а также выполняет роль контейнера для других элементов из библиотеки Primo.AI.Server.
 * группа **Умный OCR**:
-  * [Создать запрос](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/createrequest) — отправляет запрос на распознавание иображения документа в AI Server.
+  * [Создать запрос OCR](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/createrequest) — отправляет запрос на распознавание иображения документа в AI Server.
   * [Получить результат OCR](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/getresult) — получает от AI Server результат распознавания документа обученной моделью.
   * [Проверить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/validatedoc) — производит валидацию распознанных данных и позволяет скорректировать их.
 * группа **NLP**:
