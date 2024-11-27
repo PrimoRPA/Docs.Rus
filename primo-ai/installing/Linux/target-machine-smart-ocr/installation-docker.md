@@ -145,4 +145,4 @@ docker compose up -d
 ```
 
 ## Что дальше
-[Выполните шаги](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/agent/post-installation-steps), необходимые после установки компонентов.
+[Выполните шаги](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/target-machine-smart-ocr/post-installation-steps), необходимые после установки компонентов.
