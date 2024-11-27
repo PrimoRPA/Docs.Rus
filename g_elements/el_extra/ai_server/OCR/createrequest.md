@@ -2,7 +2,7 @@
 description: Create request
 ---
 
-# Создать запрос
+# Создать запрос OCR
 
 Элемент отправляет запрос на распознавание документа в Primo RPA AI Server. Используется в контейнере [**Сервер Primo.AI**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/primoaiserver).
 
