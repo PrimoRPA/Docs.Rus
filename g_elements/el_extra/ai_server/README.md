@@ -20,7 +20,7 @@
 
 Набор элементов для взаимодействия с AI Server появится в группе **AI** на панели элементов:
 
-![](<../../../.gitbook/assets1/windows_items/library/ai-server-group.png>)
+![](<../../../.gitbook/assets1/windows_items/library/ai-server-items.png>)
 
 
 ## Порядок применения элементов
