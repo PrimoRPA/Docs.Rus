@@ -2,7 +2,7 @@
 description: Get result
 ---
 
-# Получить результат
+# Получить результат OCR
 
 ![](<../../../../.gitbook/assets1/windows_items/WFPrimoAIGetInference.png>)
 
