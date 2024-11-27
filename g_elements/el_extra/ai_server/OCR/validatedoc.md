@@ -10,7 +10,7 @@ description: Validate document
 
 ## Описание элемента
 
-![](<../../../.gitbook/assets1/windows_items/validate-doc.png>)
+![](<../../../../.gitbook/assets1/windows_items/validate-doc.png>)
 
 Элемент **Проверить документ** проверяет результат распознавания документа. Результат распознавания в данном контексте — это переменная с типом `Primo.AI.Server.Model.InferenceResult`, которую получают с помощью элемента [Получить результат](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/getresult). 
 
