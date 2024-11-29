@@ -4,7 +4,7 @@ description: Validate document
 
 # Проверить документ
 
-## Перед началом работы
+## Начальные условия
 
 Установите в Студии библиотеку [Primo.AI.Server](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server).
 
