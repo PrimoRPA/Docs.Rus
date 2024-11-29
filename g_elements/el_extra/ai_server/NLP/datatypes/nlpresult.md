@@ -1,8 +1,6 @@
 # NlpResult
 
-Primo.AI.Server.Model.NlpResult — результат обработки NLP-запроса, полученный от Primo RPA AI Server.
-
-Свойства:
+Свойства модели `Primo.AI.Server.Model.NlpResult`:
 1. **CreatedAt** *[System.DateTimeOffset]* — дата создания запроса.
 1. **ExpiresAt** *[System.DateTimeOffset]* — дата, до которой хранятся все данные запроса.
 1. **RoutingKey** *[String]* — ключ маршрутизации запроса.
