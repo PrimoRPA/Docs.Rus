@@ -5,6 +5,6 @@
 1. **UpdatedAt** *[System.DateTimeOffset]* — дата и время последнего обновления ответа.
 1. **StreamingCompletedAt** *[System.DateTimeOffset]* — дата и время завершения генерации результата.
 1. **IsReady** *[System.Boolean]* — флаг готовности результата: `true`— готов / `false` — не готов.
-1. **IsFailed** *[System.Boolean]* — флаг ошибочной обработки запроса.
+1. **IsFailed** *[System.Boolean]* — флаг ошибочной обработки запроса: `true`— ошибка / `false` — без ошибки.
 1. **Answer** *[String]* — текст ответа.
 1. **ErrorMsg** *[String]* — текст ошибки.
