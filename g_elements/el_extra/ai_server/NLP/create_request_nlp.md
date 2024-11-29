@@ -21,7 +21,7 @@
 
 
 ## Свойства
-Символом `*` отмечены обязательные для заполнения свойства. Описание общих свойств см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
+Обязательные свойства отмечены символом `*`. Описание общих свойств см. в [этом разделе](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
 
 **Обработка:**
 
