@@ -10,6 +10,10 @@
 1. Установка компонентов сервера [с помощью инсталляторов](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/server-with-installer) или [вручную](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/server).
 
 
-## Целевая машина
+## Целевая машина компонента "Умный OCR"
 
-Установка и настройка компонентов для целевой машины выполняется согласно [инструкциям](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/agent).
+Установка и настройка компонентов для целевой машины "Умного OCR" выполняется согласно [инструкциям](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/target-machine-smart-ocr).
+
+## Группа целевых машин компонента "NLP"
+
+Установка и настройка компонентов для группы целевых машин NLP выполняется согласно [инструкциям](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/target-machines-nlp).
