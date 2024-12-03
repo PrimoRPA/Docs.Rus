@@ -50,8 +50,8 @@
 
 ### Инструкции
 
-* [Встроенные проекты с типом LLM]() — раздел описывает, как работать со встроенными проектами.
-* [Управление проектом с типом LLM](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/project/operation-with-projects) — раздел описывает, как создать, изменить, удалить проект. 
+* [Управление проектом с типом LLM](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/project/operation-with-projects) — раздел описывает, как создать, изменить, удалить проект.
+* Настройка проекта NLP —
 
 
 
