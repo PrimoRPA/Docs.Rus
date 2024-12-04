@@ -20,16 +20,19 @@
 
 ### 1. Размещение томов контейнера
 
-Выполните команды:
+Создайте папку /app/Primo.AI/SmartOCR и дочерние:
 ```
 sudo mkdir -p /app/Primo.AI/SmartOCR/volumes/conf/Agent/ /app/Primo.AI/SmartOCR/volumes/IDP/lib/ /app/Primo.AI/SmartOCR/volumes/AgentData
 ```
+Распакуйте архив с библиотеками в папку с томами контейнера:
 ```
 yes | sudo unzip /srv/samba/shared/install/docker/agents/SmartOCR/volumes/venv.zip -d /app/Primo.AI/SmartOCR/volumes/IDP/lib
 ```
+Скопируйте файл с инструкциями для запуска контейнера:
 ```
 cp /srv/samba/shared/install/docker/agents/SmartOCR/docker-compose.yaml /app/Primo.AI/SmartOCR/
 ```
+Скопируйте конфигурационные файлы Агента целевой машины:
 ```
 cp /srv/samba/shared/install/docker/agents/SmartOCR/conf/Agent/* /app/Primo.AI/SmartOCR/volumes/conf/Agent/
 ```
