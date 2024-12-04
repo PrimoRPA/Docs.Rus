@@ -4,68 +4,96 @@
 
 Скопируйте на целевую машину файлы, приведенные в таблице ниже — они находятся в комплекте поставки Primo RPA AI Server. Остальное ПО должно быть предустановлено в Astra Linux.
 
-| Файл                                     | Описание                     | Примечание                                                                    |
-| ---------------------------------------- | ---------------------------- | ----------------------------------------------------------------------------- |
-| `target-machines-nlp-llm-core-agent.7z`  | Дистрибутив агента LLM-ядра  | Содержит образ docker, docker-compose.yml и тома для подключения к контейнеру |
+| Файл                               | Описание                     | 
+| ---------------------------------- | ---------------------------- |
+| `distr/Agent.NlpEngine-linux.zip`  | Дистрибутив агента LLM-ядра  |
 
+## Подготовка к установке
 
-## Загрузка образа
+При установке Astra Linux на целевой машине необходимо создать пользователя-администратора. Для этого на экране «Настройка учетных записей и паролей» введите имя `primo-admin` для учетной записи администратора.
 
-```
-docker load -i /srv/samba/shared/install/docker/target-machines-nlp-llm-core-agent/image.tar
-```
+![Настройка учетных записей и паролей](<../../../../.gitbook/assets1/primo-ai/install/create-admin-user.png>)
 
-## Создание контейнера
+Установка дополнительного ПО и создание дополнительных пользователей описаны ниже.
 
-### 1. Размещение томов контейнера
+## Установка агента
 
-Выполните команды:
+### Настройка учетной записи 
+
+Для работы агента создайте группу **primo-ai** и учетную запись **agent**. 
 ```
-sudo mkdir -p /app/Primo.AI/NLP/llm-core-agent/volumes/conf/Agent/ /app/Primo.AI/NLP/llm-core-agent/volumes/AgentData
+sudo groupadd primo-ai
 ```
 ```
-cp /srv/samba/shared/install/docker/target-machines-nlp-llm-core-agent/docker-compose.yaml /app/Primo.AI/NLP/llm-core-agent
-```
-```
-cp /srv/samba/shared/install/docker/target-machines-nlp-llm-core-agent/conf/Agent/* /app/Primo.AI/NLP/llm-core-agent/volumes/conf/Agent/
+sudo useradd -g primo-ai -m -s /bin/bash agent
 ```
 
-Должна получиться следующая иерархия папок для соответствия стандартному docker-compose.yaml:
+### Установка агента
+
+Разверните файлы агента на целевой машине (файл `Agent.NlpEngine-linux.zip` должен находиться в каталоге `/srv/samba/shared/install`): 
 ```
-/app/Primo.AI/NLP/llm-core-agent
-├── docker-compose.yaml
-└── volumes
-    ├── AgentData
-    ├── conf
-    │   └── Agent
-    │       ├── appsettings.json
-    │       └── appsettings.ProdLinux.json
+sudo mkdir -p /app/Primo.AI /app/Primo.AI/Agent.NlpEngine /app/Primo.AI/Agent.NlpEngineData 
+```
+```
+sudo unzip /srv/samba/shared/install/Agent.NlpEngine-linux.zip -d /app/Primo.AI/Agent.NlpEngine
+```
+```
+sudo chmod -R 771 /app/Primo.AI/Agent.NlpEngine /app/Primo.AI/Agent.NlpEngineData
+```
+```
+sudo chown -R agent:primo-ai /app/Primo.AI/Agent.NlpEngine /app/Primo.AI/Agent.NlpEngineData /app/Primo.AI/Agent.NlpEngine
 ```
 
-### 2. Настройка docker-compose.yaml
-Используйте команду:
+Установите агент как службу и настройте автозапуск:
 ```
-nano /app/Primo.AI/NLP/llm-core-agent/docker-compose.yaml
+sudo cp /app/Primo.AI/Agent/Primo.AI.Agent.NlpEngine.service /etc/systemd/system/
 ```
-При необходимости можно указать, например, другой порт агента, имя контейнера, скорректировать пути к общим томам или отключить автоматический рестарт контейнера.
-
-### 3. Файл конфигурации агента
-
-Отредактируйте файл конфигурации агента Primo RPA AI Server:
 ```
-nano /app/Primo.AI/NLP/llm-core-agent/volumes/conf/Agent/appsettings.ProdLinux.json
+sudo systemctl daemon-reload
+```
+```
+sudo systemctl enable /etc/systemd/system/Primo.AI.Agent.NlpEngine.service
 ```
 
-Обратите внимание на адрес **сервера** Primo RPA AI Server (ключи Api > AuthBaseUrl / ApiBaseUrl / InferenceBaseUrl / LogsBaseUrl).
+В конфигурационном файле `appsettings.ProdLinux.json` укажите:
+* **UserName** — логин учетной записи агента.
+* **Password** — пароль от учетной записи агента.
+* Адрес Primo.AI.Api и его компонентов.
 
-### 4. Создание контейнера
+```
+ 	"Api": {
+    		"UserName": "agent",
+    		"Password": "Xxxxxxxxxxxx",
 
+    		"AuthBaseUrl": "https://primo-ai-api-server:44392",
+    		"ApiBaseUrl": "https://primo-ai-api-server:44392",
+    		"InferenceBaseUrl": "https://primo-ai-api-server:44392",
+    		"LogsBaseUrl": "https://primo-ai-api-server:44392",
+  },
 ```
-cd /app/Primo.AI/NLP/llm-core-agent
+
+Запустите службы:
 ```
+sudo systemctl start Primo.AI.Agent.NlpEngine
 ```
-docker compose up -d
+
+Проверьте статус службы:
 ```
+sudo systemctl status Primo.AI.Agent.NlpEngine
+```
+
+Просмотрите журнал службы:
+```
+sudo journalctl -u Primo.AI.Agent.NlpEngine
+```
+
+### Настройка правила брандмауэра ufw
+
+Для разрешения доступа к API агента выполните команду:
+```
+sudo ufw allow 5005/tcp
+```
+
 
 ## Что дальше
 Выполните установку LLM-ядра на текущей машине.
