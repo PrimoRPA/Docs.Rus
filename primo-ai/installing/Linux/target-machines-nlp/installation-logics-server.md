@@ -48,9 +48,9 @@ sudo rm -r /app/Primo.AI/NLP/logics/volumes/venv/venv.zip
 ├── docker-compose.yaml
 └── volumes
     ├── src
-    ├── venv
-    │   └── lib
-    │       └── python3.11
+    └── venv
+        └── lib
+            └── python3.11
 ```
 
 ### 2. Настройка docker-compose.yaml
