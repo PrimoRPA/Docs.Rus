@@ -63,6 +63,6 @@ cp /srv/samba/shared/install/docker/agents/NLP/llama/docker-compose-cpu.yml /app
 Должна получиться следующая иерархия папок для соответствия стандартному docker-compose.yaml:
 ```
 /app/Primo.AI/NLP/llm-core-llama-cpu
-├── docker-compose-cpu.yml
+└── docker-compose-cpu.yml
 ```
 
