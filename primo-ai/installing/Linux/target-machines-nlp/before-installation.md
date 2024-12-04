@@ -47,4 +47,4 @@ TODO: новая схема для NLP
 ## Что дальше
 
 Выполните установку docker на каждую целевую машину из группы:
-* [Docker](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/target-machines-nlp/installation-docker)
+* [Docker](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/installation-docker)

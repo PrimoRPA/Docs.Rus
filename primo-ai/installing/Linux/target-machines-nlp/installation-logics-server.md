@@ -1,5 +1,9 @@
 # Установка Logics-сервера
 
+## Установка Docker
+
+[Установите Docker](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/installing-docker).
+
 ## Файлы из комплекта поставки
 
 Скопируйте на целевую машину файлы, приведенные в таблице ниже — они находятся в комплекте поставки Primo RPA AI Server. Остальное ПО должно быть предустановлено в Astra Linux.

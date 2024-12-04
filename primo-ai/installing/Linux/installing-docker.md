@@ -2,7 +2,7 @@
 
 ## Файлы из комплекта поставки
 
-Скопируйте на каждую целевую машину из группы файлы, приведенные в таблице ниже — они находятся в комплекте поставки Primo RPA AI Server. Остальное ПО должно быть предустановлено в Astra Linux.
+Скопируйте на машину с AI Server файлы, приведенные в таблице ниже — они находятся в комплекте поставки Primo RPA AI Server. Остальное ПО должно быть предустановлено в Astra Linux.
 
 | Файл                       | Описание           | 
 | -------------------------- | ------------------ | 
@@ -81,7 +81,7 @@ sudo systemctl restart docker
 
 Добавьте пользователей, которые будут пользоваться командой docker и docker-compose в группу docker:
 ```
-sudo usermod -aG docker agent
+sudo usermod -aG docker primo
 ```
 Если текущий пользователь в их числе, зарегистрируйте его в группе docker:
 ```
@@ -89,8 +89,4 @@ newgrp docker
 ```
 
 ## Что дальше
-Выполните установку компонентов группы целевых машин NLP.
-* [Агент Logics-сервера](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/target-machines-nlp/installation-agent)
-* [Logics-сервер](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/target-machines-nlp/installation-logics-server)
-* [Агент LLM-ядра](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/target-machines-nlp/installation-llm-core-agent)
-* [LLM-ядро](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/target-machines-nlp/installation-llm-core)
+Выполните [установку компонентов Api](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/server-with-docker/installing-api)
