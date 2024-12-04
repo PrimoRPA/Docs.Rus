@@ -4,68 +4,99 @@
 
 Скопируйте на целевую машину файлы, приведенные в таблице ниже — они находятся в комплекте поставки Primo RPA AI Server. Остальное ПО должно быть предустановлено в Astra Linux.
 
-| Файл                           | Описание           | Примечание                                                                    |
-| ------------------------------ | ------------------ | ----------------------------------------------------------------------------- |
-| `target-machines-nlp-agent.7z` | Дистрибутив агента | Содержит образ docker, docker-compose.yml и тома для подключения к контейнеру |
+| Файл                    | Описание           |
+| ----------------------- | ------------------ |
+| `distr/Agent-linux.zip` | Дистрибутив агента |
 
-## Загрузка образа
 
-```
-docker load -i /srv/samba/shared/install/docker/target-machines-nlp-agent/image.tar
-```
+## Подготовка к установке
 
-## Создание контейнера
+При установке Astra Linux на целевой машине необходимо создать пользователя-администратора. Для этого на экране «Настройка учетных записей и паролей» введите имя `primo-admin` для учетной записи администратора.
 
-### 1. Размещение томов контейнера
+![Настройка учетных записей и паролей](<../../../../.gitbook/assets1/primo-ai/install/create-admin-user.png>)
 
-Выполните команды:
+Установка дополнительного ПО и создание дополнительных пользователей описаны ниже.
+
+## Установка агента
+
+### Настройка учетной записи 
+
+Для работы агента создайте группу **primo-ai** и учетную запись **agent**. 
 ```
-sudo mkdir -p /app/Primo.AI/NLP/agent/volumes/conf/Agent/ /app/Primo.AI/NLP/agent/volumes/AgentData
-```
-```
-cp /srv/samba/shared/install/docker/target-machines-nlp-agent/docker-compose.yaml /app/Primo.AI/NLP/agent/
-```
-```
-cp /srv/samba/shared/install/docker/target-machines-nlp-agent/conf/Agent/* /app/Primo.AI/NLP/agent/volumes/conf/Agent/
+sudo groupadd primo-ai
 ```
 
-Должна получиться следующая иерархия папок для соответствия стандартному docker-compose.yaml:
 ```
-/app/Primo.AI/NLP/agent/
-├── docker-compose.yaml
-└── volumes
-    ├── AgentData
-    ├── conf
-    │   └── Agent
-    │       ├── appsettings.json
-    │       └── appsettings.ProdLinux.json
+sudo useradd -g primo-ai -m -s /bin/bash agent
 ```
 
-### 2. Настройка docker-compose.yaml
-Используйте команду:
-```
-nano /app/Primo.AI/NLP/agent/docker-compose.yaml
-```
-При необходимости можно указать, например, другой порт агента, имя контейнера, скорректировать пути к общим томам или отключить автоматический рестарт контейнера.
+### Установка агента
 
-### 3. Файл конфигурации агента
-
-Отредактируйте файл конфигурации агента Primo RPA AI Server:
+Разверните файлы агента на целевой машине (файл `Agent-linux.zip` должен находиться в каталоге `/srv/samba/shared/install`): 
 ```
-nano /app/Primo.AI/NLP/agent/volumes/conf/Agent/appsettings.ProdLinux.json
-```
-
-Обратите внимание на **идентификатор агента** (ключ Api > AgentId). Он должен соответствовать идентификатору в настройках "Целевые машины" портала AI Server.
-
-Также настройте адрес **сервера** Primo RPA AI Server (ключи Api > AuthBaseUrl / ApiBaseUrl / InferenceBaseUrl / LogsBaseUrl), адрес **агента LLM-ядра** (ключ Api > NlpEngineAgentBaseUrl) и адрес **Logics-сервера** (ключ Api > LogicsServerBaseUrl).
-
-### 4. Создание контейнера
-
-```
-cd /app/Primo.AI/NLP/agent
+sudo mkdir -p /app/Primo.AI /app/Primo.AI/Agent /app/Primo.AI/AgentData 
 ```
 ```
-docker compose up -d
+sudo unzip /srv/samba/shared/install/Agent-linux.zip -d /app/Primo.AI/Agent
+```
+```
+sudo chmod -R 771 /app/Primo.AI/Agent /app/Primo.AI/AgentData
+```
+```
+sudo chown -R agent:primo-ai /app/Primo.AI/Agent /app/Primo.AI/AgentData /app/Primo.AI/Agent
+```
+
+Установите агент как службу и настройте автозапуск:
+```
+sudo cp /app/Primo.AI/Agent/Primo.AI.Agent.service /etc/systemd/system/
+```
+```
+sudo systemctl daemon-reload
+```
+```
+sudo systemctl enable /etc/systemd/system/Primo.AI.Agent.service
+```
+
+В конфигурационном файле `appsettings.ProdLinux.json` укажите:
+* **AgentId** — уникальный идентификатор агента в виде значения с типом данных GUID. Идентификатор агента можно задать самостоятельно, а затем передать администратору вместе с IP-адресом, чтобы он добавил его в профиль целевой машины, либо наоборот — сначала создать целевую машину в разделе **Настройки ➝ Целевые машины**, скопировать автоматически заданный GUID и указать его в этом параметре.
+* **UserName** — логин учетной записи агента.
+* **Password** — пароль от учетной записи агента.
+* Адрес Primo.AI.Api и его компонентов.
+
+```
+ 	"Api": {
+    		"AgentId": "{91E221E8-8E13-4100-8BCB-84EA318C32DA}", // Уникальный идентификатор агента 
+			
+    		"UserName": "agent",
+    		"Password": "Xxxxxxxxxxxx",
+
+    		"AuthBaseUrl": "https://primo-ai-api-server:44392",
+    		"ApiBaseUrl": "https://primo-ai-api-server:44392",
+    		"InferenceBaseUrl": "https://primo-ai-api-server:44392",
+    		"LogsBaseUrl": "https://primo-ai-api-server:44392",
+  },
+```
+
+Запустите службы:
+```
+sudo systemctl start Primo.AI.Agent
+```
+
+Проверьте статус службы:
+```
+sudo systemctl status Primo.AI.Agent
+```
+
+Просмотрите журнал службы:
+```
+sudo journalctl -u Primo.AI.Agent
+```
+
+### Настройка правила брандмауэра ufw
+
+Для разрешения доступа к API агента выполните команду:
+```
+sudo ufw allow 5002/tcp
 ```
 
 ## Что дальше
