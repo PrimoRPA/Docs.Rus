@@ -55,6 +55,14 @@ cp /srv/samba/shared/install/docker/agents/SmartOCR/conf/Agent/* /app/Primo.AI/S
 ```
 nano /app/Primo.AI/SmartOCR/docker-compose.yaml
 ```
+Настройте потребляемые контейнером ресурсы целевой машины:
+```
+    deploy:
+      resources:
+        limits:
+          cpus: '4'
+          memory: 16G
+```
 При необходимости можно указать, например, другой порт агента, имя контейнера, скорректировать пути к общим томам или отключить автоматический рестарт контейнера.
 
 ### 3. Файл конфигурации агента
