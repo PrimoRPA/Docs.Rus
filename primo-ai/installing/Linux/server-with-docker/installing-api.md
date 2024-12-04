@@ -217,21 +217,21 @@ docker load -i /srv/samba/shared/install/docker/server/portainer.tar
    "Devices": {
      "HDD": "/dev/sda" //For Linux only
    },
-	```
+   ```
    Указываем блочное устройство и в docker-compose.yaml для передачи контейнеру:
    ```
-     MachineInfo: 
-	    ...
-		devices:
-		  - "/dev/sda:/dev/sda"
+   MachineInfo: 
+      ...
+      devices:
+         - "/dev/sda:/dev/sda"
    ```
    Найти устройство, к которому привяжется сервис Api.MachineInfo, можно используя команду lsblk.
    
 ## Создание контейнера
 
-```
-cd /app/Primo.AI/Api/
-```
-```
-docker compose up -d
-```
+   ```
+   cd /app/Primo.AI/Api/
+   ```
+   ```
+   docker compose up -d
+   ```
