@@ -8,14 +8,16 @@
 
 Скопируйте на целевую машину файлы, приведенные в таблице ниже — они находятся в комплекте поставки Primo RPA AI Server. Остальное ПО должно быть предустановлено в Astra Linux.
 
-| Файл                            | Описание                   | Примечание                                                                    |
-| ------------------------------- | -------------------------- | ----------------------------------------------------------------------------- |
-| `target-machines-nlp-logics.7z` | Дистрибутив Logics-сервера | Содержит образ docker, docker-compose.yml и тома для подключения к контейнеру |
+| Файл                                          | Описание                                                            | 
+| --------------------------------------------- | ------------------------------------------------------------------- | 
+| `docker/agents/NLP/logics/logics.tar`         | Дистрибутив Logics-сервера                                          |
+| `docker/agents/NLP/logics/docker-compose.yml` | Файл с инструкциями для запуска docker-контейнера с Logics-сервером |
+| `docker/agents/NLP/logics/volumes/venv.zip`   | Библиотеки необходимые Logics-серверу для работы                    |
 
 ## Загрузка образа
 
 ```
-docker load -i /srv/samba/shared/install/docker/target-machines-nlp-logics/image.tar
+docker load -i /srv/samba/shared/install/docker/agents/NLP/logics/logics.tar
 ```
 
 ## Создание контейнера
@@ -27,13 +29,10 @@ docker load -i /srv/samba/shared/install/docker/target-machines-nlp-logics/image
 sudo mkdir -p /app/Primo.AI/NLP/logics/volumes/src/ /app/Primo.AI/NLP/logics/volumes/venv
 ```
 ```
-sudo cp /srv/samba/shared/install/docker/target-machines-nlp-logics/docker-compose.yaml /app/Primo.AI/NLP/logics/
+sudo cp /srv/samba/shared/install/docker/agents/NLP/logics/docker-compose.yml /app/Primo.AI/NLP/logics/
 ```
 ```
-sudo cp /srv/samba/shared/install/docker/target-machines-nlp-logics/conf/src/* /app/Primo.AI/NLP/logics/volumes/src/
-```
-```
-sudo cp /srv/samba/shared/install/docker/target-machines-nlp-logics/conf/venv.zip /app/Primo.AI/NLP/logics/volumes/venv/
+sudo cp /srv/samba/shared/install/docker/agents/NLP/logics/volumes/venv.zip /app/Primo.AI/NLP/logics/volumes/venv/
 ```
 ```
 sudo unzip /app/Primo.AI/NLP/logics/volumes/venv/venv.zip
@@ -47,7 +46,6 @@ sudo rm -r /app/Primo.AI/NLP/logics/volumes/venv/venv.zip
 /app/Primo.AI/NLP/logics/
 ├── docker-compose.yaml
 └── volumes
-    ├── src
     └── venv
         └── lib
             └── python3.11
