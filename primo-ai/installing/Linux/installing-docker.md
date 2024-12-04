@@ -4,9 +4,12 @@
 
 Скопируйте на машину с AI Server файлы, приведенные в таблице ниже — они находятся в комплекте поставки Primo RPA AI Server. Остальное ПО должно быть предустановлено в Astra Linux.
 
-| Файл                       | Описание           | 
-| -------------------------- | ------------------ | 
-| `docker/docker-27.3.1.tgz` | Дистрибутив Docker | 
+| Файл                                                                      | Описание                                                          | 
+| ------------------------------------------------------------------------- | ----------------------------------------------------------------- | 
+| `docker/docker/docker-27.3.1.tgz`                                         | Дистрибутив Docker                                                | 
+| `docker/docker/docker.service`                                            | Файл службы для автоматического запуска Docker при старте системы | 
+| `docker/docker/docker-compose-plugin_2.27.1-1~debian.10~buster_amd64.deb` | Плагин Docker-Compose                                             | 
+| `docker/iptables.zip`                                                     | Пакет iptables                                                    | 
 
 
 ## Установка Docker
@@ -27,7 +30,7 @@
 ```
 mkdir -p install/docker
 cd install/docker
-tar xzvf /srv/samba/shared/install/docker/install/docker/docker-27.3.1.tgz
+tar xzvf /srv/samba/shared/install/docker/docker/docker-27.3.1.tgz
 ```
 
 {% endcode %}
@@ -46,7 +49,7 @@ sudo cp docker/* /usr/bin/
 mkdir -p install/iptables
 ```
 ```
-yes | sudo unzip /srv/samba/shared/install/docker/install/iptables.zip -d install/iptables
+yes | sudo unzip /srv/samba/shared/install/docker/iptables.zip -d install/iptables
 ```
 ```
 sudo dpkg -i install/iptables/*.deb
@@ -56,13 +59,13 @@ sudo dpkg -i install/iptables/*.deb
 
 Воспользуйтесь командой:
 ```
-sudo dpkg -i /srv/samba/shared/install/docker/install/docker/docker-compose-plugin_2.27.1-1~debian.10~buster_amd64.deb
+sudo dpkg -i /srv/samba/shared/install/docker/docker/docker-compose-plugin_2.27.1-1~debian.10~buster_amd64.deb
 ```
 
 ### 6. Установка системных служб
 
 ```
-sudo cp /srv/samba/shared/install/docker/docker.service /etc/systemd/system/
+sudo cp /srv/samba/shared/install/docker/docker/docker.service /etc/systemd/system/
 ```
 
 ```
@@ -82,6 +85,9 @@ sudo systemctl restart docker
 Добавьте пользователей, которые будут пользоваться командой docker и docker-compose в группу docker:
 ```
 sudo usermod -aG docker primo
+```
+```
+sudo usermod -aG docker agent
 ```
 Если текущий пользователь в их числе, зарегистрируйте его в группе docker:
 ```
