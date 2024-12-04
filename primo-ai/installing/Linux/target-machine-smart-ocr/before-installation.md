@@ -8,6 +8,10 @@
 
 ![Компоненты Primo.AI.Api и целевые машины](<../../../../.gitbook/assets1/primo-ai/install/components-and-machines-scheme.png>)
 
+Более общая схема Primo RPA AI Server в контейксте компонента "Умный OCR" приведены на схеме ниже:
+
+![Компоненты Primo.AI.Api и группы целевых машин NLP](<../../../../.gitbook/assets1/primo-ai/install/smart-ocr-components-and-machines-scheme.png>)
+
 **Агент** – self-hosted веб-приложение, REST API. Агент выполнен как NET8-приложение, которое устанавливается на целевой машине и используется для управления IDP.
 
 **IDP** – data science-ядро с нейронными сетями и OCR. Предназначено для интеллектуальной обработки документов. Размещено на специальным образом настроенной целевой машине.
