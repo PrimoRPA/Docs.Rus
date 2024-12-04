@@ -4,9 +4,12 @@
 
 Скопируйте на целевую машину файлы, приведенные в таблице ниже — они находятся в комплекте поставки Primo RPA AI Server. Остальное ПО должно быть предустановлено в Astra Linux.
 
-| Файл              | Описание                                 | Примечание                                                                                                         |
-| ----------------- | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| `target-machine.7z` | Дистрибутив целевой машины с *Умным OCR* | Содержит образ docker, docker-compose.yml и тома (с конфигурацией, данными целевой машины и библиотеками IDP-ядра) |
+| Файл                                         | Описание                                          | Примечание            |
+| -------------------------------------------- | ------------------------------------------------- | --------------------- |
+| `docker/agents/SmartOCR/agent_ai.tar`        | Образ целевой машины с *Умным OCR*                | Содержит образ docker |
+| `docker/agents/SmartOCR/docker-compose.yaml` | Файл с инструкциями по запуску контейнера         |                       |
+| `docker/agents/SmartOCR/volumes/conf/`       | Файлы конфигурации для подключения к контейнеру   |                       |
+| `docker/agents/SmartOCR/volumes/venv.zip`    | Архив с библиотеками для подключения к контейнеру |                       |
 
 
 ## Установка Docker
@@ -22,13 +25,13 @@
 sudo mkdir -p /app/Primo.AI/SmartOCR/volumes/conf/Agent/ /app/Primo.AI/SmartOCR/volumes/IDP/lib/ /app/Primo.AI/SmartOCR/volumes/AgentData
 ```
 ```
-yes | sudo unzip /srv/samba/shared/install/docker/target-machine/python3.11.zip -d /app/Primo.AI/SmartOCR/volumes/IDP/lib
+yes | sudo unzip /srv/samba/shared/install/docker/agents/SmartOCR/volumes/venv.zip -d /app/Primo.AI/SmartOCR/volumes/IDP/lib
 ```
 ```
-cp /srv/samba/shared/install/docker/target-machine/docker-compose.yaml /app/Primo.AI/SmartOCR/
+cp /srv/samba/shared/install/docker/agents/SmartOCR/docker-compose.yaml /app/Primo.AI/SmartOCR/
 ```
 ```
-cp /srv/samba/shared/install/docker/target-machine/conf/Agent/* /app/Primo.AI/SmartOCR/volumes/conf/Agent/
+cp /srv/samba/shared/install/docker/agents/SmartOCR/conf/Agent/* /app/Primo.AI/SmartOCR/volumes/conf/Agent/
 ```
 
 Должна получиться следующая иерархия папок для соответствия стандартному docker-compose.yaml:
