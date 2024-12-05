@@ -60,4 +60,4 @@ nano /app/Primo.AI/NLP/logics/docker-compose.yaml
 
 ## Что дальше
 Выполните установку агента LLM-ядра на текущей или иной машине.
-* [LLM-ядро](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/target-machines-nlp/installation-llm-core-agent)
+* [Агент LLM-ядра](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/target-machines-nlp/installation-llm-core-agent)
