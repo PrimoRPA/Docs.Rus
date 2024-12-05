@@ -72,6 +72,20 @@ sudo systemctl enable /etc/systemd/system/Primo.AI.Agent.NlpEngine.service
   },
 ```
 
+* Если будет использоваться GPU, для vLLM-движка укажите соответствующие имена образа и контейнера в ключе NlpProcess > EnginesDockerRun > Vllm > ImageName: 
+```
+      "EnginesDockerRun": {
+         "Vllm": {
+            "ImageName": "vllm/vllm-openai",
+            "ContainerName": "vllm_gpu_cont",
+            "WorkDir": "/app/Primo.AI/NLP",						  
+            "Host": "0.0.0.0",
+            "Port": 8000,
+            "ConfigFileRelativePaths": []
+         }
+      }
+```
+
 Запустите службы:
 ```
 sudo systemctl start Primo.AI.Agent.NlpEngine
