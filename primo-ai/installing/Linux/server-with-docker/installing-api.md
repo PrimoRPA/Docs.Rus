@@ -200,17 +200,6 @@ docker load -i /srv/samba/shared/install/docker/server/portainer.tar
    ```
    sudo nano /app/Primo.AI/Api/volumes/conf/Logs/appsettings.ProdLinux.json
    ```
-1. Указываем адрес Портала AI Сервера в Security > EnabledOrigins:
-   ```
-   "Security": {
-    ...
-    "EnabledOrigins": [
-      "https://192.168.0.4:44392", 
-      "https://ai-server-portal:44392"
-    ],	
-    ...
-	}
-	```
    
 1. Настраиваем блочное устройство машины-хоста для использования сервисом в Devices > HDD:
    ```
