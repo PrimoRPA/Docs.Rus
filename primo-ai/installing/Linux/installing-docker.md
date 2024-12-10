@@ -80,6 +80,13 @@ sudo systemctl daemon-reload
 sudo systemctl restart docker
 ```
 
+## Создание группы docker 
+
+Добавьте группу docker для использования команды docker:
+```
+sudo groupadd docker
+```
+
 ## Раздача прав 
 
 Добавьте пользователей, которые будут пользоваться командой docker и docker-compose в группу docker. Например, для пользователя docker_user:
