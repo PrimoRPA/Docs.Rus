@@ -64,6 +64,8 @@
       * [Primo.ProjectAnalyzer.Extended](release-notes/packages/windows/project-analyzer/README.md)
         * [1.0.0](release-notes/packages/windows/project-analyzer/1.0.0.md)
     * [Linux](release-notes/packages/linux/README.md)
+      * [Primo.AI.Linux](release-notes/packages/linux/primo-ai/readme.md)
+        * [1.1.1](release-notes/packages/linux/primo-ai/1.1.1.md)
       * [Primo.Office.OdfOxml.Linux](release-notes/packages/linux/office-odfoxml/README.md)
         * [1.2.4](release-notes/packages/linux/office-odfoxml/1.2.4.md)
         * [1.2.3](release-notes/packages/linux/office-odfoxml/1.2.3.md)
