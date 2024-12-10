@@ -82,12 +82,9 @@ sudo systemctl restart docker
 
 ## Раздача прав 
 
-Добавьте пользователей, которые будут пользоваться командой docker и docker-compose в группу docker:
+Добавьте пользователей, которые будут пользоваться командой docker и docker-compose в группу docker. Например, для пользователя docker_user:
 ```
-sudo usermod -aG docker primo
-```
-```
-sudo usermod -aG docker agent
+sudo usermod -aG docker docker_user
 ```
 Если текущий пользователь в их числе, зарегистрируйте его в группе docker:
 ```
