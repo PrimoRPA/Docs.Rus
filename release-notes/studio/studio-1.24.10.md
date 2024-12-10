@@ -2,9 +2,10 @@
 
 Изменения в **Primo RPA Studio** за октябрь 2024-го года.
 
-Информацию по обновленному релизу версии 1.24.10 можно найти по ссылке:
+Информацию по обновленным релизам версии 1.24.10 можно найти в разделах:
 
-[Студия 1.24.10.4](https://docs.primo-rpa.ru/primo-rpa/release-notes/studio/studio-1.24.10/studio-1.24.10.4)
+  *  [Студия 1.24.10.4](https://docs.primo-rpa.ru/primo-rpa/release-notes/studio/studio-1.24.10/studio-1.24.10.4)
+  *  [Студия 1.24.10.5](https://docs.primo-rpa.ru/primo-rpa/release-notes/studio/studio-1.24.10/studio-1.24.10.5.md)
 
 ## Обновления и улучшения (режим Pro)
 
