@@ -5,6 +5,7 @@
   * [Studio Windows](release-notes/studio/README.md)
     * [Студия 1.24.10](release-notes/studio/studio-1.24.10.md)
       * [Студия 1.24.10.4](release-notes/studio/studio-1.24.10.4.md)
+      * [Студия 1.24.10.5](release-notes/studio/studio-1.24.10.5.md)
     * [Студия 1.24.8](release-notes/studio/studio-1.24.8.md)
     * [Студия 1.24.6 LTS](release-notes/studio/LTS/studio-1.24.6.md)
       * [Студия 1.24.6.13](release-notes/studio/LTS/studio-1.24.6.13.md)
