@@ -75,6 +75,8 @@
         * [1.1.7](release-notes/packages/linux/t1-essentials/1.1.7.md)
       * [Primo.2Captcha.Linux](release-notes/packages/linux/2captcha/README.md)
         * [1.0.0](release-notes/packages/linux/2captcha/1.0.0.md)
+      * [Primo.Java.Linux](release-notes/packages/linux/primo-java/readme.md)
+        * [0.1.0](release-notes/packages/linux/primo-java/0.1.0.md)
 * [Лицензии](licenses.md)
 * [Полезные ресурсы](useful-links.md)
 
