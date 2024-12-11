@@ -40,6 +40,9 @@ sudo unzip /app/Primo.AI/NLP/logics/volumes/venv/venv.zip
 ```
 sudo rm -r /app/Primo.AI/NLP/logics/volumes/venv/venv.zip
 ```
+```
+sudo chown -R agent /app/Primo.AI/NLP
+```
 
 Должна получиться следующая иерархия папок для соответствия стандартному docker-compose.yaml:
 ```
