@@ -4,7 +4,7 @@ Description: Mouse hover
 
 # Установить курсор мыши
 
-![](<../../../resources/activities/basic/uiinteraction/mousehover-activity.png>)
+![](<../../../.gitbook/assets1/studio-linux-elements-basic/mousehover-activity.png>)
 
 Устанавливает курсор мыши на выбранном элементе управления.
 
