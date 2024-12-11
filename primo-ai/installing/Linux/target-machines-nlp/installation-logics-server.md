@@ -54,7 +54,7 @@ sudo rm -r /app/Primo.AI/NLP/logics/volumes/venv/venv.zip
 ### 2. Настройка docker-compose.yaml
 Используйте команду:
 ```
-nano /app/Primo.AI/NLP/logics/docker-compose.yaml
+nano /app/Primo.AI/NLP/logics/docker-compose.yml
 ```
 При необходимости можно указать, например, другой порт агента, имя контейнера, скорректировать пути к общим томам или отключить автоматический рестарт контейнера.
 
