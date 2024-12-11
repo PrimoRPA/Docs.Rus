@@ -4,7 +4,7 @@ Description: Anchor
 
 # Якорь
 
-![](<../../../resources/activities/basic/uiinteraction/anchor-activity.png>)
+![](<../../../.gitbook/assets1/studio-linux-elements-basic/anchor-activity.png>)
 
 
 Контейнер, который производит операцию над элементом пользовательского интерфейса (UI), основываясь на его положении относительно другого UI-элемента — *якоря*. Контейнер состоит из двух частей:
