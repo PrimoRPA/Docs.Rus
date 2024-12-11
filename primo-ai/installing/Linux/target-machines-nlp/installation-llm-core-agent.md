@@ -38,7 +38,7 @@ sudo chown -R agent:primo-ai /app/Primo.AI/Agent.NlpEngine /app/Primo.AI/Agent.N
 
 Установите агент как службу и настройте автозапуск:
 ```
-sudo cp /app/Primo.AI/Agent/Primo.AI.Agent.NlpEngine.service /etc/systemd/system/
+sudo cp /app/Primo.AI/Agent.NlpEngine/Primo.AI.Agent.NlpEngine.service /etc/systemd/system/
 ```
 ```
 sudo systemctl daemon-reload
