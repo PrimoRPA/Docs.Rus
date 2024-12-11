@@ -59,6 +59,9 @@ sudo mkdir -p /app/Primo.AI/NLP/llm-core-llama-cpu/
 ```
 cp /srv/samba/shared/install/docker/agents/NLP/llama/docker-compose-cpu.yml /app/Primo.AI/NLP/llm-core-llama-cpu/
 ```
+```
+sudo chown -R agent /app/Primo.AI/NLP
+```
 
 Должна получиться следующая иерархия папок для соответствия стандартному docker-compose.yaml:
 ```
