@@ -51,7 +51,7 @@
 15.	Заполните форму создания платежного аккаунта.
 16.	Используйте токен (см. шаг 6) и ID папки (см. шаг 8) в следующих случаях:
     * в элементах [YandexGPT](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai/yandexgpt) из библиотеки [**Primo.AI**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai);
-    * для настройки интеграции Студии с YandexGPT после [установки плагина `Primo.AI.Plugin.dll`](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings#ai). 
+    * для настройки интеграции Студии с YandexGPT после [установки плагина `Primo.AI.Plugin.dll`](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio/settings#ai).
 
 ## GigaChat
 
