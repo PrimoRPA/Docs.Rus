@@ -18,6 +18,12 @@
 
 ## Создание контейнера
 
+### Загрузка образа
+
+```
+docker load -i /srv/samba/shared/install/docker/agents/SmartOCR/agent_ai.tar
+```
+
 ### 1. Размещение томов контейнера
 
 Создайте папку /app/Primo.AI/SmartOCR и дочерние:
