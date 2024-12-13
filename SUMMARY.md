@@ -1238,7 +1238,6 @@
 * [Установка и обновление](idea-hub/installation/readme-installation.md)
 	* [Системные требования](idea-hub/installation/system-requirements.md)
 	* [Установка на ОС Linux](idea-hub/installation/installation-linux.md)
-	* [Обновление](idea-hub/installation/update.md)
  	* [Настройка cron](idea-hub/installation/cron.md)
   	* [Интеграция с LDAP](idea-hub/installation/integration-ldap.md)
 * [Начало работы](idea-hub/getting-started/readme.md)
