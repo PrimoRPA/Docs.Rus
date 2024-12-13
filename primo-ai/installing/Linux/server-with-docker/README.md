@@ -10,4 +10,4 @@
 
 ИЛИ:
 
-[Установите и настройте ПО для целевой машины AI Текст](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/target-machines-nlp).
+[Установите и настройте ПО для целевой машины NLP](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/target-machines-nlp).
