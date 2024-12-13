@@ -7,4 +7,7 @@
 
 ## Что дальше
 [Установите и настройте ПО для целевой машины Умного OCR](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/target-machine-smart-ocr).
+
+ИЛИ:
+
 [Установите и настройте ПО для целевой машины AI Текст](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/target-machines-nlp).
