@@ -118,7 +118,7 @@ sudo mkdir /srv/samba/shared/install
 
 Создаем папку для размещения служб Primo.AI.Api:
 ```
-sudo mkdir /app/Primo.AI
+sudo mkdir -p /app/Primo.AI
 ```
 
 ## 5. Настройка прав доступа к службам
