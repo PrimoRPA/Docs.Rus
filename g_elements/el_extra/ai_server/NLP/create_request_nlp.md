@@ -48,4 +48,4 @@
 
 
 **Вывод:**
-* **Результат** *[[System.Guid](https://learn.microsoft.com/ru-ru/dotnet/api/system.guid?view=net-5.0)]* — название переменной, в которой сохранится идентификатор запроса.
+* **Результат** *[[System.Guid](https://learn.microsoft.com/ru-ru/dotnet/api/system.guid?view=net-5.0)]* — название переменной, в которой сохранится идентификатор запроса. Впоследствии его можно использовать для получения результата от сервера.
