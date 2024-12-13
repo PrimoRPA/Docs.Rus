@@ -8,7 +8,7 @@
    ```
 1. Разархивируем `Api.MachineInfo-linux.zip` в `/app/Primo.AI/Api.MachineInfo`:
    ``` 
-   sudo unzip /srv/samba/shared/install/Api.MachineInfo-linux.zip -d /app/Primo.AI/Api.MachineInfo
+   sudo unzip /srv/samba/shared/install/distr/Api.MachineInfo-linux.zip -d /app/Primo.AI/Api.MachineInfo
    ```
 1. Устанавливаем владельца папки с инсталляцией:
    ```
@@ -55,8 +55,8 @@ sudo ufw allow 5051/tcp
 ## Вспомогательные компоненты
 Устанавливаем пакет (команда ОС) cpuid:
 ```
-# cd /srv/samba/shared/install
-sudo dpkg -i cpuid_20201006-1_amd64.deb
+sudo unzip /srv/samba/shared/install/distr/cpuid.zip -d /srv/samba/shared/install/distr/cpuid
+sudo dpkg -i /srv/samba/shared/install/distr/cpuid/*.deb
 ```
 
 ## Настройка Primo RPA AI Server для работы с MachineInfo
