@@ -8,9 +8,15 @@
 
 ![Компоненты Primo.AI.Api и целевые машины](<../../../../.gitbook/assets1/primo-ai/install/components-and-machines-scheme.png>)
 
+Более общая схема Primo RPA AI Server в контейксте компонента "Умный OCR" приведены на схеме ниже:
+
+![Компоненты Primo.AI.Api и группы целевых машин NLP](<../../../../.gitbook/assets1/primo-ai/install/smart-ocr-components-and-machines-scheme.png>)
+
 **Агент** – self-hosted веб-приложение, REST API. Агент выполнен как NET8-приложение, которое устанавливается на целевой машине и используется для управления IDP.
 
-**IDP** – data science-ядро с нейронными сетями и OCR. Предназначено для интеллектуальной обработки документов. Размещено на специальным образом настроенной целевой машине.
+**IDP** – data science-ядро с нейронными сетями и OCR. Предназначено для интеллектуальной обработки документов. Размещено на специальным образом настроенной целевой машине. 
+
+Агент и IDP могут располагаться в одном docker-контейнере.
 
 На одной целевой машине может работать только один агент – это ограничение обусловлено полной нагрузкой машины IDP-процессом. Целевых машин может быть много. Все целевые машины должны быть настроены одинаково, и на каждой целевой машине должен быть развернут агент. Версии ОС на целевых машинах могут отличаться
 
@@ -37,5 +43,5 @@
 ## Что дальше
 
 Выполните установку компонентов на целевую машину одним из способов:
-* [С использованием Docker](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/agent/installation-docker)
-* [Без использования Docker](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/agent/installation)
+* [С использованием Docker](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/target-machine-smart-ocr/installation-docker)
+* [Без использования Docker](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/target-machine-smart-ocr/installation)
