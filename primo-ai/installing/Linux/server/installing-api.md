@@ -3,7 +3,7 @@
 1. Подключаемся к серверу по SSH с пользователем с правами root. 
 1. Создаем папку `/app/Primo.AI/Api`:
    ```
-   sudo mkdir /app/Primo.AI/Api
+   sudo mkdir -p /app/Primo.AI/Api
    ```
 1. Разархивируем `Api-linux.zip` в `/app/Primo.AI/Api`:
    ```
