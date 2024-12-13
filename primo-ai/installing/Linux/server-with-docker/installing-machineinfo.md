@@ -4,7 +4,7 @@
 1. Подключаемся к серверу по SSH с пользователем с правами root. 
 1. Создаем, если отсутствует, папку `/app/Primo.AI/Api.MachineInfo`:
    ```
-   sudo mkdir /app/Primo.AI/Api.MachineInfo
+   sudo mkdir -p /app/Primo.AI/Api.MachineInfo
    ```
 1. Разархивируем `Api.MachineInfo-linux.zip` в `/app/Primo.AI/Api.MachineInfo`:
    ``` 
