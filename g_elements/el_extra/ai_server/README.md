@@ -5,9 +5,9 @@
 Пакет составляют элементы:
 * [Сервер Primo.AI](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/primoaiserver) — производит подключение к AI Server, а также выполняет роль контейнера для других элементов из библиотеки Primo.AI.Server.
 * группа **Умный OCR**:
-  * [Создать запрос OCR](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/createrequest) — отправляет запрос на распознавание иображения документа в AI Server.
-  * [Получить результат OCR](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/getresult) — получает от AI Server результат распознавания документа обученной моделью.
-  * [Проверить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/validatedoc) — производит валидацию распознанных данных и позволяет скорректировать их.
+  * [Создать запрос OCR](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/ocr/createrequest) — отправляет запрос на распознавание иображения документа в AI Server.
+  * [Получить результат OCR](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/ocr/getresult) — получает от AI Server результат распознавания документа обученной моделью.
+  * [Проверить документ](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/ocr/validatedoc) — производит валидацию распознанных данных и позволяет скорректировать их.
 * группа **NLP**:
   * [Создать запрос NLP](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/nlp/create_request_nlp) — отправляет запрос для обработки текста на естественном языке с помощью LLM-модели. 
   * [Получить результат NLP](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/nlp/get_request_nlp) — получает результат NLP-запроса по его идентификатору.
