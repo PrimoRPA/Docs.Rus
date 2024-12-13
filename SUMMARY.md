@@ -1313,7 +1313,7 @@
     * [Работа со встроенным проектом](primo-ai/user/quick-start/system-projects.md)
     * [Создание проекта с нуля](primo-ai/user/quick-start/new-project.md)
   * [Проекты](primo-ai/user/projects/README.md)
-    * [Управление проектом](primo-ai/user/projects/operation-with-project.md) 
+    * [Управление проектом](primo-ai/user/projects/operations-with-project.md) 
   * [Работа с типом проекта NLP-задачи](primo-ai/user/NLP/README.md)
     * [Конфигурация и запуск модели](primo-ai/user/NLP/configuration.md)
     * [Тестирование навыков модели](primo-ai/user/NLP/testing.md)
