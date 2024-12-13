@@ -22,7 +22,7 @@
 ### Если нет доступа к менеджеру пакетов apt 
 1. Распакуйте во временную папку архив с PostgreSQL:
     ```
-    sudo unzip /srv/samba/shared/install/postgresql.zip -d install/postgresql
+    sudo unzip /srv/samba/shared/install/distr/postgresql.zip -d install/postgresql
     ```
 1. Установите пакеты:
     ```
