@@ -186,7 +186,23 @@ docker load -i /srv/samba/shared/install/docker/server/portainer.tar
 	```
    
    
+   
+### Редактируем конфигурационный файл nginx
 
+1. Открываем в редакторе конфигурационный файл:
+   ```
+   sudo nano /app/Primo.AI/Api/volumes/nginx/nginx.conf
+   ```
+1. Указываем корректный адрес к сервису Api.MachineInfo:
+   ```
+   http {
+      ...
+      upstream mi {
+        server 0.0.0.0:5051;
+      }
+      ...
+   }
+   ```
    
 ## Создание контейнера
 
