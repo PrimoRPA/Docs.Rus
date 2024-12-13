@@ -8,7 +8,7 @@
    ```
 1. Разархивируем `Api.Logs-linux.zip` в `/app/Primo.AI/Api.Logs`:
    ```
-   sudo unzip /srv/samba/shared/install/Api.Logs-linux.zip -d /app/Primo.AI/Api.Logs
+   sudo unzip /srv/samba/shared/install/distr/Api.Logs-linux.zip -d /app/Primo.AI/Api.Logs
    ```
 1. Установите владельца папки с инсталляцией:
    ```

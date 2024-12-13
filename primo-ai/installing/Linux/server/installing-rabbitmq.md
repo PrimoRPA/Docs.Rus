@@ -21,7 +21,7 @@
 ### Если нет доступа к менеджеру пакетов apt
 1. Распакуйте во временную папку архив с конфигурациями и зависимостями RabbitMQ:
     ```
-    sudo unzip /srv/samba/shared/install/rabbitmq/debs.zip -d install/rabbitmq
+    sudo unzip /srv/samba/shared/install/distr/rabbitmq/debs.zip -d install/rabbitmq
     ```
 1. Установите пакеты:
     ```

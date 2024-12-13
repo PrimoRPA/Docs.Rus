@@ -6,11 +6,11 @@
 1. Подключаемся к серверу по SSH с пользователем с правами root. 
 1. Создаем, если отсутствует, папку `/app/Primo.AI/Api.Auth`:
    ```
-   sudo mkdir /app/Primo.AI/Api.Auth
+   sudo mkdir -p /app/Primo.AI/Api.Auth
    ```
 1. Разархивируем `Api.Auth-linux.zip` в `/app/Primo.AI/Api.Auth`:	
    ```
-   sudo unzip /srv/samba/shared/install/Api.Auth-linux.zip -d /app/Primo.AI/Api.Auth
+   sudo unzip /srv/samba/shared/install/distr/Api.Auth-linux.zip -d /app/Primo.AI/Api.Auth
    ```
 1. Установите владельца папки с инсталляцией:
    ```
