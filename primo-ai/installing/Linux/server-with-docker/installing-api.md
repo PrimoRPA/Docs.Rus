@@ -196,7 +196,3 @@ docker load -i /srv/samba/shared/install/docker/server/portainer.tar
    ```
    docker compose up -d
    ```
-
-# Что дальше 
-
-[Установите Api.MachineInfo](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/server/installing-machineinfo).
