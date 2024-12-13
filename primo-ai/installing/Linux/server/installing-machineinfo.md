@@ -8,7 +8,7 @@
    ```
 1. Разархивируем `Api.MachineInfo-linux.zip` в `/app/Primo.AI/Api.MachineInfo`:
    ``` 
-   sudo unzip /srv/samba/shared/install/Api.MachineInfo-linux.zip -d /app/Primo.AI/Api.MachineInfo
+   sudo unzip /srv/samba/shared/install/distr/Api.MachineInfo-linux.zip -d /app/Primo.AI/Api.MachineInfo
    ```
 1. Устанавливаем владельца папки с инсталляцией:
    ```
