@@ -5,7 +5,7 @@
 1. Подключаемся к серверу по SSH с пользователем с правами root. 
 1. Создаем, если отсутствует, папку `/app/Primo.AI/Api.Inference`:
    ```
-   sudo mkdir /app/Primo.AI/Api.Inference
+   sudo mkdir -p /app/Primo.AI/Api.Inference
    ```
 1. Разархивируем `Api.Inference-linux.zip` в `/app/Primo.AI/Api.Inference`:
    ```
