@@ -1,4 +1,4 @@
-# Установка компонентов сервера вручную
+# Установка компонентов сервера с помощью Docker
 
 Порядок установки:
 1. [Установите Docker](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/installing-docker).
