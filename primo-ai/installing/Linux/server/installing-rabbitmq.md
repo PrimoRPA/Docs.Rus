@@ -4,6 +4,7 @@
 
 Если RabbitMQ был установлен ранее, требуется удалить все очереди.
 
+### Если есть доступ к менеджеру пакетов apt
 1. Обновите список пакетов:
    ```
    sudo apt update
@@ -16,12 +17,24 @@
    ```
    sudo apt install rabbitmq-server
    ```
-1. Убедитесь, что служба rabbitmq-server запустилась:
-   ```
-   systemctl status rabbitmq-server
-   ```
 
-   ![](<../../../../.gitbook/assets1/primo-ai/install/rabbit/rabbit-1.png>)
+### Если нет доступа к менеджеру пакетов apt
+1. Распакуйте во временную папку архив с конфигурациями и зависимостями RabbitMQ:
+    ```
+    sudo unzip /srv/samba/shared/install/rabbitmq/debs.zip -d install/rabbitmq
+    ```
+1. Установите пакеты:
+    ```
+    sudo dpkg -i install/rabbitmq/*.deb
+    ```
+
+### После установки службы
+Убедитесь, что служба rabbitmq-server запустилась:
+```
+systemctl status rabbitmq-server
+```
+
+![](<../../../../.gitbook/assets1/primo-ai/install/rabbit/rabbit-1.png>)
 
 
 ## Первичная настройка RabbitMQ
@@ -36,6 +49,22 @@
    ```
    sudo cp /srv/samba/shared/install/rabbitmq/rabbitmq-env.conf rabbitmq-env.conf
    ```
+1. Отредактируйте файлы конфигурации.
+   Включите шифрование при необходимости:
+   ```
+   sudo nano rabbitmq.conf 
+   ```
+   Укажите адрес, на котором сервис будет прослушивать:
+   ```
+   sudo nano rabbitmq-env.conf
+   ```
+   После изменений в конфигурации:
+   ```
+   systemctl restart rabbitmq-server
+   ```
+   ```
+   systemctl status rabbitmq-server
+   ```
 1. Смените владельца скопированных файлов:
    ```
    cd /etc/rabbitmq
@@ -47,13 +76,13 @@
    ```
    sudo ufw allow 5671/tcp
    ```
-1. Добавьте пользователя **primo**:
+1. Добавьте пользователя **primo** (последний аргумент – пароль пользователя):
    ```
-   rabbitmqctl add_user primo primo
+   rabbitmqctl add_user primo 'password'
    ```
-1. Назначьте права на чтение и запись для пользователя **primo**:
+1. Назначьте права на конфигурацию, чтение и запись для пользователя **primo**:
    ```
-   rabbitmqctl set_permissions primo "" ".*" ".*"
+   rabbitmqctl set_permissions primo ".*" ".*" ".*"
    ```
 
 ## Что дальше

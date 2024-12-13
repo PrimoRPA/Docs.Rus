@@ -4,19 +4,19 @@
 
 Элемент производит подключение к ядру OCR Yandex Vision.
 
-Перед началом работы необходимо:
+Перед началом работы:
 
-1. Зарегистрироваться в Yandex Cloud.
-2. Зайти в консоль [https://console.cloud.yandex.ru/](https://console.cloud.yandex.ru/) и пополнить баланс.
-3. Перейти в папку и получить ее идентификатор.
+1. Зарегистрируйтесь в Yandex Cloud.
+2. Зайдите в консоль [https://console.cloud.yandex.ru/](https://console.cloud.yandex.ru/) и пополните баланс.
+3. Перейдите в папку и получите ее идентификатор — данное значение потребуется указать в свойстве элемента **ID каталога**.
 
    ![Ссылка для перехода в каталог](<../../../.gitbook/assets/image (976).png>)
 
-4. На странице [https://cloud.yandex.ru/docs/cli/quickstart#install](https://cloud.yandex.ru/docs/cli/quickstart#install) перейти по ссылке из пункта 1.
+4. На странице [https://cloud.yandex.ru/docs/cli/quickstart#install](https://cloud.yandex.ru/docs/cli/quickstart#install) перейдите по ссылке из пункта 1.
 
-   ![Переход по ссылке](<../../../.gitbook/assets/image (588).png>)
+   ![](<../../../.gitbook/assets1/windows_items/get-oauth-token.png>)
    
-5. Получить OAuth ID.
+5. Скопируйте OAuth ID — данное значение потребуется указать в свойстве элемента **OAuth-Токен**.
 
 
 ## Свойства
@@ -25,9 +25,9 @@
 
 | Свойство      | Тип                | Описание                                                                                                                                                                     |
 | ------------- | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ID каталога\* | String             | ID каталога облака Yandex '[https://cloud.yandex.ru/docs/resource-manager/operations/folder/get-id](https://cloud.yandex.ru/docs/resource-manager/operations/folder/get-id)' |
-| OAuth-Токен   | String             | OAuth-Токен в сервисе Яндекс.OAuth '[https://cloud.yandex.ru/docs/iam/operations/iam-token/create](https://cloud.yandex.ru/docs/iam/operations/iam-token/create)'            |
-| API-Key       | String             | Ключ API '[https://cloud.yandex.ru/docs/iam/concepts/authorization/api-key](https://cloud.yandex.ru/docs/iam/concepts/authorization/api-key)'                                |
+| ID каталога\* | String             | [ID каталога](https://cloud.yandex.ru/docs/resource-manager/operations/folder/get-id) облака Yandex |
+| OAuth-Токен   | String             | OAuth-токен в сервисе Яндекс.OAuth |
+| API-Key       | String             | [Ключ API](https://cloud.yandex.ru/docs/iam/concepts/authorization/api-key). Если вы указали OAuth-Токен, то данное свойство заполнять не нужно |
 | Переменная    | LTools.OCR.OCRInst | Переменная для сохранения ссылки на ядро OCR               |
 
 

@@ -21,4 +21,4 @@
 1. [Установите Api.MachineInfo](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/server-with-installer/installing-machineinfo).
 
 ## Что дальше
-[Установите и настройте ПО для целевой машины](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/agent/preconfiguring-agent-machine) — эти действия выполняются вручную.
+[Установите и настройте ПО для целевой машины](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/agent).

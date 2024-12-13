@@ -1,4 +1,4 @@
-# Правила анализа кода
+# Создание правил анализа кода
 
 Подробнее о назначении механизма см. в разделе [Анализ проекта](https://docs.primo-rpa.ru/primo-rpa/primo-studio/projects/analyzer).
 
@@ -9,9 +9,11 @@
 3.	Введите имя проекта. **Имя проекта и библиотеки dll должны начинаться с префикса Primo.**
 4.	Найдите в папке Primo Studio сборку `Primo.ProjectAnalyzer.Dto.dll` и добавьте ее в Dependencies проекта:
   
-  ![](<../../../.gitbook/assets/1.sdk.rules.png>) 
+    ![](<../../../.gitbook/assets/1.sdk.rules.png>) 
 
-5\. Создайте класс (Add ➝ Class...), который будет содержать правило. Для этого надо унаследовать интерфейс Primo.ProjectAnalyzer.IAnalysisRule.
+5. Создайте класс (Add ➝ Class...), который будет содержать правило. Для этого надо унаследовать интерфейс Primo.ProjectAnalyzer.IAnalysisRule.
+
+   Каждый класс — это отдельное правило анализа.
 
 ## Создание правила
 
