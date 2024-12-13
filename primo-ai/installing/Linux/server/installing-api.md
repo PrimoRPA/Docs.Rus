@@ -7,7 +7,7 @@
    ```
 1. Разархивируем `Api-linux.zip` в `/app/Primo.AI/Api`:
    ```
-   sudo unzip /srv/samba/shared/install/Api-linux.zip -d /app/Primo.AI/Api
+   sudo unzip /srv/samba/shared/install/distr/Api-linux.zip -d /app/Primo.AI/Api
    ```
 1. Установим владельца папки с инсталляцией:
    ```
