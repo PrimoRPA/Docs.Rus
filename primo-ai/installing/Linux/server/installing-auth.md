@@ -10,7 +10,7 @@
    ```
 1. Разархивируем `Api.Auth-linux.zip` в `/app/Primo.AI/Api.Auth`:	
    ```
-   sudo unzip /srv/samba/shared/install/Api.Auth-linux.zip -d /app/Primo.AI/Api.Auth
+   sudo unzip /srv/samba/shared/install/distr/Api.Auth-linux.zip -d /app/Primo.AI/Api.Auth
    ```
 1. Установите владельца папки с инсталляцией:
    ```
