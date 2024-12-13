@@ -27,9 +27,6 @@ docker load -i /srv/samba/shared/install/docker/server/server_inference.tar
 docker load -i /srv/samba/shared/install/docker/server/server_logs.tar
 ```
 ```
-docker load -i /srv/samba/shared/install/docker/server/server_machineinfo.tar
-```
-```
 docker load -i /srv/samba/shared/install/docker/server/server_ui.tar
 ```
 ```
@@ -91,9 +88,6 @@ docker load -i /srv/samba/shared/install/docker/server/portainer.tar
        │       ├── appsettings.json
        │       └── appsettings.ProdLinux.json
        │   └── Logs
-       │       ├── appsettings.json
-       │       └── appsettings.ProdLinux.json
-       │   └── MachineInfo
        │       ├── appsettings.json
        │       └── appsettings.ProdLinux.json
        │   └── Inference
@@ -173,7 +167,6 @@ docker load -i /srv/samba/shared/install/docker/server/portainer.tar
 	}
 	```
    
-
 ### Редактируем конфигурационный файл Api.Logs
 
 1. Открываем в редакторе конфигурационный файл:
@@ -194,27 +187,6 @@ docker load -i /srv/samba/shared/install/docker/server/portainer.tar
    
    
 
-### Редактируем конфигурационный файл Api.MachineInfo
-
-1. Открываем в редакторе конфигурационный файл:
-   ```
-   sudo nano /app/Primo.AI/Api/volumes/conf/Logs/appsettings.ProdLinux.json
-   ```
-   
-1. Настраиваем блочное устройство машины-хоста для использования сервисом в Devices > HDD:
-   ```
-   "Devices": {
-     "HDD": "/dev/sda" //For Linux only
-   },
-   ```
-   Указываем блочное устройство и в docker-compose.yaml для передачи контейнеру:
-   ```
-   MachineInfo: 
-      ...
-      devices:
-         - "/dev/sda:/dev/sda"
-   ```
-   Найти устройство, к которому привяжется сервис Api.MachineInfo, можно используя команду lsblk.
    
 ## Создание контейнера
 
@@ -224,3 +196,7 @@ docker load -i /srv/samba/shared/install/docker/server/portainer.tar
    ```
    docker compose up -d
    ```
+
+# Что дальше 
+
+[Установите Api.MachineInfo](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/server/installing-machineinfo).
