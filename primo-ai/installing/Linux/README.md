@@ -7,7 +7,7 @@
 ## Сервер
 Установка компонентов сервера выполняется в первую очередь и состоит из следующих этапов:
 1. [Предварительная настройка машины для Primo RPA AI Server](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/preconfiguring-server-machine).
-1. Установка компонентов сервера [вручную](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/server).
+1. Установка компонентов сервера вручную или с помощью Docker.
 
 
 ## Целевая машина компонента Умный OCR
