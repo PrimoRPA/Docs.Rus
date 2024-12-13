@@ -9,7 +9,7 @@
    ```
 1. Разархивируем `Api.Inference-linux.zip` в `/app/Primo.AI/Api.Inference`:
    ```
-   sudo unzip /srv/samba/shared/install/Api.Inference-linux.zip -d /app/Primo.AI/Api.Inference
+   sudo unzip /srv/samba/shared/install/distr/Api.Inference-linux.zip -d /app/Primo.AI/Api.Inference
    ```
 1. Установите владельца папки с инсталляцией:
    ```
