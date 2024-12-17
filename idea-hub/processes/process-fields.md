@@ -1,50 +1,63 @@
-# Поля и методы процесса
+# Поля процесса
+
+В данном разделе описываются все встроенные поля процесса. 
+
 
 ## Название
 
+**Машинное имя**: `title`
+
 **Тип поля**: Текст (простой)
 
-**Машинное имя**: title
+**Описание**: Название процесса
 
-**Описание**: Нет описания
+
 
 ## Ключ для расчёта
 
+**Машинное имя**: `key`
+
 **Тип поля**: Текст (простой)
 
-**Машинное имя**: key
+**Описание**: Ключ используется для доступа к свойствам сущности в формулах
 
-**Описание**: Ключ используется для доступа к свойствам сущности в формулах.
+
 
 ## Описание
 
+**Машинное имя**: `body`
+
 **Тип поля**: Текст (форматированный, длинный, с резюме)
 
-**Машинное имя**: body
+**Описание**: Произвольное описание процесса
 
-**Описание**: Нет описания
+
 
 ## Департамент
 
+**Машинное имя**: `field_area`
+
 **Тип поля**: Entity reference
 
-**Машинное имя**: field_area
+**Описание**: Ссылка на элемент управления, которому принадлежит процесс
 
-**Описание**: Ссылка на элемент управления, которому принадлежит процесс.
+
 
 ## Автоматизация
 
+**Машинное имя**: `field_automation_prc`
+
 **Тип поля**: Число (десятичное)
 
-**Машинное имя**: field_automation_prc
+**Описание**: Потенциальный процент автоматизации бизнес-процессов
 
-**Описание**: Потенциальный процент автоматизации бизнес-процессов.
+
 
 ## Фактический процент автоматизации
 
-**Тип поля**: Формула
+**Машинное имя**: `field_automation_prc_real`
 
-**Машинное имя**: field_automation_prc_real
+**Тип поля**: Формула
 
 **Описание**: Нет описания
 
@@ -60,7 +73,9 @@ vars:
 exp: result
 ```
 
-## Отображение default
+
+
+### Отображение default
 **Тип**: delta_formatter
 
 **Настройки**: 
@@ -72,59 +87,73 @@ exp: |
   {"value": value, "delta": delta}
 ```
 
+
+
 ## Аналитик
 
-**Тип поля**: Entity reference
+**Машинное имя**: `field_ba`
 
-**Машинное имя**: field_ba
+**Тип поля**: Entity reference
 
 **Описание**: Ответственный аналитик.
 
+
+
 ## Сложность
 
-**Тип поля**: Entity reference
+**Машинное имя**: `field_complexity`
 
-**Машинное имя**: field_complexity
+**Тип поля**: Entity reference
 
 **Описание**: Ожидаемые трудности в автоматизации бизнес-процесса.
 
+
+
 ## Контакты
 
-**Тип поля**: Entity reference
+**Машинное имя**: `field_contacts`
 
-**Машинное имя**: field_contacts
+**Тип поля**: Entity reference
 
 **Описание**: Сотрудники, владеющие информацией о процессе.
 
-#### Разработчик
+
+
+## Разработчик
+
+**Машинное имя**: `field_dev`
 
 **Тип поля**: Entity reference
 
-**Машинное имя**: field_dev
-
 **Описание**: Нет описания
 
-#### Стоимость разработки
+
+
+## Стоимость разработки
+
+**Машинное имя**: `field_dev_cost`
 
 **Тип поля**: Число (дробное)
 
-**Машинное имя**: field_dev_cost
-
 **Описание**: Нет описания
 
-#### Дата начала разработки
+
+
+## Дата начала разработки
+
+**Машинное имя**: `field_dev_started`
 
 **Тип поля**: Дата
 
-**Машинное имя**: field_dev_started
-
 **Описание**: Нет описания
 
-#### Фактическая утилизация лицензии робота
+
+
+## Фактическая утилизация лицензии робота
+
+**Машинное имя**: `field_disposal_licenses`
 
 **Тип поля**: Формула
-
-**Машинное имя**: field_disposal_licenses
 
 **Описание**: Число лицензий использованных процессом за день.
 
@@ -134,7 +163,8 @@ exp: |
 (this.field_ops_total * this.field_ops_duration_avg) / 60 / 1440
 ```
 
-#### Отображение default
+
+### Отображение default
 **Тип**: delta_formatter
 
 **Настройки**: 
@@ -147,7 +177,8 @@ exp: |
 
 ```
 
-#### Отображение teaser
+
+### Отображение teaser
 **Тип**: delta_formatter
 
 **Настройки**: 
@@ -160,11 +191,12 @@ exp: |
   {"value": value}
 ```
 
+
 ## Плановая утилизация лицензии робота
 
-**Тип поля**: Формула
+**Машинное имя**: `field_disposal_licenses_expected`
 
-**Машинное имя**: field_disposal_licenses_expected
+**Тип поля**: Формула
 
 **Описание**: Нет описания
 
@@ -174,6 +206,7 @@ exp: |
 (this.field_ops_pd_expected * this.field_human_duration) / 1440 / 3
 ```
 
+
 ### Отображение default
 **Тип**: delta_formatter
 
@@ -182,35 +215,42 @@ exp: |
 {"value": this.field_disposal_licenses_expected * 100}
 ```
 
+
 ## Документация
+
+**Машинное имя**: `field_docs`
 
 **Тип поля**: Файл
 
-**Машинное имя**: field_docs
-
 **Описание**: Нет описания
+
+
 
 ## Длительность (deprecated)
 
-**Тип поля**: Число (десятичное)
+**Машинное имя**: `field_duration`
 
-**Машинное имя**: field_duration
+**Тип поля**: Число (десятичное)
 
 **Описание**: Средняя продолжительность одной операции в минутах.
 
+
+
+
 ## Контур
+
+**Машинное имя**: `field_environment`
 
 **Тип поля**: Entity reference
 
-**Машинное имя**: field_environment
-
 **Описание**: Внутренний контур организации, в котором выполняется процесс.
+
 
 ## Фактический FTE
 
-**Тип поля**: Формула
+**Машинное имя**: `field_fte`
 
-**Машинное имя**: field_fte
+**Тип поля**: Формула
 
 **Описание**: Количество человеческого труда требуемого для реализации процесса в текущий день, без автоматизации.
 
@@ -219,6 +259,7 @@ exp: |
 ```
 (this.field_ops_success * this.field_human_duration) / WORK_MONTH_MINUTES
 ```
+
 
 ### Отображение default
 **Тип**: delta_formatter
@@ -231,6 +272,7 @@ vars:
 exp: |
   {"value": value, "delta": delta}
 ```
+
 
 ### Отображение teaser
 **Тип**: delta_formatter
@@ -248,15 +290,16 @@ exp: |
   {"value": value, "delta": delta}
 ```
 
+
 ## Неавтоматизируeмый человеческий труд
+
+**Машинное имя**: `field_fte_after`
 
 **Тип поля**: Формула
 
-**Машинное имя**: field_fte_after
-
 **Описание**: Количество человеческого труда, которое необходимо для реализации данного процесса с учётом автоматизации.
 
-**Формула**
+**Формула**:
 
 ```
 ((this.field_ops_error + this.field_ops_exception) * this.field_human_duration) / WORK_MONTH_MINUTES
@@ -283,23 +326,26 @@ exp: |
   {"value": value}
 ```
 
+
 ## Стоимость FTE
+
+**Машинное имя**: `field_fte_human_fte_cost`
 
 **Тип поля**: Число (десятичное)
 
-**Машинное имя**: field_fte_human_fte_cost
-
 **Описание**: Стоимость рабочего месяца человека, выполняющего данный процесс.
+
+
 
 ## Плановый FTE
 
-**Тип поля**: Формула
+**Машинное имя**: `field_fte_savings`
 
-**Машинное имя**: field_fte_savings
+**Тип поля**: Формула
 
 **Описание**: Величина сокращения FTE за счёт применения робота, с учётом ошибок автоматизации и процента автоматизации. Другими словами, количество человеческого труда, которое нам больше не понадобится.
 
-**Формула**
+**Формула**:
 
 ```
 ((this.field_ops_pd_expected * this.field_human_duration) / WORK_DAY_MINUTES) * (this.field_automation_prc / 100)
@@ -315,9 +361,9 @@ exp: |
 
 ## Экономия Ручного Труда в FTE
 
-**Тип поля**: Формула
+**Машинное имя**: `field_ftes`
 
-**Машинное имя**: field_ftes
+**Тип поля**: Формула
 
 **Описание**: Предполагаемая экономия FTE после автоматизации. Это то, что ожидалось на этапе планирования роботизации.
 
@@ -327,43 +373,52 @@ exp: |
 ((this.field_ops_success * this.field_human_duration) / WORK_DAY_MINUTES) * (this.field_automation_prc / 100)
 ```
 
+
 ## Длительность (ручная)
+
+**Машинное имя**: `field_human_duration`
 
 **Тип поля**: Число (десятичное)
 
-**Машинное имя**: field_human_duration
-
 **Описание**: Длительность транзакции при выполнении человеком (в минутах).
+
+
 
 ## ID процесса
 
-**Тип поля**: Текст (простой)
+**Машинное имя**: `field_id`
 
-**Машинное имя**: field_id
+**Тип поля**: Текст (простой)
 
 **Описание**: Уникальный идентификатор процесса
 
+
+
 ## Тип лицензии
 
-**Тип поля**: Entity reference
+**Машинное имя**: `field_license_type`
 
-**Машинное имя**: field_license_type
+**Тип поля**: Entity reference
 
 **Описание**: Нет описания
 
+
+
 ## Машины
+
+**Машинное имя**: `field_machine`
 
 **Тип поля**: Entity reference
 
-**Машинное имя**: field_machine
-
 **Описание**: Машины, на которых работают роботы.
+
+
 
 ## Средняя длительность
 
-**Тип поля**: Формула
+**Машинное имя**: `field_ops_duration_avg`
 
-**Машинное имя**: field_ops_duration_avg
+**Тип поля**: Формула
 
 **Описание**: Average element process duration in seconds.
 
@@ -385,13 +440,15 @@ exp: |
   {"value": value, "delta": delta}
 ```
 
+
+
 ## Ошибка
+
+**Машинное имя**: `field_ops_error`
 
 **Тип поля**: Формула
 
-**Машинное имя**: field_ops_error
-
-**Описание**: Amount of business exceptions.
+**Описание**: Amount of business exceptions
 
 **Формула**
 
@@ -399,11 +456,13 @@ exp: |
 this.stat('error')
 ```
 
+
+
 ## Исключения
 
-**Тип поля**: Формула
+**Машинное имя**: `field_ops_exception`
 
-**Машинное имя**: field_ops_exception
+**Тип поля**: Формула
 
 **Описание**: Number of business exceptions.
 
@@ -413,19 +472,23 @@ this.stat('error')
 this.stat('exception')
 ```
 
+
+
 ## Период операций
+
+**Машинное имя**: `field_ops_period`
 
 **Тип поля**: Список (текст)
 
-**Машинное имя**: field_ops_period
-
 **Описание**: Период, за который указано значение в поле "Количество операций".
+
+
 
 ## Успешно
 
-**Тип поля**: Формула
+**Машинное имя**: `field_ops_success`
 
-**Машинное имя**: field_ops_success
+**Тип поля**: Формула
 
 **Описание**: Number of successfully processed elements.
 
@@ -435,11 +498,12 @@ this.stat('exception')
 this.stat('success')
 ```
 
+
 ## Всего
 
-**Тип поля**: Формула
+**Машинное имя**: `field_ops_total`
 
-**Машинное имя**: field_ops_total
+**Тип поля**: Формула
 
 **Описание**: The total number of business elements process attempts.
 
@@ -448,6 +512,7 @@ this.stat('success')
 ```
 this.stat('total')
 ```
+
 
 ### Отображение default
 **Тип**: delta_formatter
@@ -461,83 +526,102 @@ exp: |
   {"value": value, "delta": delta}
 ```
 
+
 ## Проекты
 
-**Тип поля**: Entity reference
+**Машинное имя**: `field_orch_project`
 
-**Машинное имя**: field_orch_project
+**Тип поля**: Entity reference
 
 **Описание**: Проекты, связанные с процессами и выполняемые в оркестраторе.
 
+
+
 ## Идентификаторы проектов
 
-**Тип поля**: Текст (простой)
+**Машинное имя**: `field_orch_project_ids`
 
-**Машинное имя**: field_orch_project_ids
+**Тип поля**: Текст (простой)
 
 **Описание**: Поле содержит идентификаторы проектов в том виде, в каком они записаны в файле обмена данными. Это поле не должно быть редактируемым. Система автоматически управляет значениями этого поля.
 
+
+
 ## Названия проектов
 
-**Тип поля**: Текст (простой, длинный)
+**Машинное имя**: `field_orch_project_names`
 
-**Машинное имя**: field_orch_project_names
+**Тип поля**: Текст (простой, длинный)
 
 **Описание**: Поле содержит названия или части названий проектов так, как они записаны в файле обмена данными. Это поле не должно быть редактируемым. Система автоматически управляет значениями этого поля.
 
+
+
 ## Владелец процесса
+
+**Машинное имя**: `field_owner`
 
 **Тип поля**: Entity reference
 
-**Машинное имя**: field_owner
-
 **Описание**: Нет описания
+
+
 
 ## Дата выпуска промышленного решения
 
-**Тип поля**: Текст (простой)
+**Машинное имя**: `field_planned_release_date`
 
-**Машинное имя**: field_planned_release_date
+**Тип поля**: Текст (простой)
 
 **Описание**: Planned release date for the industrial solution
 
+
+
 ## Планы по целевой автоматизации
+
+**Машинное имя**: `field_plans`
 
 **Тип поля**: Текст (простой, длинный)
 
-**Машинное имя**: field_plans
-
 **Описание**: Нет описания
+
+
 
 ## Дата начала
 
-**Тип поля**: Дата
+**Машинное имя**: `field_production_since`
 
-**Машинное имя**: field_production_since
+**Тип поля**: Дата
 
 **Описание**: Дата ввода в эксплуатацию (используется для расчета эффектов).
 
+
+
 ## Вывод процесса из эксплуатации
+
+**Машинное имя**: `field_production_until`
 
 **Тип поля**: Дата
 
-**Машинное имя**: field_production_until
-
 **Описание**: Дата планового вывода процесса из эксплуатации.
+
+
 
 ## Очередь
 
-**Тип поля**: Entity reference
+**Машинное имя**: `field_queue`
 
-**Машинное имя**: field_queue
+**Тип поля**: Entity reference
 
 **Описание**: Вы можете связать с данным процессом несколько очередей, однако данные для расчётов будут браться только из первой очереди из списка. Для изменения порядка следования очередей в списке, вы можете перемещать их с помощью перетаскивания.
 
+
+
 ## Плановый эффект, в месяц
 
-**Тип поля**: Формула
+**Машинное имя**: `field_revenue_expected`
 
-**Машинное имя**: field_revenue_expected
+**Тип поля**: Формула
 
 **Описание**: Нет описания
 
@@ -547,11 +631,13 @@ exp: |
 this.field_fte_savings * this.field_fte_human_fte_cost * SALARY_INCREASE_FACTOR
 ```
 
+
+
 ## Фактический эффект
 
-**Тип поля**: Формула
+**Машинное имя**: `field_revenue_real`
 
-**Машинное имя**: field_revenue_real
+**Тип поля**: Формула
 
 **Описание**: Эффект в деньгах.
 
@@ -573,43 +659,53 @@ exp: |
   {"value": value, "delta": delta} 
 ```
 
+
+
 ## Revision date
+
+**Машинное имя**: `field_revision_date`
 
 **Тип поля**: Дата
 
-**Машинное имя**: field_revision_date
-
 **Описание**: The date of current revision. Entity store historical stat and calculated data for this date.
 
-## роботов
+
+
+## Robots
+
+**Машинное имя**: `field_robot`
 
 **Тип поля**: Entity reference
-
-**Машинное имя**: field_robot
 
 **Описание**: Роботы, на которых можно выполнить процесс.
 
+
+
 ## Пользователь робота
+
+**Машинное имя**: `field_robot_user`
 
 **Тип поля**: Entity reference
 
-**Машинное имя**: field_robot_user
-
 **Описание**: Нет описания
+
+
 
 ## Источник статистики
 
-**Тип поля**: Список (текст)
+**Машинное имя**: `field_rpa_stat_source`
 
-**Машинное имя**: field_rpa_stat_source
+**Тип поля**: Список (текст)
 
 **Описание**: Источник статистики операций RPA
 
+
+
 ## Экономический эффект
 
-**Тип поля**: Формула
+**Машинное имя**: `field_savings`
 
-**Машинное имя**: field_savings
+**Тип поля**: Формула
 
 **Описание**: Расчет прямого экономического эффекта от применения автоматизации.
 
@@ -621,73 +717,88 @@ exp: |
 
 ## Расписание
 
-**Тип поля**: Entity reference
+**Машинное имя**: `field_schedule`
 
-**Машинное имя**: field_schedule
+**Тип поля**: Entity reference
 
 **Описание**: Доступные интервалы запуска.
 
+
+
 ## Системы
 
-**Тип поля**: Entity reference
+**Машинное имя**: `field_systems`
 
-**Машинное имя**: field_systems
+**Тип поля**: Entity reference
 
 **Описание**: Затронутые системы.
 
+
+
 ## Теги
 
-**Тип поля**: Entity reference
+**Машинное имя**: `field_tags`
 
-**Машинное имя**: field_tags
+**Тип поля**: Entity reference
 
 **Описание**: Используйте теги, чтобы группировать процессы по схожим темам и категориям.
 
+
+
 ## Тенант
 
-**Тип поля**: Entity reference
+**Машинное имя**: `field_tenant`
 
-**Машинное имя**: field_tenant
+**Тип поля**: Entity reference
 
 **Описание**: Нет описания
 
+
+
 ## Количество операций
+
+**Машинное имя**: `field_transactions`
 
 **Тип поля**: Число (десятичное)
 
-**Машинное имя**: field_transactions
-
 **Описание**: Количество операций, совершенных за период, указанный в поле "Период операций".
+
+
+
 
 ## Тип автоматизации
 
-**Тип поля**: Entity reference
+**Машинное имя**: `field_type`
 
-**Машинное имя**: field_type
+**Тип поля**: Entity reference
 
 **Описание**: Основной вид автоматизации бизнес-процессов.
 
+
 ## Статус
+
+**Машинное имя**: `field_workflow`
 
 **Тип поля**: Статус
 
-**Машинное имя**: field_workflow
-
 **Описание**: Статус жизненного цикла.
+
+
 
 ## Средняя продолжительность одной операции
 
-**Тип поля**: Число (дробное)
+**Машинное имя**: `field_duration_computed`
 
-**Машинное имя**: field_duration_computed
+**Тип поля**: Число (дробное)
 
 **Описание**: Средняя продолжительность одной операции в минутах.
 
+
 ## Всего выполнено операций
 
-**Тип поля**: Формула
+**Машинное имя**: `field_ops_total_second`
 
-**Машинное имя**: field_ops_total_second
+**Тип поля**: Формула
 
 **Описание**: Нет описания
 
@@ -697,571 +808,43 @@ exp: |
 Нет значения по умолчанию
 ```
 
+
+
 ## Количество дней в разработке
 
-**Тип поля**: Число (целое)
+**Машинное имя**: `time_in_dev`
 
-**Машинное имя**: time_in_dev
+**Тип поля**: Число (целое)
 
 **Описание**: Подсчитывает количество дней, в течение которых процесс находится (находился) в разработке.
 
+
+
 ## Количество дней в эксплуатации
+
+**Машинное имя**: `comp_prod_num_days`
 
 **Тип поля**: Число (целое)
 
-**Машинное имя**: comp_prod_num_days
-
 **Описание**: The estimated number of days the process will run in production.
+
+
 
 ## Оркестратор подключен
 
-**Тип поля**: Логическое
+**Машинное имя**: `comp_orch_connected`
 
-**Машинное имя**: comp_orch_connected
+**Тип поля**: Логическое
 
 **Описание**: Указывает, подключен ли этот процесс к оркестратору или нет.
 
+
+
 ## Ожидаемых операций в день
+
+**Машинное имя**: `field_ops_pd_expected`
 
 **Тип поля**: Число (дробное)
 
-**Машинное имя**: field_ops_pd_expected
-
 **Описание**: Calculates the frequency of business operations per day using either data entered by the user or data received from the Orchestrator. Priority is given to data received from the Orchestrator.
 
-
-# Методы процесса
-
-
-
-**Метод:** `stat`
-
-**Описание:** Get the statistics of a given process for a selected date.
-
-**Параметры:**
-
-* **ops_name** (string): Title of the statistic. Possible values:
-  - total;
-  - success;
-  - error;
-  - exception;
-  - duration_avg.
-* **date** (string|null): The date for which you need to obtain statistics. By default, this is
-the current date.
-
-
-
-**Пример**
-
-* `this.stat('success') // Вернёт количество успешных запусков за последнюю доступную дату.`
-* `this.stat('total') // Вернёт количество запусков всего за последнюю доступную дату.`
-* `this.stat('total', '2024-10-12') // Вернёт количество запусков всего за 12 октября 2024 года.`
-
----
-
-**Метод:** `field`
-
-**Описание:** Get the range of field value. Can be groupped and aggregated.
-
-**Параметры:**
-
-* **field_name** (string): The name of the field of a given entity.
-* **date_start** (string|null): Range start date. By default, this is the Commissioning date from
-field_production_since field of the proccess entity value.
-* **date_end** (string|null): Range end date. By default, this is the date of planned or actual process
-decommissioning from field_production_until field of the proccess entity
-value.
-* **group_name** (string|null): The name of the group of date. Possible values:
-  - week;
-  - month;
-  - quarter;
-  - year.
-* **aggregator_name** (string|null): The name of the aggregating function. Possible values:
-  - sum;
-  - avg;
-  - med;
-  - last.
-
-
-
-**Пример**
-
-* `this.field('field_ops_success')`
-* `this.field('field_revenue_expected', '1/1 this year', 'now', 'month', 'avg')`
-* `this.field('field_ops_success', '1/1 this year', 'now', 'month', 'sum')`
-
----
-
-**Метод:** `stat_range`
-
-**Описание:** Get the range of statistics values for a given process.
-
-**Параметры:**
-
-* **ops_name** (string): Title of the statistic. Possible values:
-  - total;
-  - success;
-  - error;
-  - exception;
-  - duration_avg.
-* **date_start** (string|null): Range start date. By default, this is the Commissioning date from
-field_production_since field of the proccess entity value.
-* **date_end** (string|null): Range end date. By default, this is the date of planned or actual process
-decommissioning from field_production_until field of the proccess entity
-value.
-
-
-
-**Пример**
-
-* `this.stat_range('success', '2024-01-01', '2024-12-31')`
-
----
-
-**Метод:** `stat_agg`
-
-**Описание:** Get aggregated statistics for a specified period.
-
-**Параметры:**
-
-* **ops_name** (string): Title of the statistic. Possible values:
-  - total;
-  - success;
-  - error;
-  - exception;
-  - duration_avg.
-* **agg_name** (string): The name of the aggregating function. Possible values:
-  - sum;
-  - avg;
-  - med;
-  - last.
-* **date_start** (string|null): Range start date. By default, this is the Commissioning date from
-field_production_since field of the proccess entity value.
-* **date_end** (string|null): Range end date. By default, this is the date of planned or actual process
-decommissioning from field_production_until field of the proccess entity
-value.
-
-
-
-**Пример**
-
-* `this.stat_agg('success', 'sum')`
-* `this.stat_agg('success', 'sum', '2024-01-01', '2024-12-31')`
-* `this.stat_agg('total', '-2 quarter first day', '-2 quarter last day')`
-
----
-
-**Метод:** `stat_range_agg`
-
-**Описание:** Get aggregated and groupped statistics for a specified period.
-
-**Параметры:**
-
-* **ops_name** (string): Title of the statistic. Possible values:
-  - total;
-  - success;
-  - error;
-  - exception;
-  - duration_avg.
-* **agg_name** (string): The name of the aggregating function. Possible values:
-  - sum;
-  - avg;
-  - med;
-  - last.
-* **group** (string): The name of the group of date. Possible values:
-  - week;
-  - month;
-  - quarter;
-  - year.
-* **date_start** (string|null): Range start date. By default, this is the Commissioning date from
-field_production_since field of the proccess entity value.
-* **date_end** (string|null): Range end date. By default, this is the date of planned or actual process
-decommissioning from field_production_until field of the proccess entity
-value.
-
-
-
-**Пример**
-
-* `this.stat_range_agg('success', 'avg', 'month')`
-* `this.stat_range_agg('success', 'avg', 'month', '2024-01-01', '2024-06-06')`
-
----
-
-
-
-# Методы проекта
-
-
-
-**Метод:** `stat`
-
-**Описание:** Get the statistics of a given process for a selected date.
-
-**Параметры:**
-
-* **ops_name** (string): Title of the statistic. Possible values:
-  - total;
-  - success;
-  - error;
-  - exception;
-  - duration_avg.
-* **date** (string|null): The date for which you need to obtain statistics. By default, this is
-the current date.
-
-
-
-**Пример**
-
-* `this.stat('success')`
-* `this.stat('total')`
-
----
-
-**Метод:** `stat_range`
-
-**Описание:** Get the range of statistics values for a given process.
-
-**Параметры:**
-
-* **ops_name** (string): Title of the statistic. Possible values:
-  - total;
-  - success;
-  - error;
-  - exception;
-  - duration_avg.
-* **date_start** (string|null): Range start date. By default, this is the Commissioning date from
-field_production_since field of the proccess entity value.
-* **date_end** (string|null): Range end date. By default, this is the date of planned or actual process
-decommissioning from field_production_until field of the proccess entity
-value.
-
-
-
-**Пример**
-
-* `this.stat_range('success', '2024-01-01', '2024-12-31')`
-
----
-
-**Метод:** `stat_agg`
-
-**Описание:** Get aggregated statistics for a specified period.
-
-**Параметры:**
-
-* **ops_name** (string): Title of the statistic. Possible values:
-  - total;
-  - success;
-  - error;
-  - exception;
-  - duration_avg.
-* **agg_name** (string): The name of the aggregating function. Possible values:
-  - sum;
-  - avg;
-  - med;
-  - last.
-* **date_start** (string|null): Range start date. By default, this is the Commissioning date from
-field_production_since field of the proccess entity value.
-* **date_end** (string|null): Range end date. By default, this is the date of planned or actual process
-decommissioning from field_production_until field of the proccess entity
-value.
-
-
-
-**Пример**
-
-* `this.stat_agg('success', 'sum')`
-* `this.stat_agg('success', 'sum', '2024-01-01', '2024-12-31')`
-* `this.stat_agg('total', '-2 quarter first day', '-2 quarter last day')`
-
----
-
-**Метод:** `stat_range_agg`
-
-**Описание:** Get aggregated and groupped statistics for a specified period.
-
-**Параметры:**
-
-* **ops_name** (string): Title of the statistic. Possible values:
-  - total;
-  - success;
-  - error;
-  - exception;
-  - duration_avg.
-* **agg_name** (string): The name of the aggregating function. Possible values:
-  - sum;
-  - avg;
-  - med;
-  - last.
-* **group** (string): The name of the group of date. Possible values:
-  - week;
-  - month;
-  - quarter;
-  - year.
-* **date_start** (string|null): Range start date. By default, this is the Commissioning date from
-field_production_since field of the proccess entity value.
-* **date_end** (string|null): Range end date. By default, this is the date of planned or actual process
-decommissioning from field_production_until field of the proccess entity
-value.
-
-
-
-**Пример**
-
-* `this.stat_range_agg('success', 'avg', 'month')`
-* `this.stat_range_agg('success', 'avg', 'month', '2024-01-01', '2024-06-06')`
-
----
-
-
-
-# Методы очереди
-
-
-
-**Метод:** `stat`
-
-**Описание:** Get the statistics of a given process for a selected date.
-
-**Параметры:**
-
-* **ops_name** (string): Title of the statistic. Possible values:
-  - total;
-  - success;
-  - error;
-  - exception;
-  - duration_avg.
-* **date** (string|null): The date for which you need to obtain statistics. By default, this is
-the current date.
-
-
-
-**Пример**
-
-* `this.stat('success')`
-* `this.stat('total')`
-
----
-
-**Метод:** `stat_range`
-
-**Описание:** Get the range of statistics values for a given process.
-
-**Параметры:**
-
-* **ops_name** (string): Title of the statistic. Possible values:
-  - total;
-  - success;
-  - error;
-  - exception;
-  - duration_avg.
-* **date_start** (string|null): Range start date. By default, this is the Commissioning date from
-field_production_since field of the proccess entity value.
-* **date_end** (string|null): Range end date. By default, this is the date of planned or actual process
-decommissioning from field_production_until field of the proccess entity
-value.
-
-
-
-**Пример**
-
-* `this.stat_range('success', '2024-01-01', '2024-12-31')`
-
----
-
-**Метод:** `stat_agg`
-
-**Описание:** Get aggregated statistics for a specified period.
-
-**Параметры:**
-
-* **ops_name** (string): Title of the statistic. Possible values:
-  - total;
-  - success;
-  - error;
-  - exception;
-  - duration_avg.
-* **agg_name** (string): The name of the aggregating function. Possible values:
-  - sum;
-  - avg;
-  - med;
-  - last.
-* **date_start** (string|null): Range start date. By default, this is the Commissioning date from
-field_production_since field of the proccess entity value.
-* **date_end** (string|null): Range end date. By default, this is the date of planned or actual process
-decommissioning from field_production_until field of the proccess entity
-value.
-
-
-
-**Пример**
-
-* `this.stat_agg('success', 'sum')`
-* `this.stat_agg('success', 'sum', '2024-01-01', '2024-12-31')`
-* `this.stat_agg('total', '-2 quarter first day', '-2 quarter last day')`
-
----
-
-**Метод:** `stat_range_agg`
-
-**Описание:** Get aggregated and groupped statistics for a specified period.
-
-**Параметры:**
-
-* **ops_name** (string): Title of the statistic. Possible values:
-  - total;
-  - success;
-  - error;
-  - exception;
-  - duration_avg.
-* **agg_name** (string): The name of the aggregating function. Possible values:
-  - sum;
-  - avg;
-  - med;
-  - last.
-* **group** (string): The name of the group of date. Possible values:
-  - week;
-  - month;
-  - quarter;
-  - year.
-* **date_start** (string|null): Range start date. By default, this is the Commissioning date from
-field_production_since field of the proccess entity value.
-* **date_end** (string|null): Range end date. By default, this is the date of planned or actual process
-decommissioning from field_production_until field of the proccess entity
-value.
-
-
-
-**Пример**
-
-* `this.stat_range_agg('success', 'avg', 'month')`
-* `this.stat_range_agg('success', 'avg', 'month', '2024-01-01', '2024-06-06')`
-
----
-
-
-
-# Методы робота
-
-
-
-**Метод:** `stat`
-
-**Описание:** Get the statistics of a given process for a selected date.
-
-**Параметры:**
-
-* **ops_name** (string): Title of the statistic. Possible values:
-  - total;
-  - success;
-  - error;
-  - exception;
-  - duration_avg.
-* **date** (string|null): The date for which you need to obtain statistics. By default, this is
-the current date.
-
-
-
-**Пример**
-
-* `this.stat('success')`
-* `this.stat('total')`
-
----
-
-**Метод:** `stat_range`
-
-**Описание:** Get the range of statistics values for a given process.
-
-**Параметры:**
-
-* **ops_name** (string): Title of the statistic. Possible values:
-  - total;
-  - success;
-  - error;
-  - exception;
-  - duration_avg.
-* **date_start** (string|null): Range start date. By default, this is the Commissioning date from
-field_production_since field of the proccess entity value.
-* **date_end** (string|null): Range end date. By default, this is the date of planned or actual process
-decommissioning from field_production_until field of the proccess entity
-value.
-
-
-
-**Пример**
-
-* `this.stat_range('success', '2024-01-01', '2024-12-31')`
-
----
-
-**Метод:** `stat_agg`
-
-**Описание:** Get aggregated statistics for a specified period.
-
-**Параметры:**
-
-* **ops_name** (string): Title of the statistic. Possible values:
-  - total;
-  - success;
-  - error;
-  - exception;
-  - duration_avg.
-* **agg_name** (string): The name of the aggregating function. Possible values:
-  - sum;
-  - avg;
-  - med;
-  - last.
-* **date_start** (string|null): Range start date. By default, this is the Commissioning date from
-field_production_since field of the proccess entity value.
-* **date_end** (string|null): Range end date. By default, this is the date of planned or actual process
-decommissioning from field_production_until field of the proccess entity
-value.
-
-
-
-**Пример**
-
-* `this.stat_agg('success', 'sum')`
-* `this.stat_agg('success', 'sum', '2024-01-01', '2024-12-31')`
-* `this.stat_agg('total', '-2 quarter first day', '-2 quarter last day')`
-
----
-
-**Метод:** `stat_range_agg`
-
-**Описание:** Get aggregated and groupped statistics for a specified period.
-
-**Параметры:**
-
-* **ops_name** (string): Title of the statistic. Possible values:
-  - total;
-  - success;
-  - error;
-  - exception;
-  - duration_avg.
-* **agg_name** (string): The name of the aggregating function. Possible values:
-  - sum;
-  - avg;
-  - med;
-  - last.
-* **group** (string): The name of the group of date. Possible values:
-  - week;
-  - month;
-  - quarter;
-  - year.
-* **date_start** (string|null): Range start date. By default, this is the Commissioning date from
-field_production_since field of the proccess entity value.
-* **date_end** (string|null): Range end date. By default, this is the date of planned or actual process
-decommissioning from field_production_until field of the proccess entity
-value.
-
-
-
-**Пример**
-
-* `this.stat_range_agg('success', 'avg', 'month')`
-* `this.stat_range_agg('success', 'avg', 'month', '2024-01-01', '2024-06-06')`
-
----
