@@ -3,7 +3,7 @@
 Пользователь может добавить изображения в проект, просмотреть, редактировать, повернуть и удалить. 
 
 Поддерживается несколько способов добавления изображений:
-* [добление отдельными файлами](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/data/operations-with-data#dobavit-izobrazheniya);
+* [добавление отдельными файлами](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/data/operations-with-data#dobavit-izobrazheniya);
 * [добавление архивом](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/data/operations-with-data#dobavit-izobrazheniya-arkhivom);
 * [импорт существующего датасета вместе со схемой разметки](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/data/operations-with-data#import-dataseta).
 
