@@ -9,7 +9,7 @@
 
 ## Перед началом работы
 
-:large_orange_diamond: Обязательно изучите рекомендации по разметке данных.
+:large_orange_diamond: Обязательно изучите [рекомендации](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/labeling/requirements) по разметке данных.
 
 
 ## Содержание
