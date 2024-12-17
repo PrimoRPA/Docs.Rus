@@ -19,4 +19,4 @@
 
 ## Что дальше
 
-Если вы успешно обучили модель, то можете переходить к следующему шагу — настройке и запуску процесса [инференса](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/inference). 
+Если вы успешно обучили модель, то можете переходить к следующему шагу — настройке и запуску процесса [инференса](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/inference).
