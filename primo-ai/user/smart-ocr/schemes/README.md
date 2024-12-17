@@ -8,17 +8,17 @@
 
 После того, как схема создана, следует добавить в нее поля. 
 
-## Как еще можно создать схему разметки
+## Как иначе создать схему разметки
 
-Вы можете пропустить шаг создания схемы и сразу перейти на страницу [**Разметка данных**](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/labeling), чтобы создать схему там. Это позволит создать схему и разметить изображения в одном месте, что может оказаться удобнее, поскольку вы будете видеть все изображения при создании полей схемы.
+Вы можете сразу перейти на страницу [**Разметка данных**](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/labeling), чтобы создать схему там. Это позволит выполнить все действия в одном месте, что может оказаться удобнее, поскольку вы будете видеть изображения при создании полей схемы и таким образом, вряд ли что-то пропустите.
 
 
 ## Содержание
 
-* [Управление схемой разметки](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/schemes/operations-with-schemes)
-* [Управление полями схемы разметки](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/schemes/operations-with-fiels)
+* [Управление схемой разметки](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/schemes/operations-with-schemes)
+* [Управление полями схемы разметки](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/schemes/operations-with-fiels)
 
 ## Что дальше
 
-Если вы создали схему разметки и добавили в нее поля, переходите к следующему шагу по формированию датасета — [разметке изображений](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/labeling). 
+Если вы создали схему разметки и добавили в нее поля, переходите к следующему шагу по формированию датасета — разметке изображений.
 
