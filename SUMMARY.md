@@ -1246,13 +1246,13 @@
     * [Создание процесса](idea-hub/processes/create-process.md)
     * [Редактирование процесса](idea-hub/processes/edit-process.md)
     * [Управление полями](idea-hub/processes/add-fields.md)
-* [Формулы](idea-hub/formulas/README.md)
+* [Формулы](idea-hub/formulas/about.md)
+	* [Синтаксис формул](idea-hub/formulas/README.md) 
 * [Импорт и экспорт](idea-hub/import-export/readme.md)
 	* [Импорт из Оркестратора](idea-hub/import-export/import-from-orchestrator.md)
  	* [Файл process.xlsx](idea-hub/import-export/file-process.md)
   	* [Файл areas.xlsx](idea-hub/import-export/file-areas.md)
   	* [Файл users.xlsx](idea-hub/import-export/file-users.md)
-* [Настройка формул](idea-hub/formulas.md)
 * [Создание индикаторов](idea-hub/indicators.md)
 
 ## Primo RPA AI Server
