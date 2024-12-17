@@ -1329,7 +1329,7 @@
       * [Как запустить обучение модели](primo-ai/user/smart-ocr/training/run-trainig-process.md)
       * [Управление шаблоном обучения](primo-ai/user/smart-ocr/training/operations-with-training-templates.md)
       * [Управление процессом обучения](primo-ai/user/smart-ocr/training/operations-with-process.md)
-      * [Мониторинг обучения](primo-ai/user/projects/smart-ocr/monitoring.md)
+      * [Мониторинг обучения](primo-ai/user/projects/smart-ocr/training/monitoring.md)
     * [Инференс](primo-ai/user/smart-ocr/inference/README.md)
       * [Как запустить инференс](primo-ai/user/smart-ocr/inference/run-inference-process.md)
     * [Требования к изображениям](primo-ai/user/smart-ocr/requirements/README.md)
