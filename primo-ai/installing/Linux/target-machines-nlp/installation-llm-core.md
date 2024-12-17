@@ -48,6 +48,15 @@ docker load -i /srv/samba/shared/install/docker/agents/NLP/vllm/vllm-cpu.tar
 docker load -i /srv/samba/shared/install/docker/agents/NLP/llama/llama_cpu_server.tar
 ```
 
+### 3. Создание рабочей папки 
+
+```
+sudo mkdir -p /app/Primo.AI/NLP/
+```
+```
+sudo chown -R agent /app/Primo.AI/NLP
+```
+
 ### 3. Размещение docker-compose 
 
 Только для **Llama**.
