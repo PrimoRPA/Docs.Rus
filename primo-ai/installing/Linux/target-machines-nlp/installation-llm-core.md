@@ -57,7 +57,7 @@ sudo mkdir -p /app/Primo.AI/NLP/
 sudo chown -R agent /app/Primo.AI/NLP
 ```
 
-### 3. Размещение docker-compose 
+### 4. Размещение docker-compose 
 
 Только для **Llama**.
 
