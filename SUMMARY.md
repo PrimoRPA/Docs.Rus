@@ -1323,7 +1323,7 @@
       * [Управление схемой разметки](primo-ai/user/smart-ocr/schemes/operations-with-schemes.md)
       * [Управление полями схемы](primo-ai/user/smart-ocr/schemes/operations-with-fiels.md)
     * [Разметка данных](primo-ai/user/smart-ocr/labeling/README.md)
-      * [Рекомендации по разметке данных](primo-ai/user/smart-ocr/labeling/datalabeling-requirements.md)
+      * [Рекомендации по разметке](primo-ai/user/smart-ocr/labeling/requirements.md)
       * [Как разметить изображения](primo-ai/user/smart-ocr/labeling/operations-with-labeling.md)
     * [Обучение модели](primo-ai/user/smart-ocr/training/README.md)
       * [Как запустить обучение модели](primo-ai/user/smart-ocr/training/run-trainig-process.md)
