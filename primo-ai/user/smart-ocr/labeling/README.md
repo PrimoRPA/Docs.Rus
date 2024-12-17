@@ -9,14 +9,14 @@
 
 ## Перед началом работы
 
-:large_orange_diamond: Обязательно изучите [рекомендации по разметке данных](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/labeling/datalabeling-requirements).
+:large_orange_diamond: Обязательно изучите рекомендации по разметке данных.
 
 
 ## Содержание
 
-[Как разметить изображения](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/labeling/operations-with-labeling)
+[Как разметить изображения](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/labeling/operations-with-labeling).
 
 
 ## Что дальше
 
-Если вы закончили разметку данных, то можете переходить к следующему шагу — созданию шаблона [обучения модели](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/training). 
+Если вы закончили разметку данных, то можете переходить к следующему шагу — созданию шаблона [обучения модели](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/training).
