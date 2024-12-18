@@ -98,5 +98,4 @@ sudo usermod -aG docker docker_user
 newgrp docker
 ```
 
-## Что дальше
-Выполните [установку компонентов Api](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/server-with-docker/installing-api)
+
