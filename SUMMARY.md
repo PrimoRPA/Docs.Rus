@@ -1267,7 +1267,7 @@
     * [Сетевые порты](primo-ai/installing/ports.md)
     * [Установка под Linux](primo-ai/installing//Linux/README.md)
         * [Установка Docker](primo-ai/installing/Linux/installing-docker.md)
-        * [Подготовка машины для AI Server](primo-ai/installing/Linux/README.md)
+        * [Подготовка машины для AI Server](primo-ai/installing/Linux/server-machine/README.md)
           * [Настройка машины сервера](primo-ai/installing/Linux/server-machine/README.md)
           * [Установка компонентов сервера вручную](primo-ai/installing/Linux/server-machine/manual-installation/README.md)
               * [Установка Nginx](primo-ai/installing/Linux/server-machine/manual-installation/nginx.md)
