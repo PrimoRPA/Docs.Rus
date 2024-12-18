@@ -155,9 +155,9 @@ sudo chown -R primo:primo-ai /app/Primo.AI/
 
 ## Что дальше
 
-Следующий шаг зависит от способа, который вы выбрали для установки компонентов сервера:
-* с помощью инсталляторов — см. раздел Установка с инсталлятором.
-* вручную — см. раздел Установка Nginx на машине сервера.
+Следующий шаг — установка компонентов сервера, которую можно выполнить:
+* [с помощью докера](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/server-machine/server-with-docker);
+* [вручную](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/server-machine/manual-installation).
 
 >*\*Имеются в виду файлы Primo.AI.Api, Primo.AI.Api.Inference... Primo.AI.Api.Auth*.
 
