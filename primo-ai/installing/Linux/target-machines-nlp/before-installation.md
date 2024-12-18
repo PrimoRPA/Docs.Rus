@@ -44,5 +44,5 @@
 
 ## Что дальше
 
-Выполните установку docker на каждую целевую машину из группы:
-* [Docker](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/installation-docker)
+Выполните установку Docker на каждую целевую машину из группы:
+* [Docker](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/installing-docker)
