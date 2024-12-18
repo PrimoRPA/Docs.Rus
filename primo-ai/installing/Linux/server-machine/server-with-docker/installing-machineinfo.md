@@ -91,4 +91,4 @@ sudo dpkg -i /srv/samba/shared/install/distr/cpuid/*.deb
 
 ## Что дальше
 
-[Установите Api и его компоненты](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/server-with-docker/installing-api).
+[Установите Api и его компоненты](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/server-machine/server-with-docker/installing-api).
