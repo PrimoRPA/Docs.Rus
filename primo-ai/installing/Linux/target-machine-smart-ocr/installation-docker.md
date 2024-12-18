@@ -14,7 +14,7 @@
 
 ## Установка Docker
 
-[Установите Docker](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/installing-docker).
+[Установите Docker](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/installing-docker).
 
 ## Создание контейнера
 
