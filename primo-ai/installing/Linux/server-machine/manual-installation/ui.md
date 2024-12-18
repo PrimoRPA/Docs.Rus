@@ -11,4 +11,9 @@
 
 На этом развертывание компонентов на машине сервера можно считать оконченным. 
 
-Теперь вы можете перейти к настройке целевой машины.
+Теперь вы можете:
+* [Установить и настроить ПО для целевой машины Умного OCR](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/target-machine-smart-ocr).
+
+ИЛИ:
+
+* [Установить и настроить ПО для целевой машины NLP](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/target-machines-nlp).
