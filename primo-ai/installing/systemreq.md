@@ -30,4 +30,4 @@
 
 
 ## См. также
-* [Архитектура](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/common/components)
+* [Архитектура](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/common/components)
