@@ -12,13 +12,3 @@
    * иметь опыт работы c bash;
    * иметь опыт сетевого и системного администрирования ОС Linux.
 
-
-## Содержание раздела
-* [Системные требования](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/systemreq)
-* [Сетевые порты](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/ports)
-* [Установка под Astra Linux](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux):
-  * Подготовка машины сервера:
-    * [Предварительная настройка машины сервера](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/preconfiguring-server-machine)
-    * [Установка компонентов сервера инсталлятором](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/server-with-installer)
-    * [Установка компонентов сервера вручную](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/server)
-  * [Подготовка целевой машины: установка и настройка компонентов](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/agent)
