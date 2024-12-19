@@ -1254,6 +1254,7 @@
     * [Создание процесса](idea-hub/processes/create-process.md)
     * [Редактирование процесса](idea-hub/processes/edit-process.md)
     * [Управление полями](idea-hub/processes/add-fields.md)
+    * [Типы полей и настройка](idea-hub/processes/field-types.md)
 * [Формулы](idea-hub/formulas/about.md)
 	* [Синтаксис формул](idea-hub/formulas/README.md) 
 * [Импорт и экспорт](idea-hub/import-export/readme.md)
