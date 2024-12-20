@@ -1,3 +1,7 @@
+---
+description: 1C Server
+---
+
 # Приложение 1С (сервер)
 
 ![](<../../../.gitbook/assets/image (440).png>)
