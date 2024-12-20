@@ -1,3 +1,8 @@
+---
+description: 1C Local
+---
+
+
 # Приложение 1С (локальная БД)
 
 ![](<../../../.gitbook/assets/image (442).png>)
