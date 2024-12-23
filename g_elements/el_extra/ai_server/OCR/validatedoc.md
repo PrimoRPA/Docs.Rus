@@ -6,7 +6,7 @@ description: Validate document
 
 ![](<../../../../.gitbook/assets1/windows_items/validate-doc.png>)
 
-Элемент проверяет результат распознавания документа. Результат в данном контексте — это переменная с типом `Primo.AI.Server.Model.InferenceResult`, которую получают с помощью элемента [Получить результат](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/getresult). 
+Элемент проверяет результат распознавания документа. Результат в данном контексте — это переменная с типом `Primo.AI.Server.Model.InferenceResult`, которую получают с помощью элемента [Получить результат OCR](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/ocr/getresult).
 
 Элемент **Проверить документ** валидирует содержимое этой переменной и сохраняет результат валидации в новую переменную с тем же типом данных. Во время валидации открывается диалоговое окно с изображением документа и распознанными полями:
 * *Зеленым цветом выделены успешно распознанные блоки.*
@@ -38,6 +38,6 @@ description: Validate document
 
 **Вывод:**
 
-* **Результат обработки** *[Primo.AI.Server.Model.InferenceResult]* — название переменной, в которую сохранится проверенный результат распознавания.
+* **Результат обработки** *[Primo.AI.Server.Model.InferenceResult](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/ocr/tipy-dannykh/inferenceresult)* — название переменной, в которую сохранится проверенный результат распознавания.
 
 
