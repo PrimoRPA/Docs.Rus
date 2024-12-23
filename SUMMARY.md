@@ -729,7 +729,7 @@
 		* [Получить результат OCR](g\_elements/el\_extra/ai\_server/OCR/getresult.md)
 		* [Проверить документ](g\_elements/el\_extra/ai\_server/OCR/validatedoc.md)
      * [NLP](g\_elements/el\_extra/ai\_server/NLP/README.md)
-     	* [Типы данных](g\_elements/el\_extra/ai\_server/NLP/datatypes/)
+     	* [Типы данных](g\_elements/el\_extra/ai\_server/NLP/datatypes/README.md)
       		* [NlpResult](g\_elements/el\_extra/ai\_server/NLP/datatypes/nlpresult.md)
         	* [NlpResultContent](g\_elements/el\_extra/ai\_server/NLP/datatypes/nlpresultcontent.md)
         * [Создать запрос NLP](g\_elements/el\_extra/ai\_server/NLP/create_request_nlp.md)
