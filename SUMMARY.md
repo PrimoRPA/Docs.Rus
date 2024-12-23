@@ -1136,6 +1136,7 @@
 ## Primo RPA Orchestrator <a href="#orchestrator" id="orchestrator"></a>
 
 * [Общие сведения](orchestrator/intro.md)
+	* [Системные требования](orchestrator-new/systemreq.md)
 * [Системные требования](orchestrator/systemreq.md)
 * [Компоненты](orchestrator/system-components.md)
 * [Инфраструктура](orchestrator/ports.md)
