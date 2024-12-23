@@ -2,15 +2,21 @@
 
 Ниже представлена справочная информация по типам полей и их настройкам.
 
+## datetime
+
 Тип поля: `datetime`\
 Плагин: Date\
 Настройка: Результирующий формат даты. В большинстве случаев  менять настройку данного поля  не требуется. Если такая необходимость возникает, задаётся в формате, детально описанном [здесь](https://www.php.net/manual/datetime.format.php#refsect1-datetime.format-parameters).
 
 
+## file
+
 Тип поля: `file`\
 Плагин: Download and Create File\
 Настройка: Поведение, если файл в системе уже существует. Заменить файл на новый, переименовать новый файл, чтобы имя стало уникальным, либо использовать уже существующий файл, новый — игнорировать.
 
+
+## entity_reference
 
 Тип поля: `entity_reference`\
 Плагин: New entity\
@@ -25,21 +31,24 @@
 Настройки: нет.
 
 
+## integer, decimal, float
+
 Типы поля: `integer`, `decimal`, `float`\
 Плагин: Number\
 Настройки: нет.
 
+## string, string_long, text_with_summary
 
 Типы поля: `string`, `string_long`, `text_with_summary`\
 Плагин: Text\
 Настройки: нет.
 
-
+## workflow
 Тип поля: `workflow`\
 Плагин: Workflow\
 Настройки: нет.
 
-
+## formula
 Тип поля: `formula`\
 Плагин: Formula\
 Настройки: нет.
