@@ -6,7 +6,9 @@ description: Create request
 
 ![](<../../../../.gitbook/assets1/windows_items/WFAttachPrimoAIServer.png>)
 
-Элемент отправляет запрос в Primo RPA AI Server, чтобы с помощью нейросетевой модели распознать или классифицировать скан документа. В ответе сервер вернет идентификатор запроса — используйте его в [Получить результат OCR](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/ocr/getresult), чтобы просмотреть результат обработки изображения.
+Элемент отправляет запрос в Primo RPA AI Server, чтобы распознать или классифицировать скан документа с помощью нейросетевой модели.
+
+В ответе сервер вернет идентификатор запроса — используйте его в [Получить результат OCR](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/ocr/getresult), чтобы просмотреть результат обработки изображения.
 
 
 ## Перед началом работы
