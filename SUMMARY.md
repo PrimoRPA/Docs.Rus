@@ -719,7 +719,7 @@
   * [AI.Server](g\_elements/el\_extra/ai\_server/README.md)
     * [Сервер Primo.AI](g\_elements/el\_extra/ai\_server/primoaiserver.md)
 	* [OCR](g\_elements/el\_extra/ai\_server/OCR/README.md)
-		* [Типы данных](g\_elements/el\_extra/ai\_server/OCR/datatypes/)
+		* [Типы данных](g\_elements/el\_extra/ai\_server/OCR/datatypes/README.md)
 			* [InferenceResult](g\_elements/el\_extra/ai\_server/OCR/datatypes/inferenceresult.md)
 			* [InferenceResultContent](g\_elements/el\_extra/ai\_server/OCR/datatypes/inferenceresultcontent.md)
 			* [InferenceResultFile](g\_elements/el\_extra/ai\_server/OCR/datatypes/inferenceresultfile.md)
