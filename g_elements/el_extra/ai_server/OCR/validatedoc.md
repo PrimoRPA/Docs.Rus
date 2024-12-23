@@ -34,10 +34,10 @@ description: Validate document
 **Обработка:**
 
 1. **Документ\*** *[String]* — путь к файлу обрабатываемого документа.
-1. **Результат распознавания\*** *[[Primo.AI.Server.Model.InferenceResult](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/getresult#inferenceresult)]* — название переменной с результатом распознавания документа.
+1. **Результат распознавания\*** *[[Primo.AI.Server.Model.InferenceResult](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/ocr/datatypes/inferenceresult)]* — название переменной с результатом распознавания документа.
 
 **Вывод:**
 
-* **Результат обработки** *[Primo.AI.Server.Model.InferenceResult](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/ocr/tipy-dannykh/inferenceresult)* — название переменной, в которую сохранится проверенный результат распознавания.
+* **Результат обработки** *[Primo.AI.Server.Model.InferenceResult]* — название переменной, в которую сохранится проверенный результат распознавания.
 
 
