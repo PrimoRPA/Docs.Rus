@@ -23,7 +23,7 @@
 * **Ключ запроса\*** *[[System.Guid](https://learn.microsoft.com/ru-ru/dotnet/api/system.guid?view=net-5.0)]* — название переменной, в которой содержится идентификатор NLP-запроса.
 
 **Вывод:**
-* **Результат** *[Primo.AI.Server.Model.NlpResult]* — название переменной, в которую сохранится результат выполненного запроса.
+* **Результат** *[[Primo.AI.Server.Model.NlpResult](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server/nlp/datatypes/nlpresult)]* — название переменной, в которую сохранится результат выполненного запроса.
 
 
 
