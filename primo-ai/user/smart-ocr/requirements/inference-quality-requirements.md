@@ -15,7 +15,7 @@
 
 Узнать DPI для файла .jpg можно, посмотрев свойства изображения:
 
-![Пример DPI для фото СНИЛС](<../../.gitbook/assets1/primo-ai/how-know-dpi.png>)
+![Пример DPI для фото СНИЛС](<../../../../.gitbook/assets1/primo-ai/how-know-dpi.png>)
 
 Поскольку DPI нет в формате PNG, то воспользуемся следующей формулой для расчета: 
 * если размер документа — 1 дюйм х 1 дюйм, то разрешение его скана должно быть хотя бы 100 х 100 пикселей, желательно — 200 х 200 пикселей. 
@@ -29,5 +29,5 @@
 
 
 ### См. также
-- [Требования к изображениям для обучения](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/other/dataset-quality-requirements)
+- [Требования к изображениям для обучения](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/requirements/dataset-requirements)
 
