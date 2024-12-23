@@ -11,7 +11,8 @@ description: Get result
 
 ## Перед началом работы
 
-Установите в Студии библиотеку [Primo.AI.Server](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server).
+1. Установите в Студии библиотеку [Primo.AI.Server](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server).
+1. Поместите элемент **Получить результат OCR** в контейнер **Сервер Primo.AI**. 
 
 
 ## Свойства
