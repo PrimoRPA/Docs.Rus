@@ -736,7 +736,7 @@
         * [Получить результат NLP](g\_elements/el\_extra/ai\_server/NLP/get_request_nlp.md)
   * [Primo.ART](g\_elements/el\_extra/els\_nuget\_art/readme.md)
        * [Транзакция](g\_elements/el\_extra/els\_nuget\_art/el\_transaction.md)
-       * [Шаг](g\_elements/el\_extra/els\_nuget\_art/el\_transaction.md)
+       * [Шаг](g\_elements/el\_extra/els\_nuget\_art/el\_step.md)
   * [Collections](g\_elements/el\_extra/els\_collections/README.md)
     * [Построить таблицу](g\_elements/el\_extra/els\_collections/els\_data\_tables/build.md)
     * [Соединить таблицы](g\_elements/el\_extra/els\_collections/els\_data\_tables/join.md)
