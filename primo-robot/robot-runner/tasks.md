@@ -8,9 +8,9 @@
 
 При нажатии кнопки **Создать задачу** ![](<../../.gitbook/assets/Раннер. Создать задачу.png>) откроется форма для указания ее настроек:
 
-![](<../../.gitbook/assets/Создание задачи.png>)
+![](<../../.gitbook/assets1/settings_robot_runner.png>)
 
-Параметры запуска задачи описаны в разделе [Запуск Робота из командной строки](https://docs.primo-rpa.ru/primo-rpa/primo-robot/launch-command).
+Параметры запуска задачи описаны в разделе [Запуск Робота из командной строки](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-robot/installation/launch-command).
 
 Другие кнопки управления:
 * Кнопка **Создать ярлык задачи** создает ярлык запуска задачи без Robot Runner.
