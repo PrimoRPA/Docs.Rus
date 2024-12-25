@@ -103,4 +103,4 @@ sudo ufw allow 5005/tcp
 
 ## Что дальше
 Выполните установку LLM-ядра на текущей машине.
-* [LLM-ядро](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/target-machines-nlp/installation-llm-core-agent)
+* [LLM-ядро](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/target-machines-nlp/installation-llm-core)
