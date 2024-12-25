@@ -68,6 +68,8 @@
         * [1.0.1](release-notes/packages/windows/ocr-content-ai/1.0.1.md)
       * [Primo.ProjectAnalyzer.Extended](release-notes/packages/windows/project-analyzer/README.md)
         * [1.0.0](release-notes/packages/windows/project-analyzer/1.0.0.md)
+      * [Primo.Sap.Data.Hana](release-notes/packages/windows/primo_sap_data_hana/readme.md)
+        * [1.0.0](release-notes/packages/windows/primo_sap_data_hana/1.0.0.md)
     * [Linux](release-notes/packages/linux/README.md)
       * [Primo.AI.Server.Linux](release-notes/packages/linux/primo-ai-server/readme.md)
         * [1.0.10](release-notes/packages/linux/primo-ai-server/1.0.10.md)
