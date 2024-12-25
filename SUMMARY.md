@@ -1255,7 +1255,6 @@
   	* [Интеграция с LDAP](idea-hub/installation/integration-ldap.md)
 * [Начало работы](idea-hub/getting-started/readme.md)
 	* [Работа с идеями](idea-hub/getting-started/ideas.md)
- 	* [Обзор](idea-hub/getting-started/test.md)
 * [Процессы](idea-hub/processes/readme.md)
     * [Создание процесса](idea-hub/processes/create-process.md)
     * [Редактирование процесса](idea-hub/processes/edit-process.md)
