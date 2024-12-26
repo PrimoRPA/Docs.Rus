@@ -4,8 +4,7 @@ description: Connect DataBase (SAP HANA)
 
 # Присоединиться к БД (SAP HANA)
 
-
-![](<../../../.gitbook/assets1/connect_sap_hana.png.png>)
+![](<../../../.gitbook/assets1/connect_sap_hana.png>)
 
 Элемент производит подключение к базе данных.
 
