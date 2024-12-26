@@ -187,7 +187,7 @@
     * [Документ Google Sheets](g\_elements/el\_basic/gsheets/el\_gsheets\_document.md)
     * [Запись диапазона](g\_elements/el\_basic/gsheets/el\_gsheets\_writerange.md)
     * [Чтение диапазона](g\_elements/el\_basic/gsheets/el\_gsheets\_readrange.md)
-  * [Network](g\_elements/el\_basic/els\_network/README.md)
+  * [Сетевые подключения](g\_elements/el\_basic/els\_network/README.md)
     * [Типы данных](g\_elements/el\_basic/els\_network/datatypes/README.md)
       * [TrafficHistoryItem](g\_elements/el\_basic/els\_network/datatypes/traffichistoryitem.md)
       * [PackageHeader](g\_elements/el\_basic/els\_network/datatypes/packageheader.md)
