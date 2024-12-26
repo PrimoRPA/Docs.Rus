@@ -1,4 +1,4 @@
-# SAP Front End
+# Работа с SAP
 
 Для работы компонентов SAP Front End (за исключением BAPI), необходимо включить поддержку SAP UI Scripting.
 
