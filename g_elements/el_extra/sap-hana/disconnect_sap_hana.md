@@ -19,4 +19,4 @@ description: Disconnect Database (SAP HANA)
 Символом `*` отмечены обязательные для заполнения свойства. Описание общих свойств см. [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
 
 **База данных:**
-1. *Соединение с БД\* *[Primo.Sap.Data.Hana.DatabaseInst] — экземпляр отсоединения с базой данных.
+1. **Соединение с БД*** - [Primo.Sap.Data.Hana.DatabaseInst] — экземпляр отсоединения с базой данных.
