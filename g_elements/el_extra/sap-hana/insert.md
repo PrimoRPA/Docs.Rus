@@ -4,7 +4,10 @@ description: Insert data (SAP HANA)
 
 # Вставка данных SAP HANA
 
-  ![](<../../../.gitbook/assets1/insert_sap_hana.png>)
+
+
+![](<../../../.gitbook/assets1/insert_sap_hana.png>)
+
 
 Элемент производит вставку данных в таблицу базы данных SAP HANA.
 
