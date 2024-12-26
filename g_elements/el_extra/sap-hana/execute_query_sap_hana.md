@@ -9,6 +9,11 @@ description: Execute query (SAP HANA)
 
 Компонент выполняет запрос к базе данных SAP HANA. Ожидание результатов предполагает, что запрос должен вернуть данные.
 
+## Перед началом работы
+
+Установите в Primo RPA Studio (Windows) пакет [Primo.Sap.Data.Hana](https://www.nuget.org/packages/Primo.Sap.Data.Hana), иначе данный элемент будет недоступен.  
+Также необходимо предварительно установить клиент SAP HANA, который можно скачать с [официального сайта SAP HANA](https://tools.hana.ondemand.com/#hanatools).
+
 ## Свойства
 
 Символом `*` отмечены обязательные для заполнения свойства. Описание общих свойств см. [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
