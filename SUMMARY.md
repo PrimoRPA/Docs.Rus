@@ -926,6 +926,8 @@
     * [Редактировать фигуру](g\_elements/el\_extra/els\_powerpoint/el\_powerpoint\_setshape.md)
     * [Сохранить документ](g\_elements/el\_extra/els\_powerpoint/el\_powerpoint\_save.md)
     * [Удалить слайд](g\_elements/el\_extra/els\_powerpoint/el\_powerpoint\_deleteslide.md)
+  * [Работа с SAP HANA](g\_elements/el\_extra/sap-hana/readme.md)
+    * [Вставка данных SAP HANA](g\_elements/el\_extra/sap-hana/insert.md)
 * [Линукс](g_elements/el_linux/readme.md)
   * [Основные](g_elements/el-linux-basic/readme.md)
 	* [OCR](g_elements/el-linux-basic/els-ocr)  
