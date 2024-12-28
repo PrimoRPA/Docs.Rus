@@ -1268,7 +1268,7 @@
     * [Типы полей и настройка](idea-hub/processes/field-types.md)
 * [Формулы](idea-hub/formulas/about.md)
 	* [Синтаксис формул](idea-hub/formulas/README.md) 
-* [Импорт и экспорт](idea-hub/import-export/readme.md)
+* [Импорт данных](idea-hub/import-export/readme.md)
 	* [Импорт из Оркестратора](idea-hub/import-export/import-from-orchestrator.md)
  	* [Файл process.xlsx](idea-hub/import-export/file-process.md)
   	* [Файл areas.xlsx](idea-hub/import-export/file-areas.md)
