@@ -1254,7 +1254,7 @@
 ## Primo RPA Idea Hub
 
 * [Общие сведения](idea-hub/description.md)
-* [Установка и обновление](idea-hub/installation/readme-installation.md)
+* [Установка и настройка](idea-hub/installation/readme-installation.md)
 	* [Системные требования](idea-hub/installation/system-requirements.md)
 	* [Установка на ОС Linux](idea-hub/installation/installation-linux.md)
  	* [Настройка cron](idea-hub/installation/cron.md)
