@@ -205,14 +205,6 @@
 | 21622 | AutoMarkingStartDownloadUmarkedArchiveDataSetError   | Загрузка на целевую машину архива с неразмеченными изображениями - ошибка |
 | 21623 | AutoMarkingStartDownloadUnzipUnmarkedArchiveDataSetSuccess | Распаковка архива с неразмеченными изображениями - успех |
 | 21624 | AutoMarkingStartDownloadUnzipUnmarkedArchiveDataSetError   | Распаковка архива с неразмеченными изображениями - ошибка |
-| 18970 | InferenceProcessLogicsConfigGenerationSuccess              | Генерация конфигурации для Logics-сервера - успех |
-| 18971 | InferenceProcessLogicsConfigGenerationError                | Генерация конфигурации для Logics-сервера - ошибка |
-| 18975 | InferenceProcessEngineConfigGenerationSuccess              | Генерация конфигурации для LLM-ядра - успех |
-| 18976 | InferenceProcessEngineConfigGenerationError                | Генерация конфигурации для LLM-ядра - ошибка |
-| 18980 | InferenceProcessRunNlpEngineSuccess                | Запуск LLM-ядра - успех |
-| 18981 | InferenceProcessRunNlpEngineError                  | Запуск LLM-ядра - ошибка |
-| 18982 | InferenceProcessRunNlpLogicsServerSuccess          | Запуск Logics-сервера - успех |
-| 18983 | InferenceProcessRunNlpLogicsServerError            | Запуск Logics-сервера - ошибка |
 | 21700 | AutoMarkingStartTrainCompletedSuccess              | Запуск процесса обучения (1 фаза авторазметки) - успех |
 | 21701 | AutoMarkingStartTrainCompletedError                | Запуск процесса обучения (1 фаза авторазметки) - ошибка |
 | 21710 | AutoMarkingTrainCompletedSuccess                   | Завершение процесса обучения (1 фаза авторазметки) - успех |
