@@ -237,10 +237,10 @@
 | Код   | Событие                                           | Описание                          |
 | ----- | ------------------------------------------------- | --------------------------------- |
 | 21800 | AutoMarkingDetectionResultTransferStarted         | Начало |
-| 21801 | AutoMarkingDetectionResultTransferImageSucceed    | Мета (угол поворота, что-то ещё в будущем) по изображению перенесено в БД на сервере |
-| 21802 | AutoMarkingDetectionResultTransferImageNotFound   | Изображение не найдено (пока авторазметка выполнялась, его удалили из проекта) |
+| 21801 | AutoMarkingDetectionResultTransferImageSucceed    | Мета (угол поворота и проч.) по изображению перенесено в БД на сервере |
+| 21802 | AutoMarkingDetectionResultTransferImageNotFound   | Изображение не найдено. Например, пока авторазметка выполнялась, изображение удалили из проекта |
 | 21803 | AutoMarkingDetectionResultTransferFieldSucceed    | Поле перенесено в БД на сервере |
-| 21804 | AutoMarkingDetectionResultTransferFieldNotFound   | Поле не найдено (пока авторазметка выполнялась, его удалили) |
+| 21804 | AutoMarkingDetectionResultTransferFieldNotFound   | Поле не найдено. Например, пока авторазметка выполнялась, поле удалили |
 | 21805 | AutoMarkingDetectionResultTransferImageFailed     | Ошибка переноса меты по изображению |
 | 21808 | AutoMarkingDetectionResultTransferSucceed         | Успешное завершение |
 | 21809 | AutoMarkingDetectionResultTransferFailed          | Ошибка переноса, ничего не перенесено |
