@@ -4,6 +4,9 @@ description: Chat question (Linux)
 
 # Вопрос в чат
 
+ ![](<../../../../.gitbook/assets1/linux-items-extra/voprosvchat.png>)
+
+
 Элемент позволяет отправить вопрос в сервис GigaChat.
 
 ## Перед началом работы
