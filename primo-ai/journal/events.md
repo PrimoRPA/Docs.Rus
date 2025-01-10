@@ -316,7 +316,7 @@
 | 302   | InferenceProcessTemplateRemoved           | Шаблон процесса инференса удален  |
 
 
-### Процесс инференса
+### Процесс инференса (общие для NLP и OCR)
 
 События фиксируют информацию о процессе инференса в проектах типа Умный OCR и NLP-задачи. В NLP под процессом инференса подразумевается процесс запуска модели на целевой машине.
 
@@ -335,35 +335,54 @@
 | 18101 | InferenceProcessEmergencyShutdown         | При запуске агента было обнаружено, что процесс инференса аварийно завершен и не выполняется |
 
 
-### Стадии запуска процесса инференса 
+### Стадии запуска процесса инференса (общие для NLP и OCR)
 
 | Код   | Событие                                           | Описание                          |
 | ----- | ------------------------------------------------- | --------------------------------- |
 | 18100 | InferenceProcessStartPipeline                     | Старт конвейера запуска процесса инференса  |
 | 18200 | InferenceProcessStartFileStoragePrepareSuccess    | Файловое хранилище успешно подготовлено |
-| 18201 | InferenceProcessStartFileStoragePrepareError      | Подготовка файлового хранилища завершилась ошибкой. Например, не хватает прав для создания папки с данными процесса обучения на целевой машине |
+| 18201 | InferenceProcessStartFileStoragePrepareError      | Подготовка файлового хранилища завершилась ошибкой. Например, не хватило прав для создания папки с данными процесса обучения на целевой машине |
 | 18300 | InferenceProcessStartDownloadScriptSuccess        | Скачивание файла скрипта завершилось успешно. **Примечание:** в текущей версии пользовательские скрипты не поддерживаются |
 | 18301 | InferenceProcessStartDownloadScriptError          | Скачивание файла скрипта завершилось ошибкой. **Примечание:** в текущей версии пользовательские скрипты не поддерживаются |
 | 18500 | InferenceProcessStartDownloadModelSuccess         | Скачивание модели завершилось успешно  |
 | 18501 | InferenceProcessStartDownloadModelError           | Скачивание модели завершилось ошибкой |
 | 18502 | InferenceProcessStartUnzipModelSuccess            | Распаковка архива модели завершилась успешно |
 | 18503 | InferenceProcessStartUnzipModelError              | Распаковка архива модели завершилась ошибкой |
+| 18800 | InferenceProcessStartCompletedSuccess             | Процесс инференса успешно запущен             |
+| 18801 | InferenceProcessStartCompletedError               | Запуск процесса инференса завершился ошибкой  |
+
+
+
+### Уникальные cтадии запуска процесса инференс для OCR
+| Код   | Событие                                           | Описание                          |
+| ----- | ------------------------------------------------- | --------------------------------- |
 | 18600 | InferenceProcessStartDownloadMarkingSchemeSuccess | Скачивание схемы разметки завершилась успешно |
 | 18601 | InferenceProcessStartDownloadMarkingSchemeError   | Скачивание схемы разметки завершилось ошибкой |
 | 18700 | InferenceTestProcessStartDownloadDataSetSuccess   | Скачивание тестового датасета завершилась успешно (тестовый процесс инференса) |
 | 18701 | InferenceTestProcessStartDownloadDataSetError     | Скачивание тестового датасета завершилось ошибкой |
 | 18702 | InferenceTestProcessStartUnzipDataSetSuccess      | Распаковка тестового датасета завершилась успешно |
 | 18703 | InferenceTestProcessStartUnzipDataSetError        | Распаковка тестового датасета завершилось ошибкой |
-| 18800 | InferenceProcessStartCompletedSuccess             | Процесс инференса успешно запущен             |
-| 18801 | InferenceProcessStartCompletedError               | Запуск процесса инференса завершился ошибкой  |
 | 18900 | InferenceTestProcessTransferEvaluationResultSuccess | Показатели оценки процесса тестового инференс получены сервером |
 | 18920 | InferenceTestProcessTransferBboxSuccess           | Координаты полей тестового инференс получены сервером |
 | 18940 | InferenceTestProcessCompletedSuccess              | Тестовый процесс инференса завершен успешно   |
 | 18960 | InferenceTestProcessCompletedError                | Тестовый процесс инференса завершился ошибкой |
 
+### Уникальные cтадии запуска процесса инференс для NLP
+
+| Код   | Событие                                           | Описание                          |
+| ----- | ------------------------------------------------- | --------------------------------- |
+|  |                    |  |
+| 18970 | InferenceProcessLogicsConfigGenerationSuccess     | Генерация конфигурации для Logics-сервера - успех |
+| 18971 | InferenceProcessLogicsConfigGenerationError       | Генерация конфигурации для Logics-сервера - ошибка |
+| 18975 | InferenceProcessEngineConfigGenerationSuccess     | Генерация конфигурации для LLM-ядра - успех |
+| 18976 | InferenceProcessEngineConfigGenerationError       | Генерация конфигурации для LLM-ядра - ошибка |
+| 18980 | InferenceProcessRunNlpEngineSuccess               | Запуск LLM-ядра - успех |
+| 18981 | InferenceProcessRunNlpEngineError                 | Запуск LLM-ядра - ошибка |
+| 18982 | InferenceProcessRunNlpLogicsServerSuccess         | Запуск Logics-сервера - успех |
+| 18983 | InferenceProcessRunNlpLogicsServerError           | Запуск Logics-сервера - ошибка |
 
 
-### Универсальные события для OCR- и NLP-запросов
+### Общие события для OCR- и NLP-запросов
 
 |  Код  | Событие                                   | Описание                          |
 | ----- | ----------------------------------------- | --------------------------------- |
