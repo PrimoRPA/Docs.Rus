@@ -7,14 +7,10 @@
 ![](<../../../../.gitbook/assets1/primo-ai//user-guide/labeling-page.png>)
 
 
-## Перед началом работы
-
-:large_orange_diamond: Обязательно изучите [рекомендации](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/labeling/requirements) по разметке данных.
-
-
 ## Содержание
-
-[Как разметить изображения](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/labeling/operations-with-labeling).
+* [Рекомендации по разметке](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/labeling/requirements)
+* [Описание рабочей области](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/labeling/work-area)
+* [Инструкция по разметке](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/labeling/operations-with-labeling)
 
 
 ## Что дальше
