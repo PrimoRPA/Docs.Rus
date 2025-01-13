@@ -1,4 +1,4 @@
-# Конфигурация и запуск модели
+# Настройка и запуск модели
 
 [Создайте](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/projects/operations-with-project#sozdat-proekt) проект с типом **NLP-задачи**. 
 
