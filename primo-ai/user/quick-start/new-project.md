@@ -52,7 +52,7 @@
 
 ## Добавление изображений
 
-Изучите [требования к формату, качеству и количеству изображений для обучения](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/other/dataset-quality-requirements).
+Изучите [требования к формату, качеству и количеству изображений для обучения](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/requirements/dataset-requirements)
 
 **Как добавить изображения для обучения модели:**
 
@@ -72,7 +72,7 @@
 
 ### Рекомендации по разметке данных
 
-Чтобы избежать проблем при инференсе, обязательно изучите [рекомендации по разметке данных](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/labeling/datalabeling-requirements). Качество разметки данных важнее размера датасета.
+Чтобы избежать проблем при инференсе, обязательно изучите [рекомендации по разметке данных](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/labeling/requirements). Качество разметки данных важнее размера датасета.
 
 ### Описание рабочей области
 
