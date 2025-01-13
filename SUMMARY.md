@@ -1344,7 +1344,7 @@
   * [Проекты](primo-ai/user/projects/README.md)
     * [Управление проектом](primo-ai/user/projects/operations-with-project.md) 
   * [Работа с типом проекта NLP-задачи](primo-ai/user/NLP/README.md)
-    * [Конфигурация и запуск модели](primo-ai/user/NLP/configuration.md)
+    * [Настройка и запуск модели](primo-ai/user/NLP/configuration.md)
     * [Тестирование навыков модели](primo-ai/user/NLP/testing.md)
   * [Работа с типом проекта Умный OCR](primo-ai/user/smart-ocr/README.md)
     * [Данные](primo-ai/user/smart-ocr/data/README.md)
