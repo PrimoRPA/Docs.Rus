@@ -1,9 +1,11 @@
 # Инструкция по разметке изображений
 
 ## Перед началом работы
-Ознакомьтесь с [рекомендациями](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/labeling/requirements) по разметке данных и описанием рабочей области.
-
 Роль пользователя должна иметь права «Разметка — Просмотр», «Разметка — Создание», «Разметка — Удаление».
+
+Перед тем, как приступать к разметке, ознакомьтесь с [рекомендациями](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/labeling/requirements) и [описанием](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/labeling/work-area) рабочей области.
+
+
 
 ## Как разметить изображение
 
