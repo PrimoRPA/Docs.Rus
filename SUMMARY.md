@@ -199,7 +199,7 @@
 
 ## Элементы в Studio <a href="#g_elements" id="g_elements"></a>
 
-* [Основные](g\_elements/el\_basic/README.md)
+* [Встроенные для Windows](g\_elements/el\_basic/README.md)
   * [Google Sheets](g\_elements/el\_basic/gsheets/README.md)
     * [Документ Google Sheets](g\_elements/el\_basic/gsheets/el\_gsheets\_document.md)
     * [Запись диапазона](g\_elements/el\_basic/gsheets/el\_gsheets\_writerange.md)
@@ -703,7 +703,7 @@
     * [Существует файл/папка](g\_elements/el\_basic/els\_files/el\_files\_exists.md)
     * [Удалить файл/папку](g\_elements/el\_basic/els\_files/el\_files\_deldir.md)
     * [Чтение файла](g\_elements/el\_basic/els\_files/el\_files\_readfile.md)
-* [Дополнительные элементы](g\_elements/el\_extra/README.md)
+* [Дополнительные элементы Windows](g\_elements/el\_extra/README.md)
   * [2captcha](g\_elements/el\_extra/els\_2capcha/README.md)
     * [Решить hCapcha](g\_elements/el\_extra/els\_2capcha/el\_solvehcapcha.md)
     * [Решить ReCapcha v2](g\_elements/el\_extra/els\_2capcha/el\_solverecapcha2.md)
@@ -965,8 +965,7 @@
     * [Выполнить запрос SAP HANA](g\_elements/el\_extra/sap-hana/execute\_query\_sap\_hana.md)
     * [Присоединиться к БД SAP HANA](g\_elements/el\_extra/sap-hana/connect\_sap\_hana.md)
     * [Отсоединиться от БД SAP HANA](g\_elements/el\_extra/sap-hana/disconnect\_sap\_hana.md)
-* [Линукс](g_elements/el_linux/readme.md)
-  * [Основные](g_elements/el-linux-basic/readme.md)
+* [Встроенные для Linux](g_elements/el_linux/readme.md)
 	* [OCR](g_elements/el-linux-basic/els-ocr)  
 		* [Tesseract OCR](g_elements/el-linux-basic/els-ocr/el-ocr-tesseract-lin.md)
 		* [Клик изображения мышью](g_elements/el-linux-basic/els-ocr/ocr-click.md)
