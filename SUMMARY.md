@@ -997,6 +997,8 @@
 	* [Оркестратор](g_elements/el-linux-basic/orchestrator/readme.md)
 		* [Очереди](g_elements/el-linux-basic/orchestrator/queues/readme.md)
 			* [Ожидать сообщения из очереди](g_elements/el-linux-basic/orchestrator/queues/waitqueue.md)
+		* [Процесс](g_elements/el-linux-basic/orchestrator/process/readme.md)
+			* [Вызов проекта](g_elements/el-linux-basic/orchestrator/process/invokeprocess.md)
 	* [Почта](g_elements/el-linux-basic/els-mail/readme.md)
 		* [MS Exchange](g_elements/el-linux-basic/els-mail/exchange/readme.md)
 			* [Сервер MS Exchange](g_elements/el-linux-basic/els-mail/exchange/connect.md)
