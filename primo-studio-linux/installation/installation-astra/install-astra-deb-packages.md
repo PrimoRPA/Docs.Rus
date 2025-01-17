@@ -1,4 +1,4 @@
-# Установка Primo RPA Studio Linux на Astra Linux средствами пакетов debian
+# Установка Primo RPA Studio Linux на Astra Linux средствами пакетов Debian
 
 На экране **Настройка учётных записей пользователей и паролей** создайте пользователя-администратора (далее – primo-admin) машины Студии.
 
