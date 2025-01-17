@@ -186,6 +186,7 @@
     * [Настройка машины робота на Astra Linux](primo-studio-linux/installation/installation-astra/install-robot-astra.md)
   * [РЕД ОС](primo-studio-linux/installation/installation-redos/readme.md)
     * [Установка Studio Linux на РЕД ОС](primo-studio-linux/installation/installation-redos/install-redos.md)
+    * [Установка Studio Linux на РЕД ОС 7.3 средствами RPM пакетов](primo-studio-linux/installation/installation-redos/install-redos-rpm-packages.md)
     * [Настройка машины робота на РЕД ОС](primo-studio-linux/installation/installation-redos/install-robot-redos.md)
   * [CentOS](primo-studio-linux/installation/installation-centos/readme.md)
     * [Настройка машины робота на CentOS](primo-studio-linux/installation/installation-centos/install-robot-centos.md)
