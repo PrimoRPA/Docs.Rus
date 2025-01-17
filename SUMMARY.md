@@ -182,7 +182,7 @@
   * [Astra Linux](primo-studio-linux/installation/installation-astra/readme.md)
     * [Перечень необходимых пакетов](primo-studio-linux/installation/installation-astra/libs-astra.md)
     * [Установка Studio Linux на Astra Linux](primo-studio-linux/installation/installation-astra/install-astra.md)
-    * [Установка Primo RPA Studio Linux на Astra Linux средствами пакетов Debian](primo-studio-linux/installation/installation-astra/install-astra-deb-packages.md)
+    * [Установка Studio Linux на Astra Linux средствами пакетов Debian](primo-studio-linux/installation/installation-astra/install-astra-deb-packages.md)
     * [Настройка машины робота на Astra Linux](primo-studio-linux/installation/installation-astra/install-robot-astra.md)
   * [РЕД ОС](primo-studio-linux/installation/installation-redos/readme.md)
     * [Установка Studio Linux на РЕД ОС](primo-studio-linux/installation/installation-redos/install-redos.md)
