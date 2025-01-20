@@ -4,7 +4,7 @@ Description: Convert Java object
 
 # Преобразовать объект Java
 
-![](../../../resources/activities/extra/java/convert-java-object-base.png)
+![](../../../../.gitbook/assets1/linux-items-extra/convert-java-object-base.png)
 
 Элемент помогает преобразовать объект Java в тип данных .NET. Поддерживаются только примитивные типы данных .NET и массивы примитивных типов .NET.
 
