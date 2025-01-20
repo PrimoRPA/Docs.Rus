@@ -1376,6 +1376,7 @@
       * [Мониторинг обучения](primo-ai/user/smart-ocr/training/monitoring.md)
     * [Инференс](primo-ai/user/smart-ocr/inference/README.md)
       * [Инструкция по запуску инференса](primo-ai/user/smart-ocr/inference/run-inference-process.md)
+    * [Тестирование](primo-ai/user/smart-ocr/testing/README.md)
     * [Требования к изображениям](primo-ai/user/smart-ocr/requirements/README.md)
       * [Изображения для обучения](primo-ai/user/smart-ocr/requirements/dataset-requirements.md) 
       * [Изображения для инференса](primo-ai/user/smart-ocr/requirements/inference-quality-requirements.md)  
