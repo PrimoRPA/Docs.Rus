@@ -4,9 +4,9 @@ Description: Invoke method
 
 # Вызвать метод Java
 
-![](../../../.gitbook/assets1/linux-items-extra/invoke-java-method-base.png)
+![](../../../../.gitbook/assets1/linux-items-extra/invoke-java-method-base.png)
 
-Элемент вызывает указанный метод в экземпляре Java из [загруженного](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_java/el_loadjar) .jar-файла.
+Элемент вызывает указанный метод в экземпляре Java из загруженного .jar файла.
 
 ## Свойства
 Символ `*` в названии свойства указывает на обязательность его заполнения. Кроме метода, потребуется указать либо свойство **Тип**, либо **Объект Java**.
