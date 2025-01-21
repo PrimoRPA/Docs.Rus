@@ -27,6 +27,7 @@
       * [Студия 1.1.29](release-notes/studio/history/1.1.29.md)
       * [Студия 1.1.28](release-notes/studio/history/1.1.28.md)
   * [Studio Linux](release-notes/studio-linux/readme.md)
+    * [Студия Линукс 1.25.1](release-notes/studio-linux/studio-linux-1.25.1.0.md)
     * [Студия Линукс 1.24.10](release-notes/studio-linux/studio-linux-1.24.10.md)
     * [Студия Линукс 1.24.8](release-notes/studio-linux/studio-linux-1.24.8.md)
 		* [Студия Линукс 1.24.8.3](release-notes/studio-linux/studio-linux-1.24.8.3.md)
