@@ -23,5 +23,5 @@
    * RobotStats - 
    * QueueStats -
    * ProjectStats -
-
-  
+1. В поле **Path to folder with source data** - 
+1. Жмем **Добавить импортер**.
