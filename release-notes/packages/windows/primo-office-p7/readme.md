@@ -52,3 +52,29 @@
 
 Cписок изменений по версиям:
 [Primo.Office.P7 0.0.2](https://docs.primo-rpa.ru/primo-rpa/release-notes/packages/windows/primo-office-p7/0.0.2)
+
+
+### Плагин Primo RPA Plugin для P7-Офис
+
+Для корректной работы в **Документ P7-Офис** необходимо выполнить следующие шаги:
+
+#### 1. Получение файла плагина Primo RPA Plugin
+Файл плагина `primo_p7.plugin` предоставляется по запросу. Чтобы получить его, свяжитесь с технической поддержкой **Primo RPA**.
+
+#### 2. Установка плагина Primo RPA Plugin
+1. Скачайте файл `primo_p7.plugin`.
+2. Откройте *P7-Офис* и перейдите в меню *Настройки*.
+
+![](../../../../.gitbook/assets1/P7office_nastroiki.png)
+
+3. Нажмите кнопку *Добавить плагин*.
+
+![](../../../../.gitbook/assets1/add-plugin-p7.png)
+
+4. Укажите путь к файлу `primo_p7.plugin`.
+5. Подтвердите установку плагина.
+6. Убедитесь, что *Primo RPA Plugin* появился в списке установленных плагинов.
+
+![](../../../../.gitbook/assets1/added_plugin_p7.png)
+
+
