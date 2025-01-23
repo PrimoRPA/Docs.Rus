@@ -99,7 +99,7 @@ Primo.Robot.exe instantStart exitOnSuccess noOrchestrator logType=Csv "seqPath=C
 ```
 Пример для операционной системы Linux:
 ```
-Primo.Robot instantStart exitOnSuccess noOrchestrator logType=Csv "seqPath=C:\Work\Project\Sequence.ltw" "projPath=C:\Work\Project\\
+Primo.Robot instantStart exitOnSuccess noOrchestrator logType=Csv "seqPath=C:\Work\Project\Sequence.ltw" "projPath=C:\Work\Project\\"
 ```
 
 Для операционной системы Linux также доступна команда, с помощью которой робот может вернуть список всех доступных активностей в Студии:
