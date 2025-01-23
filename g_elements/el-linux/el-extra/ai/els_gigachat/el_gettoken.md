@@ -5,7 +5,7 @@ description: Get token (Linux)
 # Получить токен (Linux)
 
 
- ![](<../../../../.gitbook/assets1/linux-items-extra/poluchittoken.png>)
+ ![](<../../../../../.gitbook/assets1/linux-items-extra/poluchittoken.png>)
 
 
 Элемент предназначен для получения токена авторизации, необходимого для взаимодействия с сервисом GigaChat. Полученный токен используется в последующих запросах для установления сессии и выполнения операций с нейросетью.
