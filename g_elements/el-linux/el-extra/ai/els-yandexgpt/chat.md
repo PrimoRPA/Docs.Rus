@@ -6,7 +6,7 @@
 
 Чтобы задать новый вопрос, добавьте в **Создать чат** элемент **Вопрос в чат**.
 
-![](../../../.gitbook/assets1/linux-items-extra/yandex-chat-base.png)
+![](../../../../.gitbook/assets1/linux-items-extra/yandex-chat-base.png)
 
 Элементы группы YandexGPT, включая **Создать чат**, становятся доступными после установки в Студии библиотеки **Primo.AI.Linux**:
 
