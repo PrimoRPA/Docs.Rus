@@ -4,7 +4,7 @@ description: Ask question YandexGPT (Linux)
 
 # Задать вопрос YandexGPT
 
-![](<../../../../.gitbook/assets1/linux-items-extra/yandex-instruct-base.png>)
+![](<../../../../../.gitbook/assets1/linux-items-extra/yandex-instruct-base.png>)
 
 Выполняет запрос к YandexGPT в асинхронном режиме. 
 Этот режим подходит для вопросов, которые не требуют немедленного ответа. Хотя время ожидания может быть дольше, асинхронная генерация обеспечивает более высокое качество ответа и снижает затраты на обработку.
