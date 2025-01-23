@@ -8,7 +8,7 @@ description: Chat message YandexGPT (Linux)
 
 Элемент **Вопрос в чат** должен размещаться в контейнере **Создать чат**. Убедитесь, что в контейнере указан действующий токен для запросов.
 
-![](../../../../.gitbook/assets1/linux-items-extra/yandex-chat-message-base.png)
+![](../../../../../.gitbook/assets1/linux-items-extra/yandex-chat-message-base.png)
 
 Элементы группы YandexGPT, включая **Вопрос в чат**, становятся доступными после установки в Студии библиотеки **Primo.AI.Linux**.
 
