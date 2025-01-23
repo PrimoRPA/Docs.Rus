@@ -200,6 +200,8 @@
     * [Требования к импорту DLL и NuGet пакетов](primo-studio-linux/projects/import-nuget-dll.md)
 * [Работа с процессами](primo-studio-linux/process/debug/readme.md)
     * [Запуск и отладка](primo-studio-linux/process/debug/debug.md)
+    * [Шаблон поиска](primo-studio-linux/process/searchpatterns/readme.md)
+		* [Новый редактор шаблона поиска](primo-studio-linux/process/searchpatterns/new-pattern-editor.md)
 
 ## Элементы в Studio <a href="#g_elements" id="g_elements"></a>
 
