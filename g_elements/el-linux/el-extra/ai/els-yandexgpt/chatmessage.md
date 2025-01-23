@@ -1,3 +1,7 @@
+---
+description: Chat message YandexGPT (Linux)
+---
+
 # Вопрос в чат
 
 Отправляет вопрос в чат с YandexGPT.
