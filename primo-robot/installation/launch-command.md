@@ -93,9 +93,26 @@
 - *videobr=*: видеозапись — битрейт.  
 - *videofr=*: видеозапись — кадры в секунду.
 
-
-Пример:
+Пример для операционной системы Windows:
 ```
 Primo.Robot.exe instantStart exitOnSuccess noOrchestrator logType=Csv "seqPath=C:\Work\Project\Sequence.ltw" "projPath=C:\Work\Project" engver=v2 
 ```
+Пример для операционной системы Linux:
+```
+Primo.Robot instantStart exitOnSuccess noOrchestrator logType=Csv "seqPath=C:\Work\Project\Sequence.ltw" "projPath=C:\Work\Project\\
+```
 
+Для операционной системы Linux также доступна команда, с помощью которой робот может вернуть список всех доступных активностей в Студии:
+
+`./Primo.Robot ActivitiesList`
+
+Команда поддерживает следующие аргументы:
+
+* **-G, --grouping:** Включить группировку активность
+* **-F, --write-in-file:** Вывести результат выполнения команды в файл
+* **--output-directory:** Путь к итоговому файлу. По умолчанию используется текущая папка + ActivitiesList.txt
+* **--help:** Показать текст справки
+
+Пример:
+
+`./Primo.Robot ActivitiesList -G -F --output-directory=/tmp/ActivitiesList.txt`
