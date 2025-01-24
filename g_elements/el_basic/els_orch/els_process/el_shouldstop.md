@@ -46,7 +46,7 @@ description: Should stop
 
 ## Пример использования
 
-RPA-проект, демонстрирующий работу элемента, можно найти в нашем публичном репозитории [Learning](https://github.com/PrimoRPA/Learning).
+RPA-проект с примером работы элемента расположен в нашем публичном репозитории [Learning](https://github.com/PrimoRPA/Learning).
 
 1. Скачайте архив со всеми обучающими материалами по ссылке: [Скачать архив Learning](https://github.com/PrimoRPA/Learning/archive/refs/heads/master.zip).
 2. Распакуйте архив и откройте в Студии проект **StudioActivities**.
