@@ -102,6 +102,10 @@
    Пакет для интеграции Primo RPA с ИИ-сервисами GigaChat и YandexGPT. Обеспечивает выполнение запросов и получение ответов от этих сервисов.  
    [Документация](https://docs.primo-rpa.ru/primo-rpa/release-notes/packages/windows/primo-ai/1.1.1) | [Скачать](https://www.nuget.org/packages/Primo.AI).
 
+8. **Primo.Office.MyOffice** 
+   NuGet-пакет для работы с российским офисным пакетом MyOffice. Пакет предназначен для автоматизации работы с текстовыми документами и таблицами. Устанавливается отдельно.  
+   Подробнее о [возможностях пакета и его установке.](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/els_myoffice)
+
 
 ## Где найти
 
