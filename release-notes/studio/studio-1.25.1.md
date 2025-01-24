@@ -96,7 +96,7 @@
 
 6. **ProjectAnalyzer.Extended** 
    Пакет для расширенного анализа проектов в Primo RPA Studio. Включает дополнительные правила для проверки кода и структуры процессов на соответствие стандартам качества.  
-   [Документация](https://docs.primo-rpa.ru/primo-rpa/release-notes/packages/windows/project-analyzer) | [Скачать](https://www.nuget.org/packages/Primo.ProjectAnalyzer.Extended).  
+   [Документация](https://docs.primo-rpa.ru/primo-rpa/release-notes/packages/windows/project-analyzer) | [Скачать](https://www.nuget.org/packages/Primo.ProjectAnalyzer.Extended). 
 
 7. **Primo.AI**
    Пакет для интеграции Primo RPA с ИИ-сервисами GigaChat и YandexGPT. Обеспечивает выполнение запросов и получение ответов от этих сервисов.  
