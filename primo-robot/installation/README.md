@@ -20,18 +20,18 @@
 
 Отобразится окно приветствия — нажмите **Далее**:
 
-![](<../../.gitbook/assets/Установка Робота. Приветствие.png>)
+![](<../../primo-robot/resources/install/install-step1.png>)
 
 Примите лицензионное соглашение и нажмите **Далее**:
 
-![](<../../.gitbook/assets/Установка Робота. Соглашение.png>)
+![](<../../primo-robot/resources/install/install-step2.png>)
 
 Выберите папку для установки приложения и нажмите **Далее**:
 
-![](<../../.gitbook/assets/Установка Робота. Папка назначения.png>)
+![](<../../primo-robot/resources/install/install-step3.png>)
 
 Выберите состав установки и подтвердите ее запуск:
 
-![](<../../.gitbook/assets/Установка Робота. Состав.png>)
+![](<../../primo-robot/resources/install/install-step4.png>)
 
 По завершении установки нажмите кнопку **Готово**. 
