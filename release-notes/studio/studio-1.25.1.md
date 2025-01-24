@@ -90,6 +90,18 @@
    NuGet-пакет для автоматизации взаимодействия с базой данных SAP HANA. Пакет поддерживает работу с большими наборами данных через DataTable и обеспечивает высокую скорость загрузки данных благодаря механизму `bulk insert`. Устанавливается отдельно.  
    Узнать больше о пакете и способах установки можно [здесь](https://docs.primo-rpa.ru/primo-rpa/release-notes/packages/windows/primo_sap_data_hana/1.0.0).
 
+5. **OCR.ContentAI**  
+   Для автоматизации работы с сервером ContentCapture — российским решением для интеллектуальной обработки документов. Обеспечивает распознавание текста и предобработку изображений.  
+   [Документация](https://docs.primo-rpa.ru/primo-rpa/release-notes/packages/windows/ocr-content-ai/1.0.1) | [Скачать](https://www.nuget.org/packages/Primo.OCR.ContentAI).  
+
+6. **ProjectAnalyzer.Extended** 
+   Пакет для расширенного анализа проектов в Primo RPA Studio. Включает дополнительные правила для проверки кода и структуры процессов на соответствие стандартам качества.  
+   [Документация](https://docs.primo-rpa.ru/primo-rpa/release-notes/packages/windows/project-analyzer) | [Скачать](https://www.nuget.org/packages/Primo.ProjectAnalyzer.Extended).  
+
+7. **Primo.AI**
+   Пакет для интеграции Primo RPA с ИИ-сервисами GigaChat и YandexGPT. Обеспечивает выполнение запросов и получение ответов от этих сервисов.  
+   [Документация](https://docs.primo-rpa.ru/primo-rpa/release-notes/packages/windows/primo-ai/1.1.1) | [Скачать](https://www.nuget.org/packages/Primo.AI).
+
 
 ## Где найти
 
