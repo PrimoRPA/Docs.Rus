@@ -276,8 +276,7 @@ $sudo chown -R ideahub:www-data /var/www/ideahub
    ```
 
 Результат должен быть следующего вида:
-```
-shell
+```shell
 Drupal version   : 9.5.10-dev
 Site URI         : https://ideahub-v2.lndo.site/
 DB driver        : pgsql
