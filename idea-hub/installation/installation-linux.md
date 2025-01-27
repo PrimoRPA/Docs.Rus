@@ -21,18 +21,19 @@ with Xdebug v3.2.1, Copyright (c) 2002-2023, by Derick Rethans
 
 Если версия PHP ниже 8.1 или пакет не установлен, необходимо обновить или установить его. 
 
-В случае ОС Астра Линукс требуется произвести обновление репозитория:
+Если используется ОС Астра Линукс, то требуется произвести обновление репозитория:
 ```
 astra-ce https://dl.astralinux.ru/astra/stable/1.7_x86-64/repository-extended/
 ```
 
 ### Установка пакета и модулей PHP
 
-Выполните команду:
+Выполняем команду:
 ```
 $ sudo apt install php8.1
 ```
-Установите необходимые модули:
+
+Устанавливаем необходимые модули:
 1. php8.1-imagick
    ```
    $ sudo apt install php8.1-imagick
@@ -81,56 +82,55 @@ $ sudo apt install php8.1
 
 ## PostgreSQL
 
-Проверяем, установлен ли на целевой машине PostgreSQL:
-
+Сначала проверим, установлен ли на целевой машине PostgreSQL:
 ```
 $ psql –version
 ```
-
-Если версия PostgreSQL >= 13, то переходим к пункту **Настройка базы данных**.
+Если PostgreSQL установлен, и его версия >= 13, то переходим к пункту [Настройка базы данных](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/readme-installation/installation-linux#nastroika-bazy-dannykh).
 
 В противном случае производим установку PostgreSQL:
-```
-$ sudo apt install postgresql postgresql-contrib
-```
-
-После установки postgresql необходимо откорректировать конфигурационные файлы:
-
-1. `/etc/postgresql/14/main/postgresql.conf` — в этом файле изменения производятся только в том случае, если рассматривается возможность подключения к БД Idea Hub по сети.
-
-   Находим строку:
+1. Применим команду:
    ```
-   listen_addresses = 'localhost'
+   $ sudo apt install postgresql postgresql-contrib
    ```
-   И меняем значение, чтобы сервер БД слушал подключения на всех локальных интерфейсах:
+1. После установки внесём изменения в следующие конфигурационные файлы:
+   * `/etc/postgresql/14/main/postgresql.conf` — этот файл меняем только в том случае, если рассматривается возможность подключения к БД Idea Hub по сети.
+
+     Находим строку:
+     ```
+     listen_addresses = 'localhost'
+     ```
+
+     Для того, чтобы сервер БД слушал подключения на всех локальных интерфейсах, меняем значение на:
+     ```
+     listen_addresses = '*'
+     ```
+
+     Для того, чтобы сервер БД слушал подключения на конкретном интерфейсе, пишем:
+     ```
+     listen_addresses = 'IP-address'
+     ```
+
+   * `/etc/postgresql/14/main/pg_hba.conf`
+
+     Вносим следующие изменения в соответствии с политиками безопасности предприятия:
+     
+     ```local   all             all				md5```
+
+     Позволяет любому пользователю локальной системы подключаться к базе данных "postgres", если он передает правильный пароль.
+
+     ```host    all             all             192.168.12.10/24	md5```
+
+     Позволяет любому пользователю компьютера 192.168.12.10 подключаться к базе данных "postgres", если он передаёт правильный пароль.
+
+1. Далее перезапускаем PostgreSQL:
+
    ```
-   listen_addresses = '*'
-   ``` 
-   Или чтобы сервер БД слушал подключения на конкретном интерфейсе:
+   $ sudo systemctl reastart postgresql
    ```
-   listen_addresses = 'IP-address'
    ```
-
-1. `/etc/postgresql/14/main/pg_hba.conf`
-
-   Вносим следующие изменения в соответствии с политиками безопасности предприятия:
-
-   ```local   all             all				md5``` 
-
-   Позволяет любому пользователю локальной системы подключаться к базе данных "postgres", если он передает правильный пароль.
-
-   ```host    all             all             192.168.12.10/24	md5```
-
-   Позволяет любому пользователю компьютера 192.168.12.10 подключаться к базе данных "postgres", если он передаёт правильный пароль.
-
-Перезапускаем PostgreSQL:
-
- ```
- $ sudo systemctl reastart postgresql
-```
- ```
- $ sudo systemctl status postgresql
-```
+   $ sudo systemctl status postgresql
+   ```
 
 ## Настройка базы данных
 
@@ -143,13 +143,13 @@ $ sudo -i -u postgres
 $ psql
 ```
 
-Создаем нового пользователя PostgreSQL (вместо password указываем свой пароль):
+Создадим нового пользователя PostgreSQL, где вместо password требуется указать свой пароль:
 
 ```
 CREATE USER primo_ideahub WITH PASSWORD 'password';
 ```
 
-Создаем базу данных и добавляем нужные привилегии:
+Создадим базу данных и добавим нужные привилегии:
 ```
 CREATE DATABASE ideahub OWNER primo_ideahub;
 GRANT ALL PRIVILEGES ON DATABASE ideahub TO primo_ideahub;
@@ -212,7 +212,7 @@ $sudo chown -R ideahub:www-data /var/www/ideahub
    ```
    gunzip -c /var/www/ideahub/db/ideahub_demo.sql.gz | psql -U primo_ideahub -d ideahub
    ```
-   Будет предложено ввести пароль для пользователя **primo_ideahub**. Вводим пароль, установленный для этого пользователя в разделе **Настройка базы данных**.
+   Система предложит ввести пароль для пользователя **primo_ideahub**. Вводим пароль, который был установлен для этого пользователя в разделе **Настройка базы данных**.
 
    После восстановления базы данных каталог `/var/www/ideahub/db` можно удалить.
 
