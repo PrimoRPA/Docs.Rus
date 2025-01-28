@@ -1,57 +1,87 @@
 # Интеграция с AI
 
-## YandexGPT
+## Интеграция с YandexGPT
 
 Для интеграции Primo RPA с YandexGPT:
-1.	[Создайте](https://passport.yandex.ru/registration) аккаунт в сервисе Яндекс ID, если его еще нет.
-2.	Установите интерфейс командной строки Yandex Cloud (CLI) согласно официальной [документации](https://cloud.yandex.ru/ru/docs/cli/quickstart#install). 
-3.	Получите OAuth-токен в Яндексе ID, перейдя по следующей [ссылке](https://oauth.yandex.ru/authorize?response_type=token&client_id=1a6990aa636648e9b2ef855fa7bec2fb). Если приложение запрашивает доступ к данным, разрешите. Это нужно для получения токена.
-4.	Скопируйте токен в буфер обмена или сохраните его.
-5.	Выполните действия из раздела [Создание профиля](https://cloud.yandex.ru/docs/cli/quickstart?#initialize). Результат должен иметь вид:
-    ```
+
+1.	[Создайте](https://passport.yandex.ru/registration) аккаунт в сервисе Яндекс ID, если у вас его нет.
+
+2. **Установите Yandex Cloud CLI**:  
+   - Скачайте и установите **Yandex Cloud CLI**, следуя [официальной инструкции](https://cloud.yandex.ru/ru/docs/cli/quickstart#install).  
+   - После установки выполните команду `yc init`, чтобы привязать **CLI** к вашему аккаунту.
+
+3. **Получите OAuth-токен**:  
+   - Перейдите по [этой ссылке](https://oauth.yandex.ru/authorize?response_type=token&client_id=1a6990aa636648e9b2ef855fa7bec2fb).  
+   - Разрешите доступ, если это потребуется.  
+   - Скопируйте OAuth-токен и сохраните его. Он понадобится для дальнейших шагов.
+
+4.	Выполните действия из раздела [Создание профиля](https://cloud.yandex.ru/docs/cli/quickstart?#initialize). Выполните команды для создания профиля:
+
+```
+   yc config set token <OAuth-токен>
+   yc config set cloud-id <Cloud-ID>
+   yc config set folder-id <Folder-ID>
+   yc config set compute-default-zone ru-central1-b
+```   
+
+
+Получите результат, который должен иметь вид:
+
+```
     token: y0_AgA...wvs7N4
     cloud-id: b1g159pa15cd********
     folder-id: b1g8o9jbt58********
     compute-default-zone: ru-central1-b
-    ```
+```
 
-6.	Получите IAM-токен для работы с GPT, выполнив команду:
+5.	Получите IAM-токен для работы с GPT, выполнив команду:
     ```
     yc iam create-token 
     ```
 
-    Время жизни IAM-токена не превышает 12-ти часов, но рекомендуется запрашивать его каждый час.
+   > **Примечание:** Время жизни IAM-токена не превышает 12-ти часов, но рекомендуется запрашивать его каждый час.
 
-7.	[Перейдите](https://console.cloud.yandex.ru/cloud) в консоль управления Yandex Cloud. 
-8.	Обязательно скопируйте идентификатор папки - он понадобится для работы с GPT. 
+6.	**Перейдите в консоль управления Yandex Cloud**:  
+   - Откройте [консоль Yandex Cloud](https://console.cloud.yandex.ru/cloud).  
+   - Скопируйте *идентификатор папки (Folder ID)*. Он потребуется для работы с GPT.
 
-    ![](<../../.gitbook/assets1/get-token-yandex-1.png>)
+
+
+        ![](<../../.gitbook/assets1/get-token-yandex-1.png>)
     
-9.	Слева, в дереве навигации, перейдите на уровень организации и затем – в раздел «Права доступа». 
+
+7.	Слева, в дереве навигации, выберите уровень организации и затем –  раздел «Права доступа». 
 
     ![](<../../.gitbook/assets1/get-token-yandex-2.png>)
 
-10.	Выберите функцию **Изменить роли** у нужного пользователя.
- 
-    ![](<../../.gitbook/assets1/get-token-yandex-3.png>)
 
-11.	Нажмите кнопку **Добавить роль**.
- 
-    ![](<../../.gitbook/assets1/get-token-yandex-4.png>)
+   - Найдите нужного пользователя и выберите функцию *Изменить роли*.  
+   - Нажмите кнопку *Добавить роль*.  
+   - В выпадающем списке выберите `ai.languageModels.user`.  
+   - Нажмите *Сохранить*.
 
-12.	Выберите `ai.languageModels.user`.
+    
  
-    ![](<../../.gitbook/assets1/get-token-yandex-5.png>)
+        ![](<../../.gitbook/assets1/get-token-yandex-3.png>)
 
-13.	Нажмите **Сохранить**.
-14.	Перейдите в каталог `default` (либо нужный) и нажмите **YandexGPT**.
+
+ 
+        ![](<../../.gitbook/assets1/get-token-yandex-4.png>)
+
+
+
+        ![](<../../.gitbook/assets1/get-token-yandex-5.png>)
+
+
+8. **Создайте платежный аккаунт**:  
+   - В консоли Yandex Cloud перейдите в каталог `default` или нужный вам каталог.  
+   - Нажмите на **YandexGPT** и заполните форму создания платежного аккаунта.
  
     ![](<../../.gitbook/assets1/get-token-yandex-6.png>)
 
-15.	Заполните форму создания платежного аккаунта.
-16.	Используйте токен (см. шаг 6) и ID папки (см. шаг 8) в следующих случаях:
-    * в элементах [YandexGPT](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai/yandexgpt) из библиотеки [**Primo.AI**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai);
-    * для настройки интеграции Студии с YandexGPT после [установки плагина `Primo.AI.Plugin.dll`](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio/settings#ai).
+9.	Используйте IAM-токен и ID папки для интеграции:
+    * В элементах [YandexGPT](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai/yandexgpt) из библиотеки [**Primo.AI**](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai);
+    * В настройках интеграции Студии с YandexGPT после [установки плагина `Primo.AI.Plugin.dll`](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio/settings#ai).
 
 ## GigaChat
 
