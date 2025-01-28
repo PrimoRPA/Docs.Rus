@@ -82,18 +82,18 @@ $ sudo apt install php8.1
 
 ## PostgreSQL
 
-Сначала проверим, установлен ли на целевой машине PostgreSQL:
+Проверяем, установлен ли на целевой машине PostgreSQL:
 ```
 $ psql –version
 ```
 Если PostgreSQL установлен, и его версия >= 13, то переходим к пункту [Настройка базы данных](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/readme-installation/installation-linux#nastroika-bazy-dannykh).
 
 В противном случае производим установку PostgreSQL:
-1. Применим команду:
+1. Используем команду:
    ```
    $ sudo apt install postgresql postgresql-contrib
    ```
-1. После установки внесём изменения в следующие конфигурационные файлы:
+1. После установки вносим изменения в следующие конфигурационные файлы:
    * `/etc/postgresql/14/main/postgresql.conf` — этот файл меняем только в том случае, если рассматривается возможность подключения к БД Idea Hub по сети.
 
      Находим строку:
