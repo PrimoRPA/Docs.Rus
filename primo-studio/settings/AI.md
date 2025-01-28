@@ -4,7 +4,7 @@
 
 Для интеграции Primo RPA с YandexGPT:
 
-1.	[Создайте](https://passport.yandex.ru/registration) аккаунт в сервисе Яндекс ID, если у вас его нет.
+1.	**[Создайте](https://passport.yandex.ru/registration) аккаунт** в сервисе Яндекс ID, если у вас его нет.
 
 2. **Установите Yandex Cloud CLI**:  
    - Скачайте и установите **Yandex Cloud CLI**, следуя [официальной инструкции](https://cloud.yandex.ru/ru/docs/cli/quickstart#install).  
@@ -15,7 +15,7 @@
    - Разрешите доступ, если это потребуется.  
    - Скопируйте OAuth-токен и сохраните его. Он понадобится для дальнейших шагов.
 
-4.	Выполните действия из раздела [Создание профиля](https://cloud.yandex.ru/docs/cli/quickstart?#initialize). Выполните команды для создания профиля:
+4.	**Выполните действия из раздела [Создание профиля](https://cloud.yandex.ru/docs/cli/quickstart?#initialize)**. Выполните команды для создания профиля:
 
 ```
    yc config set token <OAuth-токен>
@@ -34,10 +34,23 @@
     compute-default-zone: ru-central1-b
 ```
 
-5.	Получите IAM-токен для работы с GPT, выполнив команду:
-    ```
-    yc iam create-token 
-    ```
+5.	**Получите IAM-токен для работы с GPT**:
+ Вы можете получить IAM-токен двумя способами:
+   - **Через Yandex Cloud CLI:** Выполните команду:
+
+ ```
+          yc iam create-token
+        
+ ```
+   -  **Через обмен OAuth-токена:** Если вы не используете CLI, вы можете обменять OAuth-токен на IAM-токен с помощью API. Для этого выполните запрос:
+        ```
+        curl \
+          --request POST \
+          --data '{"yandexPassportOauthToken":"<OAuth-токен>"}' \
+          https://iam.api.cloud.yandex.net/iam/v1/tokens
+        ```
+
+        Подробнее см. в **[документации Yandex](https://cloud.yandex.ru/docs/iam/operations/iam-token/create)**.
 
    > **Примечание:** Время жизни IAM-токена не превышает 12-ти часов, но рекомендуется запрашивать его каждый час.
 
