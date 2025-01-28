@@ -4,6 +4,8 @@ Primo.AI предназначен для интеграции платформы
 
 Список изменений по версиям:
  - [Primo.AI 1.1.1](https://docs.primo-rpa.ru/primo-rpa/release-notes/packages/windows/primo-ai/1.1.1)
+ - [Primo.AI 1.1.2](https://docs.primo-rpa.ru/primo-rpa/release-notes/packages/windows/primo-ai/1.1.2)
+
 
 ## Скачивание и установка пакета
 
