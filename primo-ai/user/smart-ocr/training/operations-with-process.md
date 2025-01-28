@@ -7,7 +7,7 @@
 ## Возможные действия с процессом
 * [Cоздать](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/training/operations-with-process#sozdat-process-obucheniya) — добавляет процесс обучения в текущий шаблон. 
 * [Запустить](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/training/operations-with-process#zapustit-process-obucheniya) — запускает процесс обучения на доступной целевой машине. 
-* [Мониторинг](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/training/monitoring) — позволяет перейти к графику с ключевыми метриками обучения модели. График доступен, только если был запущен процесс обучения. Страница с мониторингом носит информативный характер.
+* [Мониторинг](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/training/monitoring) — позволяет перейти к графику с ключевыми метриками обучения модели. График доступен, только если был запущен процесс обучения. Страница с мониторингом носит информативный характер.
 * [Остановить](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/training/operations-with-process#ostanovit-process-obucheniya) — останавливает запущенный процесс обучения.
 * [Выключить](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/training/operations-with-process#vyklyuchit-process-obucheniya) — блокирует возможность управлять процессом обучения, т. е. делает его недоступным для запуска / остановки.
 * [Включить](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/training/operations-with-process#vklyuchit-process-obucheniya) — разблокирует процесс обучения, который ранее был выключен.
@@ -76,4 +76,4 @@
 
 ## Мониторинг обучения
 
-Подробную информацию о мониторинге запущенного процесса обучения вы можете найти [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/training/monitoring).
+Подробную информацию о мониторинге запущенного процесса обучения вы можете найти [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/training/monitoring).
