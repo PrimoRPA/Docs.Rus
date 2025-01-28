@@ -1302,7 +1302,6 @@
     * [Редактирование процесса](idea-hub/processes/edit-process.md)
     * [Управление полями](idea-hub/processes/add-fields.md)
     * [Типы полей и настройка](idea-hub/processes/field-types.md)
-    * [Тест](idea-hub/processes/test.md)
 * [Формулы](idea-hub/formulas/about.md)
 	* [Синтаксис формул](idea-hub/formulas/README.md) 
 * [Импорт данных](idea-hub/import-export/readme.md)
