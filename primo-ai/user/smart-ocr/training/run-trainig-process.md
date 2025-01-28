@@ -75,7 +75,7 @@
 
 ![](<../../../../.gitbook/assets1/primo-ai/user-guide/training-schedule.png>) 
 
-Более подробную информацию о мониторинге обучения вы можете просмотреть [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/training/monitoring).
+Более подробную информацию о мониторинге обучения вы можете просмотреть [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/training/monitoring).
 
 ### Шаг 5. Проверка наличия обученной модели
 
