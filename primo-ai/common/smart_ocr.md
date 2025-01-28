@@ -63,7 +63,7 @@ AI Server содержит специальные инструменты для 
 
 **Отправка запросов через API**
 
-Спецификация для работы с системой через API описана по стандарту Open API и доступна по [ссылке](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FRelease%2FAI%20Server%2Fapi).
+Спецификация для работы с системой через API описана по стандарту Open API и доступна по [ссылке](https://disk.primo-rpa.ru/index.php/s/aq6f9EmG5702uSg).
 
 **Отправка запросов роботами**
 
