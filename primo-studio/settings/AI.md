@@ -42,13 +42,13 @@
           yc iam create-token
         
  ```
-   -  **Через обмен OAuth-токена:** Если вы не используете CLI, вы можете обменять OAuth-токен на IAM-токен с помощью API. Для этого выполните запрос:
-        ```
-        curl \
-          --request POST \
-          --data '{"yandexPassportOauthToken":"<OAuth-токен>"}' \
-          https://iam.api.cloud.yandex.net/iam/v1/tokens
-        ```
+   - **Через PowerShell (без использования CLI):**  
+        Если вы не используете CLI, обменяйте OAuth-токен на IAM-токен с помощью следующей команды:
+       ``` powershell
+        $yandexPassportOauthToken = "<OAuth-токен>"
+        $Body = @{ yandexPassportOauthToken = "$yandexPassportOauthToken" } | ConvertTo-Json -Compress
+        Invoke-RestMethod -Method 'POST' -Uri 'https://iam.api.cloud.yandex.net/iam/v1/tokens' -Body $Body -ContentType 'application/json' | Select-Object -ExpandProperty iamToken
+       ``` 
 
         Подробнее см. в **[документации Yandex](https://cloud.yandex.ru/docs/iam/operations/iam-token/create)**.
 
