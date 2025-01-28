@@ -1,4 +1,4 @@
-## PostgreSQL
+# PostgreSQL
 
 Проверяем, установлен ли на целевой машине PostgreSQL:
 ```
@@ -6,7 +6,10 @@ $ psql –version
 ```
 Если PostgreSQL установлен, и его версия >= 13, то переходим к пункту [Настройка базы данных](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/readme-installation/installation-linux#nastroika-bazy-dannykh).
 
-В противном случае производим установку PostgreSQL:
+В противном случае производим установку PostgreSQL.
+
+## Установка PostgreSQL
+
 1. Используем команду:
    ```
    $ sudo apt install postgresql postgresql-contrib
