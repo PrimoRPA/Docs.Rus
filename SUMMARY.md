@@ -64,6 +64,7 @@
     * [Windows](release-notes/packages/windows/README.md)
       * [Primo.AI](release-notes/packages/windows/primo-ai/readme.md)
         * [1.1.1](release-notes/packages/windows/primo-ai/1.1.1.md)
+        * [1.1.2](release-notes/packages/windows/primo-ai/1.1.2.md)
       * [Primo.AI.Server](release-notes/packages/windows/primo-ai-server/readme.md)
         * [1.0.10](release-notes/packages/windows/primo-ai-server/1.0.10.md)
       * [Primo.ART](release-notes/packages/windows/primo.art/readme.md)
