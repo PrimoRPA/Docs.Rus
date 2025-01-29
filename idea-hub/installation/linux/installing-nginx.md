@@ -2,7 +2,7 @@
 
 1. Установите Nginx:
    ```
-   $ sudo apt install nginx
+   sudo apt install nginx
    ```
 1. Скопируйте файл `./config/ideahub-nginx.conf` в каталог `/etc/nginx/sites-available`.
 
@@ -20,11 +20,11 @@
 
 1. Добавьте сайт в список включенных командой:
    ```
-   $ sudo ln -s /etc/nginx/sites-available/ideahub-nginx.conf /etc/nginx/sites-enabled/ideahub-nginx.conf
+   sudo ln -s /etc/nginx/sites-available/ideahub-nginx.conf /etc/nginx/sites-enabled/ideahub-nginx.conf
    ```
 1. Перезапустите Nginx:
    ```
-   $ sudo systemctl restart nginx
+   sudo systemctl restart nginx
    ```
 
 ## Настройка доступа через браузер
