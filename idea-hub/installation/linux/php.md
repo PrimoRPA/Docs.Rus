@@ -2,7 +2,7 @@
 
 Проверяем, установлен ли на целевой машине PHP:
 ```
-$ php --version
+php --version
 ```
 
 Пример результата выполнения команды:
@@ -26,49 +26,49 @@ astra-ce https://dl.astralinux.ru/astra/stable/1.7_x86-64/repository-extended/
 
 Выполняем команду:
 ```
-$ sudo apt install php8.1
+sudo apt install php8.1
 ```
 
 Устанавливаем необходимые модули:
 1. php8.1-imagick
    ```
-   $ sudo apt install php8.1-imagick
+   sudo apt install php8.1-imagick
    ```
 1. php8.1-pgsql
    ```
-   $ sudo# apt install php8.1-pgsql
+   sudo# apt install php8.1-pgsql
    ``` 
 1. php8.1-fpm
    ```
-   $ sudo apt install php8.1-fpm
+   sudo apt install php8.1-fpm
    ```
 1. php8.1-gd
    ```
-   $ sudo apt install php8.1-gd
+   sudo apt install php8.1-gd
    ``` 
 1. php8.1-gd
    ```
-   $ sudo apt install php8.1-xml
+   sudo apt install php8.1-xml
    ``` 
 1. php8.1-curl
    ```
-   $ sudo apt install php8.1-curl
+   sudo apt install php8.1-curl
    ``` 
 1. php8.1-opcache самой новой версии (8.1.12-1ubuntu4.3).
    ```
-   $ sudo apt install php8.1-opcache
+   sudo apt install php8.1-opcache
    ``` 
 1. php-yaml (2.0.2+1.3.1-4)
    ```
-   $ sudo apt install php-yaml
+   sudo apt install php-yaml
    ``` 
 1. php-pear (1:1.10.13+submodules+notgz+2022032202-2)
    ```
-   $ sudo apt install php-pear
+   sudo apt install php-pear
    ```
 1. php8.1-apcu
    ```
-   $ sudo apt install php-apcu
+   sudo apt install php-apcu
    ```
 1. php8.1-ldap
    ```
