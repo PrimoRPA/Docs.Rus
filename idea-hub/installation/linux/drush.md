@@ -25,7 +25,7 @@ $ sudo mkdir -m gu+rw -p  /var/www/ideahub
 $ sudo chown ideahub:www-data /var/www/ideahub
 ```
 
-Установочный архив Idea Hub должен быть предварительно загружен в каталог `/home/ideahub`. Распакуйте архив в каталог `/var/www/ideahub/:`
+Загрузите установочный архив Idea Hub в каталог `/home/ideahub`. Распакуйте архив в каталог `/var/www/ideahub/:`
 ```
 $ tar -xzf idea-hub.install.24.6.6.linux.tar.gz -C /var/www/ideahub/
 ```
@@ -39,11 +39,12 @@ $sudo chown -R ideahub:www-data /var/www/ideahub
 
 Если вы хотите запускать утилиту drush, не указывая до неё путь, тогда выполните действия:
 
-1. Добавить данную строку в конец файла ~/.bashrc
-```shell
-export PATH="/var/www/ideahub/vendor/bin:$PATH"
-```
-2. Обновить данные вашего терминала 
-```shell
-source ~/.bashrc
-```
+1. Добавьте данную строку в конец файла `~/.bashrc`:
+
+   ```shell
+   export PATH="/var/www/ideahub/vendor/bin:$PATH"
+   ```
+2. Обновите данные вашего терминала:
+   ```shell
+   source ~/.bashrc
+   ```
