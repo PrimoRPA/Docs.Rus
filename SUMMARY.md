@@ -69,6 +69,8 @@
         * [1.0.10](release-notes/packages/windows/primo-ai-server/1.0.10.md)
       * [Primo.ART](release-notes/packages/windows/primo.art/readme.md)
         * [1.0.3](release-notes/packages/windows/primo.art/1.0.3.md)
+      * [Primo.Office.MyOffice](release-notes/packages/windows/primo-myoffice/readme.md)
+        * [1.0.2.3](release-notes/packages/windows/primo-myoffice/1.0.2.3.md)
       * [Primo.Office.P7](release-notes/packages/windows/primo-office-p7/readme.md)
         * [0.0.2](release-notes/packages/windows/primo-office-p7/0.0.2.md)
       * [Primo.OCR.ContentAI](release-notes/packages/windows/ocr-content-ai/README.md)
