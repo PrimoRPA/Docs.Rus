@@ -2,12 +2,12 @@
 
 Создайте пользователя, который будет запускать скрипты:
 ```
-$ sudo adduser ideahub
+sudo adduser ideahub
 ```
 
 Добавьте пользователя в группу **www-data**:
 ```
-$sudo usermod -a -G www-data ideahub
+sudo usermod -a -G www-data ideahub
 ```
 
 Войдите в систему под пользователем **ideahub**, чтобы он добавился в группу **www-data**. Можно использовать sudo доступ:
@@ -20,22 +20,22 @@ sudo su ideahub
 * **-p** – создает родительские каталоги с заданными правами.
 
 ```
-$ sudo mkdir -m gu+rw -p  /var/www/ideahub
+sudo mkdir -m gu+rw -p  /var/www/ideahub
 ```
 
 Установите владельцем каталога пользователя **ideahub** и группу **www-data**:
 ```
-$ sudo chown ideahub:www-data /var/www/ideahub
+sudo chown ideahub:www-data /var/www/ideahub
 ```
 
 Загрузите установочный архив Idea Hub в каталог `/home/ideahub`. Распакуйте архив в каталог `/var/www/ideahub/:`
 ```
-$ tar -xzf idea-hub.install.24.6.6.linux.tar.gz -C /var/www/ideahub/
+tar -xzf idea-hub.install.24.6.6.linux.tar.gz -C /var/www/ideahub/
 ```
 
 Измените владельца и группу для всех вложенных папок и файлов рабочего каталога:
 ```
-$sudo chown -R ideahub:www-data /var/www/ideahub
+sudo chown -R ideahub:www-data /var/www/ideahub
 ```
 
 В каталоге `/var/www/ideahub/db`  находится дамп базы данных `/var/www/ideahub/db/ideahub_demo.sql.gz` (название файла может отличаться). 
