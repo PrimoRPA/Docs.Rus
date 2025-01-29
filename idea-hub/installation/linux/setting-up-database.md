@@ -3,10 +3,10 @@
 Войдем в **psql** под пользователем **postgres**:
 
 ```
-$ sudo -i -u postgres
+sudo -i -u postgres
 ```
 ```
-$ psql
+psql
 ```
 
 Создадим нового пользователя PostgreSQL, где вместо password требуется указать свой пароль:
@@ -29,5 +29,5 @@ postgres=# \q
 
 Рестарт сервера:
 ```
-$ sudo service postgresql restart
+sudo service postgresql restart
 ```
