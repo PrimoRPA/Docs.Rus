@@ -41,10 +41,10 @@ $sudo chown -R ideahub:www-data /var/www/ideahub
 
 1. Добавьте указанную строку в конец файла `~/.bashrc`:
 
-   ```shell
+   ```bash
    export PATH="/var/www/ideahub/vendor/bin:$PATH"
    ```
 2. Обновите данные вашего терминала:
-   ```shell
+   ```bash
    source ~/.bashrc
    ```
