@@ -6,9 +6,6 @@
 
 
 
-### Установка обновлений для релиза 24.12
-1. ```drush migrate:import params_ru --update```
-2. ```drush migrate:import library_items --execute-dependencies --update```
-3. ```drush ev "require_once (\Drupal::root() . '/../scripts/RandomContent.php');(new RandomContent())->createDashboards();"```
+
 
 
