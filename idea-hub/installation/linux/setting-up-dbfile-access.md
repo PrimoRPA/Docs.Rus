@@ -1,6 +1,6 @@
 # Настройка базы и доступов к файлам
 
-1. Восстанавите базу данных PostgreSQL из этого файла командой:
+1. Восстановите базу данных PostgreSQL из этого файла командой:
    ```
    gunzip -c /var/www/ideahub/db/ideahub_demo.sql.gz | psql -U primo_ideahub -d ideahub
    ```
