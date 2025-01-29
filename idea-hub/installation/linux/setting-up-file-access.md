@@ -12,20 +12,20 @@
 
    В каталоге `web/sites/default/` создайте папку `files` и настройте для нее права:
    ```
-   $ mkdir /var/www/ideahub/web/sites/default/files
-   $ cd /var/www/ideahub
-   $ chgrp -Rv www-data web/sites/default/files
-   $ chmod 2775 web/sites/default/files
-   $ chmod g+w -R web/sites/default/files
-   $ chmod 444 web/sites/default/settings.php
+   mkdir /var/www/ideahub/web/sites/default/files
+   cd /var/www/ideahub
+   chgrp -Rv www-data web/sites/default/files
+   chmod 2775 web/sites/default/files
+   chmod g+w -R web/sites/default/files
+   chmod 444 web/sites/default/settings.php
    ```
 1. В `/var/www/ideahub/` создайте каталог `private` и настройте для него права:
    ```
-   $ cd /var/www/ideahub
-   $ mkdir private
-   $ chgrp -Rv www-data private
-   $ chmod 2775 private
-   $ chmod g+w -R private
+   cd /var/www/ideahub
+   mkdir private
+   chgrp -Rv www-data private
+   chmod 2775 private
+   chmod g+w -R private
    ```
 1. Войдите в систему под служебным пользователем **ideahub**.
 
@@ -35,7 +35,7 @@
 
    Пример:
    ```
-   $databases['default']['default'] = [
+   databases['default']['default'] = [
    'driver' => 'pgsql',
    'autoload' => 'core/modules/pgsql/src/Driver/Database/pgsql/',
    'namespace' => 'Drupal\\pgsql\\Driver\\Database\\pgsql',
@@ -51,11 +51,11 @@
 
 1. Перейдите в папку проекта:
    ```
-   $ cd /var/www/ideahub
+   cd /var/www/ideahub
    ```
 1. Проверьте подключение к базе данных командой:
    ```
-   $ drush status
+   drush status
    ```
 
 Результат должен иметь вид:
@@ -89,7 +89,7 @@ Files, Temp      : /tmp
 
 После этого очистите кеш командой:
 ```
-$ drush cr
+drush cr
 ```
 
 
