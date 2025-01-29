@@ -115,14 +115,14 @@ gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
 > Для возможности работать с компонентом необходимо будет настроить права для группы пользователей, как описано ниже.
 
 ### Установка компонента Browser Extensions
-Скопируйте пакет `primo-web-browser-native-1.25.1.3-1.x86_64.rpm`  в удобный каталог, например: `/home/<current_user>`.
+Скопируйте пакет `primo-rpa-extension-linux-1.25.1.3.rpm`  в удобный каталог, например: `/home/<current_user>`.
 
 > Имя пакета может отличаться в зависимости от версии продукта, не используйте буквально.
 
 Перейдите в папку с этим пакетом и выполните установку пакета
 ```
 [primo-admin@redos-studio ~]$ cd /home/<current_user>
-[primo-admin@redos-studio ~]$ sudo dnf install ./primo-web-browser-native-1.25.1.3-1.x86_64.rpm
+[primo-admin@redos-studio ~]$ sudo dnf install ./primo-rpa-extension-linux-1.25.1.3.rpm
 ```
 В результате компонент должен установиться по пути `/opt/primo/web-browser-native/`
 
