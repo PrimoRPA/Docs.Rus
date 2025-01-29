@@ -39,7 +39,7 @@ $sudo chown -R ideahub:www-data /var/www/ideahub
 
 Если вы хотите запускать утилиту drush, не указывая до неё путь, тогда выполните действия:
 
-1. Добавьте данную строку в конец файла `~/.bashrc`:
+1. Добавьте указанную строку в конец файла `~/.bashrc`:
 
    ```shell
    export PATH="/var/www/ideahub/vendor/bin:$PATH"
