@@ -1,14 +1,14 @@
 # Настройка базы и доступов к файлам
 
-1. Восстанавливаем базу данных PostgreSQL из этого файла командой:
+1. Восстанавите базу данных PostgreSQL из этого файла командой:
    ```
    gunzip -c /var/www/ideahub/db/ideahub_demo.sql.gz | psql -U primo_ideahub -d ideahub
    ```
-   Система предложит ввести пароль для пользователя **primo_ideahub**. Вводим пароль, который был установлен для этого пользователя в разделе **Настройка базы данных**.
+   Система предложит ввести пароль для пользователя **primo_ideahub**. Введите пароль, который был установлен для этого пользователя в разделе **Настройка базы данных**.
 
    После восстановления базы данных каталог `/var/www/ideahub/db` можно удалить.
 
-1. Далее настроиваем папки и права. Можно вводить команды вручную, как это описано ниже, либо использовать скрипт `drupal_fix_permissions` — [инструкция](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/readme-installation/installation-linux#skript-drupal_fix_permissions.sh) по использованию скрипта приведена внизу страницы. 
+1. Далее настраиваем папки и права. Можно вводить команды вручную, как это описано ниже, либо использовать скрипт `drupal_fix_permissions` — см. [инструкцию](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/readme-installation/installation-linux#skript-drupal_fix_permissions.sh).
 
    В каталоге `web/sites/default/` создаем папку `files` и настраиваем для нее права:
    ```
