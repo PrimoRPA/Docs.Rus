@@ -31,7 +31,7 @@ Primo RPA взаимодействует с веб-браузерами Chrome, 
 
 ## Установка расширения
 
-1. Скачайте архив [InstallExtensions.zip](?) и распакуйте его. Список файлов архива:
+1. Скачайте архив [InstallExtensionsGPO.zip](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FRelease%2FExtension) и распакуйте его. Список файлов архива:
    * `_Install_BrowserExtensionsFULL_GPO.bat` — инсталлятор расширения Primo RPA Extension на базе манифеста V2.
    * `_Install_BrowserExtensionsFULL_GPO_v3.bat` — инсталлятор расширения Primo RPA Extension на базе манифеста V3.
    * `Uninstall_BrowserExtensions.bat` — деинсталлятор, который удаляет расширение изо всех браузеров и операционной системы, а также очищает реестр Windows от лишних записей. 
