@@ -35,7 +35,7 @@ $ tar -xzf idea-hub.install.24.6.6.linux.tar.gz -C /var/www/ideahub/
 $sudo chown -R ideahub:www-data /var/www/ideahub
 ```
 
-## Настройка drush
+## Настройка drush (CLI административный модуль)
 
 Если вы хотите запускать утилиту drush, не указывая до неё путь, тогда выполните действия:
 
