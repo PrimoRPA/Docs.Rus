@@ -2,7 +2,7 @@
 
 Проверяем, установлен ли на целевой машине PostgreSQL:
 ```
-$ psql –version
+psql –version
 ```
 Если PostgreSQL установлен, и его версия >= 13, то переходим к пункту [Настройка базы данных](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/readme-installation/installation-linux#nastroika-bazy-dannykh).
 
@@ -12,7 +12,7 @@ $ psql –version
 
 1. Используем команду:
    ```
-   $ sudo apt install postgresql postgresql-contrib
+   sudo apt install postgresql postgresql-contrib
    ```
 1. После установки вносим изменения в следующие конфигурационные файлы:
    * `/etc/postgresql/14/main/postgresql.conf` — этот файл меняем только в том случае, если рассматривается возможность подключения к БД Idea Hub по сети.
@@ -47,7 +47,7 @@ $ psql –version
 1. Далее перезапускаем PostgreSQL:
 
    ```
-   $ sudo systemctl reastart postgresql
+   sudo systemctl reastart postgresql
    ```
    ```
-   $ sudo systemctl status postgresql
+   sudo systemctl status postgresql
