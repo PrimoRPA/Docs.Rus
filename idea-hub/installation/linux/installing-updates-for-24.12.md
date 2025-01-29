@@ -7,5 +7,6 @@ drush migrate:import params_ru --update
 ```
 drush migrate:import library_items --execute-dependencies --update
 ```
-```drush ev "require_once (\Drupal::root() . '/../scripts/RandomContent.php');(new RandomContent())->createDashboards();"
+```
+drush ev "require_once (\Drupal::root() . '/../scripts/RandomContent.php');(new RandomContent())->createDashboards();"
 ```
