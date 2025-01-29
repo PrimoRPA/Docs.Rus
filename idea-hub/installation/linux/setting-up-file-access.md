@@ -10,7 +10,7 @@
 
 1. Далее настраиваем папки и права. Можно вводить команды вручную, как это описано ниже, либо использовать скрипт `drupal_fix_permissions` — см. [инструкцию](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/readme-installation/installation-linux#skript-drupal_fix_permissions.sh).
 
-   В каталоге `web/sites/default/` создаем папку `files` и настраиваем для нее права:
+   В каталоге `web/sites/default/` создайте папку `files` и настройте для нее права:
    ```
    $ mkdir /var/www/ideahub/web/sites/default/files
    $ cd /var/www/ideahub
@@ -19,7 +19,7 @@
    $ chmod g+w -R web/sites/default/files
    $ chmod 444 web/sites/default/settings.php
    ```
-1. В `/var/www/ideahub/` создаем каталог `private` и настроиваем для него права:
+1. В `/var/www/ideahub/` создайте каталог `private` и настройте для него права:
    ```
    $ cd /var/www/ideahub
    $ mkdir private
@@ -27,11 +27,11 @@
    $ chmod 2775 private
    $ chmod g+w -R private
    ```
-1. Входим в систему под служебным пользователем пользователем **ideahub**.
+1. Войдите в систему под служебным пользователем **ideahub**.
 
-1. Копируем файл `/var/www/ideahub/config/settings.EXAMPLE.php` в `/var/www/ideahub/config/settings.local.php`.
+1. Скопируйте файл `/var/www/ideahub/config/settings.EXAMPLE.php` в `/var/www/ideahub/config/settings.local.php`.
 
-   После чего меняем в новом файле строки: ```HOST, DATABASE_NAME, USER_NAME, PASSWORD``` на установленные во время создания базы данных.
+   После чего измените в новом файле строки: ```HOST, DATABASE_NAME, USER_NAME, PASSWORD``` на установленные во время создания базы данных.
 
    Пример:
    ```
@@ -49,25 +49,25 @@
    ```
    где 'password' — пароль пользователя primo_ideahub, установленный в секции **Настройка базы данных**.
 
-1. Переходим в папку проекта:
+1. Перейдите в папку проекта:
    ```
    $ cd /var/www/ideahub
    ```
 
-1. Добавляем ссылку на `drush` глобально — для этого надо добавить данную строку в конец файла ```~/.bashrc``` в домашнем каталоге пользователя, из под которого будут запускаться скрипты (в нашем случае /home/ideahub):
+1. Добавьте ссылку на `drush` глобально — для этого надо добавить данную строку в конец файла ```~/.bashrc``` в домашнем каталоге пользователя, из-под которого будут запускаться скрипты (в нашем случае /home/ideahub):
    ```
    $ export PATH="/var/www/ideahub/vendor/bin:$PATH"
    ```
-   Обновление данных вашего терминала:
+   Обновите данные вашего терминала:
    ```
    $ source ~/.bashrc
    ```
-1. Проверяем подключение к базе данных командой:
+1. Проверьте подключение к базе данных командой:
    ```
    $ drush status
    ```
 
-Результат должен быть следующего вида:
+Результат должен иметь следующий вид:
 ```shell
 Drupal version   : 9.5.10-dev
 Site URI         : https://ideahub-v2.lndo.site/
