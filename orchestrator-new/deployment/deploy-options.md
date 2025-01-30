@@ -6,8 +6,8 @@
 
 | Вариант развертывания WebApi и Front | Особенности SSO | Инструкция | 
 | ------------------------------------ | --------------- | ---------------------------------- |
-| WebApi и Front работают под IIS      | Сервер может быть включен в AD или можно использовать keytab-файл | См. статью [Установка WebApi и UI на IIS под Windows 2016 Server] (????) |
-| WebApi – служба Windows, <p>Front – Nginx</p> | Только keytab-файл | <p>См. статьи [Установка WebApi как службы под Windows 2016 Server];</p> <p> [Установка UI на nginx под Windows 2016 Server];</p> <p>[Установка Nginx под Windows 2016 Server]. |
+| WebApi и Front работают под IIS      | Сервер может быть включен в AD или можно использовать keytab-файл | См. статью [Установка WebApi и UI на IIS под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/windows/webapi-ui-iis-windows) |
+| WebApi – служба Windows, <p>Front – Nginx</p> | Только keytab-файл | <p>См. статьи [Установка WebApi как службы под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/windows/webapi-windows);</p> <p> [Установка UI на nginx под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/windows/ui-nginx-windows);</p> <p>[Установка Nginx под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/windows/nginx-windows). |
 
 **keytab-файл** – файл, полученный в результате команды `ktpass` при регистрации Front сервиса в AD.\
 Путь к полученному keytab-файлу настраивается в конфигурационном файле WebApi в секции `ActiveDirectory` в параметре `KerberosKeytabPath`:
@@ -31,7 +31,7 @@
 
 ### Пошаговая инструкция для IIS
 
-См. раздел [Установка Оркестратора на веб-сервер IIS](https://docs.primo-rpa.ru/primo-rpa/orchestrator/quick-installation/iis-web-server).
+См. раздел [Установка Оркестратора на веб-сервер IIS](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/windows/iis-web-server).
 
 
 ### Вариант 2. WebApi – служба Windows, Front – Nginx
@@ -40,7 +40,7 @@
 
 ### Пошаговая инструкция для Nginx
 
-См. раздел [Установка Оркестратора на веб-сервер Nginx](https://docs.primo-rpa.ru/primo-rpa/orchestrator/quick-installation/nginx-web-server).
+См. раздел [Установка Оркестратора на веб-сервер Nginx](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/windows/nginx-web-server).
 
 
 ## Linux
