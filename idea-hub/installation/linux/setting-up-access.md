@@ -8,7 +8,7 @@
 
    После восстановления базы данных каталог `/var/www/ideahub/db` можно удалить.
 
-1. Далее настраиваем папки и права. Можно вводить команды вручную, как это описано ниже, либо использовать скрипт `drupal_fix_permissions` — см. [инструкцию](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/readme-installation/linux/drupalfixpermissions).
+1. Далее настраиваем папки и права. Можно вводить команды вручную, как это описано ниже, либо использовать скрипт `drupal_fix_permissions` — см. [инструкцию](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/drupalfixpermissions).
 
    В каталоге `web/sites/default/` создайте папку `files` и настройте для нее права:
    ```
@@ -94,5 +94,5 @@ drush cr
 
 ## Что дальше
 
-Следующий шаг — [настройка окружения](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/readme-installation/linux/setting-up-environment).
+Следующий шаг — [настройка окружения](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/setting-up-environment).
 
