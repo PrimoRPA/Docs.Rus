@@ -1292,7 +1292,7 @@
 ## Primo RPA Idea Hub
 
 * [Общие сведения](idea-hub/description.md)
-* [Установка и настройка](idea-hub/installation/readme-installation.md)
+* [Установка и настройка](idea-hub/installation/readme.md)
 	* [Системные требования](idea-hub/installation/system-requirements.md)
    	* [Установка на ОС Linux](idea-hub/installation/linux/README.md)
    	 	* [Установка PHP](idea-hub/installation/linux/php.md)
