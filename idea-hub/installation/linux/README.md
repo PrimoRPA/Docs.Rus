@@ -36,7 +36,7 @@
 {% endstep %}
 {% step %}
 ### Установка и настройка веб-сервера Nginx
-А также настройка доступа через браузер. Инструкцию см. [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/readme-installation/linux/installing-nginx).
+А также настройка доступа через браузер. См. инструкцию [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/readme-installation/linux/installing-nginx).
 {% endstep %}
 {% step %}
 ### Опционально — установка обновлений для релиза 24.12
