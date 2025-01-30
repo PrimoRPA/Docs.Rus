@@ -77,4 +77,4 @@ sudo apt install php8.1
 
 ## Что дальше 
 
-Следующий шаг — установка [PostgreSQL](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/readme-installation/linux/postgresql).
+Следующий шаг — установка [PostgreSQL](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/postgresql).
