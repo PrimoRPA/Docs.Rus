@@ -1301,6 +1301,7 @@
    	  	* [Подготовка к установке Idea Hub](idea-hub/installation/linux/drush.md)
    	  	* [Настройка базы и доступов к файлам](idea-hub/installation/linux/setting-up-access.md)
    	  	* [Настройка окружения](idea-hub/installation/linux/setting-up-environment.md)
+   	  	* [Установка и настройка веб-сервера Nginx](idea-hub/installation/linux/installing-nginx.md)
    	  	* [Проверка установки](idea-hub/installation/linux/сhecking-installation.md)
    	  	* [Установка обновлений для релиза 24.12](idea-hub/installation/linux/installing-updates-for-24.12.md)
    	  	* [Скрипт drupal_fix_permissions.sh](idea-hub/installation/linux/drupalfixpermissions.md)
