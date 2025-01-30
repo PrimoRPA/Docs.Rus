@@ -55,3 +55,7 @@ Drush — это утилита с интерфейсом командной с�
    ```bash
    source ~/.bashrc
    ```
+
+## Что дальше
+
+Следующий шаг — [настройка базы и доступов к файлам](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/readme-installation/linux/setting-up-access).
