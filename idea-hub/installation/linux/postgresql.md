@@ -4,7 +4,7 @@
 ```
 psql –version
 ```
-Если PostgreSQL установлен, и его версия >= 13, то переходим к пункту [Настройка базы данных](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/readme-installation/linux/setting-up-database).
+Если PostgreSQL установлен, и его версия >= 13, то переходим к пункту [Настройка базы данных](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/setting-up-database).
 
 В противном случае производим установку PostgreSQL.
 
@@ -55,4 +55,4 @@ psql –version
 
 ## Что дальше 
 
-Следующий шаг — [настройка базы данных](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/readme-installation/linux/setting-up-database).
+Следующий шаг — [настройка базы данных](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/setting-up-database).
