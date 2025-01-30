@@ -1303,6 +1303,7 @@
    	  	* [Настройка окружения](idea-hub/installation/linux/setting-up-environment.md)
    	  	* [Установка и настройка веб-сервера Nginx](idea-hub/installation/linux/installing-nginx.md)
    	  	* [Проверка установки](idea-hub/installation/linux/сhecking-installation.md)
+   	  	* [Настройка прав доступа к файлам и каталогам подключения к Оркестратору](idea-hub/installation/linux/setting-access-to-orchfiles.md)
    	  	* [Установка обновлений для релиза 24.12](idea-hub/installation/linux/installing-updates-for-24.12.md)
    	  	* [Скрипт drupal_fix_permissions.sh](idea-hub/installation/linux/drupalfixpermissions.md)
  	* [Настройка cron](idea-hub/installation/cron.md)
