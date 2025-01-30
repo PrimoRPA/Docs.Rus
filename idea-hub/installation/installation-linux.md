@@ -1,7 +1,8 @@
 # Установка на ОС Linux
 
 Установка и настройка окружения выполняется на машине с операционной системой Linux (Ubuntu, Debian).
-		
+
+
 ## PHP
 
 Проверяем, установлен ли на целевой машине PHP:
@@ -21,18 +22,19 @@ with Xdebug v3.2.1, Copyright (c) 2002-2023, by Derick Rethans
 
 Если версия PHP ниже 8.1 или пакет не установлен, необходимо обновить или установить его. 
 
-В случае ОС Астра Линукс требуется произвести обновление репозитория:
+Если используется ОС Астра Линукс, то требуется произвести обновление репозитория:
 ```
 astra-ce https://dl.astralinux.ru/astra/stable/1.7_x86-64/repository-extended/
 ```
 
 ### Установка пакета и модулей PHP
 
-Выполните команду:
+Выполняем команду:
 ```
 $ sudo apt install php8.1
 ```
-Установите необходимые модули:
+
+Устанавливаем необходимые модули:
 1. php8.1-imagick
    ```
    $ sudo apt install php8.1-imagick
@@ -82,55 +84,54 @@ $ sudo apt install php8.1
 ## PostgreSQL
 
 Проверяем, установлен ли на целевой машине PostgreSQL:
-
 ```
 $ psql –version
 ```
-
-Если версия PostgreSQL >= 13, то переходим к пункту **Настройка базы данных**.
+Если PostgreSQL установлен, и его версия >= 13, то переходим к пункту [Настройка базы данных](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/readme-installation/installation-linux#nastroika-bazy-dannykh).
 
 В противном случае производим установку PostgreSQL:
-```
-$ sudo apt install postgresql postgresql-contrib
-```
-
-После установки postgresql необходимо откорректировать конфигурационные файлы:
-
-1. `/etc/postgresql/14/main/postgresql.conf` — в этом файле изменения производятся только в том случае, если рассматривается возможность подключения к БД Idea Hub по сети.
-
-   Находим строку:
+1. Используем команду:
    ```
-   listen_addresses = 'localhost'
+   $ sudo apt install postgresql postgresql-contrib
    ```
-   И меняем значение, чтобы сервер БД слушал подключения на всех локальных интерфейсах:
+1. После установки вносим изменения в следующие конфигурационные файлы:
+   * `/etc/postgresql/14/main/postgresql.conf` — этот файл меняем только в том случае, если рассматривается возможность подключения к БД Idea Hub по сети.
+
+     Находим строку:
+     ```
+     listen_addresses = 'localhost'
+     ```
+
+     Для того, чтобы сервер БД слушал подключения на всех локальных интерфейсах, меняем значение на:
+     ```
+     listen_addresses = '*'
+     ```
+
+     Для того, чтобы сервер БД слушал подключения на конкретном интерфейсе, пишем:
+     ```
+     listen_addresses = 'IP-address'
+     ```
+
+   * `/etc/postgresql/14/main/pg_hba.conf`
+
+     Вносим следующие изменения в соответствии с политиками безопасности предприятия:
+     
+     ```local   all             all				md5```
+
+     Позволяет любому пользователю локальной системы подключаться к базе данных "postgres", если он передает правильный пароль.
+
+     ```host    all             all             192.168.12.10/24	md5```
+
+     Позволяет любому пользователю компьютера 192.168.12.10 подключаться к базе данных "postgres", если он передаёт правильный пароль.
+
+1. Далее перезапускаем PostgreSQL:
+
    ```
-   listen_addresses = '*'
-   ``` 
-   Или чтобы сервер БД слушал подключения на конкретном интерфейсе:
+   $ sudo systemctl reastart postgresql
    ```
-   listen_addresses = 'IP-address'
    ```
-
-1. `/etc/postgresql/14/main/pg_hba.conf`
-
-   Вносим следующие изменения в соответствии с политиками безопасности предприятия:
-
-   ```local   all             all				md5``` 
-
-   Позволяет любому пользователю локальной системы подключаться к базе данных "postgres", если он передает правильный пароль.
-
-   ```host    all             all             192.168.12.10/24	md5```
-
-   Позволяет любому пользователю компьютера 192.168.12.10 подключаться к базе данных "postgres", если он передаёт правильный пароль.
-
-Перезапускаем PostgreSQL:
-
- ```
- $ sudo systemctl reastart postgresql
-```
- ```
- $ sudo systemctl status postgresql
-```
+   $ sudo systemctl status postgresql
+   ```
 
 ## Настройка базы данных
 
@@ -143,13 +144,13 @@ $ sudo -i -u postgres
 $ psql
 ```
 
-Создаем нового пользователя PostgreSQL (вместо password указываем свой пароль):
+Создадим нового пользователя PostgreSQL, где вместо password требуется указать свой пароль:
 
 ```
 CREATE USER primo_ideahub WITH PASSWORD 'password';
 ```
 
-Создаем базу данных и добавляем нужные привилегии:
+Создадим базу данных и добавим нужные привилегии:
 ```
 CREATE DATABASE ideahub OWNER primo_ideahub;
 GRANT ALL PRIVILEGES ON DATABASE ideahub TO primo_ideahub;
@@ -168,17 +169,19 @@ $ sudo service postgresql restart
 
 ## Установка и настройка Drush (CLI административный модуль)
 
-Создаем пользователя, из-под которого будут запускаться скрипты:
+Создаем пользователя, который будет запускать скрипты:
 ```
 $ sudo adduser ideahub
 ```
 
-Добавляем его в группу **www-data**:
+Добавляем пользователя в группу **www-data**:
 ```
 $sudo usermod -a -G www-data ideahub
 ```
 
-Создаем каталог для установки IH с определенными правами (группе и владельцу разрешено читать и писать) и устанавливаем владельцами этого каталога пользователя **ideahub** и группу **www-data**:
+Войдем под пользователем ideahub, чтобы пользователь добавился в группу **www-data**.
+
+Создаем каталог для установки Idea Hub с определенными правами (группе и владельцу разрешено читать и писать) и устанавливаем владельцами этого каталога пользователя **ideahub** и группу **www-data**:
 
 ```
 $ sudo mkdir -m gu+rw -p  /var/www/ideahub
@@ -202,19 +205,21 @@ $ tar -xzf idea-hub.install.24.6.6.linux.tar.gz -C /var/www/ideahub/
 $sudo chown -R ideahub:www-data /var/www/ideahub
 ```
 
-## Установка IdeaHub
+## Установка Idea Hub
 
-В каталоге `/var/www/ideahub/db` находится дамп базы данных `/var/www/ideahub/db/ideahub_demo.sql.gz` (название файла может отличаться). 
+В каталоге `/var/www/ideahub/db` находится дамп базы данных `/var/www/ideahub/db/ideahub_demo.sql.gz`. Название файла может отличаться. 
 
 1. Восстанавливаем базу данных PostgreSQL из этого файла командой:
    ```
    gunzip -c /var/www/ideahub/db/ideahub_demo.sql.gz | psql -U primo_ideahub -d ideahub
    ```
-   Будет предложено ввести пароль для пользователя **primo_ideahub**. Вводим пароль, установленный для этого пользователя в разделе **Настройка базы данных**.
+   Система предложит ввести пароль для пользователя **primo_ideahub**. Вводим пароль, который был установлен для этого пользователя в разделе **Настройка базы данных**.
 
    После восстановления базы данных каталог `/var/www/ideahub/db` можно удалить.
 
-1. В каталоге `web/sites/default/` создаем папку `files` и настраиваем для нее права:
+1. Далее настроиваем папки и права. Можно вводить команды вручную, как это описано ниже, либо использовать скрипт `drupal_fix_permissions` — [инструкция](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/readme-installation/installation-linux#skript-drupal_fix_permissions.sh) по использованию скрипта приведена внизу страницы. 
+
+   В каталоге `web/sites/default/` создаем папку `files` и настраиваем для нее права:
    ```
    $ mkdir /var/www/ideahub/web/sites/default/files
    $ cd /var/www/ideahub
@@ -271,9 +276,8 @@ $sudo chown -R ideahub:www-data /var/www/ideahub
    $ drush status
    ```
 
-Результат должен быть примерно таким:
-```
-shell
+Результат должен быть следующего вида:
+```shell
 Drupal version   : 9.5.10-dev
 Site URI         : https://ideahub-v2.lndo.site/
 DB driver        : pgsql
@@ -346,6 +350,7 @@ $ drush cr
    ```
 
 ## Настройка доступа через браузер
+
 Теперь вашей локальной машине нужно дать доступ к сайту.
 
 1. Найдите файл `hosts`.
@@ -374,46 +379,54 @@ $ drush cr
 
 ### Файлы и каталоги подключения к Оркестратору
 
-1. Добавить пользователя, от имени которого запускается cron в группу **www-data**. Предположим, что это пользователь с именем **ideahub**:
-```
-sudo usermod -a -G www-data ideahub
-```
-2. Назначить папке `scripts/orc-data-fetch` и всем файлам внутри владельца ideahub и группу **www-data**. 
-Дать право на запись группе.
+1. В группу **www-data** добавляем пользователя, от имени которого запускается cron. Предположим, что это пользователь с именем **ideahub**.
 
-```
-sudo chown ideahub:www-data scripts/orc-data-fetch -R
-sudo chgrp ideahub:www-data scripts/orc-data-fetch -R
-sudo chmod ug+w scripts/orc-data-fetch -R
-```
-3. Дать права на запуск файла `scripts/orc-data-fetch/get_data.sh` пользователю и группе **www-data**:
-```
-sudo chmod ug+x scripts/orc-data-fetch/get_data.sh
-```
-4. Дать права на запись в каталог, указанный в переменной `OUTPUT_FOLDER` в файле `scripts/orc-data-fetch/.env`:
-```
-sudo chown www-data OUTPUT_FOLDER
-sudo chgrp www-data OUTPUT_FOLDER
-sudo chmod ug+w OUTPUT_FOLDER
-```
-В командах выше, `OUTPUT_FOLDER` нужно заменить на путь, который указан в файле `scripts/orc-data-fetch/.env`.
+   Сналача войдем в систему под пользователем **ideahub**, иначе команда добавления не сработает. Можно использовать sudo доступ:
+   ```
+   sudo su ideahub
+   ```
+
+   После чего добавляем пользователя командой:
+   ```
+   sudo usermod -a -G www-data ideahub
+   ```
+
+2. Назначаем папке `scripts/orc-data-fetch` и всем её файлам владельца **ideahub** и группу **www-data**. Даем право на запись группе.
+   ```
+   sudo chown ideahub:www-data scripts/orc-data-fetch -R
+   sudo chgrp ideahub:www-data scripts/orc-data-fetch -R
+   sudo chmod ug+w scripts/orc-data-fetch -R
+   ```
+3. Даем права на запуск файла `scripts/orc-data-fetch/get_data.sh` пользователю и группе **www-data**:
+   ```
+   sudo chmod ug+x scripts/orc-data-fetch/get_data.sh
+   ```
+4. Даем права на запись в каталог, указанный в переменной `OUTPUT_FOLDER` в файле `scripts/orc-data-fetch/.env`:
+   ```
+   sudo chown www-data OUTPUT_FOLDER
+   sudo chgrp www-data OUTPUT_FOLDER
+   sudo chmod ug+w OUTPUT_FOLDER
+   ```
+
+   В командах выше нужно заменить `OUTPUT_FOLDER` на путь, который указан в файле `scripts/orc-data-fetch/.env`.
+
 
 ### Скрипт drupal_fix_permissions.sh
-Данный скрипт устанавливает корректные доступы к файлам и каталогам IdeaHub. Для использования скрипта необходим `sudo` доступ. 
 
-Стоит принять во внимание, что если какая-либо папка (private, files или другие) отсутствует скрипт не покажет ошибки.
+Скрипт устанавливает корректные доступы к файлам и каталогам Idea Hub. Для использования скрипта необходим `sudo` доступ. 
 
-1. Скачать [здесь](https://github.com/Metadrop/drupal-fix-permissions-script/blob/main/drupal_fix_permissions.sh) скрипт.
+Стоит принять во внимание, что если какая-либо папка (private, files или другие) отсутствует, то скрипт не покажет ошибки.
 
-2. Ознакомиться с документацией встроенной в этот скрипт. Можно посмотреть, если запустить скрипт с параметром `--help`.
+Чтобы воспользоваться скриптом:
+
+1. [Скачайте](https://github.com/Metadrop/drupal-fix-permissions-script/blob/main/drupal_fix_permissions.sh) скрипт.
+2. Ознакомьтесь с документацией, встроенной в этот скрипт. Документацию можно посмотреть, если запустить скрипт с параметром `--help`.
    ```
    sudo bash drupal_fix_permissions.sh --help
    ```
-3. Определить группу от которой работает ваш сервер, зачастую это `www-data` (найти универсальный способ определения).
-
-4. Желательно чтобы пользователь, который владеет папкой с проектом и пользователь, который запускает `cron` совпадали (нужно обозначить, что должен быть специальный пользователь, например **ideahub**, от имени которого и установка и обновления и пр.).
-
-5. Основные опции команды это:
+3. Определите группу, от которой работает ваш сервер. Зачастую это **www-data** (найдите универсальный способ определения).
+4. Желательно, чтобы пользователь, который владеет папкой с проектом, и пользователь, который запускает `cron`, совпадали. Нужно обозначить, что должен быть специальный пользователь, например **ideahub**, от имени которого выполняется и установка, и обновления, и т.п.
+5. Основные опции команды:
    - ```-u``` пользователь.
    - ```-g``` группа.
    - ```-f``` путь до папки private из папки `web`.
