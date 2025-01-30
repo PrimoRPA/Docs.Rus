@@ -62,5 +62,5 @@
 
 ## Варианты развертывания компонентов
 
-Возможные варианты развертывания компонентов приведены [здесь](../../orchestrator-new/deployment/component-deployment-options.md).
+Возможные варианты развертывания компонентов приведены [здесь](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/deployment/component-deployment-options).
 
