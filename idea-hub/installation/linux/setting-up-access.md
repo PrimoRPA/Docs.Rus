@@ -92,4 +92,7 @@ Files, Temp      : /tmp
 drush cr
 ```
 
+## Что дальше
+
+Следующий шаг — [настройка окружения](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/readme-installation/linux/setting-up-environment).
 
