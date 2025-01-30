@@ -7,4 +7,6 @@
 4. Далее следует настроить поля друпала. К примеру для поля "Документы", контент типа процесс, надо перейти по адресу `/admin/structure/types/manage/process/fields/node.process.field_docs` и редактировать значение в поле "Максимальный размер закачки". Для 100 мегабайт значением будет 100MB.
 
 
+## Что дальше
 
+Следующий шаг — [установка и настройка веб-сервера Nginx](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/readme-installation/linux/installing-nginx).
