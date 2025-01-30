@@ -21,7 +21,7 @@
 После настройки интеграции можно проверить её работу, сопоставив записи журнала Оркестратора с записями в хранилище, в котором сохраняются события от Webhooks.
 
 > \* См. статьи [Установка LogEventsWebhook как службы под Windows 2016 Server](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/windows/additional-components-win/logeventswebhook-win) или [Установка LogEventsWebhook под CentOS](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/linux/additional-components-linux/logeventswebhook-linux-centos).\
-> \*\* См. статью [Спецификация WebApi на прием событий Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/admin/webapi-spec/webapi-orc-events.md). 
+> \*\* См. статью [Спецификация WebApi на прием событий Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/admin/webapi-spec/webapi-orc-events). 
 
 ## Аналитическая БД
 
