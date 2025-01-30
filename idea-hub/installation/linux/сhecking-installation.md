@@ -5,6 +5,9 @@
 1. Разработчики сообщат о том, какие вещи необходимо исправить, и могут подключиться для помощи.
 
 
+## Что дальше
+
+Следующий шаг — [настройка прав доступа к каталогам подключения к Оркестратору](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/readme-installation/linux/setting-access-to-orchfiles).
 
 
 
