@@ -58,4 +58,4 @@ Drush — это утилита с интерфейсом командной с�
 
 ## Что дальше
 
-Следующий шаг — [настройка базы и доступов к файлам](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/readme-installation/linux/setting-up-access).
+Следующий шаг — [настройка базы и доступов к файлам](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/setting-up-access).
