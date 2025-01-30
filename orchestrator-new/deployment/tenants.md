@@ -39,6 +39,9 @@
 
 ## Дополнительно
 
-Вам также может быть интересен раздел [Мультитенантная AD-авторизация](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/deployment/deploy-options).
+Вам также могут быть интересны разделы:
+
+- [Мультитенантная AD-авторизация](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/deployment/deploy-options);
+- [Отключение тенанта по умолчанию](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/fine-tuning/disable-default-tenant).
 
 
