@@ -10,3 +10,7 @@ drush migrate:import library_items --execute-dependencies --update
 ```
 drush ev "require_once (\Drupal::root() . '/../scripts/RandomContent.php');(new RandomContent())->createDashboards();"
 ```
+
+## Что дальше 
+
+Следующий шаг — [проверка установки](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/shecking-installation).
