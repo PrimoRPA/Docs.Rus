@@ -9,4 +9,4 @@
 
 ## Что дальше
 
-Следующий шаг — [установка и настройка веб-сервера Nginx](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/readme-installation/linux/installing-nginx).
+Следующий шаг — [установка и настройка веб-сервера Nginx](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/installing-nginx).
