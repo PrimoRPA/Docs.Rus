@@ -55,4 +55,3 @@
 
 Дополнительно:
 * Скрипт [drupal_fix_permissions.sh](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/readme-installation/linux/drupalfixpermissions).
-* Утилита pass — консольный менеджер паролей.
