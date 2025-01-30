@@ -31,3 +31,7 @@ postgres=# \q
 ```
 sudo service postgresql restart
 ```
+
+## Что дальше
+
+Следующий шаг — установка Idea Hub. Начнем с [подготовки к установке](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/readme-installation/linux/drush).
