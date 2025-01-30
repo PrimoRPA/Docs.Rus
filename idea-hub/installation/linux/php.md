@@ -75,6 +75,3 @@ sudo apt install php8.1
    apt install php8.1-ldap
    ```
 
-## Что дальше
-
-Следует проверить ...
