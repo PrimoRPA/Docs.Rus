@@ -47,7 +47,7 @@ POST: Url
 | Свойство  | Тип  | Описание  |  
 | --------- | ---- | --------- |   
 | Id        | Guid | Идентификатор события |   
-| Event     | Enum? | Событие. См. поле **Код** в [Приложении 3 - События Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator/appendix/appendix3) |
+| Event     | Enum? | Событие. См. поле **Код** в [Приложении 3 - События Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/appendix/appendix3) |
 | EntityId  | string | Идентификатор сущности, связанной с событием | 
 | UserId    | string | Идентификатор пользователя, связанного с событием  | 
 | OrchTimestampUtc | DateTime | Время события по времени оркестратора в UTC | 
@@ -110,8 +110,8 @@ May 22 15:33:53 host CEF:0|Primo|Orchestrator.ArcSight|1.0.0.0|8040|AgentStartRo
 >\**Требования к сервису могут быть уточнены по результатам тестирования Заказчиком работы интеграции*.\
 
 Инструкции по установке ArcSight:
-* [Для ОС Linux](../../../../orchestrator-new/install/linux/additional-components-linux/arcsight-linux-centos.md)
-* [Для ОС Windows](../../../../orchestrator-new/install/windows/additional-components-win/arc-sight-win.md)
+* [Для ОС Linux](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/linux/additional-components-linux/arcsight-linux-centos)
+* [Для ОС Windows](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/windows/additional-components-win/arc-sight-win)
 
 
 
