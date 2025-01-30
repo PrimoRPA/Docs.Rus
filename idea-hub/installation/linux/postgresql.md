@@ -51,3 +51,8 @@ psql –version
    ```
    ```
    sudo systemctl status postgresql
+
+
+## Что дальше 
+
+Следующий шаг — [настройка базы данных](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/readme-installation/linux/setting-up-database).
