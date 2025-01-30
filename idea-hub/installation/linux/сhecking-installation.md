@@ -7,7 +7,7 @@
 
 ## Что дальше
 
-Следующий шаг — [настройка прав доступа к каталогам подключения к Оркестратору](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/readme-installation/linux/setting-access-to-orchfiles).
+Следующий шаг — [настройка прав доступа к каталогам подключения к Оркестратору](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/setting-access-to-orchfiles).
 
 
 
