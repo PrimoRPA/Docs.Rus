@@ -2,7 +2,7 @@
 
 Дополнительная информация по работе с кластерами (на английском языке): [Clustering Guide](https://www.rabbitmq.com/clustering.html) и [Queue Mirroring](https://www.rabbitmq.com/ha.html).
 
-1. На каждом узле кластера развертываем RabbitMQ в соответствии со статьей [Установка RabbitMQ под CentOS 8](../../../../../orchestrator-new/install/linux/centos/rabbitmq-centos.md).
+1. На каждом узле кластера развертываем RabbitMQ в соответствии со статьей [Установка RabbitMQ под CentOS 8](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/linux/centos/rabbitmq-centos).
 
 2. На каждом узле кластера открываем дополнительные порты, необходимые для работы кластера:
 ```
