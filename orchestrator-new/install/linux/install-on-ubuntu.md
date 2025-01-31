@@ -82,7 +82,7 @@ systemctl restart rabbitmq-server
 
 `systemctl status rabbitmq-server`
 
-Дополнительную информацию по установке Rabbit MQ можно найти в статье [Установка RabbitMQ на CentOS 8](https://azure-dos.s1.primo1.orch/PrimoCollection/Documentation/_git/Documentation.RU?path=/orchestrator-new/install/linux/centos/rabbitmq-centos.md&version=GBOrchestrator-NewDocumentation-InProgress&_a=preview)
+Дополнительную информацию по установке Rabbit MQ можно найти в статье [Установка RabbitMQ на CentOS 8](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/linux/centos/rabbitmq-centos)
 
 - **Шаг 4**
 
@@ -107,7 +107,7 @@ systemctl restart nginx
 
 `systemctl status nginx`
 
-С более подробной информацией об установке nginx (на CentOS 8) можно ознакомиться в статье [Установка nginx под CentOS 8](https://azure-dos.s1.primo1.orch/PrimoCollection/Documentation/_git/Documentation.RU?path=/orchestrator-new/install/linux/centos/nginx-centos.md&version=GBOrchestrator-NewDocumentation-InProgress&_a=preview).
+С более подробной информацией об установке nginx (на CentOS 8) можно ознакомиться в статье [Установка nginx под CentOS 8](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/linux/centos/nginx-centos).
 
 - **Шаг 5**
 
@@ -118,7 +118,7 @@ systemctl restart nginx
 Перейдите адресу: 
 [https://ipaddr:44392](https://ipaddr:44392)
 
-Информация об установке UI на CentOS 8 содержится в соответствующей [статье](https://azure-dos.s1.primo1.orch/PrimoCollection/Documentation/_git/Documentation.RU?path=/orchestrator-new/install/linux/centos/ui-centos.md&version=GBOrchestrator-NewDocumentation-InProgress).
+Информация об установке UI на CentOS 8 содержится в соответствующей [статье](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/linux/centos/ui-centos).
 
 - **Шаг 6**
 
@@ -139,7 +139,7 @@ systemctl start Primo.Orchestrator.WebApi
 systemctl status Primo.Orchestrator.WebApi
 ```
 
-Вы также можете ознакомиться с более подробной [инструкцией по установе WebApi](https://azure-dos.s1.primo1.orch/PrimoCollection/Documentation/_git/Documentation.RU?path=/orchestrator-new/install/linux/centos/webapi-centos.md&version=GBOrchestrator-NewDocumentation-InProgress&_a=preview).
+Вы также можете ознакомиться с более подробной [инструкцией по установе WebApi](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/linux/centos/webapi-centos).
 
 > **Дальнейшие пункты (7-11) могут выполняться в произвольном порядке.**
 
@@ -159,7 +159,7 @@ systemctl start Primo.Orchestrator.RDP2
 systemctl status Primo.Orchestrator.RDP2
 ```
 
-Дополнительную информацию о процедуре установки RDP2 можно найти в статьях [Установка RDP2 под CentOS 8](https://azure-dos.s1.primo1.orch/PrimoCollection/Documentation/_git/Documentation.RU?path=/orchestrator-new/install/linux/centos/rdp2-centos.md&version=GBOrchestrator-NewDocumentation-InProgress&_a=preview) и [Установка RDP2 под Astra Linux 1.7](https://azure-dos.s1.primo1.orch/PrimoCollection/Documentation/_git/Documentation.RU?path=/orchestrator-new/install/linux/astra/RDP2-astra.md&version=GBOrchestrator-NewDocumentation-InProgress&_a=preview).
+Дополнительную информацию о процедуре установки RDP2 можно найти в статьях [Установка RDP2 под CentOS 8](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/linux/centos/rdp2-centos) и [Установка RDP2 под Astra Linux 1.7](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/linux/astra/RDP2-astra).
 
 - **Шаг 8**
 
@@ -177,7 +177,7 @@ systemctl start Primo.Orchestrator.States
 systemctl status Primo.Orchestrator.States
 ```
 
-Вы также можете ознакомиться с процедурой установки службы States в статье [Установка States под CentOS 8](https://azure-dos.s1.primo1.orch/PrimoCollection/Documentation/_git/Documentation.RU?path=/orchestrator-new/install/linux/centos/states-centos.md&version=GBOrchestrator-NewDocumentation-InProgress&_a=preview).
+Вы также можете ознакомиться с процедурой установки службы States в статье [Установка States под CentOS 8](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/linux/centos/states-centos).
 
 - **Шаг 9**
 
@@ -195,7 +195,7 @@ systemctl start Primo.Orchestrator.RobotLogs
 systemctl status Primo.Orchestrator.RobotLogs
 ```
 
-Более подробную информацию об установке RobotLogs можно найте в [статье](https://azure-dos.s1.primo1.orch/PrimoCollection/Documentation/_git/Documentation.RU?path=/orchestrator-new/install/linux/centos/robotlogs-centos.md&version=GBOrchestrator-NewDocumentation-InProgress&_a=preview).
+Более подробную информацию об установке RobotLogs можно найте в [статье](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/linux/centos/robotlogs-centos).
 
 - **Шаг 10**
 
@@ -213,7 +213,7 @@ systemctl start Primo.Orchestrator.Notifications
 systemctl status Primo.Orchestrator.Notifications
 ```
 
-С дополнительной информацией об установке Notifications можно ознакомиться в статье [Установка Notifications на CentOS 8](https://azure-dos.s1.primo1.orch/PrimoCollection/Documentation/_git/Documentation.RU?path=/orchestrator-new/install/linux/centos/notifications-centos.md&version=GBOrchestrator-NewDocumentation-InProgress&_a=preview).
+С дополнительной информацией об установке Notifications можно ознакомиться в статье [Установка Notifications на CentOS 8](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/linux/centos/notifications-centos.md).
 
 - **Шаг 11**
 
@@ -230,5 +230,5 @@ vim /opt/Primo/MachineInfo/appsettings.ProdLinux.json
 systemctl start Primo.Orchestrator.MachineInfo
 systemctl status Primo.Orchestrator.MachineInfo
 ```
-
+Более детальную информацию об установке MachineInfo вы можете прочитать в соответствующей [статье](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/linux/centos/machineinfo-centos).
 
