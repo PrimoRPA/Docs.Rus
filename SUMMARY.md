@@ -1217,6 +1217,7 @@
     * [Установка Агента Оркестратора](orchestrator/setting-up-machines/linux/robotmachine/agentinstall.md)
     	* [Установка и настройка Агента версии 1.24.2.8 для Astra Linux 1.7](orchestrator/setting-up-machines/linux/robotmachine/agentinstall-1.24.8.2-astra.md)
 * [Варианты установки Оркестратора](orchestrator/quick-installation/README.md)
+  * [Установка Оркестратора с помощью инсталлятора](orchestrator/quick-installation/installation.md)
   * [Установка Оркестратора на веб-сервер IIS](orchestrator/quick-installation/IIS-web-server.md)
   * [Установка Оркестратора на веб-сервер Nginx](orchestrator/quick-installation/nginx-web-server.md)
   * [Развёртывание Оркестратора на веб-сервере Angie (РЕДОС v.7.3)](orchestrator/quick-installation/angie-web-server-redos.md)
