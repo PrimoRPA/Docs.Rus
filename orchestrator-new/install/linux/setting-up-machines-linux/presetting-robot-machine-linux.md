@@ -15,7 +15,7 @@
 
 Компоненты Оркестратора (выборочно\*) и их связи и с роботами/машиной робота приведены на схеме ниже:
 
-\* _Полная схема приведена в разделе_ [_Компоненты системы_](../orchestrator-new/system-components.md).
+\* _Полная схема приведена в разделе_ [_Компоненты системы_](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/system-components).
 
 ![](<../../../../orchestrator-new/resources/install/linux/setting-up-machines-linux/Orch-components-robots-links.PNG>)
 
@@ -60,4 +60,4 @@
 
 ## Установка Агента
 
-Установка Агента и настройка машины для робота пошагово описана в разделе [**Установка Агента Оркестратора**](../../../orchestrator-new/install/linux/setting-up-machines-linux/agentinstall.md).
+Установка Агента и настройка машины для робота пошагово описана в разделе [**Установка Агента Оркестратора**](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/linux/setting-up-machines-linux/agentinstall).
