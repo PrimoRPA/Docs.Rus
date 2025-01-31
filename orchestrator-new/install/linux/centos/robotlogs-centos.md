@@ -2,7 +2,7 @@
 
 Подключитесь к серверу по SSH с пользователем с правами root. 
 
-Сначала требуется [установить RabbitMQ](https://azure-dos.s1.primo1.orch/PrimoCollection/Documentation/_git/Documentation.RU?path=/orchestrator-new/install/linux/centos/rabbitmq-centos.md&version=GBOrchestrator-NewDocumentation-InProgress&_a=preview).
+Сначала требуется [установить RabbitMQ](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/linux/centos/rabbitmq-centos).
 
 Скопируйте папку `/srv/samba/shared/install/RobotLogs-linux` в `/opt/Primo/RobotLogs`:
 
@@ -28,7 +28,7 @@ systemctl daemon-reload
 
 `chmod -R 777 /opt/Primo/RobotLogs/Primo.Orchestrator.RobotLogs`
 
-Все остальные настройки выполните аналогично статье [Установка RobotLogs как службы под Windows 2016 Server] (ССЫЫЫЛКА !!!) (файловые пути должны быть в стиле Linux).
+Все остальные настройки выполните аналогично статье [Установка RobotLogs как службы под Windows 2016 Server(https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/windows/robotlogs-windows).
 
 Запустите службу:
 
