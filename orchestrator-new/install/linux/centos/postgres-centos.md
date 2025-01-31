@@ -3,7 +3,7 @@
 Вместо CentOS 8 можно использовать RHEL 8.4+. Для RHEL 7.9 потребуется использовать yum.
 
 > Если в продуктивной среде предполагаются большие нагрузки, рекомендуется после установки PostgreSQL установить pgbouncer.
-Информацию о его установке можно найти в статье [Установка pgbouncer под CentOS 8](../../../../orchestrator-new/install/linux/centos/pgbouncer-centos.md).
+Информацию о его установке можно найти в статье [Установка pgbouncer под CentOS 8](docs.primo-rpa.ru.primo-rpa/orchestrator-new/install/linux/centos/pgbouncer-centos).
 
 Скачайте и установите соответствующую вашей операционной системе версию, используя [инструкцию](https://www.postgresql.org/download/).
 
