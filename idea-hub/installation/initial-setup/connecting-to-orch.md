@@ -72,17 +72,17 @@
 Переменные:
 * SLEEP_DURATION_[ENVIRONMENT]=0 — пауза в секундах перед повторным запросом в таблицу, если записей больше, чем указано в QUERY_LIMIT.
 
-  Пример использования для разных окружений:
+  Пример использования для разных контуров:
   * `SLEEP_DURATION_PROD=0`
   * `SLEEP_DURATION_TEST=30`
 
 * DB\_[VAR]\_[DB_NAME]_[ENVIRONMENT]=reader
 
-  Пример использования для разных окружений:
+  Пример использования для разных контуров:
   * `DB_NAME_LTOOLS_PROD=ltools`
   * `DB_PASS_LTOOLSLICENSE_TEST=postgres`
 
-**Пример для окружения PROD:**
+**Пример для контура PROD:**
 
 Credentials: NAME, HOST, PORT, USER, PASS
 ```
