@@ -84,7 +84,7 @@
 
 **Пример заполнения переменных для контура PROD:**
 
-Credentials: NAME, HOST, PORT, USER, PASS
+Учетные данные (Credentials): NAME, HOST, PORT, USER, PASS
 ```
 DB_[VAR]_[DB_NAME]_[ENVIRONMENT]
 DB_NAME_LTOOLS_PROD=ltools
