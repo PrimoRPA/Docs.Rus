@@ -82,7 +82,7 @@
   * `DB_NAME_LTOOLS_PROD=ltools`
   * `DB_PASS_LTOOLSLICENSE_TEST=postgres`
 
-**Пример заполнения переменных для контура PROD:**
+**Пример заполнения для контура PROD:**
 
 Учетные данные (credentials): NAME, HOST, PORT, USER, PASS
 ```
