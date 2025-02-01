@@ -69,10 +69,15 @@
 
 Все переменные ниже задаются для каждого окружения отдельно, с суффиксом в виде имени этого окружения. Необязательно использовать имя PROD — замените его на необходимое вам имя. Пример:
 * SLEEP_DURATION_[ENVIRONMENT]=0
+  
 `SLEEP_DURATION_PROD=0`
+
 `SLEEP_DURATION_TEST=30`
+
 * DB\_[VAR]\_[DB_NAME]_[ENVIRONMENT]=reader
+  
 `DB_NAME_LTOOLS_PROD=ltools`
+
 `DB_PASS_LTOOLSLICENSE_TEST=postgres`
 
 SLEEP_DURATION_[ENVIRONMENT] — пауза в секундах перед повторным запросом в таблицу, если записей больше, чем указано в QUERY_LIMIT. 
