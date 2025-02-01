@@ -26,4 +26,4 @@ Primo RPA Studio — среда разработки сценариев по а�
 9. Выбор темы и языка интерфейса.
 
 ## См. также
-* [Издания Primo RPA Studio для Windows](https://docs.primo-rpa.ru/primo-rpa/primo-studio/common/editions).
+* [Издания Primo RPA Studio для Windows](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio/common/editions).
