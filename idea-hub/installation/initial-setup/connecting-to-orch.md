@@ -76,7 +76,7 @@
   * `SLEEP_DURATION_PROD=0`
   * `SLEEP_DURATION_TEST=30`
 
-* DB\_[VAR]\_[DB_NAME]_[ENVIRONMENT]=reader
+* DB\_[VAR]\_[DB_NAME]_[ENVIRONMENT]=reader — ...
 
   Пример использования для разных контуров:
   * `DB_NAME_LTOOLS_PROD=ltools`
