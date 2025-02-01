@@ -75,10 +75,11 @@
 `DB_NAME_LTOOLS_PROD=ltools`
 `DB_PASS_LTOOLSLICENSE_TEST=postgres`
 
-SLEEP_DURATION_[ENVIRONMENT] - пауза в секундах перед повторным запросом в таблицу, если записей больше, чем указано в QUERY_LIMIT. 
+SLEEP_DURATION_[ENVIRONMENT] — пауза в секундах перед повторным запросом в таблицу, если записей больше, чем указано в QUERY_LIMIT. 
+
 Например: `SLEEP_DURATION_PROD=0`
 
-*Пример для окружения PROD:*
+**Пример для окружения PROD:**
 
 Credentials: NAME, HOST, PORT, USER, PASS
 ```
@@ -99,6 +100,6 @@ DB_PASS_LTOOLSLICENSE_PROD=postgres
 ## Настройка Idea Hub
 
 1. В файле `config/settings.local.php` добавьте/измените переменные в блоке `Orch sync data variable`.
-1. `orch_raw_data_source_path` - каталог, в который скрипт складывает данные из Оркестратора. В общем случае это тот каталог, который указывался при настройке скрипта в .env файле в параметре OUTPUT_FOLDER. Каталог по умолчанию: `private://import-source/orch-sync`
-1. `orch_raw_data_target_path` - каталог, в который Idea Hub положит CSV файлы после обработки и подготовки данных из Оркестратора для синхронизации. По умолчанию это `private://import-source/environments`.
+1. `orch_raw_data_source_path` — каталог, в который скрипт складывает данные из Оркестратора. В общем случае это тот каталог, который указывался при настройке скрипта в файле `.env` в параметре OUTPUT_FOLDER. Каталог по умолчанию: `private://import-source/orch-sync`
+1. `orch_raw_data_target_path` — каталог, в который Idea Hub положит CSV-файлы после обработки и подготовки данных из Оркестратора для синхронизации. По умолчанию это `private://import-source/environments`.
 
