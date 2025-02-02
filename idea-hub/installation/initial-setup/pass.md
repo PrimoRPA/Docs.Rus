@@ -9,31 +9,36 @@ Pass — утилита, которая используется для шифр
 
 ## Установка для ОС CentOS
 
-Есть два варианта установки утилиты pass:
+Есть два варианта установки pass:
 1. Машина, на которую устанавливается утилита, имеет выход в интернет.
-2. Выход в Интернет отсутствует
+2. Выход в интернет отсутствует.
 
-**ВАРИАНТ 1**
+### Способ 1
 
-Поскольку утилита **pass** не входит в состав стандартных репозиториев ОС CentOS, для ее установки  необходимо подключение дополнительного репозитория.
+Поскольку утилита pass не входит в состав стандартных репозиториев ОС CentOS, для ее установки необходимо подключение дополнительного репозитория.
+
 **EPEL** (Extra Packages for Enterprise Linux) ―  открытое бесплатное хранилище пакетов от Fedora.
 
 В версиях CentOS ниже 9 версии иногда требуется ввести следующие команды для обеспечения работы установщика пакетов **yum**:
-
-_$ sudo sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*_
-_$ sudo sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*_
-_$ sudo dnf update -y_
-
+```
+sudo sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*_
+sudo sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*_
+sudo dnf update -y_
+```
 - Установка дополнительного репозитория:
-	$ sudo yum install epel-release
+```
+sudo yum install epel-release
+```
 
 - Установка **pass**
-	_$ sudo yum install pass_
+```
+sudo yum install pass_
+```
 Будет выдано предупреждение о том, что потребуется установка 
 дополнительных пакетов. Согласитесь с ним (`y`). 
 Пакет будет установлен со всеми необходимыми зависимостями.
 
-**ВАРИАНТ 2**
+### Способ 2
 
 На стенде разворачивается виртуальная машина с необходимой версией CentOS. В данном случае это CentOS 8.5.2111
 
