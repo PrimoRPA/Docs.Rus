@@ -15,9 +15,7 @@ Pass — утилита, которая используется для шифр
 
 ### Способ 1
 
-Поскольку утилита pass не входит в состав стандартных репозиториев ОС CentOS, для ее установки необходимо подключение дополнительного репозитория.
-
-**EPEL** (Extra Packages for Enterprise Linux) ―  открытое бесплатное хранилище пакетов от Fedora.
+Поскольку утилита pass не входит в состав стандартных репозиториев ОС CentOS, для ее установки необходимо подключение дополнительного репозитория EPEL (Extra Packages for Enterprise Linux) ― открытое бесплатное хранилище пакетов от Fedora.
 
 В версиях CentOS ниже 9 версии иногда требуется ввести следующие команды для обеспечения работы установщика пакетов **yum**:
 ```
@@ -30,29 +28,32 @@ sudo dnf update -y_
 sudo yum install epel-release
 ```
 
-- Установка **pass**
+- Установка pass:
 ```
 sudo yum install pass_
 ```
-Будет выдано предупреждение о том, что потребуется установка 
-дополнительных пакетов. Согласитесь с ним (`y`). 
+Система отобразит предупреждение о том, что потребуется установка дополнительных пакетов. Согласитесь с ним (`y`). 
+
 Пакет будет установлен со всеми необходимыми зависимостями.
 
 ### Способ 2
 
-На стенде разворачивается виртуальная машина с необходимой версией CentOS. В данном случае это CentOS 8.5.2111
+Разверните на стенде виртуальную машину с необходимой версией CentOS. В данном случае это CentOS 8.5.2111.
 
-Версию ОС можно посмотреть командой 
-_$ cat /etc/os-release_
-
-Повторяем шаги, описанные для ВАРИАНТА 1:
-
-_$ sudo sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*_
-_$ sudo sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*_
-_$ sudo dnf update -y_
-
+Версию ОС можно посмотреть командой:
+```
+cat /etc/os-release_
+```
+Повторите шаги, описанные для **Способа 1**:
+```
+sudo sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*_
+sudo sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*_
+sudo dnf update -y_
+```
 - Установка дополнительного репозитория:
-	$ sudo yum install epel-release
+```
+sudo yum install epel-release
+```
 
 Перечень пакетов, необходимых для установки утилиты **pass**:
 - qrencode-libs-3.4.4-5.el8.x86_64.rpm
@@ -62,24 +63,28 @@ _$ sudo dnf update -y_
 - pass-1.7.3-7.el8.noarch.rpm 
 
 Для скачивания этих пакетов необходима утилита **yumdownloader**, которая входит в пакет **yum-utils**.
+
 Установите пакет:
-_$ sudo yum install yum-utils_
-
+```
+sudo yum install yum-utils_
+```
 После чего скачайте вышеперечисленные пакеты в текущий каталог:
-
-_$ sudo yumdownloader --resolve qrencode-libs_
-_$ sudo yumdownloader --resolve tree_
-_$ sudo yumdownloader --resolve pass_
-
+```
+sudo yumdownloader --resolve qrencode-libs_
+sudo yumdownloader --resolve tree_
+sudo yumdownloader --resolve pass_
+```
 Отправьте скачанные пакеты адресату, загрузите их на машину Idea Hub без выхода в Интернет и установите следующими командами:
-_$ sudo rpm -Uvh qrencode-libs-3.4.4-5.el8.x86_64.rpm_
-_$ sudo rpm -Uvh qrencode-3.4.4-5.el8.x86_64.rpm_
-_$ sudo rpm -Uvh xclip-0.13-8.el8.x86_64.rpm_
-_$ sudo rpm -Uvh git-core-2.27.0-1.el8.x86_64.rpm_
-_$ sudo rpm -Uvh tree-1.7.0-15.el8.x86_64.rpm_
-_$ sudo rpm -Uvh pass-1.7.3-7.el8.noarch.rpm_
+```
+sudo rpm -Uvh qrencode-libs-3.4.4-5.el8.x86_64.rpm_
+sudo rpm -Uvh qrencode-3.4.4-5.el8.x86_64.rpm_
+sudo rpm -Uvh xclip-0.13-8.el8.x86_64.rpm_
+sudo rpm -Uvh git-core-2.27.0-1.el8.x86_64.rpm_
+sudo rpm -Uvh tree-1.7.0-15.el8.x86_64.rpm_
+sudo rpm -Uvh pass-1.7.3-7.el8.noarch.rpm_
+```
 
-**НАСТРОЙКА PASS**
+## НАСТРОЙКА pass
 
 В данном примере рассматривается настройка утилиты от пользователя **_cron_fetch_**, который является стандартным при установке ПО Idea Hub.
 
