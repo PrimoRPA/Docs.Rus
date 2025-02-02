@@ -64,7 +64,7 @@ sudo yum install epel-release
 
 Для скачивания этих пакетов необходима утилита **yumdownloader**, которая входит в пакет **yum-utils**.
 
-Установите пакет:
+Установите пакет yum-utils:
 ```
 sudo yum install yum-utils_
 ```
