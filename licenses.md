@@ -59,5 +59,5 @@
 
 ## Primo RPA Idea Hub
 
-Для запроса лицензий на решение [Primo RPA Idea Hub](https://docs.primo-rpa.ru/primo-rpa/idea-hub/readme-installation) напишите вендору на [license@primo-rpa.ru](mailto:License@primo-rpa.ru).
+Для запроса лицензий на решение [Primo RPA Idea Hub](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/description) напишите вендору на [license@primo-rpa.ru](mailto:License@primo-rpa.ru).
 
