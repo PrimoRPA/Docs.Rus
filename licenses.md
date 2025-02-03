@@ -17,7 +17,7 @@
 
 ## Primo RPA Studio
 
-Приложение Primo RPA Studio поставляется в [двух изданиях](https://docs.primo-rpa.ru/primo-rpa/primo-studio/editions):
+Приложение Primo RPA Studio поставляется в двух [изданиях](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio/common/editions):
 * Community — ознакомительная версия, имеет ограничения и не подлежит лицензированию.
 * Enterprise — полная версия, подлежит лицензированию.
 
