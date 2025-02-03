@@ -4,9 +4,9 @@
 1. Установить и настроить компоненты для машины сервера.
 2. Установить и настроить компоненты для целевой машины.
 
-## Сервер
+## Машина сервера
 Установка компонентов сервера выполняется в первую очередь и состоит из следующих этапов:
-1. [Предварительная настройка машины для Primo RPA AI Server](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/installing/linux/preconfiguring-server-machine).
+1. [Предварительная настройка машины](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/server-machine/preconfiguring-server-machine) для AI Server.
 1. Установка компонентов сервера вручную или с помощью Docker.
 
 
