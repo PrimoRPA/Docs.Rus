@@ -1,4 +1,4 @@
-#  Primo RPA Studio Windows  1.25.1
+#  Primo RPA Studio Windows  1.25.1 LTS
 
 Данный документ описывает улучшения, изменения и исправления ошибок, внесенные в релиз **Primo RPA Studio** за январь 2025-го года.
 
