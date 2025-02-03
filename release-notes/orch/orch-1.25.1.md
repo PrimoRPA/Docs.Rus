@@ -1,4 +1,4 @@
-# Primo RPA Orchestrator 1.25.1
+# Primo RPA Orchestrator 1.25.1 LTS
 
 Данный документ описывает улучшения и исправления ошибок, внесенные в релиз **Primo RPA Orchestrator 1.25.1** за январь 2025 года.
 
