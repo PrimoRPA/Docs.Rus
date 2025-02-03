@@ -30,7 +30,7 @@
 
 ## Запуск
 
-Primo RPA Studio поставляется в [двух изданиях](https://docs.primo-rpa.ru/primo-rpa/primo-studio/editions): 
+Primo RPA Studio поставляется в двух [изданиях](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio/common/editions):
 * Community —  ознакомительная версия, имеет ограничения и не подлежит лицензированию. Если вы установили это издание, то можно сразу начинать работу со Студией. 
 * Enterprise — полная версия, подлежит лицензированию. Если вы установили это издание, сначала ознакомьтесь с разделом [Запуск](https://docs.primo-rpa.ru/primo-rpa/primo-studio/enterprise).
 
