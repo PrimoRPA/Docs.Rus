@@ -41,7 +41,7 @@
     * [Студия Линукс 1.24.3](release-notes/studio-linux/studio-linux-1.24.3.md)
     * [Студия Линукс 1.24.1](release-notes/studio-linux/studio-linux-1.24.1.md)
   * [Orchestrator](release-notes/orch/README.md)
-    * [Оркестратор 1.25.1](release-notes/orch/orch-1.25.1.md)
+    * [Оркестратор 1.25.1 LTS](release-notes/orch/orch-1.25.1.md)
     * [Оркестратор 1.24.10](release-notes/orch/orch-1.24.10.md)
     * [Оркестратор 1.24.8](release-notes/orch/orch-1.24.8.md)
     * [Оркестратор 1.24.6](release-notes/orch/orch-1.24.6.md)
