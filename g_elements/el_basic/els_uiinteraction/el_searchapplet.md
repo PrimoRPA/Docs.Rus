@@ -1,10 +1,12 @@
 # Поиск Java Applet
 
-![](<../../../../.gitbook/assets/Поиск Java Applet.png>)
+![](<../../../.gitbook/assets/Поиск Java Applet.png>)
 
-Элемент, производящий поиск программы Java Applet.
+Элемент производит поиск программы Java Applet.
 
-> *Описание общих свойств см. в разделе [**Работа с элементами**](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements).*
+## Свойства
+Обязательные для заполнения свойства отмечены символом `*`. Описание общих свойств элемента см. [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).
+
 
 | Свойство             | Тип                                                               | Описание                                           |
 | -------------------- | ----------------------------------------------------------------- | -------------------------------------------------- |
@@ -16,6 +18,6 @@
 | Точность             | [Double](https://learn.microsoft.com/ru-ru/dotnet/api/system.double?v=20.2&f=token%20edit&view=net-6.0) | Точность совпадения растра. Указывается в % от 0 до 1 |
 | Область              | -                                                                 | Область поиска компонента. Нажмите на свойство, чтобы задать поиск по конкретным параметрам |
 | ***Вывод***          |                                                                   |     |
-| Applet               | [LTools.UIInteraction.Model.UIControl](https://docs.primo-rpa.ru/primo-rpa/g_elements/osnovnye-elementy/els_uiinteraction/datatypes/uicontrol)| Переменная для сохранения найденного апплета |
+| Applet               | [LTools.UIInteraction.Model.UIControl](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_uiinteraction/datatypes/uicontrol)| Переменная для сохранения найденного апплета |
 
   
