@@ -9,7 +9,7 @@
 
 ![](../../../../orchestrator-new/resources/orchestrator-admin/licensing/orch-license-request-form.png)
 
-В поле **Продукт** выберите подходящий [ЗАМЕНИТЬ ССЫЛКУ тип лицензий](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/licensing) на решение Primo RPA.
+В поле **Продукт** выберите подходящий [тип лицензий](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/orchestrator-admin/licensing/license-types) на решение Primo RPA.
 
 Сохраните сформированный запрос в текстовый файл (например, `robot.txt`) и отправьте вендору. 
 В ответ вендор пришлет файл лицензии с расширением \*.license (например, `robot.license`).
@@ -41,5 +41,5 @@
 Дата истечения лицензии подсвечивается индикатором процента истечения. Красный индикатор (100%) свидетельствует об истечении срока лицензии.
 
 Если впоследствии произошла смена оборудования БД лицензий (ltoolslicense) Заказчиком, то лицензии, добавленные в Оркестратор, становятся невалидными. 
-В этом случае лицензии требуется заменить, подробнее процесс замены описан [ЗАМЕНИТЬ ССЫЛКУ здесь](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/licensing/change-license).
+В этом случае лицензии требуется заменить, подробнее процесс замены описан [здесь](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/orchestrator-admin/licensing/change-license).
 
