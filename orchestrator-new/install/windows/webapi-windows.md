@@ -8,7 +8,7 @@
 
 Отредактируйтк конфигурационный файл WebApi (`C:\Primo\WebApi\appsettings.ProdWin.json`):  
 
-- Поменяйте на реальный (который у вашего сервера, см. [статью](../../install/windows/nginx-windows.md)) IP:  
+- Поменяйте на реальный (который у вашего сервера, см. [статью]([../../install/windows/nginx-windows.md](http://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/windows/nginx-windows))) IP:  
 ![](../../resources/install/windows/webapi-1.PNG)
 
 - Создайте папку для публикации дистрибутивов Робота, например, C:\tmp, и укажите её в конфигурации `appsettings.ProdWin.json`:  

@@ -47,7 +47,7 @@ New-Service -Name "Primo.Orchestrator.Agent" -BinaryPathName "C:\Primo\Agent\Pri
 ![](<../../../../orchestrator-new/resources/install/windows/setting-up-machines-win/appendix-7.PNG>)
 
 ## Настройка брандмауэра Windows
-Открываем [порты](../orchestrator-new/ports.md) для HTTP-сервера Агента (5002) и роботов (8000-9000) – по этим портам к ним обращается сервер Оркестратора.
+Открываем [порты](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/ports) для HTTP-сервера Агента (5002) и роботов (8000-9000) – по этим портам к ним обращается сервер Оркестратора.
 
 В PowerShell выполняем команды:
 ```

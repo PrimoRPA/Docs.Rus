@@ -1,13 +1,13 @@
 # Установка Агента Оркестратора
 
-Раздел содержит инструкции по установке Агента Оркестратора для следующих операционных систем:
+Руководство содержит инструкции по установке Агента Оркестратора для следующих операционных систем:
 
-* [CentOS 8.5](https://azure-dos.s1.primo1.orch/PrimoCollection/Documentation/_git/Documentation.RU?path=/orchestrator-new/install/linux/setting-up-machines-linux/agentinstall.md&version=GBOrch-NewDocs-OrchMachineRobotMachine&_a=preview&anchor=%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D1%8F-%D0%BF%D1%80%D0%B8-%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B5-centos-8.5)
-* [РЕДОС](https://azure-dos.s1.primo1.orch/PrimoCollection/Documentation/_git/Documentation.RU?path=/orchestrator-new/install/linux/setting-up-machines-linux/agentinstall.md&version=GBOrch-NewDocs-OrchMachineRobotMachine&_a=preview&anchor=%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D1%8F-%D0%BF%D1%80%D0%B8-%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B5-%D1%80%D0%B5%D0%B4%D0%BE%D1%81-7.3)
-* [Astra Linux 1.7](https://azure-dos.s1.primo1.orch/PrimoCollection/Documentation/_git/Documentation.RU?path=/orchestrator-new/install/linux/setting-up-machines-linux/agentinstall.md&version=GBOrch-NewDocs-OrchMachineRobotMachine&_a=preview&anchor=%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D1%8F-%D0%BF%D1%80%D0%B8-%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B5-astra-linux-1.7)
-* [CentOS 7](https://azure-dos.s1.primo1.orch/PrimoCollection/Documentation/_git/Documentation.RU?path=/orchestrator-new/install/linux/setting-up-machines-linux/agentinstall.md&version=GBOrch-NewDocs-OrchMachineRobotMachine&_a=preview&anchor=%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D1%8F-%D0%BF%D1%80%D0%B8-%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B5-centos-7)
+* CentOS 8.5
+* РЕДОС 
+* Astra Linux 1.7 
+* CentOS 7 
 
-А также [Инструкцию по проверке настройки машины робота](https://azure-dos.s1.primo1.orch/PrimoCollection/Documentation/_git/Documentation.RU?path=/orchestrator-new/install/linux/setting-up-machines-linux/agentinstall.md&version=GBOrch-NewDocs-OrchMachineRobotMachine&_a=preview&anchor=%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B0-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B8-%D0%BC%D0%B0%D1%88%D0%B8%D0%BD%D1%8B-%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%B0).
+В конце данной статьи вы также можете найти Инструкцию по проверке настройки машины робота.
 
 ## Общие настройки
 

@@ -4,7 +4,7 @@
 
 Базовая установка – это установка на той же машине, где развернута служба WebApi.
 
-Сначала требуется установить [RabbitMQ](../../orchestrator-new/install/windows/rabbitmq-windows.md).
+Сначала требуется установить [RabbitMQ](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/windows/rabbitmq-windows).
 
 Разархивируйте C:\Install\RobotLogs.zip в C:\Primo\RobotLogs. Можно при помощи PowerShell:
 ```

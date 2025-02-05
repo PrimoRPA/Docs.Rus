@@ -38,7 +38,7 @@ ChromeStandaloneSetup64.exe
 
 **Шаг 2. Установка PowerShell 7.1.3**
 
-Произведите установку PowerShell в соответствии с инструкцией [Установка PowerShell-7.1.3 под Windows](../../../orchestrator-new/install/windows/setting-up-machines-win/install-powershell.md). PowerShell будет использоваться далее при настройке Оркестратора.
+Произведите установку PowerShell в соответствии с инструкцией [Установка PowerShell-7.1.3 под Windows](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/windows/setting-up-machines-win/install-powershell). PowerShell будет использоваться далее при настройке Оркестратора.
 
 **Шаг 3. Установка браузера Google Chrome**
 

@@ -2,7 +2,7 @@
 
 В UI Оркестратора можно определить стратегию назначения роботов на выполнение RPA-проекта. Стратегию настраивает администратор Оркестратора **глобально для всех тенантов.**
 
-[ЗАМЕНИТЬ ССЫЛКУ Стратегию для отдельного тенанта](https://docs.primo-rpa.ru/primo-rpa/orchestrator/fine-tuning/project-queue-strategies-for-tenant) можно задать только в конфигурационном файле.
+[Стратегию для отдельного тенанта](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/fine-tuning/project-queue-strategies-for-tenant) можно задать только в конфигурационном файле.
 
 ## Глобальная стратегия
 
@@ -22,4 +22,4 @@
 
 
 ## Стратегия для отдельного тенанта
-Индивидуальную стратегию для каждого тенанта можно назначить только в конфигурационном файле WebApi (через веб-интерфейс настройка недоступна). Описание процесса см. [ЗАМЕНИТЬ ССЫЛКУ здесь](https://docs.primo-rpa.ru/primo-rpa/orchestrator/fine-tuning/project-queue-strategies-for-tenant).
+Индивидуальную стратегию для каждого тенанта можно назначить только в конфигурационном файле WebApi (через веб-интерфейс настройка недоступна). Описание процесса см. [здесь](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/fine-tuning/project-queue-strategies-for-tenant).

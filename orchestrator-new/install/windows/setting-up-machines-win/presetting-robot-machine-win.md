@@ -18,7 +18,7 @@
 
 ![](<../../../../orchestrator-new/resources/install/windows/setting-up-machines-win/Orch-components.PNG>)
 
-Полная схема приведена в разделе [Компоненты системы](../orchestrator-new/system-components.md).
+Полная схема приведена в разделе [Компоненты системы](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/system-components).
 
 **Агент** – self-hosted веб-приложение. Агент выполнен как .NET Core 3.1-приложение. Агент используется для развертывания и управления роботом на машине робота.
 
@@ -71,7 +71,7 @@
 
 Установить Агента Оркестратора на машине робота можно двумя способами:
 
-* [из инсталлятора `AgentInstaller.zip`](../../../../orchestrator-new/install/windows/setting-up-machines-win/appendix-win.md) - это основной инструмент для настройки машины робота;
-* [без использования инсталлятора](../../../../orchestrator-new/install/windows/setting-up-machines-win/appendix-win.md) - альтернативный вариант на случай, если не получилось установить Агента через инсталлятор.
+* [из инсталлятора `AgentInstaller.zip`](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/windows/setting-up-machines-win/agentinstaller-win) - это основной инструмент для настройки машины робота;
+* [без использования инсталлятора](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/windows/setting-up-machines-win/appendix-win) - альтернативный вариант на случай, если не получилось установить Агента через инсталлятор.
 
 

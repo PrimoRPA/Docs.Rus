@@ -1,15 +1,15 @@
-# Настройка keepalived для nginx на CentOS 8
+# Настройка keepalive для nginx на CentOS 8
 
-Отказоустойчивый кластер для nginx можно сделать на основе VRRP. Для этого используем службу **keepalived**.
+Отказоустойчивый кластер для nginx можно сделать на основе VRRP. Для этого используем службу **keepalive**.
 
-Пусть имеются 2 сервера nginx (установку и настройку см. в статье ["Установка Nginx под CentOS 8](../../../../../orchestrator-new/install/linux/centos/nginx-centos.md)») c IP (обязательно в одной сети):
+Пусть имеются 2 сервера nginx (установку и настройку см. в статье ["Установка Nginx под CentOS 8](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/linux/centos/nginx-centos)») c IP (обязательно в одной сети):
 
 192.168.1.165  
 192.168.1.167
 
 Будем считать 192.168.1.167 виртуальным IP.
 
-Устанавливаем keepalived (можно установить локально из пакетов, можно через репозиторий из интернет):
+Устанавливаем keepalive (можно установить локально из пакетов, можно через репозиторий из интернет):
 ```
 # yum install keepalived 
 # systemctl enable keepalived

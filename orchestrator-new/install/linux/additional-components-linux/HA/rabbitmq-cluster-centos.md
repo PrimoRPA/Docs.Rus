@@ -2,7 +2,7 @@
 
 Дополнительная информация по работе с кластерами (на английском языке): [Clustering Guide](https://www.rabbitmq.com/clustering.html) и [Queue Mirroring](https://www.rabbitmq.com/ha.html).
 
-1. На каждом узле кластера развертываем RabbitMQ в соответствии со статьей [Установка RabbitMQ под CentOS 8](../../../../../orchestrator-new/install/linux/centos/rabbitmq-centos.md).
+1. На каждом узле кластера развертываем RabbitMQ в соответствии со статьей [Установка RabbitMQ под CentOS 8](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/linux/centos/rabbitmq-centos).
 
 2. На каждом узле кластера открываем дополнительные порты, необходимые для работы кластера:
 ```
@@ -16,7 +16,7 @@
 ```
 Например, для кластера из 2-х узлов с именами хостов node01 и node02 и IP 192.168.1.160 и 192.168.161:
 
-![](../../../../../../orchestrator-new/resources/install/linux/additional-components-linux/HA/rabbit-cluster-1.PNG)
+![](../../../../../orchestrator-new/resources/install/linux/additional-components-linux/HA/rabbit-cluster-1.PNG)
 
 По умолчанию RabbitMQ будет идентифицировать узел как rabbit@hostname.
 
@@ -25,9 +25,9 @@
 # sudo vim /etc/hosts
 ```
 
-![](../../../../../../orchestrator-new/resources/install/linux/additional-components-linux/HA/rabbit-cluster-2.PNG)
+![](../../../../../orchestrator-new/resources/install/linux/additional-components-linux/HA/rabbit-cluster-2.PNG)
 
-![](../../../../../../orchestrator-new/resources/install/linux/additional-components-linux/HA/rabbit-cluster-3.PNG)
+![](../../../../../orchestrator-new/resources/install/linux/additional-components-linux/HA/rabbit-cluster-3.PNG)
 
 5. Настраиваем идентификацию кластера: открываем файл `/var/lib/rabbitmq/.erlang.cookie` на узле node01:
 ```
@@ -52,7 +52,7 @@
 # sudo rabbitmqctl cluster_status
 ```
 
-![](../../../../../../orchestrator-new/resources/install/linux/additional-components-linux/HA/rabbit-cluster-4.PNG)
+![](../../../../../orchestrator-new/resources/install/linux/additional-components-linux/HA/rabbit-cluster-4.PNG)
 
 10. Создаем пользователя RabbitMQ для кластера, назначаем ему права. На узле node01 выполняем команды:
 ```
@@ -66,7 +66,7 @@
 ```
 12.	Настраиваем конфиг WebApi appsettings.ProdWin.json на работу с кластером – комментируем секцию Host (или устанавливаем значение null), добавляем IP узлов кластера (или доменные имена, если используются) в секцию Hosts (первым идет IP узла node01):
 
-![](../../../../../../orchestrator-new/resources/install/linux/additional-components-linux/HA/rabbit-cluster-5.PNG)
+![](../../../../../orchestrator-new/resources/install/linux/additional-components-linux/HA/rabbit-cluster-5.PNG)
 
 Типовые проблемы можно диагностировать, проверив статус кластера: 
 ```
@@ -74,7 +74,7 @@
 ```
 Решение проблемы «Network Partitions» (для rabbit@node02):
 
-![](../../../../../../orchestrator-new/resources/install/linux/additional-components-linux/HA/rabbit-cluster-6.PNG)
+![](../../../../../orchestrator-new/resources/install/linux/additional-components-linux/HA/rabbit-cluster-6.PNG)
 
 ```
 # sudo rabbitmqctl stop_app
