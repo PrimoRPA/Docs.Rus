@@ -62,7 +62,7 @@
       * [AI Server 1.24.12.1](release-notes/ai-server/1.24.12/1.24.12.1.md)
     * [AI Server 1.24.8](release-notes/ai-server/1.24.8.md)
   * [Idea Hub](release-notes/idea-hub/README.md)
-    * * [Idea Hub 25.2](release-notes/idea-hub/25.2.md)
+    * [Idea Hub 25.2](release-notes/idea-hub/25.2.md)
   * [AutoDoc](release-notes/autodoc/readme.md)
     * [AutoDoc 1.24.10](release-notes/autodoc/autodoc-1.24.10.md)
   * [NuGet-пакеты](release-notes/packages/README.md)
