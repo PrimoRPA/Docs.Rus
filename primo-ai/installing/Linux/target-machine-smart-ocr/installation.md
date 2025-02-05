@@ -246,19 +246,24 @@ source /app/Primo.AI/IDP/venv/bin/activate
 python -m ensurepip --upgrade
 ```
 
-* Если для IDP-процесса будет использоваться CPU:
+Установите пакеты, необходимые для библиотеки detectron2, заменив xxx на cpu/gpu:
 ```
-pip3 install -r /app/Primo.AI/IDP/prequisites_cpu.txt
+pip3 install -r /app/Primo.AI/IDP/prequisites_xxx.txt	
 ```
+
+Установите системные библиотеки:
 ```
-pip3 install -r /app/Primo.AI/IDP/requirements_cpu.txt
+sudo apt install git gcc g++
 ```
-* Если для IDP-процесса будет использоваться GPU:
+
+Установите библиотеку detectron2:
 ```
-pip3 install -r /app/Primo.AI/IDP/prequisites.txt	
+pip3 install 'git+https://github.com/facebookresearch/detectron2.git'
 ```
+
+Установите оставшиеся пакеты, заменив xxx на cpu/gpu.
 ```	
-pip3 install -r /app/Primo.AI/IDP/requirements.txt
+pip3 install -r /app/Primo.AI/IDP/requirements_xxx.txt
 ```
 
 Произведите финальную раздачу прав IDP:
