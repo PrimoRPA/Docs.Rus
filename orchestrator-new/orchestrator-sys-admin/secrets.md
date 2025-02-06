@@ -13,10 +13,10 @@
 
 ![](../../../orchestrator-new/resources/orchestrator-sys-admin/secrets.PNG)
 
-2. Установить переменную окружения\* SecretsConnection со строкой подключения к БД с секретами ltoolssecrets (пароль в строке подключения должен быть зашифрован\*\*, если параметр Secrets:ConnectionPasswordEncripted имеет значение true – по умолчанию):
-PORT=5432;TIMEOUT=15;POOLING=True;MINPOOLSIZE=1;MAXPOOLSIZE=20;COMMANDTIMEOUT=20;DATABASE=ltoolssecrets;HOST=192.168.1.172;USER ID=postgres;PASSWORD= 49EqQ30zfcQTWxEGYE/mSw==
+2. Установить переменную окружения\* SecretsConnection со строкой подключения к БД с секретами ltoolssecrets (пароль в строке подключения должен быть зашифрован\*\*, если параметр `Secrets:ConnectionPasswordEncripted` имеет значение `true` – по умолчанию):
+`PORT=5432;TIMEOUT=15;POOLING=True;MINPOOLSIZE=1;MAXPOOLSIZE=20;COMMANDTIMEOUT=20;DATABASE=ltoolssecrets;HOST=192.168.1.172;USER ID=postgres;PASSWORD= 49EqQ30zfcQTWxEGYE/mSw==`
 
->\* - *Может использоваться параметр Secrets:ConnectionString. Если он не задан, используется переменная окружения*  
+>\* - *Может использоваться параметр `Secrets:ConnectionString`. Если он не задан, используется переменная окружения*  
 >\*\* - *Здесь и далее пароли шифруются при помощи LTools.Orchestrator.PasswordEncriptor*
 
 3. При запуске служб Оркестратора БД с секретами создастся автоматически, все пароли будут иметь стандартные значения в незашифрованном виде. 

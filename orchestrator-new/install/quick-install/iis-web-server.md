@@ -12,7 +12,7 @@
 
 
 ## Начальная подготовка 
-> *Подробнее см. в разделе [**Предварительная настройк машины Оркестратора под Windows 2016 Server**](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/windows/setting-up-machines-win/presetting-orch-machine-win)*
+> *Подробнее см. в разделе [**Предварительная настройка машины Оркестратора под Windows 2016 Server**](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/windows/setting-up-machines-win/presetting-orch-machine-win)*
 
 1.	Переименовываем сервер для простоты и удобства. Например, назовем его **ORCHESTRATOR**.
 2.	Создаем папку для размещения дистрибутивов `Primo.Distrib`.
@@ -189,8 +189,6 @@
    Пароль: `Qwe123!@#`
 
 :white_check_mark: **На этом установка и базовая настройка Оркестратора завершены.**
-
-
 
 
 
