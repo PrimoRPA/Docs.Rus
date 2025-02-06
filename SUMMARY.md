@@ -60,6 +60,7 @@
   * [AI Server](release-notes/ai-server/README.md)
     * [AI Server 1.24.12](release-notes/ai-server/1.24.12/1.24.12.md)
       * [AI Server 1.24.12.1](release-notes/ai-server/1.24.12/1.24.12.1.md)
+      * [AI Server 1.24.12.2](release-notes/ai-server/1.24.12/1.24.12.2.md)
     * [AI Server 1.24.8](release-notes/ai-server/1.24.8.md)
   * [Idea Hub](release-notes/idea-hub/README.md)
     * [Idea Hub 25.2](release-notes/idea-hub/25.2.md)
