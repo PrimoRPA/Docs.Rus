@@ -43,5 +43,4 @@
 ## Что дальше
 
 Следующий шаг:
-* Опционально — [установка обновлений для релиза 24.12](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/installing-updates-for-24.12).
-* Если у вас другая версия, то переходите к [проверке установки](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/shecking-installation).
+* Опционально — [проверка установки](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/shecking-installation).
