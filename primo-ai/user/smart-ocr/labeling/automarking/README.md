@@ -42,3 +42,6 @@
 
 
 ## Запуск процесса 
+
+
+![](<../../../../../primo-ai/resources/user/smartocr/labeling/automarking-processes-run.png>) 
