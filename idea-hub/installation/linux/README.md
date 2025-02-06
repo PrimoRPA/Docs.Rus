@@ -39,11 +39,6 @@
 А также настройка доступа через браузер. См. инструкцию [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/installing-nginx).
 {% endstep %}
 {% step %}
-### Опционально — установка обновлений для релиза 24.12
-Если вы устанавливаете другую версию Idea Hub, то пропустите этот шаг.
-Инструкцию по установке обновления 24.12 см. [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/installing-updates-for-24.12). 
-{% endstep %}
-{% step %}
 ### Проверка установки
 См. [инструкцию](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/shecking-installation).
 {% endstep %}
