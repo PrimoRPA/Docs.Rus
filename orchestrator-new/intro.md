@@ -11,11 +11,11 @@
 
 Занимается развертыванием всех компонентов Оркестратора и выполняет тонкую настройку системы. Вам могут быть полезны следующие разделы:
 * [Системные требования](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/systemreq) — аппаратные и программные требования для работы Оркестратора и роботов.
-* [Развертывание](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/deployment) — порядок установки компонентов Оркестратора и конфигурирование системы.
+* [Развертывание](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/deployment/readme) — порядок установки компонентов Оркестратора и конфигурирование системы.
 * [Инфраструктура](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/ports) — список сетевых портов Оркестратора.
-* [Настройка машин роботов и Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/setting-up-machines).
-* [Варианты установки Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/quick-installation).
-* [Тонкая настройка Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/fine-tuning).
+* [Настройка машин роботов и Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/machines-setup/readme).
+* [Варианты установки Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/quick-install/readme).
+* [Тонкая настройка Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/fine-tuning/readme).
 
 Полный комплект документации по настройке и развертыванию компонентов входит в комплект поставки Оркестратора. 
 
@@ -32,7 +32,7 @@
 4. Настройка роботов через веб-интерфейс.
 5. Настройка пользователей через веб-интерфейс.
 
-Подробнее см. в разделе [Администраторам](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings).
+Подробнее см. в разделе [Администраторам Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/orchestrator-admin/readme).
 
 ## Пользователь
 
@@ -44,7 +44,7 @@
 2. Затем загружает RPA-проект в Оркестратор.
 3. После чего запускает выполнение проекта роботом — вручную или автоматически по триггерам.
 
-Все возможные сценарии использования Оркестратора приводятся в разделе [Пользователям](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics).
+Все возможные сценарии использования Оркестратора приводятся в разделе [Пользователям](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/orchestrator-user/readme).
 
 
 
