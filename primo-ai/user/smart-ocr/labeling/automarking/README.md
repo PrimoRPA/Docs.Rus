@@ -43,5 +43,6 @@
 
 ## Запуск процесса 
 
+1. На странице **Процессы автоматической разметки** выберите действие **Запустить** в строке вашего процесса.
 
-![](<../../../../../primo-ai/resources/user/smartocr/labeling/automarking-processes-run.png>) 
+   ![](<../../../../../primo-ai/resources/user/smartocr/labeling/automarking-processes-run.png>) 
