@@ -7,7 +7,7 @@
 
 Лицензии не входят в комплект поставки, а запрашиваются администратором через интерфейс Оркестратора. В дальнейшем они хранятся в БД Оркестратора и обновляются также через интерфейс.
 
-При [ИЗМЕНИТЬ ССЫЛКУ запросе](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/licensing/new-license) лицензии можно выбрать соответствующую программу в поле **Продукт**:
+При [запросе](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/orchestrator-admin/licensing/new-license) лицензии можно выбрать соответствующую программу в поле **Продукт**:
 
 ![](../../../../orchestrator-new/resources/orchestrator-admin/licensing/orch-license-product.png) 
 
@@ -22,7 +22,7 @@
 3. **Robot (Enterprise)** — лицензия для работы Primo RPA Robot (издание Enterprise) в продуктивной среде. Это автономный робот — иначе, *unattended-робот* — который развернут на специальной машине и управляется посредством Оркестратора. Мнемоника — `robot`.\
    Особенности:
    * Обеспечивается автоматическая поддержка RDP-сессий для RDP-пользователей машины робота.
-   * Работает с [ИЗМЕНИТЬ ССЫЛКУ очередями обмена данных](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/data-queues), [ИЗМЕНИТЬ ССЫЛКУресурсами](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) и [ИЗМЕНИТЬ ССЫЛКУ аргументами](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/tasks/orch-args) проекта.
+   * Работает с [очередями обмена данных](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/orchestrator-user/robots/data-queues.md), [ресурсами](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/orchestrator-user/robots/assets.md) и [аргументами](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/orchestrator-user/tasks/tasks-arguments.md) проекта.
    * Свободную действующую лицензию **Robot (Enterprise)** также может использовать робот, установленный локально на рабочем месте пользователя. 
 5. **Robot (Desktop)** — лицензия для работы *attended-робота* в продуктивной среде. Это робот, который установлен на рабочем месте пользователя и выступает в роли его цифрового помощника. Мнемоника — `robot_desktop`.\
    Особенности:
@@ -31,8 +31,8 @@
    * Когда лицензия **Robot (Desktop)** запрошена из Оркестратора и хранится в БД, то ее могут использовать роботы, развернутые на разных компьютерах. Например, одну лицензию до полудня можно запросить на одной машине, а после обеда — на другой. Одновременно использовать лицензию невозможно.
 
 
-## Дополнительно ИЗМЕНИТЬ ВСЕ ССЫЛКИ
+## Дополнительно
 * [Лицензии](https://docs.primo-rpa.ru/primo-rpa/licenses) — полный перечень существующих лицензий в Primo RPA. Включает информацию о тех лицензиях, которые не запрашиваются через интерфейс Оркестратора: локальные/предназначенные для работы в непродуктивной среде/лицензии для Primo RPA Idea Hub.
-* [Как получить лицензию через интерфейс Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/licensing/new-license).
-* [Как заменить лицензию через интерфейс Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/licensing/change-license).
-* [Устаревшие типы лицензий](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/licensing/outdated).
+* [Как получить лицензию через интерфейс Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/orchestrator-admin/licensing/new-license.md).
+* [Как заменить лицензию через интерфейс Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/orchestrator-admin/licensing/change-license.md).
+
