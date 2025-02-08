@@ -6,13 +6,9 @@
 
 ![](<../../../../.gitbook/assets1/primo-ai/user-guide/data-project.gif>)
 
-## Перед началом работы
-
-Изучите [требования к формату, качеству и количеству изображений для обучения](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/requirements/inference-quality-requirements).
-
-
 ## Содержание
 
+* [Требования к формату, качеству и количеству изображений для обучения](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/requirements/inference-quality-requirements)
 * [Управление данными](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/data/operations-with-data)
 
 ## Что дальше
