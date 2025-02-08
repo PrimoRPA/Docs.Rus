@@ -68,7 +68,7 @@
 
 
 ## Что дальше
-Следующий шаг — подготовить RPA-проект в Primo RPA Studio, который будет взаимодействовать с Primo RPA AI Server и машинами с LLM-моделью. 
+Следующий шаг — подготовить RPA-проект в Primo RPA Studio, который будет взаимодействовать с AI Server и машинами с LLM-моделью. 
 
 Для разработки RPA-проекта установите в Primo RPA Studio библиотеку **Primo.AI.Server**:
 * [Primo.AI.Server](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server) — описание пакета для Primo RPA Studio под Windows.
