@@ -126,7 +126,7 @@
 {% endhint %}
 
 После успешного запуска инференса на целевой машине вы можете:
-* Продолжить работу в AI Server и перейти на страницу [Тестирование](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/testing), чтобы проверить качество ответов модели перед её эксплуатацией.
+* Перейти на страницу [Тестирование](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/testing), чтобы проверить качество ответов модели перед её эксплуатацией.
 * Начать разработку RPA-проекта в Primo RPA Studio, который будет взаимодействовать с AI Server и целевой машиной с запущенным инференсом. 
 
 Для разработки RPA-проекта требуется установить в Primo RPA Studio библиотеку **Primo.AI.Server**. Описание пакета для Studio с ОС Windows см. [здесь](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server).
