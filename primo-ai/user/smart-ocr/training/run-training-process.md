@@ -91,4 +91,6 @@
 
 ![](<../../../../.gitbook/assets1/primo-ai/class-model-is.png>)
 
+### Что дальше
+
 Теперь можно перейти к следующему шагу — настройке и запуску [инференса](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/inference) на целевой машине. 
