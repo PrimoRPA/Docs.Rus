@@ -34,8 +34,8 @@
 
 ### Инструкции
 
-* [Встроенные проекты с типом Умный OCR](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/quick-start/about-system-projects) — описывает процесс работы со встроенным проектом, в котором уже имеется обученная модель классификации или распознавания. 
-* [Работа с типом проекта Умный OCR](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr) — описывает процесс работы с проектом, созданным с нуля.
+* [Встроенные OCR-проекты](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/quick-start/about-system-projects) — описывает процесс работы со встроенным проектом, в котором уже есть обученная модель классификации или распознавания. 
+* [Работа с типом проекта Умный OCR](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr) — описывает создание проекта с нуля.
 
 ## Проект с типом LLM
 
@@ -49,7 +49,7 @@
 
 ### Инструкции
 
-* [Конфигурация и запуск модели](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/rabota-s-tipom-proekta-nlp-zadachi/configuration) — описывает, как сконфигурировать модель и ее навыки обработки текста.
+* [Настройка и запуск модели](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/rabota-s-tipom-proekta-nlp-zadachi/configuration) — описывает, как сконфигурировать LLM-модель и её навыки обработки текста.
 * [Тестирование навыков модели](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/rabota-s-tipom-proekta-nlp-zadachi/testing) — описывает, как протестировать навыки сконфигурированной модели.
 
 
