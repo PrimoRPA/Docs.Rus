@@ -11,6 +11,7 @@
 * [Рекомендации по разметке](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/labeling/requirements)
 * [Описание рабочей области](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/labeling/work-area)
 * [Инструкция по разметке](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/labeling/operations-with-labeling)
+* [Инструкция по авторазметке](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/labeling/automarking)
 
 
 ## Что дальше
