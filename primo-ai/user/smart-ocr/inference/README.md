@@ -13,12 +13,14 @@
 
 ## Содержание
 
-* [Инструкция по запуску инференса](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/inference/run-inference-process).
+* [Инструкция по запуску инференса](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/inference/run-inference-process)
 
 ## Что дальше
 
-После запуска инференса на целевой машине подготовительная работа в AI Server завершена. Следующий шаг — разработать RPA-проект в Primo RPA Studio, который будет взаимодействовать с AI Server и целевой машиной с запущенным инференсом. 
+После запуска инференса на целевой машине подготовительную работу в AI Server можно считать завершённой. Теперь вы можете:
+* Перейти в раздел [Тестирование](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/testing), чтобы проверить качество ответов модели перед её эксплуатацией.
+* Начать разработку RPA-проекта в Primo RPA Studio, который будет взаимодействовать с AI Server и целевой машиной с запущенным инференсом. 
 
-Для разработки RPA-проекта установите в Primo RPA Studio библиотеку **Primo.AI.Server**:
-* [Primo.AI.Server](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server) — описание пакета для Primo RPA Studio под Windows.
+Для разработки RPA-проекта требуется установить в Primo RPA Studio библиотеку **Primo.AI.Server**. Описание пакета для Studio под Windows см. [здесь](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/ai_server).
+
 
