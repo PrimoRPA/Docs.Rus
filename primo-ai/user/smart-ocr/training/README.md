@@ -12,7 +12,7 @@
 
 ## Содержание
 
-* [Инструкция по запуску обучения](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/training/run-trainig-process) — пошаговая инструкция по обучению модели.
+* [Инструкция по запуску обучения](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/training/run-training-process) — пошаговая инструкция по обучению модели.
 * [Управление шаблоном обучения](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/training/operations-with-training-templates) — описывает все возможные действия с шаблоном обучения.
 * [Управление процессом обучения](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/training/operations-with-process) — описывает все возможные действия с процессом обучения.
 * [Мониторинг обучения](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/training/monitoring) — описывает раздел, где вы можете просмотреть график запущенного процесса обучения, чтобы понять насколько успешно выполняется процесс.
