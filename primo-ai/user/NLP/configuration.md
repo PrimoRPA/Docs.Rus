@@ -138,5 +138,5 @@
 
 ## Что дальше
 
-Перейдите на вкладку [Тестирование](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/rabota-s-tipom-proekta-nlp-zadachi/testing), чтобы проверить качество ответов модели.
+Перейдите на вкладку [Тестирование](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/nlp/testing), чтобы проверить качество ответов модели.
 
