@@ -1472,6 +1472,7 @@
       * [Рекомендации по разметке](primo-ai/user/smart-ocr/labeling/requirements.md)
       * [Описание рабочей области](primo-ai/user/smart-ocr/labeling/work-area.md)
       * [Инструкция по разметке](primo-ai/user/smart-ocr/labeling/operations-with-labeling.md)
+      * [Инструкция по авторазметке](primo-ai/user/smart-ocr/labeling/automarking.md)
     * [Обучение модели](primo-ai/user/smart-ocr/training/README.md)
       * [Инструкция по запуску обучения](primo-ai/user/smart-ocr/training/run-trainig-process.md)
       * [Управление шаблоном обучения](primo-ai/user/smart-ocr/training/operations-with-training-templates.md)
