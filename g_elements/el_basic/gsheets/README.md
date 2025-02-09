@@ -1,7 +1,5 @@
 # Google Sheets
 
-## Google Sheets
-
 > [_Доступна также английская версия руководства_](https://rondem.gitbook.io/primo-rpa-eng/g\_elements/gsheets)
 
 Для подключения к Google Sheets выполните следующие действия:
