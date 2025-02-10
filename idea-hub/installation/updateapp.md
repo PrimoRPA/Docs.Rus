@@ -17,8 +17,8 @@
 1. В процессе работы скрипт потребует ввода некоторого набора исходных данных:
    ```
    Path to the update archive (абсолютный путь к файлу обновления): /home/ideahub/idea-hub.update.24.12.1.linux.tar.gz
-   User that manages the Drupal code, the deploy user(имя служебного пользователя): ideahub
-   User group that allow server access Drupal(группа, к которой принадлежит служебный пользователь): www-data
+   User that manages the Drupal code, the deploy user (имя служебного пользователя): ideahub
+   User group that allow server access Drupal (группа, к которой принадлежит служебный пользователь): www-data
    ```
 1. После завершения процесса обновления выполните следующую команду от имени служебного пользователя. В нашем примере это пользователь **ideahub**:
    ```
