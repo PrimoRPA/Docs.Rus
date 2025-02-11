@@ -4,12 +4,12 @@
 
 Например, пусть имеется 2 робота RBT1 и RBT2, привязанных к проекту задания (то есть подходящих). В задании указываем *Кол-во одновременно работающих роботов* = 2:
 
-![](../../../../orchestrator-new/resources/orchestrator-user/tasks/tasks-multiple-robots-1.PNG)
+![](../../../orchestrator-new/resources/orchestrator-user/tasks/tasks-multiple-robots-1.PNG)
 
 Если оба робота свободны на момент запуска задания, то оба запустятся одновременно (рисунок a). 
 Если один из роботов, например, RBT1, занят на момент запуска задания, и галка *Уникальный запуск* не стоит, то 2 раза подряд отработает робот RBT2 (рисунок б). 
 
-![](../../../../orchestrator-new/resources/orchestrator-user/tasks/tasks-multiple-robots-2.PNG)
+![](../../../orchestrator-new/resources/orchestrator-user/tasks/tasks-multiple-robots-2.PNG)
 
 Если галка *Уникальный запуск* стоит, то отработают оба робота ровно по одному разу – RBT2, RBT1 (рисунок в).
 
