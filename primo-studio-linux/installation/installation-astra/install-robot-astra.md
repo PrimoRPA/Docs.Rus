@@ -115,7 +115,7 @@ agent ALL = (%primo-rpa) NOPASSWD: /usr/bin/loginctl enable-linger *
   "Orchestrator": {
     "UserName": "agent",
     "Password": "Qwe123!@#",
-    <b>"BaseUrl": "https://192.168.1.154:5001",</b>
+    <b>"BaseUrl": "https://192.168.1.154:44392",</b>
     "DownloadRpaProject": true,
     "UserBaseUrlFromRequest": true,
     "TenantId": ""
