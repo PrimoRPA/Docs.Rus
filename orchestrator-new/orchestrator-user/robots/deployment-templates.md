@@ -14,3 +14,9 @@
 При включенном локальном логировании робот пишет логи в тестовые файлы в папке пользователя `C:/Users/{User}/AppData/Local/Primo.Robot/Log`:
 
 ![](../../../orchestrator-new/resources/orchestrator-user/robots/deploy-templates2.PNG)
+
+Также, при помощи шаблона развертывания можно указать роботу, что робот должен авторизоваться в Оркестраторе под AD учетной записью – той самой, под которой для робота открывается RDP-сессия\*:
+
+![](../../../orchestrator-new/resources/orchestrator-user/robots/deploy-templates-3.PNG)
+
+> \* - Начиная с версии 1.24.10.5, только для Windows.
