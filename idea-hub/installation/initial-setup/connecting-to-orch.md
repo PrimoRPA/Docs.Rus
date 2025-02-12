@@ -142,3 +142,36 @@ DB_PASS_LTOOLSLICENSE_PROD=postgres
 1. `orch_raw_data_source_path` — каталог, в который скрипт складывает данные из Оркестратора. В общем случае это тот каталог, который указывался при настройке скрипта в файле `.env` в параметре OUTPUT_FOLDER. Каталог по умолчанию: `private://import-source/orch-sync`
 1. `orch_raw_data_target_path` — каталог, в который Idea Hub положит CSV-файлы после обработки и подготовки данных из Оркестратора для синхронизации. По умолчанию это `private://import-source/environments`.
 
+## Структура каталогов для импорта данных
+
+Для реализации автоматического импорта данных из Оркестратора разместите файлы, полученные с помощью выполнения скрипта `get_data.sh`, по пути `PATH_TO_IDEAHUB/private/import-source/environments`. 
+
+Пример правильного размещения структуры каталогов:
+```
+PATH_TO_IDEAHUB
+-- private
+---- import-source
+------ sync
+-------- prom
+---------- projects.csv
+---------- machines.csv
+---------- robots.csv
+---------- ...
+-------- test
+---------- projects.csv
+---------- machines.csv
+---------- robots.csv
+---------- ...
+-------- something-else
+---------- projects.csv
+---------- machines.csv
+---------- robots.csv
+---------- ...
+```
+
+Контуры в системе будут называться по имени каталога: `PATH_TO_IDEAHUB/private/import-source/environments/prom`, `PATH_TO_IDEAHUB/private/import-source/environments/test`, `PATH_TO_IDEAHUB/private/import-source/environments/something-else`, с изменением регистра первого символа на верхний, например "Prom", "Test", "Something-else".
+
+Остальные файлы импорта:
+PATH_TO_IDEAHUB/private/import-source/areas.xlsx
+PATH_TO_IDEAHUB/private/import-source/process.xlsx
+PATH_TO_IDEAHUB/private/import-source/users.xlsx
