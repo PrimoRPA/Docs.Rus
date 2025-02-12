@@ -170,9 +170,10 @@ PATH_TO_IDEAHUB
 ------------ ...
 ```
 
-Контуры в системе будут называться по имени каталога: `PATH_TO_IDEAHUB/private/import-source/environments/prod`, `PATH_TO_IDEAHUB/private/import-source/environments/test`, `PATH_TO_IDEAHUB/private/import-source/environments/something-else`, с изменением регистра первого символа на верхний, например "Prom", "Test", "Something-else".
 
-Остальные файлы импорта:
-PATH_TO_IDEAHUB/private/import-source/areas.xlsx
-PATH_TO_IDEAHUB/private/import-source/process.xlsx
-PATH_TO_IDEAHUB/private/import-source/users.xlsx
+## Что дальше
+
+Следующий шаг — войти в веб-интерфейс Idea Hub с правами администратора, чтобы создать контуры организации и указать для них каталоги, из которых Idea Hub будет забирать данные Оркестратора, полученные с помощью скрипта `get_data.sh`.
+
+
+
