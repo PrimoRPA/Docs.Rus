@@ -153,20 +153,31 @@ PATH_TO_IDEAHUB
 ------ sync
 -------- prod
 ---------- backup
------------- Projects.csv
------------- Machines.csv
------------- Robots.csv
+------------ prod-20250205-030507.tgz
+------------ prod-20250206-030627.tgz
 ------------ ...
----------- test
------------- Projects.csv
------------- Machines.csv
------------- Robots.csv
+---------- Projects.csv
+---------- Machines.csv
+---------- Robots.csv
+---------- ...
+-------- test
+---------- backup
+------------ test-20250205-030507.tgz
+------------ test-20250206-030627.tgz
 ------------ ...
----------- something-else
------------- Projects.csv
------------- Machines.csv
------------- Robots.csv
+---------- Projects.csv
+---------- Machines.csv
+---------- Robots.csv
+---------- ...
+-------- something-else
+---------- backup
+------------ something-else-20250205-030507.tgz
+------------ something-else-20250206-030627.tgz
 ------------ ...
+---------- Projects.csv
+---------- Machines.csv
+---------- Robots.csv
+---------- ...
 ```
 
 
