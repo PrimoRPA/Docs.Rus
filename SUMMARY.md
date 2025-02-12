@@ -1357,7 +1357,6 @@
   	* [Журнал клиентского робота](orchestrator-new/monitoring/attended-robot-log.md)
   	* [Журнал робота](orchestrator-new/monitoring/robot-log.md)
   	* [Журнал Оркестратора](orchestrator-new/monitoring/orch-log.md)
-  	* [Журнал проекта](orchestrator-new/monitoring/project-log.md)
   * [Главная страница](orchestrator-new/monitoring/dashboard.md)
   * [Аналитика](orchestrator-new/monitoring/grafana.md)
 * [Дополнительно](orchestrator-new/appendix/readme.md)
