@@ -53,9 +53,9 @@
 
 ![](<../../../idea-hub/resources/admin/installation/scripts-folder.png>)
 
-* drupal_fix_permissions.sh — 
+* drupal_fix_permissions.sh — скрипт ....
 * remove-all-data.sh — скрипт, который удаляет демонстрационные данные из Idea Hub.
-* update.sh — скрипт, который 
+* update.sh — скрипт для обновления Idea Hub.
 
 В папке `scripts/orc-data-fetch/` лежат файлы:
 * .env.example — пример того, как может быть оформлен файл контура. Содержит дополнительную информацию о настройках.
