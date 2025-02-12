@@ -58,12 +58,8 @@
 * update — скрипт, который 
 
 В папке `scripts/orc-data-fetch/` лежат файлы:
-
-![](<../../../idea-hub/resources/admin/installation/scripts-folder-files.png>)
-
 * .env.example — пример файла контура, который содержит дополнительную информацию о настройках.
 * .env.message — 
-* get_data —
 * get_data.sh — скрипт, который создаёт каталоги контуров и складывает в них полученные данные из БД Оркестратора.
 * get_data.func.sh — скрипт, который
 
