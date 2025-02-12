@@ -49,8 +49,11 @@
 
 ## Описание папки со скриптами
 
-из поставки
+В комплект поставки Idea Hub входит папка scripts со следующими файлами:
 
+![](<../../../idea-hub/resources/admin/installation/scripts-folder.png>)
+
+![](<../../../idea-hub/resources/admin/installation/scripts-folder-files.png>)
 
 
 ## Настройка скрипта get_data.sh
