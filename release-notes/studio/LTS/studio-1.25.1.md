@@ -2,6 +2,10 @@
 
 Данный документ описывает улучшения, изменения и исправления ошибок, внесенные в релиз **Primo RPA Studio** за январь 2025-го года.
 
+Информация по обновленным релизам версии 1.25.1 доступна в разделах:
+
+  * [Studio 1.25.1.3](https://docs.primo-rpa.ru/primo-rpa/release-notes/studio/LTS/studio-1.25.1.3.md)
+
 
 ## Обновления и улучшения (режим Pro)
 
@@ -75,7 +79,7 @@
 
 ## Актуализация расширения браузера
 
-:white_check_mark: Для использования данной версии Студии требуется обновление расширения браузера до версии 3.76 (1.76)
+:white_check_mark: Для корректной работы данной версии Студии требуется обновление расширения браузера до версии 3.76 (1.76)
 
 ## Новые активности (в NuGet-пакетах)
 
@@ -119,7 +123,7 @@
 
 [**Скачать Primo RPA Studio**](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FRelease%2FStudio)
 
-[**Скачать Primo RPA Robot**](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FRelease%2FRobot). 
+[**Скачать Primo RPA Robot**](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FRelease%2FRobot)
 
 
 Если у вас возникнут сложности с установкой или использованием данной версии, пожалуйста, обращайтесь к вашему менеджеру или в [наш чат поддержки в Telegram](https://t.me/primo_RPA_chat).
