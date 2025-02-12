@@ -144,32 +144,33 @@ DB_PASS_LTOOLSLICENSE_PROD=postgres
 
 ## Структура каталогов для импорта данных
 
-Для реализации автоматического импорта данных из Оркестратора разместите файлы, полученные с помощью выполнения скрипта `get_data.sh`, по пути `PATH_TO_IDEAHUB/private/import-source/environments`. 
+После выполнения скрипта `get_data.sh` вы можете проверить на машине структуру каталогов и файлов, полученных из Оркестратора.
 
-Пример правильного размещения структуры каталогов:
+Пример правильного размещения структуры каталогов на машине: 
 ```
 PATH_TO_IDEAHUB
 -- private
 ---- import-source
 ------ sync
--------- prom
----------- projects.csv
----------- machines.csv
----------- robots.csv
----------- ...
--------- test
----------- projects.csv
----------- machines.csv
----------- robots.csv
----------- ...
--------- something-else
----------- projects.csv
----------- machines.csv
----------- robots.csv
----------- ...
+-------- prod
+---------- backup
+------------ Projects.csv
+------------ Machines.csv
+------------ Robots.csv
+------------ ...
+---------- test
+------------ Projects.csv
+------------ Machines.csv
+------------ Robots.csv
+------------ ...
+---------- something-else
+------------ Projects.csv
+------------ Machines.csv
+------------ Robots.csv
+------------ ...
 ```
 
-Контуры в системе будут называться по имени каталога: `PATH_TO_IDEAHUB/private/import-source/environments/prom`, `PATH_TO_IDEAHUB/private/import-source/environments/test`, `PATH_TO_IDEAHUB/private/import-source/environments/something-else`, с изменением регистра первого символа на верхний, например "Prom", "Test", "Something-else".
+Контуры в системе будут называться по имени каталога: `PATH_TO_IDEAHUB/private/import-source/environments/prod`, `PATH_TO_IDEAHUB/private/import-source/environments/test`, `PATH_TO_IDEAHUB/private/import-source/environments/something-else`, с изменением регистра первого символа на верхний, например "Prom", "Test", "Something-else".
 
 Остальные файлы импорта:
 PATH_TO_IDEAHUB/private/import-source/areas.xlsx
