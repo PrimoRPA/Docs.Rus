@@ -53,7 +53,7 @@
 
 ![](<../../../idea-hub/resources/admin/installation/scripts-folder.png>)
 
-* drupal_fix_permissions.sh — скрипт ....
+* drupal_fix_permissions.sh — скрипт, который устанавливает корректные права на доступ к файлам Idea Hub.
 * remove-all-data.sh — скрипт, который удаляет демонстрационные данные из Idea Hub.
 * update.sh — скрипт для обновления Idea Hub.
 
