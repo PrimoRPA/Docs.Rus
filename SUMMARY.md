@@ -1330,6 +1330,7 @@
 		* [Роли пользователей](orchestrator-new/orchestrator-admin/users/roles.md)
 		* [Типовые сценарии управления пользователями](orchestrator-new/orchestrator-admin/users/common-scenarios.md)
 		* [Пользователи AD](orchestrator-new/orchestrator-admin/users/ad-users.md)
+		* [Общие папки](orchestrator-new/orchestrator-admin/users/common-folders.md) 
 		* [Создание, редактирование и делегирование папок](orchestrator-new/orchestrator-admin/users/common-folders-create-edit.md)
   	* [Черный/Белый список Студий](orchestrator-new/orchestrator-admin/black-white-list.md)
   	* [Производственный календарь](orchestrator-new/orchestrator-admin/calendar.md)
