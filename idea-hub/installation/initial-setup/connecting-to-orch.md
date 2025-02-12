@@ -140,7 +140,6 @@ DB_PASS_LTOOLSLICENSE_PROD=postgres
 
 1. В файле `config/settings.local.php` добавьте/измените переменные в блоке `Orch sync data variable`.
 1. `orch_raw_data_source_path` — каталог, в который скрипт складывает данные из Оркестратора. В общем случае это тот каталог, который указывался при настройке скрипта в файле `.env` в параметре OUTPUT_FOLDER. Каталог по умолчанию: `private://import-source/orch-sync`
-1. `orch_raw_data_target_path` — каталог, в который Idea Hub положит CSV-файлы после обработки и подготовки данных из Оркестратора для синхронизации. По умолчанию это `private://import-source/environments`.
 
 ## Структура каталогов для импорта данных
 
