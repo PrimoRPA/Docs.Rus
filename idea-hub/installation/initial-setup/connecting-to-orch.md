@@ -49,11 +49,23 @@
 
 ## Описание папки со скриптами
 
-В комплект поставки Idea Hub входит папка scripts со следующими файлами:
+В комплект поставки Idea Hub входит папка `scripts` со следующими файлами:
 
 ![](<../../../idea-hub/resources/admin/installation/scripts-folder.png>)
 
+* drupal_fix_permissions — 
+* remove-all-data — скрипт, который удаляет демонстрационные данные из Idea Hub.
+* update — скрипт, который 
+
+В папке `scripts/orc-data-fetch/` лежат файлы:
+
 ![](<../../../idea-hub/resources/admin/installation/scripts-folder-files.png>)
+
+* .env.example — пример файла контура, который содержит дополнительную информацию о настройках.
+* .env.message — 
+* get_data —
+* get_data.sh — скрипт, который создаёт каталоги контуров и складывает в них полученные данные из БД Оркестратора.
+* get_data.func.sh — скрипт, который
 
 
 ## Настройка скрипта get_data.sh
