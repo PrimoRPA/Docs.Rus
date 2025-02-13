@@ -72,8 +72,6 @@
    ```
    */5 * * * * cd /var/www/ideahub && /var/www/ideahub/vendor/bin/drush cron > /dev/null 2>&1
    ``` 
-1. Файл `scripts/orc-data-fetch/.env.example` содержит дополнительную информацию о настройках.
-
 
 
 ## Параметры скрипта get_data.sh 
