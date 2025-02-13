@@ -12,6 +12,8 @@
 
 ## Установка Idea Hub
 
+Последовательно выполните действия:
+
 1. [Подготовка к установке](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/drush).
 1. [Настройка базы данных и доступов к файлам](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/setting-up-access).
 1. [Настройка окружения](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/setting-up-environment).
@@ -22,3 +24,7 @@
 
 **Дополнительная информация:**
 * Скрипт [drupal_fix_permissions.sh](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/drupalfixpermissions).
+
+## Что дальше
+
+После успешной установки Idea Hub следует перейти к [первичной настройке](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/initial-setup).
