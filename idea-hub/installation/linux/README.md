@@ -1,52 +1,24 @@
 # Установка на ОС Linux
 
-Установка Idea Hub и настройка окружения выполняется на машине с операционной системой Linux: Ubuntu, Debian, Astra Linux. Пошаговый порядок установки приведен ниже.
+Установка Idea Hub и настройка окружения выполняется на машине с операционной системой Linux: Ubuntu, Debian, Astra Linux. Подробнее системные требования описаны [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/system-requirements).
 
 ## Установка и настройка окружения
 
-{% stepper %}
-{% step %}
-### Установка PHP 
-См. [инструкцию](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/php).
-{% endstep %}
-{% step %}
-### Установка PostgreSQL
-См. [инструкцию](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/postgresql).
-{% endstep %}
-{% step %}
-### Настройка базы данных
-См. [инструкцию](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/setting-up-database).
-{% endstep %}
-{% endstepper %}
+Перед установкой Idea Hub выполните действия:
+
+1. [Установка PHP](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/php).
+1. [Установка PostgreSQL](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/postgresql).
+1. [Настройка базы данных](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/setting-up-database).
 
 ## Установка Idea Hub
 
-{% stepper %}
-{% step %}
-### Подготовка к установке
-См. [инструкцию](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/drush).
-{% endstep %}
-{% step %}
-### Настройка базы и доступов к файлам
-См. [инструкцию](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/setting-up-access).
-{% endstep %}
-{% step %}
-### Настройка окружения
-См. [инструкцию](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/setting-up-environment).
-{% endstep %}
-{% step %}
-### Установка и настройка веб-сервера Nginx
-А также настройка доступа через браузер. См. инструкцию [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/installing-nginx).
-{% endstep %}
-{% step %}
-### Проверка установки
-См. [инструкцию](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/shecking-installation).
-{% endstep %}
-{% step %}
-### Настройка прав доступа к каталогам и файлам подключения к Оркестратору
-См. [инструкцию](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/setting-access-to-orchfiles).
-{% endstep %}
-{% endstepper %}
+1. [Подготовка к установке](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/drush).
+1. [Настройка базы данных и доступов к файлам](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/setting-up-access).
+1. [Настройка окружения](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/setting-up-environment).
+1. [Установка и настройка веб-сервера Nginx](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/installing-nginx).
+1. [Проверка установки](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/shecking-installation).
+1. [Настройка прав доступа к каталогам и файлам подключения к Оркестратору](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/setting-access-to-orchfiles).
 
-Дополнительно:
+
+**Дополнительная информация:**
 * Скрипт [drupal_fix_permissions.sh](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/drupalfixpermissions).
