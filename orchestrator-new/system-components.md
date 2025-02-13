@@ -45,8 +45,8 @@
 
 В [комплект поставки](https://docs.primo-rpa.ru/primo-rpa/orchestrator/deployment/kit) также включена внешняя аналитическая система Grafana, 
 которая технически не является компонентом Оркестратора. Ее стоит рассматривать как стороннее средство для получения/визуализации аналитики 
-по работе Оркестратора. Может быть заменена на любое аналогичное средство. Инструкция по установке Grafana приведена в статьях [**Установка и настройка Grafana под Windows 2016 Server**](../../orchestrator-new/install/windows/additional-components-win/grafana-win.md) и 
-[**Установка и настройка Grafana под CentOS 8**](../../orchestrator-new/install/linux/additional-components-linux/grafana-linux-centos.md).
+по работе Оркестратора. Может быть заменена на любое аналогичное средство. Инструкция по установке Grafana приведена в статьях [**Установка и настройка Grafana под Windows 2016 Server**](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-sys-admin/install/windows/additional-components-win/grafana-win.md) и 
+[**Установка и настройка Grafana под CentOS 8**](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-sys-admin/install/linux/additional-components-linux/grafana-linux-centos).
 
 #### SMTP-сервер
 
