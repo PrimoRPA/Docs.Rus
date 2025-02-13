@@ -3,7 +3,7 @@
 Лицензия приобретается у вендора на основе запроса через интерфейс Оркестратора. 
 Запрос лицензии создается на вкладке **Настройки ➝ Лицензии** с помощью кнопки **Запрос на лицензию**.
 
-![](../../../orchestrator-new/resources/orchestrator-admin/licensing/orch-license-request.png)
+![](../../../orchestrator-new/resources/orchestrator-admin/licensing/new-license-all-licenses.png)
 
 В результате откроется форма запроса лицензии.
 
