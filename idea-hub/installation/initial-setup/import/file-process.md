@@ -23,7 +23,7 @@
 {% endhint %}
 
 {% hint style="warning" %}
-**Важно.** Для корректной работы с файлом, не рекомендуется использовать в ячейках файла какие-либо формулы (за исключением полей effect_actual и effect_planned, в которых могут быть использованы формулы Idea Hub). Дополнительную информацию по использованию формул в Idea Hub можно найти в разделе [“Синтаксис формул”](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/about/formulas).
+**Важно.** Для корректной работы с файлом, не рекомендуется использовать в ячейках файла какие-либо формулы (за исключением полей effect_actual и effect_planned, в которых могут быть использованы формулы Idea Hub). Информацию по синтаксису формул в Idea Hub можно найти [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/about/formulas).
 {% endhint %}
 
 
