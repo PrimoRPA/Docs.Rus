@@ -5,11 +5,11 @@
 
 В службе **RobotLogs** в секцию *ScreenFileUpload* требуется добавить параметры: 
 
-![](../../../orchestrator-new/resources/fine-tuning/s3-storage-integration1.PNG)
+![](../../orchestrator-new/resources/fine-tuning/s3-storage-integration1.PNG)
 
 В службе **WebApi** требуется добавить секцию *FileStore*:
 
-![](../../../orchestrator-new/resources/fine-tuning/s3-storage-integration2.PNG)
+![](../../orchestrator-new/resources/fine-tuning/s3-storage-integration2.PNG)
 
 ### Описание параметров подключения к S3 в ScreenFileUpload/FileStore
 
@@ -23,4 +23,4 @@
 
 ### Параметры подключения к minio:
 
-![](../../../orchestrator-new/resources/fine-tuning/s3-storage-integration3.PNG)
+![](../../orchestrator-new/resources/fine-tuning/s3-storage-integration3.PNG)
