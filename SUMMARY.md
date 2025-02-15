@@ -1308,6 +1308,8 @@
     * [Таймаут, после которого робот «Недоступен»](orchestrator-new/fine-tuning/robot-state.md)
     * [Настройка очистки старых запусков](orchestrator-new/fine-tuning/setting-up-old-runs-cleaning.md)
     * [Общие папки](orchestrator-new/fine-tuning/shared-folders.md)
+    * [Перенаправление http-зависимостей между службами](orchestrator-new/fine-tuning/redirect-http-dependencies.md)
+    * [Интеграция с S3-хранилищем](orchestrator-new/fine-tuning/s3-storage-integration.md)
   * [Масштабирование журнала робота](orchestrator-new/orchestrator-sys-admin/robot-log-scaling.md)
   * [Контроль версий проектов Оркестратора](orchestrator-new/orchestrator-sys-admin/orch-version-control.md)
   * [Настройка хранения секретов служб в отдельной БД](orchestrator-new/orchestrator-sys-admin/secrets.md)
