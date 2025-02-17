@@ -22,7 +22,7 @@
 3. **Robot (Enterprise)** — лицензия для работы Primo RPA Robot (издание Enterprise) в продуктивной среде. Это автономный робот — иначе, *unattended-робот* — который развернут на специальной машине и управляется посредством Оркестратора. Мнемоника — `robot`.\
    Особенности:
    * Обеспечивается автоматическая поддержка RDP-сессий для RDP-пользователей машины робота.
-   * Работает с [очередями обмена данных](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/orchestrator-user/robots/data-queues.md), [ресурсами](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/orchestrator-user/robots/assets.md) и [аргументами](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/orchestrator-user/tasks/tasks-arguments.md) проекта.
+   * Работает с [очередями обмена данных](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/orchestrator-user/robots/data-queues), [ресурсами](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/orchestrator-user/robots/assets) и [аргументами](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/orchestrator-user/tasks/tasks-arguments) проекта.
    * Свободную действующую лицензию **Robot (Enterprise)** также может использовать робот, установленный локально на рабочем месте пользователя. 
 5. **Robot (Desktop)** — лицензия для работы *attended-робота* в продуктивной среде. Это робот, который установлен на рабочем месте пользователя и выступает в роли его цифрового помощника. Мнемоника — `robot_desktop`.\
    Особенности:
@@ -33,6 +33,6 @@
 
 ## Дополнительно
 * [Лицензии](https://docs.primo-rpa.ru/primo-rpa/licenses) — полный перечень существующих лицензий в Primo RPA. Включает информацию о тех лицензиях, которые не запрашиваются через интерфейс Оркестратора: локальные/предназначенные для работы в непродуктивной среде/лицензии для Primo RPA Idea Hub.
-* [Как получить лицензию через интерфейс Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/orchestrator-admin/licensing/new-license.md).
-* [Как заменить лицензию через интерфейс Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/orchestrator-admin/licensing/change-license.md).
+* [Как получить лицензию через интерфейс Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/orchestrator-admin/licensing/new-license).
+* [Как заменить лицензию через интерфейс Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/orchestrator-admin/licensing/change-license).
 
