@@ -24,7 +24,7 @@
 
 Информация по заполнению полей шаблона приведена в таблице ниже, а также содержится в самом шаблоне в виде подсказок. Чтобы их увидеть, наведите курсор на название нужного поля.
 
-**АКТУАЛИЗИРОВАТЬ - Минимальный набор полей, которые должны быть в наличии для создания полноценной карты процесса — id, title, dep, systems, auto_prc, transactions, hum_duration, hum_cost, launched, workflow.**
+**Обязательные поля для заполнения — id, title, area, environment, workflow, tenant. Однако для создания полноценной карты процесса рекомендуем также заполнить поля — systems, automation_prc, transactions, human_duration, fte_human_fte_cost, production_since.**
 
 
 {% hint style="info" %}
