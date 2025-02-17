@@ -12,17 +12,16 @@ Expand-Archive -LiteralPath "$InstallPath\LogEventsWebhook.zip" -DestinationPath
 [System.Environment]::SetEnvironmentVariable('ASPNETCORE_ENVIRONMENT', 'ProdWin', [System.EnvironmentVariableTarget]::Machine)
 ```
 
-Настраиваем appsettings.ProdWin.json (некоторые параметры):
+Настраиваем appsettings/appsettings.ProdWin.json (некоторые параметры):
 
 ![](../../../../orchestrator-new/resources/install/windows/additional-components-win/logevents-1.PNG)
 
-- **RabbitMQ:Host** – адрес сервера с RabbitMQ.
+- **RabbitMQ:Host** – адрес сервера с RabbitMQ, учетные данные для подключения.
 - Полностью задаем все параметры секции **HttpEndPoint**:  
     * **Url** – адрес end-point приема событий.
     * **LoginUrl** – адрес end-point получения токена.
     * **UserName** – имя пользователя для получения токена.
     * **Password** – пароль для получения токена. Пароль должен быть зашифрован утилитой LTools.Orchestrator.PasswordEncriptor
-- **Orchestrator:BaseUrl** – адрес Оркестратора.
 - **Cache:EntityData:DurationInMinutes** – время (минут) жизни кэша для получения расширенной информации о связанной с событием сущности Оркестратора.
 
 Настраиваем уровни логирования (Information, Warning, Error):
