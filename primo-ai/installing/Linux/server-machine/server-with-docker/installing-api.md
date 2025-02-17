@@ -61,17 +61,17 @@ docker load -i /srv/samba/shared/install/docker/server/portainer.tar
    ```
 1. Размещаем файлы моделей "AI Текст". Файлы моделей объемные, поэтому можно скопировать только отдельные.
 
-   Базовая модель 'Llama' для vLLM-ядра:
+   Базовая модель для vLLM-ядра:
    ```
-   sudo cp -r /srv/samba/shared/install/data/models/NLP/llama3.1-8B.zip /app/Primo.AI/Api/volumes/Api_Models/
+   sudo cp -r /srv/samba/shared/install/data/models/NLP/base-LLM-01.zip /app/Primo.AI/Api/volumes/Api_Models/
    ```
-   Базовая модель 'Llama' для Llama-ядра:
+   Базовая модель для Llama-ядра:
    ```
-   sudo cp -r /srv/samba/shared/install/data/models/NLP/llama3.1-8B-GGUF.zip /app/Primo.AI/Api/volumes/Api_Models/
+   sudo cp -r /srv/samba/shared/install/data/models/NLP/base-LLM-02.zip /app/Primo.AI/Api/volumes/Api_Models/
    ```
-   Базовая модель 'Qwen' для vLLM-ядра:
+   Дополнительная базовая модель для vLLM-ядра:
    ```
-   sudo cp -r /srv/samba/shared/install/data/models/NLP/qwen2.5-7B.zip /app/Primo.AI/Api/volumes/Api_Models/
+   sudo cp -r /srv/samba/shared/install/data/models/NLP/base-LLM-03.zip /app/Primo.AI/Api/volumes/Api_Models/
    ```
 1. Размещаем стандартный контекст NLP-запросов: 
    ```
