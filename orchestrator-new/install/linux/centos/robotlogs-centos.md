@@ -38,7 +38,7 @@ systemctl daemon-reload
 
 `systemctl status Primo.Orchestrator.RobotLogs`
 
-Откройте порт 56748 на файерволе (если служба RobotLogs не на одном сервере с nginx для WebApi):
+Откройте порт 56748 на файерволе (если служба RobotLogs не на одном сервере с nginx):
 ```
 firewall-cmd --zone=public --add-port=56748/tcp --permanent
 firewall-cmd --reload
