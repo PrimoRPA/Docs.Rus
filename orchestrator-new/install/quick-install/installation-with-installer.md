@@ -115,12 +115,14 @@
 Инсталлятор поддерживает установку в *консольном режиме*, что позволяет автоматизировать процесс:  
 
 - *Для Windows:*  
-  shell
+```
+  shell  
   Primo-Orchestrator-Installer.exe --mode unattended --installdir "C:\Primo"
-  
-- *Для Linux:*  
-  shell
+```
+- *Для Linux:*
+```
+  shell  
   sudo ./Primo-Orchestrator-Installer.run --mode unattended --installdir "/opt/primo"
-  
+```
 
 Консольная установка удобна для массового развертывания или установки на сервер без GUI.

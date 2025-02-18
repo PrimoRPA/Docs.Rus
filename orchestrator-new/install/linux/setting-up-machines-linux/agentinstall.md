@@ -2,70 +2,29 @@
 
 Руководство содержит инструкции по установке Агента Оркестратора для следующих операционных систем:
 
-* CentOS 8.5
-* РЕДОС 
+* РЕДОС 7.3, 8
 * Astra Linux 1.7 
-* CentOS 7 
+* CentOS 7, 8 
 
 В конце данной статьи вы также можете найти Инструкцию по проверке настройки машины робота.
 
 ## Общие настройки
+
+Редактируем конфигурационный файл службы Agent appsettings.ProdLinux.json:
 
 Если в RPA-проекте (zip-архив) присутствуют файлы с кириллицей в наименовании, то для корректной распаковки архива перед запуском робота необходимо, чтобы в конфигурационном файле службы Агента был настроен параметр ProjectZipEncoding. 
 Наиболее востребованные значения:  utf-8 (для Windows), cp866 (для Linux) и null (кодировка по умолчанию в ОС):
 
 ![](../../../../orchestrator-new/resources/install/linux/setting-up-machines-linux/Agentinstall-1.PNG)
 
+Настраиваем секцию Orchestrator: 
 
-## Действия при установке CentOS 8.5
+![](../../../../orchestrator-new/resources/install/linux/setting-up-machines-linux/Agentinstall-1-1.PNG)
 
-Подключаемся к серверу по SSH с пользователем с правами root. 
-Копируем папку `/srv/samba/shared/install/Agent-linux` в `/opt/Primo/Agent`:
-```
-cp -R  /srv/samba/shared/install/Agent-linux /opt/Primo/Agent
-```
-Создаем службу:
-Переходим в каталог `/opt/Primo/Agent`
-```
-cd /opt/Primo/Agent
-```
-Копируем файл службы (идет с комплектом поставки) в `/etc/systemd/system`:
-```
-cp Primo.Orchestrator.Agent.service /etc/systemd/system/Primo.Orchestrator.Agent.service
-systemctl daemon-reload	
-```
-Помещаем службу в автозапуск:	
-```
-systemctl enable /etc/systemd/system/Primo.Orchestrator.Agent.service
-```	
-Даем права на запуск:
-```
-chmod -R 777 /opt/Primo/Agent/Primo.Orchestrator.Agent
-chmod -R 777 /opt/Primo/Agent/BashScripts
-```
-В конфигурационном файле службы appsettings.ProdLinux.json прописываем адрес Оркестратора и TenantId (если эта машина не в тенанте по умолчанию) и пользователя из тенанта (встроенная учетная запись agent из тенанта по умолчанию):
+**TenantId** – тенант Агента (для дефолтного тенанта null).
 
-![](../../../../orchestrator-new/resources/install/linux/setting-up-machines-linux/Agentinstall-2.PNG)
 
-Стартуем службу:
-```
-systemctl start Primo.Orchestrator.Agent
-```
-Проверяем состояние службы:
-```
-systemctl status Primo.Orchestrator.Agent
-```
-Открываем порт на файерволе:
-```
-firewall-cmd --zone=public --add-port=5002/tcp --permanent
-firewall-cmd --reload
-```
-Проверяем журнал службы:
-```
-journalctl -u Primo.Orchestrator.Agent
-```
-
-## Действия при установке РЕДОС 7.3
+## Действия при установке РЕДОС 7.3, 8
 
 При установке машины робота под управлением РЕДОС 7.3 необходимо:
 * на экране **ВЫБОР ПРОГРАММ** отметить базовое окружение **Рабочая станция с графическим окружением (MATE)**
@@ -86,6 +45,25 @@ journalctl -u Primo.Orchestrator.Agent
 
 Рекомендуется выделить одну машину под управлением РЕДОС 7.3 для размещения на ней сервера репозиториев.
 
+Для машины с доступом в Интернет файл `/etc/yum.repos.d/RedOS-Base.repo` может выглядеть следующим образом:
+```
+[base]
+name=RedOS - Base
+baseurl=https://repo1.red-soft.ru/redos/7.3c/$basearch/os,https://mirror.yandex.ru/redos/7.3c/$basearch/os,http://repo.red-soft.ru/redos/7.3c/$basearch/os
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-RED-SOFT
+enabled=1
+```
+а файл `/etc/yum.repos.d/RedOS-Updates.repo` следующим:
+```
+[updates]
+name=RedOS - Updates
+baseurl=https://repo1.red-soft.ru/redos/7.3c/$basearch/updates,https://mirror.yandex.ru/redos/7.3c/$basearch/updates,http://repo.red-soft.ru/redos/7.3c/$basearch/updates
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-RED-SOFT
+enabled=1
+```
+
 2.	Проверьте доступность репозиториев, используя следующую команду:
 ```
 [primo-admin@redos-robot ~]$ sudo dnf repolist
@@ -98,7 +76,7 @@ journalctl -u Primo.Orchestrator.Agent
 ```
 4.	Установите необходимое для работы робота ПО:
 ```
-[primo-admin@redos-robot ~]$ sudo dnf -y install at xorg-x11-server-Xvfb python3-numpy python3-opencv xdotool dotnet-sdk-6.0 ImageMagick
+[primo-admin@redos-robot ~]$ sudo dnf -y install at xorg-x11-server-Xvfb python3-numpy python3-opencv xdotool dotnet-sdk-8.0 ImageMagick
 ```
 
 ### Настройка учетной записи агента
@@ -381,6 +359,15 @@ passwd: пароль успешно обновлён
 
 Рекомендуется выделить одну машину под управлением Astra Linux 1.7 для размещения на ней сервера репозиториев.
 
+Для машины с доступом в Интернет файл `/etc/apt/sources.list` может выглядеть следующим образом:
+```
+deb https://download.astralinux.ru/astra/stable/1.7_x86-64/repository-main/ 1.7_x86-64 main contrib non-free
+deb https://download.astralinux.ru/astra/stable/1.7_x86-64/repository-update/ 1.7_x86-64 main contrib non-free
+deb https://download.astralinux.ru/astra/stable/1.7_x86-64/repository-base/ 1.7_x86-64 main contrib non-free
+deb https://download.astralinux.ru/astra/stable/1.7_x86-64/repository-extended/ 1.7_x86-64 main contrib non-free
+deb https://download.astralinux.ru/astra/stable/1.7_x86-64/repository-extended/ 1.7_x86-64 astra-ce
+```
+
 2. Проверьте доступность репозиториев, используя следующую команду:
 ```
 [primo-admin@astra-robot ~]$ sudo apt update
@@ -389,7 +376,7 @@ passwd: пароль успешно обновлён
 
 3. Установите необходимое для работы робота ПО:
 ```
-[primo-admin@astra-robot ~]$ sudo apt -y install at xvfb python3-numpy python3-opencv xdotool dotnet-sdk-6.0 graphicsmagick-imagemagick-compat
+[primo-admin@astra-robot ~]$ sudo apt -y install at xvfb python3-numpy python3-opencv xdotool dotnet-sdk-8.0 graphicsmagick-imagemagick-compat
 ```
 
 ### Настройка учетной записи агента
@@ -415,13 +402,45 @@ passwd: пароль успешно обновлён
 [primo-admin@astra-robot ~]$ sudo sh -c "echo 'agent ALL = (ALL) NOPASSWD: /usr/sbin/reboot' >> /etc/sudoers.d/primo-rpa-agent"
 ```
 
+### Режим запуска роботов atd
+
+Для запуска заданий роботов без прав пользователя root файл `/etc/sudoers.d/primo-rpa-agent` должен выглядеть следующим образом:
+```
+agent ALL = (ALL) NOPASSWD: /usr/sbin/reboot
+agent ALL = (%primo-rpa) NOPASSWD: /usr/bin/kill
+agent ALL = (%primo-rpa) NOPASSWD: /usr/bin/at
+```
+Пояснения:
+•	первая строка разрешает пользователю agent запуск команды `/usr/sbin/reboot` с правами пользователя root без ввода пароля, то есть, позволяет агенту перезагрузить машину агента;
+•	вторая строка разрешает пользователю agent запуск команды `/usr/bin/kill` с правами любого пользователя из группы primo-rpa без ввода пароля, то есть, позволяет агенту завершить процесс любого робота;
+•	третья строка разрешает пользователю agent запуск команды `/usr/bin/at` с правами любого пользователя из группы primo-rpa без ввода пароля, то есть, позволяет агенту запустить робота с помощью службы *atd*.
+
+
+### Режим запуска роботов systemd
+
+Для запуска заданий роботов без прав пользователя root файл `/etc/sudoers.d/primo-rpa-agent` должен выглядеть следующим образом:
+```
+agent ALL = (ALL) NOPASSWD: /usr/sbin/reboot
+agent ALL = (%primo-rpa) NOPASSWD: /usr/bin/kill
+agent ALL = (%primo-rpa) NOPASSWD:SETENV: /usr/bin/systemd-run -G --user --unit *
+agent ALL = (%primo-rpa) NOPASSWD:SETENV: /usr/bin/systemctl --user stop *
+agent ALL = (%primo-rpa) NOPASSWD: /usr/bin/loginctl enable-linger *
+```
+Пояснения:
+•	первая строка разрешает пользователю agent запуск команды `/usr/sbin/reboot` с правами пользователя root без ввода пароля, то есть, позволяет агенту перезагрузить машину агента;
+•	вторая строка разрешает пользователю agent запуск команды `/usr/bin/kill` с правами любого пользователя из группы primo-rpa без ввода пароля, то есть, позволяет агенту завершить процесс любого робота;
+•	третья строка разрешает пользователю agent запуск команды `/usr/bin/systemd-run` с правами любого пользователя из группы primo-rpa без ввода пароля, то есть, позволяет агенту запустить сеанса робота с помощью службы *systemd*;
+•	четвёртая строка разрешает пользователю agent запуск команды `/usr/bin/systemctl` с правами любого пользователя из группы primo-rpa без ввода пароля, то есть, позволяет агенту корректно остановить сеанс робота с помощью службы *systemd*;
+•	пятая строка разрешает пользователю agent запуск команды `/usr/bin/loginctl` с правами любого пользователя из группы primo-rpa без ввода пароля, то есть, позволяет агенту включить поддержку сеансов для робота.
+
+
 ### Установка агента
 
 Разворачивание файлов агента оркестратора на машине роботов (файл Agent-linux.zip должен находиться в каталоге `/srv/samba/shared/install`):
 ```
 [primo-admin@astra-robot ~]$ sudo mkdir -p /opt/Primo/Agent /opt/Primo/AgentData /opt/LTools
 [primo-admin@astra-robot ~]$ sudo unzip /srv/samba/shared/install/Agent-linux.zip -d /opt/Primo/Agent
-[primo-admin@astra-robot ~]$ sudo chmod a+x /opt/Primo/Agent/Primo.Orchestrator.Agent
+[primo-admin@astra-robot ~]$ sudo chmod a+x /opt/Primo/Agent/Primo.Orchestrator.Agent /opt/Primo/Agent/LTools.Orchestrator.Agent.Runner
 [primo-admin@astra-robot ~]$ sudo chown -R agent.primo-rpa /opt/Primo/Agent /opt/Primo/AgentData /opt/LTools
 [primo-admin@astra-robot ~]$ sudo chmod -R g+w /opt/Primo/Agent /opt/Primo/AgentData /opt/LTools
 ```
@@ -431,31 +450,31 @@ passwd: пароль успешно обновлён
 [primo-admin@astra-robot ~]$ sudo systemctl daemon-reload
 [primo-admin@astra-robot ~]$ sudo systemctl enable /etc/systemd/system/Primo.Orchestrator.Agent.service
 ```
-В конфигурационном файле appsettings.ProdLinux.json укажите адрес Оркестратора и TenantId (если эта машина не в тенанте по умолчанию) и пользователя из тенанта, а также адрес машины робота:
+В конфигурационном файле appsettings.ProdLinux.json укажите адрес Оркестратора и TenantId (если эта машина не в тенанте по умолчанию) и пользователя из тенанта:
 ```
   "Orchestrator": {
     "UserName": "agent",
-    "Password": "Qwe123!@#",
-    "BaseUrl": "https://192.168.1.154:5001",
+    "Password": "<зашифрованный пароль>",
+    "BaseUrl": "https://192.168.1.154:44362",
     "DownloadRpaProject": true,
     "UserBaseUrlFromRequest": true,
     "TenantId": ""
   },
   ...
   "Agent": {
+    
     ...
-    "IpAddress": "192.168.0.20",
-    ...
+    "RobotStartMethod": "system",
   },
 ```
 Убедитесь, что в конфигурационном файле appsettings.ProdLinux.json правильно указаны команды, с помощью которых агент запускает роботов и управляет машиной (здесь указаны правильные команды для Astra Linux 1.7):
 ```
-  "AgentCommands": {
+ "AgentCommands": {
     "At": "/usr/bin/at",
     "Reboot": "/usr/sbin/reboot",
     "Xvfb": "/usr/bin/xvfb-run",
-    "Session": "/usr/bin/fly-wm"
-  },
+    "Session": "/usr/bin/fly-wm --execOnly {}"
+ },
 ```
 Запуск службы:
 ```
@@ -538,7 +557,7 @@ passwd: пароль успешно обновлён
 ```
 [admin@astra-robot ~]$ sudo systemctl stop Primo.Orchestrator.Agent
 [admin@astra-robot ~]$ sudo useradd -m -s /bin/bash primo-admin
-[admin@astra-robot ~]$ sudo usermod -G cdrom,floppy,audio,dip,video,plugdev,netdev,lpadmin,astra-console,astra-admin primo-admin
+[admin@astra-robot ~]$ sudo usermod -G cdrom, floppy, audio, dip, video, plugdev, netdev, lpadmin, astra-console, astra-admin primo-admin
 [admin@astra-robot ~]$ sudo passwd primo-admin
 Новый пароль : ***
 Повторите ввод нового пароля : ***
@@ -633,11 +652,11 @@ passwd: пароль успешно обновлён
   ...
 },
 ...
-"AgentCommands": {
+AgentCommands": {
     "At": "/usr/bin/at",
     "Reboot": "/usr/sbin/reboot",
     "Xvfb": "/usr/bin/xvfb-run",
-    "Session": "/usr/bin/fly-wm"
+    "Session": "/usr/bin/fly-wm --execOnly {}"
 },
 ```
 
@@ -649,7 +668,7 @@ passwd: пароль успешно обновлён
 [primo-admin@astra-robot ~]$ sudo systemctl enable /etc/systemd/system/Primo.Orchestrator.Agent.service
 ```
 
-## Действия при установке CentOS 7
+## Действия при установке CentOS 7, 8
 
 При установке машины робота под управлением Centos 7 необходимо:
 
@@ -685,7 +704,6 @@ passwd: пароль успешно обновлён
 [primo-admin@centos-robot ~]$ sudo rpm -Uvh https://packages.microsoft.com/config/centos/7/packages-microsoft-prod.rpm
 [primo-admin@centos-robot ~]$ sudo yum -y install dotnet-sdk-6.0
 ```
-
 Для установки пакетов xdotool и dotnet-sdk-6.0 необходимо подключение к сети Internet.
 
 ### Настройка учетной записи агента
@@ -710,40 +728,26 @@ passwd: все данные аутентификации успешно обно
 ```
 [primo-admin@centos-robot ~]$ sudo sh -c "echo 'agent ALL = (%primo-rpa) NOPASSWD: /usr/bin/at' > /etc/sudoers.d/primo-rpa-agent"
 [primo-admin@centos-robot ~]$ sudo sh -c "echo 'agent ALL = (ALL) NOPASSWD: /usr/sbin/reboot' >> /etc/sudoers.d/primo-rpa-agent"
+[primo-admin@centos-robot ~]$ sudo sh -c "echo 'agent ALL = (ALL) NOPASSWD: /usr/bin/kill' >> /etc/sudoers.d/primo-rpa-agent"
+[primo-admin@centos-robot ~]$ sudo sh -c "echo 'agent ALL = (ALL) NOPASSWD: /usr/sbin/sysctl' >> /etc/sudoers.d/primo-rpa-agent"
+[primo-admin@astra-robot ~]$ sudo sh -c "echo 'agent ALL = (ALL) NOPASSWD: /bin/systemctl' >> /etc/sudoers.d/primo-rpa-agent"
 ```
 
 ### Установка агента
 
 Разворачивание файлов агента оркестратора на машине роботов (файл Agent-linux.zip должен находиться в каталоге `/srv/samba/shared/install`):
 ```
-[primo-admin@centos-robot ~]$ sudo mkdir -p /opt/Primo/Agent /opt/Primo/AgentData /opt/LTools
+[primo-admin@centos-robot ~]$ sudo mkdir -p /opt/Primo/Agent /opt/Primo/AgentData /opt/LTools /opt/Primo/Agent_
 [primo-admin@centos-robot ~]$ sudo unzip /srv/samba/shared/install/Agent-linux.zip -d /opt/Primo/Agent
 [primo-admin@centos-robot ~]$ sudo chmod a+x /opt/Primo/Agent/Primo.Orchestrator.Agent
-[primo-admin@centos-robot ~]$ sudo chown -R agent.primo-rpa /opt/Primo/Agent /opt/Primo/AgentData /opt/LTools
-[primo-admin@centos-robot ~]$ sudo chmod -R g+w /opt/Primo/Agent /opt/Primo/AgentData /opt/LTools
+[primo-admin@centos-robot ~]$ sudo chown -R agent.primo-rpa /opt/Primo/Agent /opt/Primo/AgentData /opt/LTools /opt/Primo/Agent
+[primo-admin@centos-robot ~]$ sudo chmod -R g+w /opt/Primo/Agent /opt/Primo/AgentData /opt/LTools /opt/Primo/Agent
 ```
 Установите агент оркестратора как службу и настройте автозапуск:
 ```
 [primo-admin@centos-robot ~]$ sudo cp /opt/Primo/Agent/Primo.Orchestrator.Agent.service /etc/systemd/system/
 [primo-admin@centos-robot ~]$ sudo systemctl daemon-reload
 [primo-admin@centos-robot ~]$ sudo systemctl enable /etc/systemd/system/Primo.Orchestrator.Agent.service
-```
-В конфигурационном файле appsettings.ProdLinux.json укажите адрес Оркестратора и TenantId (если эта машина не в тенанте по умолчанию) и пользователя из тенанта, а также адрес машины робота:
-```
-  "Orchestrator": {
-    "UserName": "agent",
-    "Password": "Qwe123!@#",
-    "BaseUrl": "https://192.168.1.154:5001",
-    "DownloadRpaProject": true,
-    "UserBaseUrlFromRequest": true,
-    "TenantId": ""
-  },
-  ...
-  "Agent": {
-    ...
-    "IpAddress": "192.168.0.20",
-    ...
-  },
 ```
 Убедитесь, что в конфигурационном файле appsettings.ProdLinux.json правильно указаны команды, с помощью которых агент запускает роботов и управляет машиной (здесь указаны правильные команды для Centos 7):
 ```
@@ -840,12 +844,13 @@ passwd: все данные аутентификации успешно обно
 [admin@centos-robot ~]$ sudo systemctl stop Primo.Orchestrator.Agent
 [admin@centos-robot ~]$ sudo useradd -m -s /bin/bash primo-admin
 [admin@centos-robot ~]$ sudo usermod -G wheel primo-admin
+
 [admin@centos-robot ~]$ sudo passwd primo-admin
 Новый пароль : ***
 Повторите ввод нового пароля : ***
 passwd: пароль успешно обновлён
-```
 
+```
 Теперь небходимо войти в систему под пользователем primo-admin и дальнейшие команды выполнять под его именем.
 
 Выполните команды из следующих разделов:
