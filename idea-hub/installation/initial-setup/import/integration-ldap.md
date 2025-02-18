@@ -19,9 +19,6 @@
    ![](<../../../../idea-hub/resources/installation/config-ldap.png>)
 
 1. На странице **Серверы** нажмите кнопку **Add Server** в правом верхнем углу экрана для доступа в диалог настроек сервера.
-
-   ![](<../../../../.gitbook/assets/LDAP_integration-AddServer_button.png>)
-
 1. В открывшемся диалоге **Add Server** заполните поля необходимой информацией, затем нажмите кнопку **Сохранить**.
 
    ![](<../../../../.gitbook/assets/LDAP_integration-AddServer_dialog.png>)
