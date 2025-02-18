@@ -24,7 +24,7 @@
 
 Информация по заполнению полей шаблона приведена в таблице этого раздела, а также содержится в самом шаблоне в виде подсказок. Чтобы их увидеть, наведите курсор на название нужного поля.
 
-**Обязательные поля для заполнения — id, title, area, environment, workflow, tenant. Однако для создания полноценной карты процесса рекомендуем также заполнить поля — systems, automation_prc, transactions, human_duration, fte_human_fte_cost, production_since.**
+**Обязательные поля для заполнения — id, title, area, environment, workflow, tenant. Однако для создания полноценной карты процесса рекомендуем также заполнить поля — automation_prc, transactions, human_duration, fte_human_fte_cost, production_since.**
 
 
 {% hint style="info" %}
