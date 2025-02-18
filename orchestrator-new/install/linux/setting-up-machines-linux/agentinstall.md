@@ -771,7 +771,7 @@ passwd: все данные аутентификации успешно обно
 [primo-admin@centos-robot ~]$ sudo journalctl -u Primo.Orchestrator.Agent
 ```
 
-## Настройка правила брандмауэра Firewall
+### Настройка правила брандмауэра Firewall
 
 Установка и настройка брандмауэра Firewall описана в [Using Firewalls](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/security_guide/sec-using_firewalls).
 
