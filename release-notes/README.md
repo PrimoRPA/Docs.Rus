@@ -13,12 +13,12 @@
 
 ## Быстрый доступ к релизным заметкам
 
-### 🔹 Primo RPA Studio/Robot 1.25.1 
+###  Primo RPA Studio/Robot 1.25.1 
 📄 [Просмотреть релиз-нотсы](https://docs.primo-rpa.ru/primo-rpa/release-notes/studio/studio-1.25.1)  
 📥 [Скачать Primo RPA Studio](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FRelease%2FStudio)  
 📥 [Скачать Primo RPA Robot](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FRelease%2FRobot)
 
-### 🔹 Primo RPA Orchestrator 1.25.1 
+###  Primo RPA Orchestrator 1.25.1 
 📄 [Просмотреть релиз-нотсы](https://docs.primo-rpa.ru/primo-rpa/release-notes/orch/orch-1.25.1)  
 📥 [Скачать Orchestrator](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FRelease%2FOrchestrator)  
 
