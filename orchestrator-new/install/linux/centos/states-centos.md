@@ -27,6 +27,11 @@ systemctl daemon-reload
 
 `chmod -R 777 /opt/Primo/States/Primo.Orchestrator.States`
 
+Поменяйте в секции RabbitMQ конфигурационного файла appsettings.ProdLinux.json параметры для подключения к RabbitMQ:
+
+![](../../../../orchestrator-new/resources/install/linux/centos/install-linux-centos-states-1.PNG)
+
+
 Запустите службу:
 
 `systemctl start Primo.Orchestrator.States`
