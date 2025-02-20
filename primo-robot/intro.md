@@ -43,14 +43,14 @@
 
 **Запуск и регистрация через Оркестратор:**
 
-1. [Загрузка дистрибутива робота через Оркестратор](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/robots/upload-robot).
-2. [Регистрация машины робота](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/robots/register-robot).
-3. [Регистрация RDP-пользователей на машине робота](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/robots/register-rdp-users).
-4. [Запрос лицензии в Оркестраторе](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/licensing/new-license).
+1. [Загрузка дистрибутива робота через Оркестратор](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-admin/robots/upload-robot).
+2. [Регистрация машины робота](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-admin/robots/register-robot).
+3. [Регистрация RDP-пользователей на машине робота](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-admin/robots/register-rdp-users).
+4. [Запрос лицензии в Оркестраторе](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-admin/licensing/new-license).
 5. Ручной запуск RPA-проекта:
-   * [Поместить проект в очередь](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/put-project-in-project-queue) — предпочтительный сценарий.
-   * [Запустить робота с RPA-проектом](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/robot-manual-start) — альтернативный сценарий.
-6. Автоматизированный запуск RPA-проектов с помощью [заданий](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/tasks) и [расписаний](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/tasks/schedules).
+   * [Поместить проект в очередь](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-user/manual-prj-in-queue) — предпочтительный сценарий.
+   * [Запустить робота с RPA-проектом](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-user/manual-robot-start) — альтернативный сценарий.
+6. Автоматизированный запуск RPA-проектов с помощью [заданий](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-user/tasks-overview) и [расписаний](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-user/tasks/tasks-schedules).
 
 Для более полного понимания работы через Оркестратор рекомендуется ознакомиться с документацией из раздела **Primo RPA Orchestrator**.
 
