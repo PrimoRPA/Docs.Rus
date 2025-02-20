@@ -4,7 +4,7 @@
 
 Для создания расписания перейдите в раздел **Задания > Расписания** и нажмите кнопку **Добавить расписание**:
 
-![](../../../../orchestrator-new/resources/orchestrator-user/tasks/button-add-schedule.png)
+![](../../../orchestrator-new/resources/orchestrator-user/tasks/button-add-schedule.png)
 
 Укажите название расписания и необходимые настройки запуска. Название должно состоять только из латинских букв и цифр, дефиса, символа подчеркивания и точки.
 
