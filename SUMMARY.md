@@ -1391,6 +1391,10 @@
   	* [Первичная настройка](idea-hub/installation/initial-setup/README.md)
   		* [Подключение к Оркестратору](idea-hub/installation/initial-setup/connecting-to-orch.md)
   	 	* [Создание и настройка контуров](idea-hub/installation/initial-setup/environments.md)
+  	  	* [Импорт данных](idea-hub/installation/initial-setup/import/README.md)
+  	  		* [Импорт пользователей](idea-hub/installation/initial-setup/import/file-users.md)
+  	  	 	* [Импорт департаментов](idea-hub/installation/initial-setup/import/file-areas.md)
+  	  	  	* [Импорт процессов](idea-hub/installation/initial-setup/import/file-process.md)
   	  	* [Настройка cron](idea-hub/installation/initial-setup/cron.md)
   	  	* [Менеджер паролей pass](idea-hub/installation/initial-setup/pass.md)
   		* [Интеграция с LDAP](idea-hub/installation/initial-setup/integration-ldap.md)
@@ -1404,11 +1408,6 @@
     * [Типы полей и настройка](idea-hub/processes/field-types.md)
 * [Формулы](idea-hub/formulas/about.md)
 	* [Синтаксис формул](idea-hub/formulas/README.md) 
-* [Импорт данных](idea-hub/import-export/readme.md)
-	* [Импорт из Оркестратора](idea-hub/import-export/import-from-orchestrator.md)
- 	* [Файл process.xlsx](idea-hub/import-export/file-process.md)
-  	* [Файл areas.xlsx](idea-hub/import-export/file-areas.md)
-  	* [Файл users.xlsx](idea-hub/import-export/file-users.md)
 * [Создание индикаторов](idea-hub/indicators.md)
 
 ## Primo RPA AI Server
