@@ -34,7 +34,7 @@
 
 ### 1. Лицензия Robot (Enterprise)
 
-Мнемоника — **robot**. Предназначена для Робота, работающего с Оркестратором в продуктивной среде (unattended-робот). Лицензия запрашивается [через Оркестратор](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/licensing/new-license), у которого тоже должна быть лицензия.
+Мнемоника — **robot**. Предназначена для Робота, работающего с Оркестратором в продуктивной среде (unattended-робот). Лицензия запрашивается [через Оркестратор](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-admin/licensing/new-license), у которого тоже должна быть лицензия.
 
 **Особенности работы по лицензии Robot (Enterprise)**:
 * Обеспечивается автоматическая поддержка RDP-сессий для RDP-пользователей машины робота.
@@ -47,7 +47,7 @@
 
 **Особенности работы по лицензии Robot (Desktop)**:
 *  Недоступна внешняя поддержка рабочего стола через RDP-соединение.
-*  Недоступна работа с [аргументами проекта](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/tasks/orch-args). 
+*  Недоступна работа с [аргументами проекта](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-user/tasks-overview/tasks-arguments). 
 
 Лицензию **Robot (Desktop)** возможно запросить двумя способами:
 1. [Локально с машины пользователя, где запускается Робот](https://docs.primo-rpa.ru/primo-rpa/primo-robot/installation/registration-desktop). В этом случае лицензия запрашивается через утилиту Primo Robot RPA Runner, которая поставляется совместно с дистрибутивами Primo RPA Studio и Primo RPA Robot. Если лицензия запрошена локально с компьютера пользователя, то она будет привязана только к его учетной записи и компьютеру. На другой машине использовать лицензию не получится.
