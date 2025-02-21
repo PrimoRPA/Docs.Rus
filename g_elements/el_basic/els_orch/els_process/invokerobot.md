@@ -5,9 +5,9 @@ description: Invoke robot
 
 # Запустить робота
 
-Элемент инициирует запуск робота для выполнения [задания](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/tasks) в Оркестраторе. Это помогает ускорить выполнение нагруженных бизнес-процессов.
+Элемент инициирует запуск робота для выполнения [задания](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-user/tasks-overview) в Оркестраторе. Это помогает ускорить выполнение нагруженных бизнес-процессов.
 
-Задание, которое вы хотите выполнить, должно иметь тип триггера [«Запуск из другого робота»](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/tasks#id-6.-zapusk-iz-drugogo-robota). Робот для указанного задания подберется автоматически.
+Задание, которое вы хотите выполнить, должно иметь тип триггера [«Запуск из другого робота»](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-user/tasks-overview#triggery). Робот для указанного задания подберется автоматически.
 
 ![Элемент «Запустить робота»](<../../../../.gitbook/assets/Запустить робота.png>)
 
