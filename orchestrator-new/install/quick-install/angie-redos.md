@@ -2,13 +2,13 @@
 
 ## Предварительные действия
 
-Установите в соответствии с [инструкциями](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/linux/readme) по развертыванию следующие компоненты:
-1.	Dotnet-sdk-7.0
-2.	RabbitMQ
-3.	PostgreSQL
-4.	WebApi
-5.	MachineInfo
-6.	RDP2
+Установите в соответствии с инструкциями по развертыванию следующие компоненты:
+1.	[Dotnet-sdk-7.0](https://dotnet.microsoft.com/ru-ru/download/dotnet/7.0)
+2.	[RabbitMQ](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-sys-admin/install/linux/centos/rabbitmq-centos)
+3.	[PostgreSQL](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-sys-admin/install/linux/centos/postgres-centos)
+4.	[WebApi](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-sys-admin/install/linux/centos/webapi-centos)
+5.	[MachineInfo](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-sys-admin/install/linux/centos/machineinfo-centos)
+6.	[RDP2]
 7.	RobotLogs
 8.	States
 9.	Notifications
