@@ -2,21 +2,21 @@
 
 ## Предварительные действия
 
-Установите в соответствии с [инструкциями](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/linux/readme) по развертыванию следующие компоненты:
-1.	Dotnet-sdk-7.0
-2.	RabbitMQ
-3.	PostgreSQL
-4.	WebApi
-5.	MachineInfo
-6.	RDP2
-7.	RobotLogs
-8.	States
-9.	Notifications
+Установите в соответствии с инструкциями по развертыванию следующие компоненты:
+1.	[Dotnet-sdk-7.0](https://dotnet.microsoft.com/ru-ru/download/dotnet/7.0)
+2.	[RabbitMQ](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-sys-admin/install/linux/centos/rabbitmq-centos)
+3.	[PostgreSQL](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-sys-admin/install/linux/centos/postgres-centos)
+4.	[WebApi](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-sys-admin/install/linux/centos/webapi-centos)
+5.	[MachineInfo](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-sys-admin/install/linux/centos/machineinfo-centos)
+6.	[RDP2](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-sys-admin/install/linux/centos/rdp2-centos)
+7.	[RobotLogs](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-sys-admin/install/linux/centos/robotlogs-centos)
+8.	[States](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-sys-admin/install/linux/centos/states-centos)
+9.	[Notifications](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-sys-admin/install/linux/centos/notifications-centos)
 
 При необходимости установите:
-1.	ArcSight
-2.	LogEventsWebhook
-3.	NuGet2
+1.	[ArcSight](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-sys-admin/install/linux/additional-components-linux/arcsight-linux-centos)
+2.	[LogEventsWebhook](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-sys-admin/install/linux/additional-components-linux/logeventswebhook-linux-centos)
+3.	[NuGet2](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-sys-admin/install/linux/additional-components-linux/nuget2-linux-centos)
 
 ## Установка Angie
 
