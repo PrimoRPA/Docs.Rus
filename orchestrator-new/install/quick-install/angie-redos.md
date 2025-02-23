@@ -8,15 +8,15 @@
 3.	[PostgreSQL](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-sys-admin/install/linux/centos/postgres-centos)
 4.	[WebApi](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-sys-admin/install/linux/centos/webapi-centos)
 5.	[MachineInfo](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-sys-admin/install/linux/centos/machineinfo-centos)
-6.	[RDP2]
-7.	RobotLogs
-8.	States
-9.	Notifications
+6.	[RDP2](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-sys-admin/install/linux/centos/rdp2-centos)
+7.	[RobotLogs](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-sys-admin/install/linux/centos/robotlogs-centos)
+8.	[States](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-sys-admin/install/linux/centos/states-centos)
+9.	[Notifications](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-sys-admin/install/linux/centos/notifications-centos)
 
 При необходимости установите:
-1.	ArcSight
-2.	LogEventsWebhook
-3.	NuGet2
+1.	[ArcSight](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-sys-admin/install/linux/additional-components-linux/arcsight-linux-centos)
+2.	[LogEventsWebhook](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-sys-admin/install/linux/additional-components-linux/logeventswebhook-linux-centos)
+3.	[NuGet2](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-sys-admin/install/linux/additional-components-linux/nuget2-linux-centos)
 
 ## Установка Angie
 
