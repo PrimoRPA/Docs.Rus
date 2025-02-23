@@ -48,6 +48,9 @@ sudo systemctl daemon-reload
 
 `sudo systemctl start Primo.Orchestrator.WebApi`
 
+> Начиная с версии 1.24.8.0, WebApi требует наличия базы данных `ltoolsltwrepo`. Если учетная запись, под которой работает Оркестратор, не имеет прав на создание баз данных, `ltoolsltwrepo`
+должна быть создана вручную администратором перед запуском WebApi. Убедитесь, что учетная запись имеет необходимые права на доступ и использование этой базы данных.
+
 Проверьте состояние службы:
 
 `sudo systemctl status Primo.Orchestrator.WebApi`
