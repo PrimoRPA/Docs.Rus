@@ -34,7 +34,7 @@ description: Change queue item state
 Чтобы извлечь элемент из очереди используйте один из следующих компонентов:
 * [Получить из очереди](https://docs.primo-rpa.ru/primo-rpa/g\_elements/el\_basic/els\_orch/els\_queues/readfromqueue) – извлекает элемент по FIFO.
 * [Получить из очереди по ID](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_queues/peekqueueid) – требуется установить чекбокс **Занимать**, иначе элемент останется в статусе **New**.
-* [Получить из очереди по фильтру](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_queues/peekqueuefilter) – требуется установить чекбокс **Занимать**, иначе элемент останется в статусе **New**.
+* [Получить из очереди по фильтру](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_queues/readfromqueuebyfilter) – требуется установить чекбокс **Занимать**, иначе элемент останется в статусе **New**.
 
 
 
