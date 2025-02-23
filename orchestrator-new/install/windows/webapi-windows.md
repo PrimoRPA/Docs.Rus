@@ -6,7 +6,7 @@
 
 `Expand-Archive -LiteralPath "$InstallPath\WebApi.zip" -DestinationPath 'C:\Primo\WebApi' -Force`
 
-Отредактируйтк конфигурационный файл WebApi (`C:\Primo\WebApi\appsettings.ProdWin.json`):  
+Отредактируйте конфигурационный файл WebApi (`C:\Primo\WebApi\appsettings.ProdWin.json`):  
 
 - Поменяйте на реальный (который у вашего сервера, см. [статью]([../../install/windows/nginx-windows.md](http://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/windows/nginx-windows))) IP:  
 ![](../../resources/install/windows/webapi-1.PNG)
@@ -29,13 +29,17 @@
 
 ![](../../resources/install/windows/webapi-7.PNG)
 
-Если поменялся пользователь/пароль БД – их также поиеняйте.
+Если поменялся пользователь/пароль БД – их также поменяйте.
 
 Создайте системную переменную окружения. Для этого в PowerShell выполните команду:  
 ```
 [System.Environment]::SetEnvironmentVariable('ASPNETCORE_ENVIRONMENT', 'ProdWin', [System.EnvironmentVariableTarget]::Machine)
 ```
 Зарегистрируйте `Primo.Orchestrator.WebApi.exe` как службу Windows и сразу запустите её. 
+
+> Начиная с версии 1.24.8.0, WebApi требует наличия базы данных `ltoolsltwrepo`. Если учетная запись, под которой работает Оркестратор, не имеет прав на создание баз данных, `ltoolsltwrepo`
+должна быть создана вручную администратором перед запуском WebApi. Убедитесь, что учетная запись имеет необходимые права на доступ и использование этой базы данных.
+
 Служба должна работать как локальная служба. Для этого в PowerShell последовательно выполните команды:
 ```
 New-Service -Name Primo.Orchestrator.WebApi -BinaryPathName "C:\Primo\WebApi\Primo.Orchestrator.WebApi.exe" -Description "Primo.Orchestrator.WebApi" -DisplayName "Primo.Orchestrator.WebApi" -StartupType Automatic 
@@ -49,3 +53,5 @@ $s.Start()
 Служба может не запуститься. Наиболее вероятная причина – это неверный коннекшнстринг (пароль) в `appsettings.ProdWin.json` и/или если не развернута/не настроена какая-либо из 4-х БД Оркестратора.
 
 При обновлении службы WebApi может потребоваться дополнительная настройка для RabbitMQ. Для выполнения настройки необходимо перед стартом службы WebApi запустить скрипт из комплекта поставки: deletequeues.bat – для RabbitMQ, запущенном на ОС Windows, и deletequeues.sh – для RabbitMQ, запущеном на ОС Linux. Скрипты необходимо запустить на сервере, на котором запущен RabbitMQ. 
+
+
