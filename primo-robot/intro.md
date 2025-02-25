@@ -50,7 +50,7 @@
 5. Ручной запуск RPA-проекта:
    * [Поместить проект в очередь](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-user/manual-prj-in-queue) — предпочтительный сценарий.
    * [Запустить робота с RPA-проектом](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-user/manual-robot-start) — альтернативный сценарий.
-6. Автоматизированный запуск RPA-проектов с помощью [заданий](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-user/tasks-overview) и [расписаний](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-user/tasks/tasks-schedules).
+6. Автоматизированный запуск RPA-проектов с помощью заданий и расписаний.
 
 Для более полного понимания работы через Оркестратор рекомендуется ознакомиться с документацией из раздела **Primo RPA Orchestrator**.
 
