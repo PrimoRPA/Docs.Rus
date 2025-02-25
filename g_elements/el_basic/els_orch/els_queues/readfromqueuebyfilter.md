@@ -17,7 +17,7 @@ description: Peek queue by filter
 
 Обратите внимание, что в свойствах компонента есть чекбокс **Занимать**. Установка чекбокса позволяет при получении элементов сразу же извлекать их из очереди. Излекать из очереди возможно только новые элементы (статус New) – то есть те, которые еще не занял ни один робот. 
 
-Если элемент извлечен, то другие роботы не смогут взять его в работу. Данный элемент перейдет из статуса New в статус InProgress. В дальнейшем только ваш робот сможет [изменить](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/data-queues/items#statusy-elementa) состояние извлеченного элемента или [удалить](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_queues/deletefromqueue) его из очереди. 
+Если элемент извлечен, то другие роботы не смогут взять его в работу. Данный элемент перейдет из статуса New в статус InProgress. В дальнейшем только ваш робот сможет [изменить](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_queues/changequeueitemstate) состояние извлеченного элемента или [удалить](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_orch/els_queues/deletefromqueue) его из очереди. 
 
 Использование компонента без чекбокса **Занимать** не изменяет статус элемента в очереди.
 
