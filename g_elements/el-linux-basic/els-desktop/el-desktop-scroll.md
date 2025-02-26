@@ -23,7 +23,7 @@ Description: Scroll
 1. **Элемент** *[LTools.Desktop.Model.DUIControl]* - Ссылка на элемент управления.  
 1. **Горизонтальная** *[[double](https://learn.microsoft.com/ru-ru/dotnet/api/system.double?view=net-5.0&viewFallbackFrom=windowsdesktop-3.0)?]* - Горизонтальная прокрутка (%).  
 1. **Вертикальная** *[double?]* - Вертикальная прокрутка (%).  
-1. **Прокрутка** *[System.Drawing.Point]* - Текущее состояние прокрутки.  
+1. **Прокрутка** *[System.Drawing.Point?]* - Текущее состояние прокрутки.  
 1. **Таймаут\*** *[Int32]* - Предельное время ожидания завершения процесса (мс).
 
 ## Только код
@@ -43,7 +43,7 @@ double? offsetByAxisX = null;
 double? offsetByAxisY = 10.0;
 string searchPattern = "{\"WinName\":\"linux-x64 : Primo.Studio\",\"WinPath\":\"/org/a11y/atspi/accessible/2147483676\",\"WinId\":-1,\"AppName\":\"fly-term\",\"Items\":[{\"Name\":\"\",\"Role\":\"terminal\",\"Description\":\"\",\"Index\":1,\"Items\":[]}]}";
 
-System.Drawing.Point point = application.Scroll(searchPattern, offsetByAxisX, offsetByAxisY, timeOut);
+System.Drawing.Point? point = application.Scroll(searchPattern, offsetByAxisX, offsetByAxisY, timeOut);
 ```
 {% endtab %}
 
