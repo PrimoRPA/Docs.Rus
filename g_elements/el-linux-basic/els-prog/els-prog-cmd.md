@@ -1,3 +1,7 @@
+---
+Description: Command line
+---
+
 # Командная строка
 
 ![](../../.gitbook/assets1/studio-linux-elements-basic/cmd_base.png)
