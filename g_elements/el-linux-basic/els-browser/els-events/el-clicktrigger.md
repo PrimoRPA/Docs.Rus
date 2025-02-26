@@ -4,7 +4,7 @@ Description: Click trigger
 
 # Выбрать элемент
 
-![](../../../.gitbook/assets1/studio-linux-elements-basic/browser-events/click_trigger_base.png)
+![](../../../../.gitbook/assets1/studio-linux-elements-basic/browser-events/click_trigger_base.png)
 
 Элемент ожидает событие нажатия мыши в окне браузера.
 
