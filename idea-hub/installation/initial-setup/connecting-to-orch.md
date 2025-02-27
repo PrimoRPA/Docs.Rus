@@ -31,7 +31,7 @@
 * cron — поставляется по умолчанию во всех системах Linux;
 * pass — менеджер паролей в ОС Linux;
 * Доступ к серверам, на которых размещены базы данных Оркестратора;
-* Пользователь, от имени которого будут выполняться запросы, должен иметь права только на **чтение** баз данных ltools и ltoolslicense — именно к ним будет обращаться скрипт. Потребуется доступ к следующим таблицам:  
+* Пользователь, от имени которого будут выполняться запросы, должен иметь права только на **чтение** баз данных ltools, ltoolslicense, ltoolsanalytic — к ним будет обращаться скрипт. Потребуется доступ к следующим таблицам:  
   * `ltools`:
     ```
     ltools.ExchangeQueues
@@ -46,7 +46,12 @@
     ```
     ltoolslicense.Licenses
     ```
- 
+  * `ltoolsanalytic`:
+    ```
+    ltoolsanalytic.StudioLicenseUsage
+    ltoolsanalytic.RobotLicenseUsage
+    ltoolsanalytic.ExchangeQueueItemProcessing
+    ```
 
 
 ## Описание папки scripts
