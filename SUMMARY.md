@@ -1316,6 +1316,7 @@
   * [Контроль версий проектов Оркестратора](orchestrator-new/orchestrator-sys-admin/orch-version-control.md)
   * [Настройка хранения секретов служб в отдельной БД](orchestrator-new/orchestrator-sys-admin/secrets.md)
   * [Настройка PostgreSQL для работы через SSL](orchestrator-new/orchestrator-sys-admin/postgresql-setup-for-ssl.md)
+  * [Настройка работы сервисов Оркестратора с RabbitMQ через SSL](orchestrator-new/orchestrator-sys-admin/orch-services-rabbit-mq.md)
   * [Развертывание фермы WebApi за Nginx](orchestrator-new/orchestrator-sys-admin/deploy-api-nginx.md)
   * [Установка и настройка Logstash](orchestrator-new/orchestrator-sys-admin/logstash-install-setup.md)
   * [Спецификация WebApi на прием событий Оркестратора](orchestrator-new/admin/webapi-spec/webapi-orc-events.md)
