@@ -20,7 +20,7 @@
 * В русской версии Windows:  
 `Свойства системы > Дополнительно > Переменные среды… > Системные переменные > Path > Изменить… > Создать > [Тут указываем полный путь к файлу openssl.exe]:`
 
-![](../../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-1.PNG)
+![](../../../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-1.PNG)
 
 ![](../../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-2.PNG)
 
