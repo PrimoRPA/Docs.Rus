@@ -20,11 +20,11 @@
 * В русской версии Windows:  
 `Свойства системы > Дополнительно > Переменные среды… > Системные переменные > Path > Изменить… > Создать > [Тут указываем полный путь к файлу openssl.exe]:`
 
-![](../../../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-1.PNG)
+![](../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-1.PNG)
 
-![](../../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-2.PNG)
+![](../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-2.PNG)
 
-![](../../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-3.PNG)
+![](../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-3.PNG)
 
 5. Далее создаем каталог, в котором будут размещаться как сами сертификаты, так и необходимые для их создания файлы и переходим в него.
 6. RabbitMQ должен при запуске иметь доступ к корневому сертификату СА, сертификату сервера и приватному ключу сертификата сервера. Создадим эти файлы.
@@ -66,7 +66,7 @@ openssl pkcs12 -export -out client-identity.p12 -inkey RMQ-client-key.pem -in RM
 13. При этом запоминаем (записываем) парольную фразу, требуемую для данного типа сертификатов. Она нам пригодится в дальнейшем при конфигурировании работы сервисов Оркестратора.
 14. В итоге в нашей рабочей папке должно быть 10 таких файлов:
 
-![](../../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-4.PNG)
+![](../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-4.PNG)
 
 15. Теперь переходим к настройке RabbitMQ и сервисов оркестратора для работы через SSL, как описано далее в настоящем руководстве
 
@@ -76,7 +76,7 @@ openssl pkcs12 -export -out client-identity.p12 -inkey RMQ-client-key.pem -in RM
 1. Копируем корневой сертификат CA, ключ и сертификат сервера (созданные ранее в п.1. настоящего руководства) в удобный для вас каталог (допустим, он расположен по такому пути: `/etc/pki/tls`). 
 2. В итоге в этом каталоге должны быть установлены указанные выше файлы с такими правами:
 
-![](../../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-.PNG)
+![](../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-.PNG)
 
 3. Теперь переходим к правке файла конфигурации RabbitMQ. Он должен быть собран с поддержкой SSL/TLS. Этот файл может по разному именоваться и может иметь разное расширение.
 4. Расположение всех конфигурационых файлов можно найти запустив в командной строке команду:
@@ -85,26 +85,26 @@ rabbitmq-diagnostics status
 ```
 Конфигурационные файлы будут перечислены в секции Config files:
 
-![](../../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-6.PNG)
+![](../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-6.PNG)
 
 5. Расположение конфигурационных файлов также можно найти, если кликнуть по кнопке с названием текущего узла в RabbitMQ management UI (в примере, показанном на картинке, следует кликнуть по кнопке с наименованием rabbit@astra-linux):
 
-![](../../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-7.PNG)
+![](../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-7.PNG)
 
-![](../../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-8.PNG)
+![](../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-8.PNG)
 
 6. Если конфигурационный файл имеет расширение *.config, то изменяем его в соответствии с описанием по настройке SSL в RabbitMQ для операционной системы Windows данного руководства.
 7. Если этот файл имеет расширение *.conf, то для работы RabbitMQ через SSL/TLS вносим в него такие строки, подставив актуальные пути к сертификатам и ключу:
 
-![](../../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-9.PNG)
+![](../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-9.PNG)
 
 Если нам необходимо, чтобы RabbitMQ работал исключительно только через SSL/TLS, то следует внести в конфигурационный файл такие строки:
 
-![](../../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-10.PNG)
+![](../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-10.PNG)
 
 В нашем случае эта секция конфигурационного файла выглядит таким образом:
 
-![](../../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-11.PNG)
+![](../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-11.PNG)
 
 8. Следующий шаг: необходимо активировать встроенный в RabbitMQ плагин для аутентификации через SSL. Сделать это можно, выполнив в командной строке такую команду: 
 ```
@@ -118,13 +118,13 @@ rabbitmq-service start
 ```
 10. Теперь проверяем, что мы все сделали правильно, и сервис RabbitMQ может работать через SSL/TLS. Запускаем RabbitMQ management UI и проверяем, что запущен SSL-порт 5671
 
-![](../../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-12.PNG)
+![](../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-12.PNG)
 
 Затем, кликнув по кнопке с названием текущего узла, проверяем, что запущен плагин для работы через SSL и включен механизм аутентификации EXTERNAL:
 
-![](../../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-13.PNG)
+![](../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-13.PNG)
 
-![](../../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-14.PNG)
+![](../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-14.PNG)
 
 
 ## Настройка RabbitMQ на Windows для работы через SSL
@@ -132,7 +132,7 @@ rabbitmq-service start
 1. Копируем корневой сертификат CA, ключ и сертификат сервера (созданные ранее в п.1. настоящего руководства) в удобный для Вас каталог (допустим он расположен по такому пути: `C:/tmp/certs`).
 2. В итоге в этом каталоге должны быть установлены указанные выше файлы:
 
-![](../../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-15.PNG)
+![](../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-15.PNG)
 
 3. Теперь переходим к правке файла конфигурации RabbitMQ. Он должен быть собран с поддержкой SSL/TLS. Этот файл может по разному именоваться и может иметь разное расширение.
 4. Расположение всех конфигурационых файлов можно найти, запустив в командной строке команду:
@@ -141,22 +141,22 @@ rabbitmq-diagnostics status
 ```
 Конфигурационные файлы будут перечислены в секции Config files:
 
-![](../../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-16.PNG)
+![](../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-16.PNG)
 
 5. Расположение конфигурационных файлов также можно найти, если кликнуть по кнопке с названием текущего узла в RabbitMQ management UI (в примере, показанном на картинке, следует кликнуть по кнопке с наименованием rabbit@Victor-PC):  
 
-![](../../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-17.PNG)
+![](../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-17.PNG)
 
-![](../../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-18.PNG)
+![](../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-18.PNG)
 
 6. Если конфигурационный файл имеет расширение *.conf, то изменяем его в соответствии с описанием по настройке SSL в RabbitMQ для операционной системы Linux данного руководства.
 7. Если этот файл имеет расширение *.config, то для работы RabbitMQ через SSL/TLS вносим в него такие строки, подставив актуальные пути к сертификатам и ключу:
 
-![](../../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-19.PNG)
+![](../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-19.PNG)
 
 Если нам необходимо, чтобы RabbitMQ работал исключительно только через SSL/TLS, то следует внести в конфиг такие строки:
 
-![](../../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-20.PNG)
+![](../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-20.PNG)
 
 8. Следующий шаг: необходимо активировать встроенный в RabbitMQ плагин для аутентификации через SSL. Сделать это можно, выполнив в командной такую команду:
 ```
@@ -170,13 +170,13 @@ rabbitmq-service start
 ```
 10. Теперь проверяем, что мы все сделали правильно, и сервис RabbitMQ может работать через SSL/TLS. Запускаем RabbitMQ management UI и проверяем, что запущен SSL-порт 5671:
 
-![](../../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-21.PNG)
+![](../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-21.PNG)
 
 Затем, кликнув по кнопке с названием текущего узла, проверяем, что запущен плагин для работы через SSL и включен механизм аутентификации EXTERNAL:
 
-![](../../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-22.PNG)
+![](../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-22.PNG)
 
-![](../../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-23.PNG)
+![](../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-23.PNG)
 
 
 ## Настройка сервисов Оркестратора для работы с RabbitMQ через SSL
@@ -191,42 +191,42 @@ rabbitmq-service start
 
 3. Например, для машин с ОС Windows эти секции конфигурационнго файла могут выглядеть так:
 
-![](../../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-24.PNG)
+![](../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-24.PNG)
 
 4. Эти же секции конфигурационного файла для машин с ОС Linux могут выглядеть так:
 
-![](../../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-25.PNG)
+![](../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-25.PNG)
 
 5. Перед тем как запустить сервис Оркестратора, рекомендуется выставить в конфигурационном файле этого сервиса уровень логирования в Information, это поможет быстрее разобраться с возможными проблемами при его некорректном запуске. 
 Например, как показано в данном случае:
 
-![](../../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-26.PNG)
+![](../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-26.PNG)
 
 6. Если все сконфигурировано корректно, то после запуска сервиса в его логах отобразится запись, что коннект с RabbitMQ установлен:
 
-![](../../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-27.PNG)
+![](../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-27.PNG)
 
 При этом в RabbitMQ management UI на вкладке Connections можно будет увидеть вновь созданный коннект:
 
-![](../../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-28.PNG)
+![](../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-28.PNG)
 
 И если кликнуть по названию этого коннекта, то можно получить его детальные характеристики:
 
-![](../../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-29.PNG)
+![](../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-29.PNG)
 
 7. Если же в конфигурационном файле сервиса что-то не устроит RabbitMQ, то в логах будет отображена детальная информация о том, что конкретно не так, как требуется. 
 
 Например, вот что будет в логах, если в конфигурационном файле указан сертификат, подписанный каким-либо другим центром сертификации:
  
-![](../../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-30.PNG)
+![](../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-30.PNG)
 
 Или вот что будет в логах, если в конфигурационном файле указана некорректная парольная фраза для сертификата:
 
-![](../../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-31.PNG)
+![](../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-31.PNG)
 
 8. Если возникли совсем непонятные проблемы с SSL-сертификатом, то также будет полезно посмотреть логи самого RabbitMQ. Расположение этих логов можно узнать из RabbitMQ management UI кликнув по названию текущего узла:
 
-![](../../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-32.PNG)
+![](../../orchestrator-new/resources/orchestrator-sys-admin/rabbit-ssl-32.PNG)
 
 
 ## Полезные ссылки
