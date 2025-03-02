@@ -217,14 +217,14 @@ CREATE INDEX "IX_OrchEvents_20230325_UserId_OrchTimestampUtc"
 shared_preload_libraries = 'pg_cron'
 ```
 
-![](../../../orchestrator-new/resources/orchestrator-sys-admin/partitioning-postgres1.PNG)
+![](../../orchestrator-new/resources/orchestrator-sys-admin/partitioning-postgres1.PNG)
 
 Добавляем в конец файла строку:
 ```
 cron.database_name= 'ltoolslogs'
 ```
 
-![](../../../orchestrator-new/resources/orchestrator-sys-admin/partitioning-postgres2.PNG)
+![](../../orchestrator-new/resources/orchestrator-sys-admin/partitioning-postgres2.PNG)
 
 Даем возможность локально подключаться к БД без пароля будущему заданию – вносим изменение в `pg_hba.conf`:
 ```
@@ -233,7 +233,7 @@ cron.database_name= 'ltoolslogs'
 host     all      all     ::1/128    	trust
 ```
 
-![](../../../orchestrator-new/resources/orchestrator-sys-admin/partitioning-postgres3.PNG)
+![](../../orchestrator-new/resources/orchestrator-sys-admin/partitioning-postgres3.PNG)
 
 Перезапускаем службу:
 ```
@@ -245,7 +245,7 @@ host     all      all     ::1/128    	trust
 ```	
 После этого проверим, что в БД ltoolslogs появились схема `cron` и необходимые для заданий объекты БД:
 
-![](../../../orchestrator-new/resources/orchestrator-sys-admin/partitioning-postgres4.PNG)
+![](../../orchestrator-new/resources/orchestrator-sys-admin/partitioning-postgres4.PNG)
 
 В БД ltoolslogs создаем процедуру для создания секций:
 ```
