@@ -1321,6 +1321,8 @@
   * [Установка и настройка Logstash](orchestrator-new/orchestrator-sys-admin/logstash-install-setup.md)
   * [Спецификация WebApi на прием событий Оркестратора](orchestrator-new/admin/webapi-spec/webapi-orc-events.md)
   * [Интеграция с KeyCloak](orchestrator-new/orchestrator-sys-admin/keycloak-integration.md)
+  * [Секционирование существующих таблиц с журналом Робота и Оркестратора для PostgreSQL](orchestrator-new/orchestrator-sys-admin/partitioning-tables-postresql.md)
+  * [Фиксированное секционирование существующих таблиц с журналом Робота и Оркестратора для SQLServer](orchestrator-new/orchestrator-sys-admin/fixed-partitioning-tables-sqlserver.md)
  * [Администраторам Оркестратора](orchestrator-new/orchestrator-admin/readme.md)
   	* [Лицензии](orchestrator-new/orchestrator-admin/licensing/readme.md)
 		* [Типы лицензий](orchestrator-new/orchestrator-admin/licensing/license-types.md)
