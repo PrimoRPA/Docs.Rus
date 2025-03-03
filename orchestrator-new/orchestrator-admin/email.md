@@ -1,6 +1,6 @@
 # Email входящей почты
 
-Email входящей почты используется в [заданиях](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/orchestrator-user/tasks-overview) с триггером «Запуск при получении Email». При настройке триггера можно использовать базовый либо дополнительный адрес:
+Email входящей почты используется в [заданиях](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-user/tasks-overview#triggery) с триггером «Запуск при получении Email». При настройке триггера можно использовать базовый либо дополнительный адрес:
 * Базовый email задается [в настройках тенанта](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/deployment/tenants) в конфигурационном файле (системным администратором).
 * Дополнительные почтовые ящики возможно указать в UI в разделе **Настройки > Система > Email входящей почты**. Права доступа есть только у администратора. 
 

@@ -4,7 +4,7 @@
 
 Элемент осуществляет подключение к ядру OCR Tesseract. Поддерживается только Tesseract 5-й версии. 
 
-Является контейнером для таких OCR-элементов, как [Клик текста мышью](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/t1/els_ocr/el_ocr_textclick) и [Распознать текст](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_extra/t1/els_ocr/el_ocr_recog).
+Является контейнером для таких OCR-элементов, как [Клик текста мышью](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_ocr/el_ocr_textclick) и [Распознать текст](https://docs.primo-rpa.ru/primo-rpa/g_elements/el_basic/els_ocr/el_ocr_recog).
 
 ## Свойства
 Описание общих свойств элемента см. в разделе [Свойства элемента](https://docs.primo-rpa.ru/primo-rpa/primo-studio/process/elements#svoistva-elementa).\

@@ -2,7 +2,7 @@
 
 **Primo RPA Studio** - это основной инструмент для разработки роботов. Именно здесь аналитики и разработчики собирают RPA-сценарий, используя как готовые компоненты, так и компоненты собственной разработки.
 
-Компанией Primo RPA разрабатываются версии продукта Primo Studio, предназначенные для работы с операционными системами Windows и Linux. Информацию о версии Primo Studio для Windows можно найти [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-studio/editions).
+Компанией Primo RPA разрабатываются версии продукта Primo Studio, предназначенные для работы с операционными системами Windows и Linux. Информацию о версии Primo Studio для Windows можно найти [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-studio/common/editions).
 
 Primo Studio для Линукс аккредитован для использования и внесен в список совместимого программного обеспечения для следующих операционных систем:
 * [РЕД ОС](https://redos.red-soft.ru/compatible/?SECTION=&q=Primo) (результаты испытаний подтверждены [сертификатами совместимости](https://primo-rpa.ru/tpost/y627gjkdj1-platforma-primo-rpa-poluchila-akkreditat))

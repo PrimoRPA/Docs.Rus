@@ -3,7 +3,7 @@ description: Set Credentials
 ---
 # Установить учетные данные
 
-Элемент обращается в Оркестратор, чтобы установить новое значение [ресурсу](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) с типом Credentials (учетные данные). Название ресурса указывается в свойствах элемента.
+Элемент обращается в Оркестратор, чтобы установить новое значение [ресурсу](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-user/robots/assets) с типом Credentials (учетные данные). Название ресурса указывается в свойствах элемента.
 
 ![Элемент «Установить учетные данные»](<../../../../.gitbook/assets/image (342).png>)
 

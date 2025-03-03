@@ -6,7 +6,7 @@ description: Set asset
 
 ![](<../../../../.gitbook/assets1/windows_items/WFSetAsset.png>)
 
-Элемент обращается в Оркестратор, чтобы установить новое значение [ресурсу](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets). В свойствах элемента необходимо указать название искомого ресурса и его новое значение. 
+Элемент обращается в Оркестратор, чтобы установить новое значение [ресурсу](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-user/robots/assets). В свойствах элемента необходимо указать название искомого ресурса и его новое значение. 
 
 Поддерживается работа с ресурсами следующих типов данных:
 * String
