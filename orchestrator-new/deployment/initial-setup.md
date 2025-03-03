@@ -9,4 +9,4 @@
 
 Все указанные настройки выполняются администратором в UI Оркестратора. После этого Оркестратор будет готов к работе. 
 
-:small_blue_diamond: ***См. также раздел [Тонкая настройка](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/fine-tuning).***
+:small_blue_diamond: ***См. также раздел [Тонкая настройка](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-sys-admin/fine-tuning).***
