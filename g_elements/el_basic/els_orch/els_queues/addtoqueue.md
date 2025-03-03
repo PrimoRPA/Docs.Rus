@@ -6,7 +6,7 @@ description: Add to queue
 
 ![](<../../../../.gitbook/assets/image (375).png>)
 
-Компонент добавляет новый элемент в [очередь обмена данными](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/data-queues) Оркестратора. Добавленному элементу присваивается статус **New**.
+Компонент добавляет новый элемент в [очередь обмена данными](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-user/robots/data-queues) Оркестратора. Добавленному элементу присваивается статус **New**.
 
 Для успешного запуска/отладки проекта должно быть установлено [подключение](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings#orkestrator) Студии к Оркестратору. Пример отображения нового элемента в очереди Оркестратора:
 
