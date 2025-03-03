@@ -57,12 +57,7 @@
     ```
     ltoolslicense.Licenses
     ```
-  * `ltoolsanalytic`:
-    ```
-    ltoolsanalytic.StudioLicenseUsage
-    ltoolsanalytic.RobotLicenseUsage
-    ltoolsanalytic.ExchangeQueueItemProcessing
-    ```
+
  
 ### Настройка скрипта get_data.sh
 
@@ -206,12 +201,6 @@ PATH_TO_IDEAHUB
   * `ltoolslicense`:
     ```
     ltoolslicense.Licenses
-    ```
-  * `ltoolsanalytic`:
-    ```
-    ltoolsanalytic.StudioLicenseUsage
-    ltoolsanalytic.RobotLicenseUsage
-    ltoolsanalytic.ExchangeQueueItemProcessing
     ```
 
 
