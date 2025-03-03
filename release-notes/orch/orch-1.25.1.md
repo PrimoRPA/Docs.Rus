@@ -15,7 +15,7 @@
      - После закрытия браузерной вкладки или нажатия кнопки "Стоп" клиент RDP автоматически перезапускается с отключённым стримом.  
    - Управление и трансляция доступны через службу **RDP2** (Windows, Linux, Linux с внешним клиентом) и **NGINX**.
   
-1. Обновленный [инсталлятор](https://docs.primo-rpa.ru/primo-rpa/orchestrator/quick-installation/installation) теперь выполняет полный процесс установки Оркестратора, включая настройку PowerShell, PostgreSQL и RabbitMQ, всего **за 3 минуты**.
+1. Обновленный [инсталлятор](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-sys-admin/install/quick-install/installation-with-installer) теперь выполняет полный процесс установки Оркестратора, включая настройку PowerShell, PostgreSQL и RabbitMQ, всего **за 3 минуты**.
 
 1. Токены теперь генерируются автоматически, что исключает необходимость указания учетных данных в конфигурациях служб (WebApi, RobotLogs, RDP2, Analytic, Agent)
 
