@@ -39,13 +39,13 @@ drush in keycloak -y
 1. Укажите базовый url keycloak (Keycloak base URL). В нашем примере это `https://10.0.0.159:8443/`.
 1. Укажите Keycloak realm, который можно найти в keycloak вверху справа. В нашем примере это `test`.
 
-   ![](<../../../idea-hub/resources/admin/modules/>)
+   ![](<../../../idea-hub/resources/admin/modules/keycloak-realm.png>)
 
 1. При необходимости включите опции **Update email address in user profile**, **Enable user role mapping**. Последняя опция позволяет при создании пользователя при логине обновлять его роли.
 
-   Например, тут я указал, что для пользователей keycloak с ролью **role-ideahub** нужно добавлять роль **Бизнес-Пользователь**/
+   Например, тут я указал, что для пользователей keycloak с ролью **role-ideahub** нужно добавлять роль **Бизнес-Пользователь**:
 
-   ![](<../../../>)
+   ![](<../../../idea-hub/resources/admin/modules/keycloak-enable-user-role-mapping.png>)
 
 1. В завершение нажмите **Сохранить** внизу страницы, а также сохраните для следующей настройки значение поля **Redirect URL**.
 
@@ -62,7 +62,7 @@ drush in keycloak -y
 
 1. На странице редактирования клиента Keycloak в **Ideahub** ```/admin/config/people/openid-connect/keycloak/edit``` будет url:
 
-   ![](<../../../>)
+   ![](<../../../idea-hub/resources/admin/modules/redirect-url.png>)
 
 1. Url сверху, который нужно добавить к валидным урлам клиента keycloak (в keycloak):
 
@@ -72,5 +72,5 @@ drush in keycloak -y
 
   * А уже внутри клиента добавляем урл:
 
-   ![](<../../../>)
+   ![](<../../../idea-hub/resources/admin/modules/keycloak-add-url.png>)
 
