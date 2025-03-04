@@ -25,7 +25,7 @@ drush in keycloak -y
 
 
 
-## Добавление клиента Keycloak в Idea Hub  
+## Добавление Keycloak client в Idea Hub  
 
 1. В веб-интерфейсе Idea Hub перейдите на страницу добавления клиента Keycloak: `/admin/config/people/openid-connect/add/keycloak`. 
 1. В поле **Имя** установите значение **keycloak**.
