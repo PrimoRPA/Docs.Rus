@@ -75,7 +75,7 @@ drush in keycloak -y
 
    ![](<../../../idea-hub/resources/admin/modules/keycloak-client-id.png>)
 
-  * И добавьте сохраненное значение к валидным веб-адресам:
+  * И добавьте скопированное значение к валидным веб-адресам:
 
     ![](<../../../idea-hub/resources/admin/modules/keycloak-add-url.png>)
 
