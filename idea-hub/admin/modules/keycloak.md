@@ -39,7 +39,7 @@ drush in keycloak -y
 1. Укажите базовый url keycloak (Keycloak base URL). В нашем примере это `https://10.0.0.159:8443/`.
 1. Укажите Keycloak realm, который можно найти в keycloak вверху справа. В нашем примере это `test`.
 
-   ![](<../../../>)
+   ![](<../../../idea-hub/resources/admin/modules/keycloak-client-id.png>)
 
 1. При необходимости включите опции **Update email address in user profile**, **Enable user role mapping**. Последняя опция позволяет при создании пользователя при логине обновлять его роли.
 
@@ -68,7 +68,7 @@ drush in keycloak -y
 
    * Заходим в нашего клиента:
 
-   ![](<../../../>)
+   ![](<../../../idea-hub/resources/admin/modules/keycloak-client-id.png>)
 
   * А уже внутри клиента добавляем урл:
 
