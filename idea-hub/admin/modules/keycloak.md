@@ -42,10 +42,10 @@ drush in keycloak -y
    ![](<../../../idea-hub/resources/admin/modules/keycloak-realm.png>)
 
 1. При необходимости включите опции:
-   * **Update email address in user profile** — позволяет автоматически обновлять адрес электронной почты в профиле пользователя.
-   * **Enable user role mapping** — позволяет обновлять роли пользователя при создании пользователя при логине.
+   * **Update email address in user profile** — позволяет автоматически обновлять адрес электронной почты в профиле пользователя в Idea Hub, если он был изменен в Keycloak.
+   * **Enable user role mapping** — позволяет при создании пользователя в Idea Hub сопоставлять его роли с ролями в Keycloak.
 
-   Например, тут я указал, что для пользователей keycloak с ролью **role-ideahub** нужно добавлять роль **Бизнес-Пользователь**:
+   В примере ниже приведена настройка, которая указывает, что для пользователей Keycloak с ролью **role-ideahub** нужно добавлять роль **Бизнес-Пользователь** в Idea Hub:
 
    ![](<../../../idea-hub/resources/admin/modules/keycloak-enable-user-role-mapping.png>)
 
