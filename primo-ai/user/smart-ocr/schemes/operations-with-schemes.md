@@ -20,7 +20,7 @@
 
 ## Перейти к полям схемы разметки
 
-При нажатии названия схемы можно перейти на страницу добавления полей. Подробнее о том, [как добавлять поля, см. здесь](https://docs.primo-rpa.ru/primo-rpa/primo-ai-server/user/schemes/operations-with-fiels#dobavit-polya-v-skhemu-razmetki).
+При нажатии названия схемы можно перейти на страницу добавления полей. Подробнее о том, как добавлять поля, см. [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/user/smart-ocr/schemes/operations-with-fiels).
 
 ![](<../../../../.gitbook/assets1/primo-ai/user-guide/go-to-schema-fields.gif>)
 

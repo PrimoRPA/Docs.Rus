@@ -4,7 +4,7 @@
 ## Установка PowerShell Core
 Производится в соответствии с инструкцией [Установка PowerShell-7.1.3 под Windows](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/windows/setting-up-machines-win/install-powershell).
 
-## Установка агента Оркестратора
+## Установка Агента Оркестратора
 Создаем переменную окружения из PowerShell:
 ```
 [System.Environment]::SetEnvironmentVariable('ASPNETCORE_ENVIRONMENT', 'ProdWin', [System.EnvironmentVariableTarget]::Machine)
@@ -37,6 +37,17 @@ New-Service -Name "Primo.Orchestrator.Agent" -BinaryPathName "C:\Primo\Agent\Pri
 ![](<../../../../orchestrator-new/resources/install/windows/setting-up-machines-win/appendix-5.PNG>)
 
 **TenantId** – тенант Агента (для дефолтного тенанта null).
+
+С версии 24.8 в Агенте Оркестратора появился новый параметр в конфигурационном файле:
+```
+"Agent": {
+    ...
+    "RemoveInactiveTsPortsPeriodSec": 60 // 0 - to disable
+    ...
+}
+```
+Этот параметр отвечает за настройку периодичности очистки неактивных TS портов, что помогает предотвращать пропуски запусков роботов и улучшает стабильность работы проекта. Значение параметра указывается в секундах, и его можно отключить, установив значение `0`.
+
 
 Запускаем службу через оснастку Services или через командную строку:
 

@@ -31,7 +31,7 @@
 
 ### Пошаговая инструкция для IIS
 
-См. раздел [Установка Оркестратора на веб-сервер IIS](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/windows/iis-web-server).
+См. раздел [Установка Оркестратора на веб-сервер IIS](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-sys-admin/install/quick-install/iis-web-server).
 
 
 ### Вариант 2. WebApi – служба Windows, Front – Nginx
@@ -40,7 +40,7 @@
 
 ### Пошаговая инструкция для Nginx
 
-См. раздел [Установка Оркестратора на веб-сервер Nginx](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/windows/nginx-web-server).
+См. раздел [Установка Оркестратора на веб-сервер Nginx](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-sys-admin/install/quick-install/nginx-web-server).
 
 
 ## Linux

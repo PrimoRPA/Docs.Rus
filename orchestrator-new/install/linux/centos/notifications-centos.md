@@ -43,3 +43,5 @@ systemctl daemon-reload
 Через интерфейс Оркестратора в Настройки/Пользователи отредактируйте для пользователей параметры рассылки – укажите e-mail и типы событий:
 
 ![](../../../resources/install/linux/centos/install-linux-centos-notifications-2.PNG)
+
+В версии Оркестратора 1.25.1 в службу Notifications добавлены параметры `RetryCount` и `RetryTimeOutInSeconds`, которые позволяют службе дождаться запуска RabbitMQ, предотвращая её падение при задержке запуска очередей.

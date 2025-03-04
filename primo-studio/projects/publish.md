@@ -31,4 +31,4 @@
 Для этого:
 1. Перейдите в раздел **Файл > Экспорт > Упаковать проект**.
 2. В диалоговом окне укажите имя будущего архива. Заархивируется вся папка проекта.
-3. Добавьте архив через [интерфейс Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/add-project).
+3. Добавьте архив через [интерфейс Оркестратора](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-user/add-rpa-project).

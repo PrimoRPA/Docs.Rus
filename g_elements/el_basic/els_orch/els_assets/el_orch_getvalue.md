@@ -6,7 +6,7 @@ description: Get asset
 
 ![Внешний вид элемента](<../../../../.gitbook/assets1/windows_items/WFGetAsset.png>)
 
-Элемент позволяет получить [ресурс](https://docs.primo-rpa.ru/primo-rpa/orchestrator/basics/assets) из Оркестратора. Поиск ресурса осуществляется по его названию. Поддерживается работа с ресурсами следующих типов данных:
+Элемент позволяет получить [ресурс](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-user/robots/assets) из Оркестратора. Поиск ресурса осуществляется по его названию. Поддерживается работа с ресурсами следующих типов данных:
 * String
 * Integer
 * Floating

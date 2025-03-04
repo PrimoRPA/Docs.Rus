@@ -133,7 +133,7 @@
 
 Вкладка предназначена для подключения собственных источников NuGet-пакетов. Подробнее работа с вкладкой описана [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/nuget).
 
-В частности, в качестве источника возможно указать [локальный сервер NuGet](https://docs.primo-rpa.ru/primo-rpa/orchestrator/settings/nuget), который входит в комплект поставки Оркестратора.
+В частности, в качестве источника возможно указать [локальный сервер NuGet](https://docs.primo-rpa.ru/primo-rpa/orchestrator/orchestrator-admin/nuget), который входит в комплект поставки Оркестратора.
 
 ### Reverse-Proxy
 

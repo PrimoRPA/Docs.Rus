@@ -213,7 +213,7 @@ systemctl start Primo.Orchestrator.Notifications
 systemctl status Primo.Orchestrator.Notifications
 ```
 
-С дополнительной информацией об установке Notifications можно ознакомиться в статье [Установка Notifications на CentOS 8](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/linux/centos/notifications-centos.md).
+С дополнительной информацией об установке Notifications можно ознакомиться в статье [Установка Notifications на CentOS 8](https://docs.primo-rpa.ru/primo-rpa/orchestrator-new/install/linux/centos/notifications-centos).
 
 - **Шаг 11**
 

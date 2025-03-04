@@ -4,7 +4,7 @@
 
 Информация по обновленным релизам версии 1.25.1 доступна в разделах:
 
-  * [Studio 1.25.1.3](https://docs.primo-rpa.ru/primo-rpa/release-notes/studio/LTS/studio-1.25.1.3.md)
+  * [Studio 1.25.1.3](https://docs.primo-rpa.ru/primo-rpa/release-notes/studio/LTS/studio-1.25.1.3)
 
 
 ## Обновления и улучшения (режим Pro)

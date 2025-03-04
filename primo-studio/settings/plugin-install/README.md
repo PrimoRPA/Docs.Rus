@@ -3,7 +3,7 @@
 Расширения возможно установить:
 * [Вручную из Студии](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/plugin-install#ruchnaya-ustanovka-iz-studii) — для браузерных расширений и плагинов RDP, Java.
 * [Вручную из командной строки](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/plugin-install#ustanovka-iz-komandnoi-stroki) — для браузерных расширений и плагинов RDP, Java.
-* [Автоматически](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/autoinstall-browser-extension) — только для браузерных расширений, созданных на основе манифеста версии 2 (расширение с версией 1.xx).
+* [Автоматически](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/autoinstall-browser-extension) — для браузерных расширений.
 
 ## Ручная установка из Студии
 
@@ -110,7 +110,5 @@ Extensions\JavaBridge.ps1
 
 Подробнее см. [здесь](https://docs.primo-rpa.ru/primo-rpa/primo-studio/settings/autoinstall-browser-extension).
 
-{% hint style="info" %}
-При автоматическом способе устанавливается только расширение на базе манифеста V2 (версия расширения 1.xx).
-{% endhint %}
+
 
