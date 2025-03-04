@@ -34,7 +34,7 @@ drush in keycloak -y
 
    !![](<../../../idea-hub/resources/admin/modules/keycloak-client-id.png>)
 
-1. В поле **Client secret** укажите значение, которое можно найти в клиенте на вкладке credentials. Пример значения: **InBPPiGdzYfP9oYrVL3qwTv5BdY1ELtl**
+1. В поле **Client secret** укажите значение, которое можно найти на вкладке credentials в клиенте Keycloak. Пример значения: **InBPPiGdzYfP9oYrVL3qwTv5BdY1ELtl**
 
 1. Укажите базовый url keycloak (Keycloak base URL). В нашем примере это `https://10.0.0.159:8443/`.
 1. Укажите Keycloak realm, который можно найти в keycloak вверху справа. В нашем примере это `test`.
