@@ -32,14 +32,14 @@ drush in keycloak -y
 
 1. Укажите название клиента (Client ID). В нашем примере это **ideahub**:
 
-   ![](<../../../>)
+   !![](<../../../idea-hub/resources/admin/modules/keycloak-client-id.png>)
 
 1. В поле **Client secret** укажите значение, которое можно найти в клиенте на вкладке credentials. Пример значения: **InBPPiGdzYfP9oYrVL3qwTv5BdY1ELtl**
 
 1. Укажите базовый url keycloak (Keycloak base URL). В нашем примере это `https://10.0.0.159:8443/`.
 1. Укажите Keycloak realm, который можно найти в keycloak вверху справа. В нашем примере это `test`.
 
-   ![](<../../../idea-hub/resources/admin/modules/keycloak-client-id.png>)
+   ![](<../../../idea-hub/resources/admin/modules/>)
 
 1. При необходимости включите опции **Update email address in user profile**, **Enable user role mapping**. Последняя опция позволяет при создании пользователя при логине обновлять его роли.
 
