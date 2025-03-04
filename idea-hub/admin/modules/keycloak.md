@@ -62,7 +62,7 @@ drush in keycloak -y
 
 ## Настройка Keycloak
 
-1. Перейдите в веб-интерфейсе Idea Hub на страницу редактирования клиента Keycloak: `/admin/config/people/openid-connect/keycloak/edit`. На странице отобразится url:
+1. В веб-интерфейсе Idea Hub перейдите на страницу редактирования клиента Keycloak: `/admin/config/people/openid-connect/keycloak/edit`. На странице отобразится url:
 
    ![](<../../../idea-hub/resources/admin/modules/redirect-url.png>)
 
