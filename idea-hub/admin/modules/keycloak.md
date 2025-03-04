@@ -41,7 +41,9 @@ drush in keycloak -y
 
    ![](<../../../idea-hub/resources/admin/modules/keycloak-realm.png>)
 
-1. При необходимости включите опции **Update email address in user profile**, **Enable user role mapping**. Последняя опция позволяет при создании пользователя при логине обновлять его роли.
+1. При необходимости включите опции:
+   * **Update email address in user profile**;
+   * **Enable user role mapping** — позволяет при создании пользователя при логине обновлять его роли.
 
    Например, тут я указал, что для пользователей keycloak с ролью **role-ideahub** нужно добавлять роль **Бизнес-Пользователь**:
 
