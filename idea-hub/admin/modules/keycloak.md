@@ -64,11 +64,11 @@ drush in keycloak -y
 
 1. В веб-интерфейсе Idea Hub перейдите на страницу редактирования клиента Keycloak: `/admin/config/people/openid-connect/keycloak/edit`.
   
-   На странице отобразится url:
+   На странице отобразится URL:
 
    ![](<../../../idea-hub/resources/admin/modules/redirect-url.png>)
 
-1. Url сверху, который нужно добавить к валидным урлам клиента keycloak (в keycloak):
+1. URL сверху, который нужно добавить к валидным урлам клиента keycloak (в keycloak):
 
    * Заходим в нашего клиента:
 
