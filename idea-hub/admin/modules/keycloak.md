@@ -69,13 +69,13 @@ drush in keycloak -y
 
    ![](<../../../idea-hub/resources/admin/modules/redirect-url.png>)
 
-1. URL сверху, который нужно добавить к валидным урлам клиента keycloak (в keycloak):
+1. Отображаемый URL нужно добавить к валидным URL в клиенте Keycloak:
 
-   * Заходим в нашего клиента:
+   * Для этого зайдите в вашего клиента Keycloak:
 
    ![](<../../../idea-hub/resources/admin/modules/keycloak-client-id.png>)
 
-  * А уже внутри клиента добавляем урл:
+  * И добавьте сохраненное значение из поля **Redirect URL** к валидным веб-адресам:
 
-   ![](<../../../idea-hub/resources/admin/modules/keycloak-add-url.png>)
+    ![](<../../../idea-hub/resources/admin/modules/keycloak-add-url.png>)
 
