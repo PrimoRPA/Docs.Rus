@@ -53,12 +53,11 @@ drush in keycloak -y
 
 1. В завершение нажмите **Сохранить**, а также сохраните для следующей настройки значение поля **Redirect URL**.
 
-1. Перейдите в веб-интерфейсе Idea Hub на страницу настройки OpenID: `/admin/config/people/openid-connect/settings`.
+## Настройка OpenID
 
+1. В веб-интерфейсе Idea Hub перейдите на страницу настройки OpenID: `/admin/config/people/openid-connect/settings`.
 1. Включите настройки **Save user claims on every login**, **Override registration settings**.
-
 1. Настройте поля **User claims mapping**. На текущий момент возможно настроить поля: Изображение, Часовой пояс, Почту, Имя, Телефон.
-
 1. В завершение нажмите **Сохранить конфигурацию**.
 
 
