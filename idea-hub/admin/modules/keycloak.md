@@ -32,13 +32,13 @@ drush in keycloak -y
   
    ***Важно!** Текущая версия модуля учитывает конфигурацию конкретного клиента, поэтому доступно только название `keycloak`*.
 
-1. Укажите название клиента (Client ID). В нашем примере это **ideahub**:
+1. Укажите уникальный идентификатор клиента (Client ID). В нашем примере это **ideahub**:
 
    !![](<../../../idea-hub/resources/admin/modules/keycloak-client-id.png>)
 
 1. В поле **Client secret** укажите значение, которое можно найти на вкладке credentials в клиенте Keycloak. Пример значения: **InBPPiGdzYfP9oYrVL3qwTv5BdY1ELtl**
 
-1. Укажите базовый URL Keycloak (Keycloak base URL). В нашем примере это `https://10.0.0.159:8443/`.
+1. Укажите базовый адрес Keycloak (Keycloak base URL). В нашем примере это `https://10.0.0.159:8443/`.
 1. Укажите **Keycloak realm**, который можно найти в клиенте Keycloak вверху справа. В нашем примере это `test`.
 
    ![](<../../../idea-hub/resources/admin/modules/keycloak-realm.png>)
@@ -65,17 +65,17 @@ drush in keycloak -y
 
 1. В веб-интерфейсе Idea Hub перейдите на страницу редактирования клиента Keycloak: `/admin/config/people/openid-connect/keycloak/edit`.
   
-   На странице отобразится URL:
+   На странице отобразится URL — скопируйте его значение:
 
    ![](<../../../idea-hub/resources/admin/modules/redirect-url.png>)
 
-1. Отображаемый URL нужно добавить к валидным URL в клиенте Keycloak:
+1. Скопированный URL нужно добавить к валидным URL в клиенте Keycloak.
 
    * Для этого зайдите в вашего клиента Keycloak:
 
    ![](<../../../idea-hub/resources/admin/modules/keycloak-client-id.png>)
 
-  * И добавьте сохраненное значение из поля **Redirect URL** к валидным веб-адресам:
+  * И добавьте сохраненное значение к валидным веб-адресам:
 
     ![](<../../../idea-hub/resources/admin/modules/keycloak-add-url.png>)
 
