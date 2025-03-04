@@ -51,7 +51,7 @@ drush in keycloak -y
 
    ![](<../../../idea-hub/resources/admin/modules/keycloak-enable-user-role-mapping.png>)
 
-1. В завершение нажмите **Сохранить**, а также сохраните для следующей настройки значение поля **Redirect URL**.
+1. В завершение нажмите **Сохранить**.
 
 ## Настройка OpenID
 
