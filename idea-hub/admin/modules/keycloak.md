@@ -43,15 +43,15 @@ drush in keycloak -y
 
 1. При необходимости включите опции:
    * **Update email address in user profile** — позволяет автоматически обновлять адрес электронной почты в профиле пользователя в Idea Hub, если он был изменен в Keycloak.
-   * **Enable user role mapping** — позволяет при создании пользователя в Idea Hub сопоставлять его роли с ролями в Keycloak.
+   * **Enable user role mapping** — позволяет при создании/входе пользователя в Idea Hub сопоставлять его роли с ролями в Keycloak.
 
    В примере ниже приведена настройка, которая указывает, что для пользователей Keycloak с ролью **role-ideahub** нужно добавлять роль **Бизнес-Пользователь** в Idea Hub:
 
    ![](<../../../idea-hub/resources/admin/modules/keycloak-enable-user-role-mapping.png>)
 
-1. В завершение нажмите **Сохранить** внизу страницы, а также сохраните для следующей настройки значение поля **Redirect URL**.
+1. В завершение нажмите **Сохранить**, а также сохраните для следующей настройки значение поля **Redirect URL**.
 
-1. Перейдите на страницу настройки OpenID: `/admin/config/people/openid-connect/settings`.
+1. Перейдите в веб-интерфейсе Idea Hub на страницу настройки OpenID: `/admin/config/people/openid-connect/settings`.
 
 1. Включите настройки **Save user claims on every login**, **Override registration settings**.
 
