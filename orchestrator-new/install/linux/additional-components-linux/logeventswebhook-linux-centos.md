@@ -59,3 +59,5 @@
 В конфигурационном файле службы WebApi разрешаем интеграцию:
 
 ![](../../../../orchestrator-new/resources/install/linux/additional-components-linux/logevents-4.PNG)
+
+> В версии 1.25.1 для очередей службы LogEventsWebhook добавлен обменник типа `fanout`. Теперь имеется возможность запустить несколько экземпляров службы LogEventsWebhook каждый со своей очередью.
