@@ -1403,7 +1403,6 @@
   	  	  	* [Импорт процессов](idea-hub/installation/initial-setup/import/file-process.md)
   	  	* [Настройка cron](idea-hub/installation/initial-setup/cron.md)
   	  	* [Менеджер паролей pass](idea-hub/installation/initial-setup/pass.md)
-  		* [Интеграция с LDAP](idea-hub/installation/initial-setup/integration-ldap.md)
 	* [Обновление Idea Hub](idea-hub/installation/update.md)
 * [Администраторам](idea-hub/admin/README.md)
 	* [Конфигурация](idea-hub/admin/config/README.md)
