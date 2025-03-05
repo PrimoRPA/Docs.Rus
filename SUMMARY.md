@@ -1410,6 +1410,7 @@
  		* [Основная информация](idea-hub/admin/config/basic-settings.md)
 	* [Расширения](idea-hub/admin/modules/README.md)
  		* [Интеграция с Keycloak](idea-hub/admin/modules/keycloak.md)
+   		* [Интеграция с LDAP](idea-hub/admin/modules/integration-ldap.md)
 * [Начало работы](idea-hub/getting-started/readme.md)
 	* [Обзор интерфейса](idea-hub/getting-started/interface-overview.md)
  	* [Работа с идеями](idea-hub/getting-started/ideas.md)
