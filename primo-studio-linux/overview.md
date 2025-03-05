@@ -7,6 +7,7 @@
 Primo Studio для Линукс аккредитован для использования и внесен в список совместимого программного обеспечения для следующих операционных систем:
 * [РЕД ОС](https://redos.red-soft.ru/compatible/?SECTION=&q=Primo) (результаты испытаний подтверждены [сертификатами совместимости](https://primo-rpa.ru/tpost/y627gjkdj1-platforma-primo-rpa-poluchila-akkreditat))
 * [Astra Linux](https://astralinux.ru/ready-for-astra/compatible-software/28792/)
+* [РОСА Линукс](https://rosa.ru/tech-partners/) (результаты испытаний подтверждены [сертификатами совместимости](https://primo-rpa.ru/solutions/tpost/vp40ndl951-produkti-primo-rpa-uspeshno-sertifitsiro))
 
 Версия продукта Primo Studio для Линукс в данный момент отличается по своим функциональным возможностям от версии для Windows и не является ее полноценным аналогом; часть функциональности находится в процессе разработки.
 
