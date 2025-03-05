@@ -49,4 +49,4 @@ $s.Start()
 
 ![](../../../../orchestrator-new/resources/install/windows/additional-components-win/logevents-6.PNG)
 
-
+> В версии 1.25.1 для очередей службы LogEventsWebhook добавлен обменник типа `fanout`. Теперь имеется возможность запустить несколько экземпляров службы LogEventsWebhook каждый со своей очередью.
