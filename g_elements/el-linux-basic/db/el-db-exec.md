@@ -121,8 +121,3 @@ var data = app.Execute(query, isMakeResultisMakeResult, arguments, timeout);
 
 
 
-var tbl = app.ExecuteQueryTbl("SELECT * FROM Table1");
-```
-{% endtab %}
-{% endtabs %}
-
