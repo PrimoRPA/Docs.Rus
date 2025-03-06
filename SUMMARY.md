@@ -1003,6 +1003,7 @@
 		* [Закрыть вкладку браузера](g_elements/el-linux-basic/els-browser/tab-close.md)
 		* [Исчезновение элемента](g_elements/el-linux-basic/els-browser/el-browser-elemvanish.md)
 		* [Открыть вкладку браузера](g_elements/el-linux-basic/els-browser/tab-open.md)
+		* [Присоединиться к браузеру](g_elements/el-linux-basic/els-browser/el-browser-attach.md)
 		* [Присутствие элемента](g_elements/el-linux-basic/els-browser/el-browser-exists.md)
 		* [Прокрутка](g_elements/el-linux-basic/els-browser/el-browser-scroll.md)
 		* [Скачать изображение](g_elements/el-linux-basic/els-browser/el-browser-getimage.md)
