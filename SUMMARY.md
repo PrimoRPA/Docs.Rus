@@ -1042,6 +1042,7 @@
 		* [Клик мышью](g_elements/el-linux-basic/els-uiinteraction/el-click.md)
 		* [Получение списка](g_elements/el-linux-basic/els-uiinteraction/el-getlist.md)
 		* [Получить текст](g_elements/el-linux-basic/els-uiinteraction/el-gettext.md)
+		* [Присутствие элемента](g_elements/el-linux-basic/els-uiinteraction/el-exists.md)
 		* [Прокрутка](g_elements/el-linux-basic/els-uiinteraction/el-scroll.md)
 		* [Установить курсор мыши](g_elements/el-linux-basic/els-uiinteraction/el-mousehover.md)
 		* [Фокус ввода](g_elements/el-linux-basic/els-uiinteraction/el-focus.md)
