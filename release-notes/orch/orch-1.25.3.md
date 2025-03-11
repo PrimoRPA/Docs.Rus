@@ -5,6 +5,14 @@
 
 ## Обновления и улучшения 
 
+1. Реализована возможность задавать фильтрацию для событий робота, что позволяет исключить дублирования записей в логах. Для включения фильтрации в конфигурационном файле RobotLogs необходимо указать `RobotEventFilter.Enabled = true`.
+```
+"RobotEventFilter": {
+  "Enabled": true,
+  "ParsedElementClasses": [ "LTools.Workflow.Elements.WFAddToLog" ]
+}
+```
+
 
 ### Обновления и улучшения (Agent, Notifications и RobotLogs)
 
