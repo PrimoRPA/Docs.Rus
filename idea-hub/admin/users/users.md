@@ -44,9 +44,6 @@
 
     ![](<../../../idea-hub/resources/admin/users/uesr-added-notification.png>)
 
-## Изменение информации о пользователе 
-
-
 
 ## Блокировка пользователя
 
