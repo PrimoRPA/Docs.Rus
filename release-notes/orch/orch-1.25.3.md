@@ -1,4 +1,4 @@
-ыыв# Primo RPA Orchestrator 1.25.3
+# Primo RPA Orchestrator 1.25.3
 
 Данный документ описывает улучшения и исправления ошибок, внесенные в релиз **Primo RPA Orchestrator 1.25.3** за март 2025 года.
 
