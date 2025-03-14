@@ -219,6 +219,8 @@
     * [Запуск и отладка](primo-studio-linux/process/debug/debug.md)
     * [Шаблон поиска](primo-studio-linux/process/searchpatterns/readme.md)
 		* [Новый редактор шаблона поиска](primo-studio-linux/process/searchpatterns/new-pattern-editor.md)
+* [Инструменты](primo-studio-linux/tools/readme.md)
+	* [AutoDoc](primo-studio-linux/tools/AutoDoc/autodoc.md)
 
 ## Элементы в Studio <a href="#g_elements" id="g_elements"></a>
 
