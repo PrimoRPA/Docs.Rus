@@ -24,7 +24,7 @@
 ```	
 Даем права на запуск:
 ```
-# chmod -R 777 /opt/Primo/MachineInfo/Primo.Orchestrator.LogEventsWebhook
+# chmod -R 777 /opt/Primo/LogEventsWebhook/Primo.Orchestrator.LogEventsWebhook
 ```
 Настраиваем appsettings/appsettings.ProdLinux.json (некоторые параметры):
 
