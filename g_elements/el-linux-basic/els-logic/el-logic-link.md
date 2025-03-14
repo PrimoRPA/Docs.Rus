@@ -1,17 +1,19 @@
+---
+Description: Process link
+---
+
 # Ссылка на процесс
 
-![](../../../resources/activities/basic/logic/logic-link-base.png)
-
-**Eng**: Process link
+![](../../../.gitbook/assets1/studio-linux-elements-basic/logic-link-base.png)
 
 **Назначение**: выполняет указанный подпроцесс. Путь до его файла задается либо в строке на панели элемента, либо в свойстве «Путь к процессу».
 
 На панели элемента также находятся кнопки:
 
-1. **Открыть** ![](../../../resources/activities/basic/logic/open-link-process2.png) - автоматически открывает в проекте вкладку с указанным подпроцессом.
-2. **Аргументы** ![](../../../resources/activities/basic/logic/args-link-process2.png) - вызывает окно с аргументами подпроцесса. Пример:
+1. **Открыть** ![](../../../.gitbook/assets1/studio-linux-elements-basic/logic-link-open-link-process2.png) - автоматически открывает в проекте вкладку с указанным подпроцессом.
+2. **Аргументы** ![](../../../.gitbook/assets1/studio-linux-elements-basic/logic-link-args-link-process2.png) - вызывает окно с аргументами подпроцесса. Пример:
 
-   ![](../../../resources/activities/basic/logic/logic-link-arguments-panel.png)
+   ![](../../../.gitbook/assets1/studio-linux-elements-basic/logic-link-arguments-panel.png)
 
    Для каждого аргумента возможно создать переменную (или аргумент) и указать ее в столбце **Назначение**.\
    В окне поддерживается сочетание клавиш:
@@ -37,7 +39,7 @@
 
 ### Песочница
 
-![](../../../resources/activities/basic/logic/image-9.png)
+![](../../../.gitbook/assets1/studio-linux-elements-basic/logic-link-sandbox-screen.png)
 
 [«Песочница» (SandBox)](https://learn.microsoft.com/ru-ru/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview) - инструмент Windows 10, 11 для безопасного запуска приложений в изолированной виртуальной среде. Программы, установленные и запущенные внутри Песочницы, изолированы от остальной системы и работают независимо от главного компьютера. Песочница является временной. При ее закрытии все находящееся в ней программное обеспечение, все файлы и данные о состоянии удаляются. При каждом открытии приложения вы получаете новый экземпляр Песочницы.
 
@@ -59,7 +61,7 @@
 
 * Установить флаг **Запуск в песочнице** в свойствах элемента:
 
-![](../../../resources/activities/basic/logic/logic-link-sanbox-property-panel.png)
+![](../../../.gitbook/assets1/studio-linux-elements-basic/logic-link-sanbox-property-panel.png)
 
 :bangbang:***Основной и вспомогательный робот могут обмениваться только простыми данными (String, [Double](https://learn.microsoft.com/ru-ru/dotnet/api/system.double?view=net-5.0&viewFallbackFrom=windowsdesktop-3.0), [DateTime](https://learn.microsoft.com/ru-ru/dotnet/api/system.datetime?view=net-5.0), Boolean и т.д.) либо коллекциями простых данных (List\<String>, List\<DateTime> и т.д.)***
 
