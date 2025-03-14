@@ -1084,6 +1084,7 @@
 		* [Выбрать ветвь](g_elements/el-linux-basic/els-logic/el-logic-pickbranch.md)
 		* [Множественное присвоение](g_elements/el-linux-basic/els-logic/el-multipleassign.md)
 		* [Параллельные потоки](g_elements/el-linux-basic/els-logic/el-logic-parallel.md)
+		* [Ссылка на процесс](g_elements/el-linux-basic/els-logic/el-logic-link.md)
   		* [Switch](g_elements/el-linux-basic/els-logic/switch.md)
 * [Дополнительные для Linux](g_elements/el-linux/el-extra/readme.md)
 	* [2capcha](g_elements/el-linux/el-extra/2capcha/README.md)
