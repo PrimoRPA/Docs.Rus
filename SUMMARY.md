@@ -1084,7 +1084,7 @@
 		* [Множественное присвоение](g_elements/el-linux-basic/els-logic/el-multipleassign.md)
 		* [Параллельные потоки](g_elements/el-linux-basic/els-logic/el-logic-parallel.md)
   		* [Switch](g_elements/el-linux-basic/els-logic/switch.md)
-  * [Дополнительные для Linux](g_elements/el-linux/el-extra/readme.md)
+* [Дополнительные для Linux](g_elements/el-linux/el-extra/readme.md)
 	* [2capcha](g_elements/el-linux/el-extra/2capcha/README.md)
    		* [Решить вопрос](g_elements/el-linux/el-extra/2capcha/solvequestion.md)
 		* [Решить изображение](g_elements/el-linux/el-extra/2capcha/solveimage.md)
