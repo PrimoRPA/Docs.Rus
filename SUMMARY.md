@@ -1427,7 +1427,8 @@
     * [Управление полями](idea-hub/processes/add-fields.md)
     * [Типы полей и настройка](idea-hub/processes/field-types.md)
 * [Формулы](idea-hub/formulas/about.md)
-	* [Синтаксис формул](idea-hub/formulas/README.md) 
+	* [Синтаксис формул](idea-hub/formulas/README.md)
+ 	* [Дата и время](idea-hub/formulas/date-format.md)
 * [Создание индикаторов](idea-hub/indicators.md)
 
 ## Primo RPA AI Server
