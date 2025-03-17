@@ -92,6 +92,42 @@ Files, Temp      : /tmp
 drush cr
 ```
 
+## Обновление базы данных
+
+Релизы Idea Hub могут поставляться без последних обновлений базы данных. Например, минорные релизы, в которых происходят незначительные исправления.
+
+Поэтому при установке Idea Hub дополнительно запустите команды:
+ ```
+ drush updb -y
+```
+```
+drush locale:import ru /полный/путь/до/web/translations/custom.ru.po --override=all
+```
+```
+drush pcta ru
+```
+```
+drush cr
+```
+
+Также для корректной работы с дашбордами в Idea Hub требуется выполнить следующие действия с библиотекой панелей:
+
+1. [Скачайте](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FRelease%2FIdeaHub) архив **libraries-items-20241203-1048.tgz** и разархивируйте его по адресу `/path/to/project/web/sites/default/files`.
+2. Установите владельца и группу для этой папки:
+   ```
+   chown -R ideahub:www-data ./web/sites/default/files/libraries_items
+   ```
+3. Выполните команду:
+   ```
+   drush migrate:rollback covers
+   ```
+5. Выполните команду импорта:
+   ```
+   drush migrate:import library_items --execute-dependencies --update
+   ```
+
+
+
 ## Что дальше
 
 Следующий шаг — [настройка окружения](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-idea-hub/installation/linux/setting-up-environment).
