@@ -4,20 +4,26 @@
 
 С расширенной информацией об установке Linux в Windows с помощью WSL можно ознакомиться [на сайте](https://learn.microsoft.com/ru-ru/windows/wsl/install).
 
-1. Откройте командную строку PowerShell или Windows в режиме администратора
+1. Откройте командную строку PowerShell или Windows в режиме администратора  
+```
 wsl --install
+```
 затем перезапустите компьютер.
 
 2. Запускаем и определяем пользователя по умолчанию
+```
 wsl.exe -d Ubuntu
+```
 
 3. Установка JAVA
 Чтобы автоматически установить самую свежую версию OpenJDK (она уже есть в официальном репозитории Ubuntu):
 
 * Обновите пакеты apt:
+```
 sudo apt update
-
+```
 * Проверяем наличие  java и её инсталляторов
+```
 $ java -version
 Command 'java' not found, but can be installed with:
 sudo apt install default-jre              # version 2:1.17-75, or
@@ -28,29 +34,37 @@ sudo apt install openjdk-20-jre-headless  # version 20.0.2+9-1
 sudo apt install openjdk-22-jre-headless  # version 22~22ea-1
 sudo apt install openjdk-11-jre-headless  # version 11.0.24+8-1ubuntu3~24.04.1
 sudo apt install openjdk-8-jre-headless   # version 8u422-b05-1~24.04
-
+```
 * ставим любую из перечисленных версий, например,
+```
 $ sudo apt install openjdk-8-jre-headless
-
-* Проверяем установк версии
+```
+* Проверяем установку версии
+```
 $ java -version
 openjdk version "1.8.0_442"
 OpenJDK Runtime Environment (build 1.8.0_442-8u442-b06~us1-0ubuntu1~24.04-b06)
 OpenJDK 64-Bit Server VM (build 25.442-b06, mixed mode)
-
+```
 * Проверяем переменную среды
+```
 $ echo $JAVA_HOME
-
-* Задаем переменную среды JAVA_HOME
-  * 3.6.1 открываем проводник
+```
+* Задаем переменную среды `JAVA_HOME`
+  * Открываем проводник
   explorer.exe .
-  * 3.6.2 Находим папку с java в проводнике
+  * Находим папку с java в проводнике
+  ```
   \\wsl.localhost\Ubuntu\usr\lib\jvm
-  * 3.6.3 Вводим команду для определения переменной среды (вконце пути пишем название папки из 3.6.2)
-JAVA_HOME="/usr/lib/jvm/jjava-8-openjdk-amd64"
-
+  ```
+  * Вводим команду для определения переменной среды (вконце пути пишем название папки из 3.6.2)
+ ```
+ JAVA_HOME="/usr/lib/jvm/jjava-8-openjdk-amd64"
+```
 * Проверяем переменную среды
-$ echo $JAVA_HOME
+```
+ $ echo $JAVA_HOME
+```
 
 ## Обновление до wsl2
 
