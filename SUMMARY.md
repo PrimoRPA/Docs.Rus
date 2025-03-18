@@ -1434,10 +1434,10 @@
 ## Primo RPA AI Server
 * [Словарь](primo-ai/glossary/README.md)
 * [Общие сведения](primo-ai/common/README.md)
-    * [Умный OCR](primo-ai/common/smart_ocr.md)
-    * [AI Текст](primo-ai/common/nlp.md)
     * [Архитектура](primo-ai/common/components.md)
     * [Управление доступом](primo-ai/common/access-control.md)
+    * [Умный OCR](primo-ai/common/smart_ocr.md)
+    * [AI Текст](primo-ai/common/nlp.md)
 * [Системным администраторам](primo-ai/installing/README.md)
     * [Системные требования](primo-ai/installing/systemreq.md)
     * [Сетевые порты](primo-ai/installing/ports.md)
