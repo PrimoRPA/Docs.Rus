@@ -10,6 +10,32 @@
 
 Каждый из этих шаблонов использует свою модель данных, которая определяется директивой `@model`.
 
+## Особенности шаблонов для ОС Linux
+
+Версия AutoDoc для ОС Linux использует пространства имен, отличные от версии для ОС Windows. 
+
+|            Windows                   |              Linux                  |
+|--------------------------------------|-------------------------------------|
+| PrimoConverter.Utils                 |   PrimoAutodoc.Utils                |
+| PrimoDocum.ObjectModel               |   PrimoAutodoc.ObjectModel          |
+
+Пользователям, использующим собственные шаблоны, необходимо сделать данные изменения, прежде чем использовать шаблоны в версии для ОС Linux.
+
+Например, если в тексте шаблона встречается директива `PrimoConverter.Utils`, то ее следует заменить на `PrimoAutodoc.Utils`. Аналогично, `PrimoDocum.ObjectModel` следует поменять на `PrimoAutodoc.ObjectModel`.
+
+Файлы шаблонов, в которых требуются изменения:
+* project.cshtml
+* process.cshtml
+* ActivityInfo.cshtml
+
+Необходимо избегать повторений в области объявлений, например:
+
+![](../../../.gitbook/assets1/studio-linux/autodoc/Template-namespace-change.PNG)
+
+В данном примере выделенную красным строку с `PrimoDocum.ObjectModel` следует удалить, так как уже присутствует объявление `PrimoAutodoc.ObjectModel`, а `PrimoConverter.Utils` следует переименовать в `PrimoAutodoc.Utils`.
+
+
+
 ## Структура папки Resources
 
 Папка **Resources** содержит основные файлы и шаблоны для генерации документации. Она включает:
