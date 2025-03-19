@@ -2,6 +2,10 @@
 
 Раздел содержит описание изменений для версии приложения **Primo RPA Studio Linux 1.25.1**, выпущенной в декабре 2024 года. 
 
+Информацию по обновленным релизам версии 1.25.1 можно найти в разделах:
+
+* [Студия Linux 1.25.1.4](https://docs.primo-rpa.ru/primo-rpa/release-notes/studio-linux/studio-linux-1.25.1.4.md)
+
 ## Новые функции и улучшения
 
 1. Реализована возможность установки Студии через deb и rpm пакеты. Начиная с версии 1.25.1, продукт поставляется исключительно в виде данных пакетов; поставка в виде zip-архивов прекращена. 
@@ -67,13 +71,10 @@
 
 
 
-
-
-
-
-
 ## Где найти 
 
 [Скачать дистрибутив Primo RPA Studio Linux](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FRelease%2FStudio)
 
 [Скачать дистрибутив Primo RPA Robot](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FRelease%2FRobot)
+
+Если возникли вопросы с использованием данной версии, пожалуйста, обращайтесь к вашему менеджеру или в [наш чат поддержки в Telegram](https://t.me/primo_RPA_chat).
