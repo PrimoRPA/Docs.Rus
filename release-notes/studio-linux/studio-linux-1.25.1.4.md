@@ -32,9 +32,9 @@
 
 ## Где найти 
 
-[Скачать дистрибутив Primo RPA Studio Linux](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FRelease%2FStudio)
+[Скачать дистрибутив Primo RPA Studio Linux](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FArchive%2FStudio)
 
-[Скачать дистрибутив Primo RPA Robot](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FRelease%2FRobot)
+[Скачать дистрибутив Primo RPA Robot](https://disk.primo-rpa.ru/index.php/s/t9BHBjR6PP06Yax?path=%2FArchive%2FRobot)
 
 
 Если возникли вопросы с использованием данной версии, пожалуйста, обращайтесь к вашему менеджеру или в [наш чат поддержки в Telegram](https://t.me/primo_RPA_chat).
