@@ -357,7 +357,7 @@
     * [Закрыть браузер](g\_elements/el\_basic/els\_browser/el\_browser\_close.md)
     * [Активировать вкладку браузера](g\_elements/el\_basic/els\_browser/el\_activate_tab.md) 
     * [Открыть вкладку браузера](g\_elements/el\_basic/els\_browser/el\_open_tab.md)
-    * [Текущая вкладка браузера](g\_elements/el\_basic/els\_browser/el\_current_tab.md)
+    * [Активная вкладка](g\_elements/el\_basic/els\_browser/el\_current_tab.md)
     * [Закрыть вкладку браузера](g\_elements/el\_basic/els\_browser/el\_browser_tab_close.md)
     * [Вход в систему](g\_elements/el\_basic/els\_browser/el\_login.md)
     * [Вперед](g\_elements/el\_basic/els\_browser/el\_forward.md)
