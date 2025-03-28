@@ -43,7 +43,7 @@
 
    Если команда выполнится с ошибкой, находим вместо `/dev/sda` другое блочное устройство (диск) и прописываем его в конфигурационном файле:
  
-   ![](<../../../../.gitbook/assets1/primo-ai/install/MachineInfo/MachineInfo-devices.png>)
+   ![](<../../../../../.gitbook/assets1/primo-ai/install/MachineInfo/MachineInfo-devices.png>)
 
 
 ## Настройка службы
@@ -65,13 +65,13 @@ sudo dpkg -i /srv/samba/shared/install/distr/cpuid/*.deb
 
 1. Если используется один сервер с MachineInfo, в конфигурационном файле службы Primo.AI.Api прописываем ссылку на него:
 
-   ![](<../../../../.gitbook/assets1/primo-ai/install/MachineInfo/MachineInfo-4.png>)
+   ![](<../../../../../.gitbook/assets1/primo-ai/install/MachineInfo/MachineInfo-4.png>)
  
    Параметр **Timeout** – время ответа, после которого сервис считается недоступным. По умолчанию равен 4 сек.
 
 2. Если используется кластер MachineInfo, или MachineInfo используется в геокластере, то в конфигурационном файле службы Primo.AI.Api прописываем ссылки на все узлы кластера:
 
-   ![](<../../../../.gitbook/assets1/primo-ai/install/MachineInfo/MachineInfo-5.png>)
+   ![](<../../../../../.gitbook/assets1/primo-ai/install/MachineInfo/MachineInfo-5.png>)
 
    Порядок узлов имеет значение. В момент генерации запроса на лицензию должны быть доступны все узлы. 
 
