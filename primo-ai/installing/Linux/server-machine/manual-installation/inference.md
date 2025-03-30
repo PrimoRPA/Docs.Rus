@@ -54,7 +54,7 @@
 
 1. Настраиваем подключение к RabbitMQ:
  
-   ![](<../../../../.gitbook/assets1/primo-ai/install/inference/inference-2.png>)
+   ![](<../../../../../.gitbook/assets1/primo-ai/install/inference/inference-2.png>)
    
 1. Опционально – настраиваем Redis:
  
