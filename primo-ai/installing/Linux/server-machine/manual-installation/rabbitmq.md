@@ -34,7 +34,7 @@
 systemctl status rabbitmq-server
 ```
 
-![](<../../../../.gitbook/assets1/primo-ai/install/rabbit/rabbit-1.png>)
+![](<../../../../../.gitbook/assets1/primo-ai/install/rabbit/rabbit-1.png>)
 
 
 ## Первичная настройка RabbitMQ
