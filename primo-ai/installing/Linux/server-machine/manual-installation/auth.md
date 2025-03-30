@@ -45,7 +45,7 @@
     ```
  1. Редактируем строки подключения к БД:
 
-    ![](<../../../../.gitbook/assets1/primo-ai/install/auth/auth-1.png>)
+    ![](<../../../../,,/.gitbook/assets1/primo-ai/install/auth/auth-1.png>)
    
     > *Cм. инструкцию по установке PostgreSQL.*
 
@@ -55,11 +55,11 @@
 
 1. Настраиваем подключение к RabbitMQ:
 
-   ![](<../../../../.gitbook/assets1/primo-ai/install/auth/auth-2.png>)
+   ![](<../../../../../.gitbook/assets1/primo-ai/install/auth/auth-2.png>)
 
 1. Опционально — настраиваем Redis:
  
-   ![](<../../../../.gitbook/assets1/primo-ai/install/auth/auth-3.png>)
+   ![](<../../../../../.gitbook/assets1/primo-ai/install/auth/auth-3.png>)
 
 
 ## Запускаем службу
