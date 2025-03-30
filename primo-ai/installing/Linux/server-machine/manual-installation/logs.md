@@ -42,7 +42,7 @@
    ```
  1. Редактируем строки подключения к БД:
 
-    ![](<../../../../.gitbook/assets1/primo-ai/install/logs/logs-1.png>)
+    ![](<../../../../../.gitbook/assets1/primo-ai/install/logs/logs-1.png>)
 
     > *Cм. инструкцию по установке PostgreSQL.*
 
@@ -53,7 +53,7 @@
 
 1. Настраиваем подключение к RabbitMQ:
  
-   ![](<../../../../.gitbook/assets1/primo-ai/install/logs/logs-2.png>)
+   ![](<../../../../../.gitbook/assets1/primo-ai/install/logs/logs-2.png>)
 
 1. Настраиваем периодичность автоматической очистки БД:
    ```
