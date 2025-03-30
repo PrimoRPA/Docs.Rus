@@ -41,7 +41,7 @@
    ```
 1. Редактируем строки подключения к БД:
 
-   ![](<../../../../.gitbook/assets1/primo-ai/install/api/API-1.png>)
+   ![](<../../../../../.gitbook/assets1/primo-ai/install/api/API-1.png>)
  
    > *Cм. инструкцию по установке PostgreSQL.*
 
@@ -51,23 +51,23 @@
 
 1. Настраиваем Primo.AI.Api на работу с сервисом получения параметров оборудования для лицензирования — вводим адрес этого сервиса:
 
-   ![](<../../../../.gitbook/assets1/primo-ai/install/api/API-2.png>)
+   ![](<../../../../../.gitbook/assets1/primo-ai/install/api/API-2.png>)
  
 1. Настраиваем подключение к RabbitMQ:
  
-   ![](<../../../../.gitbook/assets1/primo-ai/install/api/API-3.png>)
+   ![](<../../../../../.gitbook/assets1/primo-ai/install/api/API-3.png>)
 
 1. Опционально — настраиваем MinIO:
  
-   ![](<../../../../.gitbook/assets1/primo-ai/install/api/API-4.png>)
+   ![](<../../../../../.gitbook/assets1/primo-ai/install/api/API-4.png>)
 
 1. Опционально — настраиваем Redis:
  
-   ![](<../../../../.gitbook/assets1/primo-ai/install/api/API-5.png>)
+   ![](<../../../../../.gitbook/assets1/primo-ai/install/api/API-5.png>)
 
 1. Настраиваем параметр `Security > EnabledOrigins` для кроссдоменных запросов:
  
-   ![](<../../../../.gitbook/assets1/primo-ai/install/api/API-6.png>)
+   ![](<../../../../../.gitbook/assets1/primo-ai/install/api/API-6.png>)
 
    
 ## Размещаем файлы ИИ-моделей
