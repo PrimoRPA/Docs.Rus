@@ -6,11 +6,9 @@
 
 [Установите Docker](https://docs.primo-rpa.ru/primo-rpa/primo-rpa-ai-server/installing/linux/installing-docker).
 
-## Создаем подсеть сервера
-
-```
-docker network create --driver=bridge --subnet=192.168.0.0/16 server_ai
-```
+{% hint style="warning" %}
+**Примечание**. Сервер использует подсеть server_ai, которая создается автоматически при первом запуске финальной команды данной статьи.
+{% endhint %}
 
 ## Загрузка образов
 
@@ -56,7 +54,7 @@ docker load -i /srv/samba/shared/install/docker/server/rabbitmq.tar
    ```
    Укажите пароль к БД, RabbitMQ, временную зону в .env-файле:
    ```
-   nano /app/Primo.AI/Api/.env
+   sudo nano /app/Primo.AI/Api/.env
    ```
 1. Размещаем файлы моделей "Умного OCR": 
    ```
@@ -190,26 +188,16 @@ docker load -i /srv/samba/shared/install/docker/server/rabbitmq.tar
    }
    ```
    
-   
-   
 ### Редактируем конфигурационный файл nginx
+
+При необходимости можно указать в конфигурационном файле число рабочих процессов, максимальное число соединений, которые одновременно может открыть рабочий процесс и другие параметры.
 
 1. Открываем в редакторе конфигурационный файл:
    ```
    sudo nano /app/Primo.AI/Api/volumes/nginx/nginx.conf
    ```
-1. Указываем корректный адрес к сервису Api.MachineInfo:
-   ```
-   http {
-      ...
-      upstream mi {
-        server 0.0.0.0:5051;
-      }
-      ...
-   }
-   ```
    
-## Создание контейнера
+## Запуск контейнеров
 
    ```
    cd /app/Primo.AI/Api/
