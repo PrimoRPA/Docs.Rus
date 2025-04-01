@@ -71,6 +71,7 @@ sudo nano /app/Primo.AI/Api/volumes/conf/Api/appsettings.ProdLinux.json
 ```
 
 1. Если используется один сервер с MachineInfo, прописываем ссылку на него:
+
    ![](<../../../../../.gitbook/assets1/primo-ai/install/MachineInfo/MachineInfo-4.png>)
  
    Параметр **Timeout** – время ответа, после которого сервис считается недоступным. По умолчанию равен 4 сек.
