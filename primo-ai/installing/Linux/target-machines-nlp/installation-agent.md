@@ -55,16 +55,51 @@ sudo systemctl enable /etc/systemd/system/Primo.AI.Agent.service
 * Адрес Primo.AI.Api и его компонентов.
 
 ```
- 	"Api": {
-    		"AgentId": "{91E221E8-8E13-4100-8BCB-84EA318C32DA}", // Уникальный идентификатор агента 
-			
-    		"UserName": "agent",
-    		"Password": "Xxxxxxxxxxxx",
+ "Api": {
+	"AgentId": "{91E221E8-8E13-4100-8BCB-84EA318C32DA}", // Уникальный идентификатор агента 
+	
+	"UserName": "agent",
+	"Password": "Xxxxxxxxxxxx", 
+	
+	"AuthBaseUrl": "https://primo-rpa-ai-server:44392",
+	"ApiBaseUrl": "https://primo-rpa-ai-server:44392",
+	"InferenceBaseUrl": "https://primo-rpa-ai-server:44392",
+	"LogsBaseUrl": "https://primo-rpa-ai-server:44392",
+	
+	"LogicsServerBaseUrl": "http://localhost:8001", // Реквизиты logics-сервера (расположен на 1-й машине с агентом)
+	"NlpEngineAgentBaseUrl": "https://localhost:5005", // Реквизиты агента LLM-ядра (может быть на отдельной машине)
+	
+	"TenantId": null // Если агент обслуживает отдельный тенант, укажите его здесь
+  },
+```
 
-    		"AuthBaseUrl": "https://primo-ai-api-server:44392",
-    		"ApiBaseUrl": "https://primo-ai-api-server:44392",
-    		"InferenceBaseUrl": "https://primo-ai-api-server:44392",
-    		"LogsBaseUrl": "https://primo-ai-api-server:44392",
+Укажите параметры запуска logics-сервера в ключе NlpProcess: 
+```
+ "NlpProcess": {
+    "HealthCheck": {
+      "TimeoutSeconds": 120, // Как долго ждать полного запуска logics-сервера
+      "PeriodMilliseconds": 500
+    },
+    "Engines": {
+      "Vllm": {
+        "Host": "vllm", // Находится в единой подсети с logics-сервером, поэтому доступен по имени контейнера
+        "Port": 8000
+      },
+      "Llama": {
+        "Host": "llama", // Находится в единой подсети с logics-сервером, поэтому доступен по имени контейнера
+        "Port": 8003
+      }
+    },
+    "LogicsDockerCompose": {
+      "DockerComposeCommand": "docker compose", // Или docker-compose
+      "DockerComposeYamlDirectory": "/app/Primo.AI/NLP/logics",
+      "DockerComposeYamlFileName": "docker-compose.yml",
+      "ConfigFileRelativePaths": [ "volumes/config/.env", ".env" ],
+      "Host": "0.0.0.0",
+      "Port": 8001, // Совпадает с портом в Api > LogicsServerBaseUrl
+      "ImageName": "logics",
+      "ContainerName": "logics"
+    }
   },
 ```
 
