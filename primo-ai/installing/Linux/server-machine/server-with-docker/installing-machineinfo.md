@@ -83,6 +83,7 @@ sudo nano /app/Primo.AI/Api/volumes/conf/Api/appsettings.ProdLinux.json
 
    Узлы нельзя скрывать за балансировщиком нагрузки (load balancer).
 
+{% hint style="info" %} Указанные выше URL должны быть доступны изнутри контейнера server_api. Например, для bridge-сети (конфигурация сети задается в docker-compose-файле сервера) адрес хоста – 172.17.0.1. {% endhint %}
 
 ## Запускаем службу
 
