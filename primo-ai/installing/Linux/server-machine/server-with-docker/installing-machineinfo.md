@@ -86,6 +86,11 @@ sudo nano /app/Primo.AI/Api/volumes/conf/Api/appsettings.ProdLinux.json
 
 {% hint style="info" %} Указанные выше URL должны быть доступны изнутри контейнера server_api. Например, для bridge-сети (конфигурация сети задается в docker-compose-файле сервера) адрес хоста – 172.17.0.1. {% endhint %}
 
+После перенастройки Primo.AI.Api, перезапустите контейнер server_api:
+```
+docker restart server_api
+```
+
 ## Запускаем службу
 
 1. Запускаем службу:
