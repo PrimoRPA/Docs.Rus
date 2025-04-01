@@ -200,8 +200,5 @@ docker load -i /srv/samba/shared/install/docker/server/rabbitmq.tar
 ## Запуск контейнеров
 
    ```
-   cd /app/Primo.AI/Api/
-   ```
-   ```
-   docker compose up -d
+   docker compose -f /app/Primo.AI/Api/docker-compose.yaml up -d
    ```
