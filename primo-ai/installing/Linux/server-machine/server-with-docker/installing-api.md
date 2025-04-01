@@ -29,14 +29,13 @@ docker load -i /srv/samba/shared/install/docker/server/server_logs.tar
 ```
 docker load -i /srv/samba/shared/install/docker/server/server_ui.tar
 ```
+
+При необходимости для сред разработки/тестирования загрузите сторонние зависимости:
 ```
 docker load -i /srv/samba/shared/install/docker/server/postgres.tar
 ```
 ```
 docker load -i /srv/samba/shared/install/docker/server/rabbitmq.tar
-```
-```
-docker load -i /srv/samba/shared/install/docker/server/portainer.tar
 ```
 
 ## Размещение файлов
@@ -50,29 +49,35 @@ docker load -i /srv/samba/shared/install/docker/server/portainer.tar
    sudo cp /srv/samba/shared/install/docker/server/docker-compose.yaml /app/Primo.AI/Api/
    ```
    ```
-   sudo cp /srv/samba/shared/install/docker/server/.env /app/Primo.AI/Api/
-   ```
-   ```
    sudo cp -r /srv/samba/shared/install/docker/server/volumes/* /app/Primo.AI/Api/volumes/
+   ```
+   ```
+   sudo unzip /srv/samba/shared/install/docker/server/env.zip -d /app/Primo.AI/Api/
+   ```
+   Укажите пароль к БД, RabbitMQ, временную зону в .env-файле:
+   ```
+   nano /app/Primo.AI/Api/.env
    ```
 1. Размещаем файлы моделей "Умного OCR": 
    ```
    sudo cp -r /srv/samba/shared/install/data/models/SmartOCR/* /app/Primo.AI/Api/volumes/Api_Models/
    ```
-1. Размещаем файлы моделей "AI Текст". Файлы моделей объемные, поэтому можно скопировать только отдельные.
+1. Размещаем файлы моделей "AI Текст". 
 
-   Базовая модель для vLLM-ядра:
+  **Модели "AI Текст"**:
+| Имя модели      | Тип LLM-ядра | Мультимодальность | Имя файла                            |
+| --------------- |------------- | ----------------- | ------------------------------------ |
+| base-LLM-01.zip | vLLM         | Нет               | e255188e-d9f6-41d3-b170-0c25bc0bd02f |	
+| base-LLM-02.zip | Llama.cpp    | Нет               | ddc02d8d-0117-4c67-acb3-2dd0549d2985 |
+| base-LLM-03.zip | vLLM         | Нет               | b1bf77a1-ca4e-4088-942c-8ec83086611b |
+| base-LLM-04.zip | vLLM         | Да                | ebe98258-1c21-4d19-af56-cf39f7e3883d |
+
+   Файлы моделей объемные, поэтому можно скопировать только отдельные (укажите вместо 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx' имя файла модели, воспользовавшись столбцом "Имя файла" из таблицы выше).
    ```
-   sudo cp -r /srv/samba/shared/install/data/models/NLP/base-LLM-01.zip /app/Primo.AI/Api/volumes/Api_Models/
+   sudo cp /srv/samba/shared/install/data/models/NLP/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx /app/Primo.AI/Api/volumes/Api_Models/
    ```
-   Базовая модель для Llama-ядра:
-   ```
-   sudo cp -r /srv/samba/shared/install/data/models/NLP/base-LLM-02.zip /app/Primo.AI/Api/volumes/Api_Models/
-   ```
-   Дополнительная базовая модель для vLLM-ядра:
-   ```
-   sudo cp -r /srv/samba/shared/install/data/models/NLP/base-LLM-03.zip /app/Primo.AI/Api/volumes/Api_Models/
-   ```
+   Если разместить только часть моделей, при попытке использования остальных интерфейс системы будет выдавать ошибку.
+
 1. Размещаем стандартный контекст NLP-запросов: 
    ```
    sudo cp -r /srv/samba/shared/install/data/context/* /app/Primo.AI/Api/volumes/Api_ContextFiles/
@@ -99,15 +104,15 @@ docker load -i /srv/samba/shared/install/docker/server/portainer.tar
        │   └── nginx
        │       └── nginx.conf
        ├── Api_Models
-       │   ├─── model-1.zip
-       │   ├─── model-2.zip
-       │   ├─── model-3.zip
-       │   └─── model-N.zip
+       │   ├─── cf7d9f7f-ab96-4c15-873e-82c6aad7f9a4
+       │   ├─── 3901af0a-8c50-4b76-b96f-481cae5e4a35
+       │   ├─── ...
+       │   └─── e255188e-d9f6-41d3-b170-0c25bc0bd02f
        ├── Api_ContextFiles
-       │   ├─── classification-ctx.json
-       │   ├─── extraction-ctx.json
-       │   ├─── generation-ctx.json
-       │   └─── summarization-ctx.json
+       │   ├─── 13fb0ff5-3f31-44e1-9c99-e24276380a3f
+       │   ├─── e41cc59b-059f-4471-8d09-328aab8ed60f
+       │   ├─── a9d109d6-0125-42f9-b44e-2052a0c4e164
+       │   └─── d24b857c-6c21-4d5f-990f-52d6235c33dd
        └── Logs
    ```
 ## Редактируем конфигурационные файлы
@@ -127,8 +132,8 @@ docker load -i /srv/samba/shared/install/docker/server/portainer.tar
       "https://ai-server-portal:44392"
     ],	
     ...
-	}
-	```
+   }
+   ```
    
 ### Редактируем конфигурационный файл Api.Auth
 
@@ -145,8 +150,8 @@ docker load -i /srv/samba/shared/install/docker/server/portainer.tar
       "https://ai-server-portal:44392"
     ],	
     ...
-	}
-	```   
+   }
+   ```   
 
 ### Редактируем конфигурационный файл Api.Inference
 
@@ -164,8 +169,8 @@ docker load -i /srv/samba/shared/install/docker/server/portainer.tar
       "https://ai-server-portal:44392"
     ],	
     ...
-	}
-	```
+   }
+   ```
    
 ### Редактируем конфигурационный файл Api.Logs
 
@@ -182,8 +187,8 @@ docker load -i /srv/samba/shared/install/docker/server/portainer.tar
       "https://ai-server-portal:44392"
     ],	
     ...
-	}
-	```
+   }
+   ```
    
    
    
