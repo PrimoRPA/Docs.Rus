@@ -99,7 +99,7 @@ docker restart server_api
    ```
 1. Проверяем состояние службы:
    ```
-   sudo systemctl status Primo.AI.Api.MachineInfo
+   systemctl status Primo.AI.Api.MachineInfo
    ```
 
 ## Что дальше
