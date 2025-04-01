@@ -53,7 +53,7 @@ sudo ufw allow 5051/tcp
 ```
 
 ## Вспомогательные компоненты
-Устанавливаем пакет (команда ОС) cpuid:
+Устанавливаем пакет cpuid:
 ```
 sudo unzip /srv/samba/shared/install/distr/cpuid.zip -d /srv/samba/shared/install/distr/cpuid
 ```
