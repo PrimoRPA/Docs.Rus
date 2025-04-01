@@ -73,7 +73,7 @@ sudo systemctl enable /etc/systemd/system/Primo.AI.Agent.NlpEngine.service
             "WorkDir": "/app/Primo.AI/NLP",						  
             "Port": 8000, // внешний порт контейнера
             "ConfigFileRelativePaths": [],
-		          "Subnet": "agent_ai" // объявляется в docker-compose-файле logics-сервера
+	    "Subnet": "agent_ai" // объявляется в docker-compose-файле logics-сервера
          },
          "Llama": {
            "ImageName": "llama_cpu_server2", // cpu: llama_cpu_server2, gpu: llama_gpu_server2
@@ -84,6 +84,10 @@ sudo systemctl enable /etc/systemd/system/Primo.AI.Agent.NlpEngine.service
            "Subnet": "agent_ai" // объявляется в docker-compose-файле logics-сервера
          }
       }
+```
+Если LLM-ядро расположено на отдельной от Logics-сервера машине, создайте подсеть agent_ai вручную:
+```
+docker network create -d bridge agent-ai
 ```
 
 Запустите службы:
