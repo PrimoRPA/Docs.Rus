@@ -52,7 +52,7 @@ docker load -i /srv/samba/shared/install/docker/server/rabbitmq.tar
    ```
    sudo unzip /srv/samba/shared/install/docker/server/env.zip -d /app/Primo.AI/Api/
    ```
-   Укажите пароль к БД, RabbitMQ, временную зону в .env-файле:
+   При необходимости укажите нестандартные учётные данные БД, RabbitMQ или временную зону в .env-файле:
    ```
    sudo nano /app/Primo.AI/Api/.env
    ```
