@@ -74,6 +74,10 @@ docker load -i /srv/samba/shared/install/docker/server/rabbitmq.tar
    ```
    sudo cp /srv/samba/shared/install/data/models/NLP/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx /app/Primo.AI/Api/volumes/Api_Models/
    ```
+   Либо, если места достаточно, скопируйте все модели:
+   ```
+   sudo cp /srv/samba/shared/install/data/models/NLP/* /app/Primo.AI/Api/volumes/Api_Models/
+   ```
    Если разместить только часть моделей, при попытке использования остальных интерфейс системы будет выдавать ошибку.
 
 1. Размещаем стандартный контекст NLP-запросов: 
