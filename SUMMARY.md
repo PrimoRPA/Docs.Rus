@@ -67,6 +67,7 @@
     * [Оркестратор 2.2.16](release-notes/orch/2.2.16.0.md)
     * [Оркестратор 2.2.15](release-notes/orch/2.2.15.0.md)
   * [AI Server](release-notes/ai-server/README.md)
+    * [AI Server 1.25.4](release-notes/ai-server/1.24.12/1-25-4.md)
     * [AI Server 1.24.12](release-notes/ai-server/1.24.12/1.24.12.md)
       * [AI Server 1.24.12.1](release-notes/ai-server/1.24.12/1.24.12.1.md)
       * [AI Server 1.24.12.2](release-notes/ai-server/1.24.12/1.24.12.2.md)
