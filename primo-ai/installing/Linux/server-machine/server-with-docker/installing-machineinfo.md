@@ -53,7 +53,7 @@ sudo ufw allow 5051/tcp
 ```
 
 ## Вспомогательные компоненты
-Устанавливаем пакет (команда ОС) cpuid:
+Устанавливаем пакет cpuid:
 ```
 sudo unzip /srv/samba/shared/install/distr/cpuid.zip -d /srv/samba/shared/install/distr/cpuid
 ```
@@ -63,13 +63,20 @@ sudo dpkg -i /srv/samba/shared/install/distr/cpuid/*.deb
 
 ## Настройка Primo RPA AI Server для работы с MachineInfo
 
-1. Если используется один сервер с MachineInfo, в конфигурационном файле службы Primo.AI.Api прописываем ссылку на него:
+{% hint style="info" %} Вернитесь к этому пункту после настройки остальных компонентов Api. {% endhint %}
+
+Открываем на редактирование файл конфигурации Primo.AI.Api:
+```
+sudo nano /app/Primo.AI/Api/volumes/conf/Api/appsettings.ProdLinux.json
+```
+
+1. Если используется один сервер с MachineInfo, прописываем ссылку на него:
 
    ![](<../../../../../.gitbook/assets1/primo-ai/install/MachineInfo/MachineInfo-4.png>)
  
    Параметр **Timeout** – время ответа, после которого сервис считается недоступным. По умолчанию равен 4 сек.
 
-2. Если используется кластер MachineInfo, или MachineInfo используется в геокластере, то в конфигурационном файле службы Primo.AI.Api прописываем ссылки на все узлы кластера:
+2. Если используется кластер MachineInfo, или MachineInfo используется в геокластере, то прописываем ссылки на все узлы кластера:
 
    ![](<../../../../../.gitbook/assets1/primo-ai/install/MachineInfo/MachineInfo-5.png>)
 
@@ -77,6 +84,12 @@ sudo dpkg -i /srv/samba/shared/install/distr/cpuid/*.deb
 
    Узлы нельзя скрывать за балансировщиком нагрузки (load balancer).
 
+{% hint style="info" %} Указанные выше URL должны быть доступны изнутри контейнера server_api. Например, для bridge-сети (конфигурация сети задается в docker-compose-файле сервера) адрес хоста – 172.17.0.1. {% endhint %}
+
+После перенастройки Primo.AI.Api, перезапустите контейнер server_api:
+```
+docker restart server_api
+```
 
 ## Запускаем службу
 
@@ -86,7 +99,7 @@ sudo dpkg -i /srv/samba/shared/install/distr/cpuid/*.deb
    ```
 1. Проверяем состояние службы:
    ```
-   sudo systemctl status Primo.AI.Api.MachineInfo
+   systemctl status Primo.AI.Api.MachineInfo
    ```
 
 ## Что дальше

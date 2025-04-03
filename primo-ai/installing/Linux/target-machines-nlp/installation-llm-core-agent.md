@@ -64,18 +64,30 @@ sudo systemctl enable /etc/systemd/system/Primo.AI.Agent.NlpEngine.service
   },
 ```
 
-* Если будет использоваться GPU, для vLLM-движка укажите соответствующие имена образа и контейнера в ключе NlpProcess > EnginesDockerRun > Vllm > ImageName: 
+Укажите соответствующие имена образа и контейнера LLM-движка в ключе NlpProcess > EnginesDockerRun > Xxxxx: 
 ```
       "EnginesDockerRun": {
          "Vllm": {
-            "ImageName": "vllm/vllm-openai",
-            "ContainerName": "vllm_gpu_cont",
+            "ImageName": "vllm/vllm-openai",  // cpu: vllm-cpu, gpu: vllm/vllm-openai
+            "ContainerName": "vllm",
             "WorkDir": "/app/Primo.AI/NLP",						  
-            "Host": "0.0.0.0",
-            "Port": 8000,
-            "ConfigFileRelativePaths": []
+            "Port": 8000, // внешний порт контейнера
+            "ConfigFileRelativePaths": [],
+	    "Subnet": "agent_ai" // объявляется в docker-compose-файле logics-сервера
+         },
+         "Llama": {
+           "ImageName": "llama_cpu_server2", // cpu: llama_cpu_server2, gpu: llama_gpu_server2
+           "ContainerName": "llama",
+           "WorkDir": "/app/Primo.AI/NLP",
+           "Port": 8003, // внешний порт контейнера
+           "ConfigFileRelativePaths": [],
+           "Subnet": "agent_ai" // объявляется в docker-compose-файле logics-сервера
          }
       }
+```
+Если LLM-ядро расположено на отдельной от Logics-сервера машине, создайте подсеть agent_ai вручную:
+```
+docker network create -d bridge agent-ai
 ```
 
 Запустите службы:

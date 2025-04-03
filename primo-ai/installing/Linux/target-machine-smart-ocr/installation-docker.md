@@ -85,13 +85,12 @@ nano /app/Primo.AI/SmartOCR/volumes/conf/Agent/appsettings.ProdLinux.json
 
 Также настройте адрес сервера Primo RPA AI Server (ключи Api > AuthBaseUrl / ApiBaseUrl / InferenceBaseUrl / LogsBaseUrl).
 
-### 4. Создание контейнера
+Также укажите ограничение на максимальное количество параллельно обрабатываемых запросов: параметр InferenceRequestQueue > MaxImagesLoad. 
+Параметр рассчитывается по формуле 0.5n-1, где n - кол-во виртуальных ядер процессора (соответствует параметру deploy > resources limits > cpus файла конфигурации docker-compose.yaml).
 
+### 4. Создание и запуск контейнера
 ```
-cd /app/Primo.AI/SmartOCR/
-```
-```
-docker compose up -d
+docker compose -f /app/Primo.AI/SmartOCR/docker-compose.yaml up -d
 ```
 
 ## Что дальше

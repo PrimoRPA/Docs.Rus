@@ -12,7 +12,6 @@ LLM-модели отличаются высокой требовательно�
 
 Primo RPA AI Server поддерживает 2 разновидности LLM-ядра - vLLM и Llama.cpp. 
 Для высокопроизводительных вычислений на графической карте подходит vLLM, тогда как Llama.cpp лучше работает на CPU (отличается меньшим временем генерации первого токена). 
-Llama.cpp на текущий момент не поддерживается для GPU.
 
 Выбор ядра также влияет на выбор модели. Модель base-LLM-03 поддерживается только движком vLLM, тогда как модель base-LLM-01/base-LLM-02 – это версии одной модели для разных движков.
 
@@ -28,8 +27,8 @@ Llama.cpp на текущий момент не поддерживается д�
 | ------------------------------------------------------------- | ------------------------------------------------ |
 | `docker/agents/NLP/vllm/vllm-gpu.tar`                         | Дистрибутив LLM-ядра на движке vLLM для GPU      | 
 | `docker/agents/NLP/vllm/vllm-cpu.tar`                         | Образ LLM-ядра на движке vLLM для CPU            | 
-| `docker/agents/NLP/llama/llama_cpu_server.tar`                | Образ LLM-ядра на движке Llama.cpp для CPU       | 
-| `docker/agents/NLP/llama/docker-compose-cpu.yml`              | Файл с инструкциями для запуска Llama.cpp на CPU | 
+| `docker/agents/NLP/llama/llama_сpu_server2.tar`               | Образ LLM-ядра на движке Llama.cpp для CPU       | 
+| `docker/agents/NLP/llama/llama_пpu_server2.tar`               | Образ LLM-ядра на движке Llama.cpp для CPU       | 
 
 ### 2. Загрузка образа
 
@@ -43,9 +42,14 @@ docker load -i /srv/samba/shared/install/docker/agents/NLP/vllm/vllm-gpu.tar
 docker load -i /srv/samba/shared/install/docker/agents/NLP/vllm/vllm-cpu.tar
 ```
 
-Для **Llama.cpp**: 
+Для **Llama.cpp для CPU**: 
 ```
-docker load -i /srv/samba/shared/install/docker/agents/NLP/llama/llama_cpu_server.tar
+docker load -i /srv/samba/shared/install/docker/agents/NLP/llama/llama_сpu_server2.tar
+```
+
+Для **Llama.cpp для GPU**: 
+```
+docker load -i /srv/samba/shared/install/docker/agents/NLP/llama/llama_gpu_server2.tar
 ```
 
 ### 3. Создание рабочей папки 
@@ -57,24 +61,4 @@ sudo mkdir -p /app/Primo.AI/NLP/
 sudo chown -R agent /app/Primo.AI/NLP
 ```
 
-### 4. Размещение docker-compose 
-
-Только для **Llama.cpp**.
-
-Выполните команды:
-```
-sudo mkdir -p /app/Primo.AI/NLP/llm-core-llama-cpu/
-```
-```
-cp /srv/samba/shared/install/docker/agents/NLP/llama/docker-compose-cpu.yml /app/Primo.AI/NLP/llm-core-llama-cpu/
-```
-```
-sudo chown -R agent /app/Primo.AI/NLP
-```
-
-Должна получиться следующая иерархия папок для соответствия стандартному docker-compose.yaml:
-```
-/app/Primo.AI/NLP/llm-core-llama-cpu
-└── docker-compose-cpu.yml
-```
 
