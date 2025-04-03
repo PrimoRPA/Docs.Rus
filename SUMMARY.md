@@ -99,6 +99,7 @@
         * [1.0.0](release-notes/packages/windows/primo_sap_data_hana/1.0.0.md)
     * [Linux](release-notes/packages/linux/README.md)
       * [Primo.AI.Server.Linux](release-notes/packages/linux/primo-ai-server/readme.md)
+        * [1.0.11](release-notes/packages/linux/primo-ai-server/1-0-11.md)
         * [1.0.10](release-notes/packages/linux/primo-ai-server/1.0.10.md)
       * [Primo.ART.Linux](release-notes/packages/linux/primo-art/readme.md)
         * [1.0.3](release-notes/packages/linux/primo-art/1.0.3.md)
