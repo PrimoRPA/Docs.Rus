@@ -11,4 +11,5 @@ NuGet-пакет не входит в стандартный набор акти
 Cписок изменений по версиям:
 
  * [Primo.AI.Server.Linux 1.0.10](https://docs.primo-rpa.ru/primo-rpa/release-notes/packages/linux/primo-ai-server/1.0.10)
+ * [Primo.AI.Server.Linux 1.0.11](https://docs.primo-rpa.ru/primo-rpa/release-notes/packages/linux/primo-ai-server/1-0-11)
 
