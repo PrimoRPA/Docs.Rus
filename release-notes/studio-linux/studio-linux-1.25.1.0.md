@@ -4,7 +4,9 @@
 
 Информацию по обновленным релизам версии 1.25.1 можно найти в разделах:
 
-* [Студия Linux 1.25.1.4](https://docs.primo-rpa.ru/primo-rpa/release-notes/studio-linux/studio-linux-1.25.1.0/studio-linux-1.25.1.4)
+* [Studio Linux 1.25.1.5](https://docs.primo-rpa.ru/primo-rpa/release-notes/studio-linux/studio-linux-1.25.1.0/studio-linux-1.25.1.5)
+* [Studio Linux 1.25.1.4](https://docs.primo-rpa.ru/primo-rpa/release-notes/studio-linux/studio-linux-1.25.1.0/studio-linux-1.25.1.4)
+
 
 ## Новые функции и улучшения
 
