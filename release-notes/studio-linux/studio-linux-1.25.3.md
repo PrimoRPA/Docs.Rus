@@ -4,7 +4,8 @@
 
 Информацию по обновленным релизам версии 1.25.3 можно найти в разделе:
 
-* [Студия Linux 1.25.3.5](https://docs.primo-rpa.ru/primo-rpa/release-notes/studio-linux/studio-linux-1.25.3/studio-linux-1.25.3.5)
+* [Studio Linux 1.25.3.6](https://docs.primo-rpa.ru/primo-rpa/release-notes/studio-linux/studio-linux-1.25.3/studio-linux-1.25.3.6)
+* [Studio Linux 1.25.3.5](https://docs.primo-rpa.ru/primo-rpa/release-notes/studio-linux/studio-linux-1.25.3/studio-linux-1.25.3.5)
 
 
 ## Новые функции и улучшения
