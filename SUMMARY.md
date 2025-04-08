@@ -6,6 +6,7 @@
     * [Студия 1.25.3](release-notes/studio/studio-1.25.3.md)
     * [Студия 1.25.1 LTS](release-notes/studio/LTS/studio-1.25.1.md)
       * [Студия 1.25.1.3](release-notes/studio/LTS/studio-1.25.1.3.md)
+      * [Студия 1.25.1.4](release-notes/studio/LTS/studio-1.25.1.4.md)
     * [Студия 1.24.10](release-notes/studio/studio-1.24.10.md)
       * [Студия 1.24.10.4](release-notes/studio/studio-1.24.10.4.md)
       * [Студия 1.24.10.5](release-notes/studio/studio-1.24.10.5.md)
