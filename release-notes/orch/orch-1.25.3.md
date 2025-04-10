@@ -18,15 +18,6 @@
   "ParsedElementClasses": [ "LTools.Workflow.Elements.WFAddToLog" ]
 }
 ```
-2. Реализована и подключена к службам **Agent, MachineInfo, RDP2, RobotLogs, Notifications, Analytic, LogEventsWebhook** настраиваемая подсистема мониторинга. Настройка осуществляется в разделе **Monitoring** файла конфигурации конкретной службы. Внешняя служба сбора данных может использовать **Zabbix** или **Prometheus**. Пример:
-```json
-"Monitoring": {
-  "Provider": "Zabbix", // "", "Zabbix" or "Prometheus"
-  "Port": 10052,
-  "DotNetMonitoringEnabled": true
-}
-```
-
 
 
 ## Обновления и улучшения веб-интерфейса 2.24.0
