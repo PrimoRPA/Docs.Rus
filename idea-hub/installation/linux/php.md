@@ -46,7 +46,7 @@ sudo apt install php8.1
    ```
    sudo apt install php8.1-gd
    ``` 
-1. php8.1-gd
+1. php8.1-xml
    ```
    sudo apt install php8.1-xml
    ``` 
