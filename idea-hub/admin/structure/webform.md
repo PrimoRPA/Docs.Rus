@@ -28,7 +28,7 @@
 1. Переходим в раздел **Структура > Веб-формы** и напротив строки **Идея** нажимаем действие **Build**.
 1. Напротив поля **Файл с описанием процесса** нажимаем **Изменить**.
 
-   ![](<../../../idea-hub/resources/admin/structure/webfo-rmmanage-idea-doc-field.png>)
+   ![](<../../../idea-hub/resources/admin/structure/webform-manage-idea-doc-field.png>)
 
 1. В форме редактирования настроек поля переключаемся на вкладку **Расширенные**.
 1. Разворачиваем блок настроек **Custom settings** и вписываем значение: `target_field: field_docs`, где:
