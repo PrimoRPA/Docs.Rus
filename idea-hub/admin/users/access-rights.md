@@ -34,4 +34,4 @@
 
 Для быстрого поиска данных прав воспользуйтесь строкой фильтра:
 
-![](<../../../idea-hub/resources/admin/users/filter-access-rules.png)
+![](<../../../idea-hub/resources/admin/users/filter-access-rules.png>)
